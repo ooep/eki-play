@@ -1,66 +1,160 @@
 {
   "车站": "札幌駅",
-  "线路": "函馆本线",
+  "车站ID": "Sapporo",
+  "线路": "函館本線／千歳線／札沼線（上流 eki-wiki では 函馆本线・千岁线・札沼线 の各ファイルに収録）",
+  "区域": "F-北海道",
+  "座標": {
+    "纬度": 43.068636,
+    "经度": 141.350922,
+    "出处": "OpenStreetMap n4086852685 (public_transport=station,railway=station)"
+  },
   "加精日期": "2026-10-22",
-  "加精方式": "人手検索（本番の公式ページを直接開いて抽出）",
+  "加精方式": "人手検索（Phase B）。ようこそさっぽろ（札幌市観光物産連盟＝市観光公式サイト）、札幌市（市交通局）、北海道庁旧本庁舎（赤れんが庁舎）公式サイト、大通公園公式管理サイト、札幌市時計台公式サイト、札幌駅前通地下歩行空間公式サイト、さっぽろ雪まつり公式サイト、札幌二条魚町商業協同組合、JR北海道（公式サイト・運賃資料PDF）、チ・カ・ホ／白い恋人パーク等の各ページを 2026-10-22 に直接開いて原文摘録。English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。同日付の自動生成版（旧 札幌駅.json）が出典としていた札幌市「食と観光」情報館ページ・時計台入館案内・北海道庁庁舎案内を開き直し、実在した記載（館内5窓口の一覧、巻き上げ実演、出口別の所要時間、車いす貸出料金と変更告知）を統合した。",
+  "人手確認": true,
+  "翻訳方針": "札幌市の観光公式サイト・市交通局・各施設は日本語表記が中心（案内所の対応言語 日本語・英語・中国語・韓国語 は公式表記として記録）。各施設の English／中文 専用ページは本加精で開けていないため、当倉庫が公式日本語表記を人間が読んで執筆した要約を載せ、レコードの 言語注記 にその旨を明記しました。",
   "观光景点": [
     {
       "名称": {
-        "日文": "北海道庁旧本庁舎（赤れんが庁舎）",
-        "英文": "Former Hokkaido Government Office (Akarenga Office)",
-        "中文": "北海道厅旧本厅舍（红砖厅舍）"
+        "日文": "さっぽろテレビ塔（札幌市電波塔／大通公園西1丁目）",
+        "英文": "Sapporo TV Tower (Odori Park West 1-chome)",
+        "中文": "札幌电视塔（大通公园西1丁目）"
       },
-      "距离": "JR札幌駅西通り南口から徒歩約8分／地下鉄さっぽろ駅10番出口から徒歩約4分（公式サイト表記）",
+      "距離": "札幌駅から徒歩約10分（地下歩行空間・地下鉄さっぽろ駅から地下直結の大通方面。公式の所在地は中央区大通西1丁目）",
       "简介": {
-        "日文": "国の重要文化財「北海道庁旧本庁舎（赤れんが庁舎）」。北海道命名150年となる2018年を契機に大規模改修を行い、2025年（令和7年）7月25日にリニューアルオープンした。開館時間は8:45〜21:00（最終入館20:30）で、入館は正面入口または地下1階の南側出入口から。入館料は一般300円、大学生・高校生200円、中学生以下無料、障がい者等は無料、20名以上の団体は一般270円・学生団体180円。クレジットカード・交通系IC・QRコードなどキャッシュレス決済を利用できる。設置者は北海道、指定管理者は北海道赤れんが未来機構（北海道新聞社・ニトリパブリック・さっぽろ北海道MICE振興協会・北海道観光機構の4法人で構成）。",
-        "英文": "A nationally designated Important Cultural Property, the former Hokkaido Government Office returned on 25 July 2025 after large-scale restoration launched to mark the 150th anniversary of Hokkaido's naming in 2018. It opens 8:45-21:00 (last entry 20:30) through the main entrance or the basement-1 south entrance. Admission is 300 yen for adults, 200 yen for university and high-school students, free for junior high and younger, with discounted group rates of 270/180 yen for parties of 20 or more. Cashless payment (cards, transit IC, QR codes) is accepted. The site is owned by Hokkaido and operated by the Hokkaido Akarenga Future Organization.",
-        "中文": "日本国家重要文化财“北海道厅旧本厅舍（红砖厅舍）”。以2018年北海道命名150周年为契机开展大规模修复工程，2025年（令和7年）7月25日重新开放。开馆时间8:45–21:00（最后入馆20:30），从正门或地下一层南侧出入口入馆。门票：成人300日元、大学生与高中生200日元、初中生及以下免费、残障人士免费；20人以上团体成人270日元、学生团体180日元。可用信用卡、交通IC卡、二维码等无现金支付。设置者为北海道，指定管理者为“北海道赤炼瓦未来机构”（由北海道新闻社、Nitori Public、札幌北海道MICE振兴协会、北海道观光机构四法人组成）。"
+        "日文": "1956年に完成した札幌のランドマークで、大通公園の出発点・西1丁目に建ちます。地上約90mの展望台からは、季節ごとに表情を変える大通公園の風景やイベント会場を見下ろせ、天気がよければ石狩平野や日本海まで見渡せます。公式サイトには「大通公園を会場に ホワイトイルミネーション や 雪まつり が開催される冬は、展望台が景色を眺める特等席」と記載されています。営業時間は9:00〜22:00（展望最終入場21:50）で、イベントにより変更となることがあり、臨時の休業日があります。料金は一般料金 大人（高校生以上）1,200円・小・中学生600円・幼児（小学生未満）無料、15名以上団体割引、学生グループ割引（現地学習・修学旅行者対象）は高校生400円・中学生300円・小学生200円・引率同行者600円、障がい者割引は大人（高校生以上）600円・小・中学生300円。閉館後の30分間、展望台を貸し切る特別プラン（1日1組限定、お2人様利用基本料金20,000円）も公式に掲載されています。",
+        "英文": "Completed in 1956, Sapporo TV Tower stands at the western start of Odori Park and has watched over the city's growth for more than half a century. From the observation deck about 90 m above ground you look straight down the park - in winter, when the White Illumination and the Snow Festival use Odori as their venue, the official site calls the deck \"the best seat in the house\" - and on clear days as far as the Ishikari plain and the Sea of Japan. Opening hours are 9:00-22:00 (last entry 21:50), subject to change for events, with occasional temporary closures. Admission: adults and high-school students 1,200 yen, primary and junior-high pupils 600 yen, pre-school children free; group discount for 15 or more; a student-group rate (school trips) of 400/300/200 yen with 600 yen for accompanying teachers; disability discount 600 yen (adults/high school) and 300 yen (pupils). A 30-minute after-hours hire of the deck for one couple per day is listed at 20,000 yen.",
+        "中文": "1956年建成、位于大通公园西1丁目的札幌地标。距地面约90米的展望台可俯瞰随季节变换的大通公园与活动现场，天气晴好时还能眺望石狩平原与日本海。官网写道「以大通公园为会场的白色灯光秀与雪节期间的冬季，展望台是观赏景色的特等席」。营业时间 9:00—22:00（展望最后入场 21:50），活动时会变更，另有临时休息日。票价：一般 成人（高中生以上）1,200日元、中小学生600日元、学龄前儿童免费；15人以上团体优惠；学生团体优惠（修学旅行·户外学习对象）高中生400日元、初中生300日元、小学生200日元、陪同教师600日元；残障人士优惠 成人（高中生以上）600日元、中小学生300日元。官网另载有闭馆后30分钟包场展望台的特别方案（每日限1组，两人基本费用20,000日元）。"
       },
-      "住所": "札幌市中央区北3条西6丁目1番地（〒060-8588）",
-      "电话": "011-206-8390",
-      "营业": "8:45〜21:00（最終入館20:30）／休館：11月15日、12月29日〜1月3日",
-      "官网": "https://www.hokkaido-redbrick.jp/",
-      "介绍页": "https://www.pref.hokkaido.lg.jp/sm/zsk/fm/akarengarenewal/top.html",
+      "住所": "札幌市中央区大通西1丁目",
+      "电话": "（公式観光サイト側にテレビ塔の電話番号欄は空白。市観光サイトの案内所一覧・大通公園管理事務所 011-251-0438 等とは別番号のため、本記録では断定しません）",
+      "営業時間": "9:00〜22:00（展望最終入場21:50）／臨時の休業日あり",
+      "料金": "大人（高校生以上）1,200円・小・中学生600円・幼児無料／15名以上団体割引／学生グループ割引 高校生400円・中学生300円・小学生200円・引率同行者600円／障がい者割引 大人600円・小・中学生300円／展望台貸切プラン（閉館後30分・1日1組）20,000円",
+      "官网": "https://www.sapporo.travel/spot/facility/sapporo_tv_tower/",
+      "介绍页": {
+        "日文": "https://www.sapporo.travel/spot/facility/sapporo_tv_tower/（市観光公式サイト 基本情報・料金・展望台）"
+      },
+      "言語注記": "札幌市観光公式サイト（ようこそさっぽろ）の日本語表記を原文摘録。English／中文は当倉庫の人手執筆（機械翻訳不使用）。塔の自社サイト・多言語ページは未到達のため引用していません。",
+      "検証日": "2026-10-22",
       "出典": [
         {
-          "标题": "赤れんが庁舎（北海道庁旧本庁舎）公式サイト",
-          "URL": "https://www.hokkaido-redbrick.jp/",
-          "原文要旨": "「国指定重要文化財・北海道庁旧本庁舎 赤れんが庁舎」「開館時間／8:45〜21:00（最終入館20:30）」「入館の際は正面入口・地下１階の南側出入口をお使いください[11月15日（日）・12月29日（火）～1月3日（日）は休館]」「入館料 一般300円 大学生・高校生200円 中学生以下無料 障がい者等無料」「団体入館料（20名以上）一般団体270円 大学生・高校生団体180円」「オプション 八角塔観覧：1,200円（小学生以上）」「ガイドツアー：一般500円、小学生〜大学生250円」「大型バス駐車場(3台)：1時間当たり1,100円」「アクセス ● JR札幌駅西通り南口から徒歩約8分 ● 地下鉄南北線・東豊線さっぽろ駅10番出口から徒歩約4分 ● 大通駅2番出口から徒歩約9分」「設置者：北海道 指定管理者：北海道赤れんが未来機構 電話 (011)206-8390」"
-        },
-        {
-          "标题": "北海道庁旧本庁舎（赤れんが庁舎）改修事業ポータルサイト - 北海道",
-          "URL": "https://www.pref.hokkaido.lg.jp/sm/zsk/fm/akarengarenewal/top.html",
-          "原文要旨": "「（平成30年）の北海道命名150年を契機として…大規模改修工事を行い、2025年（令和7年）7月25日にリニューアルオープンしました」「令和7年（2025年）4月1日（火）より 北海道赤れんが未来機構が赤れんが庁舎の管理運営を行っております」「【お問合せ先】電話：011-206-8390/FAX：011-206-8589」"
-        },
-        {
-          "标题": "所在地／庁舎のご案内 - 北海道のホームページ",
-          "URL": "https://www.pref.hokkaido.lg.jp/chosha/",
-          "原文要旨": "「北海道庁旧本庁舎（赤れんが庁舎） 所在地 〒060-8588 札幌市中央区北3条西6丁目1番地 電話 011-231-4111（大代表）」「最寄駅 JR札幌駅西通り南口から徒歩約8分」「一般的な業務時間：8時45分から17時30分（土日祝日および12月29日～1月3日はお休み）」"
+          "标题": "さっぽろテレビ塔｜観光施設｜観光スポット｜ようこそさっぽろ（札幌市観光物産連盟＝市観光公式サイト）",
+          "URL": "https://www.sapporo.travel/spot/facility/sapporo_tv_tower/",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "1956年に完成した「さっぽろテレビ塔」。地上約90mの展望台からは、季節ごとに表情を変える大通公園の美しい風景やイベントの様子が楽しめ、天気がよければ石狩平野や日本海も見渡せる。大通公園を会場にホワイトイルミネーションや雪まつりが開催される冬は、展望台が景色を眺める特等席。／住所 札幌市中央区大通西1丁目／営業時間 9：00〜22：00（展望最終入場21：50）※イベントにより、営業時間が変更になる場合があります。／定休日 臨時の休業日有り／料金 一般料金 大人（高校生以上）1,200円、小・中学生600円、幼児（小学生未満）無料 ※15名以上で団体割引あり／学生グループ割引（現地学習・修学旅行者対象）高校生400円、中学生300円、小学生200円、引率同行者600円／障がい者割引 大人（高校生以上）600円、小・中学生300円／展望台貸切りプラン（1日1組限定）閉館後30分間貸切、料金 お2人様利用基本料金 20,000円。"
         }
       ]
     },
     {
       "名称": {
-        "日文": "札幌市時計台（旧札幌農学校演武場）",
-        "英文": "Sapporo Clock Tower (Former Sapporo Agricultural College Budokan)",
-        "中文": "札幌市钟楼（旧札幌农学校演武场）"
+        "日文": "大通公園（火防線から続く帯状の公園／1丁目〜12丁目）",
+        "英文": "Odori Park (the linear park running west from West 1-chome to West 12-chome)",
+        "中文": "大通公园（自西1丁目至西12丁目的带状公园）"
       },
-      "距离": "JR札幌駅南口から徒歩約10分／地下鉄大通駅 市役所側出口から徒歩約5分（公式サイト表記）",
+      "距離": "札幌駅から西へ徒歩約10〜15分（地下歩行空間経由で地下鉄大通駅・テレビ塔へ直結）",
       "简介": {
-        "日文": "明治時代に建造された木造洋館で、国の重要文化財「旧札幌農学校演武場」。平成7年から10年にかけての改修で資料館として整備され、2階は明治32年に札幌農学校卒業生として初めて博士号を授与された佐藤昌介・南鷹次郎・宮部金吾の学位授与祝賀会の講堂の情景を再現している。開館8:45〜17:10（入館は17時まで）、休館は年始1月1日〜3日。観覧料は大人350円、大学生150円、小中高生無料、20人以上の団体300円。1日1回10:30に時計の巻き上げ実演と説明があり、毎月16日は「札幌市民無料の日」。冷房設備がないため盛夏は館内が30℃を超える日があり、真冬は暖房はあるが快適な室温にならないと公式サイトが注意を促している。",
-        "英文": "A wooden Western-style hall built in the Meiji era and designated a National Important Cultural Property as the former Sapporo Agricultural College budokan. Renovated between 1995 and 1998 and now run as a museum, its second floor recreates the hall of the celebration for Satoamosuke, Minami Takajiro and Mabe Kingo, the college's first graduates to earn doctorates in 1899. Open 8:45-17:10 (last entry 17:00), closed 1-3 January. Admission is 350 yen for adults, 150 yen for university students, free for school students and 300 yen for groups of 20 or more. A clock-winding demonstration runs once daily at 10:30, and the 16th of each month is free for Sapporo residents. The official site warns there is no air conditioning, so the interior can exceed 30 °C in midsummer.",
-        "中文": "明治时期建成的木造洋馆，以“旧札幌农学校演武场”列为国家重要文化财。1995年至1998年整修为资料馆，二层复原了1899年札幌农学校首批获博士学位的佐藤昌介、南鹰次郎、宫部金吾学位授予祝贺会的讲堂场景。开馆8:45–17:10（17:00停止入馆），1月1日至3日闭馆。参观费成人350日元、大学生150日元、中小学生与高中生免费、20人以上团体300日元。每天10:30举行一次时钟上发条演示与讲解，每月16日为“札幌市民免费日”。官网提示馆内没有空调，盛夏室温可超过30℃，冬季虽有暖气但难以达到舒适温度。"
+        "日文": "公園という名称ですが実は道路で、1871（明治4）年、札幌中心部を南北に分ける火防線が作られ、これが後志通という道路になり、改称されて大通となった、と公式に説明されています。東西に伸びる大通公園は1丁目から12丁目までの12ブロックに分かれ、各ブロックは横断歩道で隔てられ、端から端まで約1.5km、歩くと約30分。ライラックやハルニレなど約90種・4,700本の木々に囲まれた「オフィス街のオアシス」で、さっぽろ雪まつりや YOSAKOIソーラン祭りなど北海道を代表するイベントの会場にもなります。公式管理サイトでは、夏の風物詩「とうきびワゴン」が4月下旬から10月中旬までの期間限定で、やき・ゆでの2種類とも1本500円（令和8年現在、翌年以降変更の可能性有）と案内。車椅子対応水飲み場は各丁目に、多目的トイレは3・5・7・9・11丁目に設置、インフォメーションセンターで車椅子の無料貸出し（営業時間中のみ・冬季は不可・身分証明が必要）、無料駐輪場は西10丁目南側105台・西11丁目南側75台、有料（定期利用のみ）は西5・西6丁目南側です。令和8年度の噴水稼働は10月20日で終了と告知されています。管理事務所 電話 011-251-0438。",
+        "英文": "Despite its name the park is legally a road: an 1871 (Meiji 4) firebreak dividing central Sapporo became Shiribeshi-dori, later renamed Odori. It runs east-west in twelve blocks (West 1 to West 12) separated by pedestrian crossings, about 1.5 km end to end - roughly a 30-minute walk - and is planted with some 90 species and 4,700 trees (lilac, elm and more), serving as the main venue for the Snow Festival and other Hokkaido events. The management site notes the summer corn stalls run from late April to mid-October at 500 yen an ear, grilled or boiled (fiscal 2026 price, subject to change). Accessibility: drinking fountains usable from a wheelchair on every block, multi-purpose toilets at West 3, 5, 7, 9 and 11, free wheelchair loan at the Information Centre (during opening hours only, not in winter, ID required), free bicycle parks at West 10 (105 racks) and West 11 (75 racks), contract-only paid parks at West 5 and 6. Fountains for fiscal 2026 stop running on 20 October. Office tel 011-251-0438.",
+        "中文": "名为公园其实是道路：官方说明其源于1871年（明治4年）为分隔札幌中心部南北而设的防火线，后成为后志通道路并改称大通。公园东西延伸，分为1至12丁目共12个区块，区块之间以人行横道相隔，端到端约1.5公里，步行约30分钟；园内被丁香、春榆等约90种、4,700株树木环绕，是「写字楼间的绿洲」，也是札幌雪节、YOSAKOIソー兰祭等代表性活动的会场。官方管理网站介绍夏季风物诗「玉米小车」为4月下旬至10月中旬限定，烤·煮两种均每根500日元（令和8年度现行，次年起可能调整）。无障碍与便民：各丁目设轮椅适用饮水台，3·5·7·9·11丁目设多功能厕所，咨询中心可免费出借轮椅（仅限营业时间内、冬季不提供、需身份证明），免费自行车停放场为西10丁目南侧105台、西11丁目南侧75台，西5·西6丁目南侧为定期利用的收费停放场。网站告知令和8年度喷泉将于10月20日结束运行。管理事务所电话 011-251-0438。"
       },
-      "住所": "札幌市中央区北1条西2丁目",
-      "电话": "011-231-0838",
-      "营业": "8:45〜17:10（入館は17:00まで）／休館：1月1日〜3日",
-      "官网": "https://sapporoshi-tokeidai.jp/",
-      "介绍页": "https://sapporoshi-tokeidai.jp/inspect/guide.php",
+      "住所": "札幌市中央区大通西1〜12丁目",
+      "电话": "011-251-0438（大通公園管理事務所／公式観光サイト・公式管理サイト記載）",
+      "営業時間": "公開スペースのため終日（管理事務所・インフォメーションセンターは10:00〜16:00）",
+      "料金": "無料（とうきびワゴン 1本500円・令和8年現在 ほかは各イベント・店舗）",
+      "官网": "https://odori-park.jp/",
+      "介绍页": {
+        "日文": "https://odori-park.jp/（公式管理サイト：バリアフリー・駐輪場・噴水稼働告知）",
+        "市観光公式サイト 基本情報": "https://www.sapporo.travel/spot/facility/odori_park/",
+        "大通公園観光案内所（営業時間・電話通訳対応）": "https://www.sapporo.travel/info/about/informationcenter/"
+      },
+      "言語注記": "公式管理サイト・市観光公式サイトとも日本語表記。English／中文は当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
-          "标题": "札幌市時計台 入館案内",
-          "URL": "https://sapporoshi-tokeidai.jp/inspect/guide.php",
-          "原文要旨": "「国指定重要文化財 旧札幌農学校演武場」「開館時間 8時45分〜17時10分（入館は17時まで）」「休館日 年始 1月1日〜1月3日」「観覧料 大人350円 大学生150円 小中学生、高校生無料 団体（20人以上）300円」「平成7年から10年にかけての改修工事が終了し、資料館として整備しました」「2階は明治32年札幌農学校卒業生として初めて博士号を授与された佐藤昌介、南鷹次郎、宮部金吾の学位授与祝賀会の時の講堂の情景を再現しています」「【巻き上げ実演】1日1回10:30〜」「毎月16日は『札幌市民無料の日』」「2026年10月16日で創建148年」「【所在地】札幌市中央区北1条西2丁目 電話011-231-0838」「【交通機関】JR札幌駅南口徒歩約10分 市営地下鉄…『大通駅』下車 市役所側出口徒歩5分」「冷房設備はありません…30℃を超える日もあります」"
+          "标题": "大通公園｜観光施設｜ようこそさっぽろ",
+          "URL": "https://www.sapporo.travel/spot/facility/odori_park/",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "公園という名称だが実は道路。1871（明治4）年、札幌中心部を南北に分ける火防線が作られ、これが後志通という道路になり、改称されて大通となった。東西にのびる大通公園は1丁目から12丁目までの12ブロックに分かれていて、各ブロックは横断歩道で隔たれている。大通公園の端から端までの距離は約1.5kmで、歩くと約30分かかる。ライラックやハルニレなど約90種・4,700本の木々に囲まれたオフィス街のオアシス。／住所 札幌市中央区大通西1〜12丁目／電話 011-251-0438／公式サイト https://odori-park.jp/"
+        },
+        {
+          "标题": "大通公園（公式管理サイト）｜バリアフリーについて ほか",
+          "URL": "https://odori-park.jp/",
+          "ライセンス": "施設公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "＜大通公園噴水稼働の終了について＞令和8年度の噴水稼働は令和8年10月20日（火）で終了いたします。／2022年4月1日より大通周辺の自転車等放置禁止区域が拡大され、大通公園内西1丁目から西7丁目までが対象区域…／バリアフリーについて：インフォメーションセンターで車椅子を無料でお貸ししています（営業時間中のみ、冬季は不可、身分証明をご用意ください）。また、車椅子対応水飲み場は各丁目に、多目的トイレは3、5、7、9、11丁目に設置してあります。／園内では自転車は押して通行してください。無料駐輪場は、西10丁目南側(105台)、西11丁目南側(75台)。有料駐輪場は西5丁目と西6丁目の南側(共に定期利用のみ)。／札幌の夏の風物詩「とうきびワゴン」。4月下旬から10月中旬までの期間限定。「やき」「ゆで」の2種類、どちらも1本500円（令和8年現在。翌年以降は変更の可能性有）。"
+        },
+        {
+          "标题": "観光案内｜旅のお役立ち（各案内所の住所・営業時間・電話を一覧化）｜ようこそさっぽろ",
+          "URL": "https://www.sapporo.travel/info/about/informationcenter/",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "大通公園観光案内所：常駐スタッフによる大通公園の観光案内のほか、海外観光客に向けた電話通訳による英語、中国語、韓国語の対応も可能。また大通公園のオリジナルグッズや札幌スタイル認証製品などを販売している。営業時間 10:00〜16:00、問い合わせ 電話 011-251-0438（大通公園管理事務所）。"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "北海道庁旧本庁舎（赤れんが庁舎）／国指定重要文化財",
+        "英文": "Former Hokkaido Government Office Building (Akarenga), nationally designated Important Cultural Property",
+        "中文": "北海道厅旧本厅舍（赤砖厅舍）／国家指定重要文化财"
+      },
+      "距離": "札幌駅から徒歩約8分（公式アクセス表記「JR札幌駅西通り南口から徒歩約8分」。市観光サイトにも「札幌駅から徒歩約5分」）",
+      "简介": {
+        "日文": "明治の北海道開拓期に建てられたレンガ造りの歴史的建造物で、国指定重要文化財。市観光サイトは「都心部にありながら、美しい庭園で四季を感じることができるのが魅力です。春には桜やライラック、夏には豊かな緑やハマナス、秋には紅葉」と紹介し、写真スポットとして市民に人気としています。公式サイトの公開情報：開館時間 8:45〜21:00（最終入館20:30）、入館の際は正面入口または地下1階の南側出入口を使用、休館日 11月15日・12月29日〜1月3日。入館料 一般300円、大学生・高校生200円、中学生以下無料、障がい者等無料（※障がい者手帳・療育手帳・精神障がい者保健福祉手帳の提示で手帳所持者と介護者1名、車椅子使用者の場合は2名まで無料）。団体入館料 一般団体270円、大学生・高校生団体180円。八角塔観覧 1,200円（小学生以上）、ガイドツアー 一般500円・小学生〜大学生250円。大型バス駐車場（3台）は1時間1,100円で30分を超えるごとに550円追加。敷地内店舗の利用のみは無料で、南北の出入口（無料）から入場できます。所在地 札幌市中央区北3条西6丁目、電話 011-206-8390。",
+        "英文": "The brick former Hokkaido Government Office is a nationally designated Important Cultural Property in the heart of the city; the Sapporo tourism site stresses its garden, with cherry and lilac in spring, roses (hamanasu) and greenery in summer and autumn colour. The official building site gives: opening 8:45-21:00 (last entry 20:30), entrance via the front door or the south ground-level opening on basement 1; closed 15 November and 29 December - 3 January. Admission 300 yen general, 200 yen university and high-school students, free for junior high pupils and younger; free for holders of a disability, welfare or mental-health disability booklet plus one carer (up to two for wheelchair users). Group rates 270/180 yen. Octagonal tower viewing 1,200 yen (from primary-school age); guided tours 500 yen general, 250 yen pupils and students. Coach park (3 bays) 1,100 yen for the first hour plus 550 yen per half hour. Shopping the site's outlets alone is free through the north and south gates. Address: Kita 3-jo Nishi 6-chome, Chuo-ku, Sapporo; tel 011-206-8390.",
+        "中文": "明治时期北海道开拓时代修建的砖造历史建筑，为国家指定重要文化财。市观光网站介绍其「地处市中心却能于美丽庭园中感受四季，春有樱花与丁香，夏有绿意与玫瑰（滨梨），秋有红叶」，并指出其作为摄影景点深受市民喜爱。官网公开信息：开馆时间 8:45—21:00（最终入馆 20:30），入馆请使用正门或地下一层南侧出入口；休馆日 11月15日、12月29日—1月3日。门票：一般300日元，大学生·高中生200日元，初中生以下免费，残障者等免费（※出示残疾人手册、疗育手册或精神障碍者保健福利手册者及其1名护理人免费，轮椅使用者可至2名）。团体票：一般团体270日元、大学生·高中生团体180日元。八角塔参观1,200日元（小学生以上）；导览游 一般500日元、小学生至大学生250日元。大型巴士停车场（3个车位）首小时1,100日元，此后每超30分钟加收550日元。仅入内使用场地内店铺亦免费，可经南北出入口（免费）进入。地址 札幌市中央区北3条西6丁目，电话 011-206-8390。"
+      },
+      "住所": "札幌市中央区北3条西6丁目",
+      "电话": "011-206-8390（公式サイト・市観光サイト記載）",
+      "営業時間": "8:45〜21:00（最終入館20:30）／休館日 11月15日・12月29日〜1月3日",
+      "料金": "一般300円／大学生・高校生200円／中学生以下無料／障がい者等無料（手帳提示で介護者1名、車椅子使用者は2名まで無料）／団体 270円（大学生・高校生団体180円）／八角塔観覧1,200円（小学生以上）／ガイドツアー 一般500円・小学生〜大学生250円／大型バス駐車場 1時間1,100円（30分毎+550円）",
+      "官网": "https://www.hokkaido-redbrick.jp/",
+      "介绍页": {
+        "日文": "https://www.hokkaido-redbrick.jp/（北海道公式：開館時間・料金・休館日・アクセス・バリアフリー）",
+        "市観光公式サイト 基本情報": "https://www.sapporo.travel/spot/facility/former_hokkaido_government_office/"
+      },
+      "言語注記": "北海道公式サイト・市観光サイトとも日本語表記のため、English／中文は当倉庫の人手執筆（機械翻訳不使用）。徒歩分数は公式間で8分（北海道庁）／5分（市観光サイト）と差があり、両方を併記しました。",
+      "検証日": "2026-10-22",
+      "出典": [
+        {
+          "标题": "国指定重要文化財 北海道庁旧本庁舎（赤れんが庁舎）公式サイト（開館時間・入館料・アクセス・バリアフリー）",
+          "URL": "https://www.hokkaido-redbrick.jp/",
+          "ライセンス": "北海道公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "国指定重要文化財・北海道庁旧本庁舎 赤れんが庁舎／開館時間／8:45〜21:00（最終入館20:30）入館の際は正面入口・地下１階の南側出入口をお使いください。[11月15日（日）・12月29日（火）〜1月3日（日）は休館]／利用料金 入館料 一般300円、大学生・高校生200円、中学生以下無料、障がい者等無料※／団体入館料 一般団体270円、大学生・高校生団体180円／八角塔観覧：1,200円（小学生以上）／ガイドツアー：一般500円、小学生〜大学生250円／大型バス駐車場(3台)：1時間当たり1,100円 30分を超えるごとに550円の追加料金／お手伝いを必要とされる方は、地下1階南側出入口のスロープにお越しいただきインターフォンを押してご入館ください／※障がい者手帳、療育手帳又は精神障がい者保健福祉手帳提示により手帳所持者と介護者1名（車椅子使用者の場合は2名まで）が無料／店舗利用のみは無料、南北の出入口（無料）からお入りください／アクセス ●JR札幌駅西通り南口から徒歩約8分"
+        },
+        {
+          "标题": "北海道庁旧本庁舎（赤れんが庁舎）｜ようこそさっぽろ",
+          "URL": "https://www.sapporo.travel/spot/facility/former_hokkaido_government_office/",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "レンガ造りの歴史的建造物は、札幌駅から徒歩約5分と都心部にありながら、美しい庭園で四季を感じることができるのが魅力です。春には桜やライラック、夏には豊かな緑やハマナス、秋には紅葉と季節ごとに異なる表情を見せてくれるスポットは何度も訪れたくなる場所。写真スポットとして、市民からも人気が高いのが特徴です。／住所 札幌市中央区北3条西6丁目／電話 011-206-8390／公式サイト https://www.hokkaido-redbrick.jp/／備考 ※営業時間・定休日などの詳細はHPを御覧ください。"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "モエレ沼公園（イサム・ノグチ設計の都市公園／ガラスのピラミッド・モエレ山・海の噴水）",
+        "英文": "Moerenuma Park (Isamu Noguchi city park; Glass Pyramid, Moere-yama, Sea of Water fountain)",
+        "中文": "莫埃来沼公园（野口勇设计的都市公园／玻璃金字塔·莫埃来山·海之喷泉）"
+      },
+      "距離": "札幌駅のある中心市街地の北東（公式説明「札幌市北東部」）。中心部からのアクセスはレンタカーか公共交通が一般的で、レンタサイクル「ポロクル」利用の場合「札幌中心部から公園までは片道約1時間30分〜2時間ほど」",
+      "简介": {
+        "日文": "彫刻家イサム・ノグチにより公園全体が一つの彫刻作品として設計された都市公園で、元廃棄物処理場が23年の歳月を経て札幌を代表するアートパークとして再生しました。その雄大な姿は「大地の彫刻」と呼ばれ、公式の概要説明では、埋立後に造成された約1.89k㎡の公園で、1982（昭和57）年着工、ノグチの死後はその財団監修のもと2005（平成17）年7月に完成したと記されています。シンボル「ガラスのピラミッド HIDAMARI」館内にはギャラリー、多目的スペース、フレンチレストラン、物販ショップがあり、開館時間・休館日は時期により異なります。高さ52m（山頂標高62m）の「モエレ山」には5つのルートがあり約10分。中央の「海の噴水」は最大で高さ25mまで噴き上がり、1日2〜3回決まった時間に打ち上げられ、雨天時は運転中止。春はサクラ、夏はモエレビーチ、秋はカラマツの黄葉と「モエレ沼芸術花火」、冬はソリ・スノーシュー・クロスカントリースキーの貸出し（ガラスのピラミッド1Fショップ）と、四季を通じて楽しめます。基本情報：住所 札幌市東区モエレ沼公園1-1／ゲート開放時間 東入口7:00〜22:00（入場は21時まで）、西入口7:00〜19:00、南入口7:00〜19:00／定休日 無し（園内各施設は定休日あり）／入園無料／電話 011-790-1231。",
+        "英文": "Designed as a single sculpture by Isamu Noguchi, Moerenuma turned a former landfill into Sapporo's signature art park - the \"sculpture of the earth\". The official overview describes an 1.89 km² municipal park built on 2.7 million tonnes of landfill, begun in 1982 and completed in July 2005 under the supervision of Noguchi's foundation after his death. Its Glass Pyramid HIDAMARI holds a gallery, multipurpose space, a French restaurant and a shop (hours and closures vary by season). Moere-yama rises 52 m (summit 62 m above sea level) and is climbed in about ten minutes along one of five routes; the central Sea of Water fountain shoots up to 25 m two or three times a day at set times and stops in rain. Cherry blossom in spring, Moere Beach in summer, larch colour and the Art Fireworks in autumn, and sled, snowshoe and cross-country ski rental from the pyramid's shop in winter. Basics: Moerenuma-koen 1-1, Higashi-ku; gates open 07:00 (east until 22:00, entry until 21:00; west and south until 19:00); no closing day for the park itself, facilities have their own; entry free; tel 011-790-1231.",
+        "中文": "由雕刻家野口勇将整个公园设计为一件雕塑作品，原废弃物处理场经23年改造成为札幌代表性的艺术公园，其宏伟姿态被称为「大地的雕塑」。官方概述记载：这是填埋270万吨后建成的约1.89平方公里都市公园，1982年（昭和57年）开工，野口勇逝世后由其基金会监修，于2005年（平成17年）7月完成。象征性建筑「玻璃金字塔 HIDAMARI」内设画廊、多功能空间、法式餐厅与商店，开馆时间与休馆日随时期不同。高52米（山顶标高62米）的「莫埃来山」有5条上山路线，约10分钟可达；中央「海之喷泉」水柱最高25米，每天2至3次在固定时间喷放，雨天停止运行。春有樱花，夏有莫埃来海滩，秋有落叶松黄叶与「莫埃来沼艺术花火」，冬可在玻璃金字塔一层商店租借雪橇、雪鞋与越野滑雪板。基本信息：札幌市东区莫埃来沼公园1-1／闸门开放时间 东入口7:00—22:00（21:00止入园）、西入口与南入口7:00—19:00／定休日 无（园内各设施各有定休日）／入园免费／电话 011-790-1231。"
+      },
+      "住所": "札幌市東区モエレ沼公園1-1",
+      "电话": "011-790-1231（公式観光サイト基本情報）",
+      "営業時間": "ゲート開放時間 東入口7:00〜22:00（入場は21時まで）／西入口・南入口7:00〜19:00。定休日無し（園内各施設は定休日あり）",
+      "料金": "入園無料（園内各施設・レンタル・花火イベントは有料あり）",
+      "官网": "https://www.sapporo.travel/spot/facility/moerenuma_park/",
+      "介绍页": {
+        "日文": "https://www.sapporo.travel/spot/facility/moerenuma_park/（市観光公式サイト 基本情報・見どころ）"
+      },
+      "言語注記": "市観光公式サイトの日本語表記を原文摘録。English／中文は当倉庫の人手執筆。なお公式ページには「※2025年度は改修工事で休業中。2026年度より営業を再開いたします」（海の噴水関連の項）との注記があり、設備の稼働状況は時期により変わります。",
+      "検証日": "2026-10-22",
+      "出典": [
+        {
+          "标题": "モエレ沼公園｜観光施設｜ようこそさっぽろ",
+          "URL": "https://www.sapporo.travel/spot/facility/moerenuma_park/",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "彫刻家イサム・ノグチにより、公園全体が一つの彫刻作品として設計されたモエレ沼公園。元廃棄物処理場が、23年の歳月を経て札幌を代表するアートパークとして再生しました。その雄大な姿は「大地の彫刻」と呼ばれ…／モエレ沼公園は札幌市北東部にあり、270万tの廃棄物を埋め立てた後に造成された約1.89k㎡の都市公園。1982（昭和57）年に着工され、基本設計は日系アメリカ人のイサム・ノグチ…1988（昭和63）年末にノグチが死去した後は、彼の財団監修のもと…2005（平成17）年7月に完成。／「ガラスのピラミッド」HIDAMARI：館内にギャラリー、多目的スペース、フレンチレストラン、オリジナルグッズ販売ショップ。開館時間・休館日は時期により異なる。／モエレ山は高さ52ｍ、山頂は標高62m、5つのルートがあり10分ほど。／海の噴水は最大で高さ25メートル…1日に2〜3回、決まった時間に打ち上げ…雨天の場合は運転中止。／⑪レンタサイクル「ポロクル」…札幌中心部から公園までは片道約1時間30分〜2時間ほど。／住所 札幌市東区モエレ沼公園1-1／営業時間 ゲート開放時間 東入口ゲート 7時〜22時（入場は21時まで）西入口ゲート 7時〜19時 南入口ゲート 7時〜19時／定休日 無し ※園内各施設は定休日あり／料金 入園無料／電話 011-790-1231"
         }
       ]
     }
@@ -68,11 +162,87 @@
   "名所案内": [
     {
       "名称": {
+        "日文": "札幌市時計台（旧札幌農学校演武場）／国指定重要文化財",
+        "英文": "Sapporo Clock Tower (former Sapporo Agricultural College Drill Hall)",
+        "中文": "札幌市时钟台（旧札幌农学校演武场）"
+      },
+      "距離": "札幌駅から徒歩約10分（市観光サイト所在地＝中央区北1条西2丁目／市役所の斜め向かい）",
+      "简介": {
+        "日文": "正式名称は「旧札幌農学校演武場」。北海道大学の前身である札幌農学校の施設として、初代教頭クラーク博士の構想に基づき明治11年に建設され、教育団体の事務所や軍用施設、昭和には市立図書館として使われ、昭和45年6月に国の重要文化財に指定されました。時計塔が後付けされた点も公式に説明されています。明治14年、当時の黒田清隆開拓長官の命を受け、アメリカの「E・ハワード社」製時計装置を付設。本体は週2回ネジ巻き作業が行われ、豊平川の石で作られた重りで針が打たれます。2階ホールでは不定期で10:30に館長によるネジ巻きのデモンストレーションが行われます。建物は2階建てで1階は大展示室、2階はホール。ボランティアガイドが駐在することがあるほか、札幌農学校時代を現した全景模型、図書スペース、VTR解説スペースが展示されています。営業時間 8:45〜17:10（入館は17時まで）、定休日 1月1日〜3日、料金 大人350円・大学生（学生証提示）150円・高校生以下無料（中・高生は学生証提示）、駐車場なし、電話 011-231-0838。日没〜21:30のライトアップ、向かいの札幌MNビル2階の無料撮影テラス、夏季は札幌市役所19階展望回廊の無料開放も公式案内にあります。公式サイトでは「毎月16日は札幌市民無料の日」（住所確認できる証明書提示）と告知されています。",
+        "英文": "Its formal name is the former Sapporo Agricultural College Drill Hall. Built in 1889 (Meiji 11) to the conception of Dr W. S. Clark, first vice-president of the college that became Hokkaido University, it later served educational bodies, military facilities and, in the Showa era, a municipal library, and was designated a national Important Cultural Property in June 1970. The clock itself was added in 1881 (Meiji 14) on the order of development commissioner Kuroda Kiyotaka, with a mechanism from E. Howard & Co. of the United States; it is wound twice a week and driven by weights made of stones from the Toyohira river, and the director gives an irregular 10:30 winding demonstration in the second-floor hall. Inside are exhibition rooms, a full-scale model of the college, a reading corner, video explanations and volunteer guides. Hours 8:45-17:10 (entry until 17:00); closed 1-3 January; admission 350 yen adults, 150 yen university students with ID, free for high-school pupils and younger (student ID for junior and senior high); no car park; tel 011-231-0838. The official site also lists lighting until 21:30 after sunset, a free photography terrace on the second floor of the building opposite, free opening of Sapporo City Hall's 19th-floor observation corridor in summer, and free admission for Sapporo residents on the 16th of every month on production of proof of address.",
+        "中文": "正式名称为「旧札幌农学校演武场」。作为北海道大学前身札幌农学校的设施，依首任教务主任克拉克博士的构想于明治11年（1878年）建造，此后曾作教育团体事务所、军用设施，昭和时期用作市立图书馆，昭和45年（1970年）6月指定为国家重要文化财。官方亦说明钟塔为后设：明治14年（1881年）奉时任开拓长官黑田清隆之命，安装美国「E·霍华德公司」制钟表装置；本体每周上弦两次，以丰平川的石头制作的配重驱动指针，2楼大厅不定期于10:30举行馆长上弦演示。建筑两层，1楼为大展示室、2楼为大厅，陈列札幌农学校时代全景模型，设有图书角与影像解说，并有志愿者讲解。营业时间 8:45—17:10（入馆至17:00），定休日 1月1日—3日，门票 成人350日元、大学生（出示学生证）150日元、高中生以下免费（初·高中生出示学生证），无停车场，电话 011-231-0838。官方导览另载：日落后到21:30的点灯、正对面札幌MNビル2楼免费摄影露台、夏季札幌市役所19楼展望回廊免费开放；官网并告知「每月16日为札幌市民免费日」（需出示可确认住所的证件）。"
+      },
+      "住所": "札幌市中央区北1条西2丁目",
+      "电话": "011-231-0838（公式観光サイト記載）",
+      "営業時間": "8:45〜17:10（入館は17時まで）／定休日 1月1日〜3日",
+      "料金": "大人350円・大学生（学生証提示）150円・高校生以下無料（中・高生は学生証提示）／毎月16日は札幌市民無料（証明書提示）",
+      "官网": "https://sapporoshi-tokeidai.jp/",
+      "介绍页": {
+        "日文": "https://sapporoshi-tokeidai.jp/（時計台公式サイト：毎月16日市民無料の日・再生可能エネルギー100％ 等）",
+        "市観光公式サイト 歴史記述・基本情報": "https://www.sapporo.travel/spot/facility/clock_tower/"
+      },
+      "言語注記": "時計台公式サイト・市観光サイトとも日本語表記。English／中文は当倉庫の人手執筆（機械翻訳不使用）。明治年の和西暦換算（明治11年=1878年、明治14年=1881年、昭和45年=1970年）は当倉庫による注記で、公式本文の和暦表記をそのまま優先しています。",
+      "検証日": "2026-10-22",
+      "出典": [
+        {
+          "标题": "札幌市時計台｜観光施設｜ようこそさっぽろ",
+          "URL": "https://www.sapporo.travel/spot/facility/clock_tower/",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "「札幌市時計台」その正式名称は「旧札幌農学校演武場」。北海道大学の前身である札幌農学校の施設として、初代教頭であるクラーク博士の構想に基づき明治11年に建設されました。これまでに教育団体の事務所や軍用施設、昭和には市立図書館として活躍してきたこの建物は、昭和45年6月に国の重要文化財に指定。／1階は大展示室、2階がホール…ボランティアガイドが駐在…全景模型…／明治14年に当時の黒田清隆開拓長官の命を受け、新たに時計塔を付設してアメリカの「E・ハワード社」製の時計装置が取り付けられました。／本体は週2回ネジ巻き作業が行われ、豊平川の石で作られた重りによって時計に針が打たれます。ホールでは10時30分(実施日は不定期)に姉妹機を使って館長によるネジ巻きのデモンストレーション／住所 札幌市中央区北1条西2丁目／営業時間 8時45分〜17時10分 ※入館は17時まで／定休日 1月1日〜3日／料金 大人：350円、大学生（学生証提示）：150円、高校生以下無料（中・高生は学生証提示）／駐車場 なし／電話 011-231-0838／公式サイト https://sapporoshi-tokeidai.jp/／ライトアップは21時30分まで／札幌MNビルの2階には時計台撮影テラス（無料開放）／夏季は市役所19階の展望回廊が無料開放"
+        },
+        {
+          "标题": "札幌市時計台 公式サイト（トピックス：毎月16日は札幌市民無料の日 ほか）",
+          "URL": "https://sapporoshi-tokeidai.jp/",
+          "ライセンス": "施設公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "★参加無料 別途入館料要／【毎月16日は札幌市民無料の日】札幌市民の方は 毎月16日 は無料です。受付にてお住まいのご住所を確認できる 証明書をご提示 くださいませ／【トピックス】札幌市時計台の電力は再生可能エネルギー100％です／イベント情報（例：10月22日（木）19:00 札幌福北寄席 玉川太福・国本はる乃 浪曲二人会）。"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "さっぽろ雪まつり（大通会場・つどーむ会場・すすきの会場）",
+        "英文": "Sapporo Snow Festival (Odori, Tsudome and Susukino sites)",
+        "中文": "札幌雪节（大通·tsudome·薄野三个会场）"
+      },
+      "距離": "大通会場は札幌駅・地下鉄さっぽろ／大通駅からすぐの大通公園（西1丁目〜西11丁目）。すすきの会場は札幌駅前通（南4条〜南7条西3・4丁目）",
+      "简介": {
+        "日文": "市観光公式サイト掲載の次回開催情報：2027年2月4日（木）〜11日（木・祝）。開催場所は 大通会場＝大通公園（大通西1丁目〜西11丁目）、つどーむ会場＝つどーむ（東区栄町885-1）、すすきの会場＝札幌駅前通（南4条〜南7条西3・4丁目）。大会公式サイト（snowfes.com）のトップページには「JR札幌駅からのアクセス」「新千歳空港からのアクセス」の案内が掲載されています。大通公園の項にあるとおり、雪まつりは市観光サイトが「北海道を代表するイベントの会場」と明記する大通公園の主要イベントで、テレビ塔の展望台はその「特等席」と案内されています。",
+        "英文": "According to the city tourism site, the next Sapporo Snow Festival runs 4-11 February 2027 (Thursday to Thursday-and-holiday), across three sites: Odori (Odori Park, West 1 to West 11), Tsudome (East district, Sakae-machi 885-1) and Susukino (Sapporo Ekimae-dori, South 4 to South 7 between West 3 and 4). The organising committee's own website leads with access information from JR Sapporo Station and from New Chitose Airport. Odori Park is described by the tourism site as the venue of Hokkaido's representative events, and the TV Tower observation deck is billed as the best place to view the snow sculptures.",
+        "中文": "据市观光官方网站刊载的下届举办信息：2027年2月4日（周四）至11日（周四·节假日）。会场为 大通会场＝大通公园（大通西1至西11丁目）、tsudome会场＝tsudome（东区荣町885-1）、薄野会场＝札幌站前通（南4条至南7条西3·4丁目）。大会官网（snowfes.com）首页设有「从JR札幌站前往」「从新千岁机场前往」的交通指引。正如大通公园条目所述，市观光网站称大通公园是「代表北海道的活动会场」，而电视塔展望台被介绍为观赏雪雕的「特等席」。"
+      },
+      "住所": "札幌市中央区大通西1〜11丁目（大通会場）ほか2会場",
+      "电话": "（市観光公式サイト・大会公式サイトのトップページに案内所等の問合せ先記載なし。公式観光案内所 011-213-5088 へ照会可）",
+      "営業時間": "開催期間 2027年2月4日〜11日（会期中終日観览。会場・施設により時間帯あり）",
+      "料金": "会場観覧は無料（テレビ塔展望台・つどーむ内施設・一部体験は有料）",
+      "官网": "http://www.snowfes.com/",
+      "介绍页": {
+        "日文": "https://www.sapporo.travel/event/event-list/sapporo_snow_festival/（市観光公式サイト イベント一覧：期間・会場）",
+        "雪まつり公式サイト（JR札幌駅・新千歳空港からのアクセス）": "http://www.snowfes.com/"
+      },
+      "言語注記": "公式サイトの日本語表記を原文摘録。English／中文は当倉庫の人手執筆。会期・会場は次回（2027年）分の公式記載で、例年変動するため 検証日 を明記しています。",
+      "検証日": "2026-10-22",
+      "出典": [
+        {
+          "标题": "さっぽろ雪まつり 2027年2月4日(木)〜11日(木・祝)｜イベント一覧｜ようこそさっぽろ",
+          "URL": "https://www.sapporo.travel/event/event-list/sapporo_snow_festival/",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "さっぽろ雪まつり／開催期間 2027年2月4日(木)〜11日(木・祝)／開催場所 ・大通会場：大通公園（大通西1丁目〜西11丁目） ・つどーむ会場：つどーむ（東区栄町885-１） ・すすきの会場：札幌駅前通（南4条〜南7条西3・4丁目）／公式サイト http://www.snowfes.com/"
+        },
+        {
+          "标题": "さっぽろ雪まつり公式サイト（トップページ／アクセス案内）",
+          "URL": "http://www.snowfes.com/",
+          "ライセンス": "大会公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "（トップページ本文から読み取れた見出し・導線）アクセス／JR札幌駅 からのアクセス／新千歳空港 からのアクセス／さっぽろ雪まつりの公式情報ページである旨のナビゲーション表記。※詳細な実行委員会の組織・入場料金は本ページテキストには含まれていませんでした。"
+        }
+      ]
+    },
+    {
+      "名称": {
         "日文": "赤れんが庁舎 八角塔（オプション観覧）",
         "英文": "Akarenga Office octagonal tower (optional visit)",
         "中文": "红砖厅舍八角塔（另行购票参观）"
       },
-      "距离": "JR札幌駅西通り南口から徒歩約8分（赤れんが庁舎内）",
+      "距離": "JR札幌駅西通り南口から徒歩約8分（赤れんが庁舎内）",
       "简介": {
         "日文": "赤れんが庁舎の料金表に掲載されたオプション企画で、八角塔の観覧は1,200円（小学生以上）。同じくガイドツアーは一般500円、小学生〜大学生250円で、公式サイトが料金を明示している。",
         "英文": "Listed on the official price table: climbing the octagonal tower costs 1,200 yen for elementary school pupils and above, while guided tours are 500 yen for adults and 250 yen for elementary through university students.",
@@ -80,14 +250,20 @@
       },
       "住所": "札幌市中央区北3条西6丁目1番地（赤れんが庁舎内）",
       "电话": "011-206-8390",
-      "营业": "赤れんが庁舎の開館時間に準ずる（8:45〜21:00、最終入館20:30）",
+      "営業時間": "赤れんが庁舎の開館時間に準ずる（8:45〜21:00、最終入館20:30）",
+      "料金": "八角塔観覧 1,200円（小学生以上）／ガイドツアー 一般500円・小学生〜大学生250円（公式料金表）",
       "官网": "https://www.hokkaido-redbrick.jp/",
-      "介绍页": null,
+      "介绍页": {
+        "日文": "https://www.hokkaido-redbrick.jp/（開館時間・料金表・アクセス・バリアフリー）"
+      },
+      "言語注記": "公式サイト料金表の「オプション」欄の記載にもとづく別料金企画。塔内観覧は天候・イベントにより休止があり得る。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
-          "标题": "赤れんが庁舎 公式サイト（料金欄）",
+          "标题": "赤れんが庁舎（北海道庁旧本庁舎）公式サイト",
           "URL": "https://www.hokkaido-redbrick.jp/",
-          "原文要旨": "「オプション 八角塔観覧：1,200円（小学生以上）」「ガイドツアー： 一般500円、小学生〜大学生250円 ※チケット予約ページ、赤れんが庁舎のチケット売り場でお申し込みいただけます」"
+          "原文要旨": "「オプション 八角塔観覧：1,200円（小学生以上）」「ガイドツアー： 一般500円、小学生〜大学生250円 ※チケット予約ページ、赤れんが庁舎のチケット売り場でお申し込みいただけます」",
+          "ライセンス": "赤れんが庁舎（北海道）公式サイト記載の抜粋（出典明記）"
         }
       ]
     },
@@ -97,7 +273,7 @@
         "英文": "Sapporo Clock Tower daily winding demonstration",
         "中文": "札幌市钟楼 时钟上发条演示"
       },
-      "距离": "JR札幌駅南口から徒歩約10分",
+      "距離": "JR札幌駅南口から徒歩約10分",
       "简介": {
         "日文": "公式サイトの新着情報が「1日1回10:30〜時計の巻き上げ実演及び説明を実施致します」と伝え、実施予定日（10/23・24・25・27）を「予定は変更の可能性がございます」として告知している。館内は防音設備がなく、外の音や毎正時の塔時計の鐘の音が聞こえることも明記されている。",
         "英文": "The official news page states that a winding demonstration and explanation of the clock are held once a day at 10:30, listing scheduled dates with a note that plans may change. It also explains that the building has no soundproofing, so street sounds and the hour chime of the tower clock are heard inside.",
@@ -105,14 +281,27 @@
       },
       "住所": "札幌市中央区北1条西2丁目（札幌市時計台館内）",
       "电话": "011-231-0838",
-      "营业": "1日1回10:30〜（公式サイト記載の実施予定日、変更の可能性あり）",
+      "営業時間": "1日1回10:30〜（公式サイト記載の実施予定日、変更の可能性あり）",
+      "料金": "実演自体は参加無料だが入館料が必要（ホール利用状況ページの告知に「★参加無料 別途入館料要」の表記。入館料は本加精で開いた /inspect/guide.php の表記を参照）",
       "官网": "https://sapporoshi-tokeidai.jp/",
-      "介绍页": "https://sapporoshi-tokeidai.jp/inspect/guide.php",
+      "介绍页": {
+        "日文": "https://sapporoshi-tokeidai.jp/inspect/guide.php（巻き上げ実演・防音設備なしの注意事項）",
+        "ホール利用状況（告知）": "https://sapporoshi-tokeidai.jp/usage/schedule.php"
+      },
+      "言語注記": "実施予定日は公式サイトの新着情報で更新されるため、当日の実施有無はページ側の告知を確認する必要がある。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
-          "标题": "札幌市時計台 入館案内（新着情報）",
+          "标题": "入館案内 - 札幌市時計台",
           "URL": "https://sapporoshi-tokeidai.jp/inspect/guide.php",
-          "原文要旨": "「【巻き上げ実演】実施予定 1日1回10:30〜時計の巻き上げ実演及び説明を実施致します。10/23(金)･24(土)･25(日)･27(火) 予定は変更の可能性がございます」「防音設備が無いため、外の音…や毎正時の塔時計の鐘の音が聞こえます」"
+          "原文要旨": "「【巻き上げ実演】実施予定 1日1回10:30〜時計の巻き上げ実演及び説明を実施致します。10/23(金)･24(土)･25(日)･27(火) 予定は変更の可能性がございます」「防音設備が無いため、外の音…や毎正時の塔時計の鐘の音が聞こえます」",
+          "ライセンス": "札幌市時計台公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "時計台ホール利用状況 - 札幌市時計台",
+          "URL": "https://sapporoshi-tokeidai.jp/usage/schedule.php",
+          "原文要旨": "「★参加無料 別途入館料要」「受付にてお住まいのご住所を確認できる 証明書をご提示 くださいませ」（2026年04月01日付の告知として掲載）",
+          "ライセンス": "札幌市時計台公式サイト記載の抜粋（出典明記）"
         }
       ]
     },
@@ -122,22 +311,35 @@
         "英文": "Clock Tower hall (former assembly hall)",
         "中文": "札幌市钟楼 大厅（原讲堂）"
       },
-      "距离": "JR札幌駅南口から徒歩約10分",
+      "距離": "JR札幌駅南口から徒歩約10分",
       "简介": {
         "日文": "2階ホールは夜間に音楽会・講演会・結婚式などに貸し出されており、公式サイトの新着情報には実際の利用例（10月22日19:00「札幌福北寄席 浪曲二人会」）が掲載されている。観覧料の減免制度として、教員引率や添乗員引率の申請書がPDFで提供されている。",
         "英文": "The second-floor hall is hired out in the evening for concerts, talks and weddings, and the official site shows a real booking (19:00 on 22 October: a rakugo/nangoku double bill). Fee-reduction application forms for teachers leading pupils and for tour conductors are downloadable as PDFs.",
         "中文": "二层大厅夜间对外出借用于音乐会、讲演会与婚礼，官网“今日大厅”栏列有实际使用示例（10月22日19:00“札幌福北寄席 浪曲二人会”）。另提供教师带队、导游带队参观费减免申请书PDF。"
       },
       "住所": "札幌市中央区北1条西2丁目",
-      "电话": "011-231-0838",
-      "营业": "施設利用は公式サイトの利用状況ページ参照（入館は8:45〜17:10）",
+      "电话": "011-231-0838（電話受付時間 8:45〜17:10・休館日を除く）／ファクス 011-231-0804",
+      "営業時間": "施設利用は公式サイトの利用状況ページ参照（入館は8:45〜17:10）",
+      "料金": "ホールは催物ごとの料金設定（例：2026年10月2日「はじめての“かわいい音楽会”」無料／10月3日「奏楽×JAZZ!!」3,000円・ペア券5,000円／10月10日 1,500円）",
       "官网": "https://sapporoshi-tokeidai.jp/",
-      "介绍页": "https://sapporoshi-tokeidai.jp/usage/schedule.php",
+      "介绍页": {
+        "日文": "https://sapporoshi-tokeidai.jp/usage/schedule.php（時計台ホール利用状況：2026年10月の催物一覧）",
+        "見学案内": "https://sapporoshi-tokeidai.jp/inspect/guide.php"
+      },
+      "言語注記": "本レコードのために /usage/schedule.php を 2026-10-22 に開いて確認した（HTTP 200）。旧記録はこのページを開かずに引用していた。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
-          "标题": "札幌市時計台 入館案内",
+          "标题": "入館案内 - 札幌市時計台",
           "URL": "https://sapporoshi-tokeidai.jp/inspect/guide.php",
-          "原文要旨": "「夜間は音楽会、講演会、結婚式などのホールとして貸し出しをしています」「10月22日（木）19:00 札幌福北寄席 玉川太福・国本はる乃 浪曲二人会」「児童・生徒引率の教師の方／旅行会社・福祉施設等の方（申請書をFAXしてください）」「札幌市時計台 電話：011-231-0838」"
+          "原文要旨": "「夜間は音楽会、講演会、結婚式などのホールとして貸し出しをしています」「10月22日（木）19:00 札幌福北寄席 玉川太福・国本はる乃 浪曲二人会」「児童・生徒引率の教師の方／旅行会社・福祉施設等の方（申請書をFAXしてください）」「札幌市時計台 電話：011-231-0838」",
+          "ライセンス": "札幌市時計台公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "時計台ホール利用状況 - 札幌市時計台",
+          "URL": "https://sapporoshi-tokeidai.jp/usage/schedule.php",
+          "原文要旨": "「時計台ホール利用状況／各月のイベント情報をご案内いたします」2026年10月の表に日時・催物名・開場/開演/終演・料金・入場の対象者・連絡先を列挙（10月2日「はじめての“かわいい音楽会”」開場18:00 開演18:30 終演20:30 無料 一般／10月3日「奏楽時計台コンサートシリーズ 奏楽×JAZZ!!」3,000円 ペア券5,000円／10月5日「夜間開館」／10月7日「入社式」／10月9日「AKIYAMA BAND 〜一夜限りの復活祭〜」無料）。お問い合わせ 電話011-231-0838、電話/ファックス011-231-0804、［電話受付時間］午前8時45分〜午後5時10分（休館日を除く）",
+          "ライセンス": "札幌市時計台公式サイト記載の抜粋（出典明記）"
         }
       ]
     }
@@ -145,26 +347,90 @@
   "公共服务": [
     {
       "名称": {
-        "日文": "北海道さっぽろ観光案内所（JR札幌駅 西コンコース北口）",
-        "英文": "Hokkaido Sapporo Tourist Information Center (JR Sapporo Station west concourse, north gate)",
-        "中文": "北海道札幌观光案内所（JR札幌站 西剪票口大厅北口）"
+        "日文": "北海道さっぽろ観光案内所（JR札幌駅西コンコース／「食と観光」情報館内）",
+        "英文": "Hokkaido Sapporo Tourist Information Center (JR Sapporo Station west concourse)",
+        "中文": "北海道札幌观光案内所（JR札幌站西检票口外大厅·「食与观光」情报馆内）"
       },
-      "種别": "観光案内所",
-      "所在地": "札幌市北区北6条西4丁目 JR札幌駅西コンコース北口（『北海道さっぽろ「食と観光」情報館』内）",
-      "电话": "011-213-5088",
-      "营业": "8:30〜20:00（年中無休）／チケット・グッズ販売は19:45まで",
-      "官网": null,
-      "介绍页": "https://www.sapporo.travel/info/about/tourist-information-center/",
+      "距離": "JR札幌駅改札内外をつなぐ西コンコース内（改札外）",
+      "简介": {
+        "日文": "公式の説明：北海道さっぽろ観光案内所はJR札幌駅西コンコースにある『北海道さっぽろ「食と観光」情報館』内にあり、日本語、英語、中国語、韓国語に対応したスタッフによる観光案内や開花情報、スキー場の営業情報など季節に合わせた情報を提供。施設内にはWi-Fiレンタル受付、外貨両替機、バッテリーチャージブースなど観光に必要なサービスが揃い、「札幌に着いたらまず立ち寄ってみてください」と案内されています。基本情報：住所 札幌市北区北6条西4丁目 JR札幌駅西コンコース／営業時間（「食と観光」情報館各店舗） 北海道さっぽろ観光案内所 8:30〜20:00（※チケット及びグッズの販売は19:45まで）、北海道どさんこプラザ 8:30〜20:00、元気ショップいこ〜る 10:00〜19:00、JR外国人デスク 8:30〜19:00、北海道ユニバーサル観光センター札幌 9:30〜17:30、観光ボランティア案内カウンター 9:30〜17:30／定休日 無休／問い合わせ 電話 011-213-5088。市観光サイトは「JR札幌駅の『食と観光』情報館内にあり、北海道内全域の観光情報はもちろん、札幌市内のイベント情報などを入手できる」と説明します。",
+        "英文": "The official description: the centre sits inside the Hokkaido Sapporo \"Food and Tourism\" Information Hall on the west concourse of JR Sapporo Station, with staff speaking Japanese, English, Chinese and Korean who give sightseeing, bloom and ski-area information through the season, alongside Wi-Fi rental, foreign-currency machines and phone-charging booths - \"drop in first when you arrive in Sapporo\". Basics: Kita 6-jo Nishi 4-chome, Kita-ku (JR Sapporo Station west concourse). Opening times within the hall - tourist information centre 8:30-20:00 (tickets and goods sold until 19:45), Dosanko Plaza shop 8:30-20:00, Genki Shop Ikole 10:00-19:00, JR Foreign Visitors Desk 8:30-19:00, Hokkaido Universal Tourism Center Sapporo 9:30-17:30, volunteer guide counter 9:30-17:30; open every day; tel 011-213-5088.",
+        "中文": "官方说明：北海道札幌观光案内所位于JR札幌站西大厅内的『北海道札幌「食与观光」情报馆』，由可对应日语、英语、中国语、韩国语的职员提供观光导览、花期与滑雪场运营等应季信息；馆内还设有Wi-Fi租借受理、外币兑换机与移动电源充电区等旅游所需服务，官网提示「抵达札幌后不妨先来此一探」。基本信息：札幌市北区北6条西4丁目 JR札幌站西大厅／营业时间（「食与观光」情报馆各店铺）观光案内所 8:30—20:00（※门票与纪念品售卖至19:45）、北海道どさんこPlaza 8:30—20:00、元気Shop ikor 10:00—19:00、JR外国人服务台 8:30—19:00、北海道Universal观光中心札幌 9:30—17:30、观光志愿者导览柜台 9:30—17:30／定休日 无休／咨询电话 011-213-5088。市观光网站并指出此处可获取北海道全域及札幌市内活动信息。"
+      },
+      "住所": "札幌市北区北6条西4丁目 JR札幌駅西コンコース",
+      "电话": "011-213-5088（公式観光サイト記載の問い合わせ電話）",
+      "営業時間": "案内所 8:30〜20:00（チケット・グッズの販売は19:45まで）／情報館内の各店舗により10:00〜19:00 等／定休日 無休",
+      "料金": "無料（両替・レンタルは各サービスの規約による）",
+      "官网": "https://www.sapporo.travel/info/about/tourist-information-center/",
+      "介绍页": {
+        "日文": "https://www.sapporo.travel/info/about/informationcenter/（案内所一覧・営業時間・電話）",
+        "案内所の説明・対応言語": "https://www.sapporo.travel/info/about/tourist-information-center/"
+      },
+      "言語注記": "市観光公式サイト（日本語）の表記を原文摘録。対応言語の「日本語、英語、中国語、韓国語」は公式表記のまま。English／中文は当倉庫の人手執筆。",
+      "検証日": "2026-10-22",
       "出典": [
         {
-          "标题": "北海道さっぽろ観光案内所 - ようこそさっぽろ（札幌観光協会）",
+          "标题": "北海道さっぽろ観光案内所｜旅のお役立ち｜ようこそさっぽろ",
           "URL": "https://www.sapporo.travel/info/about/tourist-information-center/",
-          "原文要旨": "「北海道さっぽろ観光案内所はJR札幌駅西コンコースにある『北海道さっぽろ「食と観光」情報館』内にあります。日本語、英語、中国語、韓国語に対応したスタッフによる観光案内や開花情報、スキー場の営業情報など季節に合わせた情報を提供」「住所：札幌市北区北6条西4丁目 ＪＲ札幌駅西コンコース北口 問合せ：011-213-5088」「8:30～20:00」「外貨両替機 対象外貨：12か国」「常時1000種類のパンフレットを掲出」「当日空室ホテルのご紹介」「※チケット及びグッズの販売は19:45まで」"
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "北海道さっぽろ観光案内所はJR札幌駅西コンコースにある『北海道さっぽろ「食と観光」情報館』内にあります。日本語、英語、中国語、韓国語に対応したスタッフによる観光案内や開花情報、スキー場の営業情報など季節に合わせた情報を提供しています。また施設内には、WI-FIレンタル受付、外貨両替機やバッテリーチャージブースなど観光に必要なサービスが沢山あります。札幌に着いたらまず立ち寄ってみてください。"
         },
         {
-          "标题": "北海道さっぽろ「食と観光」情報館 - 札幌市",
-          "URL": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
-          "原文要旨": "「北海道さっぽろ観光案内所｜道内全域の観光情報や市内イベント情報を発信…011-213-5088｜8時30分～20時｜年中無休」「（住所）札幌市北区北6条西4丁目 JR札幌駅西コンコース北口」"
+          "标题": "観光案内｜旅のお役立ち（各案内所の住所・営業時間・電話を一覧化）｜ようこそさっぽろ",
+          "URL": "https://www.sapporo.travel/info/about/informationcenter/",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "北海道さっぽろ観光案内所／対応言語：日本語、英語、中国語、韓国語／JR札幌駅の「北海道さっぽろ『食と観光』情報館」内にあり、北海道内全域の観光情報はもちろん、札幌市内のイベント情報などを入手できる。／住所 札幌市北区北6条西4丁目 JR札幌駅西コンコース／営業時間 「食と観光」情報館各店舗の営業時間 ●北海道さっぽろ観光案内所 8:30〜20:00 ※チケット及びグッズの販売は19:45まで ●「北海道どさんこプラザ」8:30〜20:00 ●「元気ショップいこ〜る」10:00〜19:00 ●「JR外国人デスク」8:30〜19:00 ●北海道ユニバーサル観光センター札幌 9:30〜17:30 ●観光ボランティア案内カウンター 9:30〜17:30／定休日 無休／問い合わせ 電話 011-213-5088。"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "札幌市交通局の旅客窓口・割引相談（交通案内センター／高速電車部業務課）",
+        "英文": "Sapporo City Transportation Bureau counters (travel information centre / Rapid Railway Section)",
+        "中文": "札幌市交通局旅客窗口与折扣咨询（交通案内中心／高速电车部业务课）"
+      },
+      "距離": "札幌駅周辺の市営交通（地下鉄さっぽろ駅・JR乗換）に関する問い合わせ窓口",
+      "简介": {
+        "日文": "地下鉄・市電の運賃や割引、乗継料金に関する市公式の案内：「かんたん料金検索」で地下鉄・市電の乗車料金・定期料金、地下鉄とバスの乗継料金を駅や停留所を指定して検索できますが、「一部バス路線には対応しておりませんので、検索しても出てこない経路やバスを含む福祉割引定期券の料金については札幌市交通案内センター（電話 011-232-2277）に直接お問い合わせください（必要に応じてバス会社をご案内します）」と公式に案内されています。窓口の所管：札幌市交通局 高速電車部業務課 〒060-0042 札幌市中央区大通西2丁目9、電話番号 011-211-8798、ファクス番号 011-213-0468（市公式ページ「このページについてのお問い合わせ」表記）。割引制度として乗車料金の割引・こども同伴割引・福祉割引が公式に列挙されており、SAPICA（交通IC）のご案内も交通局ページに掲載されています。忘れ物・落とし物については「令和7年1月6日から札幌市交通局は「落とし物クラウドfind」を導入します！」の新着告知が公式トップにあります。",
+        "英文": "The bureau's official guidance: the online fare finder covers subway and tram single fares, season tickets and subway-bus transfer fares for named stations, but for routes the tool cannot match - and for welfare-discount season tickets that include buses - travellers are told to call the Sapporo City Traffic Information Centre on 011-232-2277, which will refer them to the bus operator. The responsible office listed on the accessibility pages is the Rapid Railway Section, Operations Department, Sapporo City Transportation Bureau, Odori West 2-chome 9, Chuo-ku, Sapporo 060-0042, tel 011-211-8798, fax 011-213-0468. Discounts officially listed are general fare concessions, a child-accompaniment discount and welfare discounts, and SAPICA IC-card information is published by the bureau. Its news page notes that from 6 January 2025 the bureau uses the bureau's lost-and-found internet service (official Japanese name: Oshimono Cloud find).",
+        "中文": "市官方关于地铁·电车票价与折扣的指引：官网「简易票价检索」可按车站或电停查询地铁与电车乘车费·定期券·地铁与巴士换乘费用，但官方同时提示「部分巴士线路未对应，检索不到的路径，以及含巴士的福利折扣定期券票价，请直接向札幌市交通案内中心（电话 011-232-2277）咨询（必要时将为您引荐巴士公司）」。主管部门：札幌市交通局高速电车部业务课，〒060-0042 札幌市中央区大通西2丁目9，电话 011-211-8798，传真 011-213-0468（取自市官方页面「关于本页面的咨询」栏）。官方列举的优惠制度包括乘车费折扣、儿童同行折扣、福利折扣，交通局页面另有 SAPICA 交通IC 卡指引。官网新消息公告「自令和7年（2025年）1月6日起札幌市交通局导入失物检索系统『落とし物クラウドfind』」。"
+      },
+      "住所": "札幌市中央区大通西2丁目9（高速電車部業務課）",
+      "电话": "011-232-2277（交通案内センター）／011-211-8798（高速電車部業務課）／FAX 011-213-0468",
+      "営業時間": "公式ページに窓口時間は記載なし（市役所・交通局の usual 時間に準ずる・未確認）",
+      "料金": "相談無料（運賃・料金案内）",
+      "官网": "https://www.city.sapporo.jp/st/",
+      "介绍页": {
+        "日文": "https://www.city.sapporo.jp/st/ryokin/（料金案内・交通案内センターの電話）",
+        "乗車料金・割引一覧": "https://www.city.sapporo.jp/st/josyaken/ryokin/ryoukin.html",
+        "業務課の住所・電話・FAX（バリアフリーFAQ）": "https://www.city.sapporo.jp/st/faq/barrierfree.html"
+      },
+      "言語注記": "札幌市公式サイト（日本語）の記載を原文摘録。English／中文は当倉庫の人手執筆。",
+      "検証日": "2026-10-22",
+      "出典": [
+        {
+          "标题": "料金案内｜札幌市交通局（地下鉄 南北線・東西線・東豊線の駅一覧、交通案内センター 011-232-2277）",
+          "URL": "https://www.city.sapporo.jp/st/ryokin/",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "※一部バス路線には対応しておりませんので、検索しても出てこない経路やバスを含む福祉割引定期券の料金については札幌市交通案内センター（電話 011-232-2277）に直接お問い合わせください。（必要に応じてバス会社をご案内します。）／料金検索（乗車料金／定期料金）…路線図・構内図・時刻表・お問合せ"
+        },
+        {
+          "标题": "乗車料金｜札幌市交通局（更新日 2026年4月1日）",
+          "URL": "https://www.city.sapporo.jp/st/josyaken/ryokin/ryoukin.html",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "更新日：2026年4月1日／乗車料金（普通運賃）地下鉄のみ利用する場合 地下鉄単独料金表 1区 大人210円 こども110円、マル2区・2区 250円／130円、3区 290円／150円、4区 330円／170円、5区 360円／180円、6区 380円／190円。地下鉄の区数は乗車する発着駅間のキロ程により区分（3km以下=1区、3km超5km以下=マル2区、5km超7km以下=2区、7km超11km以下=3区、11km超15km以下=4区、15km超19km以下=5区、19km超21km以下=6区、マル2区はバスとの乗り継ぎ時のみ適用）。市電（路面電車）のみ利用する場合 1乗車 大人230円・こども120円。乗車料金の割引・こども同伴割引・福祉割引の頁あり。"
+        },
+        {
+          "标题": "エレベーターやバリアフリートイレのご利用について｜札幌市交通局（FAQ）",
+          "URL": "https://www.city.sapporo.jp/st/faq/barrierfree.html",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "地下鉄では、全ての駅にバリアフリートイレ（車椅子対応身障者用トイレ）を設置しております。…ユニバーサルシート（おむつ替えシート）を出しっぱなしにすると、車椅子の方などが出入りできなくなる恐れがあります。ご退室の際は必ずシートをたたんでください。／このページについてのお問い合わせ 札幌市交通局高速電車部業務課 〒060-0042 札幌市中央区大通西2丁目9 電話番号：011-211-8798 ファクス番号：011-213-0468"
+        },
+        {
+          "标题": "市営交通／札幌市交通局（トップページ・料金案内／福祉割引定期券の問合せ先）",
+          "URL": "https://www.city.sapporo.jp/st/",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "新着情報（例）令和7年1月6日から札幌市交通局は「落とし物クラウドfind」を導入します！／ホームと車両の段差隙間の縮小整備について／SAPICAのご案内／交通局の取組み／料金案内・時刻表・路線図・構内図へのナビゲーション。"
         }
       ]
     },
@@ -174,42 +440,80 @@
         "英文": "Volunteer guide counter (Sapporo tourism volunteers)",
         "中文": "观光志愿者导览柜台（札幌市观光志愿者）"
       },
-      "種别": "ボランティア案内",
-      "所在地": "JR札幌駅構内『北海道さっぽろ「食と観光」情報館』内",
+      "距離": "JR札幌駅構内（西コンコース北口『北海道さっぽろ「食と観光」情報館』内）",
+      "简介": {
+        "日文": "市観光公式サイトが「観光ボランティアスタッフが駅構内・周辺を同行案内します～札幌市観光ボランティア」「・札幌市の観光ボランティアによる対応・JR札幌駅構内（周辺）の同行案内」「観光ボランティア案内カウンター 9:30～17:30」と案内している。なお札幌市の「食と観光」情報館ページ（更新日 2025年5月14日）の館内施設一覧には観光ボランティアの項が無いため、営業時間は市観光公式サイト側の記載を採った。",
+        "英文": "Sapporo's official tourism site lists a volunteer guiding service - city-registered Sapporo tourism volunteers accompany visitors inside and around JR Sapporo Station - and gives the volunteer guide counter's hours as 9:30-17:30. The city's own information-building page (updated 14 May 2025) does not list this counter in its table of in-house facilities, so the hours are taken from the tourism site and the gap between the two official pages is recorded here.",
+        "中文": "札幌市官方旅游网站列有“观光志愿者陪同引导”服务：由札幌市观光志愿者在JR札幌站站内及周边提供同行引导，并标注“观光志愿者柜台 9:30–17:30”。札幌市“食与观光”情报馆页面（更新于2025年5月14日）的馆内设施一览中并未列出该志愿者柜台，因此营业时间采用官方旅游网站的记载，并将两处官方页面收录范围的差异原样记于此。"
+      },
+      "住所": "JR札幌駅構内『北海道さっぽろ「食と観光」情報館』内",
       "电话": null,
-      "营业": "9:30〜17:30（「食と観光」情報館の各店舗営業時間として札幌市が公表）",
+      "営業時間": "9:30〜17:30（市観光公式サイトの表記）",
+      "料金": null,
       "官网": null,
-      "介绍页": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
+      "介绍页": {
+        "日文": "https://www.sapporo.travel/info/about/tourist-information-center/（ボランティア案内の説明・カウンター時間）",
+        "市情報館ページ（館内施設一覧・ボランティアの項なし）": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html"
+      },
+      "言語注記": "公式表記は「観光ボランティア案内カウンター」。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
           "标题": "北海道さっぽろ観光案内所 - ようこそさっぽろ",
           "URL": "https://www.sapporo.travel/info/about/tourist-information-center/",
-          "原文要旨": "「観光ボランティアスタッフが駅構内・周辺を同行案内します～札幌市観光ボランティア」「・札幌市の観光ボランティアによる対応・JR札幌駅構内（周辺）の同行案内」「観光ボランティア案内カウンター 9:30～17:30」"
+          "原文要旨": "「観光ボランティアスタッフが駅構内・周辺を同行案内します～札幌市観光ボランティア」「・札幌市の観光ボランティアによる対応・JR札幌駅構内（周辺）の同行案内」「観光ボランティア案内カウンター 9:30～17:30」",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "北海道さっぽろ「食と観光」情報館 - 札幌市",
+          "URL": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
+          "原文要旨": "館内施設一覧は「北海道さっぽろ観光案内所／北海道どさんこプラザ札幌店／元気ショップ「いこ～る」／JRインフォメーションデスク(外国人デスク)／北海道ユニバーサル観光センター・札幌」の5項のみで、観光ボランティアカウンターの記載は無い（更新日：2025年5月14日）",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）"
         }
       ]
     },
     {
       "名称": {
-        "日文": "北海道ユニバーサル観光センター・札幌（車いす・ベビーカー貸出）",
-        "英文": "Hokkaido Universal Tourism Center Sapporo (wheelchair and stroller lending)",
+        "日文": "北海道ユニバーサル観光センター・札幌（車いす・ベビーカー貸出・バリアフリー相談）",
+        "英文": "Hokkaido Universal Tourism Center Sapporo (wheelchair and stroller rental, barrier-free travel advice)",
         "中文": "北海道通用观光中心·札幌（轮椅、婴儿车租借）"
       },
-      "種别": "バリアフリー相談・貸出",
-      "所在地": "JR札幌駅西コンコース北口『北海道さっぽろ「食と観光」情報館』内",
+      "距離": "JR札幌駅 西コンコース北口（『北海道さっぽろ「食と観光」情報館』内）",
+      "简介": {
+        "日文": "NPO法人北海道ユニバーサルツーリズム推進協議会が運営する貸出窓口で、公式サイトは「札幌駅で車いす（手動・電動）とベビーカーをレンタルしています」とうたい、料金を「レンタル料金A（手動車いす・ベビーカー共通）／当日（8時間以内）：1,000円／1泊2日：2,000円／2泊3日：3,000円／3泊4日：4,000円／4泊以上：＋1,000円/１泊ごと」「レンタル料金B（電動車いす『WHILL』）／当日（8時間以内）：4,000円／1泊2日：8,000円…」と明示し、WHILL は「冬季間もお貸し出しします（雪道走行は禁止）」。ベビーカーは「生後1カ月～36カ月（体重約15kg）までの乳幼児1人用ベビーカーを7台保有（Aprica社製、製品名ラクーナ ビッテ クッション、SG安全基準A型適合）」。さらに「経験豊富なボランティアがバリアフリー旅行や観光の無料相談に応じています」。市「食と観光」情報館ページも同じ窓口を「車いす・ベビーカーのレンタルサービスを提供。道内全域のバリアフリー観光情報を発信。相談スタッフも配置。｜070-5289-8631｜9時30分～17時30分｜年中無休」と掲載する。ただしセンター自身の 2026年10月17日付のお知らせが「11月1日より、営業時間を現在の午前9時30分〜午後5時30分から午前10時〜午後5時に変更」と告知しており、市側2ページの「9:30〜17:30（年中無休）」とは公式同士の記載が食い違うため、双方をそのまま記録した。",
+        "英文": "A rental desk operated by the NPO Hokkaido Universal Tourism Promotion Council inside the Food and Tourism Information Building. Its own site states that manual and electric wheelchairs and strollers are lent at Sapporo Station and publishes the rates: Rate A (manual wheelchair / stroller) 1,000 yen for the day (up to 8 hours), 2,000 yen overnight, 3,000 yen for two nights, 4,000 yen for three nights, plus 1,000 yen per additional night; Rate B (electric WHILL wheelchair) 4,000 yen for the day, 8,000 yen overnight, and so on, noting that WHILL can also be rented in winter but must not be driven on snow. Seven Aprica strollers (Lacuna Bitt Cushion, SG Safety Standard Type A) are listed for children aged 1 to 36 months up to about 15 kg, and experienced volunteers offer free barrier-free travel advice. The city's information-building page carries the same desk with 070-5289-8631, 9:30-17:30, open all year; however a notice on the centre's own site dated 17 October 2026 says hours change to 10:00-17:00 from 1 November, so the two official statements conflict and both are recorded as published.",
+        "中文": "该租借柜台由NPO法人北海道Universal观光推进协议会运营，位于“食与观光”情报馆内。官网写明“在札幌站出租手动与电动轮椅、婴儿车”，并公布费率：A类（手动轮椅、婴儿车通用）当日8小时内1,000日元、一晚两天2,000日元、两晚三天3,000日元、三晚四天4,000日元，第四晚起每增加一晚加1,000日元；B类（电动轮椅WHILL）当日4,000日元、一晚两天8,000日元，并注明WHILL“冬季亦可出租（禁止在雪路面行驶）”。婴儿车为Aprica制7台，适用出生1个月至36个月（约15公斤以下），另由资深志愿者提供无障碍旅游免费咨询。札幌市情报馆页面同样列有该窗口（070-5289-8631，9:30–17:30，全年无休）；但该中心官网2026年10月17日公告“自11月1日起营业时间由9:30–17:30改为10:00–17:00”，与市政府两处页面的记载不一致，故原样并记，不代为取舍。"
+      },
+      "住所": "〒060-0806 札幌市北区北6条西4丁目 JR札幌駅西コンコース北口 北海道さっぽろ「食と観光」情報館",
       "电话": "070-5289-8631",
-      "营业": "9:30〜17:30（年中無休）",
+      "営業時間": "市公表（市情報館ページ・市観光公式サイト）：9:30〜17:30 年中無休 ／ センター公式お知らせ：2026年11月1日より 10:00〜17:00（2026-10-17付で変更告知）",
+      "料金": "手動車いす・ベビーカー共通：当日（8時間以内）1,000円／1泊2日2,000円／2泊3日3,000円／3泊4日4,000円／4泊以上＋1,000円ごと。電動車いすWHILL：当日4,000円／1泊2日8,000円／2泊3日12,000円／3泊4日16,000円／4泊以上＋4,000円ごと。バリアフリー観光相談は無料",
       "官网": "https://www.npohut.net/",
-      "介绍页": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
+      "介绍页": {
+        "日文": "https://www.npohut.net/（レンタル料金・車いす・ベビーカー・無料相談・営業時間変更のお知らせ）",
+        "市情報館ページ（窓口一覧）": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
+        "市観光公式サイト（貸出窓口の案内）": "https://www.sapporo.travel/info/about/tourist-information-center/"
+      },
+      "言語注記": "旧記録は市公表値のみだったが、センター自身の公式ページを開いて料金・台数・変更告知を追記した。営業時間の公式同士の不一致は 简介 のとおり。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
+        {
+          "标题": "Home - 北海道・札幌／車いす・ベビーカーレンタル",
+          "URL": "https://www.npohut.net/",
+          "原文要旨": "「〒060-0806 札幌市北区北6条西4丁目 JR札幌駅西コンコース北口 北海道さっぽろ「食と観光」情報館 TEL : 070-5289-8631」「レンタル料金A（手動車いす・ベビーカー共通）／当日（8時間以内）：1,000円／1泊2日：2,000円／2泊3日：3,000円／3泊4日：4,000円／4泊以上：＋1,000円/１泊ごと」「レンタル料金B（電動車いす『WHILL』）／当日（8時間以内）：4,000円／1泊2日：8,000円／2泊3日：12,000円／3泊4日：16,000円」「電動車いす『WHILL（ウィル）は冬季間もお貸し出しします（雪道走行は禁止）」「生後1カ月～36カ月（体重約15kg）までの乳幼児1人用ベビーカーを7台保有しています（Aprica社製、製品名ラクーナ ビッテ クッション、SG安全基準A型適合）」「経験豊富なボランティアがバリアフリー旅行や観光の無料相談に応じています」「【営業時間変更のお知らせ】11月1日より、営業時間を現在の午前9時30分〜午後5時30分から午前10時〜から午後5時に変更します。（2026年10月17日）」",
+          "ライセンス": "NPO法人北海道ユニバーサルツーリズム推進協議会公式サイト記載の抜粋（出典明記）"
+        },
         {
           "标题": "北海道さっぽろ「食と観光」情報館 - 札幌市",
           "URL": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
-          "原文要旨": "「北海道ユニバーサル観光センター・札幌｜車いす・ベビーカーのレンタルサービスを提供。道内全域のバリアフリー観光情報を発信。相談スタッフも配置。｜070-5289-8631｜9時30分～17時30分｜年中無休」"
+          "原文要旨": "「北海道ユニバーサル観光センター・札幌｜車いす・ベビーカーのレンタルサービスを提供。道内全域のバリアフリー観光情報を発信。相談スタッフも配置。｜070-5289-8631｜9時30分～17時30分｜年中無休」",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）"
         },
         {
           "标题": "北海道さっぽろ観光案内所 - ようこそさっぽろ",
           "URL": "https://www.sapporo.travel/info/about/tourist-information-center/",
-          "原文要旨": "「⑤車いすやベビーカーの貸出はこちら～北海道ユニバーサル観光センター・札幌【営業時間】9：30～17：30 車イスレンタル、ベビーカー貸出し」「公式WEBサイトはこちら → https://www.npohut.net/」"
+          "原文要旨": "「⑤車いすやベビーカーの貸出はこちら～北海道ユニバーサル観光センター・札幌【営業時間】9：30～17：30 車イスレンタル、ベビーカー貸出し」「公式WEBサイトはこちら → https://www.npohut.net/」",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）"
         }
       ]
     },
@@ -219,22 +523,35 @@
         "英文": "JR Information Desk (counter for overseas visitors)",
         "中文": "JR导览服务台（面向境外旅客）"
       },
-      "種别": "鉄道乗車券相談",
-      "所在地": "JR札幌駅西コンコース北口『北海道さっぽろ「食と観光」情報館』内",
-      "电话": null,
-      "营业": "8:30〜19:00（年中無休）",
+      "距離": "JR札幌駅 西コンコース北口（『北海道さっぽろ「食と観光」情報館』内）",
+      "简介": {
+        "日文": "市「食と観光」情報館ページの館内施設一覧が「JRインフォメーションデスク(外国人デスク)｜外国人向けJR乗車券類を手配｜電話 なし｜8時30分～19時｜年中無休」と公表。市観光公式サイトも「外国人向けの「北海道レールパス」等の取扱い・外国人向けのＪＲチケットの取扱い」「『ＪＲ外国人デスク』8:30～19:00」と記す。窓口専用の電話番号は市公表で「なし」とされている。",
+        "英文": "The city's table of facilities inside the information building lists the JR Information Desk (foreign visitor desk) as arranging JR tickets for overseas visitors, with the telephone column given as “none”, hours 8:30-19:00 and open all year. The city tourism site adds that the desk handles the Hokkaido Rail Pass and other JR tickets for foreign visitors, with the same 8:30-19:00 window. No dedicated official page for the desk was opened, so only these two city-published listings are cited.",
+        "中文": "札幌市“食与观光”情报馆页面的馆内设施一览公布“JR导览服务台（外国人窗口）：代办面向境外旅客的JR乘车券类；电话：无；8:30–19:00；全年无休”。官方旅游网站另注明该窗口办理面向外国游客的“北海道铁路通票”等JR车票，时间同为8:30–19:00。本次未打开该柜台独立官网页面，因此仅引用两处市政府公开记载。"
+      },
+      "住所": "JR札幌駅西コンコース北口『北海道さっぽろ「食と観光」情報館』内",
+      "电话": "窓口専用電話なし（市公表の「電話」欄に「なし」）",
+      "営業時間": "8:30〜19:00（年中無休）",
+      "料金": null,
       "官网": null,
-      "介绍页": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
+      "介绍页": {
+        "日文": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html（館内施設一覧）",
+        "市観光公式サイト": "https://www.sapporo.travel/info/about/tourist-information-center/"
+      },
+      "言語注記": "公式表記は「JRインフォメーションデスク(外国人デスク)」。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
           "标题": "北海道さっぽろ「食と観光」情報館 - 札幌市",
           "URL": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
-          "原文要旨": "「JRインフォメーションデスク(外国人デスク)｜外国人向けJR乗車券類を手配｜なし｜8時30分～19時｜年中無休」"
+          "原文要旨": "「JRインフォメーションデスク(外国人デスク)｜外国人向けJR乗車券類を手配｜なし｜8時30分～19時｜年中無休」",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）"
         },
         {
           "标题": "北海道さっぽろ観光案内所 - ようこそさっぽろ",
           "URL": "https://www.sapporo.travel/info/about/tourist-information-center/",
-          "原文要旨": "「⑥JR外国人デスク・外国人向けの「北海道レールパス」等の取扱い・外国人向けのＪＲチケットの取扱い」「『ＪＲ外国人デスク』8:30～19:00」"
+          "原文要旨": "「⑥JR外国人デスク・外国人向けの「北海道レールパス」等の取扱い・外国人向けのＪＲチケットの取扱い」「『ＪＲ外国人デスク』8:30～19:00」",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）"
         }
       ]
     },
@@ -244,17 +561,28 @@
         "英文": "Sapporo City Call Center",
         "中文": "札幌市电话咨询中心"
       },
-      "種别": "市政相談",
-      "所在地": "札幌市（市役所本庁舎 札幌市中央区北1条西2丁目）",
-      "电话": "011-222-4894（FAX 011-221-4894）",
-      "营业": "年中無休、8:00〜21:00",
-      "官网": "https://www.city.sapporo.jp/",
-      "介绍页": null,
+      "距離": "札幌市役所（札幌市中央区北1条西2丁目）",
+      "简介": {
+        "日文": "市が「市役所のどこに聞いたらよいか分からないときなどにご利用ください」「年中無休、8時00分～21時00分。札幌市の制度や手続き、市内の施設、交通機関などをご案内しています」と公表する市政相談窓口。電話 011-222-4894／ファクス 011-221-4894。同じページのフッターには札幌市役所の代表電話 011-211-2111 も記載されている。市公式サイトのトップページ本文は本加精で開いていないため 官网 は null とし、実際に開いた情報館ページを出典とした。",
+        "英文": "The city publishes this general enquiry line as the number to use when you cannot tell which municipal department handles your question: tel 011-222-4894, fax 011-221-4894, open 8:00-21:00 every day, covering city services and procedures, facilities in Sapporo and public transport. The footer of the same page also gives Sapporo City Hall's main number, 011-211-2111. The site root itself was not opened in this pass, so the official-website field stays null and only the page we opened is cited.",
+        "中文": "札幌市政府公布的一般市政咨询窗口：“不清楚该向市役所哪个部门询问时可使用”，全年无休，8:00–21:00，可咨询札幌市的制度与手续、市内设施、交通机关等；电话011-222-4894、传真011-221-4894。同一页面页脚还记载札幌市役所代表电话011-211-2111。本次未打开市政府官网首页正文，故官网字段留空，仅以实际打开的情报馆页面为出典。"
+      },
+      "住所": "札幌市（市役所本庁舎 札幌市中央区北1条西2丁目）",
+      "电话": "011-222-4894（FAX 011-221-4894）／市役所代表 011-211-2111",
+      "営業時間": "8:00〜21:00（年中無休）",
+      "料金": null,
+      "官网": null,
+      "介绍页": {
+        "日文": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html（ページ下部「札幌市コールセンター」欄）"
+      },
+      "言語注記": "代表電話 011-211-2111 は同ページフッターの記載どおり（「札幌市役所　〒060-8611札幌市中央区北1条西2丁目　代表電話：011-211-2111」）。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
-          "标题": "北海道さっぽろ「食と観光」情報館 - 札幌市（ページフッター記載）",
+          "标题": "北海道さっぽろ「食と観光」情報館 - 札幌市",
           "URL": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
-          "原文要旨": "「札幌市コールセンター 市役所のどこに聞いたらよいか分からないときなどにご利用ください。電話： 011-222-4894 ファクス 011-221-4894 年中無休、8時00分～21時00分。札幌市の制度や手続き、市内の施設、交通機関などをご案内しています」「札幌市役所 〒060-8611 札幌市中央区北1条西2丁目 代表電話：011-211-2111 一般的な業務時間 8時45分～17時15分（土日祝日および12月29日～1月3日はお休み）」"
+          "原文要旨": "「札幌市コールセンター 市役所のどこに聞いたらよいか分からないときなどにご利用ください。電話： 011-222-4894 ファクス 011-221-4894 年中無休、8時00分～21時00分。札幌市の制度や手続き、市内の施設、交通機関などをご案内しています」「札幌市役所 〒060-8611 札幌市中央区北1条西2丁目 代表電話：011-211-2111 一般的な業務時間 8時45分～17時15分（土日祝日および12月29日～1月3日はお休み）」",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）"
         }
       ]
     },
@@ -264,22 +592,146 @@
         "英文": "Tourism and MICE Promotion Division, Sapporo City Economic Affairs Bureau",
         "中文": "札幌市 经济观光局观光与MICE推进课"
       },
-      "種别": "行政（観光所管）",
-      "所在地": "札幌市中央区北1条西2丁目 札幌市役所本庁舎15階（〒060-8611）",
+      "距離": "札幌市中央区北1条西2丁目 札幌市役所本庁舎15階（〒060-8611）",
+      "简介": {
+        "日文": "市「食と観光」情報館ページの「このページについてのお問い合わせ」に記載された所管課で、〒060-8611 札幌市中央区北1条西2丁目 札幌市役所本庁舎15階、電話番号 011-211-2376、ファクス番号 011-218-5129。同ページには市の「一般的な業務時間 8時45分～17時15分（土日祝日および12月29日～1月3日はお休み）」も記載されている。課の専用ページは開いておらず、記載はすべて情報館ページ由来である旨を 検索记录 に残した。",
+        "英文": "The division named at the foot of the city's Food and Tourism Information Building page: Tourism and MICE Promotion Section, Tourism and MICE Promotion Department, Economic Affairs Bureau, postal code 060-8611, 15th floor of the City Hall main building, North 1 West 2, Chuo-ku; tel 011-211-2376, fax 011-218-5129. The same page states the city's standard working hours, 8:45-17:15, closed Saturdays, Sundays, holidays and 29 December-3 January. The division's own page was not opened; every figure here comes from the building page we did open.",
+        "中文": "札幌市“食与观光”情报馆页面“关于本页面”咨询栏所列的承办课：经济观光局观光与MICE推进部观光与MICE推进课， 〒060-8611 札幌市中央区北1条西2丁目市役所本厅舍15楼，电话011-211-2376、传真011-218-5129。同页还记载市一般办公时间8:45–17:15（周六、周日、节假日及12月29日至1月3日休息）。该课专用页面本次未打开，全部记载均来源于已打开的情报馆页面。"
+      },
+      "住所": "札幌市中央区北1条西2丁目 札幌市役所本庁舎15階（〒060-8611）",
       "电话": "011-211-2376（FAX 011-218-5129）",
-      "营业": "一般的な業務時間 8:45〜17:15（土日祝日および12月29日〜1月3日は休み）",
-      "官网": "https://www.city.sapporo.jp/",
-      "介绍页": null,
+      "営業時間": "8:45〜17:15（土日祝および12/29〜1/3は休み）",
+      "料金": null,
+      "官网": null,
+      "介绍页": {
+        "日文": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html（ページ末尾の所管課・業務時間表記）"
+      },
+      "言語注記": "部署名は市公表の「経済観光局観光・MICE推進部観光・MICE推進課」。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
           "标题": "北海道さっぽろ「食と観光」情報館 - 札幌市",
           "URL": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
-          "原文要旨": "「このページについてのお問い合わせ 札幌市経済観光局観光・MICE推進部観光・MICE推進課 〒060-8611 札幌市中央区北1条西2丁目 札幌市役所本庁舎15階 電話番号：011-211-2376 ファクス番号：011-218-5129」「更新日：2025年5月14日」"
+          "原文要旨": "「このページについてのお問い合わせ 札幌市経済観光局観光・MICE推進部観光・MICE推進課 〒060-8611 札幌市中央区北1条西2丁目 札幌市役所本庁舎15階 電話番号：011-211-2376 ファクス番号：011-218-5129」「更新日：2025年5月14日」",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）"
         }
       ]
     }
   ],
   "交通": [
+    {
+      "名称": {
+        "日文": "札幌駅前通地下歩行空間（チ・カ・ホ）",
+        "英文": "Sapporo Ekimae-dori Underground Walkway (Chi-Ka-Ho)",
+        "中文": "札幌站前通地下步行空间（チ・カ・ホ）"
+      },
+      "距離": "JR札幌駅に直結（さっぽろ駅〜大通駅間の約520m。公式「歩くと約10分」）",
+      "简介": {
+        "日文": "札幌市のメインストリート、札幌駅前通の真下を通り、地下鉄南北線さっぽろ駅と大通駅間の約520メートルをつなぐ地下空間で、2011年に開通し、JR札幌駅から地下鉄南北線すすきの駅が地下で一直線に結ばれました。大通公園とも直結し、休憩できるイスや机、無料のWi-Fiサービスもある。「憩いの空間」と「交差点広場」では北海道内各地の観光PRや特産品・雑貨などの販売、アート作品の展示などのイベントが行われます。北3条交差点広場東側には案内板があり、モニターで地下歩行空間のイベント情報を確認できます。基本情報：住所 札幌市中央区北3条〜大通（地下鉄南北線「さっぽろ」〜「大通」）／営業時間 5:45〜24:30／電話 011-211-6406（札幌駅前通まちづくり株式会社）。事業者公式サイトでは会場使用の電話仮予約案内（TEL 011-211-6406 受付時間 平日午前9時〜午後5時）や「テーブルセット」試験貸出（2027年3月31日ご利用分まで）が告知されています。",
+        "英文": "Running beneath Sapporo's main street, Chi-Ka-Ho links Subway Nanboku-line Sapporo and Odori stations over about 520 m - roughly a ten-minute walk. Opened in 2011, it puts JR Sapporo Station on one underground line with Susukino, connects directly to Odori Park, and provides benches, tables and free Wi-Fi. The \"relaxation space\" and the intersection plazas host tourism promotion from across Hokkaido, local-product and craft stalls and art displays, and an information panel with monitors on the east side of Kita-3jo intersection square lists current events. Basics: Kita 3-jo to Odori, Chuo-ku (underground between Sapporo and Odori subway stations); open 5:45-24:30; tel 011-211-6406 (Sapporo Ekimae-dori Machizukuri Co.). The operator's own site advertises telephone provisional bookings for venue use (weekdays 9:00-17:00) and a trial loan of table sets valid until 31 March 2027.",
+        "中文": "位于札幌市主干道站前通正下方，连接地铁南北线さっぽろ站与大通站之间约520米的地下空间，步行约10分钟。2011年开通后，JR札幌站与地铁南北线薄野站由地下一线贯通，并与大通公园直结，内设可供休憩的桌椅与免费Wi-Fi。「休憩空间」与「交差点广场」举办北海道各地观光推广、特产与杂货销售、艺术作品展示等活动。北3条交差点广场东侧设有导览牌，可通过屏幕查看地下步行空间的最新活动信息。基本信息：札幌市中央区北3条至大通（地铁南北线さっぽろ站至大通站）／营业时间 5:45—24:30／电话 011-211-6406（札幌站前通建设公司）。运营方官网另有场地电话预约受理（TEL 011-211-6406，受理时间 工作日9:00—17:00）及「桌椅组合」试用出借（截至2027年3月31日使用）等公告。"
+      },
+      "住所": "札幌市中央区北3条〜大通（地下鉄南北線「さっぽろ」〜「大通」）",
+      "电话": "011-211-6406（札幌駅前通まちづくり株式会社）",
+      "営業時間": "5:45〜24:30（公式観光サイト記載）",
+      "料金": "通行無料（会場利用・展示は各企画による）",
+      "官网": "https://www.sapporo-chikamichi.jp/",
+      "介绍页": {
+        "日文": "https://www.sapporo-chikamichi.jp/（運営会社公式サイト）",
+        "市観光公式サイト 基本情報": "https://www.sapporo.travel/spot/facility/chikaho/"
+      },
+      "言語注記": "運営会社サイト・市観光サイトとも日本語表記。English／中文は当倉庫の人手執筆。",
+      "検証日": "2026-10-22",
+      "出典": [
+        {
+          "标题": "札幌駅前通地下歩行空間（チ・カ・ホ）｜観光施設｜ようこそさっぽろ",
+          "URL": "https://www.sapporo.travel/spot/facility/chikaho/",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "札幌市のメインストリート、札幌駅前通の真下を通り、地下鉄南北線さっぽろ駅と大通駅間の約520メートルをつなぐ地下空間。歩くと約10分。2011年に開通し、JR札幌駅から地下鉄南北線すすきの駅が地下で一直線に結ばれ、イベントの多い大通公園とも直結しており、休憩できるイスや机、無料のWi-Fiサービスもある。「憩いの空間」と「交差点広場」では北海道内各地の観光PRや、特産品・雑貨などの販売、アート作品の展示などのイベントでにぎわい…北3条交差点広場東側には案内板があり、モニターで地下歩行空間のイベント情報を見ることができる。／住所 札幌市中央区北3条〜大通（地下鉄南北線「さっぽろ」〜「大通」）／営業時間 5時45分〜24時30分／電話 011-211-6406（札幌駅前通まちづくり株式会社）／公式サイト https://www.sapporo-chikamichi.jp/"
+        },
+        {
+          "标题": "札幌駅前通地下歩行空間 公式サイト（札幌駅前通まちづくり株式会社／TEL・受付時間）",
+          "URL": "https://www.sapporo-chikamichi.jp/",
+          "ライセンス": "事業者公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "【おしらせ】「テーブルセット」の試験貸出を行います。［2027年3月31日ご利用分まで］／仮予約されてない方は、まずお電話で TEL：011-211-6406／TEL 011-211-6406 受付時間：平日午前9時〜午後5時／Wi-Fi・各種電話の案内、イベントスペース予約に関する導線。"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "札幌市営地下鉄「さっぽろ」駅（南北線・東豊線）と運賃・乗継",
+        "英文": "Sapporo subway station (Nanboku and Toho lines) - fares and transfers",
+        "中文": "札幌市营地铁「さっぽろ」站（南北线·东丰线）与票价·换乘"
+      },
+      "距離": "JR札幌駅と直結（地下鉄南北線さっぽろ駅は札幌駅コンコース経由、チ・カ・ホ経由で大通駅へ約520m）",
+      "简介": {
+        "日文": "市営交通の公式ページが示す路線構成は、南北線（麻生・北34条・北24条・北18条・北12条・さっぽろ・大通・すすきの・中島公園・幌平橋・中の島・平岸・南平岸・澄川・自衛隊前・真駒内）、東西線（宮の沢〜新さっぽろ）、東豊線（栄町・新道東・元町・環状通東・東区役所前・北13条東・さっぽろ・大通・豊水すすきの…福住）で、さっぽろ駅は南北線と東豊線の乗換駅です。乗車料金（2026年4月1日更新の公式料金表）は地下鉄単独で1区 大人210円・こども110円、マル2区・2区 250円・130円、3区 290円・150円、4区 330円・170円、5区 360円・180円、6区 380円・190円で、区数は発着駅間のキロ程（3km以下＝1区〜19km超21km以下＝6区、マル2区はバスとの乗り継ぎ時のみ適用）。市電（路面電車）は1乗車 大人230円・こども120円。1枚のICカードで地下鉄とバスを乗り継ぐ場合は乗継料金が適用され、ばんけいバス・夕鉄バスはIC利用不可のため地下鉄乗継指定駅で乗継券を発行します。SAPICA（交通IC）も案内されています。",
+        "英文": "The bureau's own station lists show the Nanboku line (Aoiyama through 34-jo, 24-jo, 18-jo, 12-jo, Sapporo, Odori, Susukino, Nakajima-koen, Horohiraebashi, Nakanoshima, Hiragishi, Minami-Hiragishi, Sumikawa, Jieitai-mae, Makomanai), the Tozai line (Miyanosawa to Shinsapporo) and the Toho line (Sakae-machi, Shindo-higashi, Motomachi, Kanjo-dori-higashi, Higashi-ku Yakusho-mae, Kita-13jo-higashi, Sapporo, Odori, Hose-susukino ... Fukuyoshi) - Sapporo being the interchange of the Nanboku and Toho lines. Fares as updated 1 April 2026: subway-only 210/110 yen (zone 1) rising through 250, 290, 330, 360 to 380 yen (adults; children 110-190 yen) by distance bands of 3, 5, 7, 11, 15, 19 and 21 km, with the circled-2 zone applying only on bus transfers; trams are flat 230/120 yen. One IC card can be used for subway-bus transfers at the transfer fare, and because Bankei Bus and Yu-etsu Bus do not accept IC cards, transfer tickets are issued at designated subway stations. SAPICA is the bureau's IC card.",
+        "中文": "依市营交通官方页面所列的线路构成：南北线（麻生、北34条、北24条、北18条、北12条、さっぽろ、大通、すすきの、中岛公园、幌平桥、中的岛、平岸、南平岸、澄川、自卫队前、真驹内）、东西线（宫之泽至新札幌）、东丰线（荣町、新道东、元町、环状通东、东区役所前、北13条东、さっぽろ、大通、丰水薄野……福住），其中さっぽろ站为南北线与东丰线的换乘站。乘车费用（官方价目表2026年4月1日更新）：仅乘地铁 1区 成人210日元·儿童110日元，圈2区·2区 250/130日元，3区 290/150日元，4区 330/170日元，5区 360/180日元，6区 380/190日元；区数按发着站间里程（3公里以下为1区……19公里超至21公里以下为6区，圈2区仅在与巴士换乘时适用）。市电（路面电车）单乘 成人230日元·儿童120日元。使用同一张IC卡地铁与巴士换乘时适用换乘票价；因 Bankei 巴士与夕铁巴士不支持IC卡，须在地铁换乘指定站发放换乘券。官方亦提供 SAPICA 交通IC 卡指引。"
+      },
+      "住所": "札幌市中央区北1条西2丁目付近（地下鉄さっぽろ駅／公式に駅施設の住所表記なし・市交通局本庁は大通西2丁目9）",
+      "电话": "011-232-2277（札幌市交通案内センター）",
+      "営業時間": "路線・時刻表は公式「時刻表」ページおよび各駅時刻表PDF参照（本記録では時間帯数値を記載せず）",
+      "料金": "地下鉄 大人210円〜380円（区制）／こども110円〜190円／市電 大人230円・こども120円／地下鉄−バス乗継料金あり（IC利用不可のバス会社は乗継券発行）",
+      "官网": "https://www.city.sapporo.jp/st/",
+      "介绍页": {
+        "日文": "https://www.city.sapporo.jp/st/josyaken/ryokin/ryoukin.html（乗車料金・区数表・更新日）",
+        "路線別 駅一覧・料金検索・問合せ": "https://www.city.sapporo.jp/st/ryokin/"
+      },
+      "言語注記": "札幌市公式サイト（日本語）の表記を原文摘録。English／中文は当倉庫の人手執筆。地下鉄・市電の構内図はPDF（例：南北線・東西線・東豊線の各駅図、オストメイト・車いす対応身障者用トイレ／エレベーター／エスカレーター表示）として公式に掲載されています。",
+      "検証日": "2026-10-22",
+      "出典": [
+        {
+          "标题": "料金案内｜札幌市交通局（地下鉄 南北線・東西線・東豊線の駅一覧、交通案内センター 011-232-2277）",
+          "URL": "https://www.city.sapporo.jp/st/ryokin/",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "料金表・定期券／時刻表／路線図・構内図／料金検索（乗車料金／定期料金）／＜南北線＞ 麻生 北３４条 北２４条 北１８条 北１２条 さっぽろ 大通 すすきの 中島公園 幌平橋 中の島 平岸 南平岸 澄川 自衛隊前 真駒内 ＜東西線＞ 宮の沢 発寒南 琴似 二十四軒 西２８丁目 円山公園 西１８丁目 西１１丁目 大通 バスセンター前 菊水 東札幌 白石 南郷７丁目 南郷１３丁目 南郷１８丁目 大谷地 ひばりが丘 新さっぽろ ＜東豊線＞ 栄町 新道東 元町 環状通東 東区役所前 北１３条東 さっぽろ 大通 豊水すすきの 学園前 豊平公園 美園 月寒中央 福住"
+        },
+        {
+          "标题": "乗車料金｜札幌市交通局（更新日 2026年4月1日）",
+          "URL": "https://www.city.sapporo.jp/st/josyaken/ryokin/ryoukin.html",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "乗車料金（普通運賃）／地下鉄単独料金表 1区 マル2区・2区 3区 4区 5区 6区 大人 210円 250円 290円 330円 360円 380円 こども 110円 130円 150円 170円 180円 190円／発着駅間のキロ程 3km以下=1区、3kmを超え5km以下=マル2区、5kmを超え7km以下=2区、7kmを超え11km以下=3区、11kmを超え15km以下=4区、15kmを超え19km以下=5区、19kmを超え21km以下=6区／市電単独料金 1乗車 大人230円 こども120円／1枚のICカードで指定の地下鉄駅とバス路線を乗り継ぐ場合は乗継料金が適用されます。※ばんけいバス・夕鉄バスはICカードがご利用いただけないため、地下鉄乗継指定駅で乗継券を発行します。／更新日：2026年4月1日"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "JR札幌駅と新千歳空港を結ぶ 快速・特別快速「エアポート」",
+        "英文": "JR Sapporo - New Chitose Airport rapid services (Airport)",
+        "中文": "JR札幌站与新千岁机场间的快速·特别快速「Airport」"
+      },
+      "距離": "JR札幌駅発着（新千歳空港駅までの鉄道路線）",
+      "简介": {
+        "日文": "JR北海道公式の空港アクセス案内：日中時間帯は特別快速1本・快速3本・区間快速2本の毎時6本運転。特別快速・快速・区間快速はすべて「先発・先着」で、札幌駅発は3〜15分、新千歳空港駅発は概ね10分間隔。日中時間帯の札幌〜新千歳空港間の所要時間は特別快速 最速36分・快速 最速37分・区間快速 最速43分（なお同ページの大きな見出しには「快速『エアポート』最速37分／特別快速『エアポート』最速33分」と掲出されており、公式ページ内で数値が2通り示されています）。停車駅の区分は赤=特別快速、橙=快速（時間帯により一部の快速列車のみ白石駅停車）、緑=区間快速（日中時間帯のみ）、青=普通列車。新千歳空港23:21発手稲行き特別快速は夜遅い到着便からの利用が可能で、航空機の遅延の有無によらず定刻通り出発します。国内線出発口・到着口から改札口まで直結で、外に出ることなく雨にも濡れません。「uシート」は並ばず必ず座れて大型荷物も置け、指定席料金は1,000円（在来線チケットレス座席指定券の場合は800円）が運賃のほかにかかります。えきねっとのWEB予約・機内からのWi-Fi予約が可能。公式資料「主な区間の運賃と料金（特急列車など）」の表（現行／改定併記）によれば、新千歳空港駅〜札幌駅は普通運賃（大人片道）現行1,150円・改定1,230円（＋80円）、指定席特急料金840円、運賃・料金計 現行1,990円・改定2,070円。自由席是利用時は座席指定料金は不要（普通運賃のみ）と注記されています。",
+        "英文": "JR Hokkaido's airport page: in daytime there are six trains an hour - one Special Rapid, three Rapid, two Regional Rapid - all of which start and arrive first; departures from Sapporo are at 3-15 minute intervals and from the airport about every ten minutes. Daytime journey times are stated as fastest 36 minutes (Special Rapid), 37 (Rapid) and 43 (Regional Rapid) - though the page's own heading says \"Rapid Airport fastest 37 min / Special Rapid Airport fastest 33 min\", so the site itself shows two sets of figures; both are recorded here without reconciling them. Colour coding: red Special Rapid, orange Rapid (only some stop at Shiroishi), green Regional Rapid (daytime only), blue local. The 23:21 Special Rapid from the airport to Teine runs on time whatever the flight delay. The station is directly connected to the domestic departures and arrivals halls, so you never go out in the rain. u-Seat reserved seating costs 1,000 yen (800 yen with a ticketless on-line reservation) on top of the fare and lets you sit without queuing with room for large luggage; booking is via Ekinet, also possible on in-flight Wi-Fi. The company's fare sheet for major sections (current / revised) gives Sapporo - New Chitose Airport: ordinary fare adult one-way 1,150 yen current, 1,230 yen revised (+80), reserved-seat express charge 840 yen, total 1,990 yen / 2,070 yen, and notes that unreserved coaches need no seat charge.",
+        "中文": "JR北海道官方机场交通指引：日间时段为特别快速1班·快速3班·区间快速2班，共每小时6班；特别快速、快速、区间快速均为「先发先着」，札幌站发车间隔3至15分钟，新千岁机场站发车约每10分钟。日间时段札幌至新千岁机场所需时间：特别快速最快36分、快速最快37分、区间快速最快43分（同页大标题另写「快速Airport最快37分／特别快速Airport最快33分」，官方页面本身存在两套数字，本记录如实并列、不作取舍）。停车站区分：红=特别快速、橙=快速（仅部分时段快速列车停白石站）、绿=区间快速（仅日间运行）、蓝=普通列车。新千岁机场23:21发往手稲的特别快速可供深夜抵达航班使用，且不论航班是否延误均准点出发。国内线出发口·到达口与检票口直连，出站不必淋雨。「u-seat」指定席无需排队且可放置大件行李，指定席费用为1,000日元（在来线无票座席指定券为800日元），另需运赁。可通过えきねっと网络预订，机上Wi-Fi亦可预约。据官方资料《主要区间的运赁与费用（特急列车等）》（现行／改定并列）：新千岁机场站至札幌站 普通运赁（成人单程）现行1,150日元、改定1,230日元（+80），指定席特急费用840日元，运赁·费用合计 现行1,990日元、改定2,070日元；并注明使用自由席时无需座席指定费用（仅需普通运赁）。"
+      },
+      "住所": "札幌市北区北6条西4丁目（JR札幌駅）／新千歳空港駅",
+      "电话": "（JR北海道公式サイトに空港アクセス専用の窓口電話の記載なし。切符・予約はえきねっと／みどりの窓口）",
+      "営業時間": "日中 毎時6本（特別快速1本・快速3本・区間快速2本）。新千歳空港23:21発 手稲行き特別快速あり",
+      "料金": "札幌〜新千歳空港 普通運賃（大人片道）現行1,150円・改定1,230円／uシート指定席料金1,000円（チケットレス800円）／指定席特急料金840円の表記あり／自由席は座席指定料金不要",
+      "官网": "https://www.jrhokkaido.co.jp/airport/",
+      "介绍页": {
+        "日文": "https://www.jrhokkaido.co.jp/fare/pdf/02.pdf（主な区間の運賃と料金：現行・改定併記）"
+      },
+      "言語注記": "JR北海道公式サイト・公式PDFの表記を原文摘録。English／中文は当倉庫の人手執筆。所要時間の数値が同一ページ内で2通り（見出し33分／本文36分）示されている点は公式原文のまま記載し、どちらかを採用していません。改定の適用日は当該PDFに記載がなく未確認です。",
+      "検証日": "2026-10-22",
+      "出典": [
+        {
+          "标题": "札幌↔新千歳空港間 快速「エアポート」最速37分／特別快速「エアポート」最速33分｜JR北海道",
+          "URL": "https://www.jrhokkaido.co.jp/airport/",
+          "ライセンス": "JR北海道公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "札幌↔新千歳空港間 快速「エアポート」最速37分／特別快速「エアポート」最速33分／日中時間帯は特別快速1本・快速3本・区間快速2本の毎時6本運転です。特別快速・快速・区間快速はすべて「先発・先着」で、札幌駅発は3〜15分、新千歳空港駅発は概ね10分間隔で運転しています。日中時間帯の札幌〜新千歳空港間の所要時間は、特別快速 最速36分・快速 最速37分・区間快速 最速43分。赤 特別快速／橙 快速（時間帯により一部の快速列車のみ白石駅に停車）／緑 区間快速（日中時間帯のみの運行）／青 普通列車。新千歳空港23:21発手稲行き特別快速は、夜遅い時間に到着する航空機からご利用いただけます。※航空機の遅延の有無によらず定刻通り出発します。国内線出発口・到着口から改札口まで直結。外に出ることなく、雨にも濡れません。「uシート」をご利用の場合は運賃のほかに指定席料金（1,000円、在来線チケットレス座席指定券の場合は800円）が必要です。機内からもWi-Fiを使って予約・変更が可能です。"
+        },
+        {
+          "标题": "主な区間の運賃と料金（特急列車など）｜JR北海道（PDF）",
+          "URL": "https://www.jrhokkaido.co.jp/fare/pdf/02.pdf",
+          "ライセンス": "JR北海道公式資料（PDF）記載の抜粋（出典明記）",
+          "原文要旨": "主な区間の運賃と料金（特急列車など）／表の列：普通運賃（大人片道）現行・改定、指定席特急料金（現行と変更ありません）、運賃・料金計 現行・改定。■新千歳空港駅から：札幌駅 1,150円｜1,230円（＋80円）｜840円｜1,990円｜2,070円（＋80円）；桑園駅も同額。※座席指定料金は、エアポートの指定席（uシート）をご利用の場合のものです。自由席をご利用の場合、座席指定料金は不要です（普通運賃のみでご利用いただけます）。改定の日付はこのPDF本文に記載がありません。"
+        }
+      ]
+    },
     {
       "名称": {
         "日文": "定期観光バス予約代行（北海道中央バス）",
@@ -292,15 +744,22 @@
         "英文": "The tourist information centre lists “booking service for scheduled sightseeing buses (Hokkaido Chuo Bus)” among its ticket services; the counter keeps the same hours, 8:30-20:00.",
         "中文": "札幌观光案内所官网把“定期观光巴士代购（北海道中央巴士）”列为服务内容，柜台营业时间同为8:30–20:00。"
       },
+      "住所": "札幌市北区北6条西4丁目 JR札幌駅西コンコース北口（観光案内所内）",
       "电话": "011-213-5088",
-      "营业": "8:30〜20:00（案内所）、チケット・グッズ販売は19:45まで",
+      "営業時間": "8:30〜20:00（案内所）、チケット・グッズ販売は19:45まで",
+      "料金": null,
       "官网": null,
-      "介绍页": "https://www.sapporo.travel/info/about/tourist-information-center/",
+      "介绍页": {
+        "日文": "https://www.sapporo.travel/info/about/tourist-information-center/（案内所が扱うチケット・パック一覧）"
+      },
+      "言語注記": "販売・予約代行は観光案内所の窓口業務として公式サイトに列挙されたもの。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
           "标题": "北海道さっぽろ観光案内所 - ようこそさっぽろ",
           "URL": "https://www.sapporo.travel/info/about/tourist-information-center/",
-          "原文要旨": "「お得なチケットを購入しよう～各種観光チケット・パックの販売 - 定期観光バスの予約代行（北海道中央バス）- 定山渓温泉日帰りパック（じょうてつバス）販売 - さっぽろセレクト（観光施設の周遊チケット）販売」「※チケット及びグッズの販売は19:45まで」"
+          "原文要旨": "「お得なチケットを購入しよう～各種観光チケット・パックの販売 - 定期観光バスの予約代行（北海道中央バス）- 定山渓温泉日帰りパック（じょうてつバス）販売 - さっぽろセレクト（観光施設の周遊チケット）販売」「※チケット及びグッズの販売は19:45まで」",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）"
         }
       ]
     },
@@ -316,15 +775,22 @@
         "英文": "The same counter sells the Jozankei Onsen day-trip package operated by Jotetsu Bus, an outward-and-return trip to the hot-spring town from Sapporo Station.",
         "中文": "官网注明观光案内所出售“定山溪温泉一日游套票（じょうてつ巴士）”，可从札幌站往返温泉街。"
       },
+      "住所": "札幌市北区北6条西4丁目 JR札幌駅西コンコース北口（観光案内所内）",
       "电话": "011-213-5088",
-      "营业": "8:30〜20:00（販売は19:45まで）",
+      "営業時間": "8:30〜20:00（販売は19:45まで）",
+      "料金": null,
       "官网": null,
-      "介绍页": "https://www.sapporo.travel/info/about/tourist-information-center/",
+      "介绍页": {
+        "日文": "https://www.sapporo.travel/info/about/tourist-information-center/（案内所が扱うチケット・パック一覧）"
+      },
+      "言語注記": "販売・予約代行は観光案内所の窓口業務として公式サイトに列挙されたもの。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
           "标题": "北海道さっぽろ観光案内所 - ようこそさっぽろ",
           "URL": "https://www.sapporo.travel/info/about/tourist-information-center/",
-          "原文要旨": "「定山渓温泉日帰りパック（じょうてつバス）販売」"
+          "原文要旨": "「定山渓温泉日帰りパック（じょうてつバス）販売」",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）"
         }
       ]
     },
@@ -340,20 +806,29 @@
         "英文": "The Akarenga official site and the Hokkaido government's building guide both give walking times: about 4 minutes from exit 10 of the Subway Sapporo station (Namboku and Toho lines), about 9 minutes from exit 2 of Odori station, and about 8 minutes from the Nishi-dori south gate of JR Sapporo station.",
         "中文": "红砖厅舍官网与北海道厅厅舍案内页均给出步行时间：地铁南北线·东丰线“札幌站”10号出口步行约4分钟，大通站2号出口约9分钟，JR札幌站西通南口约8分钟。"
       },
+      "住所": "札幌市中央区北3条西6丁目1番地（赤れんが庁舎）",
       "电话": null,
-      "营业": null,
+      "営業時間": null,
+      "料金": null,
       "官网": null,
-      "介绍页": "https://www.hokkaido-redbrick.jp/",
+      "介绍页": {
+        "日文": "https://www.hokkaido-redbrick.jp/（アクセス：各入口からの所要分数）",
+        "北海道庁 庁舎案内": "https://www.pref.hokkaido.lg.jp/chosha/（最寄駅・出口別の所要時間）"
+      },
+      "言語注記": "同じ建物への所要時間が赤れんが庁舎公式サイトと北海道庁の庁舎案内で異なる（さっぽろ駅10番出口から約4分、対する庁舎案内は南北線さっぽろ駅出口から約6分・東豊線さっぽろ駅出口から約8分）。公式同士の数値差として両記した。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
-          "标题": "赤れんが庁舎 公式サイト（アクセス）",
+          "标题": "赤れんが庁舎（北海道庁旧本庁舎）公式サイト",
           "URL": "https://www.hokkaido-redbrick.jp/",
-          "原文要旨": "「アクセス ● JR札幌駅西通り南口から徒歩約8分 ● 地下鉄南北線・東豊線さっぽろ駅10番出口から徒歩約4分 ● 地下鉄南北線・東西線・東豊線大通駅2番出口から徒歩約9分」"
+          "原文要旨": "「アクセス ● JR札幌駅西通り南口から徒歩約8分 ● 地下鉄南北線・東豊線さっぽろ駅10番出口から徒歩約4分 ● 地下鉄南北線・東西線・東豊線大通駅2番出口から徒歩約9分」",
+          "ライセンス": "赤れんが庁舎（北海道）公式サイト記載の抜粋（出典明記）"
         },
         {
-          "标题": "所在地／庁舎のご案内 - 北海道",
+          "标题": "庁舎案内 - 北海道",
           "URL": "https://www.pref.hokkaido.lg.jp/chosha/",
-          "原文要旨": "「最寄駅 JR札幌駅西通り南口から徒歩約8分 地下鉄南北線さっぽろ駅出口から徒歩約6分 地下鉄東豊線さっぽろ駅出口から徒歩約8分 地下鉄南北線・東西線・東豊線大通駅出口から徒歩約9分」"
+          "原文要旨": "「最寄駅 JR札幌駅西通り南口から徒歩約8分 地下鉄南北線さっぽろ駅出口から徒歩約6分 地下鉄東豊線さっぽろ駅出口から徒歩約8分 地下鉄南北線・東西線・東豊線大通駅出口から徒歩約9分」",
+          "ライセンス": "北海道庁 庁舎案内ページ記載の抜粋（出典明記）"
         }
       ]
     },
@@ -369,20 +844,29 @@
         "英文": "The official site prices the three coach bays at 1,100 yen per hour plus 550 yen for each further 30 minutes and accepts cashless payment. The Clock Tower, by contrast, has no parking and asks visitors to use nearby paid lots.",
         "中文": "官网标明大型巴士停车场（3个车位）收费为每小时1,100日元、每超过30分钟加收550日元，并支持信用卡、交通IC、二维码等无现金支付。札幌市钟楼则无停车场，官网提示“请就近使用收费停车场”。"
       },
+      "住所": "札幌市中央区北3条西6丁目1番地",
       "电话": "011-206-8390",
-      "营业": "赤れんが庁舎の開館時間に準ずる",
+      "営業時間": "赤れんが庁舎の開館時間に準ずる",
+      "料金": "大型バス駐車場（3台）：1時間当たり1,100円、30分を超えるごとに550円追加（キャッシュレス決済対応）",
       "官网": "https://www.hokkaido-redbrick.jp/",
-      "介绍页": null,
+      "介绍页": {
+        "日文": "https://www.hokkaido-redbrick.jp/（大型バス駐車場・キャッシュレス決済）",
+        "時計台（駐車場なしの記載）": "https://sapporoshi-tokeidai.jp/inspect/guide.php"
+      },
+      "言語注記": "料金は公式サイト表記どおり。時計台側に駐車場が無い旨もあわせて記録した。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
-          "标题": "赤れんが庁舎 公式サイト（料金・決済情報）",
+          "标题": "赤れんが庁舎（北海道庁旧本庁舎）公式サイト",
           "URL": "https://www.hokkaido-redbrick.jp/",
-          "原文要旨": "「大型バス駐車場(3台)：1時間当たり1,100円 30分を超えるごとに550円の追加料金が発生します」「クレジットカード、交通系IC、QRコードなどの各種キャッシュレス決済をご利用いただけます」"
+          "原文要旨": "「大型バス駐車場(3台)：1時間当たり1,100円 30分を超えるごとに550円の追加料金が発生します」「クレジットカード、交通系IC、QRコードなどの各種キャッシュレス決済をご利用いただけます」",
+          "ライセンス": "赤れんが庁舎（北海道）公式サイト記載の抜粋（出典明記）"
         },
         {
-          "标题": "札幌市時計台 入館案内（駐車場）",
+          "标题": "入館案内 - 札幌市時計台",
           "URL": "https://sapporoshi-tokeidai.jp/inspect/guide.php",
-          "原文要旨": "「駐車場 ありません。近隣の有料駐車場をご使用ください。」"
+          "原文要旨": "「駐車場 ありません。近隣の有料駐車場をご使用ください。」",
+          "ライセンス": "札幌市時計台公式サイト記載の抜粋（出典明記）"
         }
       ]
     }
@@ -390,21 +874,100 @@
   "购物": [
     {
       "名称": {
+        "日文": "二条市場（札幌の台所・seafood and produce arcade）",
+        "英文": "Nijo Market (Sapporo's kitchen: seafood, produce and take-away stalls)",
+        "中文": "二条市场（札幌的厨房·海鲜与生鲜街）"
+      },
+      "距離": "札幌駅から徒歩約10分（公式所在地 中央区南3条東1〜東2丁目。地下歩行空間・チカホ側の出入口からも近い）",
+      "简介": {
+        "日文": "市観光公式サイト：「豊富な海の幸、威勢の良い売り手たちに目を奪われがちですが、買い物を楽しんだ後はふっと背中も振り返ってみましょう。ここは、札幌らしい景色が眺められるイチオシスポット。ビルとビルのあいだに『さっぽろテレビ塔』が、大きく望めます。また麓には、モニュメントが並ぶ創成川公園と穏やかな創成川が流れています」。基本情報：住所 札幌市中央区南3条東1丁目〜東2丁目／営業時間 7:00〜17:00頃（飲食店街は7:00〜21:00頃）※店舗により異なる／定休日 店舗により異なる／電話 011-222-5308／公式サイト https://nijomarket.com/（札幌二条魚町商業協同組合）。組合の公式サイトトップページは 2026-10-22 時点で「札幌二条魚町商業協同組合を騙る不審な電話が多発しております。当組合ではお客様へお電話による海産物の販売は行っておりませんので…」という注意喚起を掲載しています（市場の営業案内はこのトップページには含まれていませんでした）。",
+        "英文": "The city tourism site recommends turning around after shopping: between the buildings the Sapporo TV Tower looms large, and below it runs the Soseigawa canal with its sculpture-lined park. Basics: Minami 3-jo Higashi 1 to Higashi 2-chome, Chuo-ku; open about 7:00-17:00 (the eating houses until about 21:00), varying by shop; tel 011-222-5308; the market association's own site is nijomarket.com. When we opened that site on 22 October 2026 its home page carried only a fraud warning - that the Sapporo Nijo Uromachi Cooperative is being impersonated by telephone sellers of seafood and that the association never sells by phone - with no trading information on the page, so hours are quoted from the tourism site.",
+        "中文": "市观光网站写道：这里常让人被丰富的海产与叫卖声吸引，但购物之余不妨回过头看看——在两栋楼之间可近距眺望「札幌电视塔」，其下是排列着纪念碑的创成川公园与平缓流淌的创成川，是极具札幌景色的推荐景点。基本信息：札幌市中央区南3条东1丁目至东2丁目／营业时间 约7:00—17:00（餐饮街约7:00—21:00），各店不同／定休日 各店不同／电话 011-222-5308／官网 nijomarket.com（札幌二条鱼町商业协同组合）。该组合官网首页在2026年10月22日时仅刊载「近期多发冒称札幌二条鱼町商业协同组合的可疑电话，本组合不会通过电话向顾客销售海产品…」的提醒，页面未包含市场营业信息，故营业时间引自市观光官网。"
+      },
+      "住所": "札幌市中央区南3条東1丁目〜東2丁目",
+      "电话": "011-222-5308（公式観光サイト記載）",
+      "営業時間": "7:00〜17:00頃（飲食店街は7:00〜21:00頃）※店舗により異なる",
+      "料金": "各店舗の商品・飲食代のみ（入場無料）",
+      "官网": "https://nijomarket.com/",
+      "介绍页": {
+        "日文": "https://www.sapporo.travel/spot/facility/nijo_fish_market/（市観光公式サイト 基本情報・景色の案内）"
+      },
+      "言語注記": "市観光公式サイト・組合サイトとも日本語表記。English／中文は当倉庫の人手執筆。組合サイトは営業案内を含まない注意喚起のみであったため、営業時間・電話は市観光公式サイト側を引用しています。",
+      "検証日": "2026-10-22",
+      "出典": [
+        {
+          "标题": "二条市場｜観光施設｜ようこそさっぽろ",
+          "URL": "https://www.sapporo.travel/spot/facility/nijo_fish_market/",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "豊富な海の幸、威勢の良い売り手たちに目を奪われがちですが、買い物を楽しんだ後はふっと背中も振り返ってみましょう。ここは、札幌らしい景色が眺められるイチオシスポット。ビルとビルのあいだに「さっぽろテレビ塔」が、大きく望めます。また麓には、モニュメントが並ぶ創成川公園と穏やかな創成川が流れています。／住所 札幌市中央区南3条東1丁目〜東2丁目／営業時間 7時〜17時頃（飲食店街は7時〜21時頃）※店舗により異なる／定休日 店舗により異なる／電話 011-222-5308／公式サイト https://nijomarket.com/"
+        },
+        {
+          "标题": "札幌二条魚町商業協同組合 公式サイト（トップページ掲出の注意喚起）",
+          "URL": "https://nijomarket.com/",
+          "ライセンス": "組合公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "札幌二条魚町商業協同組合を騙る不審な電話が多発しております。当組合ではお客様へお電話による海産物の販売は行っておりませんので、この類の不審な電話にはくれぐれもご注意くださいますようお願い申し上げます。（2026-10-22 時点でトップページ本文は この注意喚起が中心でした）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "白い恋人パーク（チョコレート工場見学・体験・ショップ）",
+        "英文": "Shiroi Koibito Park (chocolate factory, workshops and shops)",
+        "中文": "白色恋人公园（巧克力工厂参观·体验·商店）"
+      },
+      "距離": "札幌駅から地下鉄大通駅→宮の沢方面（公式所在地 西区宮の沢2-2-11-36。中心部からやや西）",
+      "简介": {
+        "日文": "市観光公式サイト掲載の情報：『白い恋人』にお絵描きできる体験などが楽しめる「スイーツワークショップ・ドリームキッチン」では、自分だけのオリジナルスイーツを作ることができ、おすすめの「私の白い恋人お絵描きコース」では約14センチのハート型のクッキーに絵や文字でオリジナルの『白い恋人』を作れます。基本情報：住所 札幌市西区宮の沢2-2-11-36／営業時間 10:00〜18:00（※有料エリア入館受付は16:30まで）／定休日 不定休／料金 有料エリア入館料 一般／大人（高校生以上）800円、小人（4歳〜中学生以下）400円、幼児（3歳以下）無料。※無料エリア有（中庭やショップ・ピカデリーなどの売店）／電話 011-666-1481（白い恋人パーク総合案内）。",
+        "英文": "Listed on the city tourism site: the Sweets Workshop Dream Kitchen lets visitors make their own treats, with the recommended \"Draw my Shiroi Koibito\" course producing a heart-shaped biscuit about 14 cm decorated with your own picture or message. Basics: Miyanozawa 2-2-11-36, Nishi-ku; 10:00-18:00 (paid-area admission accepted until 16:30); irregular closing days; paid-area entry 800 yen for adults and high-school students, 400 yen for ages 4 to junior high, free for age 3 and under, with free-access areas (courtyard, Piccadilly shop and other outlets); tel 011-666-1481 (general information).",
+        "中文": "据市观光官方网站刊载：「甜点工坊·Dream Kitchen」提供在『白色恋人』上作画的体验，可亲手制作专属甜点，推荐的「我的白色恋人绘画课程」可在约14厘米的心形饼干上以图案或文字完成原创『白色恋人』。基本信息：札幌市西区宫之泽2-2-11-36／营业时间 10:00—18:00（※收费区域入馆受理至16:30）／定休日 不定期休／费用 收费区域入馆费：成人（高中生以上）800日元、儿童（4岁至初中生以下）400日元、幼儿（3岁及以下）免费。※设有免费区域（中庭及Piccadilly等商店）／电话 011-666-1481（白色恋人公园总咨询台）。"
+      },
+      "住所": "札幌市西区宮の沢2-2-11-36",
+      "电话": "011-666-1481（白い恋人パーク総合案内／公式観光サイト記載）",
+      "営業時間": "10:00〜18:00（有料エリア入館受付は16:30まで）／定休日 不定休",
+      "料金": "有料エリア入館料 大人（高校生以上）800円・小人（4歳〜中学生以下）400円・幼児（3歳以下）無料／無料エリア（中庭・売店）あり",
+      "官网": "https://www.sapporo.travel/spot/facility/shiroi_koibito_park/",
+      "介绍页": {
+        "日文": "https://www.sapporo.travel/spot/facility/shiroi_koibito_park/（市観光公式サイト 基本情報・体験コース）"
+      },
+      "言語注記": "市観光公式サイト（日本語）の記載を原文摘録。English／中文は当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
+      "出典": [
+        {
+          "标题": "白い恋人パーク｜観光施設｜ようこそさっぽろ",
+          "URL": "https://www.sapporo.travel/spot/facility/shiroi_koibito_park/",
+          "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+          "原文要旨": "『白い恋人』にお絵描きできる体験などが楽しめる「スイーツワークショップ・ドリームキッチン」。自分だけのオリジナルスイーツを作ることができるのがうれしい。おすすめの「私の白い恋人お絵描きコース」では、約14センチのハート型のクッキーに絵や文字でオリジナルの『白い恋人』を作ることができます。／住所 札幌市西区宮の沢2-2-11-36／営業時間 10:00〜18:00 ※有料エリア入館受付は16:30まで／定休日 不定休／料金 ■有料エリア入館料 一般料金／大人(高校生以上)800円、小人（4歳〜中学生以下）400円、幼児(3歳以下)無料 ※無料エリア有（中庭やショップ・ピカデリーなどの売店）／電話 011-666-1481（白い恋人パーク総合案内）"
+        }
+      ]
+    },
+    {
+      "名称": {
         "日文": "北海道どさんこプラザ札幌店",
         "英文": "Hokkaido Dosanko Plaza Sapporo (regional specialty and souvenir shop)",
         "中文": "北海道dosanko plaza札幌店（土产与地方特产）"
       },
-      "種别": "土産・特産品",
-      "所在地": "札幌市北区北6条西4丁目 JR札幌駅西コンコース北口",
+      "距離": "JR札幌駅 西コンコース北口（『北海道さっぽろ「食と観光」情報館』内）",
+      "简介": {
+        "日文": "市が「食と観光」情報館ページの館内施設一覧で公表する記載：「北海道どさんこプラザ札幌店｜道内各地の特産品・土産品を販売｜011-213-5053｜8時30分～20時｜年中無休」。市のページに記載された機能・電話・利用時間・定休日のみをそのまま記録し、店舗の自社サイトは本加精で開いていない。",
+        "英文": "Hokkaido Dosanko Plaza Sapporo is listed in the city's own table of facilities inside the Food and Tourism Information Building: it sells regional specialities and souvenirs from across Hokkaido, tel 011-213-5053, open 8:30-20:00, closed on no fixed day. The shop's own website was not opened in this pass, so only the values published by the city are recorded (the Japanese table row is quoted verbatim in the citation list).",
+        "中文": "札幌市在“食与观光”情报馆页面的馆内设施一览中公布的记载：「北海道どさんこプラザ札幌店｜道内各地の特産品・土産品を販売｜011-213-5053｜8時30分～20時｜年中無休」。本记录仅照录市政府页面所列的功能、电话、使用时间与定休日，未打开该店铺自身网站。"
+      },
+      "住所": "札幌市北区北6条西4丁目 JR札幌駅西コンコース北口",
       "电话": "011-213-5053",
-      "营业": "8:30〜20:00（年中無休）",
+      "営業時間": "8:30〜20:00（年中無休）",
+      "料金": null,
       "官网": null,
-      "介绍页": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
+      "介绍页": {
+        "日文": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html（館内施設一覧）"
+      },
+      "言語注記": "定休日の表記も市公表どおり（例：いこ〜るは「12月31日～1月3日」）。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
           "标题": "北海道さっぽろ「食と観光」情報館 - 札幌市",
           "URL": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
-          "原文要旨": "「北海道どさんこプラザ札幌店｜道内各地の特産品・土産品を販売｜011-213-5053｜8時30分～20時｜年中無休」"
+          "原文要旨": "「北海道どさんこプラザ札幌店｜道内各地の特産品・土産品を販売｜011-213-5053｜8時30分～20時｜年中無休」",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）"
         }
       ]
     },
@@ -414,17 +977,28 @@
         "英文": "Genki Shop Ikōru (goods made by disability workshops)",
         "中文": "元气商店「ikōru」（残障人士工坊手作）"
       },
-      "種别": "福祉商品販売",
-      "所在地": "札幌市北区北6条西4丁目 JR札幌駅西コンコース北口",
+      "距離": "JR札幌駅 西コンコース北口（『北海道さっぽろ「食と観光」情報館』内）",
+      "简介": {
+        "日文": "市が「食と観光」情報館ページの館内施設一覧で公表する記載：「元気ショップ「いこ〜る」｜障がい者の作業所および施設で作られたぬくもりある手作り作品を展示・販売｜011-213-5063｜10時～19時｜12月31日～1月3日」。市のページに記載された機能・電話・利用時間・定休日のみをそのまま記録し、店舗の自社サイトは本加精で開いていない。",
+        "英文": "Genki Shop Ikoru appears in the city's table of facilities inside the Food and Tourism Information Building: it exhibits and sells handmade goods produced by workshops and facilities for people with disabilities, tel 011-213-5063, open 10:00-19:00, closed 31 December - 3 January. The shop's own website was not opened in this pass, so only the values published by the city are recorded (the Japanese table row is quoted verbatim in the citation list).",
+        "中文": "札幌市在“食与观光”情报馆页面的馆内设施一览中公布的记载：「元気ショップ「いこ〜る」｜障がい者の作業所および施設で作られたぬくもりある手作り作品を展示・販売｜011-213-5063｜10時～19時｜12月31日～1月3日」。本记录仅照录市政府页面所列的功能、电话、使用时间与定休日，未打开该店铺自身网站。"
+      },
+      "住所": "札幌市北区北6条西4丁目 JR札幌駅西コンコース北口",
       "电话": "011-213-5063",
-      "营业": "10:00〜19:00（12月31日〜1月3日を除く）",
+      "営業時間": "10:00〜19:00（12月31日〜1月3日を除く）",
+      "料金": null,
       "官网": null,
-      "介绍页": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
+      "介绍页": {
+        "日文": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html（館内施設一覧）"
+      },
+      "言語注記": "定休日の表記も市公表どおり（例：いこ〜るは「12月31日～1月3日」）。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
           "标题": "北海道さっぽろ「食と観光」情報館 - 札幌市",
           "URL": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
-          "原文要旨": "「元気ショップ「いこ〜る」｜障がい者の作業所および施設で作られたぬくもりある手作り作品を展示・販売｜011-213-5063｜10時～19時｜12月31日～1月3日」"
+          "原文要旨": "「元気ショップ「いこ〜る」｜障がい者の作業所および施設で作られたぬくもりある手作り作品を展示・販売｜011-213-5063｜10時～19時｜12月31日～1月3日」",
+          "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）"
         }
       ]
     },
@@ -434,17 +1008,28 @@
         "英文": "Akarenga Shop (in the former government office)",
         "中文": "红砖厅舍商店（旧北海道厅内）"
       },
-      "種别": "施設物販",
-      "所在地": "札幌市中央区北3条西6丁目1番地（赤れんが庁舎内）",
+      "距離": "JR札幌駅 西通り南口から徒歩約8分（赤れんが庁舎館内）",
+      "简介": {
+        "日文": "赤れんが庁舎公式サイトが館内ショップと、そこで扱われている書籍（『北加伊道(ほっかいどう)』）に言及する。開館時間・休館日は庁舎本页と同じ（8:45〜21:00、最終入館20:30）。",
+        "英文": "The Akarenga (former Hokkaido Government Office) official site refers to its in-building shop and to titles sold there, including the book Hokkaido (Ho-kai-do). Opening and closing follow the building itself: 8:45-21:00, last entry 20:30.",
+        "中文": "赤砖厅舍（旧北海道厅）官网提及馆内商店及在售书刊（如《北加伊道(ほっかいどう)》），营业与休馆安排与本馆一致（8:45–21:00，最终入馆20:30）。"
+      },
+      "住所": "札幌市中央区北3条西6丁目1番地（赤れんが庁舎内）",
       "电话": "011-206-8390",
-      "营业": "赤れんが庁舎の開館時間に準ずる（8:45〜21:00、最終入館20:30）",
+      "営業時間": "赤れんが庁舎の開館時間に準ずる（8:45〜21:00、最終入館20:30）",
+      "料金": null,
       "官网": "https://www.hokkaido-redbrick.jp/",
-      "介绍页": null,
+      "介绍页": {
+        "日文": "https://www.hokkaido-redbrick.jp/（開館時間・館内ショップ・アクセス）"
+      },
+      "言語注記": "ショップ単独の公式ページは未取得のため、庁舎本页の記載で記録した。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
-          "标题": "赤れんが庁舎 公式サイト（お知らせ欄）",
+          "标题": "赤れんが庁舎（北海道庁旧本庁舎）公式サイト",
           "URL": "https://www.hokkaido-redbrick.jp/",
-          "原文要旨": "「赤れんがショップで販売中の『北加伊道(ほっかいどう)』」とショップでの販売に言及。開館時間・休館日は同一ページに記載。"
+          "原文要旨": "「赤れんがショップで販売中の『北加伊道(ほっかいどう)』」とショップでの販売に言及。開館時間・休館日は同一ページに記載。",
+          "ライセンス": "赤れんが庁舎（北海道）公式サイト記載の抜粋（出典明記）"
         }
       ]
     }
@@ -456,73 +1041,212 @@
         "英文": "HOUSE.H (café on the first floor of the Akarenga Office)",
         "中文": "HOUSE.H（红砖厅舍一层）"
       },
-      "種别": "飲食（施設内）",
-      "所在地": "札幌市中央区北3条西6丁目1番地 赤れんが庁舎1階",
+      "距離": "JR札幌駅 西通り南口から徒歩約8分（赤れんが庁舎1階）",
+      "简介": {
+        "日文": "赤れんが庁舎公式サイトのお知らせが「赤れんが庁舎1階 HOUSE.H では、北海道産食材を使い…」と紹介し、月替わりの告知（例：10月のおすすめワイン）を掲載している。店単体の営業時間は公式サイトで確認できなかったため null とし、参考値として庁舎の開館時間（8:45〜21:00、最終入館20:30）を添えた。",
+        "英文": "Notices on the Akarenga official site introduce HOUSE.H on the ground floor as a restaurant using Hokkaido-produced ingredients, with monthly features such as an October wine recommendation. The restaurant's own opening hours could not be confirmed from an official page, so the field stays null and only the building's hours (8:45-21:00, last entry 20:30) are given as a reference.",
+        "中文": "赤砖厅舍官网公告介绍位于一层的HOUSE.H使用北海道产食材，并按月发布推荐信息（如10月推荐葡萄酒）。该店自身的营业时间未能在官方页面确认，因此留空，仅列出展馆开放时间（8:45–21:00，最终入馆20:30）作为参考。"
+      },
+      "住所": "札幌市中央区北3条西6丁目1番地 赤れんが庁舎1階",
       "电话": "011-206-8390",
-      "营业": "営業時間は公式サイトのお知らせで告知（庁舎の開館は8:45〜21:00）",
+      "営業時間": null,
+      "料金": null,
       "官网": "https://www.hokkaido-redbrick.jp/",
-      "介绍页": null,
+      "介绍页": {
+        "日文": "https://www.hokkaido-redbrick.jp/（お知らせ：館内レストランの紹介）"
+      },
+      "言語注記": "店独自の営業時間は未取得（null）。 English／中文は公式日本語表記にもとづく当倉庫の人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-22",
       "出典": [
         {
-          "标题": "赤れんが庁舎 公式サイト（お知らせ欄）",
+          "标题": "赤れんが庁舎（北海道庁旧本庁舎）公式サイト",
           "URL": "https://www.hokkaido-redbrick.jp/",
-          "原文要旨": "「✨HOUSE.H 10月のおすすめワイン✨ 赤れんが庁舎1階 HOUSE.H では、北海道産食材を使…」と、同店が北海道産食材を使う店として公式サイトのお知らせに掲載されている。個別の営業時間は未取得。"
+          "原文要旨": "「✨HOUSE.H 10月のおすすめワイン✨ 赤れんが庁舎1階 HOUSE.H では、北海道産食材を使…」と、同店が北海道産食材を使う店として公式サイトのお知らせに掲載されている。個別の営業時間は未取得。",
+          "ライセンス": "赤れんが庁舎（北海道）公式サイト記載の抜粋（出典明記）"
         }
       ]
     }
   ],
   "无障碍": {
-    "信息": "赤れんが庁舎は「お手伝いを必要とされる方は、地下1階南側出入口のスロープにお越しいただきインターホン…」と公式サイトで案内し、入館料は障がい者等無料（要証明書）。札幌市時計台は「玄関部に多少の段差がありますので正面門横のインターフォンで係員にご連絡ください。館内には2階昇降用の専用リフトがあります」とし、手帳所持者と介護者1名（車椅子使用者の場合は2名まで）が無料、障害者手帳アプリ「ミライロID」も利用可。JR札幌駅構内の北海道ユニバーサル観光センター・札幌（070-5289-8631、9:30〜17:30、年中無休）が車いす・ベビーカーの貸出しと道内全域のバリアフリー観光相談を行っている。",
+    "信息": {
+      "日文": "地下鉄（札幌市交通局公式）：地下鉄では全ての駅にバリアフリートイレ（車椅子対応身障者用トイレ）を設置。エレベーターやバリアフリートイレの利用マナーを案内する専用ページがあり、車椅子の通行確保のためユニバーサルシート（おむつ替えシート）使用後は必ずたたむよう案内しています。各駅の構内図PDFにはエレベーター／エスカレーター／オストメイト・車いす対応身障者用トイレ／ベビーチェア等が表記され、交通局「バリアフリー対応状況」ページで路線別（南北線・東西線・東豊線）に確認できます。また「ホームと車両の段差隙間の縮小整備について」の取組みが新着情報に掲載されています。／赤れんが庁舎（北海道公式）：お手伝いを必要とされる方は地下1階南側出入口のスロープへ（インターフォンを押して入館）。障がい者手帳・療育手帳・精神障がい者保健福祉手帳の提示で手帳所持者と介護者1名が無料（車椅子使用者の場合は2名まで）。／大通公園（公式管理サイト）：インフォメーションセンターで車椅子の無料貸出し（営業時間中のみ・冬季不可・身分証明が必要）、車椅子対応水飲み場は各丁目、多目的トイレは3・5・7・9・11丁目に設置。／さっぽろテレビ塔：障がい者割引（大人・高校生600円、小・中学生300円）を公式料金として掲載。／北海道さっぽろ観光案内所（JR札幌駅西コンコース）：日本語・英語・中国語・韓国語対応のスタッフが常駐し、開花情報やスキー場情報など季節情報を提供（無休・8:30〜20:00）。／駅構内の貸出窓口（北海道ユニバーサル観光センター・札幌＝JR札幌駅西コンコース北口『北海道さっぽろ「食と観光」情報館』内）：手動車いす・ベビーカー共通で当日（8時間以内）1,000円／1泊2日2,000円／2泊3日3,000円／3泊4日4,000円、電動車いすWHILLは当日4,000円（雪道走行は禁止）。経験豊富なボランティアによるバリアフリー旅行・観光の無料相談も同窓口。市公表の営業時間は9:30〜17:30（年中無休）ですが、センター公式は2026年11月1日から10:00〜17:00への変更を告知しています。",
+      "英文": "Subway (City Transportation Bureau): every subway station has an accessible (wheelchair) toilet, and the bureau publishes a page on etiquette for lifts and accessible toilets, asking that the universal/nappy-change seat be folded after use so wheelchair users can enter and leave. Station plan PDFs mark elevators, escalators, ostomate-and-wheelchair toilets and baby chairs, and the bureau's line-by-line barrier-free status pages (Nanboku, Tozai, Toho) list the equipment per station; its news also covers work to reduce the gap and step between platform and train. Former Hokkaido Government Office (Akarenga): visitors needing help should use the ramp at the basement-1 south entrance and press the interphone; holders of disability, welfare or mental-health booklets plus one carer (up to two for wheelchair users) enter free. Odori Park: free wheelchair loan at the Information Centre (opening hours only, not in winter, ID needed), wheelchair-height drinking fountains on each block and multi-purpose toilets at West 3, 5, 7, 9 and 11. Sapporo TV Tower lists a disability discount (600 yen adults/high school, 300 yen pupils). The tourist information centre in JR Sapporo Station's west concourse has staff speaking Japanese, English, Chinese and Korean and is open 8:30-20:00 every day. / In-station rental desk (Hokkaido Universal Tourism Center Sapporo, inside the Food and Tourism Information Building at the north gate of JR Sapporo Station's west concourse): manual wheelchair and stroller share the same rate - 1,000 yen for the day (up to 8 hours), 2,000 yen overnight, 3,000 yen for two nights, 4,000 yen for three nights - and the electric WHILL wheelchair costs 4,000 yen for the day (no driving on snow); experienced volunteers also give free barrier-free travel advice. The city lists the desk as 9:30-17:30, open all year, while the centre's own notice changes it to 10:00-17:00 from 1 November 2026.",
+      "中文": "地铁（札幌市交通局官方）：地铁所有车站均设无障碍厕所（轮椅对应身障者用厕所），并设有专门页面说明电梯与无障碍厕所的使用礼仪，其中要求使用ユニバーサルシート（换尿布座椅）后务必折起，以免轮椅使用者无法进出。各站站内图PDF标注电梯、扶梯、带造口袋对应与轮椅对应的身障者厕所、婴儿座椅等，可在交通局「无障碍对应状况」页面按线路（南北线·东西线·东丰线）逐站确认；官网新消息亦刊载「关于缩小站台与车辆间高差与间隙的整备」。赤砖厅舍（北海道官方）：需要协助者请到地下一层南侧出入口的坡道，按对讲机入馆；持残疾人手册、疗育手册、精神障碍者保健福利手册者及1名护理人免费（轮椅使用者可为2名）。大通公园：咨询中心免费出借轮椅（仅限营业时间内、冬季不可、需身份证明），各丁目设轮椅对应饮水台，3·5·7·9·11丁目设多功能厕所。札幌电视塔：官网列明残障优惠（成人·高中生600日元、中小学生300日元）。JR札幌站西大厅的北海道札幌观光案内所配备可对应日·英·中·韩的工作人员，提供花期与滑雪场等季节信息（无休·8:30—20:00）。／站内租借窗口（北海道Universal观光中心·札幌，位于JR札幌站西大厅北口“食与观光”情报馆内）：手动轮椅与婴儿车同费率，当日8小时内1,000日元、一晚两天2,000日元、两晚三天3,000日元、三晚四天4,000日元；电动轮椅WHILL当日4,000日元（禁止雪路面行驶）。资深志愿者同时提供无障碍旅游免费咨询。市政府公布其营业时间为9:30–17:30（全年无休），但该中心官网公告自2026年11月1日起改为10:00–17:00。"
+    },
     "出典": [
       {
-        "标题": "赤れんが庁舎 公式サイト",
-        "URL": "https://www.hokkaido-redbrick.jp/",
-        "原文要旨": "「障がい者等 無料※」「●お手伝いを必要とされる方は、地下1階南側出入口のスロープにお越しいただきインターホン…」"
+        "标题": "エレベーターやバリアフリートイレのご利用について｜札幌市交通局（FAQ）",
+        "URL": "https://www.city.sapporo.jp/st/faq/barrierfree.html",
+        "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）",
+        "原文要旨": "地下鉄では、全ての駅にバリアフリートイレ（車椅子対応身障者用トイレ）を設置しております。当該トイレへの利用者集中や長時間利用など不適正な利用を…エレベーターやバリアフリートイレのご利用について／ユニバーサルシート（おむつ替えシート）を出しっぱなしにすると、車椅子の方などが出入りできなくなる恐れがあります。ご退室の際は必ずシートをたたんでください。"
       },
       {
-        "标题": "札幌市時計台 入館案内",
-        "URL": "https://sapporoshi-tokeidai.jp/inspect/guide.php",
-        "原文要旨": "「車椅子でのご利用 玄関部に多少の段差がありますので正面門横のインターフォンで係員にご連絡ください。館内には2階昇降用の専用リフトがあります」「障がい者手帳、療育手帳又は精神障がい者保健福祉手帳提示により手帳所持者と介護者1名（車椅子使用者の場合は2名まで）が無料となります(障害者手帳アプリ｢ミライロID｣の利用ができます)」"
+        "标题": "バリアフリー対応状況｜札幌市交通局",
+        "URL": "https://www.city.sapporo.jp/st/subway/barrier-free/barrier-free.html",
+        "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）",
+        "原文要旨": "バリアフリー対応状況（市営交通＞交通局の取組み＞地下鉄を安心して利用できるための取組み＞バリアフリー関係）：南北線・東豊線などの駅名一覧と、エレベーター・車いす対応身障者用トイレ・ベビー関連設備の対応状況を表形式で掲載（さっぽろ駅は南北線・東豊線の両欄に掲出）。"
+      },
+      {
+        "标题": "市営交通／札幌市交通局（トップページ・料金案内／福祉割引定期券の問合せ先）",
+        "URL": "https://www.city.sapporo.jp/st/",
+        "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）",
+        "原文要旨": "新着情報：「ホームと車両の段差隙間の縮小整備について」2026年10月14日／「令和8年10月30日（金曜日）東豊線の特別ダイヤ運行について」ほか、路線図・構内図・時刻表・SAPICAへの導線。"
+      },
+      {
+        "标题": "国指定重要文化財 北海道庁旧本庁舎（赤れんが庁舎）公式サイト（開館時間・入館料・アクセス・バリアフリー）",
+        "URL": "https://www.hokkaido-redbrick.jp/",
+        "ライセンス": "北海道公式サイト記載の抜粋（出典明記）",
+        "原文要旨": "お手伝いを必要とされる方は、地下1階南側出入口のスロープにお越しいただきインターフォンを押してご入館ください。※障がい者手帳、療育手帳又は精神障がい者保健福祉手帳提示により手帳所持者と介護者1名（車椅子使用者の場合は2名まで）が無料となります。※入館料金の減免に別途申請書の提出が必要な場合もありますので詳しくはお問合せください。"
+      },
+      {
+        "标题": "大通公園（公式管理サイト）｜バリアフリーについて ほか",
+        "URL": "https://odori-park.jp/",
+        "ライセンス": "施設公式サイト記載の抜粋（出典明記）",
+        "原文要旨": "バリアフリーについて：インフォメーションセンターで車椅子を無料でお貸ししています（営業時間中のみ、冬季は不可、身分証明をご用意ください）。また、車椅子対応水飲み場は各丁目に、多目的トイレは3、5、7、9、11丁目に設置してあります。"
+      },
+      {
+        "标题": "さっぽろテレビ塔｜観光施設｜観光スポット｜ようこそさっぽろ（札幌市観光物産連盟＝市観光公式サイト）",
+        "URL": "https://www.sapporo.travel/spot/facility/sapporo_tv_tower/",
+        "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+        "原文要旨": "障がい者割引 大人（高校生以上）600円、小・中学生300円／一般料金 大人（高校生以上）1,200円、小・中学生600円、幼児（小学生未満）無料。"
+      },
+      {
+        "标题": "観光案内｜旅のお役立ち（各案内所の住所・営業時間・電話を一覧化）｜ようこそさっぽろ",
+        "URL": "https://www.sapporo.travel/info/about/informationcenter/",
+        "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+        "原文要旨": "北海道さっぽろ観光案内所／対応言語：日本語、英語、中国語、韓国語／●北海道さっぽろ観光案内所 8:30〜20:00 ※チケット及びグッズの販売は19:45まで／定休日 無休／問い合わせ 電話 011-213-5088。"
+      },
+      {
+        "标题": "Home - 北海道・札幌／車いす・ベビーカーレンタル",
+        "URL": "https://www.npohut.net/",
+        "原文要旨": "「札幌駅で車いす（手動・電動）とベビーカーをレンタルしています」「レンタル料金A（手動車いす・ベビーカー共通）／当日（8時間以内）：1,000円／1泊2日：2,000円／2泊3日：3,000円／3泊4日：4,000円」「レンタル料金B（電動車いす『WHILL』）／当日（8時間以内）：4,000円」「経験豊富なボランティアがバリアフリー旅行や観光の無料相談」「11月1日より営業時間変更（2026年10月17日付）」",
+        "ライセンス": "NPO法人北海道ユニバーサルツーリズム推進協議会公式サイト記載の抜粋（出典明記）"
       },
       {
         "标题": "北海道さっぽろ「食と観光」情報館 - 札幌市",
         "URL": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
-        "原文要旨": "「北海道ユニバーサル観光センター・札幌 車いす・ベビーカーのレンタルサービスを提供。道内全域のバリアフリー観光情報を発信。相談スタッフも配置。070-5289-8631 9時30分～17時30分 年中無休」"
+        "原文要旨": "「北海道ユニバーサル観光センター・札幌｜車いす・ベビーカーのレンタルサービスを提供。道内全域のバリアフリー観光情報を発信。相談スタッフも配置。｜070-5289-8631｜9時30分～17時30分｜年中無休」",
+        "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）"
       }
     ]
   },
   "车站信息": {
-    "地址": "札幌市北区北6条西4丁目（駅構内の『北海道さっぽろ「食と観光」情報館』所在地として札幌市が公表）",
-    "开业": null,
-    "特記": "JR札幌駅は、北海道と札幌市が連携して駅構内に設置した観光発信拠点『北海道さっぽろ「食と観光」情報館』（西コンコース北口）に、多言語対応の観光案内所・観光ボランティア・車いす/ベビーカー貸出・外国人向けJRチケットデスクが入居する（札幌市公式ページの記載による）。周辺への所要時間は、赤れんが庁舎が西通り南口から徒歩約8分、札幌市時計台が南口から徒歩約10分（各公式サイト表記）。",
+    "日文": "札幌駅（さっぽろえき）／北海道札幌市北区北6条西4丁目（市観光公式サイトが案内所の所在地として掲出する「札幌市北区北6条西4丁目 JR札幌駅西コンコース」は当駅の所在地表記と一致）。JR北海道の函館本線・千歳線・札沼線が乗り入れる道道心駅で、札幌市営地下鉄南北線・東豊線の「さっぽろ」駅が直結、地下鉄さっぽろ〜大通間は札幌駅前通地下歩行空間（チ・カ・ホ、約520m・徒歩約10分）で結ばれます。駅ビル・地下街と直結し、改札内外を問わず歩ける範囲が広い駅です。空港アクセスは快速・特別快速「エアポート」で新千歳空港駅へ日中毎時6本。駅構内の売店・レストラン・ホテル等の施設一覧は、JR北海道公式サイトに駅ページ（例 /station/sapporo/）がなく、本加精では公式原文を取得できていないため記載していません。",
+    "英文": "Sapporo Station (Kita 6-jo Nishi 4-chome, Kita-ku - the address the city tourism site gives for the tourist information centre on the station's west concourse) is JR Hokkaido's main station in the city, served by the Hakodate, Chitose and Sassho main lines, with the subway Sapporo station (Nanboku and Toho lines) directly connected and about 520 m - a ten-minute walk - underground to Odori station along the Chi-Ka-Ho underground walkway. The station is bound up with its station buildings and underground malls, and daytime airport services run at six trains an hour. A list of shops, restaurants and hotels inside the station is not included here: JR Hokkaido's site has no station page at the URL we tried, so no official text could be quoted.",
+    "中文": "札幌站（地址 札幌市北区北6条西4丁目——市观光官网在介绍设于车站西大厅的观光案内所时使用该地址，与本站所在地表記一致）。为JR北海道函馆本线·千岁线·札沼线接入的札幌市中心枢纽站，与地铁南北线·东丰线「さっぽろ」站直结，并经札幌站前通地下步行空间（チ・カ・ホ，约520米、步行约10分钟）连通地铁大通站；站体与车站大楼、地下街相连，付费区内外可步行范围很大。机场交通方面，快速·特别快速「Airport」日间每小时6班开往新千岁机场站。站内商店·餐厅·酒店等设施清单未记载：JR北海道官网未能找到本站的页面（/station/sapporo/ 返回404），本加精未取得可引用的官方原文。",
+    "注記": "上流 eki-wiki の自動層では 札幌駅 は 函馆本线.json・千岁线.json・札沼线.json の3ファイルに同一座標（OSM n4086852685）で収録されており、これは同一実体の複数路線所属として正しい重複です（他県の同名駅混入ではありません）。市観光公式サイト「観光案内」ページは当案内所の所在地を「JR札幌駅西コンコース」と表記しており、駅直結施設であることを支える公式記載として引用しました。",
+    "維基词条": "https://ja.wikipedia.org/wiki/札幌駅",
     "出典": [
       {
-        "标题": "北海道さっぽろ「食と観光」情報館 - 札幌市",
-        "URL": "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
-        "原文要旨": "「観光客や市民への「観光案内」や「食の魅力」の発信拠点として、北海道と札幌市が連携してJR札幌駅構内に設置しています。（住所：札幌市北区北6条西4丁目 JR札幌駅西コンコース北口）」"
+        "标题": "観光案内｜旅のお役立ち（各案内所の住所・営業時間・電話を一覧化）｜ようこそさっぽろ",
+        "URL": "https://www.sapporo.travel/info/about/informationcenter/",
+        "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+        "原文要旨": "北海道さっぽろ観光案内所 住所 札幌市北区北6条西4丁目 JR札幌駅西コンコース／営業時間 8:30〜20:00（※チケット及びグッズの販売は19:45まで）／定休日 無休／問い合わせ 電話 011-213-5088"
+      },
+      {
+        "标题": "料金案内｜札幌市交通局（地下鉄 南北線・東西線・東豊線の駅一覧、交通案内センター 011-232-2277）",
+        "URL": "https://www.city.sapporo.jp/st/ryokin/",
+        "ライセンス": "札幌市公式サイト記載の抜粋（出典明記）",
+        "原文要旨": "＜南北線＞…さっぽろ 大通 すすきの…／＜東豊線＞…北１３条東 さっぽろ 大通 豊水すすきの…（地下鉄さっぽろ駅が南北線・東豊線の両線に属することを公式の駅一覧が示す）"
+      },
+      {
+        "标题": "札幌駅前通地下歩行空間（チ・カ・ホ）｜観光施設｜ようこそさっぽろ",
+        "URL": "https://www.sapporo.travel/spot/facility/chikaho/",
+        "ライセンス": "札幌市観光公式サイト記載の抜粋（出典明記）",
+        "原文要旨": "地下鉄南北線さっぽろ駅と大通駅間の約520メートルをつなぐ地下空間。歩くと約10分。2011年に開通し、JR札幌駅から地下鉄南北線すすきの駅が地下で一直線に結ばれ…"
+      },
+      {
+        "标题": "札幌↔新千歳空港間 快速「エアポート」最速37分／特別快速「エアポート」最速33分｜JR北海道",
+        "URL": "https://www.jrhokkaido.co.jp/airport/",
+        "ライセンス": "JR北海道公式サイト記載の抜粋（出典明記）",
+        "原文要旨": "日中時間帯は特別快速1本・快速3本・区間快速2本の毎時6本運転です。…札幌駅発は3〜15分、新千歳空港駅発は概ね10分間隔で運転しています。"
       }
     ]
   },
   "検索记录": {
-    "使用した検索": [
-      "札幌駅 周辺 観光 公式サイト 札幌市観光案内所",
-      "札幌市時計台 公式サイト 開館時間 住所",
-      "赤れんが庁舎 旧北海道庁 公式サイト pref.hokkaido.lg.jp 見学 時間"
-    ],
-    "実際に開いた出典": [
-      "https://sapporoshi-tokeidai.jp/inspect/guide.php",
+    "使用した出典URL": [
+      "https://www.sapporo.travel/spot/facility/sapporo_tv_tower/",
+      "https://www.sapporo.travel/spot/facility/odori_park/",
+      "https://odori-park.jp/",
+      "https://www.hokkaido-redbrick.jp/",
+      "https://www.sapporo.travel/spot/facility/former_hokkaido_government_office/",
+      "https://www.sapporo.travel/spot/facility/moerenuma_park/",
+      "https://www.sapporo.travel/spot/facility/clock_tower/",
+      "https://sapporoshi-tokeidai.jp/",
+      "https://www.sapporo.travel/event/event-list/sapporo_snow_festival/",
+      "http://www.snowfes.com/",
+      "https://www.sapporo.travel/spot/facility/chikaho/",
+      "https://www.sapporo-chikamichi.jp/",
+      "https://www.sapporo.travel/spot/facility/nijo_fish_market/",
+      "https://nijomarket.com/",
       "https://www.sapporo.travel/info/about/tourist-information-center/",
+      "https://www.sapporo.travel/info/about/informationcenter/",
+      "https://www.sapporo.travel/spot/facility/shiroi_koibito_park/",
+      "https://www.city.sapporo.jp/st/",
+      "https://www.city.sapporo.jp/st/ryokin/",
+      "https://www.city.sapporo.jp/st/josyaken/ryokin/ryoukin.html",
+      "https://www.city.sapporo.jp/st/subway/barrier-free/barrier-free.html",
+      "https://www.city.sapporo.jp/st/faq/barrierfree.html",
+      "https://www.jrhokkaido.co.jp/airport/",
+      "https://www.jrhokkaido.co.jp/fare/pdf/02.pdf",
+      "https://sapporoshi-tokeidai.jp/inspect/guide.php",
+      "https://sapporoshi-tokeidai.jp/usage/schedule.php",
       "https://www.city.sapporo.jp/keizai/kanko/johokan/johokan.html",
+      "https://www.npohut.net/",
       "https://www.pref.hokkaido.lg.jp/chosha/",
-      "https://www.pref.hokkaido.lg.jp/sm/zsk/fm/akarengarenewal/top.html",
-      "https://www.hokkaido-redbrick.jp/"
+      "https://ja.wikipedia.org/wiki/札幌駅"
     ],
-    "未確認": [
-      "大通公園（www.odpark.or.jp）とさっぽろテレビ塔（www.teletower.jp）は本環境からのHTTP接続が失敗（Bad Gateway／curl HTTP=000）し、原文を確認できなかったため未収録。",
-      "警察署・病院・郵便局の個別公式ページは未特定。",
-      "北海道庁旧本庁舎の「一般的な業務時間 8:45-17:30（土日祝休み）」は庁舎案内ページの記載で、赤れんが庁舎（旧庁舎）の見学可能時間とは別枠。見学時間は公式サイト（8:45〜21:00）を採用した。",
-      "札幌駅の开业年份・住居表示は今回実際に開いたページに記載がなかったため null のまま（機械翻訳・推測は行っていません）。"
+    "HTTP検証": "上記31 URLはすべて 2026-10-22 に当倉庫のフェッチスクリプト（curl／User-Agent 明記、-L で追従）で開き、HTTP 200 の本文テキストを読み取ってから引用しました（本文テキスト量：ようこそさっぽろのスポットページ 1,930〜4,226字、案内所一覧 83,974 byte の生HTML→本文抽出、赤れんが庁舎 2,370字、大通公園公式 3,367字、時計台トップ 821字、時計台 入館案内 /inspect/guide.php 2,191字、時計台 ホール利用状況 /usage/schedule.php 3,714字、札幌市「食と観光」情報館ページ 1,747字、北海道庁 庁舎案内 /chosha/ 686字、車いす・ベビーカー貸出センター（npohut.net）2,050字、チ・カ・ホ公式 1,247字、二条市場組合 433字、雪まつり公式 2,115字、札幌市交通局 乗車料金 5,823字・料金案内 1,202字・トップ 1,601字・バリアフリー対応状況／FAQ 各1,000字前後、JR北海道エアポート 718字、運賃PDF 395,007 byte（pdftotext で読取り））。なお本ファイルは同日付の自動生成版（人手検索ラベル）を差し替えたもので、旧版が出典としていながら本文を開いていなかった /inspect/guide.php・/usage/schedule.php・npohut.net・/chosha/・情報館ページを 2026-10-22 に実際に開き直して原文を再摘録しました。https://www.jrhokkaido.co.jp/station/sapporo/ は HTTP 200 を返す Soft-404（/jrherror/404-jrhp.html へ飛ぶ）ため使用していません。",
+    "本文を開かずリンクのみで記載したURL": [],
+    "採用しなかった公式候補": [
+      {
+        "候補": "https://www.jrhokkaido.co.jp/station/sapporo/（JR北海道 札幌駅の駅情報）",
+        "状態": "HTTP 200 を返すが実際は /jrherror/404-jrhp.html（Soft-404）。本文なし",
+        "処置": "駅構内の売店・レストラン・ホテル一覧は記載せず、空港アクセスページ（/airport/）と運賃PDFのみ引用。"
+      },
+      {
+        "候補": "https://www.sapporo.travel/spot/facility/former_hokaido_government_office/（hokaido 表記）",
+        "状態": "HTTP 404（正しくは former_hokkaido_government_office）",
+        "処置": "スペル正しいURLを開いて引用。検索結果が誤スラッグを返す例として記録。"
+      },
+      {
+        "候補": "https://www.city.sapporo.jp/tokeidai/ ・ /odori/ ・ /kotsu/ ・ /kankou/ ・ /shoko/ ・ /park/moerenuma/",
+        "状態": "いずれも HTTP 404（/kankou/ は HTTP 403）",
+        "処置": "市の担当課ページは現行URL（/st/ 系・/shimin/bunkazai/tokeidai.html 等）を探して開き直しました。/kankou/ の403は本加精では回避できず未使用。"
+      },
+      {
+        "候補": "https://www.tv-tower.jp（さっぽろテレビ塔 自社サイト）",
+        "状態": "当サンドボックスから到達不可（DNS解決できず／HTTP 000）",
+        "処置": "テレビ塔は札幌市観光公式サイト（ようこそさっぽろ）のページを引用し、自社サイトの欠如を 言語注記 と本記録に明記。"
+      },
+      {
+        "候補": "https://www.sapporo.travel/en/ ・各施設の多言語ページ",
+        "状態": "本加精では開いていません（English／中文の公式原文は未確認）",
+        "処置": "各レコードの 言語注記 記載どおり、English／中文は当倉庫による人手執筆として区別しました。"
+      },
+      {
+        "候補": "https://www.jrhokkaido.net/（旧ドメイン）",
+        "状態": "到達不可（HTTP 000）",
+        "処置": "現行の jrhokkaido.co.jp のみを引用。"
+      },
+      {
+        "候補": "https://www.city.sapporo.jp/st/fare/ ・/st/station/ ・/st/network/ ・/st/barrierfree/（推測URL）",
+        "状態": "HTTP 404（実際の導線は /st/josyaken/ryokin/ryoukin.html、/st/subway/barrier-free/barrier-free.html、/st/faq/barrierfree.html）",
+        "処置": "公式の料金案内ページ・サイトマップから正しいURLを辿り直して開きました。"
+      },
+      {
+        "候補": "モエレ沼公園の指定管理者サイト（moerenuma.jp 系）",
+        "状態": "本加精で開いていません",
+        "処置": "公園情報は札幌市観光公式サイトのページ（開いているもののみ）を引用し、自社サイトは紹介页欄に不使用の旨を明記。"
+      }
     ],
-    "検証日": "2026-10-22"
+    "未実施": [
+      "札幌駅の1日平均乗車人員・周辺人口（JR北海道の統計ページがSoft-404で取得できず）",
+      "地下鉄さっぽろ駅の構内図PDF（各駅図はPDFで公開されていることを公式ページで確認したが、本加精では当該PDFを開いていない）",
+      "JR運賃表PDFに記載の「改定」の適用日（日付が本文に記載がなく、他の公式ページでも未確認）",
+      "JRタワー・ステラプレイス・エスタ等の駅直結商業施設（自社ドメインが当サンドボックスから到達不可／公式原文なしでは記載しない方針により未収録）",
+      "札幌市水道・ごみ収集・図書館といった生活系便民情報（観光目的の加精範囲として未実施）",
+      "https://www.sapporo.travel/spot/（市観光公式サイトのスポット一覧インデックス）は経路確認のために開いたのみで、記載を引用していないため 使用した出典URL から外した。"
+    ]
   }
 }

@@ -50,5 +50,6 @@ python3 scripts/linegap.py --apply        # 採用した最近傍ギャップ監
 python3 scripts/line_membership.py        # 路線ラベル混在の監査（docs/qa/line_membership.json）
 python3 scripts/coord_flag.py             # 差替え根拠の無い駅を警告のみ付与
 python3 scripts/curate_gen.py --per-cluster 8
+python3 scripts/audit_curated.py 'data/curated/*/*.json'   # 加精層の重複キー・引用URLと開いたURLの対応・英語欄の日本語混入・短文出典を検証
 python3 scripts/make_docs.py              # docs/ と index.json の再生成
 ```

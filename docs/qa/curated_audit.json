@@ -1,0 +1,66 @@
+{
+  "検証日": "2026-10-22",
+  "検証スクリプト": "scripts/audit_curated.py（本ファイルは同一ロジックの一括集計）",
+  "加精層ファイル数": 202,
+  "検索记录スキーマ分布": {
+    "使用した出典URL+未確認+検証日": 182,
+    "(空)": 14,
+    "HTTP検証+使用した出典URL+採用しなかった公式候補+未実施+本文を開かずリンクのみで記載したURL": 4,
+    "使用した検索+実際に開いた出典+未確認+検証日": 2
+  },
+  "人手確認true": {
+    "駅数": 4,
+    "レコード数": 62,
+    "引用URLが未登録の駅": [],
+    "内訳": [
+      {
+        "file": "data/curated/F-北海道/札幌駅.json",
+        "レコード": 29,
+        "開いたURL": 30,
+        "引用URL": 30
+      },
+      {
+        "file": "data/curated/H-中部北陆/松本駅.json",
+        "レコード": 9,
+        "開いたURL": 13,
+        "引用URL": 13
+      },
+      {
+        "file": "data/curated/H-中部北陆/金沢駅.json",
+        "レコード": 12,
+        "開いたURL": 23,
+        "引用URL": 24
+      },
+      {
+        "file": "data/curated/H-中部北陆/高山駅.json",
+        "レコード": 12,
+        "開いたURL": 26,
+        "引用URL": 26
+      }
+    ]
+  },
+  "自動抽出層": {
+    "駅数": 198,
+    "検索记录が空のファイル": 14,
+    "その一覧": [
+      "data/curated/A-东京JR/新宿駅.json",
+      "data/curated/A-东京JR/東京駅.json",
+      "data/curated/A-东京JR/横浜駅.json",
+      "data/curated/A-东京JR/武蔵浦和駅.json",
+      "data/curated/A-东京JR/池袋駅.json",
+      "data/curated/A-东京JR/浦和駅.json",
+      "data/curated/A-东京JR/渋谷駅.json",
+      "data/curated/C-关西JR/三ノ宮駅.json",
+      "data/curated/C-关西JR/京都駅.json",
+      "data/curated/C-关西JR/大津駅.json",
+      "data/curated/C-关西JR/大阪駅.json",
+      "data/curated/C-关西JR/奈良駅.json",
+      "data/curated/C-关西JR/姫路駅.json",
+      "data/curated/C-关西JR/宝塚駅.json"
+    ],
+    "Wikipedia を 引用していながら使用した出典URL に無い駅": 182,
+    "英語欄に日本語を含む駅": 138,
+    "同 該当フィールド数": 260,
+    "15字未満の 简介／原文要旨": 16
+  }
+}
