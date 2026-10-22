@@ -43828,11 +43828,30 @@
    },
    "位置": {
     "坐标": {
-     "纬度": 35.496302,
-     "经度": 134.800001,
-     "出处": "OpenStreetMap n265960889 (public_transport=station,railway=station)"
+     "纬度": 34.837649,
+     "经度": 137.328123,
+     "出处": "OpenStreetMap n8093074248 (public_transport=stop_position,railway=stop)、線内最近駅照合"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 35.496302,
+      "经度": 134.800001,
+      "出处": "OpenStreetMap n265960889 (public_transport=station,railway=station)"
+     },
+     "旧最近平駅距離m": 104399,
+     "新最近平駅距離m": 1066,
+     "結果": "keep-fix",
+     "日付": "2026-10-22",
+     "判定": {
+      "結果": "同名ノードのうち線内に収まるものが存在",
+      "根拠": "このファイル 130 駅中、最も近い他駅（山崎駅）まで 104 km。同名の別路線駅が混入したと判断し、線内の最も近い他駅まで 1 km に収まる正しいノードへ差替え",
+      "疑い閾値m": 100000,
+      "受入閾値m": 10000,
+      "隣接駅中央値m": 1301,
+      "日付": "2026-10-22"
+     }
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/国府駅",
@@ -43864,8 +43883,8 @@
     "文化・公共施設": [
      {
       "名称": {
-       "日文": "上石区コミュニティ消防センター",
-       "英文": null,
+       "日文": "桜田公園",
+       "英文": "Sakurada Park",
        "中文": null
       },
       "类别": {
@@ -43874,15 +43893,15 @@
        "中文": "文化·公共设施"
       },
       "细分": {
-       "日文": "文化施設",
-       "英文": "Cultural facility",
-       "中文": "文化设施"
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
       },
-      "OSM类别": "amenity=community_centre",
-      "距车站m": 257,
+      "OSM类别": "leisure=park",
+      "距车站m": 266,
       "坐标": {
-       "纬度": 35.496552,
-       "经度": 134.802827
+       "纬度": 34.839522,
+       "经度": 137.326308
       },
       "地址": null,
       "官网": null,
@@ -43890,14 +43909,15 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "way/913003891",
+      "OSM编号": "way/258635144",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "池上区公民館",
+       "日文": "上宿第１集会所",
        "英文": null,
        "中文": null
       },
@@ -43912,10 +43932,10 @@
        "中文": "文化设施"
       },
       "OSM类别": "amenity=community_centre",
-      "距车站m": 501,
+      "距车站m": 287,
       "坐标": {
-       "纬度": 35.493695,
-       "经度": 134.80451
+       "纬度": 34.839048,
+       "经度": 137.330761
       },
       "地址": null,
       "官网": null,
@@ -43923,14 +43943,15 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "way/923087516",
+      "OSM编号": "way/261546787",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "国府地区コミュニティセンター",
+       "日文": "国府東地区市民館",
        "英文": null,
        "中文": null
       },
@@ -43945,10 +43966,10 @@
        "中文": "文化设施"
       },
       "OSM类别": "amenity=community_centre",
-      "距车站m": 506,
+      "距车站m": 312,
       "坐标": {
-       "纬度": 35.491767,
-       "经度": 134.800464
+       "纬度": 34.837225,
+       "经度": 137.331501
       },
       "地址": null,
       "官网": null,
@@ -43956,16 +43977,323 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "way/857165736",
+      "OSM编号": "way/263499417",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "久保児童遊園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 383,
+      "坐标": {
+       "纬度": 34.836165,
+       "经度": 137.331914
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/722661842",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "上宿区民館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 487,
+      "坐标": {
+       "纬度": 34.839037,
+       "经度": 137.333182
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/384595899",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "おおいけ広場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 524,
+      "坐标": {
+       "纬度": 34.840316,
+       "经度": 137.33285
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568475790",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西赤土公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 539,
+      "坐标": {
+       "纬度": 34.837384,
+       "经度": 137.33402
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1052438626",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "おおいけ散策路",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 617,
+      "坐标": {
+       "纬度": 34.839828,
+       "经度": 137.334341
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568475791",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "かけした公園",
+       "英文": "Kakeshita Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 654,
+      "坐标": {
+       "纬度": 34.843076,
+       "经度": 137.325358
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/382566880",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "くすのき公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 747,
+      "坐标": {
+       "纬度": 34.840763,
+       "经度": 137.335376
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/384595886",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "弘法山公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 892,
+      "坐标": {
+       "纬度": 34.831183,
+       "经度": 137.322344
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/61783808",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      }
     ],
     "買い物・商店街": [
      {
       "名称": {
-       "日文": "スマイル",
+       "日文": "MEGAドン・キホーテUNY",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 200,
+      "坐标": {
+       "纬度": 34.838787,
+       "经度": 137.32643
+      },
+      "地址": null,
+      "官网": "http://www.donki.com/store/shop_detail.php?shop_id=476",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 533 88 6111",
+      "开放时间": null,
+      "OSM编号": "way/207121104",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "キャンドゥ",
        "英文": null,
        "中文": null
       },
@@ -43980,10 +44308,10 @@
        "中文": "商铺"
       },
       "OSM类别": "shop=variety_store",
-      "距车站m": 211,
+      "距车站m": 229,
       "坐标": {
-       "纬度": 35.494597,
-       "经度": 134.80103
+       "纬度": 34.838063,
+       "经度": 137.325667
       },
       "地址": null,
       "官网": null,
@@ -43991,15 +44319,16 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "node/5500030240",
+      "OSM编号": "node/11627144801",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "ミニストップ 日高西芝店",
-       "英文": "MINISTOP",
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
        "中文": null
       },
       "类别": {
@@ -44013,26 +44342,129 @@
        "中文": "商铺"
       },
       "OSM类别": "shop=convenience",
-      "距车站m": 278,
+      "距车站m": 279,
       "坐标": {
-       "纬度": 35.493842,
-       "经度": 134.800565
+       "纬度": 34.83916,
+       "经度": 137.330561
       },
       "地址": null,
       "官网": null,
       "维基百科": null,
       "Wikidata": null,
-      "电话": null,
+      "电话": "+81 533 87 7676",
+      "开放时间": null,
+      "OSM编号": "way/1052438641",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ヤマナカ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 520,
+      "坐标": {
+       "纬度": 34.839933,
+       "经度": 137.323154
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 533 88 3360",
+      "开放时间": null,
+      "OSM编号": "way/207134450",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ローソン",
+       "英文": "LAWSON",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 718,
+      "坐标": {
+       "纬度": 34.831421,
+       "经度": 137.330195
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 533 87 3944",
       "开放时间": "24/7",
-      "OSM编号": "node/5500030238",
+      "OSM编号": "node/2206297989",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "ミニストップ",
-       "英文": "Ministop",
+       "日文": "フレッシュマートマルイチ 八幡店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 775,
+      "坐标": {
+       "纬度": 34.83993,
+       "经度": 137.336143
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/3835630162",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ファミリーマート",
+       "英文": "FamilyMart",
        "中文": null
       },
       "类别": {
@@ -44046,10 +44478,10 @@
        "中文": "商铺"
       },
       "OSM类别": "shop=convenience",
-      "距车站m": 325,
+      "距车站m": 782,
       "坐标": {
-       "纬度": 35.4934,
-       "经度": 134.800392
+       "纬度": 34.842994,
+       "经度": 137.32255
       },
       "地址": null,
       "官网": null,
@@ -44057,82 +44489,85 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "way/900721837",
+      "OSM编号": "way/208511769",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "V・drug 豊川八幡店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=chemist",
+      "距车站m": 804,
+      "坐标": {
+       "纬度": 34.839461,
+       "经度": 137.336655
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/722794574",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "業務スーパー",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 823,
+      "坐标": {
+       "纬度": 34.843215,
+       "经度": 137.322174
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/256450442",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      }
     ],
     "便民公共服务": [
      {
       "名称": {
-       "日文": "豊岡南警察署上石駐在所",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "行政警察",
-       "英文": "Town hall / police",
-       "中文": "区政府·警察"
-      },
-      "OSM类别": "amenity=police",
-      "距车站m": 51,
-      "坐标": {
-       "纬度": 35.496532,
-       "经度": 134.800488
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/1423091353",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "上石簡易郵便局",
-       "英文": "Ageshi Summary Post Office",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "郵便局",
-       "英文": "Post office",
-       "中文": "邮局"
-      },
-      "OSM类别": "amenity=post_office",
-      "距车站m": 54,
-      "坐标": {
-       "纬度": 35.496287,
-       "经度": 134.800592
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81-796-42-3426",
-      "开放时间": "Mo-Fr 09:00-17:00",
-      "OSM编号": "node/1423049101",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "尾松内科クリニック",
+       "日文": "アート歯科",
        "英文": null,
        "中文": null
       },
@@ -44146,11 +44581,11 @@
        "英文": "Medical",
        "中文": "医疗"
       },
-      "OSM类别": "amenity=clinic",
-      "距车站m": 166,
+      "OSM类别": "amenity=dentist",
+      "距车站m": 60,
       "坐标": {
-       "纬度": 35.494841,
-       "经度": 134.800357
+       "纬度": 34.837809,
+       "经度": 137.328749
       },
       "地址": null,
       "官网": null,
@@ -44158,14 +44593,83 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "node/5500030241",
+      "OSM编号": "node/2671407441",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "アカバ運輸株式会社",
+       "日文": "国府歯科医院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 62,
+      "坐标": {
+       "纬度": 34.837212,
+       "经度": 137.327698
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/258111195",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "辻村調剤薬局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 63,
+      "坐标": {
+       "纬度": 34.837786,
+       "经度": 137.328788
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/2671407600",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "東宝交通",
        "英文": null,
        "中文": null
       },
@@ -44180,10 +44684,10 @@
        "中文": "政务办公"
       },
       "OSM类别": "office=company",
-      "距车站m": 241,
+      "距车站m": 73,
       "坐标": {
-       "纬度": 35.494256,
-       "经度": 134.800873
+       "纬度": 34.837058,
+       "经度": 137.327776
       },
       "地址": null,
       "官网": null,
@@ -44191,14 +44695,49 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "way/1303392331",
+      "OSM编号": "way/258110935",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "宮島薬品株式会社",
+       "日文": "医療法人仁斎会 国府病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 77,
+      "坐标": {
+       "纬度": 34.83833,
+       "经度": 137.328287
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1280054188",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "(有)タカシマプロジェクト",
        "英文": null,
        "中文": null
       },
@@ -44213,10 +44752,10 @@
        "中文": "政务办公"
       },
       "OSM类别": "office=company",
-      "距车站m": 359,
+      "距车站m": 88,
       "坐标": {
-       "纬度": 35.493084,
-       "经度": 134.80038
+       "纬度": 34.836953,
+       "经度": 137.327661
       },
       "地址": null,
       "官网": null,
@@ -44224,14 +44763,15 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "way/641784931",
+      "OSM编号": "node/11627144865",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "株式会社メルティバス",
+       "日文": "(株)フクヤマ",
        "英文": null,
        "中文": null
       },
@@ -44246,10 +44786,10 @@
        "中文": "政务办公"
       },
       "OSM类别": "office=company",
-      "距车站m": 432,
+      "距车站m": 160,
       "坐标": {
-       "纬度": 35.492475,
-       "经度": 134.800843
+       "纬度": 34.836757,
+       "经度": 137.326751
       },
       "地址": null,
       "官网": null,
@@ -44257,14 +44797,15 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "way/900721834",
+      "OSM编号": "node/11627144785",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "八坂神社",
+       "日文": "ケアイロ",
        "英文": null,
        "中文": null
       },
@@ -44274,15 +44815,15 @@
        "中文": "便民公共服务"
       },
       "细分": {
-       "日文": "その他公共",
-       "英文": "Other public amenity",
-       "中文": "其他公共设施"
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
       },
-      "OSM类别": "amenity=place_of_worship",
-      "距车站m": 501,
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 161,
       "坐标": {
-       "纬度": 35.497483,
-       "经度": 134.805341
+       "纬度": 34.836706,
+       "经度": 137.326782
       },
       "地址": null,
       "官网": null,
@@ -44290,14 +44831,15 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "node/5500032246",
+      "OSM编号": "node/11627144784",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "須賀神社",
+       "日文": "医療法人鳳紀会 可知病院",
        "英文": null,
        "中文": null
       },
@@ -44307,15 +44849,15 @@
        "中文": "便民公共服务"
       },
       "细分": {
-       "日文": "その他公共",
-       "英文": "Other public amenity",
-       "中文": "其他公共设施"
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
       },
-      "OSM类别": "amenity=place_of_worship",
-      "距车站m": 680,
+      "OSM类别": "amenity=hospital",
+      "距车站m": 172,
       "坐标": {
-       "纬度": 35.496999,
-       "经度": 134.807459
+       "纬度": 34.837257,
+       "经度": 137.326297
       },
       "地址": null,
       "官网": null,
@@ -44323,47 +44865,15 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "way/923085512",
+      "OSM编号": "way/207123654",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "水生山 長楽寺",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "その他公共",
-       "英文": "Other public amenity",
-       "中文": "其他公共设施"
-      },
-      "OSM类别": "amenity=place_of_worship",
-      "距车站m": 720,
-      "坐标": {
-       "纬度": 35.502462,
-       "经度": 134.802463
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "way/1355355497",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "但馬石材株式会社",
+       "日文": "ニチイ",
        "英文": null,
        "中文": null
       },
@@ -44378,10 +44888,10 @@
        "中文": "政务办公"
       },
       "OSM类别": "office=company",
-      "距车站m": 751,
+      "距车站m": 191,
       "坐标": {
-       "纬度": 35.489548,
-       "经度": 134.79998
+       "纬度": 34.836632,
+       "经度": 137.326433
       },
       "地址": null,
       "官网": null,
@@ -44389,14 +44899,253 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "node/6738556802",
+      "OSM编号": "node/11627144787",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "三野神社",
+       "日文": "日本ワイン販売(株)",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=company",
+      "距车站m": 192,
+      "坐标": {
+       "纬度": 34.836597,
+       "经度": 137.32645
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11627144786",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "豊川信用金庫",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 206,
+      "坐标": {
+       "纬度": 34.836298,
+       "经度": 137.326572
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/258122085",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "アイセイ薬局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 208,
+      "坐标": {
+       "纬度": 34.837447,
+       "经度": 137.325856
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/258635104",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "三菱東京UFJ銀行 国府支店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 224,
+      "坐标": {
+       "纬度": 34.836244,
+       "经度": 137.326361
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/258111180",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "杉石歯科クリニック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 245,
+      "坐标": {
+       "纬度": 34.838504,
+       "经度": 137.325651
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/258110932",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "国府接骨院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 254,
+      "坐标": {
+       "纬度": 34.836443,
+       "经度": 137.325756
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/3835629646",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "いとう内科",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 259,
+      "坐标": {
+       "纬度": 34.835481,
+       "经度": 137.329156
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/258110931",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "上宿神社",
        "英文": null,
        "中文": null
       },
@@ -44411,10 +45160,10 @@
        "中文": "其他公共设施"
       },
       "OSM类别": "amenity=place_of_worship",
-      "距车站m": 809,
+      "距车站m": 277,
       "坐标": {
-       "纬度": 35.492124,
-       "经度": 134.807318
+       "纬度": 34.838903,
+       "经度": 137.33074
       },
       "地址": null,
       "官网": null,
@@ -44422,9 +45171,282 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "node/6490351881",
+      "OSM编号": "node/3835629654",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "コニックス（株）",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=company",
+      "距车站m": 288,
+      "坐标": {
+       "纬度": 34.839479,
+       "经度": 137.32589
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/9459402346",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "久保神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 345,
+      "坐标": {
+       "纬度": 34.8369,
+       "经度": 137.331789
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/263499420",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "めい調剤薬局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 420,
+      "坐标": {
+       "纬度": 34.837486,
+       "经度": 137.332716
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/263222510",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "アサヒ薬局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 427,
+      "坐标": {
+       "纬度": 34.840423,
+       "经度": 137.331364
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/3835629651",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "こじま内科クリニック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 431,
+      "坐标": {
+       "纬度": 34.837753,
+       "经度": 137.332844
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/263222509",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "大社神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 439,
+      "坐标": {
+       "纬度": 34.838755,
+       "经度": 137.323511
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/2172838889",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "三河総社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 498,
+      "坐标": {
+       "纬度": 34.836106,
+       "经度": 137.333249
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/277036410",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "妙覚寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 499,
+      "坐标": {
+       "纬度": 34.84068,
+       "经度": 137.332152
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/3835629652",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      }
     ],
@@ -44432,7 +45454,7 @@
      {
       "名称": {
        "日文": "出光",
-       "英文": "Idemitsu",
+       "英文": "Idemitsu Kosan",
        "中文": null
       },
       "类别": {
@@ -44446,10 +45468,10 @@
        "中文": "停车·加油·共享单车"
       },
       "OSM类别": "amenity=fuel",
-      "距车站m": 311,
+      "距车站m": 273,
       "坐标": {
-       "纬度": 35.49751,
-       "经度": 134.803095
+       "纬度": 34.835206,
+       "经度": 137.328396
       },
       "地址": null,
       "官网": null,
@@ -44457,14 +45479,15 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "node/5500032242",
+      "OSM编号": "way/1031960871",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      },
      {
       "名称": {
-       "日文": "出光",
+       "日文": "ENEOS",
        "英文": null,
        "中文": null
       },
@@ -44479,10 +45502,10 @@
        "中文": "停车·加油·共享单车"
       },
       "OSM类别": "amenity=fuel",
-      "距车站m": 317,
+      "距车站m": 525,
       "坐标": {
-       "纬度": 35.497573,
-       "经度": 134.80314
+       "纬度": 34.837076,
+       "经度": 137.333828
       },
       "地址": null,
       "官网": null,
@@ -44490,9 +45513,44 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "node/5658736127",
+      "OSM编号": "way/374104407",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "Esso",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 730,
+      "坐标": {
+       "纬度": 34.842688,
+       "经度": 137.322991
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/208511768",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内最近駅照合で再確定・n8093074248）"
       ]
      }
     ],
@@ -44500,16 +45558,16 @@
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 3,
-    "買い物・商店街": 3,
-    "便民公共服务": 11,
-    "交通接続": 2,
+    "文化・公共施設": 11,
+    "買い物・商店街": 9,
+    "便民公共服务": 26,
+    "交通接続": 3,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "線外疑い",
-    "OSM施設数": 19,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 68,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0,
     "座標注記": {
