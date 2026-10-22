@@ -27608,8 +27608,18 @@
     "日文": "相模線"
    },
    "位置": {
-    "坐标": null,
-    "坐标可用": false
+    "坐标": {
+     "纬度": 35.330938,
+     "经度": 139.406821,
+     "出处": "OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差）"
+    },
+    "坐标可用": true,
+    "坐标来源": {
+     "来源": "OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差）",
+     "出典": null,
+     "取得日": "2026-10-22",
+     "理由": "OSMの駅名表記とeki-wikiの表記が glyphs 差で1対1一致しなかったため、文字正規化／Wiki座標により後補（POIプールも同じ座標基準で抽出）"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/茅ケ崎駅",
@@ -27648,6 +27658,142 @@
    ],
    "分区": {
     "観光・名所案内": [
+     {
+      "名称": {
+       "日文": "茅ヶ崎一里塚",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=attraction",
+      "距车站m": 273,
+      "坐标": {
+       "纬度": 35.333379,
+       "经度": 139.407133
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/514503755",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "平成の一里塚",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 311,
+      "坐标": {
+       "纬度": 35.333699,
+       "经度": 139.407397
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6140214404",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "東海道を200年以上見守ったクロマツ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 317,
+      "坐标": {
+       "纬度": 35.332808,
+       "经度": 139.40419
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6140214403",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "UP-DATE",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=artwork",
+      "距车站m": 374,
+      "坐标": {
+       "纬度": 35.334105,
+       "经度": 139.408205
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6140214405",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
      {
       "名称": {
        "日文": "ラスカ茅ヶ崎",
@@ -28424,9 +28570,1439 @@
       "_title": "マックスバリュエクスプレス"
      }
     ],
-    "文化・公共施設": [],
-    "買い物・商店街": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "市役所前広場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 339,
+      "坐标": {
+       "纬度": 35.333566,
+       "经度": 139.404923
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1095174147",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茅ヶ崎市中央公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 522,
+      "坐标": {
+       "纬度": 35.335619,
+       "经度": 139.406457
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/468564503",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "高砂緑地",
+       "英文": "Takasuna Green Field",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 568,
+      "坐标": {
+       "纬度": 35.325864,
+       "经度": 139.406056
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/493158650",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "北茅ヶ崎公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 831,
+      "坐标": {
+       "纬度": 35.338296,
+       "经度": 139.40845
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/556634978",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "本村四丁目 青少年広場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 890,
+      "坐标": {
+       "纬度": 35.337975,
+       "经度": 139.411493
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/468564506",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     }
+    ],
+    "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "ミニストップ",
+       "英文": "Ministop",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 58,
+      "坐标": {
+       "纬度": 35.331406,
+       "经度": 139.40709
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5369452428",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ファミリーマート",
+       "英文": "FamilyMart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 67,
+      "坐标": {
+       "纬度": 35.331451,
+       "经度": 139.406442
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10166092283",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "長谷川書店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=books",
+      "距车站m": 121,
+      "坐标": {
+       "纬度": 35.33038,
+       "经度": 139.405671
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/12805746113",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "都まんじゅう",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "工房",
+       "英文": "Workshop",
+       "中文": "工坊"
+      },
+      "OSM类别": "craft=confectionery",
+      "距车站m": 197,
+      "坐标": {
+       "纬度": 35.332539,
+       "经度": 139.405898
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10182190077",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ブックオフ",
+       "英文": "Book Off",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=books",
+      "距车站m": 221,
+      "坐标": {
+       "纬度": 35.330221,
+       "经度": 139.404548
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/9226028621",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ダイソー",
+       "英文": "Daiso",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=variety_store",
+      "距车站m": 253,
+      "坐标": {
+       "纬度": 35.332328,
+       "经度": 139.40461
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/7963175884",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "イオンスタイル湘南茅ヶ崎",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 472,
+      "坐标": {
+       "纬度": 35.334699,
+       "经度": 139.40924
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/658411177",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ハンズビー",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=variety_store",
+      "距车站m": 518,
+      "坐标": {
+       "纬度": 35.334872,
+       "经度": 139.40988
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13165059787",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "スリーエフ",
+       "英文": "Three-F",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 818,
+      "坐标": {
+       "纬度": 35.32636,
+       "经度": 139.399769
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "24/7",
+      "OSM编号": "node/2068012495",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ローソン",
+       "英文": "Lawson",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 837,
+      "坐标": {
+       "纬度": 35.324702,
+       "经度": 139.411985
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1158589696",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "マックスバリュエキスプレス",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 838,
+      "坐标": {
+       "纬度": 35.332441,
+       "经度": 139.415876
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "24/7",
+      "OSM编号": "node/6142184033",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     }
+    ],
     "便民公共服务": [
+     {
+      "名称": {
+       "日文": "在宅介護支援センターふれあい北口ケアセンター",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 82,
+      "坐标": {
+       "纬度": 35.331637,
+       "经度": 139.40711
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1655907101",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "地域生活支援センター元町の家",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 155,
+      "坐标": {
+       "纬度": 35.332193,
+       "经度": 139.407554
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1655907859",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "遠藤歯科医院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 156,
+      "坐标": {
+       "纬度": 35.32969,
+       "经度": 139.406041
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4540277923",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "神奈川銀行",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 160,
+      "坐标": {
+       "纬度": 35.329535,
+       "经度": 139.406405
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/692190573",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "在宅介護支援センター茅ケ崎駅前ケアプラザ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 212,
+      "坐标": {
+       "纬度": 35.32911,
+       "经度": 139.407471
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1655907704",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "中南信用金庫",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 255,
+      "坐标": {
+       "纬度": 35.333207,
+       "经度": 139.406423
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1112865123",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "薬局みらい",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 291,
+      "坐标": {
+       "纬度": 35.333551,
+       "经度": 139.40675
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6165734994",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "池原内科クリニック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 311,
+      "坐标": {
+       "纬度": 35.333729,
+       "经度": 139.407065
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6165735001",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "共恵歯科診療所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 318,
+      "坐标": {
+       "纬度": 35.328632,
+       "经度": 139.404741
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4546573626",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "湘南ふれあいの園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 368,
+      "坐标": {
+       "纬度": 35.334136,
+       "经度": 139.40577
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1655918363",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茅ヶ崎中央病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 380,
+      "坐标": {
+       "纬度": 35.334217,
+       "经度": 139.40563
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420822407",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "湘南健康管理クリニック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 387,
+      "坐标": {
+       "纬度": 35.334388,
+       "经度": 139.406236
+      },
+      "地址": null,
+      "官网": "https://www.fureai-g.or.jp/kensin/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/14113911314",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "円蔵寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 425,
+      "坐标": {
+       "纬度": 35.331734,
+       "经度": 139.40224
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/280422734",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茅ヶ崎市役所",
+       "英文": "Chigasaki City Hall",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 429,
+      "坐标": {
+       "纬度": 35.333857,
+       "经度": 139.403734
+      },
+      "地址": null,
+      "官网": "https://www.city.chigasaki.kanagawa.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-467-821111",
+      "开放时间": "Mo-Fr 08:30-17:00;PH off",
+      "OSM编号": "node/1420832492",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "湘南ふれあいの国ナーシングホーム元町",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 432,
+      "坐标": {
+       "纬度": 35.333998,
+       "经度": 139.409748
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1655918341",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茅ヶ崎海岸郵便局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 440,
+      "坐标": {
+       "纬度": 35.327055,
+       "经度": 139.407777
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420832596",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "徳洲会茅ヶ崎徳洲会総合病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 533,
+      "坐标": {
+       "纬度": 35.33086,
+       "经度": 139.412693
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420822430",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "共恵内科クリニック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=clinic",
+      "距车站m": 544,
+      "坐标": {
+       "纬度": 35.327228,
+       "经度": 139.402919
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4547313226",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茅ヶ崎サザン神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 584,
+      "坐标": {
+       "纬度": 35.327095,
+       "经度": 139.402431
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4547332540",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "中海岸交番",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 628,
+      "坐标": {
+       "纬度": 35.326383,
+       "经度": 139.40272
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1305061690",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "渡辺特殊食品",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=company",
+      "距车站m": 717,
+      "坐标": {
+       "纬度": 35.335609,
+       "经度": 139.412265
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6165735050",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "堀越医院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 788,
+      "坐标": {
+       "纬度": 35.326489,
+       "经度": 139.400057
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4547342069",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ニッショウケアサービス",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 799,
+      "坐标": {
+       "纬度": 35.336059,
+       "经度": 139.413006
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6165735073",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茅ケ崎警察署",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 834,
+      "坐标": {
+       "纬度": 35.337561,
+       "经度": 139.402512
+      },
+      "地址": null,
+      "官网": "https://www.police.pref.kanagawa.jp/ps/chigasaki/",
+      "维基百科": "ja:茅ケ崎警察署",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11617173",
+      "电话": "+81 467 82 0110",
+      "开放时间": null,
+      "OSM编号": "way/1305745059",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "八王子神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 838,
+      "坐标": {
+       "纬度": 35.336855,
+       "经度": 139.412541
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/280422733",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茅ヶ崎恵泉教会",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 844,
+      "坐标": {
+       "纬度": 35.326342,
+       "经度": 139.399415
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/2068013559",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
      {
       "名称": {
        "日文": "茅ヶ崎市立病院",
@@ -28995,6 +30571,380 @@
     "交通接続": [
      {
       "名称": {
+       "日文": "サイカパークラスカ茅ヶ崎店南口自転車駐車場シェアST",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 120,
+      "坐标": {
+       "纬度": 35.329884,
+       "经度": 139.406542
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11038362001",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茅ヶ崎市営 幸町自転車駐車場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 197,
+      "坐标": {
+       "纬度": 35.32953,
+       "经度": 139.40814
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11038361813",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "新栄町第二自転車駐車場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 318,
+      "坐标": {
+       "纬度": 35.33174,
+       "经度": 139.40346
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11038361812",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茅ヶ崎東海岸商店会 駐車場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 401,
+      "坐标": {
+       "纬度": 35.327464,
+       "经度": 139.407994
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11038361335",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブンイレブン 茅ヶ崎高砂通店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 423,
+      "坐标": {
+       "纬度": 35.327212,
+       "经度": 139.405874
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13722830822",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "apollostation",
+       "英文": "apollostation",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 472,
+      "坐标": {
+       "纬度": 35.332043,
+       "经度": 139.401803
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 467 86 4428",
+      "开放时间": "24/7",
+      "OSM编号": "node/5338223562",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茅ヶ崎中央公園",
+       "英文": "Chigasaki Central Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 554,
+      "坐标": {
+       "纬度": 35.335609,
+       "经度": 139.404694
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11038361796",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ファミリーマート 茅ケ崎東海岸北店",
+       "英文": "FamilyMart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 696,
+      "坐标": {
+       "纬度": 35.329724,
+       "经度": 139.414345
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11038361405",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "島忠 ホームズ茅ヶ崎店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 713,
+      "坐标": {
+       "纬度": 35.337001,
+       "经度": 139.409375
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13722789581",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "エネオス",
+       "英文": "ENEOS",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 719,
+      "坐标": {
+       "纬度": 35.336934,
+       "经度": 139.403855
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5274807125",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "湯快爽快ちがさき",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 779,
+      "坐标": {
+       "纬度": 35.337907,
+       "经度": 139.407713
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11038361330",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
        "日文": "国道1号",
        "英文": null,
        "中文": null
@@ -29114,15 +31064,50 @@
       "_title": "茅ヶ崎漁港"
      }
     ],
-    "宿泊": []
+    "宿泊": [
+     {
+      "名称": {
+       "日文": "東横INN湘南茅ヶ崎駅北口",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 322,
+      "坐标": {
+       "纬度": 35.332968,
+       "经度": 139.404285
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/500439005",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 19ノードcentroid（茅ケ崎駅⇄OSM表記差））"
+      ]
+     }
+    ]
    },
    "統計": {
-    "観光・名所案内": 21,
-    "文化・公共施設": 0,
-    "買い物・商店街": 0,
-    "便民公共服务": 18,
-    "交通接続": 4,
-    "宿泊": 0
+    "観光・名所案内": 25,
+    "文化・公共施設": 5,
+    "買い物・商店街": 11,
+    "便民公共服务": 44,
+    "交通接続": 15,
+    "宿泊": 1
    },
    "_駅周辺リンク": [
     [
@@ -29299,8 +31284,8 @@
     ]
    ],
    "データ品質": {
-    "座標": "未得",
-    "OSM施設数": 0,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 58,
     "ウィキ_only数": 43,
     "駅周辺リンク数": 43
    },

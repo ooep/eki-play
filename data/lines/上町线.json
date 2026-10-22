@@ -66369,7 +66369,31 @@
      "经度": 135.454944,
      "出处": "OpenStreetMap n13382483136 (public_transport=station)"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 34.55533,
+      "经度": 135.454944,
+      "出处": "OpenStreetMap n13382483136 (public_transport=station)"
+     },
+     "偏差m": 127629,
+     "根拠": "同名の別県駅と一致していたため、記事座標を基準に再確定",
+     "検証元": "https://ja.wikipedia.org/wiki/石津駅",
+     "旧POOL除去件数": 93,
+     "新POOL件数": 26,
+     "検証日": "2026-10-22",
+     "判定": {
+      "結果": "revert",
+      "根拠": "旧座標のみ線内(5519m≤25000m)、記事座標は122642m=別県の同名駅",
+      "線内中心": [
+       34.597851000000006,
+       135.4860415
+      ],
+      "許容半径m": 25000,
+      "日付": "2026-10-22"
+     },
+     "現POOL件数": 123
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/石津駅",
@@ -66420,172 +66444,8 @@
       "开放时间": null,
       "OSM编号": "node/11425044710",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "歴史のみち 紀州街道",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 303,
-      "坐标": {
-       "纬度": 34.557995,
-       "经度": 135.455627
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/7597117459",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "歴史のみち 紀州街道",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 478,
-      "坐标": {
-       "纬度": 34.559424,
-       "经度": 135.456531
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/7597117457",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "歴史のみち 紀州街道",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 621,
-      "坐标": {
-       "纬度": 34.560378,
-       "经度": 135.457848
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/7597117454",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "歴史のみち 熊野街道",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 624,
-      "坐标": {
-       "纬度": 34.555921,
-       "经度": 135.461725
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/7597117475",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "歴史のみち 熊野街道",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 631,
-      "坐标": {
-       "纬度": 34.554333,
-       "经度": 135.461724
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/7597117467",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -66618,40 +66478,8 @@
       "开放时间": null,
       "OSM编号": "node/7597117466",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "歴史のみち 熊野街道",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 836,
-      "坐标": {
-       "纬度": 34.559027,
-       "经度": 135.462896
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/7597117476",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -66684,7 +66512,8 @@
       "开放时间": null,
       "OSM编号": "node/7597117461",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      }
     ],
@@ -66719,7 +66548,8 @@
       "开放时间": null,
       "OSM编号": "way/1218041092",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -66752,7 +66582,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893426",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -66785,7 +66616,8 @@
       "开放时间": null,
       "OSM编号": "node/11425068784",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -66818,7 +66650,8 @@
       "开放时间": null,
       "OSM编号": "way/974958329",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -66851,7 +66684,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893428",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -66884,7 +66718,8 @@
       "开放时间": null,
       "OSM编号": "way/974958331",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -66917,7 +66752,8 @@
       "开放时间": null,
       "OSM编号": "way/963700672",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -66950,7 +66786,8 @@
       "开放时间": null,
       "OSM编号": "way/1041220676",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -66983,7 +66820,8 @@
       "开放时间": null,
       "OSM编号": "way/534792085",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67016,7 +66854,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893470",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67049,7 +66888,8 @@
       "开放时间": null,
       "OSM编号": "way/1419427740",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67082,7 +66922,8 @@
       "开放时间": null,
       "OSM编号": "way/1533723749",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67115,7 +66956,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893468",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67148,7 +66990,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893421",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67181,7 +67024,8 @@
       "开放时间": null,
       "OSM编号": "way/1009839318",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67214,7 +67058,8 @@
       "开放时间": null,
       "OSM编号": "way/1041220691",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67247,7 +67092,8 @@
       "开放时间": null,
       "OSM编号": "way/558122396",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67280,7 +67126,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893465",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67313,7 +67160,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893417",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67346,7 +67194,8 @@
       "开放时间": null,
       "OSM编号": "way/1041220683",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67379,7 +67228,8 @@
       "开放时间": null,
       "OSM编号": "way/558134529",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67412,7 +67262,8 @@
       "开放时间": null,
       "OSM编号": "way/1531781784",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67445,7 +67296,8 @@
       "开放时间": null,
       "OSM编号": "way/1009123611",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67478,7 +67330,8 @@
       "开放时间": null,
       "OSM编号": "way/1041220687",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67511,7 +67364,8 @@
       "开放时间": null,
       "OSM编号": "way/635895285",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67544,7 +67398,8 @@
       "开放时间": null,
       "OSM编号": "way/558139630",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67577,7 +67432,8 @@
       "开放时间": null,
       "OSM编号": "way/481190146",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67610,7 +67466,8 @@
       "开放时间": null,
       "OSM编号": "way/807861085",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67643,7 +67500,8 @@
       "开放时间": null,
       "OSM编号": "way/807861083",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67676,7 +67534,8 @@
       "开放时间": null,
       "OSM编号": "way/1041220705",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      }
     ],
@@ -67711,40 +67570,8 @@
       "开放时间": null,
       "OSM编号": "way/1009837747",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ローソン",
-       "英文": "Lawson",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 391,
-      "坐标": {
-       "纬度": 34.558451,
-       "经度": 135.452967
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": "24/7",
-      "OSM编号": "node/5584078340",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67777,73 +67604,8 @@
       "开放时间": null,
       "OSM编号": "node/5584059438",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ローソン",
-       "英文": "Lawson",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 504,
-      "坐标": {
-       "纬度": 34.558067,
-       "经度": 135.450563
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": "24/7",
-      "OSM编号": "node/5584059439",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ファミリーマート",
-       "英文": "FamilyMart",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 526,
-      "坐标": {
-       "纬度": 34.559383,
-       "经度": 135.451984
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81-72-280-0721",
-      "开放时间": "24/7",
-      "OSM编号": "node/5584078122",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67876,7 +67638,8 @@
       "开放时间": null,
       "OSM编号": "node/13976211438",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -67909,73 +67672,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728535",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ファミリーマート",
-       "英文": "FamilyMart",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 598,
-      "坐标": {
-       "纬度": 34.559398,
-       "经度": 135.45921
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/13973320816",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "セブン-イレブン",
-       "英文": "7-Eleven",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 607,
-      "坐标": {
-       "纬度": 34.560392,
-       "经度": 135.457438
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81 72 245 0190",
-      "开放时间": "24/7",
-      "OSM编号": "node/3419504999",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68008,139 +67706,8 @@
       "开放时间": null,
       "OSM编号": "node/13996574642",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ローソン",
-       "英文": "Lawson",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 665,
-      "坐标": {
-       "纬度": 34.561105,
-       "经度": 135.453076
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": "24/7",
-      "OSM编号": "node/5581907024",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "セブン-イレブン",
-       "英文": "7-Eleven",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 675,
-      "坐标": {
-       "纬度": 34.552276,
-       "经度": 135.448579
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81-72-266-0626",
-      "开放时间": "24/7",
-      "OSM编号": "node/5581728531",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ローソン",
-       "英文": "Lawson",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 677,
-      "坐标": {
-       "纬度": 34.558515,
-       "经度": 135.461243
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81-72-242-6206",
-      "开放时间": "24/7",
-      "OSM编号": "node/3419505023",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "セブン-イレブン",
-       "英文": "7-Eleven",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 705,
-      "坐标": {
-       "纬度": 34.561168,
-       "经度": 135.451954
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "072-241-2021",
-      "开放时间": "24/7",
-      "OSM编号": "node/9083655797",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68173,7 +67740,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728842",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68206,7 +67774,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728834",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68239,7 +67808,8 @@
       "开放时间": null,
       "OSM编号": "node/14001285366",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      }
     ],
@@ -68274,7 +67844,8 @@
       "开放时间": null,
       "OSM编号": "way/1218041115",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68307,7 +67878,8 @@
       "开放时间": null,
       "OSM编号": "way/1232734005",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68340,7 +67912,8 @@
       "开放时间": null,
       "OSM编号": "node/11435472104",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68373,7 +67946,8 @@
       "开放时间": null,
       "OSM编号": "node/11425034253",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68406,7 +67980,8 @@
       "开放时间": null,
       "OSM编号": "node/11425035826",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68439,7 +68014,8 @@
       "开放时间": null,
       "OSM编号": "node/11425049755",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68472,7 +68048,8 @@
       "开放时间": null,
       "OSM编号": "node/11425031568",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68505,7 +68082,8 @@
       "开放时间": null,
       "OSM编号": "node/11425084672",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68538,7 +68116,8 @@
       "开放时间": null,
       "OSM编号": "node/13971384986",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68571,7 +68150,8 @@
       "开放时间": null,
       "OSM编号": "node/13971369977",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68604,7 +68184,8 @@
       "开放时间": null,
       "OSM编号": "node/13971322478",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68637,7 +68218,8 @@
       "开放时间": null,
       "OSM编号": "node/5584059454",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68670,7 +68252,8 @@
       "开放时间": null,
       "OSM编号": "node/5584059453",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68703,7 +68286,8 @@
       "开放时间": null,
       "OSM编号": "node/5584078341",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68736,7 +68320,8 @@
       "开放时间": null,
       "OSM编号": "node/5584059446",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68769,7 +68354,8 @@
       "开放时间": null,
       "OSM编号": "node/5584240321",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68802,7 +68388,8 @@
       "开放时间": "Mo-Fr 09:00-17:00",
       "OSM编号": "node/5584059449",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68835,7 +68422,8 @@
       "开放时间": null,
       "OSM编号": "node/13996434313",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68868,7 +68456,8 @@
       "开放时间": null,
       "OSM编号": "node/5584059443",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68901,7 +68490,8 @@
       "开放时间": null,
       "OSM编号": "node/5584078129",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68934,7 +68524,8 @@
       "开放时间": null,
       "OSM编号": "node/5584059434",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -68967,7 +68558,8 @@
       "开放时间": null,
       "OSM编号": "node/1422987909",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -69000,7 +68592,8 @@
       "开放时间": null,
       "OSM编号": "node/5584059441",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -69033,7 +68626,8 @@
       "开放时间": null,
       "OSM编号": "node/13976211648",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -69066,7 +68660,8 @@
       "开放时间": null,
       "OSM编号": "node/5584080721",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -69099,7 +68694,8 @@
       "开放时间": null,
       "OSM编号": "way/1536363913",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      }
     ],
@@ -69134,12 +68730,9 @@
       "开放时间": null,
       "OSM编号": "node/11345396868",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
+      ]
      },
      {
       "名称": {
@@ -69171,12 +68764,9 @@
       "开放时间": null,
       "OSM编号": "node/11345396867",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
+      ]
      },
      {
       "名称": {
@@ -69208,12 +68798,9 @@
       "开放时间": null,
       "OSM编号": "node/11036637748",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
+      ]
      },
      {
       "名称": {
@@ -69245,12 +68832,9 @@
       "开放时间": null,
       "OSM编号": "node/13720154973",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
+      ]
      },
      {
       "名称": {
@@ -69282,12 +68866,9 @@
       "开放时间": null,
       "OSM编号": "node/13720154896",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
+      ]
      },
      {
       "名称": {
@@ -69319,12 +68900,9 @@
       "开放时间": null,
       "OSM编号": "node/11036637740",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
+      ]
      },
      {
       "名称": {
@@ -69356,12 +68934,9 @@
       "开放时间": null,
       "OSM编号": "node/13182388536",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
+      ]
      },
      {
       "名称": {
@@ -69393,7 +68968,8 @@
       "开放时间": "24/7",
       "OSM编号": "node/5584078342",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      },
      {
@@ -69426,7 +69002,8 @@
       "开放时间": null,
       "OSM编号": "way/1521091934",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
       ]
      }
     ],
@@ -69461,12 +69038,9 @@
       "开放时间": null,
       "OSM编号": "node/5584078123",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
+      ]
      },
      {
       "名称": {
@@ -69498,27 +69072,24 @@
       "开放时间": null,
       "OSM编号": "node/5581874123",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483136 (public_transport=station)）"
+      ]
      }
     ]
    },
    "統計": {
-    "観光・名所案内": 9,
+    "観光・名所案内": 3,
     "文化・公共施設": 30,
-    "買い物・商店街": 17,
+    "買い物・商店街": 8,
     "便民公共服务": 26,
     "交通接続": 9,
     "宿泊": 2
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "OSM",
-    "OSM施設数": 138,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 123,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },
@@ -87714,7 +87285,31 @@
      "经度": 135.450557,
      "出处": "OpenStreetMap n13382483139 (public_transport=station)"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 34.54988,
+      "经度": 135.450557,
+      "出处": "OpenStreetMap n13382483139 (public_transport=station)"
+     },
+     "偏差m": 443164,
+     "根拠": "同名の別県駅と一致していたため、記事座標を基準に再確定",
+     "検証元": "https://ja.wikipedia.org/wiki/船尾駅",
+     "旧POOL除去件数": 69,
+     "新POOL件数": 1,
+     "検証日": "2026-10-22",
+     "判定": {
+      "結果": "revert",
+      "根拠": "旧座標のみ線内(6829m≤25000m)、記事座標は447794m=別県の同名駅",
+      "線内中心": [
+       34.603061,
+       135.487873
+      ],
+      "許容半径m": 25000,
+      "日付": "2026-10-22"
+     },
+     "現POOL件数": 95
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/船尾駅",
@@ -87752,39 +87347,6 @@
        "中文": "旅游咨询处"
       },
       "OSM类别": "tourism=information",
-      "距车站m": 154,
-      "坐标": {
-       "纬度": 34.549077,
-       "经度": 135.449182
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/7597117461",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "歴史のみち 紀州街道",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
       "距车站m": 418,
       "坐标": {
        "纬度": 34.54712,
@@ -87798,7 +87360,8 @@
       "开放时间": null,
       "OSM编号": "node/7597117460",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -87831,7 +87394,8 @@
       "开放时间": null,
       "OSM编号": "node/11425044710",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      }
     ],
@@ -87866,7 +87430,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893416",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -87899,7 +87464,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893417",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -87932,7 +87498,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893421",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -87965,7 +87532,8 @@
       "开放时间": null,
       "OSM编号": "way/1040616006",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -87998,7 +87566,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893419",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88031,7 +87600,8 @@
       "开放时间": null,
       "OSM编号": "way/1537353482",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88064,7 +87634,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893415",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88097,7 +87668,8 @@
       "开放时间": null,
       "OSM编号": "way/1520563210",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88130,7 +87702,8 @@
       "开放时间": null,
       "OSM编号": "way/558122396",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88163,7 +87736,8 @@
       "开放时间": null,
       "OSM编号": "way/534792085",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88196,7 +87770,8 @@
       "开放时间": null,
       "OSM编号": "way/1532101570",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88229,7 +87804,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893406",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88262,7 +87838,8 @@
       "开放时间": null,
       "OSM编号": "node/14005570533",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88295,7 +87872,8 @@
       "开放时间": null,
       "OSM编号": "way/1537590948",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88328,7 +87906,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893428",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88361,7 +87940,8 @@
       "开放时间": null,
       "OSM编号": "way/963700672",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88394,7 +87974,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893426",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88427,7 +88008,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893470",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88460,7 +88042,8 @@
       "开放时间": null,
       "OSM编号": "way/1419427740",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88493,7 +88076,8 @@
       "开放时间": null,
       "OSM编号": "way/1537814018",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88526,7 +88110,8 @@
       "开放时间": null,
       "OSM编号": "way/1040615980",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88559,7 +88144,8 @@
       "开放时间": null,
       "OSM编号": "way/1040616063",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88592,7 +88178,8 @@
       "开放时间": null,
       "OSM编号": "way/1040615972",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88625,7 +88212,8 @@
       "开放时间": null,
       "OSM编号": "node/11425068784",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88658,7 +88246,8 @@
       "开放时间": null,
       "OSM编号": "way/558134529",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88691,7 +88280,8 @@
       "开放时间": null,
       "OSM编号": "way/1040893468",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88724,7 +88314,8 @@
       "开放时间": null,
       "OSM编号": "way/974958329",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88757,7 +88348,8 @@
       "开放时间": null,
       "OSM编号": "way/1218041092",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88790,7 +88382,8 @@
       "开放时间": null,
       "OSM编号": "way/1041220676",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88823,7 +88416,8 @@
       "开放时间": null,
       "OSM编号": "way/1040616056",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      }
     ],
@@ -88858,7 +88452,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728842",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88891,7 +88486,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728535",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88924,40 +88520,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728834",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "セブン-イレブン",
-       "英文": "7-Eleven",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 322,
-      "坐标": {
-       "纬度": 34.552276,
-       "经度": 135.448579
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81-72-266-0626",
-      "开放时间": "24/7",
-      "OSM编号": "node/5581728531",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -88990,7 +88554,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728756",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89023,7 +88588,8 @@
       "开放时间": null,
       "OSM编号": "node/7081937998",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89056,7 +88622,8 @@
       "开放时间": null,
       "OSM编号": "node/13996574642",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89089,7 +88656,8 @@
       "开放时间": null,
       "OSM编号": "node/14001285366",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      }
     ],
@@ -89124,7 +88692,8 @@
       "开放时间": "Mo-Fr 09:00-15:00",
       "OSM编号": "node/5581728851",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89157,7 +88726,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728739",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89190,7 +88760,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728740",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89223,7 +88794,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728741",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89256,7 +88828,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728742",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89289,7 +88862,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728847",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89322,7 +88896,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728854",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89355,7 +88930,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728846",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89388,7 +88964,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728533",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89421,7 +88998,8 @@
       "开放时间": null,
       "OSM编号": "node/13996493677",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89454,7 +89032,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728856",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89487,7 +89066,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728749",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89520,7 +89100,8 @@
       "开放时间": "Mo-Fr 09:00-17:00",
       "OSM编号": "node/1423014609",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89553,7 +89134,8 @@
       "开放时间": "Mo-Fr 09:00-15:00",
       "OSM编号": "way/1157846141",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89586,7 +89168,8 @@
       "开放时间": null,
       "OSM编号": "node/1422987654",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89619,7 +89202,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728833",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89652,7 +89236,8 @@
       "开放时间": null,
       "OSM编号": "node/5581728751",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89685,7 +89270,8 @@
       "开放时间": null,
       "OSM编号": "way/1521157488",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89718,7 +89304,8 @@
       "开放时间": null,
       "OSM编号": "way/1536363913",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89751,7 +89338,8 @@
       "开放时间": null,
       "OSM编号": "node/13971289723",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89784,7 +89372,8 @@
       "开放时间": null,
       "OSM编号": "node/13996535341",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89817,7 +89406,8 @@
       "开放时间": null,
       "OSM编号": "node/13996554560",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89850,7 +89440,8 @@
       "开放时间": null,
       "OSM编号": "node/13996434313",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89883,7 +89474,8 @@
       "开放时间": null,
       "OSM编号": "node/13998756156",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89916,7 +89508,8 @@
       "开放时间": null,
       "OSM编号": "node/1422987892",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -89949,7 +89542,8 @@
       "开放时间": null,
       "OSM编号": "node/7081921364",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      }
     ],
@@ -89984,7 +89578,8 @@
       "开放时间": null,
       "OSM编号": "way/1521091934",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
       ]
      },
      {
@@ -90017,28 +89612,25 @@
       "开放时间": null,
       "OSM编号": "node/13182411187",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n13382483139 (public_transport=station)）"
+      ]
      }
     ],
     "宿泊": []
    },
    "統計": {
-    "観光・名所案内": 3,
+    "観光・名所案内": 2,
     "文化・公共施設": 30,
-    "買い物・商店街": 8,
+    "買い物・商店街": 7,
     "便民公共服务": 26,
     "交通接続": 2,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "OSM",
-    "OSM施設数": 97,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 95,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },

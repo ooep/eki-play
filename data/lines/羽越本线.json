@@ -3216,8 +3216,19 @@
     "日文": "羽越本線"
    },
    "位置": {
-    "坐标": null,
-    "坐标可用": false
+    "坐标": {
+     "纬度": 37.817658,
+     "经度": 139.178322,
+     "出处": "日本語版ウィキペディア「京ケ瀬駅」座標"
+    },
+    "坐标可用": true,
+    "坐标来源": {
+     "来源": "日本語版ウィキペディア「京ケ瀬駅」座標",
+     "出典": "https://ja.wikipedia.org/wiki/京ケ瀬駅",
+     "記事": "https://ja.wikipedia.org/wiki/京ケ瀬駅",
+     "取得日": "2026-10-22",
+     "理由": "OSM駅ノード表記とeki-wiki表記の glyphs 差（ヶ⇄ケ 等）を1件ずつウィキペディア記事検索で同定し、記事座標±3km内のOSMノードを優先採用"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/京ケ瀬駅",
@@ -3300,7 +3311,42 @@
     ],
     "文化・公共施設": [],
     "買い物・商店街": [],
-    "便民公共服务": [],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "小河原簡易郵便局",
+       "英文": "Kogawara Summary Post Office",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 31,
+      "坐标": {
+       "纬度": 37.817922,
+       "经度": 139.178194
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-250-67-3836",
+      "开放时间": "Mo-Fr 09:00-17:00",
+      "OSM编号": "node/13012861454",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語版ウィキペディア (CC BY-SA 4.0)（後補座標・日本語版ウィキペディア「京ケ瀬駅」座標）"
+      ]
+     }
+    ],
     "交通接続": [
      {
       "名称": {
@@ -3369,7 +3415,7 @@
     "観光・名所案内": 1,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 0,
+    "便民公共服务": 1,
     "交通接続": 2,
     "宿泊": 0
    },
@@ -3388,8 +3434,8 @@
     ]
    ],
    "データ品質": {
-    "座標": "未得",
-    "OSM施設数": 0,
+    "座標": "日本語版ウィキペディア (CC BY-SA 4.0)",
+    "OSM施設数": 1,
     "ウィキ_only数": 3,
     "駅周辺リンク数": 3
    },
@@ -46090,8 +46136,18 @@
     "日文": "羽越本線"
    },
    "位置": {
-    "坐标": null,
-    "坐标可用": false
+    "坐标": {
+     "纬度": 38.55548,
+     "经度": 139.548683,
+     "出处": "OpenStreetMap 4ノードcentroid（鼠ケ関駅⇄OSM表記差）"
+    },
+    "坐标可用": true,
+    "坐标来源": {
+     "来源": "OpenStreetMap 4ノードcentroid（鼠ケ関駅⇄OSM表記差）",
+     "出典": null,
+     "取得日": "2026-10-22",
+     "理由": "OSMの駅名表記とeki-wikiの表記が glyphs 差で1対1一致しなかったため、文字正規化／Wiki座標により後補（POIプールも同じ座標基準で抽出）"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/鼠ケ関駅",
@@ -46127,23 +46183,265 @@
    "分区": {
     "観光・名所案内": [],
     "文化・公共施設": [],
-    "買い物・商店街": [],
-    "便民公共服务": [],
-    "交通接続": [],
-    "宿泊": []
+    "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "ローソン",
+       "英文": "Lawson",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 234,
+      "坐标": {
+       "纬度": 38.554996,
+       "经度": 139.5513
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1487335357",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 4ノードcentroid（鼠ケ関駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "マックスバリュ",
+       "英文": "MaxValu",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 384,
+      "坐标": {
+       "纬度": 38.553361,
+       "经度": 139.552176
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "08:00-22:00",
+      "OSM编号": "way/544781705",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 4ノードcentroid（鼠ケ関駅⇄OSM表記差））"
+      ]
+     }
+    ],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "荘内銀行",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 192,
+      "坐标": {
+       "纬度": 38.557202,
+       "经度": 139.54852
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/544781702",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 4ノードcentroid（鼠ケ関駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "鼠ヶ関郵便局",
+       "英文": "Nezugaseki Post Office",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 231,
+      "坐标": {
+       "纬度": 38.557544,
+       "经度": 139.548392
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:鼠ヶ関郵便局",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11678989",
+      "电话": "+81-235-44-2114",
+      "开放时间": "Mo-Fr 09:00-17:00",
+      "OSM编号": "node/13014787936",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 4ノードcentroid（鼠ケ関駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ツルハドラッグ",
+       "英文": "Tsuruha",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 338,
+      "坐标": {
+       "纬度": 38.553536,
+       "经度": 139.551667
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "09:00-22:00",
+      "OSM编号": "way/544781704",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 4ノードcentroid（鼠ケ関駅⇄OSM表記差））"
+      ]
+     }
+    ],
+    "交通接続": [
+     {
+      "名称": {
+       "日文": "エネオス",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 610,
+      "坐标": {
+       "纬度": 38.56092,
+       "经度": 139.549608
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6053989213",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 4ノードcentroid（鼠ケ関駅⇄OSM表記差））"
+      ]
+     }
+    ],
+    "宿泊": [
+     {
+      "名称": {
+       "日文": "鼠ヶ関キャンプ場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hostel",
+      "距车站m": 459,
+      "坐标": {
+       "纬度": 38.559593,
+       "经度": 139.548253
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1731429853",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 4ノードcentroid（鼠ケ関駅⇄OSM表記差））"
+      ]
+     }
+    ]
    },
    "統計": {
     "観光・名所案内": 0,
     "文化・公共施設": 0,
-    "買い物・商店街": 0,
-    "便民公共服务": 0,
-    "交通接続": 0,
-    "宿泊": 0
+    "買い物・商店街": 2,
+    "便民公共服务": 3,
+    "交通接続": 1,
+    "宿泊": 1
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "未得",
-    "OSM施設数": 0,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 7,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },

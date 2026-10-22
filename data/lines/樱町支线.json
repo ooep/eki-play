@@ -23207,7 +23207,31 @@
      "经度": 129.876544,
      "出处": "OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 32.750687,
+      "经度": 129.876544,
+      "出处": "OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)"
+     },
+     "偏差m": 793856,
+     "根拠": "同名の別県駅と一致していたため、記事座標を基準に再確定",
+     "検証元": "https://ja.wikipedia.org/wiki/桜町駅",
+     "旧POOL除去件数": 114,
+     "新POOL件数": 82,
+     "検証日": "2026-10-22",
+     "判定": {
+      "結果": "revert",
+      "根拠": "旧座標のみ線内(1308m≤25000m)、記事座標は794231m=別県の同名駅",
+      "線内中心": [
+       32.759528,
+       129.867323
+      ],
+      "許容半径m": 25000,
+      "日付": "2026-10-22"
+     },
+     "現POOL件数": 174
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/桜町駅",
@@ -23240,7 +23264,7 @@
       "名称": {
        "日文": "長崎歴史文化博物館",
        "英文": "Nagasaki Museum of History and Culture",
-       "中文": "长崎历史文化博物馆"
+       "中文": null
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -23266,15 +23290,9 @@
       "开放时间": "Mo-Su 08:30-19:00",
       "OSM编号": "way/1458263737",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      },
-      "简介": {
-       "英文": "museum in Nagasaki, Japan"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -23306,7 +23324,8 @@
       "开放时间": null,
       "OSM编号": "node/5356836449",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23339,14 +23358,15 @@
       "开放时间": null,
       "OSM编号": "node/1126669104",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
       "名称": {
        "日文": "Twenty-Six Martyrs Museum",
        "英文": null,
-       "中文": "日本二十六圣人纪念馆"
+       "中文": null
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -23372,19 +23392,9 @@
       "开放时间": "09:00-17:00",
       "OSM编号": "node/6380332926",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "中文": "日本二十六聖人紀念館（日語：日本二十六聖人記念館／にほんにじゅうろくせいじんきねんかん）是天主教會為了表彰紀念日本的殉教二十六聖人，在日本長崎縣長崎市設立的博物館。\n本條目就該紀念館一體設施之「日本二十六聖人紀念聖堂」、「日本二十六聖人紀念碑」等做介紹，以下以「紀念館」、「聖堂」、「紀念碑」等簡稱表述之。",
-       "英文": "The Twenty-Six Martyrs Museum and Monument were built on Nishizaka Hill in Nagasaki, Japan in June 1962 to commemorate the 100th anniversary of the canonization by the Roman Catholic Church of the Christians executed on the site on February 5, 1597. The 26 people, a mixture of 20 native Japanese Christians and six foreign priests (four Spaniards, one Mexican and one Portuguese from India) had been arrested in Kyoto and Osaka on the order of Toyotomi Hideyoshi, the national ruler, for preaching Christianity. They were imprisoned, then later marched through the snow to Nagasaki, so that their ex"
-      },
-      "维基条目原文引用": {
-       "中文": {
-        "链接": "https://zh.wikipedia.org/wiki/日本二十六聖人紀念館",
-        "出典": "中文维基百科 (CC BY-SA 4.0)",
-        "取得日": "2026-10-22"
-       }
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -23416,7 +23426,8 @@
       "开放时间": null,
       "OSM编号": "node/5331266586",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23449,7 +23460,8 @@
       "开放时间": null,
       "OSM编号": "node/5629003460",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23482,7 +23494,8 @@
       "开放时间": "24/7",
       "OSM编号": "node/6244628686",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23502,7 +23515,7 @@
        "中文": "旅游咨询处"
       },
       "OSM类别": "tourism=information",
-      "距车站m": 832,
+      "距车站m": 833,
       "坐标": {
        "纬度": 32.744266,
        "经度": 129.871966
@@ -23515,7 +23528,8 @@
       "开放时间": null,
       "OSM编号": "node/4770388228",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23548,7 +23562,8 @@
       "开放时间": null,
       "OSM编号": "node/4770388233",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23581,7 +23596,8 @@
       "开放时间": null,
       "OSM编号": "node/4770388210",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23614,7 +23630,8 @@
       "开放时间": null,
       "OSM编号": "node/4770388232",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23647,7 +23664,8 @@
       "开放时间": null,
       "OSM编号": "node/4770388136",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23680,7 +23698,8 @@
       "开放时间": null,
       "OSM编号": "node/4770356825",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23713,7 +23732,8 @@
       "开放时间": null,
       "OSM编号": "node/4770356842",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23746,7 +23766,8 @@
       "开放时间": null,
       "OSM编号": "node/4770388182",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23779,7 +23800,8 @@
       "开放时间": null,
       "OSM编号": "node/4769547178",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23812,7 +23834,8 @@
       "开放时间": null,
       "OSM编号": "node/4770356855",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23845,7 +23868,8 @@
       "开放时间": null,
       "OSM编号": "node/4769547151",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23878,7 +23902,8 @@
       "开放时间": null,
       "OSM编号": "node/4770362665",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23911,40 +23936,8 @@
       "开放时间": null,
       "OSM编号": "node/4769547131",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "瓦敷きの側溝",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 855,
-      "坐标": {
-       "纬度": 32.743965,
-       "经度": 129.872093
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/4770356854",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -23977,7 +23970,8 @@
       "开放时间": null,
       "OSM编号": "node/4770388181",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24010,7 +24004,8 @@
       "开放时间": null,
       "OSM编号": "node/4769547223",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24043,7 +24038,42 @@
       "开放时间": null,
       "OSM编号": "node/4769547129",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "瓦敷きの側溝",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 856,
+      "坐标": {
+       "纬度": 32.743965,
+       "经度": 129.872093
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4770356854",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24076,7 +24106,8 @@
       "开放时间": null,
       "OSM编号": "node/4769547132",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24109,7 +24140,8 @@
       "开放时间": null,
       "OSM编号": "node/4770356853",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24142,7 +24174,8 @@
       "开放时间": null,
       "OSM编号": "node/4770356868",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24175,7 +24208,8 @@
       "开放时间": null,
       "OSM编号": "node/4770388180",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24208,7 +24242,8 @@
       "开放时间": null,
       "OSM编号": "way/484294967",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24241,40 +24276,8 @@
       "开放时间": null,
       "OSM编号": "node/4769547210",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "二番蔵",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 860,
-      "坐标": {
-       "纬度": 32.743781,
-       "经度": 129.872391
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/4770356850",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24307,7 +24310,42 @@
       "开放时间": null,
       "OSM编号": "node/4770356851",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "二番蔵",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 861,
+      "坐标": {
+       "纬度": 32.743781,
+       "经度": 129.872391
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4770356850",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24340,7 +24378,8 @@
       "开放时间": null,
       "OSM编号": "node/4770356849",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24373,7 +24412,8 @@
       "开放时间": null,
       "OSM编号": "node/4770362633",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24406,7 +24446,8 @@
       "开放时间": null,
       "OSM编号": "node/4770356852",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24439,7 +24480,8 @@
       "开放时间": null,
       "OSM编号": "node/4770362635",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24472,7 +24514,8 @@
       "开放时间": null,
       "OSM编号": "node/4770362622",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24505,7 +24548,8 @@
       "开放时间": null,
       "OSM编号": "node/4770362652",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24538,7 +24582,8 @@
       "开放时间": null,
       "OSM编号": "node/4770362660",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24571,11 +24616,9 @@
       "开放时间": null,
       "OSM编号": "node/1423800620",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "英文": "museum in Nagasaki, Japan about the history of Dejima"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      }
     ],
     "文化・公共施設": [
@@ -24609,7 +24652,8 @@
       "开放时间": null,
       "OSM编号": "way/960633415",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24642,7 +24686,8 @@
       "开放时间": null,
       "OSM编号": "way/563557193",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24675,7 +24720,8 @@
       "开放时间": null,
       "OSM编号": "way/960633413",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24683,39 +24729,6 @@
        "日文": "長崎市立図書館",
        "英文": null,
        "中文": null
-      },
-      "类别": {
-       "日文": "文化・公共施設",
-       "英文": "Culture & Public Facilities",
-       "中文": "文化·公共设施"
-      },
-      "细分": {
-       "日文": "文化施設",
-       "英文": "Cultural facility",
-       "中文": "文化设施"
-      },
-      "OSM类别": "amenity=library",
-      "距车站m": 252,
-      "坐标": {
-       "纬度": 32.748542,
-       "经度": 129.875669
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "way/714959171",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "長崎市立図書館",
-       "英文": null,
-       "中文": "長崎市立圖書館"
       },
       "类别": {
        "日文": "文化・公共施設",
@@ -24741,19 +24754,9 @@
       "开放时间": null,
       "OSM编号": "node/1423821384",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "中文": "图书馆",
-       "英文": "library in Nagasaki, Japan"
-      },
-      "维基条目原文引用": {
-       "中文": {
-        "链接": "https://www.wikidata.org/wiki/Q11652483",
-        "出典": "Wikidata 中文说明 (CC0)",
-        "取得日": "2026-10-22"
-       }
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -24785,7 +24788,8 @@
       "开放时间": null,
       "OSM编号": "way/960633414",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24818,14 +24822,15 @@
       "开放时间": null,
       "OSM编号": "way/867757828",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
       "名称": {
        "日文": "長崎県立長崎図書館",
        "英文": null,
-       "中文": "長崎縣立長崎圖書館"
+       "中文": null
       },
       "类别": {
        "日文": "文化・公共施設",
@@ -24851,40 +24856,8 @@
       "开放时间": null,
       "OSM编号": "node/1423822076",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "長崎県立長崎図書館",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "文化・公共施設",
-       "英文": "Culture & Public Facilities",
-       "中文": "文化·公共设施"
-      },
-      "细分": {
-       "日文": "文化施設",
-       "英文": "Cultural facility",
-       "中文": "文化设施"
-      },
-      "OSM类别": "amenity=library",
-      "距车站m": 419,
-      "坐标": {
-       "纬度": 32.753051,
-       "经度": 129.880036
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "way/714787935",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24917,7 +24890,8 @@
       "开放时间": null,
       "OSM编号": "way/867757832",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24950,7 +24924,8 @@
       "开放时间": null,
       "OSM编号": "node/7362240836",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -24983,7 +24958,8 @@
       "开放时间": null,
       "OSM编号": "way/963844822",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25016,11 +24992,9 @@
       "开放时间": null,
       "OSM编号": "way/960633416",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "英文": "park in Nagasaki, Nagasaki, Japan"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -25039,7 +25013,7 @@
        "中文": "公园·绿地"
       },
       "OSM类别": "leisure=park",
-      "距车站m": 614,
+      "距车站m": 613,
       "坐标": {
        "纬度": 32.754316,
        "经度": 129.871603
@@ -25052,11 +25026,9 @@
       "开放时间": null,
       "OSM编号": "way/875993473",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "英文": "park in Nagasaki, Nagasaki, Japan"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -25088,7 +25060,8 @@
       "开放时间": null,
       "OSM编号": "way/963844823",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25121,7 +25094,8 @@
       "开放时间": null,
       "OSM编号": "way/867757829",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25154,7 +25128,8 @@
       "开放时间": null,
       "OSM编号": "way/959708103",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25187,12 +25162,9 @@
       "开放时间": null,
       "OSM编号": "way/773897042",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -25224,77 +25196,12 @@
       "开放时间": null,
       "OSM编号": "way/775664405",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
     "買い物・商店街": [
-     {
-      "名称": {
-       "日文": "ローソン",
-       "英文": "Lawson",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 276,
-      "坐标": {
-       "纬度": 32.750537,
-       "经度": 129.879485
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": "24/7",
-      "OSM编号": "node/5776959111",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ローソン",
-       "英文": "Lawson",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 365,
-      "坐标": {
-       "纬度": 32.75126,
-       "经度": 129.880383
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "way/604782781",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
      {
       "名称": {
        "日文": "松翁軒 本店｜創業天和元年・カステラ元祖",
@@ -25325,7 +25232,8 @@
       "开放时间": null,
       "OSM编号": "way/715187252",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25358,73 +25266,8 @@
       "开放时间": "24/7",
       "OSM编号": "node/5258613764",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ローソン",
-       "英文": "Lawson",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 459,
-      "坐标": {
-       "纬度": 32.752532,
-       "经度": 129.872155
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": "24/7",
-      "OSM编号": "node/4883150923",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ファミリーマート",
-       "英文": "FamilyMart",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 484,
-      "坐标": {
-       "纬度": 32.751748,
-       "经度": 129.871521
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": "24/7",
-      "OSM编号": "node/4817893965",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25457,12 +25300,9 @@
       "开放时间": "Mo-Su 10:00-21:00",
       "OSM编号": "way/194531599",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -25494,7 +25334,8 @@
       "开放时间": null,
       "OSM编号": "node/1126453080",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25527,40 +25368,8 @@
       "开放时间": null,
       "OSM编号": "node/13165011101",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ローソン",
-       "英文": "Lawson",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 661,
-      "坐标": {
-       "纬度": 32.74616,
-       "经度": 129.87196
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/5258613769",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25593,7 +25402,8 @@
       "开放时间": null,
       "OSM编号": "node/5242069721",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25626,14 +25436,15 @@
       "开放时间": null,
       "OSM编号": "node/12836730225",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
       "名称": {
        "日文": "ゆめタウン夢彩都",
        "英文": "Youme Town Yumesaito",
-       "中文": "Youme Town夢彩都"
+       "中文": null
       },
       "类别": {
        "日文": "買い物・商店街",
@@ -25659,7 +25470,8 @@
       "开放时间": "Mo-Su 09:00-21:00",
       "OSM编号": "way/255538625",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25692,7 +25504,8 @@
       "开放时间": null,
       "OSM编号": "way/469892797",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25725,7 +25538,8 @@
       "开放时间": null,
       "OSM编号": "node/6380332925",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25758,7 +25572,8 @@
       "开放时间": null,
       "OSM编号": "node/3828530358",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
@@ -25793,7 +25608,8 @@
       "开放时间": null,
       "OSM编号": "way/714787890",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25826,7 +25642,8 @@
       "开放时间": null,
       "OSM编号": "node/1423821819",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25859,14 +25676,15 @@
       "开放时间": null,
       "OSM编号": "node/4459193402",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
       "名称": {
        "日文": "観善寺",
        "英文": null,
-       "中文": "觀善寺"
+       "中文": null
       },
       "类别": {
        "日文": "便民公共服务",
@@ -25892,11 +25710,9 @@
       "开放时间": null,
       "OSM编号": "way/714753471",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "英文": "temple in Nagasaki, Nagasaki"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -25928,11 +25744,9 @@
       "开放时间": null,
       "OSM编号": "node/1423820527",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "英文": "post office in Nagasaki, Japan"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -25964,7 +25778,8 @@
       "开放时间": null,
       "OSM编号": "node/1423800766",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -25997,7 +25812,8 @@
       "开放时间": null,
       "OSM编号": "way/604782784",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26030,7 +25846,8 @@
       "开放时间": null,
       "OSM编号": "node/1423820660",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26063,7 +25880,8 @@
       "开放时间": null,
       "OSM编号": "node/1631223909",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26096,14 +25914,15 @@
       "开放时间": null,
       "OSM编号": "node/1631224088",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
       "名称": {
        "日文": "福済寺",
        "英文": "Fukusaiji Temple",
-       "中文": "福濟寺"
+       "中文": null
       },
       "类别": {
        "日文": "便民公共服务",
@@ -26129,19 +25948,9 @@
       "开放时间": null,
       "OSM编号": "way/496831903",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "中文": "福济寺（福済寺／ふくさいじ），是一間位於日本長崎縣長崎市筑後町的寺庙，屬於黄檗宗，山號是分紫山。1628年（宽永5年）建立，與崇福寺、興福寺並稱「长崎三福寺」，再加上圣福寺合稱為「長崎四福寺」。\n這間寺廟的信徒大多是福建省中部的漳州與泉州出身的華僑，所以也被稱為漳州寺或泉州寺。\n寺廟建築物的本堂（即大雄寶殿）在第二次世界大戰以前被日本政府指定為國寶，但在長崎市原子彈爆炸後全部烧毁。",
-       "英文": "Fukusai-ji (福済寺) is an Ōbaku Zen temple in Nagasaki, Nagasaki, Japan. Its honorary sangō prefix is Bunshizan (分紫山)."
-      },
-      "维基条目原文引用": {
-       "中文": {
-        "链接": "https://zh.wikipedia.org/wiki/福濟寺",
-        "出典": "中文维基百科 (CC BY-SA 4.0)",
-        "取得日": "2026-10-22"
-       }
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -26173,7 +25982,8 @@
       "开放时间": null,
       "OSM编号": "node/1631224062",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26206,7 +26016,8 @@
       "开放时间": null,
       "OSM编号": "node/1631224118",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26239,12 +26050,9 @@
       "开放时间": null,
       "OSM编号": "way/549397906",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -26276,7 +26084,8 @@
       "开放时间": null,
       "OSM编号": "node/1423822396",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26309,7 +26118,8 @@
       "开放时间": null,
       "OSM编号": "node/8843977494",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26342,7 +26152,8 @@
       "开放时间": null,
       "OSM编号": "way/714787937",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26375,7 +26186,8 @@
       "开放时间": null,
       "OSM编号": "way/714959222",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26408,7 +26220,8 @@
       "开放时间": null,
       "OSM编号": "way/715187189",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26441,7 +26254,8 @@
       "开放时间": null,
       "OSM编号": "way/714959075",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26474,7 +26288,8 @@
       "开放时间": null,
       "OSM编号": "way/714959019",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26507,7 +26322,8 @@
       "开放时间": null,
       "OSM编号": "node/1423816378",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26540,12 +26356,9 @@
       "开放时间": "Mo-Su 09:00-17:00",
       "OSM编号": "node/1423804998",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -26577,40 +26390,8 @@
       "开放时间": null,
       "OSM编号": "node/1631213617",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "日本海員掖済会長崎病院",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "医療",
-       "英文": "Medical",
-       "中文": "医疗"
-      },
-      "OSM类别": "amenity=hospital",
-      "距车站m": 596,
-      "坐标": {
-       "纬度": 32.746335,
-       "经度": 129.87282
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/1423805002",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26643,11 +26424,43 @@
       "开放时间": null,
       "OSM编号": "way/544258615",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "英文": "Shinto shrines in Nagasaki Prefecture, Japan"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "福岡銀行　長崎支店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 637,
+      "坐标": {
+       "纬度": 32.745167,
+       "经度": 129.87472
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/714959025",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      }
     ],
     "交通接続": [
@@ -26681,7 +26494,8 @@
       "开放时间": null,
       "OSM编号": "node/4884833201",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
@@ -26716,7 +26530,8 @@
       "开放时间": null,
       "OSM编号": "node/4883157507",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26742,23 +26557,16 @@
        "经度": 129.875094
       },
       "地址": "長崎市筑後町",
-      "官网": null,
+      "官网": "http://kouritu-nagasaki.jp/sainthill/",
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81-95-822-2251",
       "开放时间": null,
       "OSM编号": "node/4443244689",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 404,
-       "確認日": "2026-10-22"
-      },
-      "官网_欠陥": {
-       "リンク切れ": "http://kouritu-nagasaki.jp/sainthill/",
-       "HTTP": 404
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -26777,7 +26585,7 @@
        "中文": "住宿"
       },
       "OSM类别": "tourism=hotel",
-      "距车站m": 245,
+      "距车站m": 244,
       "坐标": {
        "纬度": 32.752189,
        "经度": 129.874635
@@ -26790,7 +26598,8 @@
       "开放时间": null,
       "OSM编号": "node/1626924760",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26823,7 +26632,8 @@
       "开放时间": null,
       "OSM编号": "node/14244999801",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26856,13 +26666,9 @@
       "开放时间": null,
       "OSM编号": "way/714787636",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -26894,7 +26700,8 @@
       "开放时间": null,
       "OSM编号": "node/14267045801",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26927,7 +26734,8 @@
       "开放时间": null,
       "OSM编号": "way/562981635",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -26960,12 +26768,9 @@
       "开放时间": null,
       "OSM编号": "way/562693287",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -26997,12 +26802,9 @@
       "开放时间": null,
       "OSM编号": "way/562693282",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -27034,11 +26836,9 @@
       "开放时间": null,
       "OSM编号": "way/194531598",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "英文": "hotel in Nagasaki, Japan"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -27070,12 +26870,9 @@
       "开放时间": null,
       "OSM编号": "node/12727047151",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -27107,30 +26904,24 @@
       "开放时间": null,
       "OSM编号": "node/3684140390",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      },
-      "简介": {
-       "英文": "hostel in Nagasaki"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n1326658373 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      }
     ]
    },
    "統計": {
     "観光・名所案内": 40,
-    "文化・公共施設": 19,
-    "買い物・商店街": 16,
+    "文化・公共施設": 17,
+    "買い物・商店街": 11,
     "便民公共服务": 26,
     "交通接続": 1,
     "宿泊": 12
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "OSM",
-    "OSM施設数": 189,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 174,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },

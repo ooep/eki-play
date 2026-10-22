@@ -11357,8 +11357,18 @@
     "日文": "大村線"
    },
    "位置": {
-    "坐标": null,
-    "坐标可用": false
+    "坐标": {
+     "纬度": 33.3248,
+     "经度": 130.4,
+     "出处": "Wikidata (Q5363800) P625"
+    },
+    "坐标可用": true,
+    "坐标来源": {
+     "来源": "Wikidata (Q5363800) P625",
+     "出典": "https://www.wikidata.org/wiki/Q5363800",
+     "取得日": "2026-10-22",
+     "理由": "OSMの駅名表記とeki-wikiの表記が glyphs 差で1対1一致しなかったため、文字正規化／Wiki座標により後補（POIプールも同じ座標基準で抽出）"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/吉野ケ里公園駅",
@@ -11387,24 +11397,469 @@
    "公式リンク": [],
    "分区": {
     "観光・名所案内": [],
-    "文化・公共施設": [],
-    "買い物・商店街": [],
-    "便民公共服务": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "吉野ヶ里町コミュニティーホール",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 106,
+      "坐标": {
+       "纬度": 33.325198,
+       "经度": 130.398961
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/566938631",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "三田川武道館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=sports_centre",
+      "距车站m": 377,
+      "坐标": {
+       "纬度": 33.321686,
+       "经度": 130.39839
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568041795",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ゴルフガーデン三田川",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=golf_course",
+      "距车站m": 379,
+      "坐标": {
+       "纬度": 33.322074,
+       "经度": 130.397545
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/177863625",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "吉野ヶ里町中央公民館図書室",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=library",
+      "距车站m": 423,
+      "坐标": {
+       "纬度": 33.321283,
+       "经度": 130.398272
+      },
+      "地址": null,
+      "官网": "https://www.town.yoshinogari.lg.jp/lifeinfo/soshiki/shakai_kyoiku/2/2_1/1/365.html",
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q61899838",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11047013219",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "吉野ヶ里町中央公民館",
+       "英文": "Yoshinogari Town Chuo Community Center",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 431,
+      "坐标": {
+       "纬度": 33.321169,
+       "经度": 130.398387
+      },
+      "地址": null,
+      "官网": "https://www.town.yoshinogari.lg.jp/lifeinfo/soshiki/shakai_kyoiku/2/1/1/322.html",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568041793",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "吉野ヶ里町町民温水プール",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=swimming_pool",
+      "距车站m": 453,
+      "坐标": {
+       "纬度": 33.320762,
+       "经度": 130.399393
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568041791",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     }
+    ],
+    "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "ローソン",
+       "英文": "LAWSON",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 227,
+      "坐标": {
+       "纬度": 33.32322,
+       "经度": 130.398456
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1882729693",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ミニストップ 吉野ヶ里鳥の隈店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 721,
+      "坐标": {
+       "纬度": 33.326523,
+       "经度": 130.392519
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4206896483",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 789,
+      "坐标": {
+       "纬度": 33.326901,
+       "经度": 130.408107
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13785766374",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     }
+    ],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "吉野ケ里公園駅前簡易郵便局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 157,
+      "坐标": {
+       "纬度": 33.323444,
+       "经度": 130.399519
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1423800762",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "厳島神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 318,
+      "坐标": {
+       "纬度": 33.32609,
+       "经度": 130.39695
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5564751875",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "吉野ヶ里町役場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 416,
+      "坐标": {
+       "纬度": 33.321178,
+       "经度": 130.398899
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1423800763",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "吉野ヶ里町役場三田川町舎",
+       "英文": "Yoshinogari Town Hall Mitagawa Office",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 423,
+      "坐标": {
+       "纬度": 33.321131,
+       "经度": 130.398806
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568041792",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "Wikidata (CC0)（後補座標・Wikidata (Q5363800) P625）"
+      ]
+     }
+    ],
     "交通接続": [],
     "宿泊": []
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 0,
-    "買い物・商店街": 0,
-    "便民公共服务": 0,
+    "文化・公共施設": 6,
+    "買い物・商店街": 3,
+    "便民公共服务": 4,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "未得",
-    "OSM施設数": 0,
+    "座標": "Wikidata (CC0)",
+    "OSM施設数": 13,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },

@@ -4901,8 +4901,18 @@
     "日文": "参宮線"
    },
    "位置": {
-    "坐标": null,
-    "坐标可用": false
+    "坐标": {
+     "纬度": 34.496004,
+     "经度": 136.740219,
+     "出处": "OpenStreetMap n265822738 (public_transport=station,railway=station)"
+    },
+    "坐标可用": true,
+    "坐标来源": {
+     "来源": "OpenStreetMap n265822738 (public_transport=station,railway=station)",
+     "出典": null,
+     "取得日": "2026-10-22",
+     "理由": "OSMの駅名表記とeki-wikiの表記が glyphs 差で1対1一致しなかったため、文字正規化／Wiki座標により後補（POIプールも同じ座標基準で抽出）"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/五十鈴ケ丘駅",
@@ -4923,24 +4933,401 @@
    "公式リンク": [],
    "分区": {
     "観光・名所案内": [],
-    "文化・公共施設": [],
-    "買い物・商店街": [],
-    "便民公共服务": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "伊勢市黒瀬児童センター",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 682,
+      "坐标": {
+       "纬度": 34.500413,
+       "经度": 136.735053
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1635038168",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265822738 (public_transport=station,railway=station)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "あおぞら児童館",
+       "英文": "Aozora Jidoukan",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 713,
+      "坐标": {
+       "纬度": 34.493118,
+       "经度": 136.73327
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1211004443",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265822738 (public_transport=station,railway=station)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "伊勢市生涯学習センター　いせトピア",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 764,
+      "坐标": {
+       "纬度": 34.493496,
+       "经度": 136.732457
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/3673535795",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265822738 (public_transport=station,railway=station)）"
+      ]
+     }
+    ],
+    "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "ローソン",
+       "英文": "Lawson",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 406,
+      "坐标": {
+       "纬度": 34.499654,
+       "经度": 136.740243
+      },
+      "地址": null,
+      "官网": "https://www.lawson.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-596-226589",
+      "开放时间": "24/7",
+      "OSM编号": "node/2019058901",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265822738 (public_transport=station,railway=station)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ミニストップ",
+       "英文": "Ministop",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 711,
+      "坐标": {
+       "纬度": 34.497703,
+       "经度": 136.732734
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/623705381",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265822738 (public_transport=station,railway=station)）"
+      ]
+     }
+    ],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "クスリのアオキ",
+       "英文": "Kusuri no Aoki",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 578,
+      "坐标": {
+       "纬度": 34.497569,
+       "经度": 136.734202
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1212818846",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265822738 (public_transport=station,railway=station)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "栄通神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 661,
+      "坐标": {
+       "纬度": 34.501884,
+       "经度": 136.739187
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4909814759",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265822738 (public_transport=station,railway=station)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "伊勢浜郷郵便局",
+       "英文": "Ise Hamago Post Office",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 674,
+      "坐标": {
+       "纬度": 34.498237,
+       "经度": 136.733382
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-596-22-0442",
+      "开放时间": "Mo-Fr 09:00-17:00",
+      "OSM编号": "node/1420977063",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265822738 (public_transport=station,railway=station)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "伊勢市重度身体障害者デイサービスセンターくじら",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 788,
+      "坐标": {
+       "纬度": 34.493941,
+       "经度": 136.731998
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1635038144",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265822738 (public_transport=station,railway=station)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "心身障害児通園施設おおぞら児童園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 788,
+      "坐标": {
+       "纬度": 34.493941,
+       "经度": 136.731998
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1635041684",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265822738 (public_transport=station,railway=station)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "牟山中臣神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 848,
+      "坐标": {
+       "纬度": 34.502494,
+       "经度": 136.735355
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4909811819",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265822738 (public_transport=station,railway=station)）"
+      ]
+     }
+    ],
     "交通接続": [],
     "宿泊": []
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 0,
-    "買い物・商店街": 0,
-    "便民公共服务": 0,
+    "文化・公共施設": 3,
+    "買い物・商店街": 2,
+    "便民公共服务": 6,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "未得",
-    "OSM施設数": 0,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 11,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },

@@ -28233,7 +28233,31 @@
      "经度": 140.73563,
      "出处": "OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 41.773754,
+      "经度": 140.73563,
+      "出处": "OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)"
+     },
+     "偏差m": 831349,
+     "根拠": "同名の別県駅と一致していたため、記事座標を基準に再確定",
+     "検証元": "https://ja.wikipedia.org/wiki/新川町駅",
+     "旧POOL除去件数": 73,
+     "新POOL件数": 23,
+     "検証日": "2026-10-22",
+     "判定": {
+      "結果": "revert",
+      "根拠": "旧座標のみ線内(1151m≤25000m)、記事座標は832360m=別県の同名駅",
+      "線内中心": [
+       41.780336,
+       140.7463485
+      ],
+      "許容半径m": 25000,
+      "日付": "2026-10-22"
+     },
+     "現POOL件数": 96
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/新川町駅",
@@ -28298,7 +28322,8 @@
       "开放时间": null,
       "OSM编号": "node/2696104181",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -28324,26 +28349,16 @@
        "经度": 140.728624
       },
       "地址": null,
-      "官网": null,
+      "官网": "https://hakodate-miraiproject.jp/miraikan/",
       "维基百科": "ja:はこだてみらい館",
       "Wikidata": "https://www.wikidata.org/wiki/Q131431537",
       "电话": "+81 138 26 6000",
       "开放时间": "Mo-Su 10:00-20:00",
       "OSM编号": "node/4775632577",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 0,
-       "確認日": "2026-10-22"
-      },
-      "官网_欠陥": {
-       "リンク切れ": "https://hakodate-miraiproject.jp/miraikan/",
-       "HTTP": 0
-      },
-      "简介": {
-       "英文": "museum in Hakodate, Hokkaido, Japan"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -28375,7 +28390,8 @@
       "开放时间": null,
       "OSM编号": "way/263922963",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -28408,7 +28424,8 @@
       "开放时间": null,
       "OSM编号": "node/2869709767",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -28441,7 +28458,8 @@
       "开放时间": null,
       "OSM编号": "node/2315236896",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
@@ -28476,7 +28494,8 @@
       "开放时间": "Tu-Su 10:00-17:00",
       "OSM编号": "node/5503350522",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -28509,7 +28528,8 @@
       "开放时间": null,
       "OSM编号": "way/261168015",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -28542,7 +28562,8 @@
       "开放时间": null,
       "OSM编号": "node/2666453882",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -28575,13 +28596,9 @@
       "开放时间": null,
       "OSM编号": "way/261168938",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -28613,7 +28630,8 @@
       "开放时间": null,
       "OSM编号": "way/261178153",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -28646,12 +28664,9 @@
       "开放时间": null,
       "OSM编号": "way/261179844",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -28683,49 +28698,12 @@
       "开放时间": null,
       "OSM编号": "way/261182242",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
     "買い物・商店街": [
-     {
-      "名称": {
-       "日文": "ローソン",
-       "英文": "Lawson",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 105,
-      "坐标": {
-       "纬度": 41.772943,
-       "经度": 140.736281
-      },
-      "地址": null,
-      "官网": "http://www.e-map.ne.jp/p/lawson/dtl/055969/",
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81 138 22 6031",
-      "开放时间": "24/7",
-      "OSM编号": "node/2667953851",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      }
-     },
      {
       "名称": {
        "日文": "函館自由市場協同組合",
@@ -28756,13 +28734,9 @@
       "开放时间": "Mo-Sa 08:00-17:30",
       "OSM编号": "node/2664648154",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -28787,61 +28761,16 @@
        "经度": 140.733507
       },
       "地址": null,
-      "官网": null,
+      "官网": "https://map.seicomart.co.jp/map/storemap/index.cgi?nbr=21581",
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 138 23 5005",
       "开放时间": "24/7",
       "OSM编号": "node/2664636358",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 503,
-       "確認日": "2026-10-22"
-      },
-      "官网_欠陥": {
-       "リンク切れ": "https://map.seicomart.co.jp/map/storemap/index.cgi?nbr=21581",
-       "HTTP": 503
-      }
-     },
-     {
-      "名称": {
-       "日文": "セブン-イレブン",
-       "英文": "7-Eleven",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 366,
-      "坐标": {
-       "纬度": 41.775608,
-       "经度": 140.731979
-      },
-      "地址": null,
-      "官网": "https://www.sej.co.jp/",
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81 138 22 7001",
-      "开放时间": "24/7",
-      "OSM编号": "node/2664593479",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -28873,7 +28802,8 @@
       "开放时间": null,
       "OSM编号": "node/5688040527",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -28906,7 +28836,8 @@
       "开放时间": "Mo-Su 09:00-22:00",
       "OSM编号": "way/1064297315",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -28939,7 +28870,8 @@
       "开放时间": "09:00-16:00",
       "OSM编号": "way/224950950",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -28965,23 +28897,16 @@
        "经度": 140.740896
       },
       "地址": null,
-      "官网": null,
+      "官网": "http://www.mv-hokkaido.co.jp/04_shop/tenpo.php#shiribeshi",
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 138 33 5540",
       "开放时间": "Mo-Su 07:00-23:00",
       "OSM编号": "way/261021006",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 0,
-       "確認日": "2026-10-22"
-      },
-      "官网_欠陥": {
-       "リンク切れ": "http://www.mv-hokkaido.co.jp/04_shop/tenpo.php#shiribeshi",
-       "HTTP": 0
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -29013,7 +28938,8 @@
       "开放时间": "Mo-Su,PH 00:00-00:00",
       "OSM编号": "node/10701457609",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29046,13 +28972,9 @@
       "开放时间": "24/7",
       "OSM编号": "node/2509463253",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -29084,77 +29006,8 @@
       "开放时间": null,
       "OSM编号": "way/1163809456",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
-     },
-     {
-      "名称": {
-       "日文": "セブン-イレブン",
-       "英文": "7-Eleven",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 704,
-      "坐标": {
-       "纬度": 41.772052,
-       "经度": 140.727449
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81 138-22-7110",
-      "开放时间": null,
-      "OSM编号": "node/2316420904",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ローソン",
-       "英文": "Lawson",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 704,
-      "坐标": {
-       "纬度": 41.774307,
-       "经度": 140.727168
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/9906894709",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29187,7 +29040,8 @@
       "开放时间": null,
       "OSM编号": "way/585891344",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29220,7 +29074,8 @@
       "开放时间": null,
       "OSM编号": "way/484810275",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29253,44 +29108,8 @@
       "开放时间": "Mo-Su 07:00-19:00",
       "OSM编号": "node/4801220177",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
-     },
-     {
-      "名称": {
-       "日文": "セブン-イレブン",
-       "英文": "7-Eleven",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 787,
-      "坐标": {
-       "纬度": 41.773726,
-       "经度": 140.726138
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/2474769422",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29323,12 +29142,145 @@
       "开放时间": "Mo-Su 05:00-00:00",
       "OSM编号": "node/4745741596",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "どんぶり横町市場",
+       "英文": "Donburi Alley Market",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 849,
+      "坐标": {
+       "纬度": 41.772759,
+       "经度": 140.725482
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "05:00-18:00",
+      "OSM编号": "way/222568143",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "えきに市場",
+       "英文": "Ekini Market",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "市場",
+       "英文": "Market",
+       "中文": "市场"
+      },
+      "OSM类别": "amenity=marketplace",
+      "距车站m": 859,
+      "坐标": {
+       "纬度": 41.772568,
+       "经度": 140.725399
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/222622247",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "函館朝市ひろば",
+       "英文": "Hakodate Morning Market Square",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "市場",
+       "英文": "Market",
+       "中文": "市场"
+      },
+      "OSM类别": "amenity=marketplace",
+      "距车站m": 876,
+      "坐标": {
+       "纬度": 41.772399,
+       "经度": 140.72523
+      },
+      "地址": null,
+      "官网": "https://ganso-hakodateasaichi.or.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "Mo-Su,PH 05:00-13:30 \"随時\"",
+      "OSM编号": "way/222635798",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "朝市サクラ観光市場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 883,
+      "坐标": {
+       "纬度": 41.771893,
+       "经度": 140.725274
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/222576005",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      }
     ],
     "便民公共服务": [
@@ -29362,12 +29314,9 @@
       "开放时间": "Mo-Fr 09:00-15:00",
       "OSM编号": "node/2664632981",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -29399,7 +29348,8 @@
       "开放时间": null,
       "OSM编号": "way/261168010",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29432,16 +29382,9 @@
       "开放时间": "24/7",
       "OSM编号": "node/2664640426",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      },
-      "简介": {
-       "英文": "post office in Hakodate, Hokkaido, Japan"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -29473,7 +29416,8 @@
       "开放时间": null,
       "OSM编号": "node/4745679809",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29499,23 +29443,16 @@
        "经度": 140.735792
       },
       "地址": null,
-      "官网": null,
+      "官网": "http://www.h-nisi-syo.police.pref.hokkaido.lg.jp/4_chiiki/kouban_kouban.html",
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 138 22 2407",
       "开放时间": null,
       "OSM编号": "node/4745679804",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 0,
-       "確認日": "2026-10-22"
-      },
-      "官网_欠陥": {
-       "リンク切れ": "http://www.h-nisi-syo.police.pref.hokkaido.lg.jp/4_chiiki/kouban_kouban.html",
-       "HTTP": 0
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -29540,23 +29477,16 @@
        "经度": 140.734216
       },
       "地址": null,
-      "官网": null,
+      "官网": "https://naritasan-hakodate.jimdo.com/",
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 138-22-0862",
       "开放时间": null,
       "OSM编号": "node/4745733628",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 0,
-       "確認日": "2026-10-22"
-      },
-      "官网_欠陥": {
-       "リンク切れ": "https://naritasan-hakodate.jimdo.com/",
-       "HTTP": 0
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -29588,7 +29518,8 @@
       "开放时间": null,
       "OSM编号": "node/4775632571",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29621,7 +29552,8 @@
       "开放时间": null,
       "OSM编号": "node/2668096259",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29654,13 +29586,9 @@
       "开放时间": "Mo-Su 09:00-22:00",
       "OSM编号": "node/2664606308",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -29692,7 +29620,8 @@
       "开放时间": null,
       "OSM编号": "node/5688127562",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29725,7 +29654,8 @@
       "开放时间": null,
       "OSM编号": "way/261166831",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29758,14 +29688,15 @@
       "开放时间": null,
       "OSM编号": "way/261166830",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
       "名称": {
        "日文": "北海道森林管理局",
        "英文": "Hokkaido Regional Forest Office",
-       "中文": "北海道森林管理局"
+       "中文": null
       },
       "类别": {
        "日文": "便民公共服务",
@@ -29791,12 +29722,9 @@
       "开放时间": null,
       "OSM编号": "node/14060622978",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -29828,12 +29756,9 @@
       "开放时间": "Mo-Fr 09:00-16:00",
       "OSM编号": "node/2337916891",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -29865,13 +29790,9 @@
       "开放时间": null,
       "OSM编号": "node/2664637686",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -29896,23 +29817,16 @@
        "经度": 140.729954
       },
       "地址": null,
-      "官网": null,
+      "官网": "https://butsuganji.or.jp/",
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 138 24 0700",
       "开放时间": null,
       "OSM编号": "node/2509425187",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 0,
-       "確認日": "2026-10-22"
-      },
-      "官网_欠陥": {
-       "リンク切れ": "https://butsuganji.or.jp/",
-       "HTTP": 0
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -29944,7 +29858,8 @@
       "开放时间": null,
       "OSM编号": "node/5688040522",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -29977,12 +29892,9 @@
       "开放时间": null,
       "OSM编号": "way/1305576742",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -30014,7 +29926,8 @@
       "开放时间": null,
       "OSM编号": "way/484901515",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -30047,12 +29960,9 @@
       "开放时间": null,
       "OSM编号": "node/2668091413",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -30084,7 +29994,8 @@
       "开放时间": null,
       "OSM编号": "node/5550402421",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -30117,7 +30028,8 @@
       "开放时间": null,
       "OSM编号": "node/11556652430",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -30150,12 +30062,9 @@
       "开放时间": "Mo-Fr 09:00-15:00",
       "OSM编号": "node/2337917041",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -30187,7 +30096,8 @@
       "开放时间": "Mo-Fr 01:00-17:30; Sa 09:00-12:30",
       "OSM编号": "way/261178432",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -30220,7 +30130,8 @@
       "开放时间": null,
       "OSM编号": "node/4745734924",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -30253,13 +30164,9 @@
       "开放时间": "Mo-Fr 09:00-17:00",
       "OSM编号": "node/2666409273",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      }
     ],
     "交通接続": [
@@ -30293,12 +30200,9 @@
       "开放时间": null,
       "OSM编号": "node/13179689333",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -30330,13 +30234,9 @@
       "开放时间": "Mo-Sa 07:30-19:00; Su,PH 08:00-18:00; Sa[1,3] off",
       "OSM编号": "node/9961086271",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -30368,12 +30268,9 @@
       "开放时间": null,
       "OSM编号": "node/13179689335",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -30398,60 +30295,16 @@
        "经度": 140.743579
       },
       "地址": null,
-      "官网": null,
+      "官网": "http://eneos-ss.com",
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 138 51 2722",
       "开放时间": "Mo-Sa 06:30-19:30; Su 07:30-18:00",
       "OSM编号": "node/5584614441",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 0,
-       "確認日": "2026-10-22"
-      },
-      "官网_欠陥": {
-       "リンク切れ": "http://eneos-ss.com",
-       "HTTP": 0
-      }
-     },
-     {
-      "名称": {
-       "日文": "函館市役所",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "交通接続",
-       "英文": "Transport Connections",
-       "中文": "交通换乘"
-      },
-      "细分": {
-       "日文": "自動車関連",
-       "英文": "Parking / fuel / bike hire",
-       "中文": "停车·加油·共享单车"
-      },
-      "OSM类别": "amenity=bicycle_rental",
-      "距车站m": 757,
-      "坐标": {
-       "纬度": 41.769117,
-       "经度": 140.728949
-      },
-      "地址": null,
-      "官网": "https://www.hellocycling.jp",
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/13179689328",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      }
     ],
     "宿泊": [
@@ -30485,15 +30338,9 @@
       "开放时间": null,
       "OSM编号": "node/4745679799",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      },
-      "简介": {
-       "英文": "hotel in Hakodate, Japan"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -30525,7 +30372,8 @@
       "开放时间": null,
       "OSM编号": "node/4659387000",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -30551,55 +30399,15 @@
        "经度": 140.736029
       },
       "地址": null,
-      "官网": null,
+      "官网": "https://www.rio-hotels.co.jp/hakodatebettei/",
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": "way/541812835",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 404,
-       "確認日": "2026-10-22"
-      },
-      "官网_欠陥": {
-       "リンク切れ": "https://www.rio-hotels.co.jp/hakodatebettei/",
-       "HTTP": 404
-      }
-     },
-     {
-      "名称": {
-       "日文": "ホテルグローバルビュー函館",
-       "英文": "Hotel Global View Hakodate",
-       "中文": null
-      },
-      "类别": {
-       "日文": "宿泊",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "细分": {
-       "日文": "宿",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "OSM类别": "tourism=hotel",
-      "距车站m": 399,
-      "坐标": {
-       "纬度": 41.770172,
-       "经度": 140.735813
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/11558617792",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -30632,7 +30440,8 @@
       "开放时间": null,
       "OSM编号": "node/5682106290",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -30665,12 +30474,9 @@
       "开放时间": null,
       "OSM编号": "way/541812836",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -30702,7 +30508,8 @@
       "开放时间": null,
       "OSM编号": "node/5688127574",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -30735,16 +30542,9 @@
       "开放时间": null,
       "OSM编号": "node/4745679794",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      },
-      "简介": {
-       "英文": "hotel in Hakodate, Japan"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -30776,7 +30576,8 @@
       "开放时间": null,
       "OSM编号": "node/13816844304",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -30809,7 +30610,8 @@
       "开放时间": null,
       "OSM编号": "way/1064297314",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -30842,12 +30644,9 @@
       "开放时间": "24/7",
       "OSM编号": "node/2664617266",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -30879,7 +30678,42 @@
       "开放时间": null,
       "OSM编号": "node/6138547312",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ファミリーロッジ旅籠屋函館店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=motel",
+      "距车站m": 522,
+      "坐标": {
+       "纬度": 41.773166,
+       "经度": 140.741879
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/655147987",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n264463147 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ]
@@ -30887,15 +30721,15 @@
    "統計": {
     "観光・名所案内": 5,
     "文化・公共施設": 7,
-    "買い物・商店街": 18,
+    "買い物・商店街": 17,
     "便民公共服务": 26,
-    "交通接続": 5,
+    "交通接続": 4,
     "宿泊": 12
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "OSM",
-    "OSM施設数": 106,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 96,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },

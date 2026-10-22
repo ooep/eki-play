@@ -4398,8 +4398,18 @@
     "日文": "五能線"
    },
    "位置": {
-    "坐标": null,
-    "坐标可用": false
+    "坐标": {
+     "纬度": 40.74838,
+     "经度": 140.092073,
+     "出处": "OpenStreetMap 3ノードcentroid（北金ケ沢駅⇄OSM表記差）"
+    },
+    "坐标可用": true,
+    "坐标来源": {
+     "来源": "OpenStreetMap 3ノードcentroid（北金ケ沢駅⇄OSM表記差）",
+     "出典": null,
+     "取得日": "2026-10-22",
+     "理由": "OSMの駅名表記とeki-wikiの表記が glyphs 差で1対1一致しなかったため、文字正規化／Wiki座標により後補（POIプールも同じ座標基準で抽出）"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/北金ケ沢駅",
@@ -4419,25 +4429,95 @@
    },
    "公式リンク": [],
    "分区": {
-    "観光・名所案内": [],
+    "観光・名所案内": [
+     {
+      "名称": {
+       "日文": "北金ヶ沢の大イチョウ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=attraction",
+      "距车站m": 226,
+      "坐标": {
+       "纬度": 40.748948,
+       "经度": 140.0895
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/9124347935",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 3ノードcentroid（北金ケ沢駅⇄OSM表記差））"
+      ]
+     }
+    ],
     "文化・公共施設": [],
     "買い物・商店街": [],
-    "便民公共服务": [],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "北金ヶ沢郵便局",
+       "英文": "Kitakanegasawa Post Office",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 411,
+      "坐标": {
+       "纬度": 40.751354,
+       "经度": 140.089176
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-173-76-2330",
+      "开放时间": "Mo-Fr 09:00-17:00",
+      "OSM编号": "node/13513951190",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 3ノードcentroid（北金ケ沢駅⇄OSM表記差））"
+      ]
+     }
+    ],
     "交通接続": [],
     "宿泊": []
    },
    "統計": {
-    "観光・名所案内": 0,
+    "観光・名所案内": 1,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 0,
+    "便民公共服务": 1,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "未得",
-    "OSM施設数": 0,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 2,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },
@@ -30335,8 +30415,18 @@
     "日文": "五能線"
    },
    "位置": {
-    "坐标": null,
-    "坐标可用": false
+    "坐标": {
+     "纬度": 40.775485,
+     "经度": 140.220755,
+     "出处": "OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差）"
+    },
+    "坐标可用": true,
+    "坐标来源": {
+     "来源": "OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差）",
+     "出典": null,
+     "取得日": "2026-10-22",
+     "理由": "OSMの駅名表記とeki-wikiの表記が glyphs 差で1対1一致しなかったため、文字正規化／Wiki座標により後補（POIプールも同じ座標基準で抽出）"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/鰺ケ沢駅",
@@ -30371,24 +30461,981 @@
    "公式リンク": [],
    "分区": {
     "観光・名所案内": [],
-    "文化・公共施設": [],
-    "買い物・商店街": [],
-    "便民公共服务": [],
-    "交通接続": [],
-    "宿泊": []
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "舞戸公民館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 109,
+      "坐标": {
+       "纬度": 40.776447,
+       "经度": 140.220534
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8968501378",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "はまなす公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 426,
+      "坐标": {
+       "纬度": 40.778681,
+       "经度": 140.217957
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/724840169",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     }
+    ],
+    "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "弁天堂",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=variety_store",
+      "距车站m": 88,
+      "坐标": {
+       "纬度": 40.775725,
+       "经度": 140.219764
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8968501418",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "スーパーとびしま",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 97,
+      "坐标": {
+       "纬度": 40.776263,
+       "经度": 140.220241
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "0173-72-2141",
+      "开放时间": null,
+      "OSM编号": "node/8968501422",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "鰺ヶ沢ショッピングセンターパル",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 115,
+      "坐标": {
+       "纬度": 40.776464,
+       "经度": 140.220306
+      },
+      "地址": null,
+      "官网": "http://ajipal.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 173 72 6211",
+      "开放时间": "Mo-Su 09:00-19:00",
+      "OSM编号": "way/976989894",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "和菓子わかまつ堂",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "工房",
+       "英文": "Workshop",
+       "中文": "工坊"
+      },
+      "OSM类别": "craft=confectionery",
+      "距车站m": 140,
+      "坐标": {
+       "纬度": 40.77665,
+       "经度": 140.221394
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11202615530",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ローソン",
+       "英文": "Lawson",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 157,
+      "坐标": {
+       "纬度": 40.775874,
+       "经度": 140.218957
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/976989893",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "マックスバリュ",
+       "英文": "MaxValu",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 163,
+      "坐标": {
+       "纬度": 40.774956,
+       "经度": 140.22256
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/803350432",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ファミリーマート",
+       "英文": "FamilyMart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 244,
+      "坐标": {
+       "纬度": 40.77546,
+       "经度": 140.223652
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/803350438",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ツルハドラッグ",
+       "英文": "Tsuruha",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=chemist",
+      "距车站m": 415,
+      "坐标": {
+       "纬度": 40.775421,
+       "经度": 140.225679
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/14219690450",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "スーパードラッグアサヒ鯵ヶ沢店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=chemist",
+      "距车站m": 486,
+      "坐标": {
+       "纬度": 40.775343,
+       "经度": 140.226529
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/803350437",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     }
+    ],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "舞戸駐在所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 50,
+      "坐标": {
+       "纬度": 40.775895,
+       "经度": 140.220986
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8968501377",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "舞戸郵便局",
+       "英文": "Maito Post Office",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 90,
+      "坐标": {
+       "纬度": 40.77617,
+       "经度": 140.221326
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-173-72-4246",
+      "开放时间": "Mo-Fr 09:00-17:00",
+      "OSM编号": "node/13513955401",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "正八幡宮",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 114,
+      "坐标": {
+       "纬度": 40.776241,
+       "经度": 140.219839
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8968501412",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "JAバンク",
+       "英文": "JA Bank",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=atm",
+      "距车站m": 149,
+      "坐标": {
+       "纬度": 40.776596,
+       "经度": 140.221735
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11108312527",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "湊谷歯科医院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 203,
+      "坐标": {
+       "纬度": 40.776866,
+       "经度": 140.219171
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8968501411",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "青い森信用金庫",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 227,
+      "坐标": {
+       "纬度": 40.777289,
+       "经度": 140.219499
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8968501408",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ハッピードラッグ鰺ヶ沢店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 231,
+      "坐标": {
+       "纬度": 40.773914,
+       "经度": 140.222553
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/429400590",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ハッピー調剤薬局 鰺ヶ沢店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 247,
+      "坐标": {
+       "纬度": 40.774074,
+       "经度": 140.223023
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/429399641",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "あじがさわクリニック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 254,
+      "坐标": {
+       "纬度": 40.773951,
+       "经度": 140.222991
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/429289145",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "かねこ歯科医院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 265,
+      "坐标": {
+       "纬度": 40.774063,
+       "经度": 140.223275
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/429400589",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "弘南バス鰺ヶ沢営業所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=company",
+      "距车站m": 307,
+      "坐标": {
+       "纬度": 40.772834,
+       "经度": 140.221773
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/987359212",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "鰺ヶ沢病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 361,
+      "坐标": {
+       "纬度": 40.772467,
+       "经度": 140.219182
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1570237668",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "みちのく銀行",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 584,
+      "坐标": {
+       "纬度": 40.777672,
+       "经度": 140.214454
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8968501493",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "七ツ石内科",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 682,
+      "坐标": {
+       "纬度": 40.777582,
+       "经度": 140.213141
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8968501497",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "すずらん調剤薬局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 688,
+      "坐标": {
+       "纬度": 40.777909,
+       "经度": 140.213238
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8968501494",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     }
+    ],
+    "交通接続": [
+     {
+      "名称": {
+       "日文": "ENEOS",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 371,
+      "坐标": {
+       "纬度": 40.77783,
+       "经度": 140.217624
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8968501482",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     }
+    ],
+    "宿泊": [
+     {
+      "名称": {
+       "日文": "鰺ヶ沢温泉 水軍の宿",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 182,
+      "坐标": {
+       "纬度": 40.773907,
+       "经度": 140.220194
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1570237665",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap 2ノードcentroid（鰺ケ沢駅⇄OSM表記差））"
+      ]
+     }
+    ]
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 0,
-    "買い物・商店街": 0,
-    "便民公共服务": 0,
-    "交通接続": 0,
-    "宿泊": 0
+    "文化・公共施設": 2,
+    "買い物・商店街": 9,
+    "便民公共服务": 15,
+    "交通接続": 1,
+    "宿泊": 1
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "未得",
-    "OSM施設数": 0,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 28,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },

@@ -963,8 +963,18 @@
     "日文": "吉都線"
    },
    "位置": {
-    "坐标": null,
-    "坐标可用": false
+    "坐标": {
+     "纬度": 31.817389,
+     "经度": 131.064069,
+     "出处": "OpenStreetMap n265854033 (public_transport=station,railway=station)"
+    },
+    "坐标可用": true,
+    "坐标来源": {
+     "来源": "OpenStreetMap n265854033 (public_transport=station,railway=station)",
+     "出典": null,
+     "取得日": "2026-10-22",
+     "理由": "OSMの駅名表記とeki-wikiの表記が glyphs 差で1対1一致しなかったため、文字正規化／Wiki座標により後補（POIプールも同じ座標基準で抽出）"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/万ケ塚駅",
@@ -1097,9 +1107,147 @@
       }
      }
     ],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "万ヶ塚児童公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 144,
+      "坐标": {
+       "纬度": 31.817899,
+       "经度": 131.062663
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/776231342",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265854033 (public_transport=station,railway=station)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "万ヶ塚市営住宅ちびっ子広場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 259,
+      "坐标": {
+       "纬度": 31.819705,
+       "经度": 131.063811
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/776231341",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265854033 (public_transport=station,railway=station)）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "児童広場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 726,
+      "坐标": {
+       "纬度": 31.823657,
+       "经度": 131.066225
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/777204995",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265854033 (public_transport=station,railway=station)）"
+      ]
+     }
+    ],
     "買い物・商店街": [],
-    "便民公共服务": [],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "万ケ塚簡易郵便局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 270,
+      "坐标": {
+       "纬度": 31.815894,
+       "经度": 131.061821
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1446510670",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n265854033 (public_transport=station,railway=station)）"
+      ]
+     }
+    ],
     "交通接続": [
      {
       "名称": {
@@ -1136,9 +1284,9 @@
    },
    "統計": {
     "観光・名所案内": 3,
-    "文化・公共施設": 0,
+    "文化・公共施設": 3,
     "買い物・商店街": 0,
-    "便民公共服务": 0,
+    "便民公共服务": 1,
     "交通接続": 1,
     "宿泊": 0
    },
@@ -1161,8 +1309,8 @@
     ]
    ],
    "データ品質": {
-    "座標": "未得",
-    "OSM施設数": 0,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 4,
     "ウィキ_only数": 4,
     "駅周辺リンク数": 4
    },

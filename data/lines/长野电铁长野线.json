@@ -70,11 +70,23 @@
    },
    "位置": {
     "坐标": {
-     "纬度": 37.347094,
-     "经度": 139.050894,
-     "出处": "OpenStreetMap n263065568 (public_transport=station,railway=station)"
+     "纬度": 36.749472,
+     "经度": 138.407534,
+     "出处": "OpenStreetMap n8250220901 (public_transport=station,railway=station)、線内照合"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 37.347094,
+      "经度": 139.050894,
+      "出处": "OpenStreetMap n263065568 (public_transport=station,railway=station)"
+     },
+     "旧偏差m": 101559,
+     "線内距離m": 14082,
+     "結果": "keep-fix",
+     "日付": "2026-10-22",
+     "根拠": "同一线路の他駅分布（中央値＋98パーセンタイル）から外れていた同名ノードを、線内に存在する正しいノードへ差替え"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/上条駅",
@@ -102,14 +114,153 @@
    },
    "公式リンク": [],
    "分区": {
-    "観光・名所案内": [],
-    "文化・公共施設": [],
-    "買い物・商店街": [],
+    "観光・名所案内": [
+     {
+      "名称": {
+       "日文": "→志賀高原方面",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 789,
+      "坐标": {
+       "纬度": 36.742796,
+       "经度": 138.40453
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/12319839043",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内照合で再確定・n8250220901）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "佐山忠輝の碑",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 821,
+      "坐标": {
+       "纬度": 36.742526,
+       "经度": 138.410662
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q116743821",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10635415268",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内照合で再確定・n8250220901）"
+      ]
+     }
+    ],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "山ノ内町立蟻川図書館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=library",
+      "距车站m": 690,
+      "坐标": {
+       "纬度": 36.745581,
+       "经度": 138.413561
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:山ノ内町立蟻川図書館",
+      "Wikidata": "https://www.wikidata.org/wiki/Q61887881",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6355869161",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内照合で再確定・n8250220901）"
+      ]
+     }
+    ],
+    "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 625,
+      "坐标": {
+       "纬度": 36.743864,
+       "经度": 138.407137
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/678842509",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内照合で再確定・n8250220901）"
+      ]
+     }
+    ],
     "便民公共服务": [
      {
       "名称": {
-       "日文": "上条郵便局",
-       "英文": "Kamijo Post Office",
+       "日文": "山ノ内町役場",
+       "英文": null,
        "中文": null
       },
       "类别": {
@@ -118,50 +269,15 @@
        "中文": "便民公共服务"
       },
       "细分": {
-       "日文": "郵便局",
-       "英文": "Post office",
-       "中文": "邮局"
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
       },
-      "OSM类别": "amenity=post_office",
-      "距车站m": 329,
+      "OSM类别": "amenity=townhall",
+      "距车站m": 722,
       "坐标": {
-       "纬度": 37.349679,
-       "经度": 139.049073
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81-25-797-2501",
-      "开放时间": "Mo-Fr 09:00-17:00",
-      "OSM编号": "node/12996741437",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     }
-    ],
-    "交通接続": [
-     {
-      "名称": {
-       "日文": "出光石油",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "交通接続",
-       "英文": "Transport Connections",
-       "中文": "交通换乘"
-      },
-      "细分": {
-       "日文": "自動車関連",
-       "英文": "Parking / fuel / bike hire",
-       "中文": "停车·加油·共享单车"
-      },
-      "OSM类别": "amenity=fuel",
-      "距车站m": 61,
-      "坐标": {
-       "纬度": 37.34705,
-       "经度": 139.050203
+       "纬度": 36.744583,
+       "经度": 138.412873
       },
       "地址": null,
       "官网": null,
@@ -169,26 +285,62 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "node/3651314463",
+      "OSM编号": "way/678976852",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内照合で再確定・n8250220901）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "八十二銀行",
+       "英文": "Hachijuni Bank",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 802,
+      "坐标": {
+       "纬度": 36.744394,
+       "经度": 138.413931
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:八十二銀行",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11390608",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6355869162",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内照合で再確定・n8250220901）"
       ]
      }
     ],
+    "交通接続": [],
     "宿泊": []
    },
    "統計": {
-    "観光・名所案内": 0,
-    "文化・公共施設": 0,
-    "買い物・商店街": 0,
-    "便民公共服务": 1,
-    "交通接続": 1,
+    "観光・名所案内": 2,
+    "文化・公共施設": 1,
+    "買い物・商店街": 1,
+    "便民公共服务": 2,
+    "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "OSM",
-    "OSM施設数": 2,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 6,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },

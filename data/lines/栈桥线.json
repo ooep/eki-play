@@ -7521,7 +7521,31 @@
      "经度": 133.603794,
      "出处": "OpenStreetMap n11540203970 (public_transport=stop_position,railway=tram_stop)"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 33.573675,
+      "经度": 133.603794,
+      "出处": "OpenStreetMap n11540203970 (public_transport=stop_position,railway=tram_stop)"
+     },
+     "偏差m": 866671,
+     "根拠": "同名の別県駅と一致していたため、記事座標を基準に再確定",
+     "検証元": "https://ja.wikipedia.org/wiki/北浦駅",
+     "旧POOL除去件数": 6,
+     "新POOL件数": 7,
+     "検証日": "2026-10-22",
+     "判定": {
+      "結果": "revert",
+      "根拠": "旧座標のみ線内(3319m≤25000m)、記事座標は869847m=別県の同名駅",
+      "線内中心": [
+       33.5611365,
+       133.57128799999998
+      ],
+      "許容半径m": 25000,
+      "日付": "2026-10-22"
+     },
+     "現POOL件数": 5
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/北浦駅",
@@ -7575,7 +7599,8 @@
       "开放时间": null,
       "OSM编号": "node/1631281070",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n11540203970 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -7608,7 +7633,8 @@
       "开放时间": "Mo-Fr 09:00-17:00",
       "OSM编号": "node/13449515655",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n11540203970 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -7641,7 +7667,8 @@
       "开放时间": null,
       "OSM编号": "node/1423731386",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n11540203970 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -7674,40 +7701,8 @@
       "开放时间": null,
       "OSM编号": "node/280361029",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "大津郵便局",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "郵便局",
-       "英文": "Post office",
-       "中文": "邮局"
-      },
-      "OSM类别": "amenity=post_office",
-      "距车站m": 631,
-      "坐标": {
-       "纬度": 33.575717,
-       "经度": 133.610146
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/1423733215",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n11540203970 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -7740,7 +7735,8 @@
       "开放时间": null,
       "OSM编号": "node/1423731464",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n11540203970 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
@@ -7751,14 +7747,14 @@
     "観光・名所案内": 0,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 6,
+    "便民公共服务": 5,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "OSM",
-    "OSM施設数": 6,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 5,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },
@@ -13676,7 +13672,31 @@
      "经度": 133.586959,
      "出处": "OpenStreetMap n265022067 (public_transport=stop_position,railway=tram_stop)"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 33.562539,
+      "经度": 133.586959,
+      "出处": "OpenStreetMap n265022067 (public_transport=stop_position,railway=tram_stop)"
+     },
+     "偏差m": 648321,
+     "根拠": "同名の別県駅と一致していたため、記事座標を基準に再確定",
+     "検証元": "https://ja.wikipedia.org/wiki/新木駅",
+     "旧POOL除去件数": 7,
+     "新POOL件数": 26,
+     "検証日": "2026-10-22",
+     "判定": {
+      "結果": "revert",
+      "根拠": "旧座標のみ線内(1460m≤25000m)、記事座標は649721m=別県の同名駅",
+      "線内中心": [
+       33.5611365,
+       133.57128799999998
+      ],
+      "許容半径m": 25000,
+      "日付": "2026-10-22"
+     },
+     "現POOL件数": 7
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/新木駅",
@@ -13730,7 +13750,8 @@
       "开放时间": "Mo-Fr 09:00-17:00",
       "OSM编号": "node/1423747824",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022067 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -13763,14 +13784,15 @@
       "开放时间": null,
       "OSM编号": "node/1423748419",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022067 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
       "名称": {
        "日文": "高知東郵便局",
        "英文": "Kochi Higashi Post Office",
-       "中文": "高知東郵局"
+       "中文": null
       },
       "类别": {
        "日文": "便民公共服务",
@@ -13796,7 +13818,8 @@
       "开放时间": "Mo-Fr 09:00-17:00",
       "OSM编号": "node/1423747863",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022067 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -13829,7 +13852,8 @@
       "开放时间": null,
       "OSM编号": "node/1423734562",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022067 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -13862,7 +13886,8 @@
       "开放时间": null,
       "OSM编号": "node/1423748359",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022067 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -13895,14 +13920,15 @@
       "开放时间": null,
       "OSM编号": "way/662629192",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022067 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
       "名称": {
        "日文": "高知東警察署",
        "英文": "Kochi East Police Station",
-       "中文": "高知東警署"
+       "中文": null
       },
       "类别": {
        "日文": "便民公共服务",
@@ -13921,23 +13947,16 @@
        "经度": 133.590859
       },
       "地址": null,
-      "官网": null,
+      "官网": "https://www.police.pref.kochi.lg.jp/portal/station/kochi-east/",
       "维基百科": "ja:高知東警察署",
       "Wikidata": "https://www.wikidata.org/wiki/Q17218792",
       "电话": "+81 88 866 0110",
       "开放时间": null,
       "OSM编号": "way/1178760044",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 404,
-       "確認日": "2026-10-22"
-      },
-      "官网_欠陥": {
-       "リンク切れ": "https://www.police.pref.kochi.lg.jp/portal/station/kochi-east/",
-       "HTTP": 404
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022067 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      }
     ],
     "交通接続": [],
@@ -13953,7 +13972,7 @@
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "OSM",
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
     "OSM施設数": 7,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
@@ -42489,7 +42508,31 @@
      "经度": 133.620792,
      "出处": "OpenStreetMap n265021992 (public_transport=stop_position,railway=tram_stop)"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 33.575071,
+      "经度": 133.620792,
+      "出处": "OpenStreetMap n265021992 (public_transport=stop_position,railway=tram_stop)"
+     },
+     "偏差m": 360968,
+     "根拠": "同名の別県駅と一致していたため、記事座標を基準に再確定",
+     "検証元": "https://ja.wikipedia.org/wiki/長崎駅",
+     "旧POOL除去件数": 6,
+     "新POOL件数": 82,
+     "検証日": "2026-10-22",
+     "判定": {
+      "結果": "revert",
+      "根拠": "旧座標のみ線内(4545m≤25000m)、記事座標は356457m=別県の同名駅",
+      "線内中心": [
+       33.56237,
+       133.5741635
+      ],
+      "許容半径m": 25000,
+      "日付": "2026-10-22"
+     },
+     "現POOL件数": 5
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/長崎駅",
@@ -42540,7 +42583,8 @@
       "开放时间": null,
       "OSM编号": "node/9961089130",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265021992 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -42573,7 +42617,8 @@
       "开放时间": null,
       "OSM编号": "node/9961090521",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265021992 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
@@ -42610,44 +42655,9 @@
       "开放时间": null,
       "OSM编号": "node/1631277224",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265021992 (public_transport=stop_position,railway=tram_stop)）"
       ]
-     },
-     {
-      "名称": {
-       "日文": "ＪＡ高知病院",
-       "英文": null,
-       "中文": "JA高知醫院"
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "医療",
-       "英文": "Medical",
-       "中文": "医疗"
-      },
-      "OSM类别": "amenity=hospital",
-      "距车站m": 589,
-      "坐标": {
-       "纬度": 33.570162,
-       "经度": 133.623186
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": "https://www.wikidata.org/wiki/Q17210867",
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "way/1241960549",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "英文": "hospital in Japan"
-      }
      },
      {
       "名称": {
@@ -42679,7 +42689,8 @@
       "开放时间": null,
       "OSM编号": "node/1631270452",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265021992 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -42712,7 +42723,8 @@
       "开放时间": null,
       "OSM编号": "node/1631281192",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265021992 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
@@ -42723,14 +42735,14 @@
     "観光・名所案内": 2,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 4,
+    "便民公共服务": 3,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "OSM",
-    "OSM施設数": 6,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 5,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },
@@ -48462,7 +48474,31 @@
      "经度": 133.57705,
      "出处": "OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 33.559341,
+      "经度": 133.57705,
+      "出处": "OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)"
+     },
+     "偏差m": 141314,
+     "根拠": "同名の別県駅と一致していたため、記事座標を基準に再確定",
+     "検証元": "https://ja.wikipedia.org/wiki/高須駅",
+     "旧POOL除去件数": 26,
+     "新POOL件数": 65,
+     "検証日": "2026-10-22",
+     "判定": {
+      "結果": "revert",
+      "根拠": "旧座標のみ線内(337m≤25000m)、記事座標は141100m=別県の同名駅",
+      "線内中心": [
+       33.56237,
+       133.5772065
+      ],
+      "許容半径m": 25000,
+      "日付": "2026-10-22"
+     },
+     "現POOL件数": 25
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/高須駅",
@@ -48495,7 +48531,7 @@
       "名称": {
        "日文": "高知県立美術館",
        "英文": null,
-       "中文": "高知县立美术馆"
+       "中文": null
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -48521,19 +48557,9 @@
       "开放时间": null,
       "OSM编号": "way/695573884",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "简介": {
-       "中文": "高知縣立美術館（日語：高知県立美術館／こうちけんりつびじゅつかん，羅馬化：Kouchikenritsu-bijutsukan）為高知縣高知市之美術館。1993年11月3日開館。以馬克·夏卡爾之世界級收藏品知名，約達1200件。\n美術館內另設有音樂廳。",
-       "英文": "The Museum of Art, Kōchi (高知県立美術館, Kōchi Kenritsu Bijutsukan) was established in Kōchi, Kōchi Prefecture, Japan in 1993. It is one of Japan's many museums which are supported by a prefecture.\nThe permanent collection includes works by local artists as well as Marc Chagall, a very large collection of photographs and personal items owned by Yasuhiro Ishimoto, and there is also a stage for Noh and other performances."
-      },
-      "维基条目原文引用": {
-       "中文": {
-        "链接": "https://zh.wikipedia.org/wiki/高知縣立美術館",
-        "出典": "中文维基百科 (CC BY-SA 4.0)",
-        "取得日": "2026-10-22"
-       }
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      }
     ],
     "文化・公共施設": [
@@ -48554,7 +48580,7 @@
        "中文": "公园·绿地"
       },
       "OSM类别": "leisure=park",
-      "距车站m": 196,
+      "距车站m": 197,
       "坐标": {
        "纬度": 33.557731,
        "经度": 133.576175
@@ -48567,7 +48593,8 @@
       "开放时间": null,
       "OSM编号": "way/549063617",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -48600,7 +48627,8 @@
       "开放时间": null,
       "OSM编号": "way/493166268",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
@@ -48635,7 +48663,8 @@
       "开放时间": null,
       "OSM编号": "way/120063484",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -48668,7 +48697,8 @@
       "开放时间": null,
       "OSM编号": "way/1153114609",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -48701,7 +48731,8 @@
       "开放时间": null,
       "OSM编号": "way/667393780",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
@@ -48723,7 +48754,7 @@
        "中文": "邮局"
       },
       "OSM类别": "amenity=post_office",
-      "距车站m": 80,
+      "距车站m": 79,
       "坐标": {
        "纬度": 33.559038,
        "经度": 133.576273
@@ -48736,7 +48767,8 @@
       "开放时间": "Mo-Fr 09:00-17:00",
       "OSM编号": "node/13449515656",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -48769,7 +48801,8 @@
       "开放时间": null,
       "OSM编号": "node/2788561676",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -48802,7 +48835,8 @@
       "开放时间": null,
       "OSM编号": "way/274083844",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -48835,7 +48869,8 @@
       "开放时间": null,
       "OSM编号": "way/274083830",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -48868,7 +48903,8 @@
       "开放时间": null,
       "OSM编号": "way/274083851",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -48901,7 +48937,8 @@
       "开放时间": null,
       "OSM编号": "way/274083849",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -48934,7 +48971,8 @@
       "开放时间": null,
       "OSM编号": "node/2788562036",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -48967,7 +49005,8 @@
       "开放时间": null,
       "OSM编号": "way/274083836",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -49000,12 +49039,9 @@
       "开放时间": null,
       "OSM编号": "way/274083821",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ],
-      "官网検証": {
-       "HTTP": 200,
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
+      ]
      },
      {
       "名称": {
@@ -49037,7 +49073,8 @@
       "开放时间": null,
       "OSM编号": "node/1423748359",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -49070,7 +49107,8 @@
       "开放时间": null,
       "OSM编号": "way/274262031",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -49103,7 +49141,8 @@
       "开放时间": null,
       "OSM编号": "node/1423734600",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -49136,7 +49175,8 @@
       "开放时间": null,
       "OSM编号": "node/2788619257",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -49169,40 +49209,8 @@
       "开放时间": null,
       "OSM编号": "node/2790293546",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "高須簡易郵便局",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "郵便局",
-       "英文": "Post office",
-       "中文": "邮局"
-      },
-      "OSM类别": "amenity=post_office",
-      "距车站m": 499,
-      "坐标": {
-       "纬度": 33.55991,
-       "经度": 133.582395
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/1423748419",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -49235,7 +49243,8 @@
       "开放时间": null,
       "OSM编号": "node/1631274434",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -49268,7 +49277,8 @@
       "开放时间": null,
       "OSM编号": "node/1631278457",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -49301,7 +49311,8 @@
       "开放时间": null,
       "OSM编号": "node/1631281074",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      },
      {
@@ -49334,7 +49345,8 @@
       "开放时间": null,
       "OSM编号": "node/1423734562",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
@@ -49369,7 +49381,8 @@
       "开放时间": null,
       "OSM编号": "way/667393789",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n265022070 (public_transport=stop_position,railway=tram_stop)）"
       ]
      }
     ],
@@ -49379,14 +49392,14 @@
     "観光・名所案内": 1,
     "文化・公共施設": 2,
     "買い物・商店街": 3,
-    "便民公共服务": 19,
+    "便民公共服务": 18,
     "交通接続": 1,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "OSM",
-    "OSM施設数": 26,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 25,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },

@@ -70,11 +70,23 @@
    },
    "位置": {
     "坐标": {
-     "纬度": 34.61643,
-     "经度": 133.619597,
-     "出处": "OpenStreetMap n339080643 (public_transport=station,railway=station)"
+     "纬度": 34.341769,
+     "经度": 131.624601,
+     "出处": "OpenStreetMap n266065272 (public_transport=stop_position,railway=stop)、線内照合"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 34.61643,
+      "经度": 133.619597,
+      "出处": "OpenStreetMap n339080643 (public_transport=station,railway=station)"
+     },
+     "旧偏差m": 187653,
+     "線内距離m": 2850,
+     "結果": "keep-fix",
+     "日付": "2026-10-22",
+     "根拠": "同一线路の他駅分布（中央値＋98パーセンタイル）から外れていた同名ノードを、線内に存在する正しいノードへ差替え"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/三谷駅",
@@ -103,45 +115,47 @@
    "公式リンク": [],
    "分区": {
     "観光・名所案内": [],
-    "文化・公共施設": [],
-    "買い物・商店街": [],
-    "便民公共服务": [
+    "文化・公共施設": [
      {
       "名称": {
-       "日文": "三谷郵便局",
-       "英文": "Mitani Post Office",
+       "日文": "阿東運動広場",
+       "英文": null,
        "中文": null
       },
       "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
       },
       "细分": {
-       "日文": "郵便局",
-       "英文": "Post office",
-       "中文": "邮局"
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
       },
-      "OSM类别": "amenity=post_office",
-      "距车站m": 295,
+      "OSM类别": "leisure=park",
+      "距车站m": 402,
       "坐标": {
-       "纬度": 34.617956,
-       "经度": 133.616966
+       "纬度": 34.338422,
+       "经度": 131.626261
       },
       "地址": null,
       "官网": null,
       "维基百科": null,
       "Wikidata": null,
-      "电话": "+81-866-82-1337",
-      "开放时间": "Mo-Fr 09:00-17:00",
-      "OSM编号": "node/1423608321",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/572633881",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内照合で再確定・n266065272）"
       ]
-     },
+     }
+    ],
+    "買い物・商店街": [],
+    "便民公共服务": [
      {
       "名称": {
-       "日文": "井原警察署東三成駐在所",
+       "日文": "阿東警察署三谷駐在所",
        "英文": null,
        "中文": null
       },
@@ -156,10 +170,10 @@
        "中文": "区政府·警察"
       },
       "OSM类别": "amenity=police",
-      "距车站m": 339,
+      "距车站m": 58,
       "坐标": {
-       "纬度": 34.618103,
-       "经度": 133.616497
+       "纬度": 34.342023,
+       "经度": 131.625153
       },
       "地址": null,
       "官网": null,
@@ -167,27 +181,131 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "node/1423608600",
+      "OSM编号": "node/1423661416",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内照合で再確定・n266065272）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "三谷郵便局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 254,
+      "坐标": {
+       "纬度": 34.342982,
+       "经度": 131.626939
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1423653838",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内照合で再確定・n266065272）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "社会福祉法人友愛会　阿東園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 664,
+      "坐标": {
+       "纬度": 34.343908,
+       "经度": 131.631355
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1631277161",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内照合で再確定・n266065272）"
       ]
      }
     ],
-    "交通接続": [],
+    "交通接続": [
+     {
+      "名称": {
+       "日文": "コスモ石油",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 583,
+      "坐标": {
+       "纬度": 34.337306,
+       "经度": 131.621264
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5501230663",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（線内照合で再確定・n266065272）"
+      ]
+     }
+    ],
     "宿泊": []
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 0,
+    "文化・公共施設": 1,
     "買い物・商店街": 0,
-    "便民公共服务": 2,
-    "交通接続": 0,
+    "便民公共服务": 3,
+    "交通接続": 1,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "OSM",
-    "OSM施設数": 2,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 5,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },

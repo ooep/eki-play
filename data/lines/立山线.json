@@ -1696,7 +1696,31 @@
      "经度": 137.314279,
      "出处": "OpenStreetMap n270042155 (railway=station)"
     },
-    "坐标可用": true
+    "坐标可用": true,
+    "坐标修正": {
+     "旧坐标": {
+      "纬度": 36.665411,
+      "经度": 137.314279,
+      "出处": "OpenStreetMap n270042155 (railway=station)"
+     },
+     "偏差m": 25284,
+     "根拠": "同名の別県駅と一致していたため、記事座標を基準に再確定",
+     "検証元": "https://ja.wikipedia.org/wiki/五百石駅",
+     "旧POOL除去件数": 7,
+     "新POOL件数": 0,
+     "検証日": "2026-10-22",
+     "判定": {
+      "結果": "revert",
+      "根拠": "両座標とも線内（旧OSMノードを正として維持）",
+      "線内中心": [
+       36.697989,
+       137.319694
+      ],
+      "許容半径m": 31489,
+      "日付": "2026-10-22"
+     },
+     "現POOL件数": 7
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/五百石駅",
@@ -1757,7 +1781,8 @@
       "开放时间": null,
       "OSM编号": "node/1420917551",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n270042155 (railway=station)）"
       ]
      },
      {
@@ -2132,7 +2157,8 @@
       "开放时间": null,
       "OSM编号": "node/1420917539",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n270042155 (railway=station)）"
       ]
      }
     ],
@@ -2168,7 +2194,8 @@
       "开放时间": null,
       "OSM编号": "node/1655785110",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n270042155 (railway=station)）"
       ]
      },
      {
@@ -2201,7 +2228,8 @@
       "开放时间": null,
       "OSM编号": "node/1420917511",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n270042155 (railway=station)）"
       ]
      },
      {
@@ -2227,22 +2255,16 @@
        "经度": 137.315916
       },
       "地址": null,
-      "官网": "https://map.japanpost.jp/p/search/dtl/300132028000/",
-      "维基百科": "https://ja.wikipedia.org/wiki/立山郵便局",
+      "官网": null,
+      "维基百科": "ja:立山郵便局",
       "Wikidata": "https://www.wikidata.org/wiki/Q11597844",
       "电话": null,
       "开放时间": "Mo-Fr 09:00-17:00",
       "OSM编号": "node/1420917557",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)",
-       "日本語ウィキペディア「五百石駅」記事「駅周辺」欄（CC BY-SA 4.0）",
-       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
-      ],
-      "官网検証": {
-       "HTTP": null,
-       "状態": "未検証（同ドメインの上限により省略）",
-       "確認日": "2026-10-22"
-      }
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n270042155 (railway=station)）"
+      ]
      },
      {
       "名称": {
@@ -2274,7 +2296,8 @@
       "开放时间": null,
       "OSM编号": "node/1655785112",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n270042155 (railway=station)）"
       ]
      },
      {
@@ -2307,7 +2330,8 @@
       "开放时间": null,
       "OSM编号": "node/1420913233",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（復元座標・OpenStreetMap n270042155 (railway=station)）"
       ]
      },
      {
@@ -2598,7 +2622,7 @@
     ]
    ],
    "データ品質": {
-    "座標": "OSM",
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
     "OSM施設数": 7,
     "ウィキ_only数": 15,
     "駅周辺リンク数": 16

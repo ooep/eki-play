@@ -8933,8 +8933,18 @@
     "日文": "jr日光線"
    },
    "位置": {
-    "坐标": null,
-    "坐标可用": false
+    "坐标": {
+     "纬度": 36.637253,
+     "经度": 139.728009,
+     "出处": "OpenStreetMap n264412544 (public_transport=station,railway=station)"
+    },
+    "坐标可用": true,
+    "坐标来源": {
+     "来源": "OpenStreetMap n264412544 (public_transport=station,railway=station)",
+     "出典": null,
+     "取得日": "2026-10-22",
+     "理由": "OSMの駅名表記とeki-wikiの表記が glyphs 差で1対1一致しなかったため、文字正規化／Wiki座標により後補（POIプールも同じ座標基準で抽出）"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/文挾",
@@ -8956,7 +8966,42 @@
    "分区": {
     "観光・名所案内": [],
     "文化・公共施設": [],
-    "買い物・商店街": [],
+    "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "フレッシュマートたかざわ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 305,
+      "坐标": {
+       "纬度": 36.639691,
+       "经度": 139.726448
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5028307674",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "OpenStreetMap (Japan extract, ODbL)（後補座標・OpenStreetMap n264412544 (public_transport=station,railway=station)）"
+      ]
+     }
+    ],
     "便民公共服务": [],
     "交通接続": [],
     "宿泊": []
@@ -8964,15 +9009,15 @@
    "統計": {
     "観光・名所案内": 0,
     "文化・公共施設": 0,
-    "買い物・商店街": 0,
+    "買い物・商店街": 1,
     "便民公共服务": 0,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
-    "座標": "未得",
-    "OSM施設数": 0,
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
+    "OSM施設数": 1,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
    },

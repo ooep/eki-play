@@ -9640,8 +9640,18 @@
     "日文": "予土線"
    },
    "位置": {
-    "坐标": null,
-    "坐标可用": false
+    "坐标": {
+     "纬度": 33.187233,
+     "经度": 132.767244,
+     "出处": "OpenStreetMap n265004228 (public_transport=station,railway=station)"
+    },
+    "坐标可用": true,
+    "坐标来源": {
+     "来源": "OpenStreetMap n265004228 (public_transport=station,railway=station)",
+     "出典": null,
+     "取得日": "2026-10-22",
+     "理由": "OSMの駅名表記とeki-wikiの表記が glyphs 差で1対1一致しなかったため、文字正規化／Wiki座標により後補（POIプールも同じ座標基準で抽出）"
+    }
    },
    "车站条目": {
     "链接": "https://ja.wikipedia.org/wiki/西ケ方駅",
@@ -9730,7 +9740,7 @@
     ]
    ],
    "データ品質": {
-    "座標": "未得",
+    "座標": "OpenStreetMap (Japan extract, ODbL)",
     "OSM施設数": 0,
     "ウィキ_only数": 1,
     "駅周辺リンク数": 1
