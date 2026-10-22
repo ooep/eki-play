@@ -18,8 +18,8 @@
  },
  "品質": {
   "無座標": 0,
-  "OSM施設合計": 140,
-  "ウィキのみ合計": 62
+  "OSM施設合計": 209,
+  "ウィキのみ合計": 55
  },
  "分区定義": [
   {
@@ -95,8 +95,108 @@
    "公式リンク": [],
    "分区": {
     "観光・名所案内": [],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "七重浜児童公園",
+       "英文": "Nanaehama children's park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 194,
+      "坐标": {
+       "纬度": 41.816126,
+       "经度": 140.707098
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/611946304",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "さくらヶ丘児童公園",
+       "英文": "Sakuragaoka children's park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 547,
+      "坐标": {
+       "纬度": 41.813119,
+       "经度": 140.711781
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/611946763",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 492,
+      "坐标": {
+       "纬度": 41.816288,
+       "经度": 140.714368
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "24/7",
+      "OSM编号": "way/464322625",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "イオン",
@@ -128,7 +228,11 @@
       "OSM编号": "node/10010178398",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -229,7 +333,11 @@
       "OSM编号": "node/9604470069",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -337,8 +445,8 @@
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 0,
-    "買い物・商店街": 2,
+    "文化・公共施設": 2,
+    "買い物・商店街": 3,
     "便民公共服务": 4,
     "交通接続": 0,
     "宿泊": 1
@@ -346,10 +454,11 @@
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 7,
+    "OSM施設数": 10,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#2",
@@ -377,12 +486,26 @@
     "链接": "https://ja.wikipedia.org/wiki/上磯駅",
     "首段": {
      "日文": null,
-     "英文": null,
-     "中文": null
+     "英文": "Kamiiso Station (Japanese: 上磯駅, Hepburn: Kamiiso-eki) is a railway station on the South Hokkaido Railway Line in Hokuto, Hokkaido, Japan, operated by South Hokkaido Railway Company.",
+     "中文": "上磯車站（日語：上磯駅／かみいそえき，羅馬化：Kamiiso eki）是道南漁火鐵道的鐵路車站，位於北海道北斗市飯生2丁目。本站現時為無人站。站名源自於原上磯町，因此地為位於函館的西方（上方）的海岸。"
     },
     "駅周辺原文": {
      "日文": null
-    }
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/上磯站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/上磯站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     },
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Kamiiso_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Kamiiso_Station"
    },
    "交通接続メモ": {
     "バス路線原文": {
@@ -392,7 +515,111 @@
    "公式リンク": [],
    "分区": {
     "観光・名所案内": [],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "北斗市商業活性化支援センター エイド’03",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 97,
+      "坐标": {
+       "纬度": 41.818762,
+       "经度": 140.640006
+      },
+      "地址": null,
+      "官网": "https://hokuto-sci.jp/eido03/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/619740019",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "上磯漁港公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 536,
+      "坐标": {
+       "纬度": 41.818781,
+       "经度": 140.647033
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/617816741",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "北斗市運動公園",
+       "英文": "Hokuto City Athletic Park",
+       "中文": "北斗市運動公園"
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 670,
+      "坐标": {
+       "纬度": 41.824336,
+       "经度": 140.635824
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/619224264",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
      {
       "名称": {
@@ -592,7 +819,11 @@
       "OSM编号": "node/9605437315",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "交通接続": [],
@@ -600,7 +831,7 @@
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 0,
+    "文化・公共施設": 3,
     "買い物・商店街": 2,
     "便民公共服务": 4,
     "交通接続": 0,
@@ -609,10 +840,11 @@
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 6,
+    "OSM施設数": 9,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#3",
@@ -640,11 +872,19 @@
     "链接": "https://ja.wikipedia.org/wiki/久根別駅",
     "首段": {
      "日文": null,
-     "英文": null,
+     "英文": "Kunebetsu Station (Japanese: 久根別駅, Hepburn: Kunebetsu-eki) is a railway station on the South Hokkaido Railway Line in Hokuto, Hokkaido, Japan, operated by South Hokkaido Railway Company.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Kunebetsu_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Kunebetsu_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -655,7 +895,41 @@
    "公式リンク": [],
    "分区": {
     "観光・名所案内": [],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "はまなす児童公園",
+       "英文": "Hamanasu children's park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 410,
+      "坐标": {
+       "纬度": 41.825628,
+       "经度": 140.671176
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/617816822",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
      {
       "名称": {
@@ -756,7 +1030,11 @@
       "OSM编号": "node/9602022884",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "交通接続": [],
@@ -764,7 +1042,7 @@
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 0,
+    "文化・公共施設": 1,
     "買い物・商店街": 2,
     "便民公共服务": 1,
     "交通接続": 0,
@@ -773,10 +1051,11 @@
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 3,
+    "OSM施設数": 4,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#4",
@@ -835,8 +1114,8 @@
      {
       "名称": {
        "日文": "亀田市",
-       "英文": null,
-       "中文": null
+       "英文": "Kameda",
+       "中文": "龜田市"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -853,14 +1132,18 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/亀田市",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11182005",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「五稜郭駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "亀田市"
+      "_title": "亀田市",
+      "简介": {
+       "英文": "dissolved municipality in Hokkaido, Japan",
+       "中文": null
+      }
      },
      {
       "名称": {
@@ -895,8 +1178,8 @@
      {
       "名称": {
        "日文": "ビックカメラ",
-       "英文": null,
-       "中文": null
+       "英文": "Bic Camera",
+       "中文": "Bic Camera"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -913,14 +1196,33 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/ビックカメラ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q4903531",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「五稜郭駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「五稜郭駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "ビックカメラ"
+      "_title": "ビックカメラ",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/ビックカメラ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "株式会社ビックカメラ（英: BIC CAMERA INC.）は、東京都豊島区に本社を置く日本の大手家電量販店チェーン。\n東京都豊島区の池袋駅東口に本店を置き、2021年3月時点では17都道府県に直営45店舗、日本空港ビルデング株式会社との出資により設立されたAir BIC株式会社が運営する、Air BIC CAMERA7店舗を展開。\n家電量販店の売上高としては、単独決算を主対象とした日本経済新聞社の2024年度の「日本の専門店調査」で第5位。子会社に、同8位のコジマ、パソコンショップ大手のソフマップなどがある。",
+       "英文": "Japanese consumer electronics retailer",
+       "中文": "日本公司"
+      },
+      "官网検証": {
+       "HTTP": 403,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.biccamera.co.jp/",
+       "HTTP": 403
+      }
      },
      {
       "名称": {
@@ -950,7 +1252,15 @@
       "来源": [
        "日本語ウィキペディア「五稜郭駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "ヤマダデンキ"
+      "_title": "ヤマダデンキ",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/ヤマダデンキ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "株式会社ヤマダデンキ（英: YAMADA-DENKI Co.,Ltd.）は、群馬県高崎市に本社を構える日本の大手家電量販店チェーン。持株会社であるヤマダホールディングスの子会社である。\n2020年10月1日に株式会社ヤマダ電機が「株式会社ヤマダホールディングス」に社名変更の上で持株会社へと改組したことに伴い、同日に同社の家電量販店事業を会社分割方式で分社化する形で発足した。"
+      }
      },
      {
       "名称": {
@@ -1015,7 +1325,7 @@
      {
       "名称": {
        "日文": "北海道バス",
-       "英文": null,
+       "英文": "Sapporo Bus",
        "中文": null
       },
       "类别": {
@@ -1033,14 +1343,26 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/北海道バス",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11521113",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「五稜郭駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「五稜郭駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "北海道バス"
+      "_title": "北海道バス",
+      "简介": {
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 403,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.sapporobus.jp/",
+       "HTTP": 403
+      }
      },
      {
       "名称": {
@@ -1100,10 +1422,184 @@
       "来源": [
        "日本語ウィキペディア「五稜郭駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "道南ラルズ"
+      "_title": "道南ラルズ",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/道南ラルズ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "株式会社道南ラルズ（どうなんラルズ、英: Dounan Ralse Co.,Ltd.）は、北海道北斗市に本社を置き道南（渡島・檜山地方）地域を営業基盤として、「スーパーアークス」などのブランド名でスーパーマーケットを展開するアークスグループの企業。CGCグループに加盟。"
+      }
      }
     ],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "亀田港児童公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 611,
+      "坐标": {
+       "纬度": 41.807387,
+       "经度": 140.728528
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/609912979",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "港公園",
+       "英文": "Minato Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 642,
+      "坐标": {
+       "纬度": 41.802156,
+       "经度": 140.726086
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/604671875",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "昭和第6街区公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 686,
+      "坐标": {
+       "纬度": 41.80956,
+       "经度": 140.732707
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/606776314",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "万年橋公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 732,
+      "坐标": {
+       "纬度": 41.797474,
+       "经度": 140.729888
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/351360907",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "八幡幼児公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 883,
+      "坐标": {
+       "纬度": 41.795796,
+       "经度": 140.7366
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/889437586",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
      {
       "名称": {
@@ -1136,7 +1632,11 @@
       "OSM编号": "node/5045901821",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -1169,7 +1669,11 @@
       "OSM编号": "node/5045891321",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -1233,6 +1737,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/8336739770",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "元気市場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 851,
+      "坐标": {
+       "纬度": 41.796189,
+       "经度": 140.73698
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/261053275",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -1339,7 +1876,7 @@
      {
       "名称": {
        "日文": "ポールスターショッピングセンター",
-       "英文": null,
+       "英文": "Pole Star Shopping Center",
        "中文": null
       },
       "类别": {
@@ -1357,17 +1894,106 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/ポールスターショッピングセンター",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q38333680",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「五稜郭駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「五稜郭駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "ポールスターショッピングセンター"
+      "_title": "ポールスターショッピングセンター",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/ポールスターショッピングセンター",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "ポールスターショッピングセンター（Pole Star Shopping Center）は、北海道函館市にあるショッピングセンター。",
+       "英文": "building in Hakodate, Hokkaido Prefecture, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.polestar-web.jp",
+       "HTTP": 0
+      }
      }
     ],
     "便民公共服务": [
+     {
+      "名称": {
+       "日文": "市立函館病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 370,
+      "坐标": {
+       "纬度": 41.805581,
+       "经度": 140.730239
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/市立函館病院",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11480649",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/221478357",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「五稜郭駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "简介": {
+       "英文": "hospital in Japan"
+      }
+     },
+     {
+      "名称": {
+       "日文": "函館記念病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 482,
+      "坐标": {
+       "纬度": 41.807291,
+       "经度": 140.736277
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/261182567",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "たじま歯科医院",
@@ -1499,36 +2125,6 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
-     },
-     {
-      "名称": {
-       "日文": "市立函館病院",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "医療",
-       "英文": "Medical",
-       "中文": "医疗"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/市立函館病院",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「五稜郭駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "市立函館病院"
      },
      {
       "名称": {
@@ -1730,9 +2326,9 @@
    },
    "統計": {
     "観光・名所案内": 9,
-    "文化・公共施設": 0,
-    "買い物・商店街": 8,
-    "便民公共服务": 6,
+    "文化・公共施設": 5,
+    "買い物・商店街": 9,
+    "便民公共服务": 7,
     "交通接続": 4,
     "宿泊": 1
    },
@@ -1792,10 +2388,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 15,
-    "ウィキ_only数": 13,
+    "OSM施設数": 23,
+    "ウィキ_only数": 12,
     "駅周辺リンク数": 13
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#5",
@@ -1840,13 +2437,9 @@
     "https://www.jacar.go.jp/",
     "https://doi.org/10.11501/1873236|publisher=日本国有鉄道|language=ja|doi=10.11501/1873236|access-date=2022-12-10|editor=日本国有鉄道営業局総務課|page=214",
     "https://www.jrhokkaido.co.jp/network/shiteiseki/index.html|title=指定席券売機／話せる券売機｜駅・鉄道・旅行｜JR北海道-",
-    "https://www.ehako.com/news/newsbk1/692_index_msg.shtml|website=www.ehako.com|access-date=2025-11-22",
-    "https://www.ehako.com/news/newsbk1/692_index_msg.shtml|access-date=2025-11-12",
     "http://www.jrhokkaido.co.jp/press/2007/070912-3.pdf|format=PDF|publisher=",
     "http://jr.hakodate.jp/blog/?p=3584|title=函館駅の地震の影響について|work=JR北海道函館支社",
-    "http://www.hkiosk.co.jp/pdf/hakodateopen.pdf",
     "http://www.ehako.com/news/news2016a/10070_index_msg.shtml",
-    "https://www.jrhotels.co.jp/tower/wp/wp-content/uploads/2019/12/0f51cba2897828eec3ea24891fc353d7.pdf|title=｢JRイン函館｣オープンならびに予約開始のお知らせ|format=PDF|publisher=JR北海道ホテルズ|date=2019-12-11|accessdate=2020-09-02|archiveurl=https://web.archive.org/web/20200902073255/https://www.jrhotels.co.jp/tower/wp/wp-content/uploads/2019/12/0f51cba2897828eec3ea24891fc353d7.pdf|archivedate=2020-09-02",
     "https://www.jrhokkaido.co.jp/CM/Info/press/pdf/20200311_KO_Twinkle.pdf|title=「ツインクルプラザ（JR旅行センター）」の閉店について|format=PDF|publisher=北海道旅客鉄道|date=2020-03-11|accessdate=2020-03-11|archiveurl=https://web.archive.org/web/20200311073700/https://www.jrhokkaido.co.jp/CM/Info/press/pdf/20200311_KO_Twinkle.pdf|archivedate=2020-03-11"
    ],
    "分区": {
@@ -1886,6 +2479,39 @@
      },
      {
       "名称": {
+       "日文": "OYAKO",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=artwork",
+      "距车站m": 87,
+      "坐标": {
+       "纬度": 41.773661,
+       "经度": 140.726767
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/263922963",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "はこだてみらい館",
        "英文": "Future Center Hakodate",
        "中文": null
@@ -1907,7 +2533,7 @@
        "经度": 140.728624
       },
       "地址": null,
-      "官网": "https://hakodate-miraiproject.jp/miraikan/",
+      "官网": null,
       "维基百科": "ja:はこだてみらい館",
       "Wikidata": "https://www.wikidata.org/wiki/Q131431537",
       "电话": "+81 138 26 6000",
@@ -1915,7 +2541,18 @@
       "OSM编号": "node/4775632577",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://hakodate-miraiproject.jp/miraikan/",
+       "HTTP": 0
+      },
+      "简介": {
+       "英文": "museum in Hakodate, Hokkaido, Japan"
+      }
      },
      {
       "名称": {
@@ -1949,6 +2586,47 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "函館市青函連絡船記念館 摩周丸",
+       "英文": "Ferry Memorial Ship Mashu-maru",
+       "中文": "摩周丸號"
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 413,
+      "坐标": {
+       "纬度": 41.77288,
+       "经度": 140.721673
+      },
+      "地址": null,
+      "官网": "https://mashumaru.com/",
+      "维基百科": "https://ja.wikipedia.org/wiki/函館市青函連絡船記念館摩周丸",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11396003",
+      "电话": "+81 138 27 2500",
+      "开放时间": "Mo-Su 08:30-18:00",
+      "OSM编号": "way/263925780",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "museum ship in Hakodate City, Hokkaido, Japan, that used to be a liaison ship"
+      }
      },
      {
       "名称": {
@@ -2049,8 +2727,8 @@
      {
       "名称": {
        "日文": "函館山ロープウェイ",
-       "英文": null,
-       "中文": null
+       "英文": "Mount Hakodate Ropeway",
+       "中文": "函館山纜車"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2067,20 +2745,33 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/函館山ロープウェイ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q6921027",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "函館山ロープウェイ"
+      "_title": "函館山ロープウェイ",
+      "简介": {
+       "英文": "The Mt. Hakodate Ropeway (函館山ロープウェイ, Hakodateyama Rōpuwei) is the name of an aerial lift, as well as its operator. The line climbs Mount Hakodate in Hakodate, Japan. As of 2004, this is the most heavily used aerial lift line in Japan, transporting 1,559,000 riders yearly. [1] The aerial tramway was prominently featured in Noein, a 2005 anime.",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.334.co.jp/jpn/",
+       "HTTP": 404
+      }
      },
      {
       "名称": {
        "日文": "旧函館区公会堂",
-       "英文": null,
-       "中文": null
+       "英文": "Old Public Hall of Hakodate Ward",
+       "中文": "舊函館區公会堂"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2095,22 +2786,37 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://hakodate-kokaido.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/旧函館区公会堂",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11510926",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "旧函館区公会堂"
+      "_title": "旧函館区公会堂",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/旧函館区公会堂",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "旧函館区公会堂（きゅうはこだてくこうかいどう）は、北海道函館市元町にある歴史的建造物。明治43年（1910年）に竣工したコロニアルスタイルの西洋館（設計は小西朝次郎）で、国の重要文化財に指定されている。",
+       "英文": "former Japanese public hall",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "五稜郭",
-       "英文": null,
-       "中文": null
+       "英文": "Goryōkaku",
+       "中文": "五棱郭"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2125,22 +2831,37 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.hakobura.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/五稜郭",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q1196357",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "五稜郭"
+      "_title": "五稜郭",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/五稜郭",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "五稜郭（ごりょうかく）は、江戸時代末期に江戸幕府が蝦夷地の箱館（現在の北海道函館市）郊外に築造した稜堡式の城郭。\n予算書時点から五稜郭の名称は用いられていたが、築造中は亀田役所土塁（かめだやくしょどるい）または亀田御役所土塁（かめだおんやくしょどるい）とも呼ばれた。元は湿地でネコヤナギが多く生えていた土地であることから、柳野城（やなぎのじょう）の別名を持つ。\n\n",
+       "英文": "fortress",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "湯の川温泉",
-       "英文": null,
-       "中文": null
+       "英文": "Yunokawa Onsen",
+       "中文": "湯之川溫泉 (北海道)"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2155,22 +2876,31 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://hakodate-yunokawa.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/湯の川温泉_(北海道)",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q3916336",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "湯の川温泉 (北海道)"
+      "_title": "湯の川温泉 (北海道)",
+      "简介": {
+       "英文": "building in Hokkaido Prefecture, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "クルーズ客船",
-       "英文": null,
-       "中文": null
+       "英文": "cruise ship",
+       "中文": "游轮"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2187,20 +2917,30 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/クルーズ客船",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q39804",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "クルーズ客船"
+      "_title": "クルーズ客船",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/クルーズ客船",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "クルーズ客船（クルーズきゃくせん、英語: cruise ship）とは、乗客に船旅（クルーズ）を提供するための旅客船である。豪華客船（ごうかきゃくせん）、巡航客船（じゅんこうきゃくせん）とも言う。\n宿泊設備を持つことは勿論、レストランやバー、フィットネスクラブやプールなどの設備を備え、\nサービス要員や医師・看護師なども乗船しており、長期間の船旅を楽しめるようになっている。\nなお海洋を航行するクルーズ客船が人気だが、クルーズ客船による河川クルーズ（リバークルーズ）のドナウ川クルーズ、長江クルーズなども人気である。",
+       "英文": "passenger ship used for pleasure voyages",
+       "中文": "用于娱乐航海的客轮"
+      }
      },
      {
       "名称": {
        "日文": "土地区画整理事業",
-       "英文": null,
-       "中文": null
+       "英文": "land readjustment",
+       "中文": "土地區画整理事業"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2217,20 +2957,29 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/土地区画整理事業",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11423116",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "土地区画整理事業"
+      "_title": "土地区画整理事業",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/土地区画整理事業",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "土地区画整理事業（とちくかくせいりじぎょう）とは、日本においては土地区画整理法（昭和29年法律第119号）によって、「都市計画区域内の土地について公共施設の整備改善及び宅地の利用の増進を図るために行われる、土地の区画形質の変更及び公共施設の新設又は変更に関する事業」である。",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "北海道旅客鉄道函館支社",
-       "英文": null,
-       "中文": null
+       "英文": "Hokkaido Railway Company Hakodate branch office",
+       "中文": "北海道旅客鐵道函館支社"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2247,20 +2996,23 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/北海道旅客鉄道函館支社",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11402780",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "北海道旅客鉄道函館支社"
+      "_title": "北海道旅客鉄道函館支社",
+      "简介": {
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "道南いさりび鉄道",
-       "英文": null,
-       "中文": null
+       "英文": "South Hokkaido Railway Company",
+       "中文": "道南漁火鐵道"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2275,16 +3027,36 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.shr-isaribi.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/道南いさりび鉄道",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q22811103",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "道南いさりび鉄道"
+      "_title": "道南いさりび鉄道",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/道南いさりび鉄道",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22",
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/道南漁火鐵道",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      },
+      "简介": {
+       "日文": "道南いさりび鉄道株式会社（どうなんいさりびてつどう、英: South Hokkaido Railway Company）は、北海道函館市に本社を置く、道南いさりび鉄道線を運営する第三セクター方式の鉄道事業者（第三セクター鉄道）である。\n北海道新幹線の新青森駅 - 新函館北斗駅間が、2016年（平成28年）3月26日に開業したことにより、並行在来線として北海道旅客鉄道（JR北海道）から経営分離された江差線の五稜郭駅 - 木古内駅間の運営を担う鉄道事業者で、北海道や沿線の地方自治体（函館市、北斗市、上磯郡木古内町）等の出資により、2014年（平成26年）8月1日に「北海道道南地域並行在来線準備株式会社」（ほっかいどうどうなんちいきへいこうざいらいせんじゅんび）として設立された。\n北海道における第三セクター鉄道の運行は、北海道ちほく高原鉄道ふるさと銀河線（旧国鉄池北線）が2006年（平成18年）4月に廃止されて以来10年ぶり。北海道ちほく高原鉄道が2008年（平成20年）に解散して以降、北海道では第三セクター鉄道事業者が消滅していたが、6年ぶりに当社が唯一の存在として復活した。",
+       "英文": "third-sector railway operator in Hokkaido, Japan",
+       "中文": "道南漁火鐵道株式會社（日語：道南いさりび鉄道株式会社／どうなんいさりびてつどうかぶしきかいしゃ，羅馬化：Dōnan Isaribi Tetsudō Kabushiki Kaisha），簡稱道南漁火鐵道，是一家日本北海道的第三部門鐵路經營者，總部設於函館市若松町、JR北海道函館支社旁邊。是因應JR北海道於2016年3月26日運營北海道新幹線時，接收原位於道內江差線的線道、車站及周邊設備而成立。公司當初的資本金全由道廳及沿線的自治政府出資，合共2億4000萬日圓，隨後獲日本貨物鐵道（JR貨物）及北連農業協同組合連合會等注資，使資本金增至4億6,600萬日圓。"
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -2305,46 +3077,21 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.nimoca.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/nimoca",
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "nimoca"
-     },
-     {
-      "名称": {
-       "日文": "函館朝市",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "名所",
-       "英文": "Tourist attraction",
-       "中文": "旅游景点"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/函館朝市",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "函館朝市"
+      "_title": "nimoca",
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -2464,13 +3211,21 @@
       "来源": [
        "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "コンフォートホテル"
+      "_title": "コンフォートホテル",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/コンフォートホテル",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "コンフォートホテル（Comfort Hotel）は、チョイスホテルズインターナショナルがグリーンズと提携して設立したチョイスホテルズジャパンを通じて日本で展開しているビジネスホテルチェーンのブランドである。"
+      }
      },
      {
       "名称": {
        "日文": "アパホテル",
-       "英文": null,
-       "中文": null
+       "英文": "APA Group",
+       "中文": "APA集團"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2487,14 +3242,34 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/アパグループ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11284497",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "アパグループ"
+      "_title": "アパグループ",
+      "简介": {
+       "英文": "Japanese hospitality group that operates hotels",
+       "中文": "APA集团株式会社（APA集团，日語：アパグループ，羅馬化：apa grūpu）是一家以城市发展和建筑业为主业的公司，旗下经营有APA酒店等。总部位于日本東京都港区赤坂，本店登记于石川县金泽市。"
+      },
+      "官网検証": {
+       "HTTP": 403,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.apa.co.jp/",
+       "HTTP": 403
+      },
+      "维基条目原文引用": {
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/APA集团",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      }
      },
      {
       "名称": {
@@ -2559,7 +3334,7 @@
      {
       "名称": {
        "日文": "HAKODATE 男爵倶楽部 HOTEL&RESORTS",
-       "英文": null,
+       "英文": "Hakodate Danshaku Club Hotel & Resorts",
        "中文": null
       },
       "类别": {
@@ -2575,22 +3350,37 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "http://www.danshaku-club.com",
       "维基百科": "https://ja.wikipedia.org/wiki/HAKODATE_男爵倶楽部_HOTEL&RESORTS",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q23005637",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "HAKODATE 男爵倶楽部 HOTEL&RESORTS"
+      "_title": "HAKODATE 男爵倶楽部 HOTEL&RESORTS",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/HAKODATE_男爵倶楽部_HOTEL&RESORTS",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "HAKODATE 男爵倶楽部 HOTEL&RESORTS（はこだてだんしゃくくらぶホテル&リゾーツ）は、北海道函館市にあるホテル。サンダンス・リゾート提携施設。",
+       "英文": "building in Hakodate, Hokkaido Prefecture, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "センチュリーマリーナ函館",
-       "英文": null,
-       "中文": null
+       "英文": "Century Marina Hakodate",
+       "中文": "函館世紀濱海飯店"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2605,22 +3395,31 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.centurymarina.com",
       "维基百科": "https://ja.wikipedia.org/wiki/センチュリーマリーナ函館",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q65555253",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "センチュリーマリーナ函館"
+      "_title": "センチュリーマリーナ函館",
+      "简介": {
+       "英文": "hotel in Hakodate, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "棒二森屋",
-       "英文": null,
-       "中文": null
+       "英文": "Boni-moriya",
+       "中文": "棒二森屋"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2635,22 +3434,37 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "http://boni-moriya.com/",
       "维基百科": "https://ja.wikipedia.org/wiki/棒二森屋",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11538969",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "棒二森屋"
+      "_title": "棒二森屋",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/棒二森屋",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "棒二森屋（ぼうにもりや）は、かつて北海道函館市若松町の函館駅前に存在した日本の百貨店である。この項では1994年（平成6年）2月28日まで当百貨店を運営していた会社（株式会社 棒二森屋）についても述べる。中合運営時代は店名が中合 棒二森屋（なかごう ぼうにもりや）であった。",
+       "英文": "department store",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "マックスバリュ",
-       "英文": null,
-       "中文": null
+       "英文": "MaxValu",
+       "中文": "美思佰乐"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -2667,17 +3481,139 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/マックスバリュ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11340427",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "マックスバリュ"
+      "_title": "マックスバリュ",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/マックスバリュ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "マックスバリュ（英: MaxValu）は、イオングループの日本国内9法人および日本国外4法人が展開するスーパーマーケット（SM） 。食料品を中心に取り扱っており、日本国内で642店舗（2026年5月時点）展開している。日本国外においても店舗を展開している（正確な店舗数は不明）。",
+       "英文": "Japanese supermarket chain",
+       "中文": "日本连锁生鲜超市"
+      },
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.maxvalu.co.jp",
+       "HTTP": 0
+      }
      }
     ],
     "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "シーポート公園",
+       "英文": "Seaport Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 347,
+      "坐标": {
+       "纬度": 41.772434,
+       "经度": 140.722938
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1414475912",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "函館市総合福祉センター",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 491,
+      "坐标": {
+       "纬度": 41.777181,
+       "经度": 140.730783
+      },
+      "地址": null,
+      "官网": "http://www.aiyoru21.com/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 138 22 6262",
+      "开放时间": null,
+      "OSM编号": "way/261179844",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "若松緑地",
+       "英文": "Wakamatsu Ryokuchi Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 514,
+      "坐标": {
+       "纬度": 41.777181,
+       "经度": 140.731145
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/261178153",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "大門ビル",
@@ -2781,6 +3717,43 @@
      },
      {
       "名称": {
+       "日文": "ハコビバ",
+       "英文": "HAKOVIVA",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 124,
+      "坐标": {
+       "纬度": 41.77481,
+       "经度": 140.727608
+      },
+      "地址": null,
+      "官网": "https://hakoviva.com/",
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q108875569",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1163809456",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
        "日文": "ハセガワストア",
        "英文": "Hasegawa Store",
        "中文": null
@@ -2808,6 +3781,187 @@
       "电话": "+81 138 84 8480",
       "开放时间": "Mo-Su 07:00-19:00",
       "OSM编号": "node/4801220177",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "どんぶり横町市場",
+       "英文": "Donburi Alley Market",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 187,
+      "坐标": {
+       "纬度": 41.772759,
+       "经度": 140.725482
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "05:00-18:00",
+      "OSM编号": "way/222568143",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "えきに市場",
+       "英文": "Ekini Market",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "市場",
+       "英文": "Market",
+       "中文": "市场"
+      },
+      "OSM类别": "amenity=marketplace",
+      "距车站m": 210,
+      "坐标": {
+       "纬度": 41.772568,
+       "经度": 140.725399
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/222622247",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "函館朝市ひろば",
+       "英文": "Hakodate Morning Market Square",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "市場",
+       "英文": "Market",
+       "中文": "市场"
+      },
+      "OSM类别": "amenity=marketplace",
+      "距车站m": 232,
+      "坐标": {
+       "纬度": 41.772399,
+       "经度": 140.72523
+      },
+      "地址": null,
+      "官网": "https://ganso-hakodateasaichi.or.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "Mo-Su,PH 05:00-13:30 \"随時\"",
+      "OSM编号": "way/222635798",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "函館朝市",
+       "英文": "Hakodate Morning Market",
+       "中文": "函館早市"
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "市場",
+       "英文": "Market",
+       "中文": "市场"
+      },
+      "OSM类别": "amenity=marketplace",
+      "距车站m": 239,
+      "坐标": {
+       "纬度": 41.772502,
+       "经度": 140.724753
+      },
+      "地址": null,
+      "官网": "https://www.hakodate-asaichi.com/",
+      "维基百科": "https://ja.wikipedia.org/wiki/函館朝市",
+      "Wikidata": "https://www.wikidata.org/wiki/Q10896697",
+      "电话": null,
+      "开放时间": "Jan-Apr Mo-Su,PH 06:00-14:00 \"店舗毎に異なる\"; Mar-Dec Mo-Su,PH 05:00-14:00 \"店舗毎に異なる\"",
+      "OSM编号": "way/1117395054",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "morning market in Hakodate, Hokkaido"
+      }
+     },
+     {
+      "名称": {
+       "日文": "函館朝市塩干物市場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "市場",
+       "英文": "Market",
+       "中文": "市场"
+      },
+      "OSM类别": "amenity=marketplace",
+      "距车站m": 251,
+      "坐标": {
+       "纬度": 41.772428,
+       "经度": 140.724641
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/222635799",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -2913,6 +4067,72 @@
      },
      {
       "名称": {
+       "日文": "朝市サクラ観光市場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 284,
+      "坐标": {
+       "纬度": 41.771893,
+       "经度": 140.725274
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/222576005",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "サクラ観光市場A",
+       "英文": "Sakura Tourist Market A",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 313,
+      "坐标": {
+       "纬度": 41.771692,
+       "经度": 140.724997
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/222576006",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "ローソン",
        "英文": "Lawson",
        "中文": null
@@ -2940,6 +4160,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/2315310972",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "マックスバリュ若松店",
+       "英文": "MaxValu Wakamatsu",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 351,
+      "坐标": {
+       "纬度": 41.774162,
+       "经度": 140.730471
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "Mo-Su 09:00-22:00",
+      "OSM编号": "way/1064297315",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -2975,7 +4228,12 @@
       "OSM编号": "node/2509463253",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -2994,253 +4252,26 @@
        "中文": "商铺"
       },
       "OSM类别": "shop=convenience",
-      "距车站m": 496,
+      "距车站m": 442,
       "坐标": {
-       "纬度": 41.775608,
-       "经度": 140.731979
+       "纬度": 41.770745,
+       "经度": 140.723974
       },
       "地址": null,
-      "官网": "https://www.sej.co.jp/",
+      "官网": "https://www.sej.co.jp/shop/",
       "维基百科": null,
       "Wikidata": null,
-      "电话": "+81 138 22 7001",
+      "电话": "+81 138 22 8112",
       "开放时间": "24/7",
-      "OSM编号": "node/2664593479",
+      "OSM编号": "way/550528274",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "セイコーマート",
-       "英文": "Seicomart",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 553,
-      "坐标": {
-       "纬度": 41.769937,
-       "经度": 140.723165
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/13426442516",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ハセガワストア 函館ベイ店",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 567,
-      "坐标": {
-       "纬度": 41.769842,
-       "经度": 140.723037
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81 138 85 8252",
-      "开放时间": "Mo-Su 08:00-21:00",
-      "OSM编号": "node/13429135683",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "函館自由市場協同組合",
-       "英文": "Hakodate Jiyūichiba",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=supermarket",
-      "距车站m": 693,
-      "坐标": {
-       "纬度": 41.773316,
-       "经度": 140.734488
-      },
-      "地址": null,
-      "官网": "hakodate-jiyuichiba.com",
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81 138 27 2200",
-      "开放时间": "Mo-Sa 08:00-17:30",
-      "OSM编号": "node/2664648154",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "セイコーマート",
-       "英文": "Seicomart",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 709,
-      "坐标": {
-       "纬度": 41.770967,
-       "经度": 140.733507
-      },
-      "地址": null,
-      "官网": "https://map.seicomart.co.jp/map/storemap/index.cgi?nbr=21581",
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81 138 23 5005",
-      "开放时间": "24/7",
-      "OSM编号": "node/2664636358",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ファミリーマート",
-       "英文": "FamilyMart",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 737,
-      "坐标": {
-       "纬度": 41.769326,
-       "经度": 140.72044
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/ファミリーマート",
-      "Wikidata": null,
-      "电话": "+81 138 24 4035",
-      "开放时间": "24/7",
-      "OSM编号": "node/4609270604",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)",
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "畑中文武堂",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=books",
-      "距车站m": 742,
-      "坐标": {
-       "纬度": 41.777433,
-       "经度": 140.734177
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/5688040527",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ローソン",
-       "英文": "Lawson",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 846,
-      "坐标": {
-       "纬度": 41.772943,
-       "经度": 140.736281
-      },
-      "地址": null,
-      "官网": "http://www.e-map.ne.jp/p/lawson/dtl/055969/",
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": "+81 138 22 6031",
-      "开放时间": "24/7",
-      "OSM编号": "node/2667953851",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "便民公共服务": [
@@ -3275,7 +4306,12 @@
       "OSM编号": "node/2651640317",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3335,15 +4371,18 @@
       },
       "地址": null,
       "官网": "https://www.hokuyobank.co.jp/",
-      "维基百科": "https://ja.wikipedia.org/wiki/北洋銀行",
+      "维基百科": null,
       "Wikidata": null,
       "电话": "+81 138 23 8511",
       "开放时间": "Mo-Fr 09:00-15:00",
       "OSM编号": "node/2664631378",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)",
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ]
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3369,14 +4408,19 @@
       },
       "地址": null,
       "官网": "https://www.hokuyobank.co.jp/",
-      "维基百科": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/北洋銀行",
       "Wikidata": null,
       "电话": "+81 138 23 8511",
       "开放时间": "Mo-Fr 09:00-15:00",
       "OSM编号": "node/11880437257",
       "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3409,7 +4453,11 @@
       "OSM编号": "node/2337917041",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3434,7 +4482,7 @@
        "经度": 140.729954
       },
       "地址": null,
-      "官网": "https://butsuganji.or.jp/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 138 24 0700",
@@ -3442,7 +4490,15 @@
       "OSM编号": "node/2509425187",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://butsuganji.or.jp/",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -3506,6 +4562,43 @@
       "电话": "+81 138 23 7191",
       "开放时间": "Mo-Fr 09:00-16:00",
       "OSM编号": "node/2337916891",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "柳川内科胃腸科",
+       "英文": "Yanagawa's gastrointestinal medicine",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 469,
+      "坐标": {
+       "纬度": 41.777562,
+       "经度": 140.729899
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 138 27 7114",
+      "开放时间": "Mo-Fr 01:00-17:30; Sa 09:00-12:30",
+      "OSM编号": "way/261178432",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -3673,7 +4766,15 @@
       "OSM编号": "node/2664640426",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "post office in Hakodate, Hokkaido, Japan"
+      }
      },
      {
       "名称": {
@@ -3739,7 +4840,91 @@
       "OSM编号": "node/2664606308",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "介護付有料老人ホーム",
+       "英文": "Paid nursing home with nursing care Yu",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 685,
+      "坐标": {
+       "纬度": 41.779383,
+       "经度": 140.731005
+      },
+      "地址": null,
+      "官网": "medicojapan.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 138 27 5035",
+      "开放时间": null,
+      "OSM编号": "way/261185942",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "函館市役所",
+       "英文": "Hakodate City Hall",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 688,
+      "坐标": {
+       "纬度": 41.768516,
+       "经度": 140.729019
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 138-21-3111",
+      "开放时间": "Mo-Fr 08:45-17:30",
+      "OSM编号": "way/541637667",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.city.hakodate.comhokkaido.jp/",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -3764,7 +4949,7 @@
        "经度": 140.734216
       },
       "地址": null,
-      "官网": "https://naritasan-hakodate.jimdo.com/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 138-22-0862",
@@ -3772,7 +4957,15 @@
       "OSM编号": "node/4745733628",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://naritasan-hakodate.jimdo.com/",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -3809,6 +5002,39 @@
      },
      {
       "名称": {
+       "日文": "函館商工信用組合 本店",
+       "英文": "Headquarters of the Hakodate Shoko Chukin Bank, Ltd.",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 757,
+      "坐标": {
+       "纬度": 41.77298,
+       "经度": 140.735188
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/261168010",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "青森みちのく銀行 函館営業部",
        "英文": "Aomori Michinoku Bank Hakodate Sales Department",
        "中文": null
@@ -3838,6 +5064,43 @@
       "OSM编号": "node/2664632981",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "聖徳寺",
+       "英文": "Seitokuji",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 817,
+      "坐标": {
+       "纬度": 41.780391,
+       "经度": 140.731853
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 138 23 1038",
+      "开放时间": null,
+      "OSM编号": "way/484810292",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
       ]
      },
      {
@@ -3863,7 +5126,7 @@
        "经度": 140.735792
       },
       "地址": null,
-      "官网": "http://www.h-nisi-syo.police.pref.hokkaido.lg.jp/4_chiiki/kouban_kouban.html",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 138 22 2407",
@@ -3871,7 +5134,15 @@
       "OSM编号": "node/4745679804",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.h-nisi-syo.police.pref.hokkaido.lg.jp/4_chiiki/kouban_kouban.html",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -3938,156 +5209,6 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
-     },
-     {
-      "名称": {
-       "日文": "函館市青函連絡船記念館摩周丸",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "その他公共",
-       "英文": "Other public amenity",
-       "中文": "其他公共设施"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/函館市青函連絡船記念館摩周丸",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "函館市青函連絡船記念館摩周丸"
-     },
-     {
-      "名称": {
-       "日文": "北陸銀行",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "金融",
-       "英文": "Bank / ATM",
-       "中文": "银行·ATM"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/北陸銀行",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "北陸銀行"
-     },
-     {
-      "名称": {
-       "日文": "みずほ銀行",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "金融",
-       "英文": "Bank / ATM",
-       "中文": "银行·ATM"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/みずほ銀行",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "みずほ銀行"
-     },
-     {
-      "名称": {
-       "日文": "商工組合中央金庫",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "金融",
-       "英文": "Bank / ATM",
-       "中文": "银行·ATM"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/商工組合中央金庫",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "商工組合中央金庫"
-     },
-     {
-      "名称": {
-       "日文": "函館西警察署",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "行政警察",
-       "英文": "Town hall / police",
-       "中文": "区政府·警察"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/函館西警察署",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「函館駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "函館西警察署"
      }
     ],
     "交通接続": [
@@ -4122,7 +5243,11 @@
       "OSM编号": "node/13179689335",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4155,7 +5280,11 @@
       "OSM编号": "node/13179689333",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4188,7 +5317,12 @@
       "OSM编号": "node/9961086271",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4213,7 +5347,7 @@
        "经度": 140.725265
       },
       "地址": null,
-      "官网": "http://eneos-ss.com/search/ss/pc/detail.php?SCODE=100003&tap_is_link=true",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 138 23 3165",
@@ -4221,7 +5355,15 @@
       "OSM编号": "node/3086008877",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://eneos-ss.com/search/ss/pc/detail.php?SCODE=100003&tap_is_link=true",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -4254,7 +5396,11 @@
       "OSM编号": "node/13179689328",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4443,6 +5589,43 @@
     "宿泊": [
      {
       "名称": {
+       "日文": "ＪRイン函館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 77,
+      "坐标": {
+       "纬度": 41.773825,
+       "经度": 140.725643
+      },
+      "地址": null,
+      "官网": "https://www.jr-inn.jp/hakodate/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 138-22-2333",
+      "开放时间": null,
+      "OSM编号": "way/1039262126",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
        "日文": "ラ・ジェント・ステイ函館駅前",
        "英文": null,
        "中文": null
@@ -4473,6 +5656,43 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "ルートイングランティア函館駅前",
+       "英文": "Route Inn Grantia Hakodate",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 174,
+      "坐标": {
+       "纬度": 41.774024,
+       "经度": 140.728297
+      },
+      "地址": null,
+      "官网": "https://www.hotel-grantia.co.jp/hakodate-st/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 138-21-4100",
+      "开放时间": null,
+      "OSM编号": "way/261020416",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4538,7 +5758,11 @@
       "OSM编号": "node/809137308",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4571,7 +5795,11 @@
       "OSM编号": "node/2315236921",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4602,6 +5830,47 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/809137309",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "hotel in Hakodate, Japan"
+      }
+     },
+     {
+      "名称": {
+       "日文": "omo5函館by星野リゾート",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 303,
+      "坐标": {
+       "纬度": 41.774066,
+       "经度": 140.729878
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1064297314",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -4637,7 +5906,11 @@
       "OSM编号": "node/10270082511",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4670,7 +5943,49 @@
       "OSM编号": "node/3086008893",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "東急ステイ函館朝市 灯の湯",
+       "英文": "Tokyu Stay Hakodate-Asaichi Akari no Yu",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 327,
+      "坐标": {
+       "纬度": 41.772133,
+       "经度": 140.723644
+      },
+      "地址": null,
+      "官网": "https://www.tokyustay.co.jp/hotel/HAA/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-138-27-7109",
+      "开放时间": null,
+      "OSM编号": "way/983550402",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4703,146 +6018,21 @@
       "OSM编号": "node/2474783523",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "Four Points Flex by Sheraton Hakodate Station",
-       "英文": null,
-       "中文": null
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
       },
-      "类别": {
-       "日文": "宿泊",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "细分": {
-       "日文": "宿",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "OSM类别": "tourism=hotel",
-      "距车站m": 351,
-      "坐标": {
-       "纬度": 41.772931,
-       "经度": 140.730034
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/13816844304",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "函館男爵倶楽部 ホテル＆リゾーツ",
-       "英文": "HAKODATE DANSHAKU-CLUB HOTEL&RESORTS",
-       "中文": null
-      },
-      "类别": {
-       "日文": "宿泊",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "细分": {
-       "日文": "宿",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "OSM类别": "tourism=hotel",
-      "距车站m": 372,
-      "坐标": {
-       "纬度": 41.771263,
-       "经度": 140.7245
-      },
-      "地址": null,
-      "官网": "http://www.dansyaku-club.com",
-      "维基百科": "ja:HAKODATE 男爵倶楽部 HOTEL&RESORTS",
-      "Wikidata": "https://www.wikidata.org/wiki/Q23005637",
-      "电话": "+81 138 21 1111",
-      "开放时间": null,
-      "OSM编号": "node/2664595984",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "平山内科医院",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "宿泊",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "细分": {
-       "日文": "宿",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "OSM类别": "tourism=hotel",
-      "距车站m": 536,
-      "坐标": {
-       "纬度": 41.769762,
-       "经度": 140.72827
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/2664651009",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ホテルハートイン",
-       "英文": "Hotel Heart Inn",
-       "中文": null
-      },
-      "类别": {
-       "日文": "宿泊",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "细分": {
-       "日文": "宿",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "OSM类别": "tourism=hotel",
-      "距车站m": 600,
-      "坐标": {
-       "纬度": 41.769725,
-       "经度": 140.729986
-      },
-      "地址": null,
-      "官网": "http://www.kamome-g.com/group_heartin.html",
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/4775632100",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      "简介": {
+       "英文": "hotel in Hakodate, Japan"
+      }
      }
     ]
    },
    "統計": {
-    "観光・名所案内": 27,
-    "文化・公共施設": 1,
-    "買い物・商店街": 16,
+    "観光・名所案内": 28,
+    "文化・公共施設": 4,
+    "買い物・商店街": 18,
     "便民公共服务": 26,
     "交通接続": 11,
     "宿泊": 12
@@ -4995,10 +6185,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 69,
-    "ウィキ_only数": 32,
+    "OSM施設数": 99,
+    "ウィキ_only数": 30,
     "駅周辺リンク数": 36
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#6",
@@ -5026,11 +6217,19 @@
     "链接": "https://ja.wikipedia.org/wiki/木古内駅",
     "首段": {
      "日文": "{{駅情報\n|社色=\n|文字色=\n|駅名= 木古内駅\n|画像= Kikonai Station North Exit.JPG\n|pxl= 300\n|画像説明= 北口（2018年5月）\n|地図=\n|よみがな= きこない\n|ローマ字= Kikonai\n| 前の駅 =\n| 駅間A = 10\n| 駅間B = 31\n| 次の駅 =\n|所属事業者=\n|所在地=    木古内／本町\n}}\n木古内駅（きこないえき）は、   にある （JR北海道）・ の である。北海道内最南端の駅である。 ・ における は▲141410。\n本項目では、木古内駅場内扱いとなる、 ・海峡線の共用区間終点木古内分岐部（きこないぶんきぶ）についても述べる。",
-     "英文": null,
+     "英文": "Kikonai Station (Japanese: 木古内駅, Hepburn: Kikonai-eki) is a railway station in Kikonai, Hokkaido, Japan, operated by Hokkaido Railway Company (JR Hokkaido) and South Hokkaido Railway Company.\n\n",
      "中文": null
     },
     "駅周辺原文": {
      "日文": "thumb|上空から見た木古内駅周辺 |300x300ピクセル\n* 道の駅みそぎの郷 きこない\n* 木古内町役場\n* 木古内警察署\n* 木古内港\n* 木古内町立木古内中学校\n* 木古内郵便局\n* 北海道銀行木古内支店（2024年11月8日閉店）\n* 道南うみ街信用金庫木古内支店\n* 新函館農業協同組合（JA新はこだて）木古内支店\n* 上磯郡漁業協同組合木古内支所\n* 国道228号（国道280号重複）\n* 北海道道383号木古内停車場線\n* 北海道道605号中野木古内停車場線\n* 中野館跡 - 道南十二館の一つ。\n* 佐女川神社（寒中みそぎ祭りが行われる）\n* みそぎ浜（寒中みそぎ祭りが行われる）\n* クラッセイン木古内（ホテル）\n* ラルズマート 木古内店\n* セイコーマート木古内駅前店\n* ツルハドラッグ木古内店\n* コープさっぽろ きこない店\n** ダイソー コープさっぽろきこない店"
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Kikonai_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Kikonai_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -5043,7 +6242,6 @@
     "https://doi.org/10.11501/1873236|publisher=日本国有鉄道|language=ja|doi=10.11501/1873236|access-date=2022-12-10|editor=日本国有鉄道営業局総務課|page=218",
     "http://www.pref.hokkaido.lg.jp/ks/ass/grp/3140P.pdf|title=アイヌ語地名リスト",
     "http://www.pref.hokkaido.lg.jp/ks/ass/new_timeilist.htm",
-    "https://www.shr-isaribi.jp/route/kikonai/timetable/|title=木古内駅",
     "https://doi.org/10.11501/3255331|journal=日本鉄道施設協会誌|volume=28|issue=2|pages=136-139|publisher=日本鉄道施設協会|language=ja|doi=10.11501/3255331|issn=0913-2643|access-date=2025-10-30",
     "https://kikonai.jp/post-719/",
     "https://kikonai.jp/about/",
@@ -5123,7 +6321,7 @@
      {
       "名称": {
        "日文": "道の駅みそぎの郷 きこない",
-       "英文": null,
+       "英文": "Roadside station Misogi-no-sato Kikonai",
        "中文": null
       },
       "类别": {
@@ -5139,16 +6337,31 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://kikonai.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/道の駅みそぎの郷_きこない",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q23043219",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "道の駅みそぎの郷 きこない"
+      "_title": "道の駅みそぎの郷 きこない",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/道の駅みそぎの郷_きこない",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "道の駅みそぎの郷 きこない（みちのえき みそぎのさときこない）は、北海道上磯郡木古内町にある北海道道383号木古内停車場線の道の駅である。",
+       "英文": "roadside station in Kikonai, Kamiiso district, Hokkaido, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -5171,20 +6384,23 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/新函館農業協同組合",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q22127001",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "新函館農業協同組合"
+      "_title": "新函館農業協同組合",
+      "简介": {
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "北海道道383号木古内停車場線",
-       "英文": null,
-       "中文": null
+       "英文": "Hokkaido Prefectural Road Route 383",
+       "中文": "北海道道383号木古内停车场线"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -5201,20 +6417,35 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/北海道道383号木古内停車場線",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11403314",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "北海道道383号木古内停車場線"
+      "_title": "北海道道383号木古内停車場線",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/北海道道383号木古内停車場線",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22",
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/北海道道383号木古内停车场线",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      },
+      "简介": {
+       "日文": "北海道道383号木古内停車場線（ほっかいどうどう383ごう きこないていしゃじょうせん）は、北海道上磯郡木古内町内を結ぶ一般道道（北海道道）である。",
+       "英文": "road in Hokkaido Prefecture, Japan",
+       "中文": "北海道道383号木古内停车场线（日語：北海道道383号木古内停車場線）是一条位于北海道上磯郡木古内町的普通道级道路（北海道道）。"
+      }
      },
      {
       "名称": {
        "日文": "北海道道605号中野木古内停車場線",
-       "英文": null,
-       "中文": null
+       "英文": "Hokkaido Prefectural Road Route 605",
+       "中文": "北海道道605号中野木古内停车场线"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -5231,14 +6462,25 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/北海道道605号中野木古内停車場線",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11403461",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "北海道道605号中野木古内停車場線"
+      "_title": "北海道道605号中野木古内停車場線",
+      "简介": {
+       "英文": "road in Hokkaido Prefecture, Japan",
+       "中文": "北海道道605号中野木古内停车场线（日語：北海道道605号中野木古内停車場線）是一条位于北海道上矶郡木古内町的普通道级道路（北海道道）。"
+      },
+      "维基条目原文引用": {
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/北海道道605号中野木古内停车场线",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      }
      },
      {
       "名称": {
@@ -5273,7 +6515,7 @@
      {
       "名称": {
        "日文": "寒中みそぎ祭り",
-       "英文": null,
+       "英文": "Kanchu Misogi Matsuri",
        "中文": null
       },
       "类别": {
@@ -5291,14 +6533,23 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/木古内町寒中みそぎ祭り",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11518232",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "木古内町寒中みそぎ祭り"
+      "_title": "木古内町寒中みそぎ祭り",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/木古内町寒中みそぎ祭り",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "木古内町寒中みそぎ祭り（きこないちょうかんちゅうみそぎまつり）は、北海道上磯郡木古内町で行われる祭りの名称。毎年1月中旬に行われ、ふんどし姿の若者が極寒の海へ入水し、豊作や豊漁を祈願する祭りである。1831年（天保2年）に始まったとされ、\n極寒の海中で御神体を清める「寒中みそぎ」を中心とする祭礼として知られる。2023年（令和5年）には、北海道内を代表する民俗行事の一つとして評価され、「佐女川神社寒中みそぎ」として北海道指定無形民俗文化財に指定された。2024年1月14日に佐女川神社において指定書の伝達式が行われた。\n祭りに際し、木古内町寒中みそぎフェスティバルが同時に行われ、グルメフェアや物産展などの各種イベントが催される。木古内町観光協会が主催、開催地は北海道上磯郡木古内町字木古内157-1、佐女川神社境内",
+       "中文": null
+      }
      },
      {
       "名称": {
@@ -5328,67 +6579,15 @@
       "来源": [
        "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "道南ラルズ"
-     },
-     {
-      "名称": {
-       "日文": "セイコーマート",
-       "英文": null,
-       "中文": null
+      "_title": "道南ラルズ",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/道南ラルズ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
       },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "名所",
-       "英文": "Tourist attraction",
-       "中文": "旅游景点"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/セコマ",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "セコマ"
-     },
-     {
-      "名称": {
-       "日文": "ツルハドラッグ",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "名所",
-       "英文": "Tourist attraction",
-       "中文": "旅游景点"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/ツルハ",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "ツルハ"
+      "简介": {
+       "日文": "株式会社道南ラルズ（どうなんラルズ、英: Dounan Ralse Co.,Ltd.）は、北海道北斗市に本社を置き道南（渡島・檜山地方）地域を営業基盤として、「スーパーアークス」などのブランド名でスーパーマーケットを展開するアークスグループの企業。CGCグループに加盟。"
+      }
      },
      {
       "名称": {
@@ -5439,16 +6638,21 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.daiso-sangyo.co.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/ダイソー",
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "ダイソー"
+      "_title": "ダイソー",
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "文化・公共施設": [
@@ -5487,6 +6691,40 @@
      }
     ],
     "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "セイコーマート",
+       "英文": "Seicomart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 215,
+      "坐标": {
+       "纬度": 41.676655,
+       "经度": 140.435464
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/セコマ",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/740886628",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ]
+     },
      {
       "名称": {
        "日文": "道南ラルズ ラルズマート木古内店",
@@ -5590,6 +6828,122 @@
      },
      {
       "名称": {
+       "日文": "ツルハドラッグ",
+       "英文": "Tsuruha",
+       "中文": "鶴羽藥妝店"
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 173,
+      "坐标": {
+       "纬度": 41.67682,
+       "经度": 140.434479
+      },
+      "地址": null,
+      "官网": "http://www.tsuruha.co.jp/",
+      "维基百科": "https://ja.wikipedia.org/wiki/ツルハ",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11318826",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/488499039",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
+      ],
+      "简介": {
+       "英文": "Japanese drugstore chain",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "木古内警察署",
+       "英文": "Kikonai Police Station",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 193,
+      "坐标": {
+       "纬度": 41.67664,
+       "经度": 140.434056
+      },
+      "地址": null,
+      "官网": "https://www.police.pref.hokkaido.lg.jp/00ps/kikonai-syo/",
+      "维基百科": "https://ja.wikipedia.org/wiki/木古内警察署",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11518234",
+      "电话": "+81-1392-2-4110",
+      "开放时间": null,
+      "OSM编号": "way/488499038",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "北海道銀行",
+       "英文": "Hokkaido Bank",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 194,
+      "坐标": {
+       "纬度": 41.676796,
+       "经度": 140.435276
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/北海道銀行",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/740886629",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ]
+     },
+     {
+      "名称": {
        "日文": "ミヤザキ薬局",
        "英文": null,
        "中文": null
@@ -5623,6 +6977,39 @@
      },
      {
       "名称": {
+       "日文": "木古内町役場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 285,
+      "坐标": {
+       "纬度": 41.67842,
+       "经度": 140.437702
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/740890633",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "円照寺",
        "英文": null,
        "中文": null
@@ -5650,6 +7037,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/4807857410",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "願応寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 358,
+      "坐标": {
+       "纬度": 41.680301,
+       "经度": 140.437715
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/740890679",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -5722,6 +7142,39 @@
      },
      {
       "名称": {
+       "日文": "木古内町国民健康保険病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 495,
+      "坐标": {
+       "纬度": 41.674128,
+       "经度": 140.436094
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/740882606",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "薬師堂",
        "英文": null,
        "中文": null
@@ -5755,36 +7208,6 @@
      },
      {
       "名称": {
-       "日文": "木古内警察署",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "行政警察",
-       "英文": "Town hall / police",
-       "中文": "区政府·警察"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/木古内警察署",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "木古内警察署"
-     },
-     {
-      "名称": {
        "日文": "木古内町立木古内中学校",
        "英文": null,
        "中文": null
@@ -5815,36 +7238,6 @@
      },
      {
       "名称": {
-       "日文": "北海道銀行",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "金融",
-       "英文": "Bank / ATM",
-       "中文": "银行·ATM"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/北海道銀行",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "北海道銀行"
-     },
-     {
-      "名称": {
        "日文": "道南うみ街信用金庫",
        "英文": null,
        "中文": null
@@ -5869,9 +7262,18 @@
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「木古内駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "道南うみ街信用金庫"
+      "_title": "道南うみ街信用金庫",
+      "官网検証": {
+       "HTTP": 503,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.d-umishin.co.jp",
+       "HTTP": 503
+      }
      }
     ],
     "交通接続": [
@@ -5973,10 +7375,10 @@
     ]
    },
    "統計": {
-    "観光・名所案内": 13,
+    "観光・名所案内": 11,
     "文化・公共施設": 1,
-    "買い物・商店街": 2,
-    "便民公共服务": 10,
+    "買い物・商店街": 3,
+    "便民公共服务": 14,
     "交通接続": 2,
     "宿泊": 1
    },
@@ -6052,10 +7454,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 12,
-    "ウィキ_only数": 17,
+    "OSM施設数": 19,
+    "ウィキ_only数": 13,
     "駅周辺リンク数": 17
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#7",
@@ -6083,11 +7486,19 @@
     "链接": "https://ja.wikipedia.org/wiki/札苅駅",
     "首段": {
      "日文": null,
-     "英文": null,
+     "英文": "Satsukari Station (Japanese: 札苅駅, Hepburn: Satsukari-eki) is a railway station on the South Hokkaido Railway in Kikonai, Hokkaido, Japan, operated by South Hokkaido Railway Company.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Satsukari_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Satsukari_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -6100,7 +7511,107 @@
     "観光・名所案内": [],
     "文化・公共施設": [],
     "買い物・商店街": [],
-    "便民公共服务": [],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "西野神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 260,
+      "坐标": {
+       "纬度": 41.698582,
+       "经度": 140.470937
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/742071899",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "札苅郵便局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 293,
+      "坐标": {
+       "纬度": 41.69807,
+       "经度": 140.471114
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/742071901",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "洞泉寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 460,
+      "坐标": {
+       "纬度": 41.699359,
+       "经度": 140.473455
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/742074062",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "交通接続": [],
     "宿泊": []
    },
@@ -6108,17 +7619,18 @@
     "観光・名所案内": 0,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 0,
+    "便民公共服务": 3,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 0,
+    "OSM施設数": 3,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#8",
@@ -6161,7 +7673,41 @@
    "公式リンク": [],
    "分区": {
     "観光・名所案内": [],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "はまなす児童公園",
+       "英文": "Hamanasu children's park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 755,
+      "坐标": {
+       "纬度": 41.825628,
+       "经度": 140.671176
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/617816822",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
      {
       "名称": {
@@ -6370,7 +7916,7 @@
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 0,
+    "文化・公共施設": 1,
     "買い物・商店街": 1,
     "便民公共服务": 4,
     "交通接続": 1,
@@ -6379,10 +7925,11 @@
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 6,
+    "OSM施設数": 7,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#9",
@@ -6410,12 +7957,26 @@
     "链接": "https://ja.wikipedia.org/wiki/泉沢駅",
     "首段": {
      "日文": null,
-     "英文": null,
-     "中文": null
+     "英文": "Izumisawa Station (Japanese: 泉沢駅, Hepburn: Izumisawa-eki) is a railway station on the South Hokkaido Railway Line in Kikonai, Hokkaido, Japan, operated by South Hokkaido Railway Company.\n\n",
+     "中文": "泉澤車站（日語：泉沢駅／いずみさわえき，羅馬化：Izumisawa eki）是屬於道南漁火鐵道的鐵路車站，位於北海報上磯郡木古内町。本站現時為簡易委託站。"
     },
     "駅周辺原文": {
      "日文": null
-    }
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/泉澤站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/泉澤站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     },
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Izumisawa_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Izumisawa_Station"
    },
    "交通接続メモ": {
     "バス路線原文": {
@@ -6461,7 +8022,140 @@
       ]
      }
     ],
-    "便民公共服务": [],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "木古内警察署　泉沢駐在所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 100,
+      "坐标": {
+       "纬度": 41.699979,
+       "经度": 140.505807
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/742055152",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "泉沢郵便局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 246,
+      "坐标": {
+       "纬度": 41.700309,
+       "经度": 140.509259
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/473753128",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "大泉寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 593,
+      "坐标": {
+       "纬度": 41.702017,
+       "经度": 140.513305
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/221905974",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "古泉神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 658,
+      "坐标": {
+       "纬度": 41.70259,
+       "经度": 140.513907
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/221905926",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "交通接続": [],
     "宿泊": []
    },
@@ -6469,17 +8163,18 @@
     "観光・名所案内": 0,
     "文化・公共施設": 0,
     "買い物・商店街": 1,
-    "便民公共服务": 0,
+    "便民公共服务": 4,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 1,
+    "OSM施設数": 5,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#10",
@@ -6588,6 +8283,105 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "中野通児童公園",
+       "英文": "Nakanodori children's park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 273,
+      "坐标": {
+       "纬度": 41.826819,
+       "经度": 140.654857
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/618015739",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "中野通近隣公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 317,
+      "坐标": {
+       "纬度": 41.824807,
+       "经度": 140.64949
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/483912965",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "上磯漁港公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 835,
+      "坐标": {
+       "纬度": 41.818781,
+       "经度": 140.647033
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/617816741",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ],
     "買い物・商店街": [
@@ -6659,6 +8453,39 @@
      }
     ],
     "便民公共服务": [
+     {
+      "名称": {
+       "日文": "北斗市役所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 69,
+      "坐标": {
+       "纬度": 41.824125,
+       "经度": 140.652867
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/221599201",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "有川大神宮",
@@ -6896,19 +8723,20 @@
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 2,
+    "文化・公共施設": 5,
     "買い物・商店街": 2,
-    "便民公共服务": 7,
+    "便民公共服务": 8,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 11,
+    "OSM施設数": 15,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#11",
@@ -7251,7 +9079,41 @@
     ],
     "文化・公共施設": [],
     "買い物・商店街": [],
-    "便民公共服务": [],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "カトリック当別教会",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 659,
+      "坐标": {
+       "纬度": 41.738349,
+       "经度": 140.571502
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/620114077",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "交通接続": [],
     "宿泊": []
    },
@@ -7259,17 +9121,18 @@
     "観光・名所案内": 9,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 0,
+    "便民公共服务": 1,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 9,
+    "OSM施設数": 10,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#12",
@@ -7348,7 +9211,107 @@
     ],
     "文化・公共施設": [],
     "買い物・商店街": [],
-    "便民公共服务": [],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "茂辺地駐在所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 226,
+      "坐标": {
+       "纬度": 41.765995,
+       "经度": 140.603627
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/434986436",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茂辺地町役場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 252,
+      "坐标": {
+       "纬度": 41.765104,
+       "经度": 140.60361
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/434986433",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "茂辺地郵便局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 257,
+      "坐标": {
+       "纬度": 41.765564,
+       "经度": 140.603907
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/434986434",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "交通接続": [],
     "宿泊": []
    },
@@ -7356,17 +9319,18 @@
     "観光・名所案内": 1,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 0,
+    "便民公共服务": 3,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 1,
+    "OSM施設数": 4,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "道南いさりび鉄道線#13",
@@ -7395,10 +9359,18 @@
     "首段": {
      "日文": null,
      "英文": null,
-     "中文": null
+     "中文": "釜谷車站（日語：釜谷駅／かまやえき，羅馬化：Kamaya eki）是道南漁火鐵道的鐵路車站，位於上磯郡木古内町釜谷。本站現時為無人站。\n站名源自阿伊努語的「kama-ya-pet」（有扁平岩石的河岸的河流）或「o-kama-ya-un-pet」（在河口有扁平岩石的河岸的河流）。"
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/釜谷站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/釜谷站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -7411,7 +9383,41 @@
     "観光・名所案内": [],
     "文化・公共施設": [],
     "買い物・商店街": [],
-    "便民公共服务": [],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "釜谷簡易郵便局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 84,
+      "坐标": {
+       "纬度": 41.711336,
+       "经度": 140.536828
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/742041937",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "交通接続": [],
     "宿泊": []
    },
@@ -7419,17 +9425,18 @@
     "観光・名所案内": 0,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 0,
+    "便民公共服务": 1,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 0,
+    "OSM施設数": 1,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   }
  ]
 }

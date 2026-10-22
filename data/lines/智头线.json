@@ -18,7 +18,7 @@
  },
  "品質": {
   "無座標": 0,
-  "OSM施設合計": 125,
+  "OSM施設合計": 185,
   "ウィキのみ合計": 0
  },
  "分区定義": [
@@ -80,11 +80,19 @@
     "链接": "https://ja.wikipedia.org/wiki/あわくら温泉駅",
     "首段": {
      "日文": null,
-     "英文": null,
+     "英文": "Awakura-Onsen Station (あわくら温泉駅, Awakura-Onsen-eki) is a passenger railway station located in the village of Nishiawakura, Aida District, Okayama Prefecture, Japan. It is operated by the third-sector semi-public railway operator Chizu Express.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Awakura-Onsen_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Awakura-Onsen_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -251,7 +259,8 @@
     "OSM施設数": 4,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#2",
@@ -279,11 +288,19 @@
     "链接": "https://ja.wikipedia.org/wiki/上郡駅",
     "首段": {
      "日文": null,
-     "英文": null,
+     "英文": "Kamigōri Station (上郡駅, Kamigōri-eki) is an interchange passenger railway station located in the town of Kamigōri, Akō District, Hyōgo Prefecture, Japan, operated jointly by West Japan Railway Company (JR West) and the third-sector (semi-public) railway operator Chizu Express.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Kamigōri_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Kamigōri_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -328,7 +345,41 @@
       ]
      }
     ],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "上郡中央公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=sports_centre",
+      "距车站m": 355,
+      "坐标": {
+       "纬度": 34.862915,
+       "经度": 134.354119
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1157356902",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
      {
       "名称": {
@@ -493,7 +544,11 @@
       "OSM编号": "node/6257315019",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -697,6 +752,39 @@
      },
      {
       "名称": {
+       "日文": "西山三菱電化株式会社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=company",
+      "距车站m": 161,
+      "坐标": {
+       "纬度": 34.867466,
+       "经度": 134.35393
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/572777207",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "上郡郵便局",
        "英文": "Kamigoori Post Office",
        "中文": null
@@ -718,7 +806,7 @@
        "经度": 134.353014
       },
       "地址": null,
-      "官网": "http://japanpost.jp",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 791 52 0050",
@@ -726,7 +814,15 @@
       "OSM编号": "node/6257314401",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://japanpost.jp",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -949,7 +1045,7 @@
        "经度": 134.356155
       },
       "地址": null,
-      "官网": "http://ministop.co.jp",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 791 52 1770",
@@ -957,7 +1053,15 @@
       "OSM编号": "node/6257315386",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://ministop.co.jp",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -1122,7 +1226,11 @@
       "OSM编号": "node/1423049167",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "交通接続": [
@@ -1182,7 +1290,7 @@
        "经度": 134.356744
       },
       "地址": null,
-      "官网": "http://cosmooil.net",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 791 52 2003",
@@ -1190,7 +1298,15 @@
       "OSM编号": "node/6257315294",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://cosmooil.net",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -1297,19 +1413,20 @@
    },
    "統計": {
     "観光・名所案内": 1,
-    "文化・公共施設": 0,
+    "文化・公共施設": 1,
     "買い物・商店街": 8,
-    "便民公共服务": 16,
+    "便民公共服务": 17,
     "交通接続": 3,
     "宿泊": 2
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 30,
+    "OSM施設数": 32,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#3",
@@ -1473,7 +1590,8 @@
     "OSM施設数": 3,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#4",
@@ -1854,6 +1972,39 @@
      },
      {
       "名称": {
+       "日文": "佐用町役場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 125,
+      "坐标": {
+       "纬度": 35.004032,
+       "经度": 134.355466
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/674767739",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "佐用郵便局",
        "英文": "Sayo Post Office",
        "中文": null
@@ -2019,6 +2170,39 @@
      },
      {
       "名称": {
+       "日文": "常徳寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 542,
+      "坐标": {
+       "纬度": 35.006315,
+       "经度": 134.36212
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1086844288",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "佐用警察署佐用交番",
        "英文": null,
        "中文": null
@@ -2084,24 +2268,59 @@
       ]
      }
     ],
-    "交通接続": [],
+    "交通接続": [
+     {
+      "名称": {
+       "日文": "JA-SS",
+       "英文": "JA-SS",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 803,
+      "坐标": {
+       "纬度": 35.007437,
+       "经度": 134.36464
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1086884811",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "宿泊": []
    },
    "統計": {
     "観光・名所案内": 2,
     "文化・公共施設": 1,
     "買い物・商店街": 5,
-    "便民公共服务": 9,
-    "交通接続": 0,
+    "便民公共服务": 11,
+    "交通接続": 1,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 17,
+    "OSM施設数": 20,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#5",
@@ -2241,7 +2460,10 @@
       "OSM编号": "node/10710871038",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "house in Japan"
+      }
      },
      {
       "名称": {
@@ -2314,6 +2536,72 @@
     "買い物・商店街": [
      {
       "名称": {
+       "日文": "ファミリーマート",
+       "英文": "FamilyMart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 152,
+      "坐标": {
+       "纬度": 35.124083,
+       "经度": 134.326191
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/392964747",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "大原ショッピングセンターアイ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 273,
+      "坐标": {
+       "纬度": 35.122083,
+       "经度": 134.325967
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/392534652",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "大原ふれあいマーケット",
        "英文": null,
        "中文": null
@@ -2382,6 +2670,39 @@
      },
      {
       "名称": {
+       "日文": "大原総合支所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 420,
+      "坐标": {
+       "纬度": 35.120489,
+       "经度": 134.326144
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/675040834",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "美作警察署大原駐在所",
        "英文": null,
        "中文": null
@@ -2412,6 +2733,39 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "美作市立大原病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 511,
+      "坐标": {
+       "纬度": 35.119427,
+       "经度": 134.327191
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/392940559",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ],
     "交通接続": [],
@@ -2420,18 +2774,19 @@
    "統計": {
     "観光・名所案内": 5,
     "文化・公共施設": 0,
-    "買い物・商店街": 1,
-    "便民公共服务": 2,
+    "買い物・商店街": 3,
+    "便民公共服务": 4,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 8,
+    "OSM施設数": 12,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#6",
@@ -2459,11 +2814,19 @@
     "链接": "https://ja.wikipedia.org/wiki/宮本武蔵駅",
     "首段": {
      "日文": null,
-     "英文": null,
+     "英文": "Miyamoto Musashi Station (宮本武蔵駅, Miyamoto-Musashi-eki)  is a passenger railway station located in the city of Mimasaka, Okayama Prefecture, Japan. It is operated by the third-sector semi-public railway operator Chizu Express. The station takes its name from the famous warrior Miyamoto Musashi, who (according to one theory) was born nearby.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Miyamoto-Musashi_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Miyamoto-Musashi_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -2541,9 +2904,115 @@
       ]
      }
     ],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "今岡公会堂",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 105,
+      "坐标": {
+       "纬度": 35.100987,
+       "经度": 134.329573
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/401145879",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "宮本武蔵顕彰武蔵武道館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=sports_centre",
+      "距车站m": 562,
+      "坐标": {
+       "纬度": 35.097967,
+       "经度": 134.326162
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:宮本武蔵顕彰武蔵武道館",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11454872",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/175534078",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "The Miyamoto Musashi Budokan (a budōkan (武 道 館) is a dōjō (道場) where budō (武 道) is practiced; the word kan (館) means \"house\") built in the province of Mimasaka in Ōhara-Cho, the birthplace of Miyamoto Musashi (March 12, 1584, Ōhara-Chō - May 19, 1645) was inaugurated on May 20, 2000 for the anniversary of his death. This budokan is dedicated to the official martial arts of Japan. It brings together all the saber and kendo traditional schools. The inauguration took place in the presence of many Japanese officials including Sensei Tadashi Chihara, guarantor and tenth of the line of Miyamoto Musa"
+      }
+     }
+    ],
     "買い物・商店街": [],
     "便民公共服务": [
+     {
+      "名称": {
+       "日文": "讚甘神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 730,
+      "坐标": {
+       "纬度": 35.095434,
+       "经度": 134.327818
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:讃甘神社",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11632560",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1080873877",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Okayama Prefecture, Japan"
+      }
+     },
      {
       "名称": {
        "日文": "讃甘郵便局",
@@ -2583,19 +3052,20 @@
    },
    "統計": {
     "観光・名所案内": 2,
-    "文化・公共施設": 0,
+    "文化・公共施設": 2,
     "買い物・商店街": 0,
-    "便民公共服务": 1,
+    "便民公共服务": 2,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 3,
+    "OSM施設数": 6,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#7",
@@ -2623,11 +3093,19 @@
     "链接": "https://ja.wikipedia.org/wiki/山郷駅",
     "首段": {
      "日文": null,
-     "英文": null,
+     "英文": "Yamasato Station (山郷駅, Yamasato-eki) is a passenger railway station located in the town of  Chizu, Yazu District, Tottori, Japan. It is operated by the third-sector semi-public railway operator Chizu Express.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Yamasato_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Yamasato_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -2638,7 +3116,41 @@
    "公式リンク": [],
    "分区": {
     "観光・名所案内": [],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "山郷地区公民館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 28,
+      "坐标": {
+       "纬度": 35.232565,
+       "经度": 134.289312
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/376793414",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [],
     "便民公共服务": [
      {
@@ -2680,7 +3192,7 @@
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 0,
+    "文化・公共施設": 1,
     "買い物・商店街": 0,
     "便民公共服务": 1,
     "交通接続": 0,
@@ -2689,10 +3201,11 @@
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 1,
+    "OSM施設数": 2,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#8",
@@ -2721,10 +3234,18 @@
     "首段": {
      "日文": null,
      "英文": null,
-     "中文": null
+     "中文": "平福站（日語：平福駅／ひらふくえき，羅馬化：Hirafuku eki）是位於兵庫縣佐用郡佐用町平福，智頭急行智頭線的車站。此站被選為第4回近畿車站百選車站。"
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/平福站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/平福站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -3021,7 +3542,8 @@
     "OSM施設数": 8,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#9",
@@ -3069,6 +3591,39 @@
     "便民公共服务": [
      {
       "名称": {
+       "日文": "智頭警察署郷原駐在所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 809,
+      "坐标": {
+       "纬度": 35.261713,
+       "经度": 134.273471
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/868264536",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "山形郵便局",
        "英文": "Yamagata Post Office",
        "中文": null
@@ -3108,17 +3663,18 @@
     "観光・名所案内": 0,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 1,
+    "便民公共服务": 2,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 1,
+    "OSM施設数": 2,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#10",
@@ -3147,10 +3703,18 @@
     "首段": {
      "日文": null,
      "英文": null,
-     "中文": null
+     "中文": "智頭站（日語：智頭駅／ちずえき，羅馬化：Chizu eki）是位於日本鳥取縣八頭郡智頭町大字智頭，屬於西日本旅客鐵道（JR西日本）和智頭急行的鐵路車站。町名讀法為「ちづ」，站名的「ちず」則來自大字智頭的「ちず」。"
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/智頭站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/智頭站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -3277,6 +3841,39 @@
        "中文": "旅游咨询处"
       },
       "OSM类别": "tourism=information",
+      "距车站m": 75,
+      "坐标": {
+       "纬度": 35.265488,
+       "经度": 134.226249
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/391784836",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "智頭町総合案内所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
       "距车站m": 76,
       "坐标": {
        "纬度": 35.265522,
@@ -3291,7 +3888,10 @@
       "OSM编号": "node/3933227389",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "information center in Chizu"
+      }
      },
      {
       "名称": {
@@ -3361,6 +3961,114 @@
      },
      {
       "名称": {
+       "日文": "西河克己映画記念館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 611,
+      "坐标": {
+       "纬度": 35.269689,
+       "经度": 134.229273
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:西河克己映画記念館",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11629006",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/355767081",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "museum in Chizu, Tottori, Japan"
+      }
+     },
+     {
+      "名称": {
+       "日文": "旧塩屋出店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 614,
+      "坐标": {
+       "纬度": 35.269715,
+       "经度": 134.229293
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:旧塩屋出店",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11511017",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/768631496",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "house in Japan"
+      }
+     },
+     {
+      "名称": {
+       "日文": "母屋",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 617,
+      "坐标": {
+       "纬度": 35.269834,
+       "经度": 134.229124
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:旧塩屋出店",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11511017",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/355767079",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "house in Japan"
+      }
+     },
+     {
+      "名称": {
        "日文": "塩屋出店",
        "英文": null,
        "中文": null
@@ -3394,39 +4102,6 @@
      },
      {
       "名称": {
-       "日文": "智頭宿・史跡名所案内",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 678,
-      "坐标": {
-       "纬度": 35.270319,
-       "经度": 134.229442
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/4418329979",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
        "日文": "石谷家住宅",
        "英文": null,
        "中文": null
@@ -3454,6 +4129,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/13058192308",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "智頭宿・史跡名所案内",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 678,
+      "坐标": {
+       "纬度": 35.270319,
+       "经度": 134.229442
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4418329979",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -3658,6 +4366,43 @@
      },
      {
       "名称": {
+       "日文": "石谷家住宅",
+       "英文": "Ishitani Family Residence",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 741,
+      "坐标": {
+       "纬度": 35.270356,
+       "经度": 134.230594
+      },
+      "地址": null,
+      "官网": "https://www.ifs.or.jp/",
+      "维基百科": "ja:石谷家住宅",
+      "Wikidata": "https://www.wikidata.org/wiki/Q6080401",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/768648805",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
        "日文": "旧街道に残る 江戸時代後期の道標",
        "英文": null,
        "中文": null
@@ -3820,6 +4565,72 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "拝殿",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=attraction",
+      "距车站m": 857,
+      "坐标": {
+       "纬度": 35.27115,
+       "经度": 134.231415
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/387595366",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "本殿",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=attraction",
+      "距车站m": 874,
+      "坐标": {
+       "纬度": 35.27123,
+       "经度": 134.231594
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/387595369",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ],
     "文化・公共施設": [
@@ -3891,6 +4702,39 @@
      },
      {
       "名称": {
+       "日文": "智頭町総合センター",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 139,
+      "坐标": {
+       "纬度": 35.264382,
+       "经度": 134.226839
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/409021157",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "智頭地区公民館",
        "英文": null,
        "中文": null
@@ -3918,6 +4762,175 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/3905251911",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "智頭町立ちえの森ちづ図書館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=library",
+      "距车站m": 195,
+      "坐标": {
+       "纬度": 35.263423,
+       "经度": 134.22624
+      },
+      "地址": null,
+      "官网": "https://www1.town.chizu.tottori.jp/library/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/591199531",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "河四公民館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 234,
+      "坐标": {
+       "纬度": 35.267185,
+       "经度": 134.225835
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/776063596",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "杉の香団地集会所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 321,
+      "坐标": {
+       "纬度": 35.265195,
+       "经度": 134.222044
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/387886351",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "智頭町老人福祉センター",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 331,
+      "坐标": {
+       "纬度": 35.267945,
+       "经度": 134.226648
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/771764772",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "愛宕公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 372,
+      "坐标": {
+       "纬度": 35.265011,
+       "经度": 134.229674
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/600063027",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -3957,6 +4970,105 @@
      },
      {
       "名称": {
+       "日文": "岩神公民館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 417,
+      "坐标": {
+       "纬度": 35.268568,
+       "经度": 134.223858
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/390052561",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "河二公民館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 444,
+      "坐标": {
+       "纬度": 35.268329,
+       "经度": 134.228457
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/387007504",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "本折隣保館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 479,
+      "坐标": {
+       "纬度": 35.266739,
+       "经度": 134.230459
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/772015697",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "智頭河畔",
        "英文": null,
        "中文": null
@@ -3987,9 +5099,273 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "智頭町立久志谷児童館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 540,
+      "坐标": {
+       "纬度": 35.260373,
+       "经度": 134.224197
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/387924577",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "旧智頭町立諏訪保育園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 552,
+      "坐标": {
+       "纬度": 35.268465,
+       "经度": 134.230052
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/354588441",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "中町公民館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 610,
+      "坐标": {
+       "纬度": 35.269392,
+       "经度": 134.22976
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/391848564",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "下町公民館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 694,
+      "坐标": {
+       "纬度": 35.270811,
+       "经度": 134.228657
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/405107062",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "上町公民館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 700,
+      "坐标": {
+       "纬度": 35.268895,
+       "经度": 134.231735
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/387719470",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "智頭町民運動場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=stadium",
+      "距车站m": 706,
+      "坐标": {
+       "纬度": 35.267789,
+       "经度": 134.232619
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/354474365",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ],
     "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "イカリ楽粹智頭店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 79,
+      "坐标": {
+       "纬度": 35.265651,
+       "经度": 134.226118
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/400788100",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "トスクちづ店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 118,
+      "坐标": {
+       "纬度": 35.265958,
+       "经度": 134.226341
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/391808357",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "ダイソー",
@@ -4019,6 +5395,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/3950640824",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "S-mart",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 138,
+      "坐标": {
+       "纬度": 35.266092,
+       "经度": 134.226493
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/387622389",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -4258,6 +5667,79 @@
      },
      {
       "名称": {
+       "日文": "鳥取銀行",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 97,
+      "坐标": {
+       "纬度": 35.265553,
+       "经度": 134.226491
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/391784837",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "智頭町役場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 112,
+      "坐标": {
+       "纬度": 35.265003,
+       "经度": 134.226806
+      },
+      "地址": null,
+      "官网": "https://www1.town.chizu.tottori.jp/",
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q136573040",
+      "电话": "+81 858 75 4111",
+      "开放时间": null,
+      "OSM编号": "way/409021156",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "town office in Chizu, Tottori"
+      }
+     },
+     {
+      "名称": {
        "日文": "すみれデイサービス",
        "英文": null,
        "中文": null
@@ -4285,6 +5767,105 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/4514040356",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "山陰合同銀行 智頭支店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 175,
+      "坐标": {
+       "纬度": 35.265783,
+       "经度": 134.227316
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/771764768",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "有限会社だいいち薬局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 197,
+      "坐标": {
+       "纬度": 35.26456,
+       "经度": 134.223514
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/389652834",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "鳥取信用金庫 智頭支店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 202,
+      "坐标": {
+       "纬度": 35.266269,
+       "经度": 134.227283
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/772047760",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -4324,6 +5905,39 @@
      },
      {
       "名称": {
+       "日文": "長石医院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 238,
+      "坐标": {
+       "纬度": 35.26553,
+       "经度": 134.228149
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/772015703",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "ちず薬局",
        "英文": null,
        "中文": null
@@ -4351,6 +5965,72 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/7204798299",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "保健・医療・福祉総合センターほのぼの",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 251,
+      "坐标": {
+       "纬度": 35.263375,
+       "经度": 134.223793
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/389024085",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "智頭心和苑",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 257,
+      "坐标": {
+       "纬度": 35.263121,
+       "经度": 134.224121
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/387929736",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -4423,6 +6103,108 @@
      },
      {
       "名称": {
+       "日文": "たなべ歯科",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 294,
+      "坐标": {
+       "纬度": 35.266321,
+       "经度": 134.228458
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/772006842",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "愛宕神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 347,
+      "坐标": {
+       "纬度": 35.262993,
+       "经度": 134.228408
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q136644084",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/389207542",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "shrine in Chizu, Tottori"
+      }
+     },
+     {
+      "名称": {
+       "日文": "デイサービスセンター 春香",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 438,
+      "坐标": {
+       "纬度": 35.267583,
+       "经度": 134.229321
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/354463202",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "金刀比羅神社",
        "英文": null,
        "中文": null
@@ -4486,10 +6268,314 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "龍吟山 興雲寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 735,
+      "坐标": {
+       "纬度": 35.269749,
+       "经度": 134.231332
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:興雲寺",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11613487",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/389227086",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "temple in Chizu, Tottori"
+      }
+     },
+     {
+      "名称": {
+       "日文": "東嶽山 光専寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 767,
+      "坐标": {
+       "纬度": 35.271405,
+       "经度": 134.229009
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:光専寺",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11388339",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/387029785",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "temple in Chizu, Tottori, Japan"
+      }
+     },
+     {
+      "名称": {
+       "日文": "諏訪神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 839,
+      "坐标": {
+       "纬度": 35.270835,
+       "经度": 134.231588
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:諏訪神社 (智頭町)",
+      "Wikidata": "https://www.wikidata.org/wiki/Q3505843",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/409011115",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "岩神神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 857,
+      "坐标": {
+       "纬度": 35.27181,
+       "经度": 134.220944
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/390055448",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ],
-    "交通接続": [],
+    "交通接続": [
+     {
+      "名称": {
+       "日文": "智頭石油",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 537,
+      "坐标": {
+       "纬度": 35.267659,
+       "经度": 134.230594
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/391696586",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "智頭宿SS",
+       "英文": "ENEOS",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 679,
+      "坐标": {
+       "纬度": 35.271158,
+       "经度": 134.226477
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/868264557",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "充電スタンド",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=charging_station",
+      "距车站m": 698,
+      "坐标": {
+       "纬度": 35.268201,
+       "经度": 134.23227
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/388333990",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "JA SS",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 793,
+      "坐标": {
+       "纬度": 35.272206,
+       "经度": 134.224955
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/387157528",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "宿泊": [
+     {
+      "名称": {
+       "日文": "林新館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 298,
+      "坐标": {
+       "纬度": 35.267496,
+       "经度": 134.227045
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/771764771",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "河内屋旅館",
@@ -4522,24 +6608,58 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "割烹旅館 塩田屋",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 658,
+      "坐标": {
+       "纬度": 35.270295,
+       "经度": 134.229043
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/387399587",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ]
    },
    "統計": {
-    "観光・名所案内": 20,
-    "文化・公共施設": 5,
-    "買い物・商店街": 6,
-    "便民公共服务": 9,
-    "交通接続": 0,
-    "宿泊": 1
+    "観光・名所案内": 27,
+    "文化・公共施設": 20,
+    "買い物・商店街": 9,
+    "便民公共服务": 24,
+    "交通接続": 4,
+    "宿泊": 3
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 41,
+    "OSM施設数": 87,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#11",
@@ -4650,7 +6770,10 @@
       "OSM编号": "node/10755632160",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Buddhist temple of the Shingon Buddhism sect dedicated to Avalokiteśvara in Kamigori, Japan"
+      }
      }
     ],
     "交通接続": [],
@@ -4670,7 +6793,8 @@
     "OSM施設数": 2,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#12",
@@ -4733,7 +6857,8 @@
     "OSM施設数": 0,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#13",
@@ -4762,10 +6887,18 @@
     "首段": {
      "日文": null,
      "英文": null,
-     "中文": null
+     "中文": "苔繩站（日語：苔縄駅／こけなわえき，羅馬化：Kokenawa eki）是位於兵庫縣赤穗郡上郡町，屬於智頭急行智頭線的車站。"
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/苔繩站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/苔繩站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -4830,7 +6963,8 @@
     "OSM施設数": 1,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "智頭線#14",
@@ -4858,11 +6992,19 @@
     "链接": "https://ja.wikipedia.org/wiki/西粟倉駅",
     "首段": {
      "日文": null,
-     "英文": null,
+     "英文": "Nishi-Awakura Station (西粟倉駅, Nishi-Awakura-eki) is a passenger railway station located in the village of Nishiawakura, Aida District, Okayama Prefecture, Japan. It is operated by the third-sector semi-public railway operator Chizu Express.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Nishi-Awakura_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Nishi-Awakura_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -5069,7 +7211,7 @@
        "经度": 134.337657
       },
       "地址": "西粟倉村長尾",
-      "官网": "https://kurashika.com/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -5077,7 +7219,15 @@
       "OSM编号": "node/4045842458",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 403,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://kurashika.com/",
+       "HTTP": 403
+      }
      }
     ]
    },
@@ -5095,7 +7245,8 @@
     "OSM施設数": 6,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   }
  ]
 }

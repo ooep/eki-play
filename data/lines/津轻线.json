@@ -18,7 +18,7 @@
  },
  "品質": {
   "無座標": 0,
-  "OSM施設合計": 181,
+  "OSM施設合計": 209,
   "ウィキのみ合計": 19
  },
  "分区定義": [
@@ -81,10 +81,18 @@
     "首段": {
      "日文": null,
      "英文": null,
-     "中文": null
+     "中文": "中澤站 （日語：中沢駅／なかさわえき，羅馬化：Nakasawa eki）是一由東日本旅客鐵道（JR東日本）所管理的鐵路車站，位於日本青森縣青森市外圍，然而部份車站範圍卻是座落在東津輕郡蓬田村。「中澤」是蓬田村的其中一個地方名。\n平日只提供九班普通列車服務，包括一班直通三廐站的班次。"
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/中澤站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/中澤站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -115,7 +123,8 @@
     "OSM施設数": 0,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "津軽線#2",
@@ -143,12 +152,26 @@
     "链接": "https://ja.wikipedia.org/wiki/奥内駅",
     "首段": {
      "日文": null,
-     "英文": null,
-     "中文": null
+     "英文": "Okunai Station (奥内駅, Okunai-eki) is a railway station on the East Japan Railway Company (JR East) Tsugaru Line located in the city of Aomori, Aomori Prefecture, Japan.",
+     "中文": "奥內站 （日語：奥内駅／おくないえき，羅馬化：Okunai eki）是由東日本旅客鐵道（JR東日本）所管理的鐵路車站，位於日本青森縣青森市。平日只提供九班普通列車服務，包括一班直通三廐站的班次。\n名稱來自於阿伊努語，可能是「etok-nay」（前面的河流）的變化。"
     },
     "駅周辺原文": {
      "日文": null
-    }
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/奧內站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/奧內站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     },
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Okunai_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Okunai_Station"
    },
    "交通接続メモ": {
     "バス路線原文": {
@@ -178,7 +201,8 @@
     "OSM施設数": 0,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "津軽線#3",
@@ -230,7 +254,45 @@
    "分区": {
     "観光・名所案内": [],
     "文化・公共施設": [],
-    "買い物・商店街": [],
+    "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "マエダストア",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 594,
+      "坐标": {
+       "纬度": 40.921933,
+       "经度": 140.668497
+      },
+      "地址": null,
+      "官网": "https://i-maeda.jp/store.html?id=49",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 17 718 0384",
+      "开放时间": "Mo-Su 09:00-21:00",
+      "OSM编号": "way/1451065656",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     }
+    ],
     "便民公共服务": [],
     "交通接続": [
      {
@@ -269,7 +331,7 @@
    "統計": {
     "観光・名所案内": 0,
     "文化・公共施設": 0,
-    "買い物・商店街": 0,
+    "買い物・商店街": 1,
     "便民公共服务": 0,
     "交通接続": 1,
     "宿泊": 0
@@ -282,10 +344,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 0,
+    "OSM施設数": 1,
     "ウィキ_only数": 1,
     "駅周辺リンク数": 1
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "津軽線#4",
@@ -362,14 +425,17 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/青森農業協同組合",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11662553",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「後潟駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "青森農業協同組合"
+      "_title": "青森農業協同組合",
+      "简介": {
+       "中文": null
+      }
      },
      {
       "名称": {
@@ -404,8 +470,8 @@
      {
       "名称": {
        "日文": "青森市営バス",
-       "英文": null,
-       "中文": null
+       "英文": "Aomori City Bus",
+       "中文": "青森市營巴士"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -420,16 +486,25 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.city.aomori.aomori.jp/koutsu/top.html",
       "维基百科": "https://ja.wikipedia.org/wiki/青森市営バス",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11662056",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「後潟駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「後潟駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "青森市営バス"
+      "_title": "青森市営バス",
+      "简介": {
+       "英文": "bus service in Aomori, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "文化・公共施設": [],
@@ -487,16 +562,21 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.post.japanpost.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/郵便局",
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「後潟駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「後潟駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "郵便局"
+      "_title": "郵便局",
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -636,7 +716,8 @@
     "OSM施設数": 1,
     "ウィキ_only数": 7,
     "駅周辺リンク数": 7
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "津軽線#5",
@@ -679,7 +760,6 @@
    "公式リンク": [
     "https://map.japanpost.jp/p/search/dtl/300184057000/",
     "http://www.jr-morioka.com/cgi-bin/pdf/press/pdf_1496120925_1.pdf|title=油川駅の駅舎リニューアル完成のお知らせ|format=PDF|publisher=東日本旅客鉄道盛岡支社|date=2017-05-30|accessdate=2021-01-17|archiveurl=https://web.archive.org/web/20190702015105/http://www.jr-morioka.com/cgi-bin/pdf/press/pdf_1496120925_1.pdf|archivedate=2019-07-02",
-    "https://www.toonippo.co.jp/articles/-/1690070|title=深浦駅3月無人化／JR「五能線維持のため」|newspaper=東奥日報|date=2023-12-15|accessdate=2023-12-15|archiveurl=https://web.archive.org/web/20231215123336/https://www.toonippo.co.jp/articles/-/1690070|archivedate=2023-12-15",
     "https://www.jreast.co.jp/estation/station/info.aspx?StationCd=73|title=駅の情報（油川駅）：JR東日本|publisher=東日本旅客鉄道|accessdate=2024-09-02|archiveurl=https://web.archive.org/web/20240830143619/https://www.jreast.co.jp/estation/station/info.aspx?StationCd=73|archivedate=2024-08-30",
     "https://www.jreast.co.jp/press/2024/20240711_ho02.pdf|title=Suicaエリア外もチケットレスで!",
     "https://www.jreast.co.jp/press/2024/morioka/20250221_mr11.pdf|title=津軽線油川駅における郵便局窓口業務と駅窓口業務の一体運営の開始|format=PDF|publisher=日本郵便東北支社／東日本旅客鉄道盛岡支社|date=2025-02-21|accessdate=2025-02-25",
@@ -746,20 +826,23 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/青森農業協同組合",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11662553",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「油川駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "青森農業協同組合"
+      "_title": "青森農業協同組合",
+      "简介": {
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "青森市営バス",
-       "英文": null,
-       "中文": null
+       "英文": "Aomori City Bus",
+       "中文": "青森市營巴士"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -774,16 +857,25 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.city.aomori.aomori.jp/koutsu/top.html",
       "维基百科": "https://ja.wikipedia.org/wiki/青森市営バス",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11662056",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「油川駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「油川駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "青森市営バス"
+      "_title": "青森市営バス",
+      "简介": {
+       "英文": "bus service in Aomori, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "文化・公共施設": [],
@@ -910,7 +1002,7 @@
        "经度": 140.695436
       },
       "地址": null,
-      "官网": "http://family.co.jp",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 17 763 3351",
@@ -918,7 +1010,15 @@
       "OSM编号": "node/7562260603",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://family.co.jp",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -1011,7 +1111,7 @@
        "经度": 140.691223
       },
       "地址": null,
-      "官网": "http://japanpost.jp",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 17 788 5843",
@@ -1019,7 +1119,15 @@
       "OSM编号": "node/7562272086",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://japanpost.jp",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -1448,7 +1556,11 @@
       "OSM编号": "node/7562261305",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -1685,16 +1797,21 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.post.japanpost.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/郵便局",
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「油川駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「油川駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "郵便局"
+      "_title": "郵便局",
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "交通接続": [
@@ -1814,7 +1931,8 @@
     "OSM施設数": 25,
     "ウィキ_only数": 8,
     "駅周辺リンク数": 8
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "津軽線#6",
@@ -1842,11 +1960,19 @@
     "链接": "https://ja.wikipedia.org/wiki/津軽宮田駅",
     "首段": {
      "日文": "{{駅情報\n|社色 = green\n|文字色 =\n|駅名 = 津軽宮田駅\n|画像 = JR East Tsugaru-Miyata Station Overall, Aomori Pref.jpg\n|pxl = 300\n|画像説明 = 駅全景（2023年10月）\n|地図=\n|よみがな = つがるみやた\n|ローマ字 = Tsugaru-Miyata\n|前の駅 =\n|駅間A = 3.7\n|駅間B = 1.8\n|次の駅 =\n|電報略号 = ツタ\n|所属事業者 =  （JR東日本）\n|所属路線 =\n|キロ程 = 9.7\n|起点駅 =\n|所在地 =   大字奥内字宮田\n|座標 =\n|駅構造 =\n|ホーム = 1面1線\n|廃止年月日 =\n|乗車人員 = 61\n|乗降人員 =\n|統計年度 = 2004年\n|備考 =\n}}\n津軽宮田駅（つがるみやたえき）は、  大字奥内字宮田 にある、 （JR東日本） の である。",
-     "英文": null,
+     "英文": "Tsugaru-Miyata Station (津軽宮田駅, Tsugaru-Miyata-eki) is a railway station on the East Japan Railway Company (JR East) Tsugaru Line located in the city of Aomori, Aomori Prefecture, Japan.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": "* 国道280号\n* 青森市役所奥内支所\n* 奥内郵便局\n* 青森市営バス「奥内支所前」停留所"
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Tsugaru-Miyata_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Tsugaru-Miyata_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -1868,8 +1994,8 @@
      {
       "名称": {
        "日文": "青森市営バス",
-       "英文": null,
-       "中文": null
+       "英文": "Aomori City Bus",
+       "中文": "青森市營巴士"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -1884,16 +2010,25 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.city.aomori.aomori.jp/koutsu/top.html",
       "维基百科": "https://ja.wikipedia.org/wiki/青森市営バス",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11662056",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「津軽宮田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「津軽宮田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "青森市営バス"
+      "_title": "青森市営バス",
+      "简介": {
+       "英文": "bus service in Aomori, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "文化・公共施設": [],
@@ -2024,7 +2159,8 @@
     "OSM施設数": 1,
     "ウィキ_only数": 3,
     "駅周辺リンク数": 3
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "津軽線#7",
@@ -2052,12 +2188,26 @@
     "链接": "https://ja.wikipedia.org/wiki/瀬辺地駅",
     "首段": {
      "日文": null,
-     "英文": null,
-     "中文": null
+     "英文": "Seheji Station (瀬辺地駅, Seheji-eki) is a railway station on the East Japan Railway Company (JR East) Tsugaru Line located in the village of Yomogita, Aomori Prefecture, Japan.",
+     "中文": "瀨邊地站 （日語：瀬辺地駅／せへじえき，羅馬化：Sehiji eki）是一由東日本旅客鐵道（JR東日本）所管理的鐵路車站，位於日本青森縣東津輕郡蓬田村。平日只提供九班普通列車服務，包括一班直通三廐站的班次。\n名稱來自阿伊努語的「sep-pet」（寬廣的河流）、「set-pet」（鳥巢的河流）或「si-pet」（大河）。"
     },
     "駅周辺原文": {
      "日文": null
-    }
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/瀨邊地站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/瀨邊地站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     },
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Seheji_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Seheji_Station"
    },
    "交通接続メモ": {
     "バス路線原文": {
@@ -2087,7 +2237,8 @@
     "OSM施設数": 0,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "津軽線#8",
@@ -2135,6 +2286,39 @@
     "便民公共服务": [
      {
       "名称": {
+       "日文": "蓬田村役場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 272,
+      "坐标": {
+       "纬度": 40.97184,
+       "经度": 140.655981
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/601885840",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "陸奥蓬田郵便局",
        "英文": "Mutsu Yomogita Post Office",
        "中文": null
@@ -2174,17 +2358,18 @@
     "観光・名所案内": 0,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 1,
+    "便民公共服务": 2,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 1,
+    "OSM施設数": 2,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "津軽線#9",
@@ -2213,10 +2398,18 @@
     "首段": {
      "日文": null,
      "英文": null,
-     "中文": null
+     "中文": "蟹田站（日語：蟹田駅／かにたえき，羅馬化：Kanita eki）是由東日本旅客鐵道（JR東日本）所管理的鐵路車站，位於日本青森縣東津輕郡外濱町，為津輕線上最重要的中途站，在此站分割為南北兩個運轉系統。本站現時除了每日1來回普通班次、以及假日才增設的臨時觀光列車外，其餘時間均沒有任何班次會行駛全線，北段與南段的區間車均全以本站為終點站，乘客往往都要轉車才能繼續行程。"
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/蟹田站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/蟹田站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -2294,7 +2487,41 @@
       ]
      }
     ],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "ぽっぽ湯",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 562,
+      "坐标": {
+       "纬度": 41.042852,
+       "经度": 140.63942
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/683960629",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
      {
       "名称": {
@@ -2465,6 +2692,47 @@
      },
      {
       "名称": {
+       "日文": "外ヶ浜中央病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 473,
+      "坐标": {
+       "纬度": 41.042059,
+       "经度": 140.639716
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/683318188",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.town.sotogahama.lg.jp/l_hospital.html",
+       "HTTP": 404
+      }
+     },
+     {
+      "名称": {
        "日文": "青森銀行蟹田支店",
        "英文": null,
        "中文": null
@@ -2530,7 +2798,41 @@
       ]
      }
     ],
-    "交通接続": [],
+    "交通接続": [
+     {
+      "名称": {
+       "日文": "JA",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 690,
+      "坐标": {
+       "纬度": 41.041449,
+       "经度": 140.635373
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/193318161",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "宿泊": [
      {
       "名称": {
@@ -2569,19 +2871,20 @@
    },
    "統計": {
     "観光・名所案内": 2,
-    "文化・公共施設": 0,
+    "文化・公共施設": 1,
     "買い物・商店街": 1,
-    "便民公共服务": 6,
-    "交通接続": 0,
+    "便民公共服务": 7,
+    "交通接続": 1,
     "宿泊": 1
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 10,
+    "OSM施設数": 13,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "津軽線#10",
@@ -2644,7 +2947,8 @@
     "OSM施設数": 0,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "津軽線#11",
@@ -2755,6 +3059,46 @@
      },
      {
       "名称": {
+       "日文": "ねぶたの家 ワ・ラッセ",
+       "英文": "Nebuta Museum Wa Rasse",
+       "中文": "睡魔之家WARASSE"
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 149,
+      "坐标": {
+       "纬度": 40.829523,
+       "经度": 140.73583
+      },
+      "地址": null,
+      "官网": "https://www.nebuta.jp/warasse/",
+      "维基百科": "ja:ねぶたの家 ワ・ラッセ",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11275091",
+      "电话": "+81 17-752-1311",
+      "开放时间": "May-Aug Mo-Su 09:00-19:00; Sep-Apr Mo-Su 09:00-18:00; Dec 31-Jan 01, Aug 09-10 off",
+      "OSM编号": "way/138098524",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "museum in Aomori, Japan"
+      }
+     },
+     {
+      "名称": {
        "日文": "観光センターバス案内",
        "英文": null,
        "中文": null
@@ -2854,6 +3198,83 @@
      },
      {
       "名称": {
+       "日文": "青森ベイブリッジ",
+       "英文": "Aomori Bay Bridge",
+       "中文": "青森大橋"
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=attraction",
+      "距车站m": 235,
+      "坐标": {
+       "纬度": 40.830345,
+       "经度": 140.736871
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:青森ベイブリッジ",
+      "Wikidata": "https://www.wikidata.org/wiki/Q4778670",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/695946241",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "中文": "日本青森县青森市的桥梁",
+       "英文": "bridge in Japan"
+      },
+      "维基条目原文引用": {
+       "中文": {
+        "链接": "https://www.wikidata.org/wiki/Q4778670",
+        "出典": "Wikidata 中文说明 (CC0)",
+        "取得日": "2026-10-22"
+       }
+      }
+     },
+     {
+      "名称": {
+       "日文": "青森ラブリッジ",
+       "英文": "Aomori Love Bridge",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=attraction",
+      "距车站m": 253,
+      "坐标": {
+       "纬度": 40.830426,
+       "经度": 140.737075
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/102403837",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "あおもり街てく",
        "英文": null,
        "中文": null
@@ -2884,6 +3305,50 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "青函連絡船メモリアルシップ 八甲田丸",
+       "英文": "Hakkoda-maru Memorial Ship",
+       "中文": "青函連絡船紀念館八甲田丸"
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 281,
+      "坐标": {
+       "纬度": 40.831696,
+       "经度": 140.736527
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:青函連絡船メモリアルシップ八甲田丸",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11661114",
+      "电话": "+81 17-735-8150",
+      "开放时间": "Apr-Oct Mo-Su 09:00-19:00; Nov-Mar Tu-Su 09:00-17:00; Nov-Mar Mo off; Dec 31-Jan 01 off",
+      "OSM编号": "way/138098525",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 403,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://aomori-hakkoudamaru.com/",
+       "HTTP": 403
+      },
+      "简介": {
+       "英文": "Ex Japanese train ferry"
+      }
      },
      {
       "名称": {
@@ -3015,7 +3480,10 @@
       "OSM编号": "node/2350431955",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "museum in Aomori, Japan"
+      }
      },
      {
       "名称": {
@@ -3087,6 +3555,105 @@
     "文化・公共施設": [
      {
       "名称": {
+       "日文": "ワ・ラッセ 西の広場",
+       "英文": "Wa.Rasse East Plaza",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 80,
+      "坐标": {
+       "纬度": 40.82983,
+       "经度": 140.735085
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/823479244",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "青い海公園 柳川地区",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 188,
+      "坐标": {
+       "纬度": 40.83086,
+       "经度": 140.732277
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/295033391",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "青い海公園",
+       "英文": "Aoimori Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 257,
+      "坐标": {
+       "纬度": 40.831669,
+       "经度": 140.73615
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/295236617",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "青森市民図書館",
        "英文": "Aomori City Library",
        "中文": null
@@ -3116,7 +3683,18 @@
       "OSM编号": "node/2344480285",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "中文": "图书馆",
+       "英文": "library"
+      },
+      "维基条目原文引用": {
+       "中文": {
+        "链接": "https://www.wikidata.org/wiki/Q11662067",
+        "出典": "Wikidata 中文说明 (CC0)",
+        "取得日": "2026-10-22"
+       }
+      }
      },
      {
       "名称": {
@@ -3219,6 +3797,39 @@
      },
      {
       "名称": {
+       "日文": "柳川区役所広場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 674,
+      "坐标": {
+       "纬度": 40.83209,
+       "经度": 140.72665
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1104920372",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "シネマディクト",
        "英文": null,
        "中文": null
@@ -3246,6 +3857,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/7273447509",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西部公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 727,
+      "坐标": {
+       "纬度": 40.827446,
+       "经度": 140.726145
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1104916222",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -3318,6 +3962,72 @@
      },
      {
       "名称": {
+       "日文": "沖館川緑地",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 806,
+      "坐标": {
+       "纬度": 40.835085,
+       "经度": 140.727413
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1104916814",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "青い海公園",
+       "英文": "Aoiumi Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 853,
+      "坐标": {
+       "纬度": 40.829656,
+       "经度": 140.744268
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/295236616",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "古川市民センター",
        "英文": null,
        "中文": null
@@ -3348,6 +4058,42 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "青い森公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 893,
+      "坐标": {
+       "纬度": 40.824334,
+       "经度": 140.741754
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "en:Aoimori Park",
+      "Wikidata": "https://www.wikidata.org/wiki/Q98690974",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/102404823",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "park in Aomori"
+      }
      }
     ],
     "買い物・商店街": [
@@ -3383,6 +4129,47 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "A-FACTORY",
+       "英文": "A-FACTORY",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 84,
+      "坐标": {
+       "纬度": 40.830239,
+       "经度": 140.73504
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "09:00-20:00",
+      "OSM编号": "way/138098534",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.jre-abc.com/wp/afactory/index/",
+       "HTTP": 404
+      }
      },
      {
       "名称": {
@@ -3514,6 +4301,42 @@
       "OSM编号": "node/7013247722",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "Japanese shopping district"
+      }
+     },
+     {
+      "名称": {
+       "日文": "さわや書店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=books",
+      "距车站m": 219,
+      "坐标": {
+       "纬度": 40.827957,
+       "经度": 140.734111
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10000118683",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
       ]
      },
      {
@@ -3545,39 +4368,6 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/7226679302",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "さわや書店",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=books",
-      "距车站m": 219,
-      "坐标": {
-       "纬度": 40.827957,
-       "经度": 140.734111
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/10000118683",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -3770,7 +4560,7 @@
        "经度": 140.734922
       },
       "地址": null,
-      "官网": "http://sej.co.jp",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 17 735 7701",
@@ -3778,7 +4568,15 @@
       "OSM编号": "node/7226685785",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://sej.co.jp",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -3877,7 +4675,11 @@
       "OSM编号": "node/7226678888",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3911,39 +4713,6 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
-     },
-     {
-      "名称": {
-       "日文": "青森ホリック",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=variety_store",
-      "距车站m": 429,
-      "坐标": {
-       "纬度": 40.827957,
-       "经度": 140.738525
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/7226665295",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
      }
     ],
     "便民公共服务": [
@@ -3951,7 +4720,7 @@
       "名称": {
        "日文": "JR東日本盛岡支社 青森支店",
        "英文": null,
-       "中文": null
+       "中文": "東日本旅客鐵道盛岡支社青森支店"
       },
       "类别": {
        "日文": "便民公共服务",
@@ -4201,7 +4970,7 @@
        "经度": 140.728771
       },
       "地址": null,
-      "官网": "http://michinokubank.co.jp",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": "+81 17 766 5141",
@@ -4209,7 +4978,15 @@
       "OSM编号": "node/6154938796",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://michinokubank.co.jp",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -4910,6 +5687,39 @@
      },
      {
       "名称": {
+       "日文": "ホテルニュームラコシ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 220,
+      "坐标": {
+       "纬度": 40.828794,
+       "经度": 140.736286
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 17-722-8095",
+      "开放时间": null,
+      "OSM编号": "way/352627337",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "いろは旅館",
        "英文": null,
        "中文": null
@@ -5038,7 +5848,11 @@
       "OSM编号": "node/7226673988",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -5104,7 +5918,12 @@
       "OSM编号": "node/11217824922",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -5170,7 +5989,14 @@
       "OSM编号": "node/7226667908",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "hotel in Aomori, Japan"
+      }
      },
      {
       "名称": {
@@ -5203,12 +6029,16 @@
       "OSM编号": "node/7226679292",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
-       "日文": "ホテル赤い風船",
-       "英文": null,
+       "日文": "ホテルJALシティ青森",
+       "英文": "HOTEL JAL CITY AOMORI",
        "中文": null
       },
       "类别": {
@@ -5222,60 +6052,30 @@
        "中文": "住宿"
       },
       "OSM类别": "tourism=hotel",
-      "距车站m": 623,
+      "距车站m": 594,
       "坐标": {
-       "纬度": 40.82734,
-       "经度": 140.740701
+       "纬度": 40.82759,
+       "经度": 140.740482
       },
       "地址": null,
       "官网": null,
       "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q111406867",
+      "电话": "+81 17 732 2580",
       "开放时间": null,
-      "OSM编号": "node/7226660435",
+      "OSM编号": "way/677846138",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ホテルセレクトイン青森",
-       "英文": "Hotel Select Inn Aomori",
-       "中文": null
-      },
-      "类别": {
-       "日文": "宿泊",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "细分": {
-       "日文": "宿",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "OSM类别": "tourism=hotel",
-      "距车站m": 709,
-      "坐标": {
-       "纬度": 40.823855,
-       "经度": 140.736711
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/3093340808",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "hotel in Aomori, Japan"
+      }
      }
     ]
    },
    "統計": {
-    "観光・名所案内": 12,
-    "文化・公共施設": 8,
+    "観光・名所案内": 16,
+    "文化・公共施設": 16,
     "買い物・商店街": 18,
     "便民公共服务": 26,
     "交通接続": 2,
@@ -5284,10 +6084,11 @@
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 143,
+    "OSM施設数": 166,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   }
  ]
 }

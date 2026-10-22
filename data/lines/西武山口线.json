@@ -18,7 +18,7 @@
  },
  "品質": {
   "無座標": 0,
-  "OSM施設合計": 33,
+  "OSM施設合計": 48,
   "ウィキのみ合計": 5
  },
  "分区定義": [
@@ -80,12 +80,26 @@
     "链接": "https://ja.wikipedia.org/wiki/多摩湖駅",
     "首段": {
      "日文": null,
-     "英文": null,
-     "中文": null
+     "英文": "Tamako Station (多摩湖駅, Tamako-eki) is a junction passenger railway station located in the city of Higashimurayama, Tokyo, Japan, operated by the private railway operator Seibu Railway.",
+     "中文": "多摩湖站（日語：多摩湖駅／たまこえき，羅馬化：Tamako eki），是一個位於東京都東村山市多摩湖町三丁目，屬於西武鐵道的鐵路車站。"
     },
     "駅周辺原文": {
      "日文": null
-    }
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/多摩湖站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/多摩湖站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     },
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Tamako_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Tamako_Station"
    },
    "交通接続メモ": {
     "バス路線原文": {
@@ -327,7 +341,77 @@
       ]
      }
     ],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "都立狭山自然公園",
+       "英文": "Sayama Prefectural Natural Park",
+       "中文": "東京都立狹山自然公園"
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 646,
+      "坐标": {
+       "纬度": 35.76031,
+       "经度": 139.441673
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "en:Sayama Prefectural Natural Park (Tokyo)",
+      "Wikidata": "https://www.wikidata.org/wiki/Q5977267",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/26596572",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "prefectural natural park of Tokyo, Japan"
+      }
+     },
+     {
+      "名称": {
+       "日文": "都立狭山公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 893,
+      "坐标": {
+       "纬度": 35.758397,
+       "经度": 139.439682
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:狭山公園",
+      "Wikidata": "https://www.wikidata.org/wiki/Q21653212",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1303833115",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
      {
       "名称": {
@@ -429,6 +513,39 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "東大和警察署村山貯水池駐在所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 771,
+      "坐标": {
+       "纬度": 35.759643,
+       "经度": 139.439401
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1408565560",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ],
     "交通接続": [
@@ -463,7 +580,11 @@
       "OSM编号": "node/11846161483",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -496,7 +617,11 @@
       "OSM编号": "node/11038331399",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -529,26 +654,31 @@
       "OSM编号": "node/11846161482",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "宿泊": []
    },
    "統計": {
     "観光・名所案内": 7,
-    "文化・公共施設": 0,
+    "文化・公共施設": 2,
     "買い物・商店街": 2,
-    "便民公共服务": 1,
+    "便民公共服务": 2,
     "交通接続": 3,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 13,
+    "OSM施設数": 16,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "西武山口線#2",
@@ -556,7 +686,7 @@
     "日文": "西武園ゆうえんち駅",
     "日文原名": "西武園ゆうえんち",
     "英文": null,
-    "中文": null,
+    "中文": "游园地西站",
     "词条": "西武園ゆうえんち駅",
     "读音": "せいぶえんゆうえんちえき",
     "罗马字": "Seibuenyūenchi"
@@ -576,11 +706,19 @@
     "链接": "https://ja.wikipedia.org/wiki/西武園ゆうえんち駅",
     "首段": {
      "日文": "西武園ゆうえんち駅（せいぶえんゆうえんちえき）は、   にある  （レオライナー）の 。 はSY02。埼玉県で最南端の駅である。",
-     "英文": null,
+     "英文": "Seibuen-yūenchi Station (西武園ゆうえんち駅, Seibuen-yūenchi-eki) is a passenger railway station located in the city of Tokorozawa, Saitama, Japan, operated by the private railway operator Seibu Railway. It is located at the entrance to the Seibu-en Amusement Park.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": "駅正面が西武園ゆうえんちのメインエントランス前広場となっており、都電カラーに塗り替えられた長崎電気軌道1050形1051（旧：仙台市電モハ100形）が設置されている。また、改札を出て左手は歩道を経て公道（山口城址通り）に接続し、その北側は住宅街が広がる。\nまた、西武グループの中国割烹旅館「掬水亭」の最寄り駅ともなっている。\n<gallery>\nSeibuen Yuenchi Entrance 2021.jpg|西武園ゆうえんちエントランス（2021年6月）\nNagasaki Electric Tramway 1051 in Seibuen Yuenchi.jpg|長崎電気軌道1050形1051（2021年6月）\n</gallery>\n=== 路線バス ===\n; 「西武園ゆうえんち駅」バス停（遊園地駐車場出口に面した道路沿い）\n* 市内循環バス「ところバス」 南路線吾妻循環コース\n** 保健センター行（左回り：西武園駅・所沢駅西口経由、右回り：下山口駅入口・西所沢駅入口・所沢駅西口経由の2系統）\n駅名改称後もしばらくバス停の名称は「遊園地西駅」のままであったが、2022年（令和4年）4月1日に改称された。"
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Seibuen-yūenchi_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Seibuen-yūenchi_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -673,8 +811,8 @@
      {
       "名称": {
        "日文": "都電",
-       "英文": null,
-       "中文": null
+       "英文": "Tokyo Toden",
+       "中文": "东京都电车"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -691,14 +829,18 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/東京都電車",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q7814005",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「西武園ゆうえんち駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "東京都電車"
+      "_title": "東京都電車",
+      "简介": {
+       "英文": "The Tokyo Toden (Japanese: 東京都電, Hepburn: Tōkyō Toden) or simply Toden, is the tram network of Tokyo, Japan. Of all its former routes, only one, the Tokyo Sakura Tram, remains in service. The Tokyo Metropolitan Bureau of Transportation operates the Toden. The formal legal name is Tokyo-to Densha. Its nickname, \"Toden,\" distinguished it from the \"Kokuden\" (the Japanese National Railways electrified lines).\n\nThe network had a track gauge of 1,372 mm (4 ft 6 in), except for the former Seibu Railway lines which were 1,067 mm (3 ft 6 in). Today, the Toden has 30 stops, running from Minowabashi Stat",
+       "中文": "日本東京都的路面電車系統"
+      }
      },
      {
       "名称": {
@@ -721,20 +863,29 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/長崎電気軌道1050形電車",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11652908",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「西武園ゆうえんち駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "長崎電気軌道1050形電車"
+      "_title": "長崎電気軌道1050形電車",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/長崎電気軌道1050形電車",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "長崎電気軌道1050形電車（ながさきでんききどう1050がたでんしゃ）は、1976年（昭和51年）に登場した長崎電気軌道の路面電車車両。1976年に同年3月で営業廃止となった仙台市電のモハ100形電車を譲り受けて誕生した。",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "仙台市電",
        "英文": null,
-       "中文": null
+       "中文": "仙台市電"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -751,14 +902,17 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/仙台市電",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11378000",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「西武園ゆうえんち駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "仙台市電"
+      "_title": "仙台市電",
+      "简介": {
+       "中文": null
+      }
      },
      {
       "名称": {
@@ -781,20 +935,23 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/仙台市交通局モハ100形電車",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q65248585",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「西武園ゆうえんち駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "仙台市交通局モハ100形電車"
+      "_title": "仙台市交通局モハ100形電車",
+      "简介": {
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "市内循環バス「ところバス」",
        "英文": null,
-       "中文": null
+       "中文": "所澤市內循環巴士"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -811,17 +968,60 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/所沢市内循環バス",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11496772",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「西武園ゆうえんち駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "所沢市内循環バス"
+      "_title": "所沢市内循環バス",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/所沢市内循環バス",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "所沢市内循環バス（ところざわしないじゅんかんバス）は、埼玉県所沢市が運行するコミュニティバスである。愛称は「ところバス」。1998年5月1日運行開始。西武バス所沢営業所が全路線の運行を受託している。また、2021年4月1日にワゴン車タイプの「ところワゴン」も運行を開始した。こちらは西武ハイヤー所沢営業所が全路線の運行を受託している。",
+       "中文": null
+      }
      }
     ],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "西武園ゴルフ場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=golf_course",
+      "距车站m": 811,
+      "坐标": {
+       "纬度": 35.769077,
+       "经度": 139.431075
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/53637417",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
      {
       "名称": {
@@ -957,7 +1157,11 @@
       "OSM编号": "node/11038331399",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -990,7 +1194,11 @@
       "OSM编号": "node/11846161483",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -1021,6 +1229,43 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/11182178820",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "カーウォッシュピットイン",
+       "英文": "Carwash Pit In",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=car_wash",
+      "距车站m": 851,
+      "坐标": {
+       "纬度": 35.776276,
+       "经度": 139.436008
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/968203472",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -1056,17 +1301,21 @@
       "OSM编号": "node/11846161482",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "宿泊": []
    },
    "統計": {
     "観光・名所案内": 7,
-    "文化・公共施設": 0,
+    "文化・公共施設": 1,
     "買い物・商店街": 2,
     "便民公共服务": 1,
-    "交通接続": 4,
+    "交通接続": 5,
     "宿泊": 0
    },
    "_駅周辺リンク": [
@@ -1093,10 +1342,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 9,
+    "OSM施設数": 11,
     "ウィキ_only数": 5,
     "駅周辺リンク数": 5
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "西武山口線#3",
@@ -1124,11 +1374,19 @@
     "链接": "https://ja.wikipedia.org/wiki/西武球場前駅",
     "首段": {
      "日文": null,
-     "英文": null,
+     "英文": "Seibukyūjō-mae Station (西武球場前駅, Seibu-Kyūjō-mae-eki) is a junction passenger railway station located in the city of Tokorozawa, Saitama, Japan, operated by the private railway operator Seibu Railway. It is located in front of the Seibu Dome, the home field of the Saitama Seibu Lions baseball team owned by Seibu Railway.\n\n",
      "中文": null
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Seibukyūjō-mae_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Seibukyūjō-mae_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -1275,7 +1533,7 @@
       "名称": {
        "日文": "ダイダラボッチ像",
        "英文": "Daidarabotchi Statue",
-       "中文": null
+       "中文": "大太法師"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -1302,10 +1560,47 @@
       "OSM编号": "node/13598142530",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "Japanese yōkai"
+      }
+     }
+    ],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "西武球場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=sports_centre",
+      "距车站m": 241,
+      "坐标": {
+       "纬度": 35.768298,
+       "经度": 139.419313
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1060163441",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
       ]
      }
     ],
-    "文化・公共施設": [],
     "買い物・商店街": [
      {
       "名称": {
@@ -1344,6 +1639,174 @@
     "便民公共服务": [
      {
       "名称": {
+       "日文": "本堂 (狭山不動尊)",
+       "英文": "Hondo (Sayama-fudoji Temple)",
+       "中文": "狹山不動尊"
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 312,
+      "坐标": {
+       "纬度": 35.7703,
+       "经度": 139.415975
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:狭山不動尊",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11571731",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/640475260",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "temple in Tokorozawa, Saitama"
+      }
+     },
+     {
+      "名称": {
+       "日文": "トイレ",
+       "英文": "Toilet",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=toilets",
+      "距车站m": 313,
+      "坐标": {
+       "纬度": 35.770457,
+       "经度": 139.415955
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1483067612",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "羅漢堂（旧井上馨侯爵邸堂宇）",
+       "英文": "Rakan-do Hall (Former Hall of Marquis Kaoru Inoue's Residence)",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 366,
+      "坐标": {
+       "纬度": 35.770195,
+       "经度": 139.415385
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1483067602",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "大黒堂（旧奈良極楽寺柿本人麻呂歌塚堂)",
+       "英文": "Daikoku-do Hall (Former Kakinomoto no Hitomaro Memorial Hall from Gokuraku-ji Temple, Nara)",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 370,
+      "坐标": {
+       "纬度": 35.769928,
+       "经度": 139.415375
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1483067611",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "康信寺",
+       "英文": "Koshinji Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 383,
+      "坐标": {
+       "纬度": 35.769592,
+       "经度": 139.415311
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1483067594",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "竈神社",
        "英文": null,
        "中文": null
@@ -1374,6 +1837,75 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "高照院",
+       "英文": "Koshoin",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 443,
+      "坐标": {
+       "纬度": 35.767786,
+       "经度": 139.415779
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1482892051",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "金乗院(山口観音)",
+       "英文": "Konjō-in (Yamaguchikannon)",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 488,
+      "坐标": {
+       "纬度": 35.768459,
+       "经度": 139.414605
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:金乗院 (所沢市)",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11646319",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1464874294",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "Buddhist temple dedicated to Thousand-Armed Thousand-Eyed Avalokiteśvara in Tokorozawa, Japan"
+      }
      },
      {
       "名称": {
@@ -1440,6 +1972,72 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "玉湖神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 824,
+      "坐标": {
+       "纬度": 35.768416,
+       "经度": 139.410643
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1023484393",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "住宅型有料老人ホームベストライフ所沢",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 829,
+      "坐标": {
+       "纬度": 35.776716,
+       "经度": 139.424416
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1509417126",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ],
     "交通接続": [
@@ -1474,7 +2072,11 @@
       "OSM编号": "node/11038331311",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -1507,26 +2109,31 @@
       "OSM编号": "node/11038331531",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "宿泊": []
    },
    "統計": {
     "観光・名所案内": 5,
-    "文化・公共施設": 0,
+    "文化・公共施設": 1,
     "買い物・商店街": 1,
-    "便民公共服务": 3,
+    "便民公共服务": 12,
     "交通接続": 2,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 11,
+    "OSM施設数": 21,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   }
  ]
 }

@@ -18,8 +18,8 @@
  },
  "品質": {
   "無座標": 0,
-  "OSM施設合計": 317,
-  "ウィキのみ合計": 51
+  "OSM施設合計": 421,
+  "ウィキのみ合計": 50
  },
  "分区定義": [
   {
@@ -98,6 +98,39 @@
     "文化・公共施設": [],
     "買い物・商店街": [],
     "便民公共服务": [
+     {
+      "名称": {
+       "日文": "伊豆今井浜病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 35,
+      "坐标": {
+       "纬度": 34.754112,
+       "经度": 139.004658
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/260934173",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "琴海神社",
@@ -195,7 +228,10 @@
       "OSM编号": "node/12376193912",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Shizuoka Prefecture, Japan"
+      }
      }
     ],
     "交通接続": [],
@@ -235,9 +271,82 @@
      },
      {
       "名称": {
+       "日文": "今井荘",
+       "英文": "Imaiso",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 217,
+      "坐标": {
+       "纬度": 34.752134,
+       "经度": 139.004022
+      },
+      "地址": null,
+      "官网": "http://www.imaiso.jp/,http://www.imaiso.jp/english/",
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q111866378",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/560218582",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "hotel in Kōchi, Japan"
+      }
+     },
+     {
+      "名称": {
+       "日文": "心のどか",
+       "英文": "Kokoronodoka",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 270,
+      "坐标": {
+       "纬度": 34.754011,
+       "经度": 139.002016
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/560219263",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "伊豆今井浜東急ホテル",
        "英文": "Izu-Imaihama Tokyu Hotel",
-       "中文": null
+       "中文": "東急伊豆今井濱度假飯店"
       },
       "类别": {
        "日文": "宿泊",
@@ -256,7 +365,7 @@
        "经度": 139.003548
       },
       "地址": null,
-      "官网": "https://www.tokyuhotels.co.jp/imaihama-h/index.html,https://www.tokyuhotelsjapan.com/global/imaihama-h/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": "https://www.wikidata.org/wiki/Q111406771",
       "电话": null,
@@ -264,7 +373,18 @@
       "OSM编号": "node/6248676292",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.tokyuhotels.co.jp/imaihama-h/index.html,https://www.tokyuhotelsjapan.com/global/imaihama-h/",
+       "HTTP": 404
+      },
+      "简介": {
+       "英文": "Hotel in Kawazu, Shizuoka prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -371,17 +491,18 @@
     "観光・名所案内": 0,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 3,
+    "便民公共服务": 4,
     "交通接続": 0,
-    "宿泊": 5
+    "宿泊": 7
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 8,
+    "OSM施設数": 11,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#2",
@@ -427,11 +548,9 @@
     "https://www.city.ito.shizuoka.jp/material/files/group/3/koho0605.pdf",
     "https://www.jreast.co.jp/press/2009/20090817.pdf",
     "https://www.izukyu.co.jp/company/pdf/safety_report/2010anzen.pdf|title=2010",
-    "http://izu-np.co.jp/ito/news/20150330iz0000000104000c.html|title=「みかんの花咲く丘」発車メロディー採用",
     "https://megalodon.jp/2015-0330-2125-54/izu-np.co.jp/ito/news/20150330iz0000000104000c.html|archivedate=2015-03-30",
     "https://www.jreast.co.jp/press/2018/yokohama/20190124_y02.pdf|title=静岡デスティネーションキャンペーンの開催に合わせて伊東駅がより便利で快適な駅に変わります！|publisher=東日本旅客鉄道|date=2019-01-24|accessdate=2025-07-08|archiveurl=https://web.archive.org/web/20250708101029/https://www.jreast.co.jp/press/2018/yokohama/20190124_y02.pdf|archivedate=2025-07-08",
     "https://henndennkidenntushinnmoromoro.blogspot.com/2014/12/2011.html",
-    "https://www.city.ito.shizuoka.jp/gyosei/shiseijoho/koho_kocho/shisei/shiseimonitatuushin/4998.html",
     "http://itoshigikai.gijiroku.com/voices/CGI/voiweb.exe?ACT=200&KENSAKU=0&SORT=0&KTYP=2,3&KGTP=1,2&TITL_SUBT=%95%BD%90%AC%82R%82O%94N%81@%82R%8C%8E%81@%92%E8%97%E1%89%EF%81%7C02%8C%8E28%93%FA-03%8D%86&KGNO=106&FINO=706",
     "https://www.jreast.co.jp/press/2019/yokohama/20200326_y04.pdf|title=伊東駅商業施設(第2期)が、3月27日(金)に開業します!|format=PDF|publisher=東日本旅客鉄道横浜支社、湘南ステーションビル|date=2020-03-26|accessdate=2020-03-26|archiveurl=https://web.archive.org/web/20200326062615/https://www.jreast.co.jp/press/2019/yokohama/20200326_y04.pdf|archivedate=2020-03-26"
    ],
@@ -732,7 +851,11 @@
       "OSM编号": "node/7368568536",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -799,6 +922,51 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "東海館",
+       "英文": "Toukaikan",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 616,
+      "坐标": {
+       "纬度": 34.971655,
+       "经度": 139.097038
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/東海館",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11527984",
+      "电话": null,
+      "开放时间": "Mo-Su 09:30-21:00; Jan 01 off; PH,Tu[3] off",
+      "OSM编号": "way/190835270",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「伊東駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "简介": {
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 503,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://itospa.com/feature/tokaikan/",
+       "HTTP": 503
+      }
      },
      {
       "名称": {
@@ -996,7 +1164,11 @@
       "OSM编号": "node/6282539443",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -1198,39 +1370,9 @@
      },
      {
       "名称": {
-       "日文": "東海館",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "名所",
-       "英文": "Tourist attraction",
-       "中文": "旅游景点"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/東海館",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「伊東駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "東海館"
-     },
-     {
-      "名称": {
        "日文": "伊東温泉",
-       "英文": null,
-       "中文": null
+       "英文": "Itō Onsen",
+       "中文": "伊東溫泉"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -1245,22 +1387,31 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.ito.or.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/伊東温泉",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11266957",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊東駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊東駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "伊東温泉"
+      "_title": "伊東温泉",
+      "简介": {
+       "英文": "building in Shizuoka Prefecture, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "東海自動車",
-       "英文": null,
-       "中文": null
+       "英文": "Tokai Jidosha",
+       "中文": "東海汽車公司"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -1275,22 +1426,30 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.tokaibus.jp",
       "维基百科": "https://ja.wikipedia.org/wiki/東海自動車",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11527949",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊東駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊東駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "東海自動車"
+      "_title": "東海自動車",
+      "简介": {
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "第76号",
-       "英文": null,
-       "中文": null
+       "英文": "Hidetaka Sugimura",
+       "中文": "杉村英孝"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -1307,14 +1466,25 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/杉村英孝",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q24871907",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「伊東駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "杉村英孝"
+      "_title": "杉村英孝",
+      "简介": {
+       "英文": "Japanese Paralympic boccia player",
+       "中文": "杉村英孝（日語：杉村 英孝／すぎむら ひでたか，羅馬化：Sugimura Hidetaka，1982年3月1日—），日本男子硬地滚球运动员。他曾代表日本参加2012年、2016年和2020年夏季残疾人奥林匹克运动会硬地滚球比赛，获得一枚金牌、一枚银牌和一枚铜牌。"
+      },
+      "维基条目原文引用": {
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/杉村英孝",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      }
      },
      {
       "名称": {
@@ -1335,19 +1505,58 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.donki.com/|",
       "维基百科": "https://ja.wikipedia.org/wiki/MEGAドン・キホーテ",
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊東駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊東駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "MEGAドン・キホーテ"
+      "_title": "MEGAドン・キホーテ",
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "伊東公園",
+       "英文": "Ito Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 112,
+      "坐标": {
+       "纬度": 34.975895,
+       "经度": 139.091108
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/501284729",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "イトウヒミツキチ",
@@ -1379,7 +1588,12 @@
       "OSM编号": "node/14004091240",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -1413,9 +1627,141 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "市営海浜プール公園",
+       "英文": "City Beach Pool Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 409,
+      "坐标": {
+       "纬度": 34.979081,
+       "经度": 139.09365
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/190506842",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "松川藤の広場",
+       "英文": "Matsukawa Wisteria Square",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 753,
+      "坐标": {
+       "纬度": 34.971365,
+       "经度": 139.09874
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1230233640",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "なぎさ公園",
+       "英文": "Nagisa Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 791,
+      "坐标": {
+       "纬度": 34.972944,
+       "经度": 139.100336
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/259283326",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ],
     "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "NEWDAYS",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 150,
+      "坐标": {
+       "纬度": 34.974245,
+       "经度": 139.092057
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/190709727",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "ワールドギャラリー 伊東駅前店",
@@ -1486,7 +1832,7 @@
       "名称": {
        "日文": "マックスバリュ",
        "英文": "MaxValu",
-       "中文": null
+       "中文": "美思佰乐"
       },
       "类别": {
        "日文": "買い物・商店街",
@@ -1507,14 +1853,33 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/マックスバリュ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11340427",
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/6076536048",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)",
-       "日本語ウィキペディア「伊東駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ]
+       "日本語ウィキペディア「伊東駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
+      ],
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/マックスバリュ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "マックスバリュ（英: MaxValu）は、イオングループの日本国内9法人および日本国外4法人が展開するスーパーマーケット（SM） 。食料品を中心に取り扱っており、日本国内で642店舗（2026年5月時点）展開している。日本国外においても店舗を展開している（正確な店舗数は不明）。",
+       "英文": "Japanese supermarket chain",
+       "中文": "日本连锁生鲜超市"
+      },
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.maxvalu.co.jp",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -1751,6 +2116,39 @@
      },
      {
       "名称": {
+       "日文": "妙栄寺",
+       "英文": "Myoeiji  Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 183,
+      "坐标": {
+       "纬度": 34.977201,
+       "经度": 139.091937
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q134917354",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/561521232",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "伊東市身体障害者福祉センター",
        "英文": "Ito City Disorder's Welfare Center",
        "中文": null
@@ -1817,6 +2215,72 @@
      },
      {
       "名称": {
+       "日文": "湯川神社",
+       "英文": "Yukawa Shrine",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 204,
+      "坐标": {
+       "纬度": 34.976525,
+       "经度": 139.090358
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/501284728",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "金比羅神社",
+       "英文": "Kotohira Shrine",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 224,
+      "坐标": {
+       "纬度": 34.976276,
+       "经度": 139.089966
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/501284735",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "鹿島神社",
        "英文": "Kashima Shrine",
        "中文": null
@@ -1846,7 +2310,10 @@
       "OSM编号": "node/4921385151",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Ito, Japan"
+      }
      },
      {
       "名称": {
@@ -1877,6 +2344,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/4921385150",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "津島神社",
+       "英文": "Tsushima Srine",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 238,
+      "坐标": {
+       "纬度": 34.976333,
+       "经度": 139.08983
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/501284734",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -1982,6 +2482,39 @@
      },
      {
       "名称": {
+       "日文": "妙瀧大善神",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 273,
+      "坐标": {
+       "纬度": 34.97337,
+       "经度": 139.093568
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/501175879",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "堀野薬局",
        "英文": "Horiino Drug Store",
        "中文": null
@@ -2048,6 +2581,42 @@
      },
      {
       "名称": {
+       "日文": "慈眼寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 310,
+      "坐标": {
+       "纬度": 34.973435,
+       "经度": 139.094444
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q134917341",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/190732187",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "Buddhist temple in Ito, Japan"
+      }
+     },
+     {
+      "名称": {
        "日文": "かとう内科皮膚科クリニック",
        "英文": "Kato Internal & Dermatology Clinic",
        "中文": null
@@ -2075,6 +2644,72 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/2013672022",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "松月院",
+       "英文": "Shogetsuin Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 349,
+      "坐标": {
+       "纬度": 34.977793,
+       "经度": 139.089562
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/501285433",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "松月院",
+       "英文": "Shogetsuin Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 366,
+      "坐标": {
+       "纬度": 34.977939,
+       "经度": 139.089476
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/501285443",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -2110,7 +2745,11 @@
       "OSM编号": "node/14002185762",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -2276,270 +2915,6 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
-     },
-     {
-      "名称": {
-       "日文": "静岡県労働金庫",
-       "英文": "Shizuoka Labor Bank",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "金融",
-       "英文": "Bank / ATM",
-       "中文": "银行·ATM"
-      },
-      "OSM类别": "amenity=bank",
-      "距车站m": 585,
-      "坐标": {
-       "纬度": 34.970919,
-       "经度": 139.095239
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/11090938697",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "飯田歯科医院",
-       "英文": "Ida Dental Clinic",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "医療",
-       "英文": "Medical",
-       "中文": "医疗"
-      },
-      "OSM类别": "amenity=dentist",
-      "距车站m": 615,
-      "坐标": {
-       "纬度": 34.971897,
-       "经度": 139.097304
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/2015100347",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "伊東松原郵便局",
-       "英文": "Ito-Matsubara Post Office",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "郵便局",
-       "英文": "Post office",
-       "中文": "邮局"
-      },
-      "OSM类别": "amenity=post_office",
-      "距车站m": 630,
-      "坐标": {
-       "纬度": 34.969922,
-       "经度": 139.092486
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/1420977273",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "三島信用金庫",
-       "英文": "Mishima Sanshin Bank",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "金融",
-       "英文": "Bank / ATM",
-       "中文": "银行·ATM"
-      },
-      "OSM类别": "amenity=bank",
-      "距车站m": 658,
-      "坐标": {
-       "纬度": 34.972023,
-       "经度": 139.098041
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/7343440974",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "清水銀行",
-       "英文": "Shimizu Bank",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "金融",
-       "英文": "Bank / ATM",
-       "中文": "银行·ATM"
-      },
-      "OSM类别": "amenity=bank",
-      "距车站m": 686,
-      "坐标": {
-       "纬度": 34.971375,
-       "经度": 139.097787
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/5513652904",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "ウエルシア",
-       "英文": "Welcia",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "医療",
-       "英文": "Medical",
-       "中文": "医疗"
-      },
-      "OSM类别": "amenity=pharmacy",
-      "距车站m": 701,
-      "坐标": {
-       "纬度": 34.970384,
-       "经度": 139.096621
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/5510686240",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "藤井クリニック",
-       "英文": "Fujii Clinic",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "医療",
-       "英文": "Medical",
-       "中文": "医疗"
-      },
-      "OSM类别": "amenity=clinic",
-      "距车站m": 760,
-      "坐标": {
-       "纬度": 34.970136,
-       "经度": 139.097318
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/5510686230",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "静岡銀行",
-       "英文": "Shizuoka Bank",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "金融",
-       "英文": "Bank / ATM",
-       "中文": "银行·ATM"
-      },
-      "OSM类别": "amenity=bank",
-      "距车站m": 790,
-      "坐标": {
-       "纬度": 34.970458,
-       "经度": 139.098279
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/7343440977",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
      }
     ],
     "交通接続": [
@@ -2643,6 +3018,47 @@
     "宿泊": [
      {
       "名称": {
+       "日文": "パレスホテル",
+       "英文": "Palace Hotel",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 149,
+      "坐标": {
+       "纬度": 34.975376,
+       "经度": 139.090658
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/191161212",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.itopalace.co.jp/,http://en.itopalace.co.jp/",
+       "HTTP": 0
+      }
+     },
+     {
+      "名称": {
        "日文": "伊東ステーションホテル",
        "英文": "Ito Station Hotel",
        "中文": null
@@ -2697,7 +3113,7 @@
        "经度": 139.095122
       },
       "地址": null,
-      "官网": "http://kameyarakan.com/,http://kameyarakan.com/en/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -2705,7 +3121,15 @@
       "OSM编号": "node/6251084720",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://kameyarakan.com/,http://kameyarakan.com/en/",
+       "HTTP": 404
+      }
      },
      {
       "名称": {
@@ -2771,7 +3195,52 @@
       "OSM编号": "node/6279805235",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "ホテル伊東ガーデン",
+       "英文": "Hotel Ito Garden",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 352,
+      "坐标": {
+       "纬度": 34.973532,
+       "经度": 139.089328
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/564499177",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.ito-garden.com/,http://www.ito-garden.com/en/",
+       "HTTP": 404
+      }
      },
      {
       "名称": {
@@ -2862,7 +3331,7 @@
        "经度": 139.090815
       },
       "地址": null,
-      "官网": "http://hotel-yoshino.com/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -2870,7 +3339,15 @@
       "OSM编号": "node/6279796844",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://hotel-yoshino.com/",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -2961,7 +3438,7 @@
        "经度": 139.096315
       },
       "地址": null,
-      "官网": "https://www.hmi-ryokan.jp/kawaryo/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -2969,80 +3446,22 @@
       "OSM编号": "node/6279883440",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "離れ きた岡",
-       "英文": "Kitaoka     Annex Building Of  Dankoen",
-       "中文": null
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
       },
-      "类别": {
-       "日文": "宿泊",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "细分": {
-       "日文": "宿",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "OSM类别": "tourism=hotel",
-      "距车站m": 695,
-      "坐标": {
-       "纬度": 34.970011,
-       "经度": 139.095745
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/7343294748",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "星野リゾート 界 伊東",
-       "英文": "Hoshino Resorts Kai Ito",
-       "中文": null
-      },
-      "类别": {
-       "日文": "宿泊",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "细分": {
-       "日文": "宿",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "OSM类别": "tourism=hotel",
-      "距车站m": 783,
-      "坐标": {
-       "纬度": 34.968579,
-       "经度": 139.091419
-      },
-      "地址": null,
-      "官网": "https://kai-ryokan.jp/ito/,https://kai-ryokan.jp/en/ito/",
-      "维基百科": null,
-      "Wikidata": "https://www.wikidata.org/wiki/Q111866284",
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/6277619147",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      "官网_欠陥": {
+       "リンク切れ": "https://www.hmi-ryokan.jp/kawaryo/",
+       "HTTP": 0
+      }
      }
     ]
    },
    "統計": {
     "観光・名所案内": 28,
-    "文化・公共施設": 2,
-    "買い物・商店街": 8,
+    "文化・公共施設": 6,
+    "買い物・商店街": 9,
     "便民公共服务": 26,
     "交通接続": 3,
     "宿泊": 12
@@ -3079,10 +3498,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 77,
-    "ウィキ_only数": 6,
+    "OSM施設数": 96,
+    "ウィキ_only数": 5,
     "駅周辺リンク数": 7
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#3",
@@ -3159,7 +3579,41 @@
       ]
      }
     ],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "望洋公園",
+       "英文": "Boyo Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 300,
+      "坐标": {
+       "纬度": 34.824721,
+       "经度": 139.077394
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1053965412",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
      {
       "名称": {
@@ -3195,7 +3649,41 @@
       ]
      }
     ],
-    "便民公共服务": [],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "鹿島神社",
+       "英文": "Kashima Shrine",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 143,
+      "坐标": {
+       "纬度": 34.828116,
+       "经度": 139.074853
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/883997892",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "交通接続": [],
     "宿泊": [
      {
@@ -3266,6 +3754,125 @@
      },
      {
       "名称": {
+       "日文": "北川温泉ホテル",
+       "英文": "Hokkawa Onsen Hotel",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 479,
+      "坐标": {
+       "纬度": 34.831304,
+       "经度": 139.075074
+      },
+      "地址": null,
+      "官网": "https://hokkawaonsen.com/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/555365859",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "吉祥CAREN",
+       "英文": "Kissho CAREN",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 516,
+      "坐标": {
+       "纬度": 34.831525,
+       "经度": 139.074312
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/556442276",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.kissho-caren.com/,https://www.kissho-caren.com/en/",
+       "HTTP": 0
+      }
+     },
+     {
+      "名称": {
+       "日文": "望水",
+       "英文": "Bousui Ryokan Shizuoka Hotel",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 521,
+      "坐标": {
+       "纬度": 34.831674,
+       "经度": 139.075004
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/555365858",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.bousui.com/,https://www.bousui.com/english/",
+       "HTTP": 404
+      }
+     },
+     {
+      "名称": {
        "日文": "つるや吉祥亭",
        "英文": "Tsuruya Kisshotei",
        "中文": null
@@ -3287,12 +3894,56 @@
        "经度": 139.075376
       },
       "地址": null,
-      "官网": "https://www.tsuruya-kisshotei.com/,https://www.tsuruya-kisshotei.com/en/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": "https://www.wikidata.org/wiki/Q111866338",
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/6261280496",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.tsuruya-kisshotei.com/,https://www.tsuruya-kisshotei.com/en/",
+       "HTTP": 0
+      },
+      "简介": {
+       "英文": "hotel in Japan"
+      }
+     },
+     {
+      "名称": {
+       "日文": "星ホテル",
+       "英文": "Hoshi Hotel",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 650,
+      "坐标": {
+       "纬度": 34.832821,
+       "经度": 139.074793
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/556442279",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -3301,19 +3952,20 @@
    },
    "統計": {
     "観光・名所案内": 1,
-    "文化・公共施設": 0,
+    "文化・公共施設": 1,
     "買い物・商店街": 1,
-    "便民公共服务": 0,
+    "便民公共服务": 1,
     "交通接続": 0,
-    "宿泊": 3
+    "宿泊": 7
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 5,
+    "OSM施設数": 11,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#4",
@@ -3390,8 +4042,76 @@
       ]
      }
     ],
-    "文化・公共施設": [],
-    "買い物・商店街": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "大川公民会館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 205,
+      "坐标": {
+       "纬度": 34.843412,
+       "经度": 139.071833
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/561158867",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
+    "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "ローソン",
+       "英文": "Lawson",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 308,
+      "坐标": {
+       "纬度": 34.843983,
+       "经度": 139.077407
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1507673465",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "便民公共服务": [
      {
       "名称": {
@@ -3425,10 +4145,80 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "竜豊院",
+       "英文": "Ryuhoin Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 150,
+      "坐标": {
+       "纬度": 34.842849,
+       "经度": 139.072693
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q134917729",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/561158871",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ],
     "交通接続": [],
     "宿泊": [
+     {
+      "名称": {
+       "日文": "ザ グラン リゾート エレガンテ伊豆",
+       "英文": "The Gram Resort Elegante Izu",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 228,
+      "坐标": {
+       "纬度": 34.84329,
+       "经度": 139.076548
+      },
+      "地址": null,
+      "官网": "https://okura-club-hotels.com/izu/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "closed",
+      "OSM编号": "way/1507673014",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
      {
       "名称": {
        "日文": "大川館",
@@ -3499,19 +4289,20 @@
    },
    "統計": {
     "観光・名所案内": 1,
-    "文化・公共施設": 0,
-    "買い物・商店街": 0,
-    "便民公共服务": 1,
+    "文化・公共施設": 1,
+    "買い物・商店街": 1,
+    "便民公共服务": 2,
     "交通接続": 0,
-    "宿泊": 2
+    "宿泊": 3
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 4,
+    "OSM施設数": 8,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#5",
@@ -3604,7 +4395,7 @@
       "名称": {
        "日文": "下田ロープウェイ",
        "英文": "Shimoda Ropeway",
-       "中文": null
+       "中文": "下田纜車"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -3632,7 +4423,21 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)",
        "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ]
+      ],
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/下田ロープウェイ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "下田ロープウェイ株式会社（しもだロープウェイ、SHIMODA ROPEWAY CORPORATION ）は、静岡県下田市に本社をおく索道事業者。伊豆急行線伊豆急下田駅前から寝姿山を結ぶ下田ロープウェイを運営する。\n東急グループの伊豆急ホールディングス傘下。かつては小田急グループの東海自動車からも出資を受けており、同社の持分法適用関連会社でもあったが、2022年12月に同社が保有する全株式が伊豆急ホールディングスに譲渡された。",
+       "英文": "aerial tramway which climbs Mount Nesugata",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3698,7 +4503,11 @@
       "OSM编号": "node/1420978915",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3768,6 +4577,117 @@
      },
      {
       "名称": {
+       "日文": "下田開国博物館",
+       "英文": "Shimoda History Museum",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 809,
+      "坐标": {
+       "纬度": 34.673117,
+       "经度": 138.939955
+      },
+      "地址": null,
+      "官网": "https://www.shimoda-museum.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/448672049",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "了仙寺宝物館",
+       "英文": "Museum of Black Ship",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 834,
+      "坐标": {
+       "纬度": 34.672141,
+       "经度": 138.942258
+      },
+      "地址": null,
+      "官网": "http://www.mobskurofune.com/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/448680669",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "蓮杖写真記念館",
+       "英文": "Renjyo Photo Memorial Museum",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 845,
+      "坐标": {
+       "纬度": 34.680606,
+       "经度": 138.953452
+      },
+      "地址": null,
+      "官网": "https://shizuoka.mytabi.net/izu/archives/renjyo-photo-memorial-museum.php",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568690091",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
        "日文": "黒船展望台",
        "英文": "Kurofune Obsevatory",
        "中文": null
@@ -3827,7 +4747,15 @@
       "来源": [
        "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "道の駅開国下田みなと"
+      "_title": "道の駅開国下田みなと",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/道の駅開国下田みなと",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "道の駅開国下田みなと（みちのえき かいこくしもだみなと）は、静岡県下田市にある国道135号の道の駅である。正式名称は下田市外ケ岡交流拠点施設（下田市外ケ岡交流拠点施設条例）。"
+      }
      },
      {
       "名称": {
@@ -3862,8 +4790,8 @@
      {
       "名称": {
        "日文": "御用邸",
-       "英文": null,
-       "中文": null
+       "英文": "Imperial villa",
+       "中文": "御用邸"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -3880,20 +4808,23 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/御用邸",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q67097832",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "御用邸"
+      "_title": "御用邸",
+      "简介": {
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "唐人お吉",
-       "英文": null,
-       "中文": null
+       "英文": "Kichi Saitō",
+       "中文": "齋藤吉"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -3910,19 +4841,29 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/斎藤きち",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11500425",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "斎藤きち"
+      "_title": "斎藤きち",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/斎藤きち",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "斎藤 きち（さいとう きち、 1841年12月22日〈天保12年11月10日〉 - 1890年〈明治23年〉3月27日）は、幕末・安政4年の一時期、初代駐日アメリカ合衆国総領事タウンゼント・ハリスに雇用された伊豆国下田の日本人女性。幕末開国後、外国人にかしずいた最初の日本人女性として喧伝され、後年「唐人お吉」の異名で呼ばれた。",
+       "英文": "lady in late 1800s in Japan",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "下田海中水族館",
-       "英文": null,
+       "英文": "Shimoda Aquarium",
        "中文": null
       },
       "类别": {
@@ -3938,21 +4879,35 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://shimoda-aquarium.com/",
       "维基百科": "https://ja.wikipedia.org/wiki/下田海中水族館",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11361202",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "下田海中水族館"
+      "_title": "下田海中水族館",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/下田海中水族館",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "下田海中水族館（しもだかいちゅうすいぞくかん）は、静岡県下田市にある水族館。藤田観光の完全子会社である下田アクアサービスが経営している。\n来館者がイルカと、給餌、触れ合い、ともに泳ぐ「ふれあいの海」がある。",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "下田温泉",
-       "英文": null,
+       "英文": "Shimoda Onsen",
        "中文": null
       },
       "类别": {
@@ -3968,21 +4923,35 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "http://hotel.shimoda100.com/",
       "维基百科": "https://ja.wikipedia.org/wiki/下田温泉_(静岡県)",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11361206",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "下田温泉 (静岡県)"
+      "_title": "下田温泉 (静岡県)",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/下田温泉_(静岡県)",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "下田温泉（しもだおんせん）は、静岡県下田市（旧国伊豆国）市内にある温泉の総称。蓮台寺温泉、河内温泉、白浜温泉、観音温泉、相玉温泉の総称である。また、伊豆金山の一つである旧河津鉱山（蓮台寺金山）坑内から湧出する温泉もパイプラインによって、下田市内のホテル・旅館・公衆浴場に給湯されている。",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "JAふじ伊豆",
-       "英文": null,
+       "英文": "Fuji-Izu Japan Agricultural Cooperatives",
        "中文": null
       },
       "类别": {
@@ -3998,22 +4967,31 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.ja-fujiizu.or.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/富士伊豆農業協同組合",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q113662152",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "富士伊豆農業協同組合"
+      "_title": "富士伊豆農業協同組合",
+      "简介": {
+       "英文": "agricultural cooperative in east part of Shizuoka, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "マックスバリュ",
-       "英文": null,
-       "中文": null
+       "英文": "MaxValu",
+       "中文": "美思佰乐"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -4030,20 +5008,39 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/マックスバリュ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11340427",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "マックスバリュ"
+      "_title": "マックスバリュ",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/マックスバリュ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "マックスバリュ（英: MaxValu）は、イオングループの日本国内9法人および日本国外4法人が展開するスーパーマーケット（SM） 。食料品を中心に取り扱っており、日本国内で642店舗（2026年5月時点）展開している。日本国外においても店舗を展開している（正確な店舗数は不明）。",
+       "英文": "Japanese supermarket chain",
+       "中文": "日本连锁生鲜超市"
+      },
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.maxvalu.co.jp",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
        "日文": "しまむら",
-       "英文": null,
-       "中文": null
+       "英文": "Shimamura",
+       "中文": "島村服饰"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -4060,20 +5057,33 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/しまむら",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q7758173",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "しまむら"
+      "_title": "しまむら",
+      "简介": {
+       "英文": "Japanese fashion company",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 403,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.shimamura.gr.jp/",
+       "HTTP": 403
+      }
      },
      {
       "名称": {
        "日文": "ノジマ",
-       "英文": null,
-       "中文": null
+       "英文": "Nojima Corporation",
+       "中文": "野島電器"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -4088,16 +5098,25 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.nojima.co.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/ノジマ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11325660",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "ノジマ"
+      "_title": "ノジマ",
+      "简介": {
+       "英文": "Nojima Corporation (株式会社ノジマ, Nojima kabushiki-gaisha) is a Japanese consumer electronics conglomerate headquartered in Yokohama, Kanagawa Prefecture. The company operates the Nojima retail chain, which is mostly found in the Kantō area and also operates in Cambodia.",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4132,8 +5151,8 @@
      {
       "名称": {
        "日文": "モスバーガー",
-       "英文": null,
-       "中文": null
+       "英文": "MOS Burger",
+       "中文": "摩斯汉堡"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -4148,19 +5167,98 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.mos.jp",
       "维基百科": "https://ja.wikipedia.org/wiki/モスバーガー",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q1204169",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "モスバーガー"
+      "_title": "モスバーガー",
+      "简介": {
+       "英文": "company",
+       "中文": "日本跨國連鎖快餐店"
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "恋人の丘",
+       "英文": "Lover's Hill",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=garden",
+      "距车站m": 735,
+      "坐标": {
+       "纬度": 34.678835,
+       "经度": 138.95233
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1426201461",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "わんView広場",
+       "英文": "Wan View Square",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=dog_park",
+      "距车站m": 743,
+      "坐标": {
+       "纬度": 34.678888,
+       "经度": 138.952422
+      },
+      "地址": null,
+      "官网": "https://ropeway.co.jp/dockrun/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1426201476",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
      {
       "名称": {
        "日文": "下田市立図書館",
@@ -4184,7 +5282,7 @@
        "经度": 138.940711
       },
       "地址": null,
-      "官网": null,
+      "官网": "http://lib.city.shimoda.shizuoka.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/下田市立図書館",
       "Wikidata": "https://www.wikidata.org/wiki/Q48751339",
       "电话": null,
@@ -4192,7 +5290,55 @@
       "OSM编号": "node/1420976115",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)",
-       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
+      ],
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/下田市立図書館",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "下田市立図書館（しもだしりつとしょかん）は、静岡県下田市にある公立図書館である。",
+       "英文": "library in Shizuoka Ken, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "寝姿山自然公園",
+       "英文": "Nesugatayama Nature Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 812,
+      "坐标": {
+       "纬度": 34.680055,
+       "经度": 138.953175
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568690094",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
       ]
      }
     ],
@@ -4253,7 +5399,7 @@
        "经度": 138.945871
       },
       "地址": null,
-      "官网": null,
+      "官网": "https://www.daiso-sangyo.co.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/ダイソー",
       "Wikidata": null,
       "电话": null,
@@ -4261,14 +5407,19 @@
       "OSM编号": "node/13953234519",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)",
-       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ]
+       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "下田とうきゅう",
        "英文": "Shimoda Tokyu Store",
-       "中文": null
+       "中文": "東急Store"
       },
       "类别": {
        "日文": "買い物・商店街",
@@ -4289,14 +5440,23 @@
       "地址": null,
       "官网": "https://www.tokyu-store.co.jp/shop/guide/shopinfo.php?id=18",
       "维基百科": "https://ja.wikipedia.org/wiki/東急ストア",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11526963",
       "电话": "+81-558-23-0109",
       "开放时间": "Mo-Su 09:30-20:00",
       "OSM编号": "node/3977434198",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)",
        "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ]
+      ],
+      "简介": {
+       "英文": "Japanese Supermarket Chain",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4560,7 +5720,11 @@
       "OSM编号": "node/3978948431",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4731,6 +5895,39 @@
      },
      {
       "名称": {
+       "日文": "伊勢大神宮",
+       "英文": "Ise Daijingu Shrine",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 271,
+      "坐标": {
+       "纬度": 34.677031,
+       "经度": 138.943973
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/448662437",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "下田警察署中央交番",
        "英文": "Shimoda Police Station Chuo Police Box",
        "中文": null
@@ -4824,6 +6021,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/12347220317",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "住吉稲荷神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 324,
+      "坐标": {
+       "纬度": 34.676878,
+       "经度": 138.945993
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1334643172",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -5190,7 +6420,11 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)",
        "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ]
+      ],
+      "简介": {
+       "英文": "Wikimedia disambiguation page",
+       "中文": "维基媒体消歧义页"
+      }
      },
      {
       "名称": {
@@ -5388,74 +6622,6 @@
       "OSM编号": "node/7710495174",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "下田メディカルセンター",
-       "英文": "Shimoda Medical Center",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "医療",
-       "英文": "Medical",
-       "中文": "医疗"
-      },
-      "OSM类别": "amenity=hospital",
-      "距车站m": 819,
-      "坐标": {
-       "纬度": 34.674202,
-       "经度": 138.938042
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/下田メディカルセンター",
-      "Wikidata": "https://www.wikidata.org/wiki/Q105840532",
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/1420997979",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)",
-       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "了仙寺",
-       "英文": "Ryosenji  Temple",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "その他公共",
-       "英文": "Other public amenity",
-       "中文": "其他公共设施"
-      },
-      "OSM类别": "amenity=place_of_worship",
-      "距车站m": 844,
-      "坐标": {
-       "纬度": 34.67218,
-       "经度": 138.941649
-      },
-      "地址": null,
-      "官网": "http://www.izu.co.jp/~ryosenji/,http://www.izu.co.jp/~ryosenji/eigo.html",
-      "维基百科": "https://ja.wikipedia.org/wiki/了仙寺",
-      "Wikidata": "https://www.wikidata.org/wiki/Q3454089",
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/3557122052",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)",
-       "日本語ウィキペディア「伊豆急下田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ]
      }
     ],
@@ -5812,7 +6978,7 @@
        "经度": 138.952549
       },
       "地址": null,
-      "官网": "http://www.kurofune-hotel.com/,http://www.kurofune-hotel.com/lang/en.html",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -5820,13 +6986,21 @@
       "OSM编号": "node/4795892037",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.kurofune-hotel.com/,http://www.kurofune-hotel.com/lang/en.html",
+       "HTTP": 404
+      }
      }
     ]
    },
    "統計": {
-    "観光・名所案内": 19,
-    "文化・公共施設": 1,
+    "観光・名所案内": 22,
+    "文化・公共施設": 4,
     "買い物・商店街": 12,
     "便民公共服务": 26,
     "交通接続": 6,
@@ -5932,10 +7106,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 57,
+    "OSM施設数": 65,
     "ウィキ_only数": 16,
     "駅周辺リンク数": 24
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#6",
@@ -6055,7 +7230,11 @@
       "OSM编号": "node/6187442257",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -6089,6 +7268,88 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)",
        "日本語ウィキペディア「伊豆熱川駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "简介": {
+       "英文": "botanical garden with alligators in Shizuoka Prefecture, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "茶房＆体験工房 さくら坂",
+       "英文": "Sabo & Experience Workshop Sakurazaka",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=attraction",
+      "距车站m": 161,
+      "坐标": {
+       "纬度": 34.815641,
+       "经度": 139.069766
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/560270839",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://taiken-jp.net/sakura/,http://taiken-jp.net/sakura/english.html",
+       "HTTP": 404
+      }
+     },
+     {
+      "名称": {
+       "日文": "ほっとぱ～く源泉足湯",
+       "英文": "Hot Park   Foot Spa With Source",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=attraction",
+      "距车站m": 316,
+      "坐标": {
+       "纬度": 34.816441,
+       "经度": 139.072681
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1041893293",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
       ]
      },
      {
@@ -6127,8 +7388,8 @@
      {
       "名称": {
        "日文": "熱川温泉",
-       "英文": null,
-       "中文": null
+       "英文": "Atagawa Onsen",
+       "中文": "熱川溫泉"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -6143,22 +7404,30 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://atagawa.net/",
       "维基百科": "https://ja.wikipedia.org/wiki/熱川温泉",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11569041",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆熱川駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆熱川駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "熱川温泉"
+      "_title": "熱川温泉",
+      "简介": {
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "温泉街",
-       "英文": null,
-       "中文": null
+       "英文": "spa town",
+       "中文": "温泉镇"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -6175,20 +7444,35 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/温泉街",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q4946461",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「伊豆熱川駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "温泉街"
+      "_title": "温泉街",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/温泉街",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22",
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/温泉镇",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      },
+      "简介": {
+       "日文": "温泉街（おんせんがい、おんせんまち）は、温泉に付随して温浴施設や宿泊施設、飲食店や土産物店、遊戯店などが立ち並ぶ町並み。\n\n",
+       "英文": "A spa town is a resort town based on a mineral spa (a developed mineral spring). Patrons may visit spas to \"take the waters\" for their purported health benefits. \nThomas Guidott set up a medical practice in the English town of Bath in 1668. He became interested in the curative properties of the hot mineral waters there and in 1676 wrote A discourse of Bathe, and the hot waters there. Also, Some Enquiries into the Nature of the water. This brought the purported health-giving properties of the waters to the attention of the aristocracy, who started to partake in them soon after.\nThe term spa is ",
+       "中文": "温泉镇是一種以溫泉及水療法（Spa）為賣點的旅遊型城鎮，許多文化中均存在許多直接以“溫泉”命名的城鎮，其中較著名者包括比利時斯帕（Spa）及英國巴斯（Bath），而在日本類似的區域則稱為「湯の町」。"
+      }
      },
      {
       "名称": {
        "日文": "ハーブ",
-       "英文": null,
-       "中文": null
+       "英文": "herb",
+       "中文": "香草植物"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -6203,16 +7487,32 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "http://www.jsac.or.jp/bunseki/pdf/bunseki2007/200709kougi.PDF",
       "维基百科": "https://ja.wikipedia.org/wiki/ハーブ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q207123",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆熱川駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆熱川駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "ハーブ"
+      "_title": "ハーブ",
+      "简介": {
+       "英文": "plant part used for flavoring, food, medicine, or perfume",
+       "中文": "香草（英語：herbs），又称香料植物，是指因為其香氣而用在食物、调味品、藥品及香料中的植物。"
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "维基条目原文引用": {
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/香草",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      }
      },
      {
       "名称": {
@@ -6235,20 +7535,23 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/東伊豆町自主運行バス",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11525971",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「伊豆熱川駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "東伊豆町自主運行バス"
+      "_title": "東伊豆町自主運行バス",
+      "简介": {
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "東海バス",
-       "英文": null,
-       "中文": null
+       "英文": "Tokai Bus",
+       "中文": "東海巴士"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -6263,19 +7566,99 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.tokaibus.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/東海バス",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11527778",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆熱川駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆熱川駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "東海バス"
+      "_title": "東海バス",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/東海バス",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "株式会社東海バス（とうかいバス、TOKAI BUS,INC ）は、静岡県の伊豆地域を中心にバス事業を行う小田急グループ・東海自動車の子会社である。",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "東伊豆町立桜坂公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 270,
+      "坐标": {
+       "纬度": 34.814654,
+       "经度": 139.068752
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1042868107",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "熱川温泉しおかぜ広場",
+       "英文": "Atagawa Onsen  Tide Breeze Square",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 272,
+      "坐标": {
+       "纬度": 34.814753,
+       "经度": 139.070343
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1042868104",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "しおかぜ広場",
@@ -6307,7 +7690,11 @@
       "OSM编号": "node/6187615419",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "買い物・商店街": [
@@ -6629,16 +8016,21 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.post.japanpost.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/郵便局",
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆熱川駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆熱川駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "郵便局"
+      "_title": "郵便局",
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "交通接続": [
@@ -6706,6 +8098,47 @@
     "宿泊": [
      {
       "名称": {
+       "日文": "玉翠館",
+       "英文": "Izu Atagawa Onsen Gyokusuikan Hotel",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 60,
+      "坐标": {
+       "纬度": 34.816855,
+       "经度": 139.069917
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/660882002",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.gyokusuikan.co.jp/,https://www.gyokusuikan.co.jp/",
+       "HTTP": 0
+      }
+     },
+     {
+      "名称": {
        "日文": "熱川プリンスホテル",
        "英文": "Atagawa Prince Hotel",
        "中文": null
@@ -6735,7 +8168,122 @@
       "OSM编号": "node/7410944119",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "湯花満開 ふたりの湯宿",
+       "英文": "Yubana Mankai Futari-no-yu Hotel",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 223,
+      "坐标": {
+       "纬度": 34.816831,
+       "经度": 139.071732
+      },
+      "地址": null,
+      "官网": "https://www.yubanamankai.jp/,https://www.yubanamankai.jp/english",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/560263418",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "志なよし",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 260,
+      "坐标": {
+       "纬度": 34.81645,
+       "经度": 139.072055
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/560263368",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "ホテルカターラリゾート＆スパ",
+       "英文": "Izu Atagawa Onsen Hotel Katara Resort&Spa",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 266,
+      "坐标": {
+       "纬度": 34.817573,
+       "经度": 139.072137
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/560263399",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.katara.co.jp/,https://www.katara.co.jp/en/",
+       "HTTP": 404
+      }
      },
      {
       "名称": {
@@ -6760,7 +8308,7 @@
        "经度": 139.072204
       },
       "地址": null,
-      "官网": "https://www.katara.co.jp/,https://www.katara.co.jp/en/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -6768,17 +8316,247 @@
       "OSM编号": "node/2779720990",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.katara.co.jp/,https://www.katara.co.jp/en/",
+       "HTTP": 404
+      }
+     },
+     {
+      "名称": {
+       "日文": "ホテルセタスロイヤル",
+       "英文": "Hotel Cetus Royal",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 276,
+      "坐标": {
+       "纬度": 34.815234,
+       "经度": 139.071375
+      },
+      "地址": null,
+      "官网": "https://breezbay-group.com/atagawa-hcr/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/560263364",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "熱川大和館",
+       "英文": "Atagawa Yamato-kan  Hotel",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 276,
+      "坐标": {
+       "纬度": 34.81623,
+       "经度": 139.072155
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/560263367",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.at-yamatokan.com/",
+       "HTTP": 404
+      }
+     },
+     {
+      "名称": {
+       "日文": "熱川館",
+       "英文": "Atagawa-kann",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 295,
+      "坐标": {
+       "纬度": 34.814835,
+       "经度": 139.071088
+      },
+      "地址": null,
+      "官网": "https://www.atagawakan.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/560263392",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "熱川オーシャンリゾート",
+       "英文": "Atagawa Ocean Resort",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 307,
+      "坐标": {
+       "纬度": 34.817005,
+       "经度": 139.072663
+      },
+      "地址": null,
+      "官网": "https://atagawa-ocean-resort.com/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 557-22-6200",
+      "开放时间": null,
+      "OSM编号": "way/1041893289",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "伊藤園ホテル熱川",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 323,
+      "坐标": {
+       "纬度": 34.814212,
+       "经度": 139.068499
+      },
+      "地址": null,
+      "官网": "https://www.itoenhotel.com/atagawa/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 570 035 780",
+      "开放时间": null,
+      "OSM编号": "way/560263376",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "伊豆・熱川温泉たかみホテル",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 372,
+      "坐标": {
+       "纬度": 34.813714,
+       "经度": 139.068884
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "0557232255",
+      "开放时间": null,
+      "OSM编号": "way/560263375",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
       ]
      }
     ]
    },
    "統計": {
-    "観光・名所案内": 9,
-    "文化・公共施設": 1,
+    "観光・名所案内": 11,
+    "文化・公共施設": 3,
     "買い物・商店街": 2,
     "便民公共服务": 8,
     "交通接続": 2,
-    "宿泊": 2
+    "宿泊": 12
    },
    "_駅周辺リンク": [
     [
@@ -6820,10 +8598,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 16,
+    "OSM施設数": 32,
     "ウィキ_only数": 8,
     "駅周辺リンク数": 9
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#7",
@@ -6948,8 +8727,8 @@
      {
       "名称": {
        "日文": "稲取温泉",
-       "英文": null,
-       "中文": null
+       "英文": "Inatori Onsen",
+       "中文": "稻取温泉"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -6964,22 +8743,36 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://inatorionsen.or.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/稲取温泉",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11596465",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆稲取駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆稲取駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "稲取温泉"
+      "_title": "稲取温泉",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/稲取温泉",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "稲取温泉（いなとりおんせん）は、静岡県賀茂郡東伊豆町（旧国伊豆国）稲取にある温泉。1月20日〜3月31日に開催される「雛のつるし飾りまつり」、4月5日〜6月30日に開催される「つるし端午の福まつり」、6月の第1週に行われる奇祭「どんつく祭り」が有名である。\n\n",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "伊豆アニマルキングダム",
-       "英文": null,
-       "中文": null
+       "英文": "Izu Animal Kingdom",
+       "中文": "伊豆動物王國"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -6994,16 +8787,30 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "http://izu-kamori.jp/izu-biopark/",
       "维基百科": "https://ja.wikipedia.org/wiki/伊豆アニマルキングダム",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11380529",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆稲取駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆稲取駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "伊豆アニマルキングダム"
+      "_title": "伊豆アニマルキングダム",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/伊豆アニマルキングダム",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "伊豆アニマルキングダム（いずアニマルキングダム）は、静岡県賀茂郡東伊豆町稲取にある動物園（動植物自然公園）。旧伊豆バイオパークを改修。略称は『アニキン』。",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "文化・公共施設": [
@@ -7036,6 +8843,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/11012076244",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "稲取文化公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 708,
+      "坐标": {
+       "纬度": 34.768241,
+       "经度": 139.038381
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1515231276",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -7143,6 +8983,39 @@
      },
      {
       "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 729,
+      "坐标": {
+       "纬度": 34.768221,
+       "经度": 139.034923
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/421602017",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "マックスバリュ",
        "英文": "MaxValu",
        "中文": null
@@ -7211,6 +9084,46 @@
     "便民公共服务": [
      {
       "名称": {
+       "日文": "済廣寺",
+       "英文": "Saikou Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 146,
+      "坐标": {
+       "纬度": 34.773422,
+       "经度": 139.038009
+      },
+      "地址": null,
+      "官网": "https://www.e-izu.org/spot/778/",
+      "维基百科": "ja:済廣寺",
+      "Wikidata": "https://www.wikidata.org/wiki/Q110908054",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568486347",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "Buddhist temple in Higashiizu, Shizuoka, Japan"
+      }
+     },
+     {
+      "名称": {
        "日文": "村松歯科医院",
        "英文": "Muramatsu Dental Clinic",
        "中文": null
@@ -7241,6 +9154,77 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "稲取郵便局",
+       "英文": "Inatori Post Office",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 217,
+      "坐标": {
+       "纬度": 34.773635,
+       "经度": 139.039257
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/656547184",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "成就寺",
+       "英文": "Jyoujyu Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 249,
+      "坐标": {
+       "纬度": 34.774524,
+       "经度": 139.039862
+      },
+      "地址": null,
+      "官网": "https://www.e-izu.org/spot/796/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/561649324",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -7277,6 +9261,82 @@
      },
      {
       "名称": {
+       "日文": "清光院",
+       "英文": "Seikouin Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 437,
+      "坐标": {
+       "纬度": 34.771678,
+       "经度": 139.040432
+      },
+      "地址": null,
+      "官网": "https://www.e-izu.org/spot/794/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/561655962",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "善応院",
+       "英文": "Zennou Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 490,
+      "坐标": {
+       "纬度": 34.7712,
+       "经度": 139.040661
+      },
+      "地址": null,
+      "官网": "https://www.e-izu.org/spot/793/",
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q134918783",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/561655965",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
        "日文": "竹内組",
        "英文": null,
        "中文": null
@@ -7307,6 +9367,44 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "栄昌院",
+       "英文": "Eisho-in",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 634,
+      "坐标": {
+       "纬度": 34.774266,
+       "经度": 139.030199
+      },
+      "地址": null,
+      "官网": "https://www.e-izu.org/spot/795/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/561660503",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -7372,7 +9470,11 @@
       "OSM编号": "node/11013687472",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -7471,7 +9573,11 @@
       "OSM编号": "node/11013687468",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -7505,6 +9611,43 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "正定寺",
+       "英文": "Syoujyouji Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 738,
+      "坐标": {
+       "纬度": 34.771677,
+       "经度": 139.04444
+      },
+      "地址": null,
+      "官网": "https://www.e-izu.org/spot/790/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568486340",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -7571,6 +9714,72 @@
      }
     ],
     "交通接続": [
+     {
+      "名称": {
+       "日文": "ENEOS",
+       "英文": "ENEOS",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 204,
+      "坐标": {
+       "纬度": 34.77524,
+       "经度": 139.035075
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/488784206",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ENEOS",
+       "英文": "ENEOS",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 243,
+      "坐标": {
+       "纬度": 34.775566,
+       "经度": 139.034801
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1507765362",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "昭和シェル",
@@ -7698,16 +9907,263 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "大平荘",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 737,
+      "坐标": {
+       "纬度": 34.767897,
+       "经度": 139.036829
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/561657372",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "コーポ稲取",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=guest_house",
+      "距车站m": 775,
+      "坐标": {
+       "纬度": 34.768748,
+       "经度": 139.032381
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/561660382",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "味の宿喜久多",
+       "英文": "Restaurant Kikuta",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 798,
+      "坐标": {
+       "纬度": 34.76742,
+       "经度": 139.038383
+      },
+      "地址": null,
+      "官网": "http://www.inatori-kikuta.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568391821",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "竜宮の使い",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 840,
+      "坐标": {
+       "纬度": 34.767864,
+       "经度": 139.032788
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/228208473",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "稲取銀水荘",
+       "英文": "Inatori Ginssuiso",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 857,
+      "坐标": {
+       "纬度": 34.767083,
+       "经度": 139.03468
+      },
+      "地址": null,
+      "官网": "https://www.inatori-ginsuiso.jp/,https://www.inatori-ginsuiso.jp/en/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568391832",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "石花海別邸 海うさぎ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 891,
+      "坐标": {
+       "纬度": 34.766507,
+       "经度": 139.036954
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1515231275",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "心湯の宿 さざな",
+       "英文": "SHINYU NO YADO Sazana",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 891,
+      "坐标": {
+       "纬度": 34.766531,
+       "经度": 139.037781
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568391816",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://sazana.jp/,http://sazana.jp/en/",
+       "HTTP": 404
+      }
      }
     ]
    },
    "統計": {
     "観光・名所案内": 4,
-    "文化・公共施設": 1,
-    "買い物・商店街": 5,
-    "便民公共服务": 11,
-    "交通接続": 3,
-    "宿泊": 1
+    "文化・公共施設": 2,
+    "買い物・商店街": 6,
+    "便民公共服务": 18,
+    "交通接続": 5,
+    "宿泊": 8
    },
    "_駅周辺リンク": [
     [
@@ -7733,10 +10189,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 20,
+    "OSM施設数": 38,
     "ウィキ_only数": 5,
     "駅周辺リンク数": 5
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#8",
@@ -7823,7 +10280,11 @@
       "OSM编号": "node/6395502608",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -7955,7 +10416,11 @@
       "OSM编号": "node/1420979960",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8157,6 +10622,43 @@
      },
      {
       "名称": {
+       "日文": "伊豆テディベア・ミュージアム",
+       "英文": "Teddy Bear Museum",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 302,
+      "坐标": {
+       "纬度": 34.877612,
+       "经度": 139.111574
+      },
+      "地址": null,
+      "官网": "https://www.teddynet.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 557-54-5001",
+      "开放时间": null,
+      "OSM编号": "way/430014971",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
        "日文": "森のぞうがん美術館",
        "英文": "Mori-no-Zogan Art Museum",
        "中文": null
@@ -8219,7 +10721,11 @@
       "OSM编号": "node/8326862853",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8253,7 +10759,20 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)",
        "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ]
+      ],
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/伊豆オルゴール館",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "伊豆オルゴール館（いずオルゴールかん）は、静岡県伊東市にある、オルゴールをテーマにした博物館である。\n2023年9月18日に閉館された。なお閉館後も通販サイトは2023年現在継続している。\n\n",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8278,7 +10797,7 @@
        "经度": 139.106792
       },
       "地址": null,
-      "官网": "https://www.yanmonoki.com/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -8286,7 +10805,15 @@
       "OSM编号": "node/6267322175",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 403,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.yanmonoki.com/",
+       "HTTP": 403
+      }
      },
      {
       "名称": {
@@ -8456,7 +10983,7 @@
      {
       "名称": {
        "日文": "伊豆高原",
-       "英文": null,
+       "英文": "Izu Highland",
        "中文": null
       },
       "类别": {
@@ -8474,20 +11001,29 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/伊豆高原",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11380615",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "伊豆高原"
+      "_title": "伊豆高原",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/伊豆高原",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "伊豆高原（いずこうげん）は、静岡県伊東市の対島地区の大室山南東方面（富戸・池・八幡野）を、伊豆急行（現：伊豆急コミュニティー）が開発した温泉付き別荘地である。\n広義には、「伊豆高原」に続いて伊豆急行によって造成・分譲された周辺の別荘地である「南大室台」「城ヶ崎(伊豆急城ヶ崎)」「東大室」なども含む。（更には、伊豆高原別荘地の北・南に隣接している「大室高原」「すいらん荘」といった別荘地も含め、地域全体をひっくるめてこう呼ぶ場合もある。）\n首都圏からのアクセスが比較的容易であるうえ、海・山の自然が近く、それらを売りにする形で土地が分譲された。その後、観光施設や宿泊施設が増え、地域の発展と共に伊豆高原の言葉が定着して使用範囲が広がり、観光地域の名称として使われるようになった。\n\n",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "マックスバリュ",
-       "英文": null,
-       "中文": null
+       "英文": "MaxValu",
+       "中文": "美思佰乐"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -8504,19 +11040,38 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/マックスバリュ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11340427",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "マックスバリュ"
+      "_title": "マックスバリュ",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/マックスバリュ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "マックスバリュ（英: MaxValu）は、イオングループの日本国内9法人および日本国外4法人が展開するスーパーマーケット（SM） 。食料品を中心に取り扱っており、日本国内で642店舗（2026年5月時点）展開している。日本国外においても店舗を展開している（正確な店舗数は不明）。",
+       "英文": "Japanese supermarket chain",
+       "中文": "日本连锁生鲜超市"
+      },
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.maxvalu.co.jp",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
        "日文": "大室山",
-       "英文": null,
+       "英文": "Mount Ōmuro",
        "中文": null
       },
       "类别": {
@@ -8534,20 +11089,30 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/大室山_(静岡県)",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11434371",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "大室山 (静岡県)"
+      "_title": "大室山 (静岡県)",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/大室山_(静岡県)",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "大室山（おおむろやま）は、静岡県伊東市にある標高580 mの火山。\n独立峰で、700年以上続く山焼きが毎年早春に行われるため、樹木がなく一年生植物で覆われているのが特徴で、伊東市のシンボル的存在である。山体は国の天然記念物および富士箱根伊豆国立公園に指定されている。",
+       "英文": "cinder cone volcano in Japan",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "城ヶ崎海岸",
-       "英文": null,
-       "中文": null
+       "英文": "Jōgasaki Coast",
+       "中文": "城崎海岸"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -8564,14 +11129,17 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/城ヶ崎海岸",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11425937",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "城ヶ崎海岸"
+      "_title": "城ヶ崎海岸",
+      "简介": {
+       "中文": null
+      }
      },
      {
       "名称": {
@@ -8601,7 +11169,15 @@
       "来源": [
        "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "赤沢温泉"
+      "_title": "赤沢温泉",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/赤沢温泉",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "赤沢温泉（あかざわおんせん）は、静岡県伊東市にある温泉。"
+      }
      },
      {
       "名称": {
@@ -8622,22 +11198,27 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.nipponrentacar.co.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/ニッポンレンタカー",
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "ニッポンレンタカー"
+      "_title": "ニッポンレンタカー",
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "蓮着寺",
-       "英文": null,
-       "中文": null
+       "英文": "Renchaku-ji Temple",
+       "中文": "莲着寺"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -8654,20 +11235,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/蓮着寺",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11621724",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "蓮着寺"
+      "_title": "蓮着寺",
+      "简介": {
+       "英文": "Buddhist temple of the Hokke-shū Jinmon-ryū sect in Ito, Japan",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "足湯",
-       "英文": null,
-       "中文": null
+       "英文": "ashiyu",
+       "中文": "足湯"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -8684,14 +11269,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/足湯",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q725522",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "足湯"
+      "_title": "足湯",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/足湯",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "足湯（あしゆ）とは、足だけを湯につける入浴法。また、そのための浴槽や、それが設置してある場所である。足浴（そくよく、あしよく）とも言う。温泉地にも多く、足湯めぐりが観光スポット化しており、のぼせにくく全身を温めることができる。塩分、炭酸の追加で保温効果が高まる。就寝前の足湯が睡眠をよくする、などいくつかの医学研究が実施されている。",
+       "英文": "Japanese public foot bath",
+       "中文": "一种小型的，免费的足部温泉"
+      }
      }
     ],
     "文化・公共施設": [
@@ -8765,6 +11360,39 @@
      },
      {
       "名称": {
+       "日文": "スーパーナガヤ",
+       "英文": "NaGaYa",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 181,
+      "坐标": {
+       "纬度": 34.876743,
+       "经度": 139.106714
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "Mo-Su,PH 09:30-20:00",
+      "OSM编号": "way/228503474",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "ユニオン マーケット",
        "英文": "Union Market",
        "中文": null
@@ -8786,12 +11414,53 @@
        "经度": 139.111104
       },
       "地址": null,
-      "官网": "https://household-goods-store-76.business.site/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/8292083521",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://household-goods-store-76.business.site/",
+       "HTTP": 404
+      }
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 333,
+      "坐标": {
+       "纬度": 34.877324,
+       "经度": 139.104659
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/429874314",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -8994,7 +11663,11 @@
       "OSM编号": "node/4293131162",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -9313,15 +11986,24 @@
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "美術館"
+      "_title": "美術館",
+      "官网検証": {
+       "HTTP": 503,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.zenbi.jp/",
+       "HTTP": 503
+      }
      },
      {
       "名称": {
        "日文": "博物館",
-       "英文": null,
-       "中文": null
+       "英文": "museum",
+       "中文": "博物馆"
       },
       "类别": {
        "日文": "便民公共服务",
@@ -9338,14 +12020,18 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/博物館",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q33506",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「伊豆高原駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "博物館"
+      "_title": "博物館",
+      "简介": {
+       "英文": "institution that holds artifacts and other objects of scientific, artistic, cultural, historical, or other importance",
+       "中文": "保存具有科学、艺术、文化或历史价值物件的机构"
+      }
      }
     ],
     "交通接続": [
@@ -9378,6 +12064,43 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/6248775737",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "ENEOS",
+       "英文": "ENEOS",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 325,
+      "坐标": {
+       "纬度": 34.879314,
+       "经度": 139.105251
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1508042372",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -9419,6 +12142,43 @@
      },
      {
       "名称": {
+       "日文": "KaiserBerg 城ヶ崎",
+       "英文": "Kaiserberg Jōgasaki",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hostel",
+      "距车站m": 616,
+      "坐标": {
+       "纬度": 34.8767,
+       "经度": 139.114901
+      },
+      "地址": null,
+      "官网": "https://www.redbaron-kaiserberg.jp/jyogasaki/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1508617809",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
        "日文": "八幡野温泉郷きらの里",
        "英文": "Yawatano-onsen-kyou Kira-no-sato",
        "中文": null
@@ -9448,17 +12208,22 @@
       "OSM编号": "node/4708520598",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      }
     ]
    },
    "統計": {
-    "観光・名所案内": 28,
+    "観光・名所案内": 29,
     "文化・公共施設": 1,
-    "買い物・商店街": 5,
+    "買い物・商店街": 7,
     "便民公共服务": 14,
-    "交通接続": 1,
-    "宿泊": 2
+    "交通接続": 2,
+    "宿泊": 3
    },
    "_駅周辺リンク": [
     [
@@ -9516,10 +12281,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 39,
+    "OSM施設数": 44,
     "ウィキ_only数": 12,
     "駅周辺リンク数": 13
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#9",
@@ -9548,10 +12314,18 @@
     "首段": {
      "日文": null,
      "英文": null,
-     "中文": null
+     "中文": "南伊東站（日語：南伊東駅／みなみいとうえき，羅馬化：Minami-Itō eki）是一個位於日本靜岡縣伊東市櫻丘一丁目，屬於伊豆急行伊豆急行線的鐵路車站。車站編號是IZ02。"
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/南伊東站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/南伊東站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -9562,7 +12336,41 @@
    "公式リンク": [],
    "分区": {
     "観光・名所案内": [],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "鎌田公園",
+       "英文": "Kamata Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 318,
+      "坐标": {
+       "纬度": 34.955151,
+       "经度": 139.086694
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/259283358",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
      {
       "名称": {
@@ -9593,6 +12401,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/6080277004",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 173,
+      "坐标": {
+       "纬度": 34.95823,
+       "经度": 139.08983
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/565802863",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -9692,6 +12533,72 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/6080276789",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 456,
+      "坐标": {
+       "纬度": 34.953709,
+       "经度": 139.088231
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1214439256",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "max valu",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 493,
+      "坐标": {
+       "纬度": 34.961779,
+       "经度": 139.090402
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/255638151",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -9799,6 +12706,39 @@
     "便民公共服务": [
      {
       "名称": {
+       "日文": "ポラス北川和正社会福祉士事務所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 234,
+      "坐标": {
+       "纬度": 34.958641,
+       "经度": 139.090359
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/565802849",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "伊東鎌田郵便局",
        "英文": "Ito-Kamata Post Office",
        "中文": null
@@ -9829,6 +12769,46 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "伊東市民病院",
+       "英文": "Ito Citizens' Hospital",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=hospital",
+      "距车站m": 285,
+      "坐标": {
+       "纬度": 34.960354,
+       "经度": 139.087753
+      },
+      "地址": null,
+      "官网": "https://ito-shimin-hp.jp/",
+      "维基百科": "ja:伊東市民病院",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11379487",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/564671883",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "hospital in Japan"
+      }
      },
      {
       "名称": {
@@ -9996,7 +12976,11 @@
       "OSM编号": "node/6267322176",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -10021,7 +13005,7 @@
        "经度": 139.086744
       },
       "地址": null,
-      "官网": "https://www.seizanyamato.jp/index.html,http://www.seizanyamato.jp/en/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -10029,7 +13013,15 @@
       "OSM编号": "node/6251230162",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.seizanyamato.jp/index.html,http://www.seizanyamato.jp/en/",
+       "HTTP": 404
+      }
      },
      {
       "名称": {
@@ -10062,7 +13054,12 @@
       "OSM编号": "node/6251165645",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -10095,7 +13092,14 @@
       "OSM编号": "node/6251050609",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "hotel in Itō, Japan"
+      }
      },
      {
       "名称": {
@@ -10128,7 +13132,11 @@
       "OSM编号": "node/6251165646",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -10161,25 +13169,30 @@
       "OSM编号": "node/6249262831",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ]
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 0,
-    "買い物・商店街": 7,
-    "便民公共服务": 5,
+    "文化・公共施設": 1,
+    "買い物・商店街": 10,
+    "便民公共服务": 7,
     "交通接続": 0,
     "宿泊": 6
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 18,
+    "OSM施設数": 24,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#10",
@@ -10207,12 +13220,26 @@
     "链接": "https://ja.wikipedia.org/wiki/城ヶ崎海岸駅",
     "首段": {
      "日文": null,
-     "英文": null,
-     "中文": null
+     "英文": "Jōgasaki-Kaigan Station (城ヶ崎海岸駅, Jōgasaki-Kaigan-eki) is a railway station located in the southern part of Itō, Shizuoka Prefecture, Japan operated by the private railroad company Izukyū Corporation.",
+     "中文": "城崎海岸站（日語：城ヶ崎海岸駅／じょうがさきかいがんえき，羅馬化：Jōgasaki-kaigan eki）是位於靜岡縣伊東市富戶，屬於伊豆急行伊豆急行線的鐵路車站。\n伊豆急行線的開業當初並無設置此站。"
     },
     "駅周辺原文": {
      "日文": null
-    }
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/城崎海岸站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/城崎海岸站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     },
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Jōgasaki-Kaigan_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Jōgasaki-Kaigan_Station"
    },
    "交通接続メモ": {
     "バス路線原文": {
@@ -10221,7 +13248,45 @@
    },
    "公式リンク": [],
    "分区": {
-    "観光・名所案内": [],
+    "観光・名所案内": [
+     {
+      "名称": {
+       "日文": "怪しい少年少女博物館",
+       "英文": "Suspicious Boys & Girls Museum",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=museum",
+      "距车站m": 484,
+      "坐标": {
+       "纬度": 34.891593,
+       "经度": 139.116806
+      },
+      "地址": null,
+      "官网": "https://ayashii.sakura.ne.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/562181614",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     }
+    ],
     "文化・公共施設": [],
     "買い物・商店街": [
      {
@@ -10255,7 +13320,11 @@
       "OSM编号": "node/4457403262",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "便民公共服务": [
@@ -10464,7 +13533,7 @@
     ]
    },
    "統計": {
-    "観光・名所案内": 0,
+    "観光・名所案内": 1,
     "文化・公共施設": 0,
     "買い物・商店街": 1,
     "便民公共服务": 3,
@@ -10474,10 +13543,11 @@
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 7,
+    "OSM施設数": 8,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#11",
@@ -10505,11 +13575,19 @@
     "链接": "https://ja.wikipedia.org/wiki/富戸駅",
     "首段": {
      "日文": null,
-     "英文": null,
+     "英文": "Futo Station (富戸駅, Futo-eki) is a railway station located in the southern part of Itō, Shizuoka Prefecture, Japan operated by the private railroad company Izukyū Corporation.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Futo_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Futo_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -10552,6 +13630,43 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "伊豆ぐらんぱる公園",
+       "英文": "Izu Granpal Amusement Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=attraction",
+      "距车站m": 886,
+      "坐标": {
+       "纬度": 34.905445,
+       "经度": 139.122651
+      },
+      "地址": null,
+      "官网": "https://granpal.com/",
+      "维基百科": "ja:伊豆ぐらんぱる公園",
+      "Wikidata": "https://www.wikidata.org/wiki/Q97168213",
+      "电话": "0557-51-1122",
+      "开放时间": null,
+      "OSM编号": "way/539367377",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "文化・公共施設": [
@@ -10755,7 +13870,10 @@
       "OSM编号": "node/8283837435",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Buddhist temple in Ito, Japan"
+      }
      },
      {
       "名称": {
@@ -10861,6 +13979,72 @@
      },
      {
       "名称": {
+       "日文": "Futo House",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 271,
+      "坐标": {
+       "纬度": 34.911837,
+       "经度": 139.131186
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/891273260",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "Petit Hotel MaIKa",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 562,
+      "坐标": {
+       "纬度": 34.911873,
+       "经度": 139.125708
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/562263695",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "Hotel Parco",
        "英文": "Hotel Parco",
        "中文": null
@@ -10923,7 +14107,11 @@
       "OSM编号": "node/8270562408",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -10956,25 +14144,30 @@
       "OSM编号": "node/5492256621",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ]
    },
    "統計": {
-    "観光・名所案内": 1,
+    "観光・名所案内": 2,
     "文化・公共施設": 1,
     "買い物・商店街": 2,
     "便民公共服务": 5,
     "交通接続": 0,
-    "宿泊": 4
+    "宿泊": 6
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 13,
+    "OSM施設数": 16,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#12",
@@ -11002,11 +14195,19 @@
     "链接": "https://ja.wikipedia.org/wiki/川奈駅",
     "首段": {
      "日文": null,
-     "英文": null,
+     "英文": "Kawana Station (川奈駅, Kawana-eki) is a railway station located in the eastern part of Itō, Shizuoka Prefecture, Japan operated by the private railroad company Izukyū Corporation.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Kawana_Station_(Shizuoka)",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Kawana_Station_(Shizuoka)",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -11019,6 +14220,39 @@
     "観光・名所案内": [],
     "文化・公共施設": [],
     "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "東急ストア川奈店",
+       "英文": "Tokyu Store",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 49,
+      "坐标": {
+       "纬度": 34.951127,
+       "经度": 139.123702
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/563271395",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "セブン-イレブン",
@@ -11260,7 +14494,7 @@
    "統計": {
     "観光・名所案内": 0,
     "文化・公共施設": 0,
-    "買い物・商店街": 4,
+    "買い物・商店街": 5,
     "便民公共服务": 2,
     "交通接続": 1,
     "宿泊": 0
@@ -11268,10 +14502,11 @@
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 7,
+    "OSM施設数": 8,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#13",
@@ -11299,11 +14534,19 @@
     "链接": "https://ja.wikipedia.org/wiki/河津駅",
     "首段": {
      "日文": "{{駅情報\n|社色 = deepskyblue\n|文字色 =\n|駅名 = 河津駅\n|画像 = Kawazu Station ac (1).jpg\n|pxl = 300\n|画像説明 = 駅舎（2021年3月）\n|地図 =\n|よみがな = かわづ\n|ローマ字 = Kawazu\n|副駅名 = 爬虫類と両生類の聖地\n|所属事業者 =\n|所在地 =    浜155-2\n|座標 =\n|開業年月日 =  （ 36年）\n|廃止年月日 =\n|駅構造 =\n|ホーム = 2面2線\n|所属路線 =\n|前の駅 = IZ12\n|駅間A = 1.1\n|駅間B = 5.4\n|次の駅 =   IZ14\n|電報略号 =\n|駅番号 =\n|キロ程 = 35.3&nbsp;km（ 起点）  から52.2\n|起点駅 =\n|乗車人員 = 392\n|統計年度 = 2020年\n|乗換 =\n|備考 =\n}}\n河津駅（かわづえき）は、   浜にある、  の である。 はIZ13。 は爬虫類と両生類の聖地駅（2026年8月18日から2028年7月31日まで）。",
-     "英文": null,
+     "英文": "Kawazu Station (河津駅, Kawazu-eki)  is a railway station in the town of Kawazu, Shizuoka Prefecture, Japan, operated by the privately owned Izu Kyūkō Line .",
      "中文": null
     },
     "駅周辺原文": {
      "日文": "<gallery widths=\"180\" style=\"font-size:90%;\">\nStation square kawazu-zakura.JPG|駅前の河津桜（2014年2月）\nKawazu signboard.JPG|駅前広場の看板（2014年2月）\n</gallery>"
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Kawazu_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Kawazu_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -11428,6 +14671,39 @@
      },
      {
       "名称": {
+       "日文": "河津桜観光交流館(河津町観光協会)",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 512,
+      "坐标": {
+       "纬度": 34.750705,
+       "经度": 138.991885
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/560216503",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "かわづカーネーション見本園",
        "英文": "Kawazu Carnation Gardens",
        "中文": null
@@ -11462,7 +14738,7 @@
      {
       "名称": {
        "日文": "フードストアあおき",
-       "英文": null,
+       "英文": "Aoki",
        "中文": null
       },
       "类别": {
@@ -11478,21 +14754,35 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "http://www.superaoki.com/",
       "维基百科": "https://ja.wikipedia.org/wiki/フードストアあおき",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11334257",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「河津駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「河津駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "フードストアあおき"
+      "_title": "フードストアあおき",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/フードストアあおき",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "フードストアあおきは、静岡県沼津市に本社を置く株式会社あおき（英: Aoki Corporation）が運営する、静岡県の東部・伊豆半島を地盤とする中堅スーパーマーケット。",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "河津川",
-       "英文": null,
+       "英文": "Kawazu River",
        "中文": null
       },
       "类别": {
@@ -11510,14 +14800,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/河津川",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11553991",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「河津駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "河津川"
+      "_title": "河津川",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/河津川",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "河津川（かわづがわ）は、静岡県賀茂郡河津町を流れる河川。二級水系の本流。",
+       "英文": "river in Sizuoka Prefecture, Japan",
+       "中文": null
+      }
      }
     ],
     "文化・公共施設": [
@@ -11619,6 +14919,39 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "笹原公園",
+       "英文": "Sasahara Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 529,
+      "坐标": {
+       "纬度": 34.749019,
+       "经度": 138.990467
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/253119140",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ],
     "買い物・商店街": [
@@ -11651,6 +14984,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/4202340638",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "プラザ鈴木",
+       "英文": "Plaza Suzuki",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 104,
+      "坐标": {
+       "纬度": 34.746646,
+       "经度": 138.995739
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/556404390",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -11719,7 +15085,11 @@
       "OSM编号": "node/11007594210",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -11886,7 +15256,11 @@
       "OSM编号": "node/2643897063",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -11919,7 +15293,11 @@
       "OSM编号": "node/11010275852",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12051,7 +15429,12 @@
       "OSM编号": "node/11007594209",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12117,7 +15500,10 @@
       "OSM编号": "node/2636641664",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Shizuoka Prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -12445,13 +15831,17 @@
       "OSM编号": "node/2636655300",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "伊豆今井浜東急ホテル",
        "英文": "Izu-Imaihama Tokyu Hotel",
-       "中文": null
+       "中文": "東急伊豆今井濱度假飯店"
       },
       "类别": {
        "日文": "宿泊",
@@ -12470,7 +15860,7 @@
        "经度": 139.003548
       },
       "地址": null,
-      "官网": "https://www.tokyuhotels.co.jp/imaihama-h/index.html,https://www.tokyuhotelsjapan.com/global/imaihama-h/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": "https://www.wikidata.org/wiki/Q111406771",
       "电话": null,
@@ -12478,17 +15868,68 @@
       "OSM编号": "node/6248676292",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.tokyuhotels.co.jp/imaihama-h/index.html,https://www.tokyuhotelsjapan.com/global/imaihama-h/",
+       "HTTP": 404
+      },
+      "简介": {
+       "英文": "Hotel in Kawazu, Shizuoka prefecture, Japan"
+      }
+     },
+     {
+      "名称": {
+       "日文": "今井荘",
+       "英文": "Imaiso",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 894,
+      "坐标": {
+       "纬度": 34.752134,
+       "经度": 139.004022
+      },
+      "地址": null,
+      "官网": "http://www.imaiso.jp/,http://www.imaiso.jp/english/",
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q111866378",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/560218582",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "hotel in Kōchi, Japan"
+      }
      }
     ]
    },
    "統計": {
-    "観光・名所案内": 6,
-    "文化・公共施設": 3,
-    "買い物・商店街": 7,
+    "観光・名所案内": 7,
+    "文化・公共施設": 4,
+    "買い物・商店街": 8,
     "便民公共服务": 9,
     "交通接続": 4,
-    "宿泊": 6
+    "宿泊": 7
    },
    "_駅周辺リンク": [
     [
@@ -12510,10 +15951,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 31,
+    "OSM施設数": 35,
     "ウィキ_only数": 4,
     "駅周辺リンク数": 4
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#14",
@@ -12590,7 +16032,74 @@
       ]
      }
     ],
-    "文化・公共施設": [],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "白田川親水公園",
+       "英文": "Shirata-gawa  Shinsui  Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 85,
+      "坐标": {
+       "纬度": 34.802892,
+       "经度": 139.060785
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1042868116",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "渕之川児童公園",
+       "英文": "Fuchi-no-kawa  Children's Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 340,
+      "坐标": {
+       "纬度": 34.804923,
+       "经度": 139.062814
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1042868111",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
     "買い物・商店街": [
      {
       "名称": {
@@ -12662,6 +16171,143 @@
      },
      {
       "名称": {
+       "日文": "東伊豆町保健・福祉センター",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 79,
+      "坐标": {
+       "纬度": 34.802746,
+       "经度": 139.061689
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/556419371",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "東泉院",
+       "英文": "Tousen-in",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 253,
+      "坐标": {
+       "纬度": 34.800649,
+       "经度": 139.059119
+      },
+      "地址": null,
+      "官网": "https://www.e-izu.org/spot/792/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/561674331",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "森田歯科",
+       "英文": "Morita Dental Clinic",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 256,
+      "坐标": {
+       "纬度": 34.80444,
+       "经度": 139.060586
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1042868112",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "片瀬防災センター",
+       "英文": "Katase Disaster Preventation Center",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=government",
+      "距车站m": 274,
+      "坐标": {
+       "纬度": 34.804643,
+       "经度": 139.060942
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568474031",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "南城東簡易郵便局",
        "英文": "Nanjo Higashi  Simplified Post Office",
        "中文": null
@@ -12722,6 +16368,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/1420978363",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "龍淵院",
+       "英文": "Ryubuchiin Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 514,
+      "坐标": {
+       "纬度": 34.806806,
+       "经度": 139.060864
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q134917962",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568471508",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -12865,19 +16544,20 @@
    },
    "統計": {
     "観光・名所案内": 1,
-    "文化・公共施設": 0,
+    "文化・公共施設": 2,
     "買い物・商店街": 1,
-    "便民公共服务": 5,
+    "便民公共服务": 10,
     "交通接続": 2,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 9,
+    "OSM施設数": 16,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#15",
@@ -12925,6 +16605,72 @@
     "便民公共服务": [
      {
       "名称": {
+       "日文": "高根白山神社",
+       "英文": "Takane-Hakusan  Shrine",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 109,
+      "坐标": {
+       "纬度": 34.720566,
+       "经度": 138.949926
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/997671150",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "宝珠寺",
+       "英文": "Hojyuji Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 337,
+      "坐标": {
+       "纬度": 34.719261,
+       "经度": 138.951842
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/568630536",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "伊豆つくし学園",
        "英文": "Izu Tsukushi School",
        "中文": null
@@ -12964,17 +16710,18 @@
     "観光・名所案内": 0,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 1,
+    "便民公共服务": 3,
     "交通接続": 0,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 1,
+    "OSM施設数": 3,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "伊豆急行線#16",
@@ -13085,6 +16832,39 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "広台寺",
+       "英文": "Kodaiji Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 670,
+      "坐标": {
+       "纬度": 34.698868,
+       "经度": 138.934001
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/876176713",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
      }
     ],
     "交通接続": [],
@@ -13112,7 +16892,7 @@
        "经度": 138.938297
       },
       "地址": null,
-      "官网": "http://kanayaryokan.jp/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -13120,7 +16900,15 @@
       "OSM编号": "node/8449695096",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://kanayaryokan.jp/",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -13153,7 +16941,11 @@
       "OSM编号": "node/6265593171",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -13186,7 +16978,11 @@
       "OSM编号": "node/6265591039",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ]
    },
@@ -13194,17 +16990,18 @@
     "観光・名所案内": 0,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 2,
+    "便民公共服务": 3,
     "交通接続": 0,
     "宿泊": 3
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 5,
+    "OSM施設数": 6,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   }
  ]
 }

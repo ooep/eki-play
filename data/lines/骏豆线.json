@@ -18,8 +18,8 @@
  },
  "品質": {
   "無座標": 0,
-  "OSM施設合計": 632,
-  "ウィキのみ合計": 118
+  "OSM施設合計": 699,
+  "ウィキのみ合計": 114
  },
  "分区定義": [
   {
@@ -97,17 +97,52 @@
     "https://www.izuhakone.co.jp/sunzudaiyu/zunzu_sub_nav/guide/p000604.html",
     "https://dl.ndl.go.jp/info:ndljp/pid/2958828/5|journal=",
     "https://mainichi.jp/articles/20200831/ddl/k22/070/116000c|newspaper=毎日新聞|publisher=毎日新聞社|url-access=subscription|accessdate=2021-10-17|date=2020-08-31",
-    "http://www.mlit.go.jp/chubu/tetudo/tetudo2001.html|title=第3回『中部の駅百選』25駅の認定について|publisher=中部運輸局|accessdate=2025-05-01|archiveurl=https://web.archive.org/web/20080915030558/http://www.mlit.go.jp/chubu/tetudo/tetudo2001.html",
     "https://jr-central.co.jp/news/release/_pdf/000019439.pdf|title=三島駅",
     "https://www.at-s.com/news/article/local/east/722577.html|title=こだわりの味47年、「三島駅そば処」8日閉店",
     "https://www.jrtours.co.jp/shop/",
-    "https://www.traicy.com/posts/20220717244977/|title=JR東海ツアーズ、新横浜・三島・豊橋支店など計5店舗を閉店|author=吉川直輝|date=2022-07-17|work=TRAICY|publisher=トライシージャパン",
     "https://www.izuhakone.co.jp/koukoku_news_20230728_01.pdf",
     "https://www.at-s.com/news/article/shizuoka/1291378.html",
     "https://www.at-s.com/news/article/shizuoka/1458214.html|title=木村鋳造所（清水町）発泡スチロール加工技術生かす"
    ],
    "分区": {
     "観光・名所案内": [
+     {
+      "名称": {
+       "日文": "三島観光案内所",
+       "英文": "Mishima Tourism Information Center",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 82,
+      "坐标": {
+       "纬度": 35.125909,
+       "经度": 138.91156
+      },
+      "地址": null,
+      "官网": "https://www.mishima-kankou.com/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1379027911",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
      {
       "名称": {
        "日文": "縄状溶岩の露頭",
@@ -275,39 +310,6 @@
      },
      {
       "名称": {
-       "日文": "小浜山刑場供養砷",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 283,
-      "坐标": {
-       "纬度": 35.12673,
-       "经度": 138.90777
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/10314123209",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
        "日文": "動物ふれあい広場",
        "英文": "Animal Petting Park",
        "中文": null
@@ -335,6 +337,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/12909124324",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "小浜山刑場供養砷",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 283,
+      "坐标": {
+       "纬度": 35.12673,
+       "经度": 138.90777
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10314123209",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -1168,8 +1203,8 @@
      {
       "名称": {
        "日文": "箱根の坂",
-       "英文": null,
-       "中文": null
+       "英文": "Hakone Pass",
+       "中文": "箱根峠"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -1186,20 +1221,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/箱根峠",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11284656",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "箱根峠"
+      "_title": "箱根峠",
+      "简介": {
+       "英文": "mountain in Japan",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "伊豆国",
-       "英文": null,
-       "中文": null
+       "英文": "Izu Province",
+       "中文": "伊豆国"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -1216,20 +1255,30 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/伊豆国",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q860928",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "伊豆国"
+      "_title": "伊豆国",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/伊豆国",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "伊豆国（いずのくに）は、かつて日本の地方行政区分だった令制国の一つ。東海道に属する。\n\n",
+       "英文": "province of Japan",
+       "中文": "日本古代令制國，約位於現在靜岡縣東部伊豆半島"
+      }
      },
      {
       "名称": {
        "日文": "駿河国",
-       "英文": null,
-       "中文": null
+       "英文": "Suruga Province",
+       "中文": "骏河国"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -1246,20 +1295,31 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/駿河国",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q864170",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "駿河国"
+      "_title": "駿河国",
+      "简介": {
+       "英文": "former province of Japan",
+       "中文": "駿河國（日語：駿河国〔駿河國〕／するがのくに，羅馬化：Suruganokuni），日本古代的令制國之一，屬東海道，又稱駿州。倒幕後的明治時期，駿府被改稱靜岡，而在1871年的廢藩置縣推行下，駿河國大部分被納入現今的靜岡縣，領域約為静岡縣的中部及東北部。"
+      },
+      "维基条目原文引用": {
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/駿河國",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      }
      },
      {
       "名称": {
        "日文": "源頼朝",
-       "英文": null,
-       "中文": null
+       "英文": "Minamoto no Yoritomo",
+       "中文": "源赖朝"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -1276,14 +1336,29 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/源頼朝",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q242800",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "源頼朝"
+      "_title": "源頼朝",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/源頼朝",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22",
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/源赖朝",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      },
+      "简介": {
+       "日文": "源 頼朝（みなもと の よりとも、旧字体: 源 賴朝󠄁󠄁󠄁）は、平安時代末期から鎌倉時代初期の日本の武将、政治家。鎌倉幕府初代征夷大将軍（鎌倉殿）。\n清和源氏の一流たる河内源氏の源義朝と正室・由良御前の間に生まれた嫡男（三男）であり、父・義朝が平治の乱で敗れて討たれると伊豆国へ配流される。伊豆で以仁王の令旨を受けると坂東武士らと平家打倒の兵を挙げ、鎌倉を本拠地として関東を制圧する。弟たちを代官として平家を倒し、反逆した末弟・源義経を追放の後、諸国に守護と地頭を配して力を強め、奥州合戦で奥州藤原氏を滅ぼす。建久3年7月12日（ユリウス暦1192年8月21日）に征夷大将軍に任じられた。\nこれにより、朝廷と同様に京都を中心に権勢を誇った平氏政権とは異なる、東国に独立した武家政権が開かれ、後に鎌倉幕府と呼ばれた。",
+       "英文": "Minamoto no Yoritomo (源 頼朝; Japanese pronunciation: [mʲì.nä́.mó̞.tó̞ nó̞ | jò̞.ɾʲí.tó̞.mó̞, -nó̞ jó̞-]; May 9, 1147 – February 9, 1199) was a samurai, daimyo and the founder and the first shogun of the Kamakura shogunate, ruling from 1192 until 1199, also the first  shogun in the history of Japan to hold de-facto power over Japan. He was married to Hōjō Masako, who acted as regent (shikken) after his death.\nYoritomo was the son of Minamoto no Yoshitomo and belonged to Seiwa Genji's prestigious Kawachi Genji family. After successfully maneuvering himself to the position of rightful heir of the ",
+       "中文": "源賴朝（cháo）（日語：源 頼朝〔源 賴朝󠄁〕／みなもと の よりとも，羅馬化：Minamoto no Yoritomo，1147年5月9日—1199年2月9日），鎌倉幕府首任征夷大將軍及初代鎌倉殿，也是日本幕府制度的建立者。源賴朝是平安時代末期河內源氏棟樑源义朝的第三子，同時為嫡長子。幼名鬼武者，通稱為三郎、佐殿、武衛、鎌倉殿、源二位、右大將軍（右大將）、右幕下。著名的武將源義經是源賴朝的同父異母弟。"
+      }
      },
      {
       "名称": {
@@ -1318,8 +1393,8 @@
      {
       "名称": {
        "日文": "三嶋大社",
-       "英文": null,
-       "中文": null
+       "英文": "Mishima Taisha",
+       "中文": "三嶋大社"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -1334,52 +1409,31 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "http://www.mishimataisha.or.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/三嶋大社",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q650772",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "三嶋大社"
-     },
-     {
-      "名称": {
-       "日文": "楽寿園",
-       "英文": null,
+      "_title": "三嶋大社",
+      "简介": {
+       "英文": "Shinto shrine in Mishima, Shizuoka, Japan",
        "中文": null
       },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "名所",
-       "英文": "Tourist attraction",
-       "中文": "旅游景点"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/楽寿園",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "楽寿園"
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "鰻",
-       "英文": null,
-       "中文": null
+       "英文": "unagi",
+       "中文": "鰻・うなぎ"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -1396,14 +1450,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/ウナギ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q1422437",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "ウナギ"
+      "_title": "ウナギ",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/ウナギ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "ウナギ（鰻、泉海魚、うなぎ）とは、ウナギ科 (Anguillidae) ウナギ属 (Anguilla) に属する魚類の総称である。世界中の熱帯から温帯にかけて分布する。\nインド太平洋系のニホンウナギ、オオウナギなどと、大西洋系のヨーロッパウナギ、アメリカウナギなど、19種類が確認されている。\n本項目では主に、ウナギの文化的側面について解説する。生物学的側面についてはウナギ科を参照のこと。\n種類や地域によっては食用にされる（19種類中4種類）。日本では主にニホンウナギで蒲焼や鰻丼などの調理方法が考案されて、古くから食文化に深い関わりを持つ魚である。漁業・養鰻共に日本では広く行われてきたが、近年は国外からの輸入が増えている。",
+       "英文": "Unagi (ウナギ) is the Japanese word for freshwater eel, particularly the Japanese eel, Anguilla japonica (日本鰻, nihon unagi). Unagi is a common ingredient in Japanese cooking, often as kabayaki. It is not to be confused with saltwater eel, which is known as anago in Japanese.",
+       "中文": null
+      }
      }
     ],
     "文化・公共施設": [
@@ -1438,7 +1502,52 @@
       "OSM编号": "node/6279933856",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "楽寿園",
+       "英文": "Rakuju-en Park",
+       "中文": "樂壽園"
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=garden",
+      "距车站m": 334,
+      "坐标": {
+       "纬度": 35.123403,
+       "经度": 138.911556
+      },
+      "地址": null,
+      "官网": "https://www.city.mishima.shizuoka.jp/rakujyu/",
+      "维基百科": "https://ja.wikipedia.org/wiki/楽寿園",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11541603",
+      "电话": "+81-55-975-2570",
+      "开放时间": null,
+      "OSM编号": "way/554499794",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "Rakuju-en (楽寿園) is a public park with a Japanese garden and zoo, located in the city of Mishima, Shizuoka Prefecture, Japan. It was designated as a National Place of Scenic Beauty of Japan as well as a Natural monument of Japan in 1954. In 2012, the Rakuju-en was designated as part of the Izu Peninsula Geopark."
+      }
      },
      {
       "名称": {
@@ -1502,6 +1611,72 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/3169566865",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "白滝公園",
+       "英文": "Shirataki Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 478,
+      "坐标": {
+       "纬度": 35.123282,
+       "经度": 138.914526
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:白滝公園",
+      "Wikidata": "https://www.wikidata.org/wiki/Q92453556",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/203830700",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "鎧坂ミニ公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 488,
+      "坐标": {
+       "纬度": 35.128882,
+       "经度": 138.915229
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1203407320",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -1608,6 +1783,39 @@
      {
       "名称": {
        "日文": "御嶽堂公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 795,
+      "坐标": {
+       "纬度": 35.124542,
+       "经度": 138.902381
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/555708782",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "御嶽堂公園",
        "英文": "Mitakedo Park",
        "中文": null
       },
@@ -1704,7 +1912,11 @@
       "OSM编号": "node/3860571595",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -1840,39 +2052,6 @@
      },
      {
       "名称": {
-       "日文": "セブンイレブン",
-       "英文": "7-Eleven",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=convenience",
-      "距车站m": 488,
-      "坐标": {
-       "纬度": 35.129087,
-       "经度": 138.915038
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/3916009749",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
        "日文": "ひまわり薬局",
        "英文": "Himawari Drug Store",
        "中文": null
@@ -1900,6 +2079,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/11155367025",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブンイレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 488,
+      "坐标": {
+       "纬度": 35.129087,
+       "经度": 138.915038
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/3916009749",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -2270,6 +2482,110 @@
      },
      {
       "名称": {
+       "日文": "ヒルトップ壱番館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 254,
+      "坐标": {
+       "纬度": 35.124875,
+       "经度": 138.912976
+      },
+      "地址": null,
+      "官网": "https://kenko-happy.co.jp/hilltop/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/480214646",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "静岡銀行",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 278,
+      "坐标": {
+       "纬度": 35.128657,
+       "经度": 138.90966
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/静岡銀行",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/461493150",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "三島労働総合庁舎",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=government",
+      "距车站m": 324,
+      "坐标": {
+       "纬度": 35.128377,
+       "经度": 138.913399
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/477225422",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "沼津信用金庫",
        "英文": "Numazu Shinyo Bank",
        "中文": null
@@ -2297,6 +2613,39 @@
       "电话": "+81- 55-971-8200",
       "开放时间": null,
       "OSM编号": "node/10100796912",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "三島区検察庁",
+       "英文": "Mishima Area Prosecutor's Office",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=government",
+      "距车站m": 391,
+      "坐标": {
+       "纬度": 35.128534,
+       "经度": 138.914214
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/477225423",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -2464,7 +2813,11 @@
       "OSM编号": "node/11155367005",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -2662,7 +3015,11 @@
       "OSM编号": "node/12862594885",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -2866,7 +3223,7 @@
       "名称": {
        "日文": "伊豆国分寺",
        "英文": "Izu Kokubunji Temple",
-       "中文": null
+       "中文": "伊豆国分寺"
       },
       "类别": {
        "日文": "便民公共服务",
@@ -2893,7 +3250,10 @@
       "OSM编号": "node/11014938535",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Buddhist temple in Shizuoka Prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -2926,139 +3286,10 @@
       "OSM编号": "node/11014938536",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "円明寺",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "その他公共",
-       "英文": "Other public amenity",
-       "中文": "其他公共设施"
-      },
-      "OSM类别": "amenity=place_of_worship",
-      "距车站m": 718,
-      "坐标": {
-       "纬度": 35.121058,
-       "经度": 138.915359
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": "https://www.wikidata.org/wiki/Q134917927",
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/10174944194",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "蓮馨寺",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "その他公共",
-       "英文": "Other public amenity",
-       "中文": "其他公共设施"
-      },
-      "OSM类别": "amenity=place_of_worship",
-      "距车站m": 743,
-      "坐标": {
-       "纬度": 35.119707,
-       "经度": 138.911742
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": "https://www.wikidata.org/wiki/Q134918358",
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/5466352186",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "三島キリスト教会",
-       "英文": "Mishima Christ Church",
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "その他公共",
-       "英文": "Other public amenity",
-       "中文": "其他公共设施"
-      },
-      "OSM类别": "amenity=place_of_worship",
-      "距车站m": 754,
-      "坐标": {
-       "纬度": 35.122398,
-       "经度": 138.917583
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/9712896127",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
-       "日文": "蓮馨寺聖徳太子堂",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "その他公共",
-       "英文": "Other public amenity",
-       "中文": "其他公共设施"
-      },
-      "OSM类别": "amenity=place_of_worship",
-      "距车站m": 765,
-      "坐标": {
-       "纬度": 35.119524,
-       "经度": 138.911897
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/2293273733",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Mishima, Japan"
+      }
      }
     ],
     "交通接続": [
@@ -3093,7 +3324,11 @@
       "OSM编号": "node/11031464818",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3126,7 +3361,11 @@
       "OSM编号": "node/11031464812",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3159,7 +3398,11 @@
       "OSM编号": "node/11031441367",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3192,7 +3435,11 @@
       "OSM编号": "node/11031464806",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3258,7 +3505,11 @@
       "OSM编号": "node/11031464975",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3291,7 +3542,11 @@
       "OSM编号": "node/11031441360",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3324,13 +3579,17 @@
       "OSM编号": "node/11031441395",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "下土狩駅",
        "英文": null,
-       "中文": null
+       "中文": "下土狩站"
       },
       "类别": {
        "日文": "交通接続",
@@ -3345,22 +3604,31 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://railway.jr-central.co.jp/station-guide/shizuoka/shimo-togari/index.html",
       "维基百科": "https://ja.wikipedia.org/wiki/下土狩駅",
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "下土狩駅"
+      "_title": "下土狩駅",
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "railway station in Nagaizumi, Sunto district, Shizuoka prefecture, Japan"
+      }
      },
      {
       "名称": {
        "日文": "三島広小路駅",
        "英文": null,
-       "中文": null
+       "中文": "三島広小路站"
       },
       "类别": {
        "日文": "交通接続",
@@ -3375,16 +3643,25 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "http://www.izuhakone.co.jp/railway/station/sunzu02.html/",
       "维基百科": "https://ja.wikipedia.org/wiki/三島広小路駅",
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「三島駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "三島広小路駅"
+      "_title": "三島広小路駅",
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "Mishima-Hirokōji Station (三島広小路駅, Mishimahirokōji-eki) is a railway station located in the city of Mishima, Shizuoka Prefecture, Japan operated by the private railroad company Izuhakone Railway."
+      }
      }
     ],
     "宿泊": [
@@ -3519,7 +3796,11 @@
       "OSM编号": "node/9710837624",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3552,7 +3833,11 @@
       "OSM编号": "node/2138354901",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3585,7 +3870,11 @@
       "OSM编号": "node/10100796911",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3618,7 +3907,12 @@
       "OSM编号": "node/1761020053",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -3676,7 +3970,7 @@
        "经度": 138.912133
       },
       "地址": null,
-      "官网": "http://www.tokai.or.jp/new-kanoya/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -3684,7 +3978,15 @@
       "OSM编号": "node/9763822701",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.tokai.or.jp/new-kanoya/",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -3721,6 +4023,47 @@
      },
      {
       "名称": {
+       "日文": "みしまプラザホテル",
+       "英文": "Mishima Plaza Hotel",
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 893,
+      "坐标": {
+       "纬度": 35.119266,
+       "经度": 138.915478
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5603024180",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 503,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://mishimaph.co.jp/",
+       "HTTP": 503
+      }
+     },
+     {
+      "名称": {
        "日文": "セレクトイン三島",
        "英文": "Select Inn Mishima",
        "中文": null
@@ -3751,45 +4094,12 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
-     },
-     {
-      "名称": {
-       "日文": "みしまプラザホテル",
-       "英文": "Mishima Plaza Hotel",
-       "中文": null
-      },
-      "类别": {
-       "日文": "宿泊",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "细分": {
-       "日文": "宿",
-       "英文": "Lodging",
-       "中文": "住宿"
-      },
-      "OSM类别": "tourism=hotel",
-      "距车站m": 893,
-      "坐标": {
-       "纬度": 35.119266,
-       "经度": 138.915478
-      },
-      "地址": null,
-      "官网": "https://mishimaph.co.jp/",
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/5603024180",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
      }
     ]
    },
    "統計": {
     "観光・名所案内": 40,
-    "文化・公共施設": 8,
+    "文化・公共施設": 12,
     "買い物・商店街": 16,
     "便民公共服务": 26,
     "交通接続": 10,
@@ -3971,10 +4281,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 111,
-    "ウィキ_only数": 38,
+    "OSM施設数": 122,
+    "ウィキ_only数": 36,
     "駅周辺リンク数": 43
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#2",
@@ -4002,11 +4313,19 @@
     "链接": "https://ja.wikipedia.org/wiki/三島二日町駅",
     "首段": {
      "日文": "{{駅情報\n|社色 = blue\n|文字色 =\n|駅名 = 三島二日町駅\n|画像 = File:三島二日町駅 駅舎（2023年4月）.jpg\n|pxl = 300\n|画像説明 = 駅舎（2023年4月）\n|地図 =\n|よみがな = みしまふつかまち\n|ローマ字 = Mishima-Futsukamachi\n|副駅名 = ミライの三島を共に支える\n|前の駅 = IS03\n|駅間A = 0.9\n|駅間B = 2.6\n|次の駅 =   IS05\n|電報略号 =\n|駅番号 = IS04\n|所属事業者 =\n|所属路線 =\n|キロ程 = 2.9\n|起点駅 =\n|所在地 =   南二日町23番54号\n|座標 =\n|駅構造 =\n|ホーム = 1面1線\n|開業年月日 =  （ 7年）\n|廃止年月日 =\n|乗車人員 = 1,109\n|乗降人員 =\n|統計年度 = 2020年\n|乗換 =\n|備考 =\n}}\n三島二日町駅（みしまふつかまちえき）は、  南二日町にある、  の である。 はIS04。",
-     "英文": null,
+     "英文": "Mishima-Futsukamachi Station (三島二日町駅, Mishimafutsukamachi-eki) is a railway station located in an industrial area of the city of Mishima, Shizuoka Prefecture, Japan operated by the private railroad company Izuhakone Railway.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": "周辺は住宅地となっており、駅東側には市営住宅がある。市営住宅の北には静岡県立三島南高等学校があったが大場に移転し、跡地は南二日町広場として2つのグラウンドとクラブハウスが整備された。駅のすぐ南には横浜ゴムの工場、その南には森永製菓の工場がそれぞれ建つ。\n<!-- 特筆性のない施設（チェーン店・コンビニ・娯楽施設・個人商店など）と運賃などの比較・駅からの距離及び所要時間は記載しないこと -->"
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Mishima-Futsukamachi_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Mishima-Futsukamachi_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -4017,7 +4336,6 @@
    "公式リンク": [
     "http://www.izuhakone.co.jp/railway/station/sunzu04.html/",
     "http://www.izuhakone.co.jp/railway_news_20200201.pdf|format=PDF|title=駿豆線における駅員配置時間帯の見直しについて|publisher=",
-    "http://www.izuhakone.co.jp/koukoku/files/koukoku_news_20230113_2.pdf",
     "https://www.at-s.com/news/article/shizuoka/1180203.html",
     "https://toukei.pref.shizuoka.jp/toukeikikakuhan/page/nenkan/documents/11_06_14.pdf",
     "https://toukei.pref.shizuoka.jp/toukeikikakuhan/page/nenkan/documents/11_06_13.pdf",
@@ -4063,8 +4381,8 @@
      {
       "名称": {
        "日文": "森永製菓",
-       "英文": null,
-       "中文": null
+       "英文": "Morinaga & Company",
+       "中文": "森永制果"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -4079,16 +4397,25 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.morinaga.co.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/森永製菓",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q1076089",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「三島二日町駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「三島二日町駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "森永製菓"
+      "_title": "森永製菓",
+      "简介": {
+       "英文": "Morinaga & Company, Ltd. (森永製菓株式会社, Morinaga Seika Kabushiki-gaisha) is a Japanese confectionery company headquartered in Tokyo, and founded in 1899. Their products include candy, such as Hi-Chew, and other confectioneries.\nMorinaga is loosely affiliated with Morinaga Milk Industry Co., Ltd., a public company in which Morinaga & Company holds 10.34% of the stock.",
+       "中文": "日本公司"
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4378,12 +4705,53 @@
        "经度": 138.919326
       },
       "地址": null,
-      "官网": "http://blog.itoyokado.co.jp/shop/163/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/1789161321",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://blog.itoyokado.co.jp/shop/163/",
+       "HTTP": 0
+      }
+     },
+     {
+      "名称": {
+       "日文": "日清プラザ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 726,
+      "坐标": {
+       "纬度": 35.113549,
+       "经度": 138.919348
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:日清プラザ",
+      "Wikidata": "https://www.wikidata.org/wiki/Q105749259",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/167527255",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -4554,7 +4922,10 @@
       "OSM编号": "node/6773705936",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Shizuoka Prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -4587,7 +4958,10 @@
       "OSM编号": "node/11014938543",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Shizuoka Prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -4850,7 +5224,11 @@
       "OSM编号": "node/11031441376",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -4984,7 +5362,7 @@
    "統計": {
     "観光・名所案内": 3,
     "文化・公共施設": 1,
-    "買い物・商店街": 9,
+    "買い物・商店街": 10,
     "便民公共服务": 10,
     "交通接続": 6,
     "宿泊": 0
@@ -5021,10 +5399,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 23,
+    "OSM施設数": 24,
     "ウィキ_only数": 6,
     "駅周辺リンク数": 7
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#3",
@@ -5052,11 +5431,19 @@
     "链接": "https://ja.wikipedia.org/wiki/三島広小路駅",
     "首段": {
      "日文": "{{駅情報\n|社色 = blue\n|文字色 =\n|駅名 = 三島広小路駅\n|画像 = 三島広小路駅駅舎（2023年2月）.jpg\n|pxl = 300\n|画像説明 = 駅舎（2023年2月）\n|地図 =\n|よみがな = みしまひろこうじ\n|ローマ字 = Mishima-Hirokoji\n|副駅名 = ともにつくる、つぎをつくる。\n|前の駅 = IS01\n|駅間A = 1.3\n|駅間B = 0.7\n|次の駅 =   IS03\n|電報略号 =\n|駅番号 = IS02\n|所属事業者 =\n|所属路線 =\n|キロ程 = 1.3\n|起点駅 =\n|所在地 =   広小路町4番16号\n|座標 =\n|駅構造 =\n|ホーム = 1面1線\n|開業年月日 =  （ 3年）\n|廃止年月日 =\n|乗車人員 = 1,371\n|乗降人員 =\n|統計年度 = 2020年\n|乗換 =\n|備考 =\n}}\n三島広小路駅（みしまひろこうじえき）は、  広小路町にある、  の である。 はIS02。",
-     "英文": null,
+     "英文": "Mishima-Hirokōji Station (三島広小路駅, Mishimahirokōji-eki) is a railway station located in the city of Mishima, Shizuoka Prefecture, Japan operated by the private railroad company Izuhakone Railway.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": "thumb|広小路踏切付近（2020年3月）\n駅南側にある広小路踏切で旧東海道と交差する。なお、駅付近には寺や神社が数ヵ所ある。また、当駅から三嶋大社へ至る道は三島大通り商店街と呼ばれる。\n<!-- 特筆性のない施設（チェーン店・コンビニ・娯楽施設・個人商店など）と運賃などの比較・駅からの距離及び所要時間は記載しないこと -->"
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Mishima-Hirokōji_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Mishima-Hirokōji_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -5067,7 +5454,6 @@
    "公式リンク": [
     "http://www.izuhakone.co.jp/railway/station/sunzu02.html/",
     "https://www.at-s.com/news/article/shizuoka/1245175.html",
-    "http://www.izuhakone.co.jp/koukoku_news_20230511.pdf|format=PDF|language=ja|accessdate=2023-08-10|archiveurl=https://web.archive.org/web/20230810232245/http://www.izuhakone.co.jp/koukoku_news_20230511.pdf|archivedate=2023-08-10",
     "https://toukei.pref.shizuoka.jp/toukeikikakuhan/page/nenkan/documents/11_06_14.pdf",
     "https://toukei.pref.shizuoka.jp/toukeikikakuhan/page/nenkan/documents/11_06_13.pdf",
     "https://toukei.pref.shizuoka.jp/toukeikikakuhan/page/nenkan/documents/11_06_12.pdf",
@@ -5148,39 +5534,6 @@
      },
      {
       "名称": {
-       "日文": "円明寺と孝行犬",
-       "英文": "Enmeiji Temple And Dutiful Dog",
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 450,
-      "坐标": {
-       "纬度": 35.121127,
-       "经度": 138.915628
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/10174982835",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
        "日文": "搗屋のみち",
        "英文": "Tsukiya  Street",
        "中文": null
@@ -5208,6 +5561,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/10174982836",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "円明寺と孝行犬",
+       "英文": "Enmeiji Temple And Dutiful Dog",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 450,
+      "坐标": {
+       "纬度": 35.121127,
+       "经度": 138.915628
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10174982835",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -5606,7 +5992,14 @@
       "OSM编号": "node/1420977549",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "art museum in Mishima, Japan"
+      }
      },
      {
       "名称": {
@@ -5738,7 +6131,11 @@
       "OSM编号": "node/11253963784",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -6470,6 +6867,145 @@
      },
      {
       "名称": {
+       "日文": "三島梅花藻の里",
+       "英文": "Mishima Baikamo no sato",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 470,
+      "坐标": {
+       "纬度": 35.115844,
+       "经度": 138.914907
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/385661885",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "水の苑緑地",
+       "英文": "Mizunosono Ryokuchi Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 490,
+      "坐标": {
+       "纬度": 35.115037,
+       "经度": 138.913851
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/385977635",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "楽寿園",
+       "英文": "Rakuju-en Park",
+       "中文": "樂壽園"
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=garden",
+      "距车站m": 492,
+      "坐标": {
+       "纬度": 35.123403,
+       "经度": 138.911556
+      },
+      "地址": null,
+      "官网": "https://www.city.mishima.shizuoka.jp/rakujyu/",
+      "维基百科": "ja:楽寿園",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11541603",
+      "电话": "+81-55-975-2570",
+      "开放时间": null,
+      "OSM编号": "way/554499794",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "Rakuju-en (楽寿園) is a public park with a Japanese garden and zoo, located in the city of Mishima, Shizuoka Prefecture, Japan. It was designated as a National Place of Scenic Beauty of Japan as well as a Natural monument of Japan in 1954. In 2012, the Rakuju-en was designated as part of the Izu Peninsula Geopark."
+      }
+     },
+     {
+      "名称": {
+       "日文": "白滝公園",
+       "英文": "Shirataki Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 555,
+      "坐标": {
+       "纬度": 35.123282,
+       "经度": 138.914526
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:白滝公園",
+      "Wikidata": "https://www.wikidata.org/wiki/Q92453556",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/203830700",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "三島市民文化会館",
        "英文": "Mishima Civil Cultural Hall",
        "中文": null
@@ -6565,7 +7101,11 @@
       "OSM编号": "node/6279933856",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -6596,6 +7136,72 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/3169566865",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "境川・清住緑地",
+       "英文": "Sakai River  Kiyosumi Green Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 847,
+      "坐标": {
+       "纬度": 35.112913,
+       "经度": 138.905798
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/385661886",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "新宿児童遊園地",
+       "英文": "Shinjuku  Children's Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 854,
+      "坐标": {
+       "纬度": 35.115128,
+       "经度": 138.90331
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/706384588",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -7466,7 +8072,7 @@
       "名称": {
        "日文": "伊豆国分寺",
        "英文": "Izu Kokubunji Temple",
-       "中文": null
+       "中文": "伊豆国分寺"
       },
       "类别": {
        "日文": "便民公共服务",
@@ -7494,7 +8100,10 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)",
        "日本語ウィキペディア「三島広小路駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ]
+      ],
+      "简介": {
+       "英文": "Buddhist temple in Shizuoka Prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -7924,7 +8533,11 @@
       "OSM编号": "node/5604438512",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8056,7 +8669,10 @@
       "OSM编号": "node/11014938533",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Mishima, Japan"
+      }
      }
     ],
     "交通接続": [
@@ -8091,7 +8707,11 @@
       "OSM编号": "node/11031464811",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8124,7 +8744,11 @@
       "OSM编号": "node/11031464975",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8157,7 +8781,11 @@
       "OSM编号": "node/11031441382",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8190,7 +8818,11 @@
       "OSM编号": "node/11031441395",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8223,7 +8855,11 @@
       "OSM编号": "node/11031441360",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8289,7 +8925,11 @@
       "OSM编号": "node/11031464806",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8322,7 +8962,11 @@
       "OSM编号": "node/11031464805",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8355,7 +8999,11 @@
       "OSM编号": "node/11031441367",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8388,7 +9036,11 @@
       "OSM编号": "node/11031441392",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8454,7 +9106,11 @@
       "OSM编号": "node/11031464808",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8487,7 +9143,11 @@
       "OSM编号": "node/11031441402",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8637,7 +9297,7 @@
        "经度": 138.912133
       },
       "地址": null,
-      "官网": "http://www.tokai.or.jp/new-kanoya/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -8645,7 +9305,15 @@
       "OSM编号": "node/9763822701",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.tokai.or.jp/new-kanoya/",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -8703,7 +9371,7 @@
        "经度": 138.915478
       },
       "地址": null,
-      "官网": "https://mishimaph.co.jp/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -8711,7 +9379,15 @@
       "OSM编号": "node/5603024180",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 503,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://mishimaph.co.jp/",
+       "HTTP": 503
+      }
      },
      {
       "名称": {
@@ -8777,7 +9453,11 @@
       "OSM编号": "node/10100796911",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8810,7 +9490,11 @@
       "OSM编号": "node/2138354901",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8843,7 +9527,11 @@
       "OSM编号": "node/9710837624",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -8942,13 +9630,18 @@
       "OSM编号": "node/1761020053",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      }
     ]
    },
    "統計": {
     "観光・名所案内": 40,
-    "文化・公共施設": 6,
+    "文化・公共施設": 12,
     "買い物・商店街": 18,
     "便民公共服务": 26,
     "交通接続": 16,
@@ -8998,10 +9691,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 162,
-    "ウィキ_only数": 8,
+    "OSM施設数": 173,
+    "ウィキ_only数": 7,
     "駅周辺リンク数": 10
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#4",
@@ -9029,11 +9723,19 @@
     "链接": "https://ja.wikipedia.org/wiki/三島田町駅",
     "首段": {
      "日文": null,
-     "英文": null,
+     "英文": "Mishima-Tamachi Station (三島田町駅, Mishimatamachi-eki) is a railway station located in the city of Mishima, Shizuoka Prefecture, Japan operated by the private railroad company Izuhakone Railway.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Mishima-Tamachi_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Mishima-Tamachi_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -9075,7 +9777,14 @@
       "OSM编号": "node/1420977549",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      },
+      "简介": {
+       "英文": "art museum in Mishima, Japan"
+      }
      },
      {
       "名称": {
@@ -9108,7 +9817,11 @@
       "OSM编号": "node/11253963784",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -9541,39 +10254,6 @@
      },
      {
       "名称": {
-       "日文": "円明寺と孝行犬",
-       "英文": "Enmeiji Temple And Dutiful Dog",
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 558,
-      "坐标": {
-       "纬度": 35.121127,
-       "经度": 138.915628
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/10174982835",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
        "日文": "搗屋のみち",
        "英文": "Tsukiya  Street",
        "中文": null
@@ -9601,6 +10281,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/10174982836",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "円明寺と孝行犬",
+       "英文": "Enmeiji Temple And Dutiful Dog",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 558,
+      "坐标": {
+       "纬度": 35.121127,
+       "经度": 138.915628
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10174982835",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -9904,6 +10617,39 @@
      },
      {
       "名称": {
+       "日文": "神鹿園",
+       "英文": "Shinrokuen",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=zoo",
+      "距车站m": 617,
+      "坐标": {
+       "纬度": 35.121751,
+       "经度": 138.919843
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/890896929",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "元神宮斎主お手植の檜",
        "英文": "The Japanese Cypress Tree ,In Which Fusako Kitashirakawa ,4th Princess Of The Emperor In Meiji, Had Planted",
        "中文": null
@@ -10069,39 +10815,6 @@
      },
      {
       "名称": {
-       "日文": "若宮神社",
-       "英文": "Wakamiya Shrine",
-       "中文": null
-      },
-      "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
-      },
-      "细分": {
-       "日文": "観光案内所",
-       "英文": "Tourist information",
-       "中文": "旅游咨询处"
-      },
-      "OSM类别": "tourism=information",
-      "距车站m": 657,
-      "坐标": {
-       "纬度": 35.12232,
-       "经度": 138.918608
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/8280545275",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
-     },
-     {
-      "名称": {
        "日文": "社殿",
        "英文": "Shrine Building",
        "中文": null
@@ -10129,6 +10842,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/8280545279",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "若宮神社",
+       "英文": "Wakamiya Shrine",
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 657,
+      "坐标": {
+       "纬度": 35.12232,
+       "经度": 138.918608
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8280545275",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -10296,7 +11042,10 @@
       "OSM编号": "node/7276126343",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Shizuoka Prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -10330,28 +11079,30 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
-     },
+     }
+    ],
+    "文化・公共施設": [
      {
       "名称": {
-       "日文": "さぎの森",
-       "英文": "Sagi Forest",
+       "日文": "三島梅花藻の里",
+       "英文": "Mishima Baikamo no sato",
        "中文": null
       },
       "类别": {
-       "日文": "観光・名所案内",
-       "英文": "Sights & Landmarks",
-       "中文": "观光·名胜"
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
       },
       "细分": {
-       "日文": "名所",
-       "英文": "Tourist attraction",
-       "中文": "旅游景点"
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
       },
-      "OSM类别": "tourism=attraction",
-      "距车站m": 832,
+      "OSM类别": "leisure=park",
+      "距车站m": 276,
       "坐标": {
-       "纬度": 35.122733,
-       "经度": 138.912875
+       "纬度": 35.115844,
+       "经度": 138.914907
       },
       "地址": null,
       "官网": null,
@@ -10359,13 +11110,44 @@
       "Wikidata": null,
       "电话": null,
       "开放时间": null,
-      "OSM编号": "node/12911734195",
+      "OSM编号": "way/385661885",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
-     }
-    ],
-    "文化・公共施設": [
+     },
+     {
+      "名称": {
+       "日文": "水の苑緑地",
+       "英文": "Mizunosono Ryokuchi Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 396,
+      "坐标": {
+       "纬度": 35.115037,
+       "经度": 138.913851
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/385977635",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "三島市東地区コミュニティ防災センター",
@@ -10494,6 +11276,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/1420975759",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "白滝公園",
+       "英文": "Shirataki Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 818,
+      "坐标": {
+       "纬度": 35.123282,
+       "经度": 138.914526
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:白滝公園",
+      "Wikidata": "https://www.wikidata.org/wiki/Q92453556",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/203830700",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -10700,6 +11515,39 @@
      },
      {
       "名称": {
+       "日文": "日清プラザ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 350,
+      "坐标": {
+       "纬度": 35.113549,
+       "经度": 138.919348
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:日清プラザ",
+      "Wikidata": "https://www.wikidata.org/wiki/Q105749259",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/167527255",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "イトーヨーカドー",
        "英文": "Ito-Yokado",
        "中文": null
@@ -10721,7 +11569,7 @@
        "经度": 138.919326
       },
       "地址": null,
-      "官网": "http://blog.itoyokado.co.jp/shop/163/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -10729,7 +11577,15 @@
       "OSM编号": "node/1789161321",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://blog.itoyokado.co.jp/shop/163/",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -11060,39 +11916,6 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
-     },
-     {
-      "名称": {
-       "日文": "マックスバリュ",
-       "英文": "MaxValu",
-       "中文": null
-      },
-      "类别": {
-       "日文": "買い物・商店街",
-       "英文": "Shopping & Shopping Streets",
-       "中文": "购物·商店街"
-      },
-      "细分": {
-       "日文": "店舗",
-       "英文": "Shop",
-       "中文": "商铺"
-      },
-      "OSM类别": "shop=supermarket",
-      "距车站m": 679,
-      "坐标": {
-       "纬度": 35.11837,
-       "经度": 138.910757
-      },
-      "地址": null,
-      "官网": null,
-      "维基百科": null,
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": "node/11150691713",
-      "来源": [
-       "OpenStreetMap (Japan extract, ODbL)"
-      ]
      }
     ],
     "便民公共服务": [
@@ -11193,7 +12016,11 @@
       "OSM编号": "node/12757266985",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -11259,7 +12086,11 @@
       "OSM编号": "node/12628452405",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -11655,7 +12486,10 @@
       "OSM编号": "node/11014938533",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Mishima, Japan"
+      }
      },
      {
       "名称": {
@@ -11886,7 +12720,10 @@
       "OSM编号": "node/6773705936",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Shizuoka Prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -11919,7 +12756,10 @@
       "OSM编号": "node/7276126347",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Buddhist temple in Mishima, Japan"
+      }
      },
      {
       "名称": {
@@ -11987,7 +12827,11 @@
       "OSM编号": "node/11031464805",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12020,7 +12864,11 @@
       "OSM编号": "node/11031441392",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12053,7 +12901,11 @@
       "OSM编号": "node/11031441382",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12086,7 +12938,11 @@
       "OSM编号": "node/11031441395",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12119,7 +12975,11 @@
       "OSM编号": "node/11031464808",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12152,7 +13012,11 @@
       "OSM编号": "node/11031441360",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12185,7 +13049,11 @@
       "OSM编号": "node/11031441376",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12218,7 +13086,11 @@
       "OSM编号": "node/11031441402",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12251,7 +13123,11 @@
       "OSM编号": "node/11031464811",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12284,7 +13160,11 @@
       "OSM编号": "node/11031464975",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12350,7 +13230,11 @@
       "OSM编号": "node/11031464935",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -12383,7 +13267,11 @@
       "OSM编号": "node/11031464806",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "宿泊": [
@@ -12410,7 +13298,7 @@
        "经度": 138.915478
       },
       "地址": null,
-      "官网": "https://mishimaph.co.jp/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -12418,7 +13306,15 @@
       "OSM编号": "node/5603024180",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 503,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://mishimaph.co.jp/",
+       "HTTP": 503
+      }
      },
      {
       "名称": {
@@ -12509,7 +13405,7 @@
        "经度": 138.912133
       },
       "地址": null,
-      "官网": "http://www.tokai.or.jp/new-kanoya/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": null,
       "电话": null,
@@ -12517,7 +13413,15 @@
       "OSM编号": "node/9763822701",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.tokai.or.jp/new-kanoya/",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -12556,7 +13460,7 @@
    },
    "統計": {
     "観光・名所案内": 40,
-    "文化・公共施設": 4,
+    "文化・公共施設": 7,
     "買い物・商店街": 18,
     "便民公共服务": 26,
     "交通接続": 13,
@@ -12565,10 +13469,11 @@
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 140,
+    "OSM施設数": 149,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#5",
@@ -12650,12 +13555,62 @@
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆仁田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆仁田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "ソメイヨシノ"
+      "_title": "ソメイヨシノ",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/ソメイヨシノ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "ソメイヨシノ（染井吉野、学名: Cerasus × yedoensis ‘Somei-yoshino’）は、母をエドヒガン、父を日本固有種のオオシマザクラの雑種とする自然交雑もしくは人為的な交配で生まれた日本産の栽培品種のサクラ。遺伝子研究の結果、ソメイヨシノは、エドヒガンとオオシマザクラの雑種が交雑してできた単一の樹を始源とする栽培品種のクローンであることが、1995年に明らかにされた。なおソメイヨシノに限らずクローン増殖は栽培品種の植物において一般的であり、ある特定の個体の優れた特質を完全に受け継がせたまま増殖させるためには、遺伝的に別物になってしまう交雑（受粉）による実生（種）からではなくクローン増殖が必要となる。ソメイヨシノにおいては、その始原の樹の優れた形態上の特質をそのまま受け継がせるために主に接ぎ木によってクローン増殖されている。\n日本では、サクラは固有種を含んだ10もしくは11の基本の野生種を基に、これらの変種を合わせて100種以上の自生種がある。さらに古来から改良開発されてきた栽培品種が少なくとも200種以上あり、分類によっては600種以上、または800種とも言われる品種が確認されている。\nこれら多品種のサクラのうち、ソメイヨシノは江戸時代後期に開発され、昭和の高度経済成長期にかけて日本全国で圧倒的に多く植えられた。このため今日では気象庁が北海道札幌市から鹿児島県"
+      },
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://umdb.um.u-tokyo.ac.jp/DPastExh/Museum/ouroboros/01_02/shoku_fig_09.html",
+       "HTTP": 0
+      }
      }
     ],
     "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "仁田さくら公園",
+       "英文": "Nitta Sakura Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 298,
+      "坐标": {
+       "纬度": 35.076589,
+       "经度": 138.942786
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1041419082",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "仁田公民館",
@@ -12751,6 +13706,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/9609195418",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "塚本公民館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 877,
+      "坐标": {
+       "纬度": 35.078774,
+       "经度": 138.93188
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/830191449",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -13089,6 +14077,39 @@
      },
      {
       "名称": {
+       "日文": "ルピア函南",
+       "英文": "Lupia  Kannami",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 846,
+      "坐标": {
+       "纬度": 35.08629,
+       "经度": 138.944395
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 55 979 1800",
+      "开放时间": null,
+      "OSM编号": "way/532159065",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "ウエルシア",
        "英文": null,
        "中文": null
@@ -13149,6 +14170,77 @@
       "电话": null,
       "开放时间": "10:00-20:00",
       "OSM编号": "node/5164661039",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "ひまわりBOOKS",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=books",
+      "距车站m": 878,
+      "坐标": {
+       "纬度": 35.086807,
+       "经度": 138.943368
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 55 978 7770",
+      "开放时间": null,
+      "OSM编号": "way/532172436",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "マックスバリュ",
+       "英文": "Maxvalu Tokai",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 895,
+      "坐标": {
+       "纬度": 35.086507,
+       "经度": 138.94523
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/532159066",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -13250,6 +14342,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/9668246859",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "クリエイトSD",
+       "英文": "CreateSD",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 386,
+      "坐标": {
+       "纬度": 35.08102,
+       "经度": 138.945014
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/531470563",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -13421,6 +14546,43 @@
      },
      {
       "名称": {
+       "日文": "静岡銀行",
+       "英文": "Shizuoka Bank",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 817,
+      "坐标": {
+       "纬度": 35.08621,
+       "经度": 138.943558
+      },
+      "地址": null,
+      "官网": "https://www.shizuokabank.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/532172433",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
        "日文": "農業高校",
        "英文": null,
        "中文": null
@@ -13445,9 +14607,18 @@
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「伊豆仁田駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「伊豆仁田駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "農業高等学校"
+      "_title": "農業高等学校",
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://www.farmers.ac.jp/link/noukou_link.html",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -13699,9 +14870,9 @@
    },
    "統計": {
     "観光・名所案内": 1,
-    "文化・公共施設": 3,
-    "買い物・商店街": 12,
-    "便民公共服务": 13,
+    "文化・公共施設": 5,
+    "買い物・商店街": 15,
+    "便民公共服务": 15,
     "交通接続": 4,
     "宿泊": 0
    },
@@ -13745,10 +14916,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 24,
+    "OSM施設数": 31,
     "ウィキ_only数": 9,
     "駅周辺リンク数": 9
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#6",
@@ -14194,6 +15366,39 @@
     "便民公共服务": [
      {
       "名称": {
+       "日文": "スルガ銀行",
+       "英文": "Suruga Bank",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 83,
+      "坐标": {
+       "纬度": 35.039676,
+       "经度": 138.946681
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/566302292",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "三島信用金庫",
        "英文": "Mishima Shinkin Bank",
        "中文": null
@@ -14588,7 +15793,11 @@
       "OSM编号": "node/13179721105",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -14654,7 +15863,11 @@
       "OSM编号": "node/11031464972",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -14687,10 +15900,47 @@
       "OSM编号": "node/13179721109",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "宿泊": [
+     {
+      "名称": {
+       "日文": "富嶽はなぶさ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 683,
+      "坐标": {
+       "纬度": 35.037625,
+       "经度": 138.940589
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/553801246",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
      {
       "名称": {
        "日文": "ホテルサンバレー 富士見",
@@ -14730,17 +15980,18 @@
     "観光・名所案内": 1,
     "文化・公共施設": 0,
     "買い物・商店街": 11,
-    "便民公共服务": 11,
+    "便民公共服务": 12,
     "交通接続": 4,
-    "宿泊": 1
+    "宿泊": 2
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 28,
+    "OSM施設数": 30,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#7",
@@ -14886,6 +16137,72 @@
     "文化・公共施設": [
      {
       "名称": {
+       "日文": "鹿島田公園",
+       "英文": "Kashimada Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 351,
+      "坐标": {
+       "纬度": 34.981456,
+       "经度": 138.953851
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/551386450",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "コガワグリーンゴルフ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=golf_course",
+      "距车站m": 510,
+      "坐标": {
+       "纬度": 34.979571,
+       "经度": 138.956541
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/700674302",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "伊豆市立修善寺図書館",
        "英文": "Izu City Library",
        "中文": null
@@ -14948,7 +16265,11 @@
       "OSM编号": "node/5322307960",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "買い物・商店街": [
@@ -15049,7 +16370,11 @@
       "OSM编号": "node/5307972527",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -15220,6 +16545,39 @@
     "便民公共服务": [
      {
       "名称": {
+       "日文": "JAふじ伊豆 修善寺支店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 73,
+      "坐标": {
+       "纬度": 34.979328,
+       "经度": 138.951746
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/550641736",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "静岡銀行",
        "英文": "Shizuoka Bank",
        "中文": null
@@ -15315,7 +16673,11 @@
       "OSM编号": "node/5319538581",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -15550,6 +16912,39 @@
      },
      {
       "名称": {
+       "日文": "柏久保ハリストス正教会",
+       "英文": "Kashiwakudo Christ's Orthodox Church",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 530,
+      "坐标": {
+       "纬度": 34.975327,
+       "经度": 138.954032
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/390454447",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "横瀬八幡神社",
        "英文": "Yokose- Hachiman Shrine",
        "中文": null
@@ -15678,7 +17073,10 @@
       "OSM编号": "node/1420977395",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "hospital in Japan"
+      }
      },
      {
       "名称": {
@@ -15786,19 +17184,20 @@
    },
    "統計": {
     "観光・名所案内": 3,
-    "文化・公共施設": 2,
+    "文化・公共施設": 4,
     "買い物・商店街": 8,
-    "便民公共服务": 16,
+    "便民公共服务": 18,
     "交通接続": 1,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 30,
+    "OSM施設数": 34,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#8",
@@ -15826,11 +17225,19 @@
     "链接": "https://ja.wikipedia.org/wiki/原木駅",
     "首段": {
      "日文": "{{駅情報\n|社色 = blue\n|文字色 =\n|駅名 = 原木駅\n|画像 = 原木駅 駅舎（2023年4月）.jpg\n|pxl = 300\n|画像説明 = 駅舎（2023年4月）\n|地図 =\n|よみがな = ばらき\n|ローマ字 = Baraki\n|副駅名 = 川の駅の運営を通じて地域活性化を目指します\n|前の駅 = IS06\n|駅間A = 1.5\n|駅間B = 1.3\n|次の駅 =   IS08\n|電報略号 =\n|駅番号 = IS07\n|所属事業者 =\n|所属路線 =\n|キロ程 = 8.5\n|起点駅 =\n|所在地 =    763番地の3\n|座標 =\n|駅構造 =\n|ホーム = 2面2線\n|開業年月日 =  （ 31年）\n|廃止年月日 =\n|乗車人員 = 250\n|乗降人員 =\n|統計年度 = 2020年\n|乗換 =\n|備考 =\n}}\n原木駅（ばらきえき）は、   にある、  の である。 はIS07。",
-     "英文": null,
+     "英文": "Baraki Station (原木駅, Baraki-eki)  is a railway station located in the city of Izunokuni, Shizuoka Prefecture, Japan operated by the private railroad company Izuhakone Railway.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": "駅西側は住宅地であり、駅の近くを国道136号が通る。商店は少ないが、駅前に喫茶店がある。駅東側は農地となっているが、その一角に幼稚園があり、付近には住宅が建っている。なお、かつては駅付近に「原木駅南」停留所があり、東海バスの路線（奈古谷温泉口 - 韮山循環）が学校登校日に運行されていたが、2018年に廃止された。\n<!-- 特筆性のない施設（チェーン店・コンビニ・娯楽施設・個人商店など）と運賃などの比較・駅からの距離及び所要時間は記載しないこと -->\n* 国清寺\n* 毘沙門堂\n* 観音堂\n* NOSAI静岡（静岡県農業共済組合）東部地域センター\n* 伊豆の国市立富士美幼稚園\n* ジュンサンベリーファーム - いちご農園\n* 国道136号\n* 静岡県道137号原木停車場線"
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Baraki_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Baraki_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -15887,8 +17294,8 @@
      {
       "名称": {
        "日文": "農地",
-       "英文": null,
-       "中文": null
+       "英文": "agricultural land",
+       "中文": "农业用地"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -15905,20 +17312,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/農地",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q3395383",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「原木駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "農地"
+      "_title": "農地",
+      "简介": {
+       "英文": "land used for agricultural purposes",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "東海バス",
-       "英文": null,
-       "中文": null
+       "英文": "Tokai Bus",
+       "中文": "東海巴士"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -15933,16 +17344,30 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.tokaibus.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/東海バス",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11527778",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「原木駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「原木駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "東海バス"
+      "_title": "東海バス",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/東海バス",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "株式会社東海バス（とうかいバス、TOKAI BUS,INC ）は、静岡県の伊豆地域を中心にバス事業を行う小田急グループ・東海自動車の子会社である。",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -15972,7 +17397,15 @@
       "来源": [
        "日本語ウィキペディア「原木駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "イチゴ"
+      "_title": "イチゴ",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/イチゴ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "イチゴ（苺・覆盆子、英: Strawberry、学名: Fragaria）は、バラ科の多年草。\n一見して種子に見える一粒一粒の痩果（そうか）が付いた花托（花床ともいう）部分が食用として供される。甘みがあるため果物として位置づけられることが多いが、草本性の植物であるので野菜として扱われることもある。\n通常、可食部の表面は赤色アントシアンにより、赤くなるが、白色の品種もある。2009年に品種登録された和田初こい〈商品名・初恋の香り〉が世界初の白色イチゴとされる。"
+      }
      }
     ],
     "文化・公共施設": [],
@@ -16108,7 +17541,10 @@
       "OSM编号": "node/9580588614",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Buddhist temple in Izunokuni, Japan"
+      }
      },
      {
       "名称": {
@@ -16145,6 +17581,39 @@
      },
      {
       "名称": {
+       "日文": "長昌院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 595,
+      "坐标": {
+       "纬度": 35.069918,
+       "经度": 138.947243
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/782683493",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "荒木神社",
        "英文": "Araki Shrine",
        "中文": null
@@ -16174,7 +17643,10 @@
       "OSM编号": "node/9378409116",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Shizuoka Prefecture, Japan"
+      }
      }
     ],
     "交通接続": [
@@ -16278,7 +17750,7 @@
     "観光・名所案内": 4,
     "文化・公共施設": 0,
     "買い物・商店街": 0,
-    "便民公共服务": 6,
+    "便民公共服务": 7,
     "交通接続": 3,
     "宿泊": 0
    },
@@ -16310,10 +17782,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 7,
+    "OSM施設数": 8,
     "ウィキ_only数": 6,
     "駅周辺リンク数": 6
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#9",
@@ -16342,10 +17815,18 @@
     "首段": {
      "日文": null,
      "英文": null,
-     "中文": null
+     "中文": "大仁站（日語：大仁駅／おおひとえき，羅馬化：Ohito eki）是位於靜岡縣伊豆之國市大仁584番地，伊豆箱根鐵道的駿豆線車站。車站編號為IS11。車站鄰近溫泉街。"
     },
     "駅周辺原文": {
      "日文": null
+    },
+    "中文链接": "https://zh.wikipedia.org/wiki/大仁站",
+    "首段出典": {
+     "中文": {
+      "リンク": "https://zh.wikipedia.org/wiki/大仁站",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -16393,6 +17874,39 @@
     "文化・公共施設": [
      {
       "名称": {
+       "日文": "狩野川記念公園",
+       "英文": "Kanogawa Memorial Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 397,
+      "坐标": {
+       "纬度": 34.993434,
+       "经度": 138.933369
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/548709003",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "伊豆の国市市民交流センター",
        "英文": "Izu-no-Kuni City  Citizen's Exchange Center",
        "中文": null
@@ -16420,6 +17934,39 @@
       "电话": "+81 558 76 3601",
       "开放时间": null,
       "OSM编号": "node/9540459137",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "大仁ポケットパーク",
+       "英文": "Ohito Pokect Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 470,
+      "坐标": {
+       "纬度": 34.991834,
+       "经度": 138.941379
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/551197556",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -16455,7 +18002,11 @@
       "OSM编号": "node/5537947647",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "買い物・商店街": [
@@ -16523,7 +18074,11 @@
       "OSM编号": "node/5108672837",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -16653,6 +18208,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/6668921348",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 807,
+      "坐标": {
+       "纬度": 34.991337,
+       "经度": 138.929585
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "24/7",
+      "OSM编号": "way/1212816900",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -16888,7 +18476,10 @@
       "OSM编号": "node/5325775993",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Shizuoka Prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -17387,7 +18978,11 @@
       "OSM编号": "node/5321845982",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -17420,7 +19015,11 @@
       "OSM编号": "node/5323223601",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -17445,7 +19044,7 @@
        "经度": 138.942334
       },
       "地址": null,
-      "官网": "http://izu.tokinosumika.com/olive/",
+      "官网": null,
       "维基百科": null,
       "Wikidata": "https://www.wikidata.org/wiki/Q141319396",
       "电话": null,
@@ -17453,14 +19052,25 @@
       "OSM编号": "node/5323225475",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "http://izu.tokinosumika.com/olive/",
+       "HTTP": 0
+      },
+      "简介": {
+       "英文": "A lodging facility located in Shuzenji, Izu City, Shizuoka Prefecture; part of Shuzenji Tokinosumika."
+      }
      }
     ]
    },
    "統計": {
     "観光・名所案内": 1,
-    "文化・公共施設": 2,
-    "買い物・商店街": 7,
+    "文化・公共施設": 4,
+    "買い物・商店街": 8,
     "便民公共服务": 16,
     "交通接続": 3,
     "宿泊": 4
@@ -17468,10 +19078,11 @@
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 33,
+    "OSM施設数": 36,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#10",
@@ -17517,9 +19128,75 @@
     "文化・公共施設": [
      {
       "名称": {
+       "日文": "間宮かわむかい公園",
+       "英文": "Mamiya Kawamukai  Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 665,
+      "坐标": {
+       "纬度": 35.087556,
+       "经度": 138.934857
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1033852584",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "函南町文化センター",
+       "英文": "Kannami Culture Center",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 782,
+      "坐标": {
+       "纬度": 35.091577,
+       "经度": 138.947849
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/733240639",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "函南町子育てふれあい・地域交流センター",
        "英文": "Kannami Child Rising Contact And Local Exchange Center",
-       "中文": null
+       "中文": "函南知惠之和館"
       },
       "类别": {
        "日文": "文化・公共施設",
@@ -17550,9 +19227,42 @@
      },
      {
       "名称": {
+       "日文": "かんなみ知恵の和館",
+       "英文": null,
+       "中文": "函南知惠之和館"
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 862,
+      "坐标": {
+       "纬度": 35.091016,
+       "经度": 138.948644
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:かんなみ知恵の和館",
+      "Wikidata": "https://www.wikidata.org/wiki/Q68091993",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/733240641",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "函南町立図書館",
        "英文": "Kannami Town Library",
-       "中文": null
+       "中文": "函南知惠之和館"
       },
       "类别": {
        "日文": "文化・公共施設",
@@ -17571,7 +19281,7 @@
        "经度": 138.948772
       },
       "地址": null,
-      "官网": "https://www.lib100.nexs-service.jp/tosyokan.town.kannami/",
+      "官网": null,
       "维基百科": "ja:かんなみ知恵の和館",
       "Wikidata": "https://www.wikidata.org/wiki/Q68091993",
       "电话": null,
@@ -17579,7 +19289,15 @@
       "OSM编号": "node/6904433655",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 0,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://www.lib100.nexs-service.jp/tosyokan.town.kannami/",
+       "HTTP": 0
+      }
      },
      {
       "名称": {
@@ -17783,6 +19501,39 @@
      },
      {
       "名称": {
+       "日文": "ひまわりBOOKS",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=books",
+      "距车站m": 714,
+      "坐标": {
+       "纬度": 35.086807,
+       "经度": 138.943368
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 55 978 7770",
+      "开放时间": null,
+      "OSM编号": "way/532172436",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "meets.",
        "英文": null,
        "中文": null
@@ -17812,7 +19563,12 @@
       "OSM编号": "node/5164661039",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -17849,6 +19605,39 @@
      },
      {
       "名称": {
+       "日文": "ルピア函南",
+       "英文": "Lupia  Kannami",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 813,
+      "坐标": {
+       "纬度": 35.08629,
+       "经度": 138.944395
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 55 979 1800",
+      "开放时间": null,
+      "OSM编号": "way/532159065",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "ウエルシア",
        "英文": null,
        "中文": null
@@ -17876,6 +19665,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/5164661041",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "マックスバリュ",
+       "英文": "Maxvalu Tokai",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 840,
+      "坐标": {
+       "纬度": 35.086507,
+       "经度": 138.94523
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/532159066",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -18049,6 +19871,42 @@
      },
      {
       "名称": {
+       "日文": "妙蔵寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 349,
+      "坐标": {
+       "纬度": 35.090948,
+       "经度": 138.935836
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q134917492",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/672491951",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "Buddhist temple in Kannami, Japan"
+      }
+     },
+     {
+      "名称": {
        "日文": "神明神社",
        "英文": "Shinmei Shrine",
        "中文": null
@@ -18078,7 +19936,46 @@
       "OSM编号": "node/7330527574",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Kannami, Japan"
+      }
+     },
+     {
+      "名称": {
+       "日文": "広渡寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 428,
+      "坐标": {
+       "纬度": 35.089093,
+       "经度": 138.936697
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q134918346",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/737501664",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "Buddhist temple in Kannami, Japan"
+      }
      },
      {
       "名称": {
@@ -18109,6 +20006,75 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/1420975777",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "田種寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 560,
+      "坐标": {
+       "纬度": 35.097283,
+       "经度": 138.940176
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q134919195",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/878216204",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "简介": {
+       "英文": "Buddhist temple in Mishima, Japan"
+      }
+     },
+     {
+      "名称": {
+       "日文": "清水寺",
+       "英文": "Shimizuji Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 639,
+      "坐标": {
+       "纬度": 35.086814,
+       "经度": 138.937198
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q134917929",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/619232100",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -18211,6 +20177,43 @@
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
+     },
+     {
+      "名称": {
+       "日文": "静岡銀行",
+       "英文": "Shizuoka Bank",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 780,
+      "坐标": {
+       "纬度": 35.08621,
+       "经度": 138.943558
+      },
+      "地址": null,
+      "官网": "https://www.shizuokabank.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/532172433",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -18417,19 +20420,20 @@
    },
    "統計": {
     "観光・名所案内": 0,
-    "文化・公共施設": 3,
-    "買い物・商店街": 9,
-    "便民公共服务": 13,
+    "文化・公共施設": 6,
+    "買い物・商店街": 12,
+    "便民公共服务": 18,
     "交通接続": 2,
     "宿泊": 0
    },
    "_駅周辺リンク": [],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 27,
+    "OSM施設数": 38,
     "ウィキ_only数": 0,
     "駅周辺リンク数": 0
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#11",
@@ -18488,8 +20492,8 @@
      {
       "名称": {
        "日文": "狩野川",
-       "英文": null,
-       "中文": null
+       "英文": "Kano River",
+       "中文": "狩野川"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -18504,21 +20508,31 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.mlit.go.jp/river/basic_info/jigyo_keikaku/gaiyou/seibi/kano_index.html",
       "维基百科": "https://ja.wikipedia.org/wiki/狩野川",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q6364188",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「牧之郷駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「牧之郷駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "狩野川"
+      "_title": "狩野川",
+      "简介": {
+       "英文": "river in Japan",
+       "中文": "日本河流"
+      },
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "加藤景廉",
-       "英文": null,
+       "英文": "Katou Kagekado",
        "中文": null
       },
       "类别": {
@@ -18536,20 +20550,29 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/加藤景廉",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11399277",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「牧之郷駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "加藤景廉"
+      "_title": "加藤景廉",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/加藤景廉",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "加藤 景廉（かとう かげかど）は、平安時代末期から鎌倉時代初期の武将。鎌倉幕府の有力御家人。藤原利仁の流れを汲む加藤景員の次男。",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "五輪塔",
-       "英文": null,
-       "中文": null
+       "英文": "gorintō",
+       "中文": "五轮塔"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -18566,20 +20589,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/五輪塔",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q304906",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「牧之郷駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "五輪塔"
+      "_title": "五輪塔",
+      "简介": {
+       "英文": "Japanese funerary monument",
+       "中文": "佛教浮屠塔的一种造型"
+      }
      },
      {
       "名称": {
        "日文": "山間部",
-       "英文": null,
-       "中文": null
+       "英文": "valley",
+       "中文": "谷地"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -18596,20 +20623,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/谷",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q39816",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「牧之郷駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "谷"
+      "_title": "谷",
+      "简介": {
+       "英文": "low area between hills, often with a river running through it",
+       "中文": "地形"
+      }
      },
      {
       "名称": {
        "日文": "登山",
-       "英文": null,
-       "中文": null
+       "英文": "mountaineering",
+       "中文": "登山运动"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -18626,20 +20657,30 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/登山",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q36908",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「牧之郷駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "登山"
+      "_title": "登山",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/登山",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "登山（とざん、英: mountain climbing, mountaineering, alpinism, hillwalking）は、山に登ることに楽しみを求め、登ること自体を目的とすること。そのようなスポーツ。",
+       "英文": "sport of mountain climbing",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "金型",
-       "英文": null,
-       "中文": null
+       "英文": "die",
+       "中文": "冲模"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -18656,20 +20697,30 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/金型",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q2609080",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「牧之郷駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "金型"
+      "_title": "金型",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/金型",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "金型（かながた、英: die）とは、工業製品の金属製や樹脂製の部品をプレス加工のような塑性加工や射出成型などにより製造するための型のことであり、模型をさす場合もある。多くが金属製であるが例外もある。また、加工工具の一種とも見られるが、工具が集団的にシステム化し特定の部材成形に特化している点に大きな違いがある。\n鋳造でも使われる母型（おもがた）から、砂製を「砂型」、金属製を「金型」と呼んだことが語源と考えられる。",
+       "英文": "specialized tool for cutting or deforming",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "寺院",
-       "英文": null,
-       "中文": null
+       "英文": "Buddhist temple",
+       "中文": "佛寺"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -18686,20 +20737,30 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/寺院",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q5393308",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「牧之郷駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "寺院"
+      "_title": "寺院",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/寺院",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "寺院（じいん、梵、巴: विहार vihāra）は、仏像が祀られ、仏教の出家者が起居し、修行を行う施設である。寺（てら）、仏閣（ぶっかく）ともいう。\nキリスト教や神道などを除く諸宗教の教会・神殿を指す語としても広く用いられている（ごく稀に神社にも用いられることがある）。",
+       "英文": "place of worship for Buddhists",
+       "中文": "宗教场所"
+      }
      },
      {
       "名称": {
        "日文": "曹洞宗",
-       "英文": null,
-       "中文": null
+       "英文": "Sōtō",
+       "中文": "日本曹洞宗"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -18714,16 +20775,31 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "http://global.sotozen-net.or.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/曹洞宗",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q749085",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「牧之郷駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「牧之郷駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "曹洞宗"
+      "_title": "曹洞宗",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/曹洞宗",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "曹洞宗（そうとうしゅう）は、中国の禅宗五家（曹洞、臨済、潙仰、雲門、法眼）の1つで、中国禅宗の祖である達磨（5世紀後半 - 6世紀前半）から数えて6代目の南宗禅の祖・曹渓宝林寺の慧能（638年 - 713年）の弟子の1人である青原行思（? - 740年）から、石頭希遷（700年 - 790年、石頭宗）、薬山惟儼（745年 - 828年）、雲巌曇晟（782年 - 841年）と4代下った洞山良价（807年 - 869年）によって創宗された。\n日本仏教においては禅宗（曹洞宗・日本達磨宗・臨済宗・黄檗宗・普化宗）の1つであり、始まりは鎌倉仏教の1つとしてでもあった。現在は本山は永平寺（福井県吉田郡永平寺町）と總持寺（神奈川県横浜市鶴見区）。永平寺派と総持寺派がある。般若心経を中心に唱える。専ら坐禅に徹する黙照禅であることを特徴とし、仏陀・悟りを開いた人・目覚めた人の教えであり、出家在家に拘らず求道者各自が悟りを開くことを標榜する。現代日本の曹洞宗は、単一宗教宗派の寺院数としては最大で14,000超を有する。2025年現在、信者数3百万人を称する。",
+       "英文": "Sōtō Zen or the Sōtō school (曹洞宗, Sōtō-shū) is the largest of the three traditional sects of Zen in Japanese Buddhism (the others being Rinzai and Ōbaku). It is the Japanese line of the Chinese Caodong school, which was founded during the Tang dynasty by Dongshan Liangjie. It emphasizes Shikantaza, meditation with no objects, anchors, or content. The meditator strives to be aware of the stream of thoughts, allowing them to arise and pass away without interference.\nThe Japanese brand of the sect was imported in the 13th century by Dōgen Zenji, who studied Caodong Buddhism (Chinese: 曹洞宗; pinyin:",
+       "中文": "由道元禅师于日本创立的曹洞宗支派"
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "文化・公共施設": [
@@ -18756,6 +20832,43 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/5322307960",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
+     },
+     {
+      "名称": {
+       "日文": "鹿島田公園",
+       "英文": "Kashimada Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 798,
+      "坐标": {
+       "纬度": 34.981456,
+       "经度": 138.953851
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/551386450",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -18997,6 +21110,39 @@
     "便民公共服务": [
      {
       "名称": {
+       "日文": "金刀比羅神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 391,
+      "坐标": {
+       "纬度": 34.990859,
+       "经度": 138.957794
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/552946897",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "浅間神社",
        "英文": "Sengen Shrine",
        "中文": null
@@ -19164,9 +21310,9 @@
    },
    "統計": {
     "観光・名所案内": 8,
-    "文化・公共施設": 1,
+    "文化・公共施設": 2,
     "買い物・商店街": 7,
-    "便民公共服务": 3,
+    "便民公共服务": 4,
     "交通接続": 2,
     "宿泊": 0
    },
@@ -19210,10 +21356,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 12,
+    "OSM施設数": 14,
     "ウィキ_only数": 9,
     "駅周辺リンク数": 9
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#12",
@@ -19257,7 +21404,6 @@
     "http://www.izuhakone.co.jp/railway/station/sunzu10.html/",
     "https://www.jst.go.jp/s-innova/pdf/press_20150430-hakone.pdf",
     "http://www.izuhakone.co.jp/rail_news_20200201.pdf",
-    "http://www.izuhakone.co.jp/koukoku/files/koukoku_news_20230329.pdf|format=PDF|language=ja|accessdate=2023-04-19",
     "https://www.at-s.com/news/article/shizuoka/1220342.html",
     "https://toukei.pref.shizuoka.jp/toukeikikakuhan/page/nenkan/documents/11_06_14.pdf",
     "https://toukei.pref.shizuoka.jp/toukeikikakuhan/page/nenkan/documents/11_06_13.pdf",
@@ -19272,8 +21418,8 @@
      {
       "名称": {
        "日文": "狩野川",
-       "英文": null,
-       "中文": null
+       "英文": "Kano River",
+       "中文": "狩野川"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -19288,22 +21434,32 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.mlit.go.jp/river/basic_info/jigyo_keikaku/gaiyou/seibi/kano_index.html",
       "维基百科": "https://ja.wikipedia.org/wiki/狩野川",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q6364188",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "狩野川"
+      "_title": "狩野川",
+      "简介": {
+       "英文": "river in Japan",
+       "中文": "日本河流"
+      },
+      "官网検証": {
+       "HTTP": null,
+       "状態": "未検証（同ドメインの上限により省略）",
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "沖積平野",
-       "英文": null,
-       "中文": null
+       "英文": "alluvial plain",
+       "中文": "冲积平原"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -19320,19 +21476,30 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/沖積平野",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q656586",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "沖積平野"
+      "_title": "沖積平野",
+      "简介": {
+       "英文": "region on which rivers have deposited sediment",
+       "中文": "冲積平原（英语：Alluvial plain）简称平川，又分為氾濫平原、三角洲平原、沖積扇平原，氾濫平原是由河流沉積作用在中游沖積扇及河口三角洲間形成的下游平原地貌。在河流的下游，由於水流沒有上游般急速，而下游的地勢一般都比較平坦。河流從上游侵蝕了大量泥沙，到了下游後因流速不再足以攜帶泥沙，結果這些泥沙便沉積在下游。尤其當河流發生水浸時，泥沙在河的兩岸沉積，氾濫平原便逐漸形成。"
+      },
+      "维基条目原文引用": {
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/冲积平原",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      }
      },
      {
       "名称": {
        "日文": "田方平野",
-       "英文": null,
+       "英文": "Tagata Plain",
        "中文": null
       },
       "类别": {
@@ -19350,14 +21517,23 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/田方平野",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11576813",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "田方平野"
+      "_title": "田方平野",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/田方平野",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "田方平野（たがたへいや）は、静岡県の東部、伊豆半島の付け根に位置する沖積平野である。",
+       "中文": null
+      }
      },
      {
       "名称": {
@@ -19392,8 +21568,8 @@
      {
       "名称": {
        "日文": "災害",
-       "英文": null,
-       "中文": null
+       "英文": "disaster",
+       "中文": "灾害"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -19410,19 +21586,23 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/災害",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q3839081",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "災害"
+      "_title": "災害",
+      "简介": {
+       "英文": "hazard resulting in an event causing significant physical damage, destruction or death",
+       "中文": "導致重大物理損壞，破壞或死亡的危險"
+      }
      },
      {
       "名称": {
        "日文": "大仁町",
-       "英文": null,
+       "英文": "Ōhito",
        "中文": null
       },
       "类别": {
@@ -19440,14 +21620,18 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/大仁町",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q8081497",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "大仁町"
+      "_title": "大仁町",
+      "简介": {
+       "英文": "dissolved municipality in Tagata district, Shizuoka prefecture, Japan",
+       "中文": null
+      }
      },
      {
       "名称": {
@@ -19482,7 +21666,7 @@
      {
       "名称": {
        "日文": "IZU VILLAGE",
-       "英文": null,
+       "英文": "Izu Village",
        "中文": null
       },
       "类别": {
@@ -19498,16 +21682,24 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.tokinosumika.com/izuvillage/",
       "维基百科": "https://ja.wikipedia.org/wiki/IZU_VILLAGE",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q65228762",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "IZU VILLAGE"
+      "_title": "IZU VILLAGE",
+      "简介": {
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -19530,20 +21722,29 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/駿東伊豆消防本部",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q24862472",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "駿東伊豆消防本部"
+      "_title": "駿東伊豆消防本部",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/駿東伊豆消防本部",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "駿東伊豆消防本部（すんとういずしょうぼうほんぶ）は、静岡県東部を管轄する消防本部。消防組合の正式名称は駿東伊豆消防組合（すんとういずしょうぼうくみあい）。\n2016年（平成28年）4月1日に消防広域化により田方消防本部、沼津市消防本部、伊東市消防本部、東伊豆町消防本部、清水町消防本部が統合し発足した。",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "テニスコート",
-       "英文": null,
-       "中文": null
+       "英文": "tennis court",
+       "中文": "网球场"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -19560,14 +21761,27 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/テニスコート",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q741118",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "テニスコート"
+      "_title": "テニスコート",
+      "简介": {
+       "英文": "A tennis court is the venue where the sport of tennis is played. It is a firm rectangular surface with a low net stretched across the centre. The same surface can be used to play both doubles and singles matches. A variety of surfaces can be used to create a tennis court, each with its own characteristics which affect the playing style of the game.",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 404,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://nagasaki-tennis.com/wp/wp-content/uploads/2021/05/9e32087fe50626f46315a88d0215be5c.pdf|website=",
+       "HTTP": 404
+      }
      },
      {
       "名称": {
@@ -19597,7 +21811,15 @@
       "来源": [
        "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "プール"
+      "_title": "プール",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/プール",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "通称でプール、正式名称でスイミングプール（英: swimming pool）は、水泳のための施設。\nプールは、学校、スポーツ施設、スイミングクラブ、フィットネスクラブ、レジャー施設、一部のホテル、保養施設、一部の豪華客船、一部の住宅の庭などに設置されている。\n用途は、遊泳、教育、競泳、水球、アーティスティックスイミング、飛び込み、潜水などがある。また水泳だけでなく、さらに水中ウォーキングのような運動にも使われ、レクリエーションやリラクゼーションのためにも使われる。\n日本語では通常は略称でプールと呼ぶが、英語のpoolは単に「水たまり」や「たまり」（血や化学薬品など単に液体が溜まっている場所）をも指すので、水泳用のプールは正式にはswimming poolという。\n日本語におけるプールの数え方は「面」を使う。"
+      }
      },
      {
       "名称": {
@@ -19632,8 +21854,8 @@
      {
       "名称": {
        "日文": "狩野川台風",
-       "英文": null,
-       "中文": null
+       "英文": "Typhoon Ida",
+       "中文": "台风艾黛"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -19650,20 +21872,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/狩野川台風",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q901752",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "狩野川台風"
+      "_title": "狩野川台風",
+      "简介": {
+       "英文": "Typhoon Ida, also known as the Kanogawa Typhoon (狩野川台風, Kanogawa Taifū), was the sixth-deadliest typhoon to hit Japan, as well as one of the strongest tropical cyclones on record. On September 20, Ida formed in the Western Pacific near Guam. It moved to the west and rapidly intensified into a 185 km/h (115 mph) typhoon by the next day. On September 22, Ida turned to the north and continued its quick rate of intensification. Two days later, the Hurricane Hunters observed a minimum barometric pressure of 877 mb (25.9 inHg), as well as estimated peak winds of 325 km/h (202 mph). This made Ida the",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "洪水",
-       "英文": null,
-       "中文": null
+       "英文": "flood",
+       "中文": "洪灾"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -19680,20 +21906,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/洪水",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q8068",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "洪水"
+      "_title": "洪水",
+      "简介": {
+       "英文": "overflow of water that submerges land that is usually dry",
+       "中文": "自然灾害"
+      }
      },
      {
       "名称": {
        "日文": "大仁中央IC",
        "英文": null,
-       "中文": null
+       "中文": "大仁中央交流道"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -19710,14 +21940,17 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/大仁中央インターチェンジ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11432289",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「田京駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "大仁中央インターチェンジ"
+      "_title": "大仁中央インターチェンジ",
+      "简介": {
+       "中文": null
+      }
      }
     ],
     "文化・公共施設": [
@@ -19750,6 +21983,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/1420977363",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "広瀬公園",
+       "英文": "Hirose Park",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 550,
+      "坐标": {
+       "纬度": 35.010213,
+       "经度": 138.945578
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1324162943",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -19925,6 +22191,39 @@
      },
      {
       "名称": {
+       "日文": "プレーゲおおひと",
+       "英文": "Pflege Ohito",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 309,
+      "坐标": {
+       "纬度": 35.016268,
+       "经度": 138.94284
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/1284646095",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "塞神社",
        "英文": null,
        "中文": null
@@ -20020,7 +22319,10 @@
       "OSM编号": "node/5594642300",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Shizuoka Prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -20215,9 +22517,9 @@
    },
    "統計": {
     "観光・名所案内": 15,
-    "文化・公共施設": 1,
+    "文化・公共施設": 2,
     "買い物・商店街": 2,
-    "便民公共服务": 7,
+    "便民公共服务": 8,
     "交通接続": 5,
     "宿泊": 0
    },
@@ -20301,10 +22603,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 11,
+    "OSM施設数": 13,
     "ウィキ_only数": 19,
     "駅周辺リンク数": 19
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   },
   {
    "车站ID": "駿豆線#13",
@@ -20332,11 +22635,19 @@
     "链接": "https://ja.wikipedia.org/wiki/韮山駅",
     "首段": {
      "日文": "{{駅情報\n|社色 = blue\n|文字色 =\n|駅名 = 韮山駅\n|画像 = 韮山駅 西口駅舎（2023年4月）.jpg\n|pxl = 300\n|画像説明 = 駅舎（2023年4月）\n|地図 =\n|よみがな = にらやま\n|ローマ字 = Nirayama\n|副駅名 = 創造と和の精神で社会に貢献\n|前の駅 = IS07\n|駅間A = 1.3\n|駅間B = 1.6\n|次の駅 =   IS09\n|電報略号 =\n|駅番号 = IS08\n|所属事業者 =\n|所属路線 =\n|キロ程 = 9.8\n|起点駅 =\n|所在地 =   四日町747番地の1\n|座標 =\n|駅構造 =\n|ホーム = 2面2線\n|開業年月日 =  （ 33年）\n|廃止年月日 =\n|乗車人員 = 1,151\n|乗降人員 =\n|統計年度 = 2020年\n|乗換 =\n|備考 =\n|備考全幅 =\n}}\n韮山駅（にらやまえき）は、  四日町にある、  の である。 はIS08。",
-     "英文": null,
+     "英文": "Nirayama Station (韮山駅, Nirayama-eki) is a railway station located in the city of Izunokuni, Shizuoka Prefecture, Japan operated by the private railroad company Izuhakone Railway. It is located in the former town of Nirayama.",
      "中文": null
     },
     "駅周辺原文": {
      "日文": "thumb|願成就院 大御堂\n世界遺産で国の史跡でもある韮山反射炉は当駅ではなく、隣の伊豆長岡駅が最寄りである。\n<!-- 特筆性のない施設（チェーン店・コンビニ・娯楽施設・個人商店など）と運賃などの比較・駅からの距離及び所要時間は記載しないこと -->\n{{columns-list|2|\n* 伊豆の国市役所韮山支所（旧韮山町役場）\n* 韮山時代劇場・伊豆の国市立図書館韮山分館\n* 静岡県立韮山高等学校\n* 蛭ヶ小島跡 - 平治の乱後、源頼朝が流された地。\n* 韮山城跡\n* 韮山郷土史料館\n* 伊豆の国歴史館\n* 江川邸 - 韮山代官江川太郎左衛門の屋敷。国の重要文化財。\n* 北条政子産湯の井戸\n* 願成就院 - 運慶作毘沙門天像、不動明王像など重要文化財多数。国指定史跡。\n* 静岡銀行韮山支店\n* エスポット韮山店\n* 国道136号\n* 静岡県道133号韮山韮山停車場線\n* 静岡県道134号静浦港韮山停車場線\n}}"
+    },
+    "英文链接": "https://en.wikipedia.org/wiki/Nirayama_Station",
+    "首段出典": {
+     "英文": {
+      "リンク": "https://en.wikipedia.org/wiki/Nirayama_Station",
+      "ライセンス": "CC BY-SA 4.0",
+      "取得日": "2026-10-22"
+     }
     }
    },
    "交通接続メモ": {
@@ -20363,8 +22674,8 @@
      {
       "名称": {
        "日文": "世界遺産",
-       "英文": null,
-       "中文": null
+       "英文": "World Heritage Site",
+       "中文": "世界遗产"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20381,20 +22692,33 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/世界遺産",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q9259",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "世界遺産"
+      "_title": "世界遺産",
+      "简介": {
+       "英文": "World Heritage Sites are landmarks and areas with legal protection under an international treaty administered by UNESCO for having cultural, historical, or scientific significance. The sites are judged to contain \"cultural and natural heritage around the world considered to be of outstanding value to humanity\".\nTo be selected, a World Heritage Site is nominated by its host country and determined by the UNESCO's World Heritage Committee to be a unique landmark which is geographically and historically identifiable, having a special cultural or physical significance, and to be under a sufficient ",
+       "中文": "聯合國教科文組織認定的有特殊物質或文化意義的地點"
+      },
+      "官网検証": {
+       "HTTP": 403,
+       "確認日": "2026-10-22"
+      },
+      "官网_欠陥": {
+       "リンク切れ": "https://whc.unesco.org",
+       "HTTP": 403
+      }
      },
      {
       "名称": {
        "日文": "史跡",
-       "英文": null,
-       "中文": null
+       "英文": "historic site",
+       "中文": "古迹"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20411,20 +22735,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/史跡",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q1081138",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "史跡"
+      "_title": "史跡",
+      "简介": {
+       "英文": "A historic site or heritage site is an official location where pieces of political, military, cultural, or social history have been preserved due to their cultural heritage value. Historic sites are usually protected by law, and many have been recognized with official historic status. A historic site may be any building, landscape, site or structure that is of local, regional, national, or global significance. Usually this also means the site must be at least 50 years or older.",
+       "中文": "先民在歷史、文化、建築、藝術上的具體遺產或遺址"
+      }
      },
      {
       "名称": {
        "日文": "韮山反射炉",
-       "英文": null,
-       "中文": null
+       "英文": "Nirayama Reverberatory Furnaces",
+       "中文": "韮山反射爐"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20439,21 +22767,30 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.city.izunokuni.shizuoka.jp/bunka_bunkazai/manabi/bunkazai/hansyaro/",
       "维基百科": "https://ja.wikipedia.org/wiki/韮山反射炉",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q20042067",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "韮山反射炉"
+      "_title": "韮山反射炉",
+      "简介": {
+       "英文": "The Nirayama Reverberatory Furnaces (韮山反射炉, Nirayama hansharo) are a set of four Edo period reverberatory furnaces  erected by the Tokugawa shogunate in what is now the Nirayama neighborhood of the city of Izunokuni, Shizuoka in the Tokai region of Japan. The site was designated a National Historic Site in 1922. and was later designed as a component of the Sites of Japan's Meiji Industrial Revolution: Iron and Steel, Shipbuilding and Coal Mining, which received UNESCO World Heritage Site status in 2015.",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "韮山町",
-       "英文": null,
+       "英文": "Nirayama",
        "中文": null
       },
       "类别": {
@@ -20471,20 +22808,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/韮山町",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q7039915",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "韮山町"
+      "_title": "韮山町",
+      "简介": {
+       "英文": "Nirayama (韮山町, Nirayama-chō) was a town located in Tagata District, Shizuoka Prefecture, Japan.\nAs of March 1, 2005, the town had an estimated population of 19,602 and a density of 566 persons per km2. The total area was 34.63 km2.\nOn April 1, 2005, Nirayama, along with the towns of Izunagaoka and Ōhito (all from Tagata District), was merged to create the city of Izunokuni and thus it no longer exists as an independent municipality.\nDuring the Kamakura and Muromachi period, Niirayama was the site of a castle belonging to the Hōjō clan, and the later Hōjō clan. During the Edo period, it was the",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "蛭ヶ小島",
-       "英文": null,
-       "中文": null
+       "英文": "Hirugakojima",
+       "中文": "蛭小島"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20501,20 +22842,29 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/蛭ヶ小島",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11625584",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "蛭ヶ小島"
+      "_title": "蛭ヶ小島",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/蛭ヶ小島",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "蛭ヶ小島（ひるがこじま）は源頼朝の流刑地と伝わる史跡。蛭ケ島ともいう。所在地は静岡県伊豆の国市。",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "平治の乱",
-       "英文": null,
-       "中文": null
+       "英文": "Heiji rebellion",
+       "中文": "平治之乱"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20531,20 +22881,31 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/平治の乱",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q944859",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "平治の乱"
+      "_title": "平治の乱",
+      "简介": {
+       "英文": "short civil war between rival subjects of the cloistered Emperor Go-Shirakawa of Japan in 1159",
+       "中文": "平治之亂是指平治元年(1159)，河內源氏棟樑源义朝，趁平清盛离开京城之際，联合藤原信頼襲擊后白河上皇亲信信西，並拘禁后白河上皇和二條天皇。在外的平清盛闻讯，立刻赶回京城击败源义朝，最後源义朝在逃亡至尾张时被其家臣杀害。经此一事，平清盛奠定其武家棟梁的地位。\n因为此变发生于二條天皇平治元年，故史称平治之乱。"
+      },
+      "维基条目原文引用": {
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/平治之乱",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      }
      },
      {
       "名称": {
        "日文": "源頼朝",
-       "英文": null,
-       "中文": null
+       "英文": "Minamoto no Yoritomo",
+       "中文": "源赖朝"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20561,19 +22922,34 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/源頼朝",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q242800",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "源頼朝"
+      "_title": "源頼朝",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/源頼朝",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22",
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/源赖朝",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      },
+      "简介": {
+       "日文": "源 頼朝（みなもと の よりとも、旧字体: 源 賴朝󠄁󠄁󠄁）は、平安時代末期から鎌倉時代初期の日本の武将、政治家。鎌倉幕府初代征夷大将軍（鎌倉殿）。\n清和源氏の一流たる河内源氏の源義朝と正室・由良御前の間に生まれた嫡男（三男）であり、父・義朝が平治の乱で敗れて討たれると伊豆国へ配流される。伊豆で以仁王の令旨を受けると坂東武士らと平家打倒の兵を挙げ、鎌倉を本拠地として関東を制圧する。弟たちを代官として平家を倒し、反逆した末弟・源義経を追放の後、諸国に守護と地頭を配して力を強め、奥州合戦で奥州藤原氏を滅ぼす。建久3年7月12日（ユリウス暦1192年8月21日）に征夷大将軍に任じられた。\nこれにより、朝廷と同様に京都を中心に権勢を誇った平氏政権とは異なる、東国に独立した武家政権が開かれ、後に鎌倉幕府と呼ばれた。",
+       "英文": "Minamoto no Yoritomo (源 頼朝; Japanese pronunciation: [mʲì.nä́.mó̞.tó̞ nó̞ | jò̞.ɾʲí.tó̞.mó̞, -nó̞ jó̞-]; May 9, 1147 – February 9, 1199) was a samurai, daimyo and the founder and the first shogun of the Kamakura shogunate, ruling from 1192 until 1199, also the first  shogun in the history of Japan to hold de-facto power over Japan. He was married to Hōjō Masako, who acted as regent (shikken) after his death.\nYoritomo was the son of Minamoto no Yoshitomo and belonged to Seiwa Genji's prestigious Kawachi Genji family. After successfully maneuvering himself to the position of rightful heir of the ",
+       "中文": "源賴朝（cháo）（日語：源 頼朝〔源 賴朝󠄁〕／みなもと の よりとも，羅馬化：Minamoto no Yoritomo，1147年5月9日—1199年2月9日），鎌倉幕府首任征夷大將軍及初代鎌倉殿，也是日本幕府制度的建立者。源賴朝是平安時代末期河內源氏棟樑源义朝的第三子，同時為嫡長子。幼名鬼武者，通稱為三郎、佐殿、武衛、鎌倉殿、源二位、右大將軍（右大將）、右幕下。著名的武將源義經是源賴朝的同父異母弟。"
+      }
      },
      {
       "名称": {
        "日文": "韮山城",
-       "英文": null,
+       "英文": "Nirayama Castle",
        "中文": null
       },
       "类别": {
@@ -20589,22 +22965,31 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.city.izunokuni.shizuoka.jp/bunka_bunkazai/manabi/bunkazai/20140925.html",
       "维基百科": "https://ja.wikipedia.org/wiki/韮山城",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11664100",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "韮山城"
+      "_title": "韮山城",
+      "简介": {
+       "英文": "Nirayama Castle (韮山城, Nirayama-jō) was a hilltop Japanese castle, now in ruins, located in the Nirayama neighborhood of the city of Izunokuni, Shizuoka, in the Tōkai region of Japan. It existed from the late Muromachi period to the Azuchi-Momoyama period.  Its ruins have been protected as a National Historic Site since 2025.\n\n",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "伊豆の国歴史館",
-       "英文": null,
-       "中文": null
+       "英文": "Izunokuni History Museum",
+       "中文": "伊豆之国历史馆"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20619,21 +23004,36 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://www.city.izunokuni.shizuoka.jp/bunka_bunkazai/manabi/bunkazai/izushiru.html",
       "维基百科": "https://ja.wikipedia.org/wiki/伊豆の国歴史館",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q139997993",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "伊豆の国歴史館"
+      "_title": "伊豆の国歴史館",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/伊豆の国歴史館",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "伊豆の国歴史館（いずのくにれきしかん、英:Izunokuni History Museum）は、静岡県伊豆の国市にある市立歴史資料館、文化財展示施設。基本的には愛称を含めた伊豆の国歴史館いずしると言われる。または単にいずしるとも称される。2026年（令和8年）5月31日に開館した。北江間横穴群や山木遺跡、韮山城、江川英龍関連の史跡などの、市内の歴史の展示スペースの他、体験学習、市民交流スペース、観光案内スペース、展望テラス等が設けられている。\n\n",
+       "英文": "museum in Izunokuni, Shizuoka, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "江川太郎左衛門",
-       "英文": null,
+       "英文": "Egawa Tarōzaemon",
        "中文": null
       },
       "类别": {
@@ -20651,20 +23051,29 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/江川太郎左衛門",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11550899",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "江川太郎左衛門"
+      "_title": "江川太郎左衛門",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/江川太郎左衛門",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "江川太郎左衛門（えがわたろうざえもん）は、伊豆国田方郡韮山（静岡県伊豆の国市韮山町）を本拠とした江戸幕府の世襲代官である。太郎左衛門とは江川家の代々の当主の通称である。中でも36代の江川英龍が著名である。",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "重要文化財",
-       "英文": null,
-       "中文": null
+       "英文": "Important Cultural Property of Japan",
+       "中文": "重要文化財產"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20681,20 +23090,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/重要文化財",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q1188622",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "重要文化財"
+      "_title": "重要文化財",
+      "简介": {
+       "英文": "item judged by the Agency for Cultural Affairs to be of particular importance to the Japanese people",
+       "中文": "日本政府指定的具有重要歷史價值和藝術價值的物質文化遺產"
+      }
      },
      {
       "名称": {
        "日文": "北条政子",
-       "英文": null,
-       "中文": null
+       "英文": "Hōjō Masako",
+       "中文": "北条政子"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20711,19 +23124,23 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/北条政子",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q463961",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "北条政子"
+      "_title": "北条政子",
+      "简介": {
+       "英文": "political leader of Kamakura shogunate",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "願成就院",
-       "英文": null,
+       "英文": "Ganjōju-in Temple",
        "中文": null
       },
       "类别": {
@@ -20739,22 +23156,37 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "https://ganjoujuin.jp",
       "维基百科": "https://ja.wikipedia.org/wiki/願成就院",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11665155",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "願成就院"
+      "_title": "願成就院",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/願成就院",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "願成就院（がんじょうじゅいん）は、静岡県伊豆の国市寺家にある、高野山真言宗の寺院。山号は天守君山。国宝の阿弥陀如来坐像など、仏師運慶が手掛けた仏像5体を所有する。境内はかつて壮大な伽藍を誇った願成就院跡として国の史跡に指定されている。",
+       "英文": "Buddhist temple of the Kōyasan Shingon-shū sect in Izunokuni, Shizuoka Prefecture, Japan",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "運慶",
-       "英文": null,
-       "中文": null
+       "英文": "Unkei",
+       "中文": "运庆"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20771,20 +23203,35 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/運慶",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q2006048",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "運慶"
+      "_title": "運慶",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/運慶",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22",
+       "中文": {
+        "链接": "https://zh.wikipedia.org/wiki/運慶",
+        "出典": "中文维基百科 (CC BY-SA 4.0)",
+        "取得日": "2026-10-22"
+       }
+      },
+      "简介": {
+       "日文": "運慶（うんけい、生年不詳 - 貞応2年12月11日（1224年1月3日））は、平安時代末期から鎌倉時代初期にかけて活動した仏師である。慶派に属する。",
+       "英文": "Japanese sculptor (1151-1223)",
+       "中文": "运庆（うんけい、久安4年（1148年）？ - 贞应2年12月11日（1224年1月3日））是活动于镰仓时代的佛師、僧人。"
+      }
      },
      {
       "名称": {
        "日文": "毘沙門天",
-       "英文": null,
-       "中文": null
+       "英文": "Vaiśravaṇa",
+       "中文": "多闻天王"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20801,20 +23248,24 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/毘沙門天",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q866315",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "毘沙門天"
+      "_title": "毘沙門天",
+      "简介": {
+       "英文": "deity in Buddhism",
+       "中文": "佛教神祇"
+      }
      },
      {
       "名称": {
        "日文": "不動明王",
-       "英文": null,
-       "中文": null
+       "英文": "Acala",
+       "中文": "不動明王"
       },
       "类别": {
        "日文": "観光・名所案内",
@@ -20831,19 +23282,23 @@
       "地址": null,
       "官网": null,
       "维基百科": "https://ja.wikipedia.org/wiki/不動明王",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q337624",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "不動明王"
+      "_title": "不動明王",
+      "简介": {
+       "英文": "wrathful deity and dharmapala (protector of the Dharma) prominent in Tibetan and East Asian Buddhism",
+       "中文": null
+      }
      },
      {
       "名称": {
        "日文": "エスポット",
-       "英文": null,
+       "英文": "Makiya",
        "中文": null
       },
       "类别": {
@@ -20859,16 +23314,30 @@
       "距车站m": null,
       "坐标": null,
       "地址": null,
-      "官网": null,
+      "官网": "http://www.makiya-group.co.jp/",
       "维基百科": "https://ja.wikipedia.org/wiki/マキヤ",
-      "Wikidata": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q11339971",
       "电话": null,
       "开放时间": null,
       "OSM编号": null,
       "来源": [
-       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）",
+       "Wikidata P856 / 日本語版ウィキペディア外部リンク"
       ],
-      "_title": "マキヤ"
+      "_title": "マキヤ",
+      "维基条目原文引用": {
+       "链接": "https://ja.wikipedia.org/wiki/マキヤ",
+       "出典": "日本語版ウィキペディア (CC BY-SA 4.0)",
+       "引用日": "2026-10-22"
+      },
+      "简介": {
+       "日文": "株式会社マキヤ（MAKIYA CO.,LTD.）は、静岡県富士市に本社を置く小売業者。ディスカウントストア「エスポット」や食品スーパーの「POTATO」「Mammy」などを経営する他、静岡県・山梨県・神奈川県・埼玉県で業務スーパーを、また静岡県東部でハードオフをフランチャイジーとして展開している。",
+       "中文": null
+      },
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      }
     ],
     "文化・公共施設": [
@@ -20934,6 +23403,39 @@
       "电话": null,
       "开放时间": null,
       "OSM编号": "node/5603028225",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "蛭ケ島公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "公園",
+       "英文": "Park / garden",
+       "中文": "公园·绿地"
+      },
+      "OSM类别": "leisure=park",
+      "距车站m": 617,
+      "坐标": {
+       "纬度": 35.051624,
+       "经度": 138.951894
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/619254284",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
       ]
@@ -21109,6 +23611,73 @@
     "便民公共服务": [
      {
       "名称": {
+       "日文": "静岡銀行",
+       "英文": "Shizuoka Bank",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 213,
+      "坐标": {
+       "纬度": 35.053535,
+       "经度": 138.943161
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/静岡銀行",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/618545729",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "健院",
+       "英文": "Clinic",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 290,
+      "坐标": {
+       "纬度": 35.051144,
+       "经度": 138.946961
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "way/596103736",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
        "日文": "隣光院",
        "英文": null,
        "中文": null
@@ -21171,7 +23740,10 @@
       "OSM编号": "node/9378407925",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Izunokuni, Japan"
+      }
      },
      {
       "名称": {
@@ -21468,7 +24040,10 @@
       "OSM编号": "node/9580618720",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Buddhist temple in Izunokuni, Japan"
+      }
      },
      {
       "名称": {
@@ -21534,7 +24109,10 @@
       "OSM编号": "node/9378409116",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "简介": {
+       "英文": "Shinto shrine in Shizuoka Prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -21598,36 +24176,6 @@
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
       "_title": "静岡県立韮山高等学校"
-     },
-     {
-      "名称": {
-       "日文": "静岡銀行",
-       "英文": null,
-       "中文": null
-      },
-      "类别": {
-       "日文": "便民公共服务",
-       "英文": "Public Services",
-       "中文": "便民公共服务"
-      },
-      "细分": {
-       "日文": "金融",
-       "英文": "Bank / ATM",
-       "中文": "银行·ATM"
-      },
-      "距车站m": null,
-      "坐标": null,
-      "地址": null,
-      "官网": null,
-      "维基百科": "https://ja.wikipedia.org/wiki/静岡銀行",
-      "Wikidata": null,
-      "电话": null,
-      "开放时间": null,
-      "OSM编号": null,
-      "来源": [
-       "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
-      ],
-      "_title": "静岡銀行"
      }
     ],
     "交通接続": [
@@ -21662,7 +24210,11 @@
       "OSM编号": "node/11031464873",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -21695,7 +24247,11 @@
       "OSM编号": "node/11345414405",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
@@ -21728,13 +24284,17 @@
       "OSM编号": "node/11031464875",
       "来源": [
        "OpenStreetMap (Japan extract, ODbL)"
-      ]
+      ],
+      "官网検証": {
+       "HTTP": 200,
+       "確認日": "2026-10-22"
+      }
      },
      {
       "名称": {
        "日文": "伊豆長岡駅",
        "英文": null,
-       "中文": null
+       "中文": "伊豆長岡站"
       },
       "类别": {
        "日文": "交通接続",
@@ -21758,7 +24318,10 @@
       "来源": [
        "日本語ウィキペディア「韮山駅」記事「駅周辺」欄（CC BY-SA 4.0）"
       ],
-      "_title": "伊豆長岡駅"
+      "_title": "伊豆長岡駅",
+      "简介": {
+       "英文": "railway station in Izunokuni, Shizuoka prefecture, Japan"
+      }
      },
      {
       "名称": {
@@ -21855,9 +24418,9 @@
    },
    "統計": {
     "観光・名所案内": 17,
-    "文化・公共施設": 2,
+    "文化・公共施設": 3,
     "買い物・商店街": 5,
-    "便民公共服务": 16,
+    "便民公共服务": 17,
     "交通接続": 7,
     "宿泊": 0
    },
@@ -21957,10 +24520,11 @@
    ],
    "データ品質": {
     "座標": "OSM",
-    "OSM施設数": 24,
-    "ウィキ_only数": 23,
+    "OSM施設数": 27,
+    "ウィキ_only数": 22,
     "駅周辺リンク数": 23
-   }
+   },
+   "公式リンク検証日": "2026-10-22"
   }
  ]
 }
