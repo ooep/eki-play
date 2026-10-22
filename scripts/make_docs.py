@@ -17,6 +17,7 @@ def main():
     en_name = zh_name = 0
     lead_ja = lead_en = lead_zh = 0
     verified_ok = verified_dead = 0
+    site_defect = 0
     coord_src = collections.Counter()
     per_prefecture = collections.Counter()
     stations_total = 0
@@ -40,6 +41,8 @@ def main():
                 for r in rows:
                     n_rec += 1
                     by_class[r["类别"]["日文"]] += 1
+                    if r.get("官网_欠陥"):
+                        site_defect += 1
                     if r.get("官网"):
                         has_site += 1
                         v = (r.get("官网検証") or {}).get("HTTP")
@@ -68,6 +71,8 @@ def main():
     cur_recs = 0
     cur_dirs = collections.Counter()
     cur_site = 0
+    cur_hand = 0
+    cur_hand_recs = 0
     for p in cur_files:
         try:
             c = json.load(open(p, encoding="utf-8"))
@@ -77,6 +82,9 @@ def main():
                 ("观光景点", "名所案内", "公共服务", "交通", "购物", "美食", "无障碍")
                 if isinstance(c.get(k), list))
         cur_recs += n
+        if c.get("人手確認") is True:
+            cur_hand += 1
+            cur_hand_recs += n
         cur_dirs[os.path.basename(os.path.dirname(p))] += 1
         for k in ("观光景点", "名所案内", "公共服务", "交通", "购物", "美食", "无障碍"):
             for r in c.get(k) or []:
@@ -120,7 +128,8 @@ def main():
         f"| 名称・中文 / 中文名 / name (zh) | {zh_name:,} | {pct(zh_name, n_rec)} |",
         f"| 官网 / 官网 / official website | {has_site:,} | {pct(has_site, n_rec)} |",
         f"| ├ HTTP検証済み / 已通过可达性校验 | {verified_ok:,} | {pct(verified_ok, n_rec)} |",
-        f"| └ リンク切れとして除去 / 已判定失效并移除 | {verified_dead:,} | {pct(verified_dead, n_rec)} |",
+        f"| ├ 未検証（同一ドメインの上限で打査省略）/ 未校验 | {has_site - verified_ok - verified_dead:,} | {pct(has_site - verified_ok - verified_dead, n_rec)} |",
+        f"| └ 到達不可と判定し除去 / 判定失效后移除（官网=null） | {site_defect:,} | {pct(site_defect, n_rec)} |",
         f"| 维基百科リンク / 维基百科链接 / Wikipedia link | {has_wiki:,} | {pct(has_wiki, n_rec)} |",
         f"| Wikidataエンティティ / Wikidata 实体 / Wikidata entity | {has_qid:,} | {pct(has_qid, n_rec)} |",
         f"| 紹介文・日文 / 日文简介 / blurb (ja) | {lead_ja:,} | {pct(lead_ja, n_rec)} |",
@@ -131,6 +140,7 @@ def main():
         "## 加精层（人工检索・逐条出典）/ 加精层（人工检索、逐条出典）/ Curated tier",
         "",
         f"`data/curated/<区域>/<车站>.json` — {len(cur_files)} 駅 / {cur_recs:,} レコード（うち `官网` 付き {cur_site:,}）。",
+        f"うち **`人手確認: true`（官网本文を人手で読んで抄録した駅）は {cur_hand} 駅 / {cur_hand_recs:,} レコード**。残りは自動抽出＋出典 URL の HTTP 到達検証のみ（`加精方式` 参照）。",
         "自動層とは別ファイルで、実在ページを直接開いて確認した观光・名所案内・便民公共服务のみを収録します。",
         "",
         "| 区域 / 区域 / Cluster | 车站 / Stations |",
@@ -185,7 +195,8 @@ def main():
         "## 官网リンクの検証",
         "",
         f"- 自動層：抽出した官网 {has_site:,} 件を HTTP ステータスで到達確認。応答なし・4xx/5xx は `官网` を `null` にし、"
-        f"`官网_欠陥` に理由を保存（{verified_dead:,} 件）。検証済み {verified_ok:,} 件は `官网検証.HTTP` に code と日付。",
+        f"`官网_欠陥` に理由を保存（{site_defect:,} 件）。検証済み {verified_ok:,} 件は `官网検証.HTTP` に code と日付。"
+        f"同ドメインの打査上限により未検証 {has_site - verified_ok - verified_dead:,} 件は、削除せず**未検証のまま**保持しています。",
         "- 加精層：`人手確認: true` の記録は **実際に本文を読むまで開いたページのみ** を `出典` に記載。到達できなかった"
         "公式（鶴岡八幡宮・久岐神社・鎌倉国宝館・名古屋城 等）と 403 を返すサイト（JR東日本・東京メトロ）は出典にしていません。",
         "",
@@ -211,6 +222,7 @@ def main():
                    "線内照合で差替え": coord_src["修正"], "線外疑い（未変更・警告のみ）": coord_src["線外疑い"],
                    "未取得": n_nocoord},
            "加精層": {"駅": len(cur_files), "レコード": cur_recs, "官网付き": cur_site,
+                     "人手確認駅": cur_hand, "人手確認レコード": cur_hand_recs,
                      "区域": {k: v for k, v in sorted(cur_dirs.items())}},
            "内訳": {k: v for k, v in by_class.most_common()},
            "フィールド充足率": {"英文名": pct(en_name, n_rec), "中文名": pct(zh_name, n_rec),
