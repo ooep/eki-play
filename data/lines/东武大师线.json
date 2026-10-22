@@ -1,0 +1,6211 @@
+{
+ "线路": {
+  "中文": "东武大师线",
+  "日文": "東武大師線",
+  "英文": null,
+  "链接": "https://ja.wikipedia.org/wiki/東武大師線"
+ },
+ "车站数": 2,
+ "生成": {
+  "脚本": "build_line.py",
+  "日期": "2026-10-22",
+  "半径m": 900,
+  "来源": [
+   "日本語版ウィキペディア (CC BY-SA 4.0)",
+   "OpenStreetMap Japan extract (ODbL)",
+   "Wikidata (CC0)"
+  ]
+ },
+ "品質": {
+  "無座標": 0,
+  "OSM施設合計": 250,
+  "ウィキのみ合計": 33
+ },
+ "分区定義": [
+  {
+   "日文": "観光・名所案内",
+   "英文": "Sights & Landmarks",
+   "中文": "观光·名胜"
+  },
+  {
+   "日文": "文化・公共施設",
+   "英文": "Culture & Public Facilities",
+   "中文": "文化·公共设施"
+  },
+  {
+   "日文": "買い物・商店街",
+   "英文": "Shopping & Shopping Streets",
+   "中文": "购物·商店街"
+  },
+  {
+   "日文": "便民公共服务",
+   "英文": "Public Services",
+   "中文": "便民公共服务"
+  },
+  {
+   "日文": "交通接続",
+   "英文": "Transport Connections",
+   "中文": "交通换乘"
+  },
+  {
+   "日文": "宿泊",
+   "英文": "Lodging",
+   "中文": "住宿"
+  }
+ ],
+ "车站": [
+  {
+   "车站ID": "東武大師線#1",
+   "名称": {
+    "日文": "大師前駅",
+    "日文原名": "大師前",
+    "英文": "Daishimae Station",
+    "中文": "大師前站",
+    "词条": "大師前駅",
+    "读音": "だいしまええき",
+    "罗马字": "Daishimae"
+   },
+   "所属线路": {
+    "日文": "東武大師線"
+   },
+   "位置": {
+    "坐标": {
+     "纬度": 35.778875,
+     "经度": 139.781463,
+     "出处": "OpenStreetMap n3558446593 (public_transport=station,railway=station)"
+    },
+    "坐标可用": true
+   },
+   "车站条目": {
+    "链接": "https://ja.wikipedia.org/wiki/大師前駅",
+    "首段": {
+     "日文": "{{駅情報\n|社色 = #0f6cc3\n|文字色 =\n|駅名 = 大師前駅\n|画像 = Daishimae_station.jpg\n|画像説明 = 駅舎（2024年4月）\n|pxl = 300\n|地図 =\n|よみがな = だいしまえ\n|ローマ字 = Daishimae\n|電報略号 = マエ\n|駅番号 =\n|所属事業者 =\n|所在地 =    一丁目3-1\n|座標 =\n|開業年月日 =  （ 6年） 。 はTS 51。",
+     "英文": null,
+     "中文": null
+    },
+    "駅周辺原文": {
+     "日文": "すぐ近くに駅名の由来となっている西新井大師（總持寺）がある。\n* 環七通り\n* 西新井警察署大師前交番\n* 足立区役所西新井区民事務所\n* 足立西新井郵便局\n* 東武ストア 大師前店\n* 大内病院\n* 西新井病院\n* オーケー 西新井店\n* マルエツ 西新井店"
+    }
+   },
+   "交通接続メモ": {
+    "バス路線原文": {
+     "日文": "<!--プロジェクト:鉄道#バス路線の記述法に基づき、経由地については省略して記載しています。-->\n最寄りバス停留所は「西新井大師」・「西新井大師前」・「西新井車庫」となる。以下の路線バスが乗り入れ、東武バスセントラル・国際興業・東京都交通局（都営バス）によって運行されている。\n{|class=\"wikitable\" style=\"clear:both; font-size:80%;\"\n!乗場!!系統!!行先!!事業者!!営業所!!備考\n|-\n|colspan=\"6\"|車庫構内乗り場－停留所名：西新井大師\n|-\n|1番||北01||北千住駅||rowspan=\"4\"|東武||rowspan=\"3\"|西新井||\n|-\n|rowspan=\"3\"|2番||北02||rowspan=\"2\"|北千住駅||平日早朝のみ\n|-\n|北03||\n|-\n|臨時||亀有駅北口||－||例年三が日のみ運行\n|-\n|colspan=\"6\"|南側環七通り上乗り場－停留所名：西新井大師前（東武・都営）・西新井大師（国際）\n|-\n|rowspan=\"6\"|3番|||王40甲||西新井駅前||都営||北||\n|-\n|西01||rowspan=\"2\"|西新井駅西口||東武||足立||\n|-\n|赤27・27-2・27H||国際||赤羽||深夜バス運行\n|-\n|王30||亀有駅北口||東武||葛飾||昼2便のみ\n|-\n|王49||千住車庫前||rowspan=\"5\"|都営||rowspan=\"2\"|千住||\n|-\n|王49折返||足立区役所||\n|-\n|rowspan=\"3\"|4番 （西）||rowspan=\"3\"|王40甲||池袋駅東口||rowspan=\"3\"|北||\n|-\n|北車庫前||\n|-\n|豊島五丁目団地||\n|-\n| rowspan=\"9\" |4番 （東）||rowspan=\"2\"|西01||皿沼循環||rowspan=\"4\"|東武||rowspan=\"3\"|足立||\n|-\n|鹿浜中学校||終車時間帯のみ\n|-\n|西08||東京女子医大足立医療センター||\n|-\n|王30||王子駅||葛飾||昼2便のみ\n|-\n|王49・王49折返||王子駅前|| rowspan=\"2\" |都営|| rowspan=\"2\" |千住||\n|-\n|王49折返\n|東京女子医大足立医療センター\n|平日のみ運行\n|-\n|赤27||赤羽駅東口||rowspan=\"3\"|国際||rowspan=\"3\"|赤羽||深夜バス運行\n|-\n|赤27-2||赤羽車庫||出入庫、深夜バス運行\n|-\n|赤27H||赤羽駅東口||日中のみ\n|-\n|colspan=\"6\"|西新井車庫東側乗り場－停留所名：西新井車庫\n|-\n|rowspan=\"4\"|5番||西03||流通センター||rowspan=\"3\"|東武||rowspan=\"3\"|足立||\n|-\n|西04||竹の塚車庫||\n|-\n|西07||鹿浜都市農業公園||土・祝日のみ運行（1便のみ）\n|-\n|赤23||赤羽駅東口||国際||赤羽||\n|-\n|rowspan=\"2\"|6番||西03・04・07||rowspan=\"2\"|西新井駅西口||東武||足立||\n|-\n|赤23||国際||赤羽||\n|}"
+    }
+   },
+   "公式リンク": [
+    "http://www.tobu.co.jp/file/pdf/017af1e69f2ac63a8b2dea3d14de7a49/120209_1.pdf",
+    "https://www.tobu.co.jp/cms-pdf/news/20260216100340T4PC06Tsi6EcZl5x_1J3Fw.pdf|format=PDF|accessdate=2026-02-18|archivedate=2026-02-18|archiveurl=https://web.archive.org/web/20260218114536/https://www.tobu.co.jp/cms-pdf/news/20260216100340T4PC06Tsi6EcZl5x_1J3Fw.pdf",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/tn-index.htm",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/1956/tn56qa0009.pdf",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/1957/tn57qa0009.pdf",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/1958/tn58qa0009.pdf",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/1959/tn59qa0090.pdf",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/1960/tn60qa0090.pdf",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/1961/tn61qa0090.pdf",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/1962/tn62qa0090.pdf",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/1963/tn63qa0091.pdf",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/1964/tn64qa0091.pdf"
+   ],
+   "分区": {
+    "観光・名所案内": [
+     {
+      "名称": {
+       "日文": "フレール西新井第一",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 131,
+      "坐标": {
+       "纬度": 35.779863,
+       "经度": 139.782262
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6602935979",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "大日如来尊像",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=artwork",
+      "距车站m": 172,
+      "坐标": {
+       "纬度": 35.779486,
+       "经度": 139.77971
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10083089865",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "第2サンライトマンション",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 198,
+      "坐标": {
+       "纬度": 35.777289,
+       "经度": 139.78047
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6605001938",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井本町一丁目アパート",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 306,
+      "坐标": {
+       "纬度": 35.776246,
+       "经度": 139.780468
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6605001958",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井本町一丁目アパート",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 348,
+      "坐标": {
+       "纬度": 35.775839,
+       "经度": 139.780539
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6605002010",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "扇三丁目第2アパート",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 803,
+      "坐标": {
+       "纬度": 35.774637,
+       "经度": 139.774258
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6594401315",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "扇三丁目第2アパート",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 844,
+      "坐标": {
+       "纬度": 35.774048,
+       "经度": 139.774242
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6594401314",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "總持寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/總持寺_(足立区)",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「大師前駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "總持寺 (足立区)"
+     },
+     {
+      "名称": {
+       "日文": "環七通り",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/東京都道318号環状七号線",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「大師前駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "東京都道318号環状七号線"
+     },
+     {
+      "名称": {
+       "日文": "東武ストア",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/東武ストア",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「大師前駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "東武ストア"
+     },
+     {
+      "名称": {
+       "日文": "オーケー",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/オーケー",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「大師前駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "オーケー"
+     }
+    ],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "西新井栄町住区センター",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 503,
+      "坐标": {
+       "纬度": 35.774786,
+       "经度": 139.78386
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1655926854",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井栄町児童館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 508,
+      "坐标": {
+       "纬度": 35.774741,
+       "经度": 139.783866
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420797743",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "東京マリン 西新井スイミング",
+       "英文": "Tokyo Marine",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=sports_centre",
+      "距车站m": 549,
+      "坐标": {
+       "纬度": 35.782725,
+       "经度": 139.78528
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4977254723",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "まるちたいけんドーム",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=planetarium",
+      "距车站m": 804,
+      "坐标": {
+       "纬度": 35.779732,
+       "经度": 139.790313
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6533745696",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井文化ホール",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "劇場映画",
+       "英文": "Theatre / cinema",
+       "中文": "影院剧场"
+      },
+      "OSM类别": "amenity=theatre",
+      "距车站m": 839,
+      "坐标": {
+       "纬度": 35.779885,
+       "经度": 139.790679
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6533745695",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "玉ノ井部屋",
+       "英文": "Tamanoi stable",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=sports_centre",
+      "距车站m": 844,
+      "坐标": {
+       "纬度": 35.786193,
+       "经度": 139.778973
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q7680700",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6602207914",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
+    "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "ローソン",
+       "英文": "Lawson",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 39,
+      "坐标": {
+       "纬度": 35.778581,
+       "经度": 139.781707
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "24/7",
+      "OSM编号": "node/5901566250",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "アコレ",
+       "英文": "A・Colle",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 72,
+      "坐标": {
+       "纬度": 35.778236,
+       "经度": 139.78158
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5463737547",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "門前華永路商店街",
+       "英文": "Monzen Kaeiro Shopping Street",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=mall",
+      "距车站m": 124,
+      "坐标": {
+       "纬度": 35.778757,
+       "经度": 139.780095
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/3981487068",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "中田屋",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "工房",
+       "英文": "Workshop",
+       "中文": "工坊"
+      },
+      "OSM类别": "craft=confectionery",
+      "距车站m": 126,
+      "坐标": {
+       "纬度": 35.77902,
+       "经度": 139.780082
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6307862171",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 133,
+      "坐标": {
+       "纬度": 35.77859,
+       "经度": 139.780034
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10083040045",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "金太郎飴",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "工房",
+       "英文": "Workshop",
+       "中文": "工坊"
+      },
+      "OSM类别": "craft=confectionery",
+      "距车站m": 140,
+      "坐标": {
+       "纬度": 35.778207,
+       "经度": 139.780142
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5463698380",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "清水屋",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "工房",
+       "英文": "Workshop",
+       "中文": "工坊"
+      },
+      "OSM类别": "craft=confectionery",
+      "距车站m": 152,
+      "坐标": {
+       "纬度": 35.77906,
+       "经度": 139.779798
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6307862170",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "TOBU STORE",
+       "英文": "TOBU STORE",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 159,
+      "坐标": {
+       "纬度": 35.777782,
+       "经度": 139.780328
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5534031694",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "meets",
+       "英文": "100 YEN SHOP meets",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=variety_store",
+      "距车站m": 183,
+      "坐标": {
+       "纬度": 35.777692,
+       "经度": 139.780055
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5456666666",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 195,
+      "坐标": {
+       "纬度": 35.77713,
+       "经度": 139.781709
+      },
+      "地址": null,
+      "官网": "https://www.sej.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 3-3898-3554",
+      "开放时间": "24/7",
+      "OSM编号": "node/3782541830",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ファミリーマート",
+       "英文": "FamilyMart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 206,
+      "坐标": {
+       "纬度": 35.778593,
+       "经度": 139.77921
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5614491285",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "シフヤハウジング",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "工房",
+       "英文": "Workshop",
+       "中文": "工坊"
+      },
+      "OSM类别": "craft=carpenter",
+      "距车站m": 264,
+      "坐标": {
+       "纬度": 35.780552,
+       "经度": 139.783535
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10083016633",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "愛書房",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=books",
+      "距车站m": 267,
+      "坐标": {
+       "纬度": 35.77829,
+       "经度": 139.778592
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5463698335",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 272,
+      "坐标": {
+       "纬度": 35.777885,
+       "经度": 139.784216
+      },
+      "地址": null,
+      "官网": "https://www.sej.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 3-3852-2092",
+      "开放时间": "24/7",
+      "OSM编号": "node/3782518051",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "Circle K",
+       "英文": "KOJIMA",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 425,
+      "坐标": {
+       "纬度": 35.782373,
+       "经度": 139.779555
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/261000759",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 478,
+      "坐标": {
+       "纬度": 35.782503,
+       "经度": 139.778624
+      },
+      "地址": null,
+      "官网": "https://www.sej.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 3-3856-2277",
+      "开放时间": "24/7",
+      "OSM编号": "node/3781766681",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "FamilyMart",
+       "英文": "FamilyMart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 481,
+      "坐标": {
+       "纬度": 35.775641,
+       "经度": 139.785001
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5469182920",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "イトーヨーカドー",
+       "英文": "Ito-Yokado",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 589,
+      "坐标": {
+       "纬度": 35.775146,
+       "经度": 139.786097
+      },
+      "地址": null,
+      "官网": "https://www.itoyokado.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-3-38529111",
+      "开放时间": "Mo-Su 10:00-22:00",
+      "OSM编号": "node/1990491493",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "西新井警察署大師前交番",
+       "英文": "Koban",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 80,
+      "坐标": {
+       "纬度": 35.778257,
+       "经度": 139.781011
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420797750",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "足立西新井郵便局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 87,
+      "坐标": {
+       "纬度": 35.77836,
+       "经度": 139.78073
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420798550",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "市川歯科医院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 101,
+      "坐标": {
+       "纬度": 35.778205,
+       "经度": 139.7807
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10083040042",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井薬局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 119,
+      "坐标": {
+       "纬度": 35.778247,
+       "经度": 139.782532
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5463737576",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "江北診療所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 135,
+      "坐标": {
+       "纬度": 35.778272,
+       "经度": 139.782762
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5463737577",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "東京国税局西新井税務署",
+       "英文": "Nishi-Arai Tax Office",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=government",
+      "距车站m": 195,
+      "坐标": {
+       "纬度": 35.778866,
+       "经度": 139.783622
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420783162",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "朝日信用金庫",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 215,
+      "坐标": {
+       "纬度": 35.780388,
+       "经度": 139.782946
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10083014200",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井区民事務所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=townhall",
+      "距车站m": 217,
+      "坐标": {
+       "纬度": 35.779136,
+       "经度": 139.779082
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q114565327",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10082980514",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "氷川神社",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 260,
+      "坐标": {
+       "纬度": 35.77785,
+       "经度": 139.778873
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q114564336",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6605002103",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=clinic",
+      "距车站m": 295,
+      "坐标": {
+       "纬度": 35.776261,
+       "经度": 139.780936
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/西新井病院",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11628305",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6605001993",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「大師前駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "高橋測量設計事務所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=company",
+      "距车站m": 330,
+      "坐标": {
+       "纬度": 35.777968,
+       "经度": 139.777984
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10083192765",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "満願寺",
+       "英文": "Mangan-ji Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 344,
+      "坐标": {
+       "纬度": 35.778582,
+       "经度": 139.785254
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:満願寺 (足立区)",
+      "Wikidata": "https://www.wikidata.org/wiki/Q85882148",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6605665125",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "成和会西新井病院",
+       "英文": "Nishiarai Hospital",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=clinic",
+      "距车站m": 361,
+      "坐标": {
+       "纬度": 35.775661,
+       "经度": 139.782006
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:西新井病院",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11628305",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420780393",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "アロエ薬局",
+       "英文": "Aloe Pharmacy",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 409,
+      "坐标": {
+       "纬度": 35.782466,
+       "经度": 139.780493
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4977252590",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ルミナス内科",
+       "英文": "Luminous Clinic",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 413,
+      "坐标": {
+       "纬度": 35.782473,
+       "经度": 139.780345
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4977252589",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "矢野内科クリニック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 427,
+      "坐标": {
+       "纬度": 35.782213,
+       "经度": 139.783799
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10083016627",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "岩崎歯科クリニック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 479,
+      "坐标": {
+       "纬度": 35.781394,
+       "经度": 139.785767
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5468716103",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "日本基督教団西新井教会",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 489,
+      "坐标": {
+       "纬度": 35.77526,
+       "经度": 139.778377
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/2383906582",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井栄荘",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 512,
+      "坐标": {
+       "纬度": 35.7747,
+       "经度": 139.783844
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1655926893",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "やまむら歯科",
+       "英文": "Yamamura's",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 512,
+      "坐标": {
+       "纬度": 35.782783,
+       "经度": 139.778465
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4977231682",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "大東京信用組合",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 561,
+      "坐标": {
+       "纬度": 35.773831,
+       "经度": 139.781552
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6461437882",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "城北信用金庫",
+       "英文": "Johoku Shinkin",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 570,
+      "坐标": {
+       "纬度": 35.7828,
+       "经度": 139.777396
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/2878119216",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "たんぽぽ薬局",
+       "英文": "Tanpopo Pharmacy",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 591,
+      "坐标": {
+       "纬度": 35.782846,
+       "经度": 139.777114
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4977231655",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "池田医院",
+       "英文": "Ikeda Clinic",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 605,
+      "坐标": {
+       "纬度": 35.782859,
+       "经度": 139.776891
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4977231649",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井警察署栗原四丁目交番",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 607,
+      "坐标": {
+       "纬度": 35.78317,
+       "经度": 139.78562
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420797756",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "足立都税事務所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=government",
+      "距车站m": 618,
+      "坐标": {
+       "纬度": 35.77797,
+       "经度": 139.788224
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420797749",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
+    "交通接続": [
+     {
+      "名称": {
+       "日文": "大師前自転車駐車場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 116,
+      "坐标": {
+       "纬度": 35.779916,
+       "经度": 139.781465
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040589425",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井栄町3丁目",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 134,
+      "坐标": {
+       "纬度": 35.777871,
+       "经度": 139.78229
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13722933762",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井蓮沼公園",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 146,
+      "坐标": {
+       "纬度": 35.779798,
+       "经度": 139.782621
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/12477719247",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "TOKYO B 大師前6",
+       "英文": "TOKYO Beta",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 265,
+      "坐标": {
+       "纬度": 35.778748,
+       "经度": 139.784397
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/12298788693",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "足立区西新井栄町２丁目",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 347,
+      "坐标": {
+       "纬度": 35.77753,
+       "经度": 139.78493
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13190052004",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "トヨタモビリティ東京 西新井店",
+       "英文": "Toyota Mobility Tokyo",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 477,
+      "坐标": {
+       "纬度": 35.77856,
+       "经度": 139.776195
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040588417",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ゼネラル",
+       "英文": "Tonen General",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 482,
+      "坐标": {
+       "纬度": 35.782754,
+       "经度": 139.779079
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/2878119217",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ネオインドアテニス西新井",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 624,
+      "坐标": {
+       "纬度": 35.773701,
+       "经度": 139.784143
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13190051748",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ファミリーマート 西新井二丁目店",
+       "英文": "FamilyMart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 625,
+      "坐标": {
+       "纬度": 35.784249,
+       "经度": 139.77942
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040587731",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井6丁目無料自転車駐車場",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 636,
+      "坐标": {
+       "纬度": 35.779018,
+       "经度": 139.774412
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10083115779",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "Esso",
+       "英文": "Esso",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 701,
+      "坐标": {
+       "纬度": 35.778579,
+       "经度": 139.773702
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-3-38963341",
+      "开放时间": "24/7",
+      "OSM编号": "node/1961388881",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井栄町2丁目駐輪場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 703,
+      "坐标": {
+       "纬度": 35.777641,
+       "经度": 139.789106
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/12298788582",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ソラリス西新井",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 707,
+      "坐标": {
+       "纬度": 35.783414,
+       "经度": 139.786951
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13190051641",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ヴェスティビュール西新井",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 715,
+      "坐标": {
+       "纬度": 35.775664,
+       "经度": 139.7746
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13722933413",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西中第二公園",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 745,
+      "坐标": {
+       "纬度": 35.783895,
+       "经度": 139.775996
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13190051824",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "AOKI足立栗原店",
+       "英文": "AOKI",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 763,
+      "坐标": {
+       "纬度": 35.784661,
+       "经度": 139.786006
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040588710",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ローソン 興野一丁目店",
+       "英文": "Lawson",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 816,
+      "坐标": {
+       "纬度": 35.771544,
+       "经度": 139.781165
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040588862",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "出光",
+       "英文": "Idemitsu Kosan",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 849,
+      "坐标": {
+       "纬度": 35.786251,
+       "经度": 139.78391
+      },
+      "地址": null,
+      "官网": "http://www.idemitsu.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-3-38902230",
+      "开放时间": "Mo-Sa 08:00-19:00; Su,PH off",
+      "OSM编号": "node/1994989556",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "第22まさひろ商事ビル",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 858,
+      "坐标": {
+       "纬度": 35.778022,
+       "经度": 139.772009
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/12298788747",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "エネオス",
+       "英文": "ENEOS",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=fuel",
+      "距车站m": 872,
+      "坐标": {
+       "纬度": 35.782106,
+       "经度": 139.772653
+      },
+      "地址": null,
+      "官网": "http://www.noe.jx-group.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-3-38961949",
+      "开放时间": "Mo-Sa 07:00-22:00; Su,PH 08:00-20:00",
+      "OSM编号": "node/1986202422",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブンイレブン 足立本木2丁目店",
+       "英文": "Seven-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 878,
+      "坐标": {
+       "纬度": 35.771348,
+       "经度": 139.78442
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040588999",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ギャラクシティ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 883,
+      "坐标": {
+       "纬度": 35.780192,
+       "经度": 139.791114
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11345574826",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
+    "宿泊": [
+     {
+      "名称": {
+       "日文": "Hotel Zero",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "宿泊",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "细分": {
+       "日文": "宿",
+       "英文": "Lodging",
+       "中文": "住宿"
+      },
+      "OSM类别": "tourism=hotel",
+      "距车站m": 716,
+      "坐标": {
+       "纬度": 35.779838,
+       "经度": 139.77361
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/2383907523",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ]
+   },
+   "統計": {
+    "観光・名所案内": 11,
+    "文化・公共施設": 6,
+    "買い物・商店街": 18,
+    "便民公共服务": 26,
+    "交通接続": 22,
+    "宿泊": 1
+   },
+   "_駅周辺リンク": [
+    [
+     "總持寺 (足立区)",
+     "總持寺"
+    ],
+    [
+     "東京都道318号環状七号線",
+     "環七通り"
+    ],
+    [
+     "西新井警察署",
+     "西新井警察署"
+    ],
+    [
+     "足立区役所",
+     "足立区役所"
+    ],
+    [
+     "郵便局",
+     "郵便局"
+    ],
+    [
+     "東武ストア",
+     "東武ストア"
+    ],
+    [
+     "大内病院",
+     "大内病院"
+    ],
+    [
+     "西新井病院",
+     "西新井病院"
+    ],
+    [
+     "オーケー",
+     "オーケー"
+    ],
+    [
+     "マルエツ",
+     "マルエツ"
+    ]
+   ],
+   "データ品質": {
+    "座標": "OSM",
+    "OSM施設数": 133,
+    "ウィキ_only数": 7,
+    "駅周辺リンク数": 10
+   }
+  },
+  {
+   "车站ID": "東武大師線#2",
+   "名称": {
+    "日文": "西新井駅",
+    "日文原名": "西新井",
+    "英文": "Nishiarai Station",
+    "中文": "西新井站",
+    "词条": "西新井駅",
+    "读音": "にしあらいえき",
+    "罗马字": "Nishiarai"
+   },
+   "所属线路": {
+    "日文": "東武大師線"
+   },
+   "位置": {
+    "坐标": {
+     "纬度": 35.777253,
+     "经度": 139.790321,
+     "出处": "OpenStreetMap n3558446594 (public_transport=station,railway=station)"
+    },
+    "坐标可用": true
+   },
+   "车站条目": {
+    "链接": "https://ja.wikipedia.org/wiki/西新井駅",
+    "首段": {
+     "日文": "{{駅情報\n|社色 = #0f6cc3\n|文字色 =\n|駅名 = 西新井駅\n|画像 = 西新井駅西口.jpg\n|pxl = 300\n|画像説明 = 旧西口（2016年8月16日）\n|地図 =\n|よみがな = にしあらい\n|ローマ字 = Nishiarai\n|電報略号 = ニシ\n|駅番号 =\n|所属事業者 =\n|所在地 =   西新井栄町二丁目1-1\n|座標 =\n|開業年月日 =  （ 32年）\n|駅構造 =\n|ホーム = 3面6線\n|廃止年月日 =\n|乗降人員 = 64,709\n|統計年度 = 2025年\n|乗入路線数 = 2\n|所属路線1 =   （東武スカイツリーライン）\n|前の駅1 = TS 12\n|駅間A1 = 0.8\n|駅間B1 = 2.1\n|次の駅1 =   TS 14\n|キロ程1 = 11.3\n|起点駅1 =\n|所属路線2 =\n|前の駅2 =\n|駅間A2 =\n|駅間B2 = 1.0\n|次の駅2 =   TS 51\n|キロ程2 = 0.0\n|起点駅2 = 西新井\n|備考 =\n}}\n西新井駅（にしあらいえき）は、   二丁目にある、 の である。 はTS 13。\nと が乗り入れている。伊勢崎線は「東武スカイツリーライン」の愛称区間に含まれている。大師線は当駅が である。",
+     "英文": null,
+     "中文": null
+    },
+    "駅周辺原文": {
+     "日文": "関東の三大師の一つ、西新井大師（総持寺）は西へ約1&nbsp;km離れており、大師線の大師前駅が最寄駅となる。2004年3月には東口にエレベーターが新設され、同時にトスカ東館・旧西館店舗部分の小改造が行われ、店舗内エレベーターを使用して東西自由通路を24時間通行可能になった。\n北側の竹ノ塚・大師前寄りの線路を東京都道318号環状七号線（環七通り）が跨いでいる（西新井陸橋）。西口周辺では、日清紡東京工場跡地を中心とした再開発事業が行われた（西新井ヌーヴェル）。自由通路には、トスカ系列の売店の他、ファミリーマートなどがある。西口は大きなバスターミナルとなっている。\n西新井栄町付近では、複合都市開発が行われた。\n=== 西口 ===\n* パサージオ西新井\n**ブックオフ\n**しまむら\n**まいばすけっと\n* アリオ西新井\n* セントラルウェルネスクラブ西新井\n** THE SPA 西新井\n* ヨークプライス西新井店\n* 西新井警察署\n* 西新井駅前郵便局\n* 西新井税務署\n* 足立都税事務所\n* 博慈会記念総合病院\n*慈英会病院\n*東京洪誠病院\n* 西新井病院\n* タクシー乗り場\n* 足立区立亀田小学校\n* 足立区立栗原小学校\n*足立区立第七中学校\n* 都市農業公園\n* オリンピック 関原店\n* ドン・キホーテ 西新井駅前店\n* 堀田湯\n=== 東口 ===\n* トスカ東館\n* イオン西新井店\n** コナミスポーツクラブ西新井\n** ノジマ\n* エニタイムフィットネス西新井店\n* 西新井住宅公園\n* ギャラクシティ\n** 西新井文化ホール\n** 足立区こども科学館\n* みずほ銀行足立支店\n* 足立区立梅島第一小学校\n*足立区立島根小学校\n*足立区立第十中学校\n* 成仁病院\n* ヤマダデンキテックランド足立店\n* エンブレムホステル西新井"
+    }
+   },
+   "交通接続メモ": {
+    "バス路線原文": {
+     "日文": "<!-- プロジェクト:鉄道#バス路線の記述法に基づき、経由地については省略して記載しています。-->\n足立区コミュニティバスはるかぜを含む路線バスが発着する。運行事業者は東武バスセントラル、東京都交通局、国際興業バス、日立自動車交通の計4社局である。\n=== 西新井駅西口 ===\n{|class=\"wikitable\" style=\"font-size:80%;\"\n!のりば!!系統!!行先!!運行事業者!!営業所!!備考\n|-\n! rowspan=\"3\" |1\n| rowspan=\"2\" |西01||皿沼循環|| rowspan=\"7\" |東武バスセントラル|| rowspan=\"5\" |足立||\n|-\n||鹿浜中学校||終車時間帯のみ\n|-\n|西08||東京女子医大足立医療センター||\n|-\n! rowspan=\"4\" |2\n|西04|| rowspan=\"2\" |竹の塚車庫||\n|-\n|西02||本数少\n|-\n|北03|| rowspan=\"2\" |北千住駅|| rowspan=\"2\" |西新井||西新井大師バス停が始発\n|-\n|北04||当バス停が始発\n|-\n! rowspan=\"3\" |3\n| rowspan=\"2\" |王40甲||池袋駅東口|| rowspan=\"3\" |都営バス||rowspan=\"3\"|北|| rowspan=\"3\" |停留所名は「西新井駅前」\n|-\n|豊島五丁目団地\n|-\n||王40出入||北車庫前\n|-\n! rowspan=\"2\" |4\n|赤27||赤羽駅東口|| rowspan=\"3\" |国際興業バス||rowspan=\"3\"|赤羽||深夜バス運行\n|-\n||赤27-2||赤羽車庫||出入庫、深夜バス運行\n|-\n!5\n|赤23||赤羽駅東口|||\n|-\n! rowspan=\"2\" |6\n|北03||西新井大師||rowspan=\"2\"|東武バスセントラル||rowspan=\"2\"|西新井||\n|-\n||深夜31||王子駅|||深夜バス運行 ※運休中\n|-\n|}\n=== 西新井駅東口 ===\n1番のりばは環七西新井陸橋下、2番のりばは西新井トスカ前にある。\n{| class=\"wikitable\" style=\"font-size:80%;\"\n!のりば!!系統!!行先!!運行事業者!!営業所!!備考\n|-\n! rowspan=\"3\" |1\n|西05・西06||鹿浜都市農業公園|| rowspan=\"3\" |東武バスセントラル|| rowspan=\"2\" |西新井|| rowspan=\"2\" |【はるかぜ4号】\n|-\n|西05||足立区役所\n|-\n|竹14||花畑桑袋団地\n|草加\n|本数少\n|-\n! rowspan=\"2\" |2\n|<nowiki>-</nowiki>||綾瀬駅東口|| rowspan=\"2\" |日立自動車交通|| rowspan=\"2\" |本社||【はるかぜ1号】\n|-\n| -||亀有駅南口||【はるかぜ12号】\n|}\n=== 西新井陸橋 ===\n旧西新井警察署前、西口徒歩7分環七通り上。西口ロータリー整備前は国際興業の路線の大半はここで折り返していた。\n西新井駅西口・西新井駅前行は割愛する。\n{| class=\"wikitable\" style=\"font-size:80%;\"\n!のりば!!系統!!行先!!運行事業者!!営業所!!備考\n|-\n! rowspan=\"3\" |-\n| 王30||王子駅||東武バスセントラル||葛飾||本数少\n|-\n|王49・王49折返||王子駅前|| rowspan=\"2\" |都営バス|| rowspan=\"2\" |千住||\n|-\n|王49折返||東京女子医大足立医療センター||平日のみ運行\n|-\n! rowspan=\"3\" |-\n|王30||亀有駅北口||東武バスセントラル||葛飾||本数少\n|-\n|王49||千住車庫前|| rowspan=\"2\" |都営バス|| rowspan=\"2\" |千住||\n|-\n|王49折返||足立区役所||\n|}"
+    }
+   },
+   "公式リンク": [
+    "http://www.tobu.co.jp/file/pdf/017af1e69f2ac63a8b2dea3d14de7a49/120209_1.pdf",
+    "https://www.tobu.co.jp/cms-pdf/news/20260216100340T4PC06Tsi6EcZl5x_1J3Fw.pdf|format=PDF|accessdate=2026-02-18|archivedate=2026-02-18|archiveurl=https://web.archive.org/web/20260218114536/https://www.tobu.co.jp/cms-pdf/news/20260216100340T4PC06Tsi6EcZl5x_1J3Fw.pdf",
+    "https://www.tobu.co.jp/railway/guide/station/insidemap/1304/",
+    "https://toyokeizai.net/articles/-/354635",
+    "https://www.tobu.co.jp/news/3199/",
+    "https://www.tobu.co.jp/railway/guide/station/inside_shop_detail/22/",
+    "https://shueisha.online/articles/-/256453|title=〈最後の一杯〉駅ホーム「立ち食いラーメン」の名店が閉店…ホームドア時代に消える“昭和の風景”の終幕にファンは「地元の名店がなくなるのは寂しい」|publisher=集英社オンライン|date=2026-02-07|accessdate=2026-02-07",
+    "https://www.train-media.net/report.html",
+    "https://www.tobu.co.jp/corporation/rail/station_info/#isesaki|title=駅情報（乗降人員）|publisher=東武鉄道|accessdate=2024-12-17",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/1998/TOBB510J.pdf",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/1999/TOBB510K.pdf",
+    "https://www.toukei.metro.tokyo.lg.jp/tnenkan/2000/00qyti0510u.htm"
+   ],
+   "分区": {
+    "観光・名所案内": [
+     {
+      "名称": {
+       "日文": "是ヨリ左 旧奥州街道",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 730,
+      "坐标": {
+       "纬度": 35.7837,
+       "经度": 139.791836
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q114567432",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10065859464",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "フレール西新井第一",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 783,
+      "坐标": {
+       "纬度": 35.779863,
+       "经度": 139.782262
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6602935979",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ベルモントパークギャラリー",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "OSM类别": "tourism=gallery",
+      "距车站m": 854,
+      "坐标": {
+       "纬度": 35.774817,
+       "经度": 139.799302
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/12175719530",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "第2サンライトマンション",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 889,
+      "坐标": {
+       "纬度": 35.777289,
+       "经度": 139.78047
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6605001938",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井本町一丁目アパート",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 896,
+      "坐标": {
+       "纬度": 35.776246,
+       "经度": 139.780468
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6605001958",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井本町一丁目アパート",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "観光案内所",
+       "英文": "Tourist information",
+       "中文": "旅游咨询处"
+      },
+      "OSM类别": "tourism=information",
+      "距车站m": 896,
+      "坐标": {
+       "纬度": 35.775839,
+       "经度": 139.780539
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6605002010",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井大師",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/總持寺_(足立区)",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "總持寺 (足立区)"
+     },
+     {
+      "名称": {
+       "日文": "エレベーター",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/エレベーター",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "エレベーター"
+     },
+     {
+      "名称": {
+       "日文": "東京都道318号環状七号線",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/東京都道318号環状七号線",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "東京都道318号環状七号線"
+     },
+     {
+      "名称": {
+       "日文": "再開発",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/都市再開発",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "都市再開発"
+     },
+     {
+      "名称": {
+       "日文": "西新井ヌーヴェル",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/西新井ヌーヴェル",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "西新井ヌーヴェル"
+     },
+     {
+      "名称": {
+       "日文": "しまむら",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/しまむら",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "しまむら"
+     },
+     {
+      "名称": {
+       "日文": "アリオ西新井",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/アリオ西新井",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "アリオ西新井"
+     },
+     {
+      "名称": {
+       "日文": "セントラルウェルネスクラブ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/セントラルスポーツ",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "セントラルスポーツ"
+     },
+     {
+      "名称": {
+       "日文": "ヨークプライス",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/ザ・プライス",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "ザ・プライス"
+     },
+     {
+      "名称": {
+       "日文": "タクシー",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/日本のタクシー",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "日本のタクシー"
+     },
+     {
+      "名称": {
+       "日文": "オリンピック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/Olympicグループ",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "Olympicグループ"
+     },
+     {
+      "名称": {
+       "日文": "堀田湯",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/堀田湯",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "堀田湯"
+     },
+     {
+      "名称": {
+       "日文": "イオン西新井店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/イオン西新井店",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "イオン西新井店"
+     },
+     {
+      "名称": {
+       "日文": "コナミスポーツクラブ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/コナミスポーツクラブ",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "コナミスポーツクラブ"
+     },
+     {
+      "名称": {
+       "日文": "ノジマ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/ノジマ",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "ノジマ"
+     },
+     {
+      "名称": {
+       "日文": "エニタイムフィットネス",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/エニタイムフィットネス",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "エニタイムフィットネス"
+     },
+     {
+      "名称": {
+       "日文": "ヤマダデンキ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "観光・名所案内",
+       "英文": "Sights & Landmarks",
+       "中文": "观光·名胜"
+      },
+      "细分": {
+       "日文": "名所",
+       "英文": "Tourist attraction",
+       "中文": "旅游景点"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/ヤマダデンキ",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "ヤマダデンキ"
+     }
+    ],
+    "文化・公共施設": [
+     {
+      "名称": {
+       "日文": "まるちたいけんドーム",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=planetarium",
+      "距车站m": 276,
+      "坐标": {
+       "纬度": 35.779732,
+       "经度": 139.790313
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6533745696",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井文化ホール",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "劇場映画",
+       "英文": "Theatre / cinema",
+       "中文": "影院剧场"
+      },
+      "OSM类别": "amenity=theatre",
+      "距车站m": 294,
+      "坐标": {
+       "纬度": 35.779885,
+       "经度": 139.790679
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6533745695",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井栄町住区センター",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 644,
+      "坐标": {
+       "纬度": 35.774786,
+       "经度": 139.78386
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1655926854",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井栄町児童館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 646,
+      "坐标": {
+       "纬度": 35.774741,
+       "经度": 139.783866
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420797743",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "東京マリン 西新井スイミング",
+       "英文": "Tokyo Marine",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "スポーツ",
+       "英文": "Sports facility",
+       "中文": "体育设施"
+      },
+      "OSM类别": "leisure=sports_centre",
+      "距车站m": 760,
+      "坐标": {
+       "纬度": 35.782725,
+       "经度": 139.78528
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/4977254723",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "梅島児童館",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 838,
+      "坐标": {
+       "纬度": 35.775441,
+       "经度": 139.799332
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420786614",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "島根児童館",
+       "英文": "Shimane Children's Hall",
+       "中文": null
+      },
+      "类别": {
+       "日文": "文化・公共施設",
+       "英文": "Culture & Public Facilities",
+       "中文": "文化·公共设施"
+      },
+      "细分": {
+       "日文": "文化施設",
+       "英文": "Cultural facility",
+       "中文": "文化设施"
+      },
+      "OSM类别": "amenity=community_centre",
+      "距车站m": 839,
+      "坐标": {
+       "纬度": 35.78274,
+       "经度": 139.796703
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420777157",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
+    "買い物・商店街": [
+     {
+      "名称": {
+       "日文": "ファミリーマート",
+       "英文": "FamilyMart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 19,
+      "坐标": {
+       "纬度": 35.777216,
+       "经度": 139.790528
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10065848095",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "FamilyMart",
+       "英文": "FamilyMart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 70,
+      "坐标": {
+       "纬度": 35.777879,
+       "经度": 139.7904
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6533249728",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ドン・キホーテ",
+       "英文": "Don Quijote",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=variety_store",
+      "距车站m": 88,
+      "坐标": {
+       "纬度": 35.776549,
+       "经度": 139.789884
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/ドン・キホーテ",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "24/7",
+      "OSM编号": "node/6536774143",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "AEON",
+       "英文": "AEON",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 91,
+      "坐标": {
+       "纬度": 35.777551,
+       "经度": 139.791266
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1993656823",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 105,
+      "坐标": {
+       "纬度": 35.777129,
+       "经度": 139.789169
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6536774190",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "まいばすけっと",
+       "英文": "My Basket",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 148,
+      "坐标": {
+       "纬度": 35.777777,
+       "经度": 139.788813
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10083180206",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "デイリーヤマザキ",
+       "英文": "Daily Yamazaki",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 161,
+      "坐标": {
+       "纬度": 35.775962,
+       "经度": 139.789521
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5709509222",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ブックオフ",
+       "英文": "Book Off",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=books",
+      "距车站m": 162,
+      "坐标": {
+       "纬度": 35.775837,
+       "经度": 139.789904
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/ブックオフコーポレーション",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/8377994920",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "デイリーヤマザキ",
+       "英文": "Daily Yamazaki",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 178,
+      "坐标": {
+       "纬度": 35.776286,
+       "经度": 139.788742
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1991926082",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "まいばすけっと",
+       "英文": "My Basket",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 179,
+      "坐标": {
+       "纬度": 35.775715,
+       "经度": 139.789724
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/まいばすけっと",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": "Mo-Su 07:00-22:00; PH open",
+      "OSM编号": "node/9675906261",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セリア",
+       "英文": "Seria",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=variety_store",
+      "距车站m": 184,
+      "坐标": {
+       "纬度": 35.775629,
+       "经度": 139.789912
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/9675906260",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ローソン",
+       "英文": "Lawson",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 346,
+      "坐标": {
+       "纬度": 35.780334,
+       "经度": 139.789792
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6533745707",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 389,
+      "坐标": {
+       "纬度": 35.774012,
+       "经度": 139.788697
+      },
+      "地址": null,
+      "官网": "https://www.sej.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 3-3852-0708",
+      "开放时间": "24/7",
+      "OSM编号": "node/3782569658",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "イトーヨーカドー",
+       "英文": "Ito-Yokado",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=supermarket",
+      "距车站m": 447,
+      "坐标": {
+       "纬度": 35.775146,
+       "经度": 139.786097
+      },
+      "地址": null,
+      "官网": "https://www.itoyokado.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81-3-38529111",
+      "开放时间": "Mo-Su 10:00-22:00",
+      "OSM编号": "node/1990491493",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "FamilyMart",
+       "英文": "FamilyMart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 512,
+      "坐标": {
+       "纬度": 35.775641,
+       "经度": 139.785001
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5469182920",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 555,
+      "坐标": {
+       "纬度": 35.777885,
+       "经度": 139.784216
+      },
+      "地址": null,
+      "官网": "https://www.sej.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 3-3852-2092",
+      "开放时间": "24/7",
+      "OSM编号": "node/3782518051",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "入澤工務店",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "工房",
+       "英文": "Workshop",
+       "中文": "工坊"
+      },
+      "OSM类别": "craft=carpenter",
+      "距车站m": 611,
+      "坐标": {
+       "纬度": 35.781822,
+       "经度": 139.794078
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10065864869",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブン-イレブン",
+       "英文": "7-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "買い物・商店街",
+       "英文": "Shopping & Shopping Streets",
+       "中文": "购物·商店街"
+      },
+      "细分": {
+       "日文": "店舗",
+       "英文": "Shop",
+       "中文": "商铺"
+      },
+      "OSM类别": "shop=convenience",
+      "距车站m": 623,
+      "坐标": {
+       "纬度": 35.771991,
+       "经度": 139.792702
+      },
+      "地址": null,
+      "官网": "https://www.sej.co.jp/",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": "+81 3-5681-6272",
+      "开放时间": "24/7",
+      "OSM编号": "node/3782792984",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
+    "便民公共服务": [
+     {
+      "名称": {
+       "日文": "西川歯科医院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 29,
+      "坐标": {
+       "纬度": 35.777465,
+       "经度": 139.790504
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10065859186",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井警察署 西新井駅前交番",
+       "英文": "Koban",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 61,
+      "坐标": {
+       "纬度": 35.776872,
+       "经度": 139.789838
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420797763",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "アース皮ふ科クリニック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=doctors",
+      "距车站m": 77,
+      "坐标": {
+       "纬度": 35.7767,
+       "经度": 139.789813
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10082992301",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "みずほ銀行",
+       "英文": "Mizuho Bank",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 90,
+      "坐标": {
+       "纬度": 35.77805,
+       "经度": 139.790513
+      },
+      "地址": null,
+      "官网": "https://www.mizuhobank.co.jp/",
+      "维基百科": "https://ja.wikipedia.org/wiki/みずほ銀行",
+      "Wikidata": null,
+      "电话": "+81-3-38895151",
+      "开放时间": "Mo-Fr 09:00-15:00",
+      "OSM编号": "node/2001248280",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "足立成和信用金庫",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=atm",
+      "距车站m": 104,
+      "坐标": {
+       "纬度": 35.776375,
+       "经度": 139.789938
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6536774144",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井デンタルクリニック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 112,
+      "坐标": {
+       "纬度": 35.776242,
+       "经度": 139.790361
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10082992311",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井ホリ歯科",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 116,
+      "坐标": {
+       "纬度": 35.778187,
+       "经度": 139.790901
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10065890746",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "足立成和信用金庫",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 145,
+      "坐标": {
+       "纬度": 35.77856,
+       "经度": 139.790358
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6533611279",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "東日本銀行",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "金融",
+       "英文": "Bank / ATM",
+       "中文": "银行·ATM"
+      },
+      "OSM类别": "amenity=bank",
+      "距车站m": 148,
+      "坐标": {
+       "纬度": 35.778121,
+       "经度": 139.791572
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10065890745",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "慈英会病院",
+       "英文": "Jieikai Hospital",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=clinic",
+      "距车站m": 195,
+      "坐标": {
+       "纬度": 35.777355,
+       "经度": 139.788167
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420780366",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "こでまり薬局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 197,
+      "坐标": {
+       "纬度": 35.777164,
+       "经度": 139.788135
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/10082972552",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "足立都税事務所",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=government",
+      "距车站m": 205,
+      "坐标": {
+       "纬度": 35.77797,
+       "经度": 139.788224
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420797749",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "足立区障害福祉センター",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 236,
+      "坐标": {
+       "纬度": 35.777467,
+       "经度": 139.792924
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6533249743",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "東京洪誠病院",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=clinic",
+      "距车站m": 259,
+      "坐标": {
+       "纬度": 35.775076,
+       "经度": 139.789313
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6534770334",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "クリエイトSD",
+       "英文": "Create SD",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=pharmacy",
+      "距车站m": 330,
+      "坐标": {
+       "纬度": 35.774784,
+       "经度": 139.792345
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6536944761",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "しまねっ子学童保育室",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 366,
+      "坐标": {
+       "纬度": 35.780135,
+       "经度": 139.792284
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6533249906",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "来迎寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 395,
+      "坐标": {
+       "纬度": 35.779871,
+       "经度": 139.793277
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:来迎寺 (足立区)",
+      "Wikidata": "https://www.wikidata.org/wiki/Q97203051",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6533249826",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井警察署",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "行政警察",
+       "英文": "Town hall / police",
+       "中文": "区政府·警察"
+      },
+      "OSM类别": "amenity=police",
+      "距车站m": 433,
+      "坐标": {
+       "纬度": 35.773474,
+       "经度": 139.789149
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/西新井警察署",
+      "Wikidata": "https://www.wikidata.org/wiki/Q11628306",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/2561707439",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "足立西新井栄町郵便局",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "郵便局",
+       "英文": "Post office",
+       "中文": "邮局"
+      },
+      "OSM类别": "amenity=post_office",
+      "距车站m": 455,
+      "坐标": {
+       "纬度": 35.773167,
+       "经度": 139.790595
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420798549",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "満願寺",
+       "英文": "Mangan-ji Temple",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 480,
+      "坐标": {
+       "纬度": 35.778582,
+       "经度": 139.785254
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:満願寺 (足立区)",
+      "Wikidata": "https://www.wikidata.org/wiki/Q85882148",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6605665125",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "岩崎歯科クリニック",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=dentist",
+      "距车站m": 617,
+      "坐标": {
+       "纬度": 35.781394,
+       "经度": 139.785767
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/5468716103",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "梅島住区センター",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 620,
+      "坐标": {
+       "纬度": 35.773374,
+       "经度": 139.795263
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1655914905",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "東京国税局西新井税務署",
+       "英文": "Nishi-Arai Tax Office",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "オフィス",
+       "英文": "Government office",
+       "中文": "政务办公"
+      },
+      "OSM类别": "office=government",
+      "距车站m": 630,
+      "坐标": {
+       "纬度": 35.778866,
+       "经度": 139.783622
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1420783162",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "栗原氷川神社",
+       "英文": "Kurihara Hikawa-jinja Shrine",
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 641,
+      "坐标": {
+       "纬度": 35.782956,
+       "经度": 139.791328
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": "https://www.wikidata.org/wiki/Q114401040",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6533745959",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井栄荘",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "医療",
+       "英文": "Medical",
+       "中文": "医疗"
+      },
+      "OSM类别": "amenity=social_facility",
+      "距车站m": 650,
+      "坐标": {
+       "纬度": 35.7747,
+       "经度": 139.783844
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/1655926893",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "国土安穏寺",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "便民公共服务",
+       "英文": "Public Services",
+       "中文": "便民公共服务"
+      },
+      "细分": {
+       "日文": "その他公共",
+       "英文": "Other public amenity",
+       "中文": "其他公共设施"
+      },
+      "OSM类别": "amenity=place_of_worship",
+      "距车站m": 662,
+      "坐标": {
+       "纬度": 35.781759,
+       "经度": 139.795109
+      },
+      "地址": null,
+      "官网": null,
+      "维基百科": "ja:国土安穏寺",
+      "Wikidata": "https://www.wikidata.org/wiki/Q30926116",
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/6531924804",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     }
+    ],
+    "交通接続": [
+     {
+      "名称": {
+       "日文": "西新井栄町2丁目駐輪場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 118,
+      "坐标": {
+       "纬度": 35.777641,
+       "经度": 139.789106
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/12298788582",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "タイムズ島根3丁目",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 231,
+      "坐标": {
+       "纬度": 35.7787,
+       "经度": 139.792154
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13190051664",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブンイレブン 西新井駅東店",
+       "英文": "Seven-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 326,
+      "坐标": {
+       "纬度": 35.774943,
+       "经度": 139.792552
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040589245",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ギャラクシティ",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 335,
+      "坐标": {
+       "纬度": 35.780192,
+       "经度": 139.791114
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": "https://ja.wikipedia.org/wiki/ギャラクシティ",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11345574826",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)",
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井自転車駐輪場",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 409,
+      "坐标": {
+       "纬度": 35.774763,
+       "经度": 139.793652
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040589427",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "足立区西新井栄町２丁目",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 487,
+      "坐标": {
+       "纬度": 35.77753,
+       "经度": 139.78493
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13190052004",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "TOKYO B 大師前6",
+       "英文": "TOKYO Beta",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 560,
+      "坐标": {
+       "纬度": 35.778748,
+       "经度": 139.784397
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/12298788693",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ファミリーマート 島根四丁目店",
+       "英文": "FamilyMart",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 648,
+      "坐标": {
+       "纬度": 35.782654,
+       "经度": 139.793015
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040589465",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "エイブルパーキング梅島3丁目",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 650,
+      "坐标": {
+       "纬度": 35.775006,
+       "经度": 139.796975
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13722933763",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ネオインドアテニス西新井",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 683,
+      "坐标": {
+       "纬度": 35.773701,
+       "经度": 139.784143
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13190051748",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "梅島第１駐輪場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 699,
+      "坐标": {
+       "纬度": 35.773318,
+       "经度": 139.79637
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11182252596",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井栄町3丁目",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 728,
+      "坐标": {
+       "纬度": 35.777871,
+       "经度": 139.78229
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13722933762",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ローソン 足立梅島二丁目店",
+       "英文": "Lawson",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 731,
+      "坐标": {
+       "纬度": 35.778404,
+       "经度": 139.798302
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040588892",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ソラリス西新井",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 749,
+      "坐标": {
+       "纬度": 35.783414,
+       "经度": 139.786951
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/13190051641",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "西新井蓮沼公園",
+       "英文": "HELLO CYCLING",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 750,
+      "坐标": {
+       "纬度": 35.779798,
+       "经度": 139.782621
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/12477719247",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "ベルモント公園(1)",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 777,
+      "坐标": {
+       "纬度": 35.774969,
+       "经度": 139.798465
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040588677",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "セブンイレブン 足立本木2丁目店",
+       "英文": "Seven-Eleven",
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 845,
+      "坐标": {
+       "纬度": 35.771348,
+       "经度": 139.78442
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040588999",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "大師前自転車駐車場",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "自動車関連",
+       "英文": "Parking / fuel / bike hire",
+       "中文": "停车·加油·共享单车"
+      },
+      "OSM类别": "amenity=bicycle_rental",
+      "距车站m": 852,
+      "坐标": {
+       "纬度": 35.779916,
+       "经度": 139.781465
+      },
+      "地址": null,
+      "官网": "https://www.hellocycling.jp",
+      "维基百科": null,
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": "node/11040589425",
+      "来源": [
+       "OpenStreetMap (Japan extract, ODbL)"
+      ]
+     },
+     {
+      "名称": {
+       "日文": "大師前駅",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "鉄道駅",
+       "英文": "Railway station",
+       "中文": "铁路车站"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/大師前駅",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "大師前駅"
+     },
+     {
+      "名称": {
+       "日文": "バスターミナル",
+       "英文": null,
+       "中文": null
+      },
+      "类别": {
+       "日文": "交通接続",
+       "英文": "Transport Connections",
+       "中文": "交通换乘"
+      },
+      "细分": {
+       "日文": "その他交通",
+       "英文": "Other transport",
+       "中文": "其他交通"
+      },
+      "距车站m": null,
+      "坐标": null,
+      "地址": null,
+      "官网": null,
+      "维基百科": "https://ja.wikipedia.org/wiki/バスターミナル",
+      "Wikidata": null,
+      "电话": null,
+      "开放时间": null,
+      "OSM编号": null,
+      "来源": [
+       "日本語ウィキペディア「西新井駅」記事「駅周辺」欄（CC BY-SA 4.0）"
+      ],
+      "_title": "バスターミナル"
+     }
+    ],
+    "宿泊": []
+   },
+   "統計": {
+    "観光・名所案内": 23,
+    "文化・公共施設": 7,
+    "買い物・商店街": 18,
+    "便民公共服务": 26,
+    "交通接続": 20,
+    "宿泊": 0
+   },
+   "_駅周辺リンク": [
+    [
+     "總持寺 (足立区)",
+     "西新井大師"
+    ],
+    [
+     "大師前駅",
+     "大師前駅"
+    ],
+    [
+     "エレベーター",
+     "エレベーター"
+    ],
+    [
+     "東京都道318号環状七号線",
+     "東京都道318号環状七号線"
+    ],
+    [
+     "日清紡ホールディングス",
+     "日清紡"
+    ],
+    [
+     "都市再開発",
+     "再開発"
+    ],
+    [
+     "西新井ヌーヴェル",
+     "西新井ヌーヴェル"
+    ],
+    [
+     "ファミリーマート",
+     "ファミリーマート"
+    ],
+    [
+     "バスターミナル",
+     "バスターミナル"
+    ],
+    [
+     "ブックオフコーポレーション",
+     "ブックオフ"
+    ],
+    [
+     "しまむら",
+     "しまむら"
+    ],
+    [
+     "まいばすけっと",
+     "まいばすけっと"
+    ],
+    [
+     "アリオ西新井",
+     "アリオ西新井"
+    ],
+    [
+     "セントラルスポーツ",
+     "セントラルウェルネスクラブ"
+    ],
+    [
+     "ザ・プライス",
+     "ヨークプライス"
+    ],
+    [
+     "西新井警察署",
+     "西新井警察署"
+    ],
+    [
+     "博慈会記念総合病院",
+     "博慈会記念総合病院"
+    ],
+    [
+     "西新井病院",
+     "西新井病院"
+    ],
+    [
+     "日本のタクシー",
+     "タクシー"
+    ],
+    [
+     "足立区立亀田小学校",
+     "足立区立亀田小学校"
+    ],
+    [
+     "足立区立栗原小学校",
+     "足立区立栗原小学校"
+    ],
+    [
+     "都市農業公園",
+     "都市農業公園"
+    ],
+    [
+     "Olympicグループ",
+     "オリンピック"
+    ],
+    [
+     "ドン・キホーテ (企業)",
+     "ドン・キホーテ"
+    ],
+    [
+     "堀田湯",
+     "堀田湯"
+    ],
+    [
+     "イオン西新井店",
+     "イオン西新井店"
+    ],
+    [
+     "コナミスポーツクラブ",
+     "コナミスポーツクラブ"
+    ],
+    [
+     "ノジマ",
+     "ノジマ"
+    ],
+    [
+     "エニタイムフィットネス",
+     "エニタイムフィットネス"
+    ],
+    [
+     "ギャラクシティ",
+     "ギャラクシティ"
+    ],
+    [
+     "みずほ銀行",
+     "みずほ銀行"
+    ],
+    [
+     "足立区立梅島第一小学校",
+     "足立区立梅島第一小学校"
+    ],
+    [
+     "成仁病院",
+     "成仁病院"
+    ],
+    [
+     "ヤマダデンキ",
+     "ヤマダデンキ"
+    ]
+   ],
+   "データ品質": {
+    "座標": "OSM",
+    "OSM施設数": 117,
+    "ウィキ_only数": 26,
+    "駅周辺リンク数": 34
+   }
+  }
+ ]
+}
