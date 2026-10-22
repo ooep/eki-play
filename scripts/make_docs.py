@@ -75,6 +75,9 @@ def main():
     cur_site = 0
     cur_hand = 0
     cur_hand_recs = 0
+    cur_hand_rows = []
+    _qa = os.path.join(OUT, "docs", "qa", "curated_audit.json")
+    qauto = json.load(open(_qa, encoding="utf-8")).get("自動抽出層", {}) if os.path.exists(_qa) else {}
     for p in cur_files:
         try:
             c = json.load(open(p, encoding="utf-8"))
@@ -87,11 +90,18 @@ def main():
         if c.get("人手確認") is True:
             cur_hand += 1
             cur_hand_recs += n
+            _sr = c.get("検索记录") or {}
+            _op = _sr.get("使用した出典URL") or _sr.get("実際に開いた出典") or []
+            cur_hand_rows.append((os.path.join(os.path.basename(os.path.dirname(p)),
+                                               os.path.basename(p)), n, len(_op)))
         cur_dirs[os.path.basename(os.path.dirname(p))] += 1
         for k in ("观光景点", "名所案内", "公共服务", "交通", "购物", "美食", "无障碍"):
             for r in c.get(k) or []:
                 if isinstance(r, dict) and r.get("官网"):
                     cur_site += 1
+    hand_names = "・".join(os.path.splitext(os.path.basename(r[0]))[0] for r in cur_hand_rows)
+    hand_detail = "／".join("%s：%d レコード・開いた URL %d 件" % (os.path.splitext(os.path.basename(r[0]))[0], r[1], r[2])
+                           for r in cur_hand_rows)
     lines = [
         f"# データカバー率 / 数据覆盖率 (auto-generated {DAY})",
         "",
@@ -152,10 +162,14 @@ def main():
         "## 既知の限界 / 已知局限 / Known limitations",
         "",
         "- **自動生成データ**です。人間が書いた旅行ガイドではありません。各レコードは `来源` フィールドに出典を明記しています。",
-        "- 加精層の自己申告検証（`scripts/audit_curated.py`／一括集計 `scripts/qa_curated.py` → `docs/qa/curated_audit.json`）の実測値を公開しています。"
-        "`人手確認: true` の 4 駅（金沢・松本・高山・札幌、計 62 レコード）は、引用した全 URL が実際に開いた URL 一覧（または本文を開かず宣言）と対応することを確認済みです。"
-        "一方、自動抽出＋到達検証みの 198 駅には既知の未整理が残ります：検索记录 が空のファイル 14、Wikipedia を引用しているのに 使用した出典URL へ未登録の駅 182、"
-        "英語欄に日本語表記が混じる駅 138（該当フィールド 260）、15字未満の 简介／原文要旨 16。これらは『検証済み』ではなく『未手当て』として数値で公開し、Phase B で駅ごとに潰します。",
+        '- 加精層の自己申告検証（`scripts/audit_curated.py`／一括集計 `scripts/qa_curated.py` → `docs/qa/curated_audit.json`）の実測値を公開しています。'
+        ' `人手確認: true` の %d 駅（%s、計 %s レコード）は、引用した全 URL が実際に開いた URL 一覧（または本文を開かず宣言）と対応することを確認済みです。内訳：%s。' % (
+            cur_hand, hand_names, "{:,}".format(cur_hand_recs), hand_detail) +
+        ' 一方、自動抽出＋到達検証みの %s 駅には既知の未整理が残ります：検索记录 が空のファイル %s、Wikipedia を引用しているのに 使用した出典URL へ未登録の駅 %s、英語欄に日本語表記が混じる駅 %s（該当フィールド %s）、15字未満の 简介／原文要旨 %s。これらは『検証済み』ではなく『未手当て』として数値で公開し、Phase B で駅ごとに潰します。' % (
+            qauto.get("駅数", "-"), qauto.get("検索记录が空のファイル", "-"),
+            qauto.get("Wikipedia を 引用していながら使用した出典URL に無い駅", "-"),
+            qauto.get("英語欄に日本語を含む駅", "-"), qauto.get("同 該当フィールド数", "-"),
+            qauto.get("15字未満の 简介／原文要旨", "-")),
         "- 自動層の公式サイトは **Wikidata P856・OSM の website タグ・日本語版ウィキペディアの外部リンク**から抽出し、HTTP の応答codeで到達確認しました（存在しないサイトの能動検索は自動層では行っていません。手動検索は上の加精層の範囲です）。未収録の施設では `官网` が `null` になります。",
         "- 英文名・中文名は OSM の `name:en` / `name:zh`、Wikidata の多言語ラベル、および中・英ウィキペディアの見出しから取得。**これらに無い場合の機械翻訳は行っていません**（`null` のまま）。",
         "- 距離は駅座標からの**直線距離**（步行距離ではありません）。",
@@ -224,6 +238,7 @@ def main():
         f"同ドメインの打査上限により未検証 {has_site - verified_ok - verified_dead:,} 件は、削除せず**未検証のまま**保持しています。",
         "- 加精層：`人手確認: true` の記録は **実際に本文を読むまで開いたページのみ** を `出典` に記載。到達できなかった"
         "公式（鶴岡八幡宮・久岐神社・鎌倉国宝館・名古屋城 等）と 403 を返すサイト（JR東日本・東京メトロ）は出典にしていません。",
+        " 内訳（人手で本文を開いた公式ページ数）：%s。函館駅は函館市公式観光サイト「はこぶら」と市公式多言語サイト Travel Hakodate（English／简体中文の原文ページ）を併用し、到達不可の運営サイト（函館山ロープウェイ・トラピスチヌ修道院・函館バス・道南バス・函館朝市組合・函館市企業局交通部＝HTTP 000、JR北海道の駅情報ページ＝Soft-404）と、200 を返すが本文がないページ（スクリプト描画のレンタサイクル、単数形 `/spot/` のはこぶらURL）は `検索记录.採用しなかった公式候補` / `本文を開かずリンクのみで記載したURL` に区別して記録しています。" % hand_detail,
         "",
         "## 再現実行",
         "",
@@ -241,6 +256,7 @@ def main():
         "python3 scripts/coord_flag.py             # 差替え根拠の無い駅を警告のみ付与",
         "python3 scripts/curate_gen.py --per-cluster 8",
         "python3 scripts/audit_curated.py 'data/curated/*/*.json'   # 加精層の重複キー・引用URLと開いたURLの対応・英語欄の日本語混入・短文出典を検証",
+        "python3 scripts/qa_curated.py             # 加精層の一括検証 → docs/qa/curated_audit.json（下の make_docs がこの数値を引用）",
         "python3 scripts/make_docs.py              # docs/ と index.json の再生成",
         "```",
     ]
