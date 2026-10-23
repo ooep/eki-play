@@ -1,634 +1,1567 @@
 {
- "车站": "京都駅",
- "车站ID": "jr奈良線#7",
- "线路": "北陆本线",
- "区域": "H-中部北陆",
- "加精日期": "2026-10-22",
- "加精方式": "自動抽出＋出典URL検証（Phase B ビルダー curate_gen.py）",
- "人手確認": false,
- "观光景点": [
-  {
-   "名称": {
-    "日文": "羅城門",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線210m（徒歩目安約3分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": null,
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "OpenStreetMap node/6680911405",
-     "URL": null,
-     "原文要旨": "OSM タグ tourism=attraction 由来。マッピングの生データ。ODbL。"
-    }
-   ]
+  "车站": "京都駅",
+  "车站ID": "東海道本線#48",
+  "线路": "東海道本線（愛称：琵琶湖線・JR京都線）／湖西線／山陰本線（愛称：嵯峨野線）／奈良線／東海道新幹線／近鉄京都線／京都市営地下鉄烏丸線",
+  "线路注記": "本ファイルの 车站ID は自動層 data/lines/东海道本线.json の「東海道本線#48」を正本とした。これは Wikipedia 日本語が「東海道本線 - 当駅の所属線となっている」とする所属線（東海道本線）にあたるIDで、当駅は自動層では15ファイルに分散収録されている：node 7780637510 表記でまとめて収録されたのが 東海道本線#48・東海道新幹線#4・湖西線#3・烏丸線#5・橿原線#8・舞鶴線#6・難波線#6 の7ファイル、node 3340028686 表記なのが jr奈良線#7・北陸本線#7・大阪環状線#10・山陽本線#25・山陰本線#28・赤穂線#7・近鉄京都線#8・近鉄奈良線#10 の8ファイルである。このうち 北陸本線・大阪環状線・山陽本線・赤穂線・近鉄奈良線・橿原線・難波線・舞鶴線 は当駅が線路上の駅として所在しない線区で（北陸本線は米原起点、近鉄の奈良線・橿原線・難波線は大和西大寺・鶴橋側からの直通先、舞鶴線は西舞鶴〜東舞鶴）、自動層が同一駅名を複数ファイルへ配った結果とみられる。実際に当駅へ発着する列車は、JRおでかけネット構内図（200）のりば表に記載された範囲で、在来線は 0番＝湖西線 堅田・近江今津方面・琵琶湖線 大津・草津・米原方面・特急ひだ 高山方面・特急サンダーバード 福井・金沢方面・草津線、2・3番＝湖西線・琵琶湖線、4〜7番＝JR京都線 高槻・大阪・三ノ宮方面（6・7番に関空特急はるか、特急くろしお、スーパーはくと）、8〜10番＝奈良線 東福寺・宇治・奈良方面、30番＝関空特急はるか・山陰線特急 福知山・東舞鶴方面、31〜33番＝嵯峨野線 二条・嵯峨嵐山・亀岡・園部方面、34番＝降車専用ホーム、新幹線は 11・12番＝東海道新幹線 名古屋・東京方面、13・14番＝東海道・山陽新幹線 新大阪・広島・博多方面。構内図の表は「北陸線 特急 サンダーバード」のように他線区名を列車の行先表示として掲出するため、線区名の表示と当駅の所在線区は区別した。线路 欄は Wikipedia 日本語の路線表記（東海道本線 所属線／湖西線／山陰本線 当駅が起点／奈良線 列車運行上当駅が起点／東海道新幹線／近鉄京都線／京都市営地下鉄烏丸線）を根拠とし、上記8線区は除外した（各ファイル側の記載は 検索记录 の 自動層… に残す）。\n自動層の加精ファイル data/curated/H-中部北陆/京都駅.json は 车站ID「jr奈良線#7」なのに 线路「北陆本线」と、IDと路線名が別路線のままで、座標 は null（欠損）。本ファイルではこの2値を継承せず、所属線のID・実測ノード値に置き換えた（詳細は 座標 注記 と 车站信息 注記）。\nなお 近鉄京都線・地下鉄烏丸線 の駅番号（B01・K11）は Wikipedia 中文版と OpenStreetMap の各ノード（ref タグ）で確認できたが、近鉄・市営地下鉄が自社公表する駅ページの本文は本セッションで開いていない（未実施）。",
+  "区域": "H-中部北陆",
+  "座標": {
+    "纬度": 34.9853497,
+    "经度": 135.758766,
+    "出典URL": "https://api.openstreetmap.org/api/0.6/node/267316272",
+    "注記": "採用したのは OpenStreetMap API 0.6 の node 267316272（name=京都、name:ja=京都、railway=station、train=yes、wheelchair=limited、public_transport=station、source=KSJ2、wikidata=Q801046、wikipedia=ja:京都駅、version=43、changeset=140202572、timestamp=2023-08-21T22:23:05Z、lat=34.9853497、lon=135.7587660）。source=KSJ2 は国土数値情報（鉄道データ）由来であることを示すタグで、このノードは wikipedia タグで本駅の日本語記事に結ばれたJR（在来線・新幹線側）の駅ノードである（地図編集者によるデータ＝ODbL 1.0、運営主体の公表ではない）。\n同一名称の駅ノードがほかに2つあり、3ノードは離れている：地下鉄 node 7780637510（operator=京都市交通局、ref=K11、station=subway、wheelchair=yes、version=4・changeset=169004476・2025-07-16T09:53:48Z）= 34.9861909／135.7600629、近鉄 node 3340028686（operator=近畿日本鉄道、network=近鉄京都線、ref=B01、wheelchair=yes、version=33・changeset=184419850・2026-06-22T08:06:37Z）= 34.9847375／135.7576627。pairwise な距離は 約121m（267316272↔3340028686）、約151m（267316272↔7780637510）、約272m（7780637510↔3340028686）で、いずれも wikidata=Q801046／wikipedia=ja:京都駅 に結ばれている。3者とも「京都駅」でありながら別々位置にあるため、本ファイルは所属線（東海道本線）側のノード生値を単一採用し、平均値は作っていない。\n自動層（data/lines/*.json）の京都駅座標 34.985222／135.758731 は15ファイルすべてで同一値ながら、出处 ラベルは node 3340028686（8ファイル）と node 7780637510（7ファイル）に分かれ、どちらのノード生値とも一致しない（3340028686 とは南北約54m・東西約97m、7780637510 とは南北約107m・東西約122m の差）。2ノードの単純平均でもない（平均値は 34.9854642／135.7588628 で実測値と南北約27m・東西約15m ずれる）。姫路・富山で確認した「出典ラベルと数値が対応しない」座標欠陥の同型で、当駅の場合は採用した JR ノードから約14m（南北約14m・東西約3m）しか離れていないため実害は小さいが、ラベルの対応は成立しない。\n自動層では同一ファイル内の隣接 车站ID が路線上の順序になっていない（東海道本线.json の 東海道本線#47＝亘理駅・#49＝仙台駅、北陆本线.json の 北陸本線#5＝三ノ宮駅・#6＝上郡駅・#8＝住吉駅）。つまり末尾の数字は路線上の位置ではなくファイル内配列の指数にすぎず、当駅の「東海道本線#48」も例外ではない。この点は自動層全体の品質注記として残す。\nWikipedia の表記も言語版ごとに違う：日本語版「京都駅」本文は数値座標の掲出が確認できた範囲では無く（本セッションで開いた本文に座標値なし）、English 版は REST API の summary のみ開封（座標値は未取得）、中文（簡体）版も本文から座標値を引用していない。よって本ファイルの座標根拠は OpenStreetMap のノード1本に限定した。\n営業主体側の現住所表記は JRおでかけネット「京都府京都市下京区烏丸通塩小路下ル東塩小路町」で、Wikipedia 日本語・中文版の住所表記（下京区）と食い違いはない。地下鉄・近鉄側の住所は自社ページを開いていないため記載していない。"
   },
-  {
-   "名称": {
-    "日文": "シナリー金沢翔子美術館",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線440m（徒歩目安約6分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": null,
-   "介绍页": null,
-   "出典": [
+  "加精日期": "2026-10-23",
+  "加精方式": "人手検索・原文照合（Phase B）。2026-10-22 と 2026-10-23 に 106 件の取得試行（curl：DoH 解決＋--resolve、--compressed、charset 判定）を行い、うち HTTP 200 で一意 72 件の本文を開封。本ファイルが引用する 58 件はすべて 200 で開いたページに限る（書き出し前にスクリプト側でゲート検証）。200 以外しか返さなかった 33 件は 採用しなかった公式候補 に逐件記載し、本文は一切引用していない。\n検証は5段構成：① 引用URLが「200 で開いた一覧」の部分集合かを照合、② 各出典の 原文要旨 を「／」で割った断片 394 件が保存ダンプ本文に原文どおり存在するかを照合（不一致 0 件）、③ 書き出し時に 200 以外を返したURLが 採用しなかった公式候補 へ逐件転記され、未補間の整形マーカーが残っていないかを照合、④ リポジトリ側 scripts/audit_curated.py（重複キー・引用URL・開いたのに未引用・本文を開かず・短文欄・出典なし）、⑤ 記述欄 216 欄にある「…」引用が当該レコードの出典ダンプに実在するかの全文照合（不一致 0 件。見出し語や title 由来の語は「」を外して由来を明記した）。",
+  "人手確認": true,
+  "翻訳方針": "京都市観光協会は同一組織で多言語版を運用している（日本語 ja.kyoto.travel、English kyoto.travel/en/、中文（簡体）kyoto.travel/cn/、中文（繁體）kyoto.travel/tw/）。いずれも 200 で本文を開き、案内所（京なび）の名称・所在地・営業時間などの公式表記をそのまま引用した。ただし施設個別ページの下位URL（/en/tourism/single01.php?…tourism_id=850、/cn/tourism/…、/en/access）は HTTP 404 で本文を開けなかったため、個別施設（京都鉄道博物館）の English・中文は当方が日本語原文を読んで執筆した（各レコードの 言語注記 に宣言）。\n東本願寺（真宗本廟）は公式英語版 english.higashihonganji.or.jp のトップ・アクセス（/access/）・渉成園（/shosei-en/）を 200 で開いたため、東本願寺と渉成園の English は公式英語表記（Hours／Admission Free／Address／Getting Here／Thirteen Views／West Gate など）をそのまま引用し、日本語原文と併記した。同寺の公式中文版は開けなかったため 中文 は人手執筆（言語注記 に宣言）。日本語側の /access/ は HTTP 404 で、現行パスは /worship/access/ であった（同じアクセス情報の 200 ページを引用）。\n京都国立博物館は公式英語版 www.kyohaku.go.jp/eng/ と 中文（簡体）版 www.kyohaku.go.jp/zh-s/（それぞれの visit/access 下位ページ込み）を 200 で開いたため、English・中文とも公式訳（休館日・観覧料・アクセス・バリアフリー表記）をそのまま引用した。\n関西空港交通の公式英語トップ（www.kate.co.jp/en/）と繁体字中国語トップ（www.kate.co.jp/tcn/）は 200 で本文を開いたが、路線表は JavaScript 描画のためダンプに反映されず、链接表記（List of Lines (Schedule/Fares)／各路線一覽（時刻表・車費））のみ確認できた。運賃の数値は日本語の「時刻表・運賃」ページ（200）から引用し、英語・中文欄はその薄い表記のみを写した旨を 言語注記 に記載した。\n寺院のうち東寺・西本願寺、および京都鉄道博物館、京都駅ビル、高島屋、市バス・地下鉄（市交通局）、KCTP レンタサイクル、府観光連盟は、本文を開けたページが日本語単言語だったため English・中文は人手執筆で機械翻訳は用いていない。\n京都市は多言語ポータル global.kyoto.travel を持つが、FAQ 欄の当該ページ（交通バリアフリー・人にやさしいお宿情報）は global.kyoto.travel/ja/faq/ の日本語版で 200 を確認し、日本語原文を引用した（English・中文版の FAQ ページは開いていない）。\n同一主体のページ間で数値・名称が食い違う場合は統一せず両表記を並べた（例：Wikipedia 日本語の乗降人員「約60万人」と中文版の「1日平均上下車人次達70萬人」、日本語版「4代目駅舎」と English summary の「third-largest station building…15-story roof」、OpenStreetMap の同一名称3ノード、自动層の 车站ID と 线路 の不一致など）。\nWikipedia は日本語・English・中文（簡体）の記事をそれぞれ開いた三次情報（CC BY-SA 4.0）で、運営主体が公式に公表していない所属線・起点表記・駅番号・利用人数の補完にのみ用いた。English 版は本文全体ではなく REST API の summary を開封し、日本語・中文の本文は HTML 生記事が長いため MediaWiki API（action=query&prop=extracts&explaintext=1）で本文を取得して引用した。",
+  "观光景点": [
     {
-     "标题": "OpenStreetMap node/12189675719",
-     "URL": null,
-     "原文要旨": "OSM タグ tourism=museum 由来。マッピングの生データ。ODbL。"
-    }
-   ]
-  },
-  {
-   "名称": {
-    "日文": "京都芸大附属芸術資料館",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線500m（徒歩目安約6分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": "https://libmuse.kcua.ac.jp/muse/",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "libmuse.kcua.ac.jp",
-     "URL": "https://libmuse.kcua.ac.jp/muse/",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
-    }
-   ]
-  },
-  {
-   "名称": {
-    "日文": "京都芸大美術ギャラリー＠KCUA（アクア）",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線500m（徒歩目安約6分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": "https://gallery.kcua.ac.jp/",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "gallery.kcua.ac.jp",
-     "URL": "https://gallery.kcua.ac.jp/",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
-    }
-   ]
-  },
-  {
-   "名称": {
-    "日文": "京都タワー",
-    "英文": "Kyoto Tower",
-    "中文": "京都观光塔"
-   },
-   "距離": "直線260m（徒歩目安約3分）",
-   "简介": {
-    "日文": null,
-    "英文": "Kyoto Tower (京都タワー, Kyōto-tawā), now officially renamed Nidec Kyoto Tower, is an observation tower located in Kyoto, Japan. The steel tower is the tallest structure in Kyoto with its observation deck at 100 metres (328 ft) and its spire at 131 metres (430 ft). The 800-ton tower stands atop a 9-story building, which houses a 3-star hotel and several stores. The entire complex stands opposite Kyōto Station.",
-    "中文": null
-   },
-   "住所": null,
-   "电话": "+81 75-361-3215",
-   "営業時間": "Mo-Su 10:00-21:00",
-   "官网": null,
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "日本語ウィキペディア「京都タワー」",
-     "URL": "https://ja.wikipedia.org/wiki/京都タワー",
-     "原文要旨": "見出し文をAPIで取得（本文はリンク先）。",
-     "ライセンス": "CC BY-SA 4.0"
+      "名称": {
+        "日文": "東寺（教王護国寺・五重塔）",
+        "英文": "To-ji temple (Kyo-o-goku-ji) and its five-storey pagoda",
+        "中文": "东寺（教王护国寺・五重塔）"
+      },
+      "距離": "京都市南区九条町1番地（公式アクセスページの所在地）／JRをご利用の方 「京都駅」八条口より徒歩15分です。（約1.1km）／近鉄電車をご利用の方 「東寺駅」より徒歩10分です。（約0.6km）",
+      "简介": {
+        "日文": "公式サイトは title 要素に 東寺 – 世界遺産 真言宗総本山 教王護国寺 を掲げる（title は本文ダンプから除去されているため引用しない）うえで、2026秋期特別公開として「宝物館 東寺五重塔の美術と歴史 – 千二百年の興亡 – 2026年9月20日（日）〜11月25日（水）」「国宝 五重塔 初層の特別公開 2026年10月31日（土）〜12月13日（日）」「講堂 立体曼荼羅世界に入る 2026年10月31日（土）〜12月13日（日）」「紅葉ライトアップと 金堂・講堂夜間特別拝観 2026年10月31日（土）〜12月13日（日）」（いずれも同会期）を並べ、「国宝 観智院 密教教学の中心となった子院 通年公開中」「食堂に写経の場を設けました」「写経受付時間 午前9時〜午後3時」と記載する。境内のご案内欄は金堂・講堂（立体曼荼羅 天、菩薩、明王、如来）・食堂・五重塔・御影堂〈大師堂〉・宝物館・観智院などを列挙する。五重塔のページは「新幹線の南窓から見えるのが、 東寺の五重塔。 仏の都、京都の ランドマークタワーです。」「その高さは約５５メートル、 木造の建造物としては 日本一の高さを誇ります。」「いまの五重塔は、寛永21年、1644年に再建した、5代目にあたります。」と立てる。宝物館ページは「宝物館の開館は、春と秋。 国宝の兜跋毘沙門天、 高さ約６メートルもの 千手観音菩薩の特別公開や 東寺の歴史や 文化財をテーマにした 特別展などを行います。」、開館期間を「宝物館の開館期間 (会期中は無休です) 春期特別公開 3月20日～5月25日」「秋期特別公開 9月20日～11月25日」（会期中は無休）とする。法要のページは「御影堂 毎日 午前6時 弘法大師空海の住房だった御影堂で、毎朝6時から、一の膳、二の膳、お茶をお供えする、生身供がはじまります。ご参拝の方は、午前５時50分ごろまでに御影堂の唐門、または西門前にお越しください。」「大日堂 毎月1日 午前10時 仏の教えを綴った600巻の大般若経を転読し、国家安穏、五穀豊穰、一人一人の家内安全を祈念する法要です。」「御影堂 毎月21日 午前10時 承和2年、835年3月21日、高野山奥の院に弘法大師空海はご入定になりました。新暦の4月21日にあたります。毎月21日には報恩感謝の法要を行います。」を掲げ、「なお、毎月21日は境内全域で弘法市が開かれます。」、ただし「※御影堂の修復工事を行っているため、現在、御影堂で行っていた法要を大日堂、仮御影堂で行っています。」と注記する。アクセスページは所在地を「〒601-8473 京都市南区九条町1番地 TEL. 075-691-3325 / FAX. 075-662-0250」、最寄バス停を「最寄りのバス停留所は 東寺東門前、東寺南門前、九条大宮、東寺西門前。」とし、駐車場は「大型バス 2,000円/2時間 （※新春特別拝観中は特別料金） 自家用車、タクシー 600円/2時間 2時間以降は1時間ごとに300円」で、「なお、毎月21日は弘法市のため、駐車場を利用できません。」。",
+        "英文": "The official site calls To-ji the head temple of Shingon Buddhism and a World Heritage property, and for autumn 2026 lists a treasure-hall show on the art and history of the pagoda (20 September to 25 November), special opening of the first storey of the national-treasure pagoda and of the lecture hall with its three-dimensional mandala (both 31 October to 13 December), night views of the maples with night worship of the golden hall and lecture hall, year-round visits to the national-treasure Kanchi-in, and sutra copying at the dining hall accepted from 9:00 to 15:00. The pagoda page gives its height as about 55 metres, calls it the tallest wooden structure in Japan and the fifth building on the site, rebuilt in 1644. The treasure hall opens twice a year - spring from 20 March and autumn from 20 September to 25 November, with no closing day during each term - for displays of a national-treasure Tobatsu Bishamonten and a thousand-armed Kannon close to six metres tall. The ritual calendar lists a daily morning offering at the Miyeido at 6:00 every day, a Daihannya sutra reading at the Dainichido on the 1st at 10:00 and a Miye-ku thanksgiving service on the 21st at 10:00, adding that the 21st fills the whole precincts with the Kobo market and that services normally said in the Miyeido are held at the Dainichido while that hall is under repair. The access page places the temple at Kujyo-machi, Minami-ku, postal code 601-8473, telephone 075-691-3325, fifteen minutes on foot from the Hachijo exit of JR Kyoto Station (about 1.1 km) and ten minutes from Kintetsu Toji Station (about 0.6 km), names Toji Todaimae, Toji Nanmonmae, Kujyo Omiya and Toji Nimonmae as the nearest bus stops, and prices the car park at 600 yen for two hours then 300 yen an hour, 2,000 yen for a large bus, with the lot unusable on the 21st.",
+        "中文": "官网称东寺为真言宗总本山教王护国寺、世界遗产，并列2026年秋季特别公开：“宝物馆 东寺五重塔的美术与历史——千二百年的兴亡”（9月20日〜11月25日）、国宝五重塔初层特别公开与讲堂立体曼荼罗（均10月31日〜12月13日）、红叶灯光与金堂・讲堂夜间特别拜观，另有常年公开的国宝观智院，以及食堂内设置的写经（受理 上午9时〜下午3时）。五重塔页面并列“新幹線の南窓から見えるのが、 東寺の五重塔。 仏の都、京都の ランドマークタワーです。”“その高さは約５５メートル、 木造の建造物としては 日本一の高さを誇ります。”“いまの五重塔は、寛永21年、1644年に再建した、5代目にあたります。”，即高约55米、为日本最高木造建筑、现存塔为宽永21年（1644年）重建的第5代。宝物馆页称“宝物館の開館は、春と秋。 国宝の兜跋毘沙門天、 高さ約６メートルもの 千手観音菩薩の特別公開や 東寺の歴史や 文化財をテーマにした 特別展などを行います。”，开馆期间为“宝物館の開館期間 (会期中は無休です) 春期特別公開 3月20日～5月25日”“秋期特別公開 9月20日～11月25日”（会期中无休）。法要页列“御影堂 毎日 午前6時 弘法大師空海の住房だった御影堂で、毎朝6時から、一の膳、二の膳、お茶をお供えする、生身供がはじまります。ご参拝の方は、午前５時50分ごろまでに御影堂の唐門、または西門前にお越しください。”“大日堂 毎月1日 午前10時 仏の教えを綴った600巻の大般若経を転読し、国家安穏、五穀豊穰、一人一人の家内安全を祈念する法要です。”“御影堂 毎月21日 午前10時 承和2年、835年3月21日、高野山奥の院に弘法大師空海はご入定になりました。新暦の4月21日にあたります。毎月21日には報恩感謝の法要を行います。”，并注明“なお、毎月21日は境内全域で弘法市が開かれます。”以及“※御影堂の修復工事を行っているため、現在、御影堂で行っていた法要を大日堂、仮御影堂で行っています。”。交通页记载地址与电话为“〒601-8473 京都市南区九条町1番地 TEL. 075-691-3325 / FAX. 075-662-0250”，最近站牌“最寄りのバス停留所は 東寺東門前、東寺南門前、九条大宮、東寺西門前。”，停车场“大型バス 2,000円/2時間 （※新春特別拝観中は特別料金） 自家用車、タクシー 600円/2時間 2時間以降は1時間ごとに300円”，且“なお、毎月21日は弘法市のため、駐車場を利用できません。”。"
+      },
+      "住所": "京都市南区九条町1番地（〒601-8473／公式アクセスページの所在地表記）",
+      "电话": "075-691-3325（FAX 075-662-0250／公式アクセス掲載）",
+      "営業時間": "宝物館は春秋の特別公開期間のみ開館（3月20日～5月25日／秋期特別公開 9月20日～11月25日、会期中は無休）。金堂・講堂等の通年の拝観時刻は本ファイルで確定していない",
+      "料金": "写経の料金表示はなし（境内のご案内に「写経受付時間 午前9時〜午後3時」のみ）。駐車場＝大型バス 2,000円/2時間 （※新春特別拝観中は特別料金） 自家用車、タクシー 600円/2時間 2時間以降は1時間ごとに300円／毎月21日は弘法市のため利用不可",
+      "官网": "https://www.toji.or.jp/",
+      "介绍页": {
+        "日文": "https://www.toji.or.jp/guide/"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "東寺 – 世界遺産 真言宗総本山 教王護国寺",
+          "URL": "https://www.toji.or.jp/",
+          "原文要旨": "2026秋期特別公開 宝物館 東寺五重塔の美術と歴史 – 千二百年の興亡 – 2026年9月20日（日）〜11月25日（水）／国宝 五重塔 初層の特別公開 2026年10月31日（土）〜12月13日（日）／講堂 立体曼荼羅世界に入る／紅葉ライトアップと 金堂・講堂夜間特別拝観／国宝 観智院 密教教学の中心となった子院 通年公開中／食堂に写経の場を設けました。◎写経は国宝 五重塔内に永らく奉納させていただきます。写経受付時間 午前9時〜午後3時",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "境内のご案内｜東寺",
+          "URL": "https://www.toji.or.jp/guide/",
+          "原文要旨": "境内のご案内 Guide and Information 金堂 東寺の歴史 講堂 立体曼荼羅 天、菩薩、明王、如来 食堂 食堂内 納経所 五重塔 御影堂〈大師堂〉 弘法大師空海 御影供と弘法市 大日堂・鎮守八幡宮・宝蔵小子房 宝物館 寺宝 観智院 宮本武蔵筆宝 菩提院",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "交通のご案内｜境内のご案内｜東寺 – 世界遺産 真言宗総本山 教王護国寺",
+          "URL": "https://toji.or.jp/access/",
+          "原文要旨": "〒601-8473 京都市南区九条町1番地 TEL. 075-691-3325 / FAX. 075-662-0250／JRをご利用の方 「京都駅」八条口より徒歩15分です。（約1.1km）／近鉄電車をご利用の方 「東寺駅」より徒歩10分です。（約0.6km）／最寄りのバス停留所は 東寺東門前、東寺南門前、九条大宮、東寺西門前。／大型バス 2,000円/2時間 （※新春特別拝観中は特別料金） 自家用車、タクシー 600円/2時間 2時間以降は1時間ごとに300円／なお、毎月21日は弘法市のため、駐車場を利用できません。",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "五重塔｜境内のご案内｜東寺",
+          "URL": "https://toji.or.jp/guide/gojunoto/",
+          "原文要旨": "新幹線の南窓から見えるのが、 東寺の五重塔。 仏の都、京都の ランドマークタワーです。／その高さは約５５メートル、 木造の建造物としては 日本一の高さを誇ります。／いまの五重塔は、寛永21年、1644年に再建した、5代目にあたります。",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "宝物館｜境内のご案内｜東寺",
+          "URL": "https://toji.or.jp/guide/houmotsukan/",
+          "原文要旨": "宝物館の開館は、春と秋。 国宝の兜跋毘沙門天、 高さ約６メートルもの 千手観音菩薩の特別公開や 東寺の歴史や 文化財をテーマにした 特別展などを行います。／宝物館の開館期間 (会期中は無休です) 春期特別公開 3月20日～5月25日／秋期特別公開 9月20日～11月25日",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "法要のご案内｜東寺",
+          "URL": "https://toji.or.jp/visiting/",
+          "原文要旨": "御影堂 毎日 午前6時 弘法大師空海の住房だった御影堂で、毎朝6時から、一の膳、二の膳、お茶をお供えする、生身供がはじまります。ご参拝の方は、午前５時50分ごろまでに御影堂の唐門、または西門前にお越しください。／大日堂 毎月1日 午前10時 仏の教えを綴った600巻の大般若経を転読し、国家安穏、五穀豊穰、一人一人の家内安全を祈念する法要です。／御影堂 毎月21日 午前10時 承和2年、835年3月21日、高野山奥の院に弘法大師空海はご入定になりました。新暦の4月21日にあたります。毎月21日には報恩感謝の法要を行います。／なお、毎月21日は境内全域で弘法市が開かれます。／※御影堂の修復工事を行っているため、現在、御影堂で行っていた法要を大日堂、仮御影堂で行っています。",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
     },
     {
-     "标题": "Wikidata（P856 他）",
-     "URL": "https://www.wikidata.org/wiki/Q1201304",
-     "原文要旨": "多言語ラベル・公式 website 識別子の出典。CC0。"
-    }
-   ]
-  },
-  {
-   "名称": {
-    "日文": "七条通",
-    "英文": "Shichijo-dori St.",
-    "中文": null
-   },
-   "距離": "直線460m（徒歩目安約6分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": null,
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "日本語ウィキペディア「七条通」",
-     "URL": "https://ja.wikipedia.org/wiki/七条通",
-     "原文要旨": "見出し文をAPIで取得（本文はリンク先）。",
-     "ライセンス": "CC BY-SA 4.0"
-    }
-   ]
-  }
- ],
- "名所案内": [
-  {
-   "名称": {
-    "日文": "柳原銀行記念資料館",
-    "英文": "Yanagihara Bank Memorial Museum",
-    "中文": null
-   },
-   "距離": "直線560m（徒歩目安約7分）",
-   "简介": {
-    "日文": null,
-    "英文": "bank of Kyoto, Japan",
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": null,
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "日本語ウィキペディア「ja:柳原銀行」",
-     "URL": "ja:柳原銀行",
-     "原文要旨": "見出し文をAPIで取得（本文はリンク先）。",
-     "ライセンス": "CC BY-SA 4.0"
+      "名称": {
+        "日文": "西本願寺（本願寺・お西さん）",
+        "英文": "Nishi Hongan-ji, the head temple of Jodo Shinshu",
+        "中文": "西本愿寺（本愿寺・お西さん）"
+      },
+      "距離": "京都市下京区堀川通花屋町下る本願寺門前町（公式アクセス掲載の所在地）／京都駅 市バス『京都駅前』より9番,28番,75番（西賀茂車庫行など）に乗車、『西本願寺前』で下車。／京阪バス『京都駅八条口』より311番、312番に乗車、『西本願寺』で下車。",
+      "简介": {
+        "日文": "公式サイトは「本願寺は浄土真宗本願寺派の本山でお西さん（西本願寺）とも呼ばれています」「世界文化遺産に登録されている境内や国宝の御影堂ごえいどう・阿弥陀堂あみだどう、書院、飛雲閣などをはじめとする歴史的建造物」と紹介する（原文では「御影堂」に「ごえいどう」、「阿弥陀堂」に「あみだどう」、「小野賢章」に「おのけんしょう」のふりがなが本文に混在して出力される）。トピックス欄には「龍谷会（大谷本廟 報恩講）のご案内（10月15日・16日修行）」「『夕座』実施について」「本願寺法要出勤について」「TERAKOYA HONGWANJI（本願寺伝道院 講座）」「本願寺角坊10月・11月・12月『終活・仏事相談』のご案内」が並び、公式ブランドマークとタグラインの策定、フリーマガジン『お西さん ざっと！ハンケイ500m』創刊も告知する。「参る」ページの本願寺の一日は「5:30 開門」「6:00 晨朝勤行 阿弥陀堂 (引き続き) 御影堂」「17:00 閉門」の順をたて、帰敬式は「帰敬式 1月1日・16日の晨朝後、 1月8日・12月20日の終日を除く毎日2回 御影堂」、境内案内ツアーは「毎日4回、「 お西さんを知ろう！ 」（\"お西のお坊さん\"による境内案内ツアー）を開催しています。 （1回目 10:00～／2回目 11:30～／3回目 13:45～／4回目 15:30～）※約30分 どなたでもご自由にご参加いただけます（申込・参加費 不要）※雨天時も開催」とする。12月の行事欄には「12月20日(日) 御煤払 12月31日(木) 除夜会」が並ぶ。アクセスページは所在地を「〒600-8501京都市下京区堀川通花屋町下る本願寺門前町 TEL 075‐371‐5181 FAX 075‐371‐5310」、カーナビ入力用住所を「[カーナビ入力用住所] 〒600-8501 京都市下京区本願寺門前町」とし、JR・近鉄 京都駅から「京都駅 市バス『京都駅前』より9番,28番,75番（西賀茂車庫行など）に乗車、『西本願寺前』で下車。」、八条口から「京阪バス『京都駅八条口』より311番、312番に乗車、『西本願寺』で下車。」、タクシーでは「JR京都駅からは数分、阪急大宮駅、京阪七条駅からは約10分です。」。",
+        "英文": "The temple site describes Nishi Hongan-ji as the head temple of the Hongwanji-ha of Jodo Shinshu, popularly called Osan-san, whose grounds are World Heritage and whose national treasures include the Goedo and Amida-do, alongside the shoin reception halls and the Feiun-kaku. Its notices list the Ryugokai observance at Otani graveyard on 15-16 October, the Yoruza evening service, TERAKOYA HONGWANJI courses at the Dendo-in hall and a free magazine on the 500-metre walk around the temple. The worship page sets out the daily round - gate opens 5:30, morning service at 6:00 in the Amida-do continuing in the Goedo, gate closes at 17:00 - and offers a guided tour of the precincts four times every day at 10:00, 11:30, 13:45 and 15:30, lasting about thirty minutes, free and open to anyone without reservation and held in the rain as well, while the initiation service that gives a Buddhist name runs twice a day by application. December keeps the soot-sweeping on the 20th and the midnight service on the 31st. The access page gives the address as Horikawa-dori Hanayacho-sagaru Honganji-monzencho, Shimogyo-ku, postal code 600-8501, telephone 075-371-5181, reached from Kyoto Station by city bus 9, 28 or 75 to Nishi-Honganji-mae or by Keihan bus 311 or 312 from the Hachijo exit to Nishi-Honganji, a taxi from the station taking only a few minutes.",
+        "中文": "官网介绍本愿寺为净土真宗本愿寺派本山，俗称“お西さん”，境内登录为世界文化遗产，国宝御影堂・阿弥陀堂以及书院・飞云阁等历史建筑为代表性看点。公告栏列有龙谷会（大谷本庙 报恩讲 10月15・16日修行）、“夕座”实施、本愿寺法要出勤、TERAKOYA HONGWANJI（本愿寺传道院讲座）与“终活・佛事相谈”，并告知制定官方标志与标语、创办免费杂志《お西さん ざっと！ハンケイ500m》。“参る”页的一日流程为“5:30 開門”“6:00 晨朝勤行 阿弥陀堂 (引き続き) 御影堂”“17:00 閉門”；归敬式“帰敬式 1月1日・16日の晨朝後、 1月8日・12月20日の終日を除く毎日2回 御影堂”；境内导览“毎日4回、「 お西さんを知ろう！ 」（\"お西のお坊さん\"による境内案内ツアー）を開催しています。 （1回目 10:00～／2回目 11:30～／3回目 13:45～／4回目 15:30～）※約30分 どなたでもご自由にご参加いただけます（申込・参加費 不要）※雨天時も開催”。12月行事列有“12月20日(日) 御煤払 12月31日(木) 除夜会”。交通页记载“〒600-8501京都市下京区堀川通花屋町下る本願寺門前町 TEL 075‐371‐5181 FAX 075‐371‐5310”，导航地址“[カーナビ入力用住所] 〒600-8501 京都市下京区本願寺門前町”；自京都駅前乘市巴士9番,28番,75番（西賀茂車庫行など）至“西本願寺前”，或自八条口乘京阪巴士311・312至“西本願寺”，出租车“JR京都駅からは数分、阪急大宮駅、京阪七条駅からは約10分です。”。"
+      },
+      "住所": "京都市下京区堀川通花屋町下る本願寺門前町（〒600-8501／公式アクセス）",
+      "电话": "075-371-5181（FAX 075-371-5310／公式アクセス記載の表記は全角ハイフン「075‐371‐5181」）",
+      "営業時間": "「本願寺の一日」＝5:30 開門／朝勤行 6:00（阿弥陀堂）／17:00 閉門",
+      "料金": "境内案内ツアー「お西さんを知ろう！」＝どなたでもご自由にご参加いただけます（申込・参加費 不要）（公式「参る」ページ）。拝観料の表記は今回開いたページにはなく、帰敬式は申込要",
+      "官网": "https://www.hongwanji.kyoto/",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "お西さん（西本願寺）-本願寺への参拝",
+          "URL": "https://www.hongwanji.kyoto/",
+          "原文要旨": "本願寺は浄土真宗本願寺派の本山でお西さん（西本願寺）とも呼ばれています／世界文化遺産に登録されている境内や国宝の御影堂ごえいどう・阿弥陀堂あみだどう、書院、飛雲閣などをはじめとする歴史的建造物の紹介を、声優小野賢章おのけんしょうさんによる語りでご案内します。（約4分間）／龍谷会（大谷本廟 報恩講）のご案内（10月15日・16日修行）",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "アクセス｜お西さん（西本願寺）",
+          "URL": "https://www.hongwanji.kyoto/access/",
+          "原文要旨": "〒600-8501京都市下京区堀川通花屋町下る本願寺門前町 TEL 075‐371‐5181 FAX 075‐371‐5310／[カーナビ入力用住所] 〒600-8501 京都市下京区本願寺門前町／京都駅 市バス『京都駅前』より9番,28番,75番（西賀茂車庫行など）に乗車、『西本願寺前』で下車。／京阪バス『京都駅八条口』より311番、312番に乗車、『西本願寺』で下車。／JR京都駅からは数分、阪急大宮駅、京阪七条駅からは約10分です。",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "参る（本願寺の一日・帰敬式・境内案内）｜お西さん（西本願寺）",
+          "URL": "https://www.hongwanji.kyoto/visit/",
+          "原文要旨": "5:30 開門／6:00 晨朝勤行 阿弥陀堂 (引き続き) 御影堂／17:00 閉門／帰敬式 1月1日・16日の晨朝後、 1月8日・12月20日の終日を除く毎日2回 御影堂／毎日4回、「 お西さんを知ろう！ 」（\"お西のお坊さん\"による境内案内ツアー）を開催しています。 （1回目 10:00～／2回目 11:30～／3回目 13:45～／4回目 15:30～）※約30分 どなたでもご自由にご参加いただけます（申込・参加費 不要）※雨天時も開催／12月20日(日) 御煤払 12月31日(木) 除夜会",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
     },
     {
-     "标题": "Wikidata（P856 他）",
-     "URL": "https://www.wikidata.org/wiki/Q11534162",
-     "原文要旨": "多言語ラベル・公式 website 識別子の出典。CC0。"
-    }
-   ],
-   "種别": "名所案内"
-  },
-  {
-   "名称": {
-    "日文": "渉成園",
-    "英文": "Shosei Garden",
-    "中文": "涉成園"
-   },
-   "距離": "直線770m（徒歩目安約10分）",
-   "简介": {
-    "日文": null,
-    "英文": "Shosei-en Garden (渉成園) is a garden in Kyoto, Japan. The garden has teahouses, a hall with a Buddhist altar, and two ponds. The garden was named by Sennyo Shōnin, who used the garden as a residence when he retired in 1653 and was gifted the land by the shōgun Tokugawa Iemitsu. Sennyo Shōnin named the garden after a line in the Chinese poem Let Me Return Home Again by Tao Yuanming.\nThe garden is about 35,000 square meters. It has a large central pond with walking paths around it. Historically, the garden served as a retirement spot for Buddhist abbots, and was also used for enjoying tea ceremony",
-    "中文": null
-   },
-   "住所": null,
-   "电话": "+81 75-371-9210",
-   "営業時間": "Mo-Su 09:00-17:00",
-   "官网": "https://www.higashihonganji.or.jp/about/guide/shoseien/",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "日本語ウィキペディア「ja:渉成園」",
-     "URL": "ja:渉成園",
-     "原文要旨": "見出し文をAPIで取得（本文はリンク先）。",
-     "ライセンス": "CC BY-SA 4.0"
+      "名称": {
+        "日文": "東本願寺（真宗本廟）",
+        "英文": "Higashi Hongan-ji (Shinshu Honganji), the Otani branch headquarters",
+        "中文": "东本愿寺（真宗本庙）"
+      },
+      "距離": "京都市下京区烏丸通七条上る（〒600-8505／公式アクセス掲載）／JR京都駅より徒歩7分 地下鉄・五条駅より徒歩5分 市バス烏丸七条バス停より徒歩1分／公式英語 Getting Here 7 min walk from JR Kyoto Station 5 min walk from Karasuma Subway, Gojō Station 1 min walk from Karasuma Shichijō bus stop",
+      "简介": {
+        "日文": "公式サイトは「東本願寺（真宗本廟）｜浄土真宗・真宗大谷派の本山【公式】」と掲出し、参拝の方へ・宗派情報のほか「2026年11月の法話日程表を更新しました」「【11/24】第34回真宗教学学会講演会の開催について」（日付が件名に先立つ形式）「残り30名【11/23】2026年御正忌報恩講子ども報恩講のつどいを開催します」「秋季彼岸会の法要並びに法話のご案内」「お月見の会『2026年 渉成園十三夜』のご案内（10/23開催）」「大谷祖廟【9/27～28】大谷祖廟報恩講厳修のご案内」を告知する。公式ページは「開門・閉門時間 3月〜10月 5:50〜17:30 11月〜2月 6:20〜16:30」を開門・閉門時間として掲げ、「開門時間中はどなたでもご自由にご参拝いただけます」とする。所在地・交通は「〒600-8505 京都市下京区烏丸通七条上る 交通案内 JR京都駅より徒歩7分 地下鉄・五条駅より徒歩5分 市バス烏丸七条バス停より徒歩1分」、問い合わせは「代表電話 075-371-9181 ※受付時間：9:00～12:00/13:00～16:00 （土曜・日曜・祝日・年末年始等の休日を除く） 参拝に関するお問い合わせ 075-371-9210」「※受付時間：9:00〜17:00（年中無休）」。公式英語サイト english.higashihonganji.or.jp は同じ内容を Hours March to October : 5:50 am to 5:30 pm November to February : 6:20 am to 4:30 pm として公表し *The temple is open to the public during these hours.、住所を Address Karasuma Shichi-jō, Shimogyō-ku, Kyoto, Kyoto 600-8505, Japan、アクセスを Getting Here 7 min walk from JR Kyoto Station 5 min walk from Karasuma Subway, Gojō Station 1 min walk from Karasuma Shichijō bus stop とする。英語トップは本廟を Higashi Honganji, officially known as the Shinshū Honbyō, is the mother temple of the Shinshū Ōtani-ha of Jōdo Shinshū (“the Pure Land as the true essence of the Buddha’s teachings” or Shin Buddhism), which is one of the largest Buddhist denominations in Japan. と説明し Admission Free を掲げる。",
+        "英文": "The official page for the Ohashi branch headquarters in Kyoto lists its worship and denomination sections and, for late 2026, a November dharma-talk schedule, the 34th Shin Buddhist studies society lecture on 24 November, a children's Hozo-ke gathering on 23 November, the autumn equinoctial services, an moon-viewing evening in Shosei-en on 23 October and the Otani ancestral temple observance on 27-28 September. The sect runs an official English site. Its access page gives the gates as open 5:50 to 17:30 from March to October and 6:20 to 16:30 from November to February, states that the temple is open to the public during those hours, lists the address as Karasuma Shichi-jo, Shimogyo-ku, Kyoto 600-8505, and puts the shrine seven minutes on foot from JR Kyoto Station, five from Gojo on the Karasuma subway line and one minute from the Karasuma Shicho bus stop. The English front page describes Higashi Honganji, officially the Shinshu Honbyo, as the mother temple of the Otani branch of Jodo Shinshu, one of the largest Buddhist denominations in Japan, and marks worship as admission free.",
+        "中文": "官网以“东本愿寺（真宗本庙）｜净土真宗・真宗大谷派本山【公式】”为名，设参拜与宗派信息栏目，并公告“2026年11月法话日程表更新”“第34回真宗教学学会演讲会（11/24）”“御正忌报恩讲『子ども报恩讲之集』（11/23）”“秋季彼岸会法要及法话”“お月见の会『2026年 涉成园十三夜』（10/23举行）”“大谷祖庙报恩讲（9/27〜28）”。官方“开门・闭门时间”页记载“開門・閉門時間 3月〜10月 5:50〜17:30 11月〜2月 6:20〜16:30”，并明示“開門時間中はどなたでもご自由にご参拝いただけます”（译：开门时间内任何人都可自由参拜）；地址与交通为“〒600-8505 京都市下京区烏丸通七条上る 交通案内 JR京都駅より徒歩7分 地下鉄・五条駅より徒歩5分 市バス烏丸七条バス停より徒歩1分”；咨询电话“代表電話 075-371-9181 ※受付時間：9:00～12:00/13:00～16:00 （土曜・日曜・祝日・年末年始等の休日を除く） 参拝に関するお問い合わせ 075-371-9210”“※受付時間：9:00〜17:00（年中無休）”。该宗派另设官方英文站（地址、时间与日文一致，见本站英文栏引用），本站中文栏据日文・英文两版原文撰写。"
+      },
+      "住所": "京都市下京区烏丸通七条上る（〒600-8505）／公式英語 Address: Karasuma Shichi-jō, Shimogyō-ku, Kyoto, Kyoto 600-8505, Japan",
+      "电话": "代表 075-371-9181（受付 9:00〜12:00／13:00〜16:00、土曜・日曜・祝日・年末年始等を除く）／参拝相談 075-371-9210（9:00〜17:00（年中無休））",
+      "営業時間": "開門・閉門時間 3月〜10月 5:50〜17:30 11月〜2月 6:20〜16:30（開門時間中はどなたでもご自由にご参拝いただけます）",
+      "料金": "参拝無料（公式英語トップに Admission Free の表記。境内・建物内部の特別公開は別途）",
+      "官网": "https://www.higashihonganji.or.jp/",
+      "言語注記": "真宗大谷派（東本願寺）は公式英語サイト english.higashihonganji.or.jp を持ち、英文欄は 200 で開いたその英語原文を引用した。中文欄は日本語・英語の各ページを読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "東本願寺（真宗本廟）【公式】",
+          "URL": "https://www.higashihonganji.or.jp/",
+          "原文要旨": "東本願寺（真宗本廟）｜浄土真宗・真宗大谷派の本山【公式】／2026年11月の法話日程表を更新しました／【11/24】第34回真宗教学学会講演会の開催について／お月見の会「2026年 渉成園十三夜」のご案内（10/23開催）",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "開門・閉門時間、アクセス｜真宗大谷派（東本願寺）",
+          "URL": "https://www.higashihonganji.or.jp/worship/access/",
+          "原文要旨": "開門・閉門時間 3月〜10月 5:50〜17:30 11月〜2月 6:20〜16:30／開門時間中はどなたでもご自由にご参拝いただけます／〒600-8505 京都市下京区烏丸通七条上る 交通案内 JR京都駅より徒歩7分 地下鉄・五条駅より徒歩5分 市バス烏丸七条バス停より徒歩1分／代表電話 075-371-9181 ※受付時間：9:00～12:00/13:00～16:00 （土曜・日曜・祝日・年末年始等の休日を除く） 参拝に関するお問い合わせ 075-371-9210／※受付時間：9:00〜17:00（年中無休）",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "Access | Shinshu Otani-ha HIGASHI HONGANJI（公式英語）",
+          "URL": "https://english.higashihonganji.or.jp/access/",
+          "原文要旨": "Hours March to October : 5:50 am to 5:30 pm November to February : 6:20 am to 4:30 pm／*The temple is open to the public during these hours.／Address Karasuma Shichi-jō, Shimogyō-ku, Kyoto, Kyoto 600-8505, Japan／Getting Here 7 min walk from JR Kyoto Station 5 min walk from Karasuma Subway, Gojō Station 1 min walk from Karasuma Shichijō bus stop",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "Shinshu Otani-ha HIGASHI HONGANJI - English top（公式英語）",
+          "URL": "http://english.higashihonganji.or.jp/english_top/",
+          "原文要旨": "Higashi Honganji, officially known as the Shinshū Honbyō, is the mother temple of the Shinshū Ōtani-ha of Jōdo Shinshū (“the Pure Land as the true essence of the Buddha’s teachings” or Shin Buddhism), which is one of the largest Buddhist denominations in Japan.／Admission Free／7 min walk from JR Kyoto Station 5 min walk from Karasuma Subway, Gojō Station 1 min walk from Karasuma Shichijō bus stop",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
     },
     {
-     "标题": "higashihonganji.or.jp",
-     "URL": "https://www.higashihonganji.or.jp/about/guide/shoseien/",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
+      "名称": {
+        "日文": "渉成園（東本願寺飛地境内・国の名勝）",
+        "英文": "Shosei-en, the Higashi Hongan-ji garden named a Site of Scenic Beauty",
+        "中文": "涉成园（东本愿寺飞地境内・国家名胜）"
+      },
+      "距離": "下京区下朱雀町通東洞院下ル東玉水町（公式英語ページの住所表記）／Getting Here 10 min walk from JR Kyoto Station 15 min walk from Gojō Station of subway 20 min walk from Karasuma-shichi-jō bus stop",
+      "简介": {
+        "日文": "公式サイトは「渉成園は東本願寺の飛地境内の庭園です」「庭園には四季折々の花が咲きほこり、変化に富んだ景観は『十三景』と称されています」「1936（昭和11）年には、文人趣味にあふれる仏寺庭園として、国の名勝に指定されています」と記載。施設利用案内では貸出可能な書院・茶室として「閬風亭 ろうふうてい 100畳/収容人数最大：約80名」「臨池亭 りんちてい 18畳/収容人数最大：約20名」「滴翠軒 てきすいけん 17畳/収容人数最大：約20名」を挙げ、いずれも和室で収容人数は使用用途により異なると注記し、個人利用の問い合わせ先を参拝接待所としている。イベント欄は「【10/31～12/6】『NAKED GARDEN NIGHTS 東本願寺・渉成園』を開催します」「【8/5～9/30】「京の夏の旅」で渉成園・「閬風亭」を公開します」を掲出する。公式英語サイトは同じ庭を The Shōsei-en is the garden of the Higashi Honganji (Shinshū Honbyō) and a separate enclave to its main precincts. とし、dates back to 1641, when the third shōgun Tokugawa Iemitsu (1604–1651) donated a parcel of land to Sennyo (1604–1658), the 13th head priest of the Higashi Honganji, who built a garden on the property as part of his residence after retirement.、景観を praised as the “Thirteen Views.”、国の名勝指定を In 1936, the Garden was designated as a National Place of Scenic Beauty as a Buddhist temple garden filled with the aesthetic taste of the literati. と記す。広さは covers an area of about 35,000 square meters、開園は Open all year March to October : 9:00 am to 5:00 pm (the reception desk closes at 4:30 pm)・November to February : 9:00 am to 4:00 pm (the reception desk closes at 3:30 pm)、料金は Admission Fee (Donation for Garden Maintenance) Adults (18+) ¥700 Youth (13–18) ¥300 Youth (12 or younger) Free、出入口は The West Gate is the only entrance and exit of the garden. Please visit the reception desk first to pay the admission fee.。",
+        "英文": "Shosei-en is the outlying garden of Higashi Hongan-ji, its changing views traditionally counted as thirteen scenes and its literati taste recognised in 1936 when the state named it a Site of Scenic Beauty. The office rents the unopened buildings for meals, parties and exhibitions: the 100-mat Ro-fu-tei for up to about eighty guests, the 18-mat Rinchi-tei and the 17-mat Teki-sui-ken for about twenty each, all Japanese rooms, with capacity varying by use. Night-garden events run 31 October to 6 December 2026. The association's own English page records that the garden dates from 1641, when the third shogun Tokugawa Iemitsu gave the land to Sennyo, the thirteenth head priest, who laid out the garden as part of a retirement residence; that it covers about 35,000 square metres, that its thirteen views are praised, and that it was designated a National Place of Scenic Beauty in 1936 as a Buddhist temple garden with the taste of the literati. It is open all year, 9:00 to 17:00 (reception closing 16:30) March to October and 9:00 to 16:00 (reception 15:30) November to February. Admission is a donation for garden maintenance of 700 yen for adults aged 18 and over, 300 yen for youth 13 to 18 and free for children 12 and under. The West Gate is the only entrance and exit and visitors pay at the reception desk first; the address is given as Higashi-tamamizu-cho, Shimo-juzuya-machi-dori, Shimogyo-ku, Kyoto 600-8190, ten minutes on foot from JR Kyoto Station.",
+        "中文": "官网说明涉成园是东本愿寺的飞地境内庭园，四季繁花、富于变化的景观被称为“十三景”，1936（昭和11）年作为充满文人趣味的佛寺庭园被指定为国家名胜。设施利用案内列出可借用的书院・茶室：閬风亭（ろうふうてい，100叠，収容人数最大约80人）、临池亭（りんちてい，18叠，约20人）、滴翠轩（てきすいけん，17叠，约20人），均为和室且人数依用途而定，个人利用需向参拜接待所咨询。活动栏公布“【10/31〜12/6】NAKED GARDEN NIGHTS 东本愿寺・涉成园”。官方英文页（同宗派 english.higashihonganji.or.jp）记载：该园为东本愿寺飞地境内庭园，始于1641年第三代将军德川家光将土地赠予第13代法主千如，作为其隐居宅邸的一部分而建；全园约35,000平方米，景观称“Thirteen Views（十三景）”，1936年作为充满文人趣味的佛寺庭园被列为国家名胜。全年开放，3〜10月 9:00〜17:00（受理至16:30），11〜2月 9:00〜16:00（受理至15:30）；入园料为“庭园维护捐资”——18岁以上700日元、13〜18岁300日元、12岁及以下免费；“西门为唯一出入口，须先到接待处缴费”。英文页地址为 Higashi-tamamizu-cho, Shimo-juzuya-machi-dori, Shimogyo-ku, Kyoto 600-8190，自JR京都站步行10分钟。（中文栏依据日文・英文两版原文撰写，非机械翻译）"
+      },
+      "住所": "下京区下朱雀町通東洞院下ル東玉水町（公式英語 Higashi-tamamizu-chō, Aino-machi Higashi-iru, Shimo-juzuya-machi-dōri, Shimogyō-ku, Kyoto, Kyoto 600-8190, Japan。日本語ページに住所欄はない）",
+      "営業時間": "公式英語＝Open all year March to October : 9:00 am to 5:00 pm (the reception desk closes at 4:30 pm)／November to February : 9:00 am to 4:00 pm (the reception desk closes at 3:30 pm)",
+      "料金": "Admission Fee (Donation for Garden Maintenance) Adults (18+) ¥700 Youth (13–18) ¥300 Youth (12 or younger) Free（公式英語。日本語ページの入園料表記は未確認）",
+      "官网": "https://www.higashihonganji.or.jp/",
+      "介绍页": {
+        "日文": "https://www.higashihonganji.or.jp/about/guide/shoseien/"
+      },
+      "言語注記": "真宗大谷派（東本願寺）は公式英語サイト english.higashihonganji.or.jp を持ち、英文欄は 200 で開いたその英語原文を引用した。中文欄は日本語・英語の各ページを読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "渉成園｜真宗大谷派（東本願寺）",
+          "URL": "https://www.higashihonganji.or.jp/about/guide/shoseien/",
+          "原文要旨": "渉成園は東本願寺の飛地境内の庭園です／変化に富んだ景観は「十三景」と称されています／1936（昭和11）年には、文人趣味にあふれる仏寺庭園として、国の名勝に指定されています／閬風亭 ろうふうてい 100畳/収容人数最大：約80名／臨池亭 りんちてい 18畳/収容人数最大：約20名／滴翠軒 てきすいけん 17畳/収容人数最大：約20名",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "Shōsei-en Garden | Shinshu Otani-ha HIGASHI HONGANJI（公式英語）",
+          "URL": "https://english.higashihonganji.or.jp/shosei-en/",
+          "原文要旨": "The Shōsei-en is the garden of the Higashi Honganji (Shinshū Honbyō) and a separate enclave to its main precincts.／dates back to 1641, when the third shōgun Tokugawa Iemitsu (1604–1651) donated a parcel of land to Sennyo (1604–1658), the 13th head priest of the Higashi Honganji, who built a garden on the property as part of his residence after retirement.／praised as the “Thirteen Views.”／In 1936, the Garden was designated as a National Place of Scenic Beauty as a Buddhist temple garden filled with the aesthetic taste of the literati.／covers an area of about 35,000 square meters／Open all year March to October : 9:00 am to 5:00 pm (the reception desk closes at 4:30 pm)／November to February : 9:00 am to 4:00 pm (the reception desk closes at 3:30 pm)／Admission Fee (Donation for Garden Maintenance) Adults (18+) ¥700 Youth (13–18) ¥300 Youth (12 or younger) Free／The West Gate is the only entrance and exit of the garden. Please visit the reception desk first to pay the admission fee.／Address Higashi-tamamizu-chō, Aino-machi Higashi-iru, Shimo-juzuya-machi-dōri, Shimogyō-ku, Kyoto, Kyoto 600-8190, Japan／Getting Here 10 min walk from JR Kyoto Station 15 min walk from Gojō Station of subway 20 min walk from Karasuma-shichi-jō bus stop",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
     },
     {
-     "标题": "Wikidata（P856 他）",
-     "URL": "https://www.wikidata.org/wiki/Q795048",
-     "原文要旨": "多言語ラベル・公式 website 識別子の出典。CC0。"
-    }
-   ],
-   "種别": "名所案内"
-  },
-  {
-   "名称": {
-    "日文": "京都芸大笠原記念アンサンブルホール",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線410m（徒歩目安約5分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": null,
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "OpenStreetMap node/11250693821",
-     "URL": null,
-     "原文要旨": "OSM タグ amenity=theatre 由来。マッピングの生データ。ODbL。"
-    }
-   ],
-   "種别": "名所案内"
-  },
-  {
-   "名称": {
-    "日文": "京都芸大堀場信吉記念ホール",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線440m（徒歩目安約6分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": null,
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "OpenStreetMap node/11250693820",
-     "URL": null,
-     "原文要旨": "OSM タグ amenity=theatre 由来。マッピングの生データ。ODbL。"
-    }
-   ],
-   "種别": "名所案内"
-  }
- ],
- "公共服务": [
-  {
-   "名称": {
-    "日文": "京都中央郵便局",
-    "英文": "Kyoto Central Post Office",
-    "中文": "京都中央郵局"
-   },
-   "距離": "直線210m（徒歩目安約3分）",
-   "简介": {
-    "日文": null,
-    "英文": "post office in Kyoto, Japan",
-    "中文": null
-   },
-   "住所": null,
-   "电话": "+81-800-0800-111",
-   "営業時間": "Mo-Fr 09:00-17:00",
-   "官网": "https://map.japanpost.jp/p/search/dtl/300144089000/",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "日本語ウィキペディア「ja:京都中央郵便局」",
-     "URL": "ja:京都中央郵便局",
-     "原文要旨": "見出し文をAPIで取得（本文はリンク先）。",
-     "ライセンス": "CC BY-SA 4.0"
+      "名称": {
+        "日文": "京都鉄道博物館（梅小路・観光Navi 記載）",
+        "英文": "Kyoto Railway Museum, listed by the city tourism site",
+        "中文": "京都铁道博物馆（梅小路・观光Navi记载）"
+      },
+      "距離": "京都市下京区観喜寺町（京都観光Navi 掲載の住所・所在地）／「京都」駅下車、徒歩20分／市バス86・88「梅小路公園・京都鉄道博物館前」下車、徒歩すぐ 205・208「梅小路公園・JR梅小路京都西駅前」下車、徒歩約3分",
+      "简介": {
+        "日文": "京都観光Navi の施設ページは「国の重要文化財にも指定されている扇形車庫。本物のSLが牽引する客車への乗車体験『SLスチーム号』など、本物に触れることができる博物館です」「子供から大人までが楽しみながら鉄道について学べます！」「京都鉄道博物館は『鉄道』に関する歴史・技術・文化などを総合的にご紹介する博物館で、2016（平成28）年4月29日に開館しました」「展示テーマ『見る、さわる、体験する』」と記載し、カテゴリーを「美術館・博物館」とする。※自ドメイン www.kyotorailwaymuseum.jp は 200 で応答したが本文が空白文字1つのみ（ログ行を含め59バイト）で描画されなかったため、同社公表の開館時間・観覧料（一般1,500円等）は本ファイルで引用していない（検索記録に別途記載）。同ページの基本情報欄は「住所・所在地 京都市下京区観喜寺町 アクセス JR嵯峨野線「梅小路京都西」駅下車、徒歩約2分」「「京都」駅下車、徒歩20分」、「営業時間 10：00～17：00（入館は16：30まで） 定休日 毎週水曜日（祝日および春休み、夏休み等は開館）、年末年始（12/30～1/1）ほか」、「TEL 0570-080-462」、料金を「一般：1500円 大学生・高校生：1300円 中学生・小学生：500円 幼児(３歳以上)：200円」とし、「SLスチーム号乗車券、運転シミュレータ体験チケットは別料金」で「一般・大学生・高校生300円、中学生・小学生・幼児（3歳以上）まで100円」。",
+        "英文": "The city tourism site describes the museum as housing the Important Cultural Property roundhouse and offering rides behind a real steam locomotive, opened on 29 April 2016 to present the history, technology and culture of railways under the theme of seeing, touching and experiencing, with a large model-layout and driving simulators. Note: the museum's own domain answered 200 but its body was a single space (59 bytes including the log header), so its opening hours and 1,500-yen adult fee are not quoted in this file. The tourism association's facility page also publishes the practical lines: address Kanjicho, Shimogyo-ku, twenty minutes on foot from JR Kyoto Station or a short walk from Umekoji Park-Kyoto Railway Museum station on the Sagano line; open 10:00 to 17:00 with last entry 16:30, closed Wednesdays except holidays and during the spring and summer vacation periods, and closed from 30 December to 1 January; telephone 0570-080-462; admission 1,500 yen for adults, 1,300 for university and high-school students, 500 for junior high and primary pupils and 200 for children aged three and over, with the steam-train ride and the driving simulator charged separately at 300 yen for adults and students and 100 yen for children from three.",
+        "中文": "官方观光网站介绍该馆设有被指定为国家重要文化财的扇形车库，并可乘坐由真实蒸汽机车牵引的客车（SL蒸汽号），“从儿童到成人都能愉快地学习铁路”，2016（平成28）年4月29日开馆，以“看・触・体验”为展示主题综合介绍铁路的历史・技术・文化。※其自有域名返回 200 但正文仅为一个空白字符（含日志行共 59 字节），未能渲染，故本文件未引用该馆公布的开馆时间与成人票价1,500日元。同页“基本信息”栏记载：地址为“京都市下京区観喜寺町 アクセス JR嵯峨野線「梅小路京都西」駅下車、徒歩約2分”，自JR京都站“徒歩20分”，营业时间为“10：00～17：00（入館は16：30まで） 定休日 毎週水曜日（祝日および春休み、夏休み等は開館）、年末年始（12/30～1/1）ほか”，电话“TEL 0570-080-462”，料金“一般：1500円 大学生・高校生：1300円 中学生・小学生：500円 幼児(３歳以上)：200円”，另注“SL蒸汽号乘车券、驾驶模拟体验门票为另收费（一般・大学生・高校生300円、中学生・小学生・幼児（3歳以上）まで100円）”。※观光Navi 页面在文中并列该馆官网链接 https://www.kyotorailwaymuseum.jp/（当次抓取该文仅返回空白正文，故仅引用观光Navi 的转载值，详见検索记录）。"
+      },
+      "住所": "京都市下京区観喜寺町（京都観光Navi 掲載／自ドメインは空白本文のため住所未確認）",
+      "电话": "TEL 0570-080-462（京都観光Navi 掲載）",
+      "営業時間": "営業時間 10：00～17：00（入館は16：30まで） 定休日 毎週水曜日（祝日および春休み、夏休み等は開館）、年末年始（12/30～1/1）ほか（京都観光Navi 掲載）",
+      "料金": "一般：1500円 大学生・高校生：1300円 中学生・小学生：500円 幼児(３歳以上)：200円／SLスチーム号・運転シミュレータは別料金 一般・大学生・高校生300円、中学生・小学生・幼児（3歳以上）まで100円（京都観光Navi 掲載）",
+      "介绍页": {
+        "日文": "https://ja.kyoto.travel/tourism/single01.php?category_id=11&tourism_id=850"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都鉄道博物館｜【京都市公式】京都観光Navi",
+          "URL": "https://ja.kyoto.travel/tourism/single01.php?category_id=11&tourism_id=850",
+          "原文要旨": "国の重要文化財にも指定されている扇形車庫。本物のSLが牽引する客車への乗車体験「SLスチーム号」など、本物に触れることができる博物館です／2016（平成28）年4月29日に開館しました／展示テーマ「見る、さわる、体験する」／住所・所在地 京都市下京区観喜寺町 アクセス JR嵯峨野線「梅小路京都西」駅下車、徒歩約2分／営業時間 10：00～17：00（入館は16：30まで） 定休日 毎週水曜日（祝日および春休み、夏休み等は開館）、年末年始（12/30～1/1）ほか／TEL 0570-080-462／一般：1500円 大学生・高校生：1300円 中学生・小学生：500円 幼児(３歳以上)：200円／一般・大学生・高校生300円、中学生・小学生・幼児（3歳以上）まで100円／市バス86・88「梅小路公園・京都鉄道博物館前」下車、徒歩すぐ 205・208「梅小路公園・JR梅小路京都西駅前」下車、徒歩約3分",
+          "ライセンス": "京都市観光協会 京都観光Navi（ja.kyoto.travel）記載の抜粋（出典明記）"
+        }
+      ]
     },
     {
-     "标题": "map.japanpost.jp",
-     "URL": "https://map.japanpost.jp/p/search/dtl/300144089000/",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP None、2026-10-22）。本文の人手確認は行っていません。"
-    },
-    {
-     "标题": "Wikidata（P856 他）",
-     "URL": "https://www.wikidata.org/wiki/Q5154082",
-     "原文要旨": "多言語ラベル・公式 website 識別子の出典。CC0。"
+      "名称": {
+        "日文": "京都国立博物館（平成知新館・明治古都館）",
+        "英文": "Kyoto National Museum",
+        "中文": "京都国立博物馆（平成知新馆・明治古都馆）"
+      },
+      "距離": "京都市東山区茶屋町527（〒605-0931／公式交通アクセス）／JR京都駅下車、七条通を東へ徒歩20分／JR京都駅下車、D2のりばから市バス206・208号系統にて博物館三十三間堂前下車、徒歩すぐ",
+      "简介": {
+        "日文": "公式サイトは 2026年10月23日の開館を「9:00 - 20:00 特別展開催中」と掲出し、特別展「源氏物語 王朝のかがやき」（2026年10月6日～11月29日）の開催により「名品ギャラリー（平常展示）は休止」「再開は2026年12月22日（火）」、新春特集展示「ひつじづくし―干支を愛でる―」（2026年12月22日～2027年2月7日）、特集展示「茶の湯の道具と次第」、特別公開「和束谷の開拓者―原山古墳被葬者の実像―」（2027年1月2日～3月22日）を予告する。休館情報として「2026年4月17日（金）は休館します」「年末年始休館のお知らせ―2025年12月29日（月）～2026年1月1日（木・祝）」、平成知新館と通常非公開の明治古都館の別表記も並ぶ。交通アクセスは所在地を「〒605-0931 京都市東山区茶屋町527」、駅から「JR京都駅下車、D2のりばから市バス206・208号系統にて博物館三十三間堂前下車、徒歩すぐ」・「JR京都駅下車、七条通を東へ徒歩20分」、八条口から「京都駅八条口のりばからプリンセスラインバス（京都女子大学前行き）にて東山七条下車、徒歩1分」とする。駐車場は「駐車場： 三井のリパーク京都国立博物館前」で障害者手帳等の提示で「障害者手帳等をご提示の方は、駐車場入場より2時間無料となります。」、大型バスは「【利用料金】 3時間まで2,000円／台 以降30分ごと500円」で代表電話「代表電話（TEL 075-541-1151）」へ事前予約。休館日・開館時間・観覧料のページは通常休館日を「毎週月曜日 ※ただし、月曜日が祝日・休日となる場合は開館し、翌火曜日を休館とします。」、2026年度休館日を「2026年度休館日 2026年4月17日（金） 2026年12月28日（月）～2027年1月1日（金・祝）」とし、特別展「源氏物語」について「特別展 源氏物語 王朝のかがやき 会期 2026年10月6日（火）～11月29日（日） 開館時間 9：00～17：30（入館は17：00まで） 金曜日 9：00～20：00（入館は19：30まで）」、観覧料を「一般 2,200円（2,000円） 大学生 1,200円（1,000円） 高校生 700円（500円）」、「中学生以下は無料です（要証明）。」、「障害者手帳等(*)をご提示の方とその介護者1名は、観覧料が無料になります。」と定める。名品ギャラリー（平常展示）は「名品ギャラリー（平常展示）開催期間 下記観覧料で当日開催中の平成知新館の名品ギャラリー（平常展示）全展示をご覧いただけます。ただし特別展開催期間・庭園のみ開館期間は休止しています。」で、開催期間の観覧料は「観覧料 一般 700円 大学生 350円」・「高校生以下および満18歳未満、満70歳以上の方は無料です」。庭園のみ開館期間は「庭園のみ開館期間は休止しています。 会期 2026年7月14日（火）～9月6日（日） 2026年12月22日（火）～12月27日（日） 2027年1月2日（土）～3月22日（月・休） 開館時間 9：30～17：00（入館は16：30まで） 金曜日 9：30～20：00（入館は19：30まで） 観覧料 一般 700円 大学生 350円 本観覧料で当日の平成知新館の全展示をご覧いただけます。 大学生の方は学生証をご提示ください。 高校生以下および満18歳未満、満70歳以上の方は無料です（年齢のわかるものをご提示ください）。 キャンパスメンバーズ（含教職員） は、学生証または教職員証をご提示いただくと無料になります。 障害者手帳等(*)をご提示の方とその介護者1名は、観覧料が無料になります。 *身体障害者手帳、療育手帳、精神障害者保健福祉手帳、戦傷病者手帳、被爆者健康手帳、特定疾患医療受給者証、特定医療費（指定難病）受給者証、小児慢性特定疾病医療受給者証 学校の教育活動・総合学習等で、名品ギャラリーに園児・小学生・中学生・高校生を引率する先生方は、無料となります。 チケット販売窓口では下記決済サービスをご利用いただけます。 すべて表示する 開催中の名品ギャラリー --> 庭園のみ開館期間 屋外展示のみご覧いただけます。」で料金は「観覧料 一般（庭園ガイド冊子付き） 300円 大学生 150円」。館内設備・バリアフリー情報は「車椅子の無料貸し出しを行っています。」「南門の出入口に車椅子対応スロープを設置しています。」「多目的トイレが平成知新館各階、南門券売施設内、庭園内にございます。」「オストメイト対応トイレが平成知新館1階、庭園内にございます。」「平成知新館1階には授乳室がございます。」「ベビーカーの無料貸し出しを行っています。」「平成知新館1階インフォメーションにて筆談対応を行っております（日英対応可能）。」「盲導犬、介助犬、聴導犬を伴ってご入場いただけます。」「平成知新館1階エントランス、南門に設置しています。」「平成知新館1階・地下1階に100円返却式のコインロッカーがあります。」「展示館内や庭園など、すべての場所でフリーWi-Fiをご利用いただけます。」とし、障害者手帳等（「ミライロID（スマートフォン向け障害者手帳アプリ）ご利用可能」を含む）提示とその介護者1名の観覧料無料も同じページに記す。",
+        "英文": "The museum page shows opening on 23 October 2026 from 9:00 to 20:00 with a special exhibition on the Tale of Genji running 6 October to 29 November, during which the permanent highlights gallery is suspended and resumes on 22 December, when a New Year display on the year of the sheep begins; further listed items are a tea-ceremony display, a special opening on the Uwajidani pioneers from 2 January 2027, a closure on 17 April 2026 and the year-end closure from 29 December to 1 January. The museum's own English pages give today's opening (23 October 2026) as 9:00 a.m. to 8:00 p.m. with a special exhibition on view, list The Tale of Genji: Radiant Culture of the Japanese Imperial Court from 6 October to 29 November 2026 with extended evening hours on Fridays, and announce the New Year feature Goats and Lambs, Ewes and Rams: Celebrating the Year of the Sheep from 22 December 2026 to 7 February 2027; they record that all collection exhibits are deinstalled for the current special exhibition and resume on 22 December 2026, and that the galleries were closed 7 September to 5 October 2026. The English access page gives the address as 527 Chaya-cho, Higashiyama-ku, Kyoto 605-0931, directs visitors from Kyoto Station bus platform D2 to city bus 206 or 208 for the Hakubutsukan Sanjusangendo-mae stop, and notes the daily maximum parking charge of 800 to 1,200 yen subject to change.",
+        "中文": "官网在2026年10月23日标注“9:00 - 20:00 特别展举办中”，特别展《源氏物语 王朝的光辉》（2026年10月6日〜11月29日）期间“名品gallery（平常展示）休止”，12月22日恢复；同起新春特集展示“羊づくし——赏生肖”（至2027年2月7日・原文は～表記），另有“茶之汤的道具与次第”、特别公开“宇束谷的开拓者——原山古坟被葬者的实像”（2027年1月2日〜3月22日），并告知2026年4月17日休馆、2025年12月29日〜2026年1月1日年末年始休馆，馆名并列“平成知新馆”与通常非公开的“明治古都馆”。官方中文（简体）页在10/23标注“10/23 开馆 9:00 - 20:00 特展举办中”，特展为“特展 源氏物语——璀璨的宫廷文化 2026年10月6日（周二）～11月29日（周日）”，并预告“新春专题展 金羊送福——羊年生肖展 2026年12月22日（周二）～2027年2月7日（周日）”，同时说明“名品精选展将在特展结束后，于2026年12月22日（周二）重新开始举办。”，馆名并列“平成知新馆”与“明治古都馆（旧 帝国京都博物馆 主馆）”。中文交通页记载地址“〒605-0931 京都市东山区茶屋町527”，自“从JR京都站中央口D2公交车站，乘公交206、208号到“博物馆三十三间堂前”下车”，或“从JR京都站中央口出发，沿七条大道向东步行20分钟”，并记“出示相关证明的身心障碍人士，可免费停车2小时（从入停车场时起算）。”。"
+      },
+      "住所": "京都市東山区茶屋町527（〒605-0931）／公式英語 527 Chaya-cho, Higashiyama-ku, Kyoto, Japan 605-0931",
+      "电话": "075-541-1151（公式交通アクセス「代表電話」＝大型バスの予約先として掲載）",
+      "営業時間": "特別展 9：00～17：30（入館17：00／金曜 9：00～20：00・入館19：30）／名品ギャラリー・庭園のみ 9：30～17：00（入館16：30／金曜 9：30～20：00）",
+      "料金": "特別展 一般 2,200円（前売・団体2,000円）・大学生1,200円・高校生700円／名品ギャラリー 一般700円・大学生350円（高校生以下および満18歳未満、満70歳以上は無料）／庭園のみ 一般300円・大学生150円／中学生以下無料（要証明）、障害者手帳等提示とその介護者1名無料",
+      "官网": "https://www.kyohaku.go.jp/",
+      "言語注記": "京都国立博物館は公式多言語版（/eng/ English・/zh-s/ 中文〈簡体〉）を持ち、English・中文は 200 で開いた公式ページの原文を用いた。日本語欄は館内設備・運賃ページの原文、中文欄は公式の簡体字表記を写した。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都国立博物館",
+          "URL": "https://www.kyohaku.go.jp/",
+          "原文要旨": "10/23 開館 9:00 - 20:00 特別展開催中／特別展源氏物語王朝のかがやき 2026年10月6日（火）～11月29日（日）／名品ギャラリー（平常展示）は休止 しています。名品ギャラリー（平常展示）の再開は2026年12月22日（火）です／2026年4月17日（金）は休館します／年末年始休館のお知らせ―2025年12月29日（月）～2026年1月1日（木・祝）",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "交通アクセス｜ご利用案内｜京都国立博物館",
+          "URL": "https://www.kyohaku.go.jp/jp/visit/access/",
+          "原文要旨": "〒605-0931 京都市東山区茶屋町527／JR京都駅下車、D2のりばから市バス206・208号系統にて博物館三十三間堂前下車、徒歩すぐ／JR京都駅下車、七条通を東へ徒歩20分／京都駅八条口のりばからプリンセスラインバス（京都女子大学前行き）にて東山七条下車、徒歩1分／駐車場： 三井のリパーク京都国立博物館前／障害者手帳等をご提示の方は、駐車場入場より2時間無料となります。／【利用料金】 3時間まで2,000円／台 以降30分ごと500円／代表電話（TEL 075-541-1151）",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "休館日・開館時間・観覧料｜ご利用案内｜京都国立博物館",
+          "URL": "https://www.kyohaku.go.jp/jp/visit/info/",
+          "原文要旨": "毎週月曜日 ※ただし、月曜日が祝日・休日となる場合は開館し、翌火曜日を休館とします。／2026年度休館日 2026年4月17日（金） 2026年12月28日（月）～2027年1月1日（金・祝）／特別展 源氏物語 王朝のかがやき 会期 2026年10月6日（火）～11月29日（日） 開館時間 9：00～17：30（入館は17：00まで） 金曜日 9：00～20：00（入館は19：30まで）／一般 2,200円（2,000円） 大学生 1,200円（1,000円） 高校生 700円（500円）／中学生以下は無料です（要証明）。／障害者手帳等(*)をご提示の方とその介護者1名は、観覧料が無料になります。／名品ギャラリー（平常展示）開催期間 下記観覧料で当日開催中の平成知新館の名品ギャラリー（平常展示）全展示をご覧いただけます。ただし特別展開催期間・庭園のみ開館期間は休止しています。／観覧料 一般 700円 大学生 350円／高校生以下および満18歳未満、満70歳以上の方は無料です／庭園のみ開館期間は休止しています。 会期 2026年7月14日（火）～9月6日（日） 2026年12月22日（火）～12月27日（日） 2027年1月2日（土）～3月22日（月・休） 開館時間 9：30～17：00（入館は16：30まで） 金曜日 9：30～20：00（入館は19：30まで） 観覧料 一般 700円 大学生 350円 本観覧料で当日の平成知新館の全展示をご覧いただけます。 大学生の方は学生証をご提示ください。 高校生以下および満18歳未満、満70歳以上の方は無料です（年齢のわかるものをご提示ください）。 キャンパスメンバーズ（含教職員） は、学生証または教職員証をご提示いただくと無料になります。 障害者手帳等(*)をご提示の方とその介護者1名は、観覧料が無料になります。 *身体障害者手帳、療育手帳、精神障害者保健福祉手帳、戦傷病者手帳、被爆者健康手帳、特定疾患医療受給者証、特定医療費（指定難病）受給者証、小児慢性特定疾病医療受給者証 学校の教育活動・総合学習等で、名品ギャラリーに園児・小学生・中学生・高校生を引率する先生方は、無料となります。 チケット販売窓口では下記決済サービスをご利用いただけます。 すべて表示する 開催中の名品ギャラリー --> 庭園のみ開館期間 屋外展示のみご覧いただけます。／観覧料 一般（庭園ガイド冊子付き） 300円 大学生 150円",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "館内設備・バリアフリー情報｜ご利用案内｜京都国立博物館",
+          "URL": "https://www.kyohaku.go.jp/jp/visit/accessibility/",
+          "原文要旨": "南門の出入口に車椅子対応スロープを設置しています。／車椅子の無料貸し出しを行っています。／多目的トイレが平成知新館各階、南門券売施設内、庭園内にございます。／オストメイト対応トイレが平成知新館1階、庭園内にございます。／平成知新館1階には授乳室がございます。／ベビーカーの無料貸し出しを行っています。／平成知新館1階インフォメーションにて筆談対応を行っております（日英対応可能）。／盲導犬、介助犬、聴導犬を伴ってご入場いただけます。／平成知新館1階エントランス、南門に設置しています。／平成知新館1階・地下1階に100円返却式のコインロッカーがあります。／展示館内や庭園など、すべての場所でフリーWi-Fiをご利用いただけます。／ミライロID（スマートフォン向け障害者手帳アプリ）ご利用可能",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "Kyoto National Museum - English top（公式多言語）",
+          "URL": "https://www.kyohaku.go.jp/eng/",
+          "原文要旨": "October 23, 2026 Open Today 9:00 a.m. – 8:00 p.m. On View: Special Exhibition／The Tale of Genji: Radiant Culture of the Japanese Imperial Court October 6–November 29, 2026 Extended Evening Hours on Fridays／Goats and Lambs, Ewes and Rams: Celebrating the Year of the Sheep December 22, 2026–February 7, 2027／All exhibits from the museum collection have been deinstalled for the current special exhibition／Museum collection exhibitions will resume on December 22, 2026.／Announcement of Closures of the Museum Galleries, September 7 to October 5, 2026",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "Getting Here | Kyoto National Museum（公式英語アクセス）",
+          "URL": "https://www.kyohaku.go.jp/eng/visit/access/",
+          "原文要旨": "Kyoto National Museum 527 Chaya-cho, Higashiyama-ku, Kyoto, Japan 605-0931／Get off at Kyoto Station. From bus platform D2 in front of the station, take City Bus #206 or #208 to \"Hakubutsukan Sanjusangendo-mae\" bus stop.／Maximum charge daily 800-1200 yen/day, subject to change without notice.",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "京都国立博物館 - 中文（簡体）トップ",
+          "URL": "https://www.kyohaku.go.jp/zh-s/",
+          "原文要旨": "10/23 开馆 9:00 - 20:00 特展举办中／特展 源氏物语——璀璨的宫廷文化 2026年10月6日（周二）～11月29日（周日）／新春专题展 金羊送福——羊年生肖展 2026年12月22日（周二）～2027年2月7日（周日）／名品精选展将在特展结束后，于2026年12月22日（周二）重新开始举办。／明治古都馆（旧 帝国京都博物馆 主馆）",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "交通｜中文（簡体）｜京都国立博物館",
+          "URL": "https://www.kyohaku.go.jp/zh-s/visit/access/",
+          "原文要旨": "〒605-0931 京都市东山区茶屋町527／从JR京都站中央口D2公交车站，乘公交206、208号到“博物馆三十三间堂前”下车／从JR京都站中央口出发，沿七条大道向东步行20分钟／出示相关证明的身心障碍人士，可免费停车2小时（从入停车场时起算）。",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
     }
-   ],
-   "種别": "公共服务"
-  },
-  {
-   "名称": {
-    "日文": "渉成園",
-    "英文": "Shosei Garden",
-    "中文": "涉成園"
-   },
-   "距離": "直線770m（徒歩目安約10分）",
-   "简介": {
-    "日文": null,
-    "英文": "Shosei-en Garden (渉成園) is a garden in Kyoto, Japan. The garden has teahouses, a hall with a Buddhist altar, and two ponds. The garden was named by Sennyo Shōnin, who used the garden as a residence when he retired in 1653 and was gifted the land by the shōgun Tokugawa Iemitsu. Sennyo Shōnin named the garden after a line in the Chinese poem Let Me Return Home Again by Tao Yuanming.\nThe garden is about 35,000 square meters. It has a large central pond with walking paths around it. Historically, the garden served as a retirement spot for Buddhist abbots, and was also used for enjoying tea ceremony",
-    "中文": null
-   },
-   "住所": null,
-   "电话": "+81 75-371-9210",
-   "営業時間": "Mo-Su 09:00-17:00",
-   "官网": "https://www.higashihonganji.or.jp/about/guide/shoseien/",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "日本語ウィキペディア「ja:渉成園」",
-     "URL": "ja:渉成園",
-     "原文要旨": "見出し文をAPIで取得（本文はリンク先）。",
-     "ライセンス": "CC BY-SA 4.0"
-    },
-    {
-     "标题": "higashihonganji.or.jp",
-     "URL": "https://www.higashihonganji.or.jp/about/guide/shoseien/",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
-    },
-    {
-     "标题": "Wikidata（P856 他）",
-     "URL": "https://www.wikidata.org/wiki/Q795048",
-     "原文要旨": "多言語ラベル・公式 website 識別子の出典。CC0。"
-    }
-   ],
-   "種别": "公共服务"
-  },
-  {
-   "名称": {
-    "日文": "京都府旅券事務所",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線100m（徒歩目安約1分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": "Mo-Fr 09:00-16:30",
-   "官网": "https://www.pref.kyoto.jp/passport/10200022.html",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "pref.kyoto.jp",
-     "URL": "https://www.pref.kyoto.jp/passport/10200022.html",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
-    }
-   ],
-   "種别": "公共服务"
-  },
-  {
-   "名称": {
-    "日文": "ローム株式会社",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線240m（徒歩目安約3分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": "https://www.rohm.co.jp/",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "rohm.co.jp",
-     "URL": "https://www.rohm.co.jp/",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
-    }
-   ],
-   "種别": "公共服务"
-  },
-  {
-   "名称": {
-    "日文": "関西電力送配電 京都支社",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線280m（徒歩目安約4分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": "https://www.kansai-td.co.jp/",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "kansai-td.co.jp",
-     "URL": "https://www.kansai-td.co.jp/",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
-    }
-   ],
-   "種别": "公共服务"
-  },
-  {
-   "名称": {
-    "日文": "FuRyu",
-    "英文": "FuRyu",
-    "中文": null
-   },
-   "距離": "直線380m（徒歩目安約5分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": "075-344-3036",
-   "営業時間": null,
-   "官网": "https://www.furyu.jp/",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "furyu.jp",
-     "URL": "https://www.furyu.jp/",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
-    }
-   ],
-   "種别": "公共服务"
-  }
- ],
- "交通": [
-  {
-   "名称": {
-    "日文": "キャンパスプラザ京都",
-    "英文": "Campus Plaza Kyoto",
-    "中文": null
-   },
-   "距離": "直線310m（徒歩目安約4分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": "https://www.hellocycling.jp",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "日本語ウィキペディア「キャンパスプラザ京都」",
-     "URL": "https://ja.wikipedia.org/wiki/キャンパスプラザ京都",
-     "原文要旨": "見出し文をAPIで取得（本文はリンク先）。",
-     "ライセンス": "CC BY-SA 4.0"
-    },
-    {
-     "标题": "hellocycling.jp",
-     "URL": "https://www.hellocycling.jp",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
-    }
-   ],
-   "種别": "交通接続"
-  },
-  {
-   "名称": {
-    "日文": "京都　eco　トリップ",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線270m（徒歩目安約3分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": "+81 75-6937-940",
-   "営業時間": "08:00-18:00",
-   "官网": "https://kyoto-option.com/",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "kyoto-option.com",
-     "URL": "https://kyoto-option.com/",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
-    }
-   ],
-   "種别": "交通接続"
-  },
-  {
-   "名称": {
-    "日文": "Cyclekyoto",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線310m（徒歩目安約4分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": "+81 80 6183 8765",
-   "営業時間": null,
-   "官网": "https://www.cyclekyoto.net/",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "cyclekyoto.net",
-     "URL": "https://www.cyclekyoto.net/",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
-    }
-   ],
-   "種别": "交通接続"
-  },
-  {
-   "名称": {
-    "日文": "Kyoto cycling tour project",
-    "英文": null,
-    "中文": null
-   },
-   "距離": "直線360m（徒歩目安約4分）",
-   "简介": {
-    "日文": null,
-    "英文": null,
-    "中文": null
-   },
-   "住所": null,
-   "电话": null,
-   "営業時間": null,
-   "官网": "https://kctp.net/",
-   "介绍页": null,
-   "出典": [
-    {
-     "标题": "kctp.net",
-     "URL": "https://kctp.net/",
-     "原文要旨": "公式サイト。到達性のみ自動検証（HTTP 200、2026-10-22）。本文の人手確認は行っていません。"
-    }
-   ],
-   "種别": "交通接続"
-  }
- ],
- "购物": [],
- "无障碍": {
-  "信息": null,
-  "出典": []
- },
- "车站信息": {
-  "读音": "きょうとえき",
-  "罗马字": "Kyōto",
-  "所属公司": null,
-  "开业": null,
-  "车站地址": null,
-  "维基首段": "{{駅情報\n|駅名 = 京都駅\n|よみがな = きょうと\n|ローマ字 = Kyōto / Kyoto\n|画像 = Kyoto-STA Central.jpg\n|pxl = 300\n|画像説明 = JR京都駅ビル（中央口側） （2025年6月）\n|地図=\n|所在地 =\n|所属事業者 =  （JR西日本・ ）  （JR東海・ ）  （近鉄・ ）  （ ・ ）\n}}\n京都駅（きょうとえき）は、   にある、 （JR西日本）・ （JR東海）・ （近鉄）・ （ ）の 。\nの全列車が停車するほか、JR西日本は 「 」「 」を除く全列車が停車し、 ・ ・ ・ （ ）・ 方面、 は ・ ・ ・ 方面など、各地を結ぶ が発着する。\n現存の 設計の烏丸口の は「京都駅ビル」と呼ばれ、 に完成した4代目駅舎である。",
-  "出典": [
-   {
-    "标题": "日本語ウィキペディア「京都駅」",
-    "URL": "https://ja.wikipedia.org/wiki/京都駅",
-    "原文要旨": "駅概要文を MediaWiki API から取得（CC BY-SA 4.0）。"
-   }
-  ]
- },
- "検索记录": {
-  "使用した出典URL": [
-   "https://gallery.kcua.ac.jp/",
-   "https://ja.wikipedia.org/wiki/キャンパスプラザ京都",
-   "https://ja.wikipedia.org/wiki/七条通",
-   "https://ja.wikipedia.org/wiki/京都タワー",
-   "https://kctp.net/",
-   "https://kyoto-option.com/",
-   "https://libmuse.kcua.ac.jp/muse/",
-   "https://map.japanpost.jp/p/search/dtl/300144089000/",
-   "https://www.cyclekyoto.net/",
-   "https://www.furyu.jp/",
-   "https://www.hellocycling.jp",
-   "https://www.higashihonganji.or.jp/about/guide/shoseien/",
-   "https://www.kansai-td.co.jp/",
-   "https://www.pref.kyoto.jp/passport/10200022.html",
-   "https://www.rohm.co.jp/",
-   "https://www.wikidata.org/wiki/Q11534162",
-   "https://www.wikidata.org/wiki/Q1201304",
-   "https://www.wikidata.org/wiki/Q5154082",
-   "https://www.wikidata.org/wiki/Q795048",
-   "ja:京都中央郵便局",
-   "ja:柳原銀行",
-   "ja:渉成園"
   ],
-  "未確認": [
-   "中文名・中文简介が取得できない施設があります（機械翻訳はしていません）。",
-   "英文名・英文简介が取得できない施設があります。"
+  "名所案内": [
+    {
+      "名称": {
+        "日文": "東寺の秋期特別公開と写経",
+        "英文": "To-ji autumn openings and sutra copying",
+        "中文": "东寺秋季特别公开与写经"
+      },
+      "距離": "烏丸七条（京都駅より徒歩約15分）",
+      "简介": {
+        "日文": "「2026秋期特別公開」一覧が「宝物館 東寺五重塔の美術と歴史 – 千二百年の興亡 –」「国宝 五重塔 初層の特別公開」「講堂 立体曼荼羅世界に入る」「紅葉ライトアップと 金堂・講堂夜間特別拝観」を同じ 2026年10月31日（土）〜12月13日（日）会期で並べ、「御影供と弘法市」を境内のご案内に立て、「写経は国宝 五重塔内に永らく奉納させていただきます。写経受付時間 午前9時〜午後3時」と記載する。宝物館ページは開館を「宝物館の開館は、春と秋。 国宝の兜跋毘沙門天、 高さ約６メートルもの 千手観音菩薩の特別公開や 東寺の歴史や 文化財をテーマにした 特別展などを行います。」と明記し、期間を「宝物館の開館期間 (会期中は無休です) 春期特別公開 3月20日～5月25日」「秋期特別公開 9月20日～11月25日」（会期中は無休）とする。法要ページは「御影堂 毎月21日 午前10時 承和2年、835年3月21日、高野山奥の院に弘法大師空海はご入定になりました。新暦の4月21日にあたります。毎月21日には報恩感謝の法要を行います。」「なお、毎月21日は境内全域で弘法市が開かれます。」を立て、工事のため「※御影堂の修復工事を行っているため、現在、御影堂で行っていた法要を大日堂、仮御影堂で行っています。」。",
+        "英文": "The autumn notice puts four events under one period, 31 October to 13 December 2026: the pagoda's first storey, the lecture hall's mandala, the night maple lighting with night worship, and a treasure-hall exhibition that opened earlier on 20 September; the guide also records that copied sutras are enshrined inside the pagoda for long stretches and accepted between 9:00 and 15:00. The treasure hall states plainly that it opens only in spring and autumn - 20 March to 25 May and 20 September to 25 November, with no closing day inside each term - for the Tobatsu Bishamonten and the six-metre Kannon among other temple treasures. The ritual calendar adds the memorial service on the 21st of each month at 10:00 and the market that then fills the precincts, with services temporarily moved to the Dainichido while the Miyeido is being restored.",
+        "中文": "“2026秋期特别公开”把“宝物馆 东寺五重塔的美术与历史”“国宝五重塔初层的特别公开”“讲堂 进入立体曼荼罗世界”“红叶灯光与金堂・讲堂夜间特别拜观”列在同一会期（2026年10月31日〜12月13日），境内案内另列“御影供与弘法市”，并写明“写经将长期奉纳于国宝五重塔内，受理时间上午9时〜下午3时”。宝物馆页明确“宝物馆的开馆，只在春与秋”，期间为3月20日〜5月25日、9月20日〜11月25日（会期中无休）；法要页列每月21日上午10时的御影供，并注明每月21日全境内举办弘法市、因御影堂修复工事相关法要暂改于大日堂・仮御影堂举行。"
+      },
+      "官网": "https://www.toji.or.jp/",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "東寺 2026秋期特別公開",
+          "URL": "https://www.toji.or.jp/",
+          "原文要旨": "国宝 五重塔 初層の特別公開 2026年10月31日（土）〜12月13日（日）／講堂 立体曼荼羅世界に入る／紅葉ライトアップと 金堂・講堂夜間特別拝観／◎写経は国宝 五重塔内に永らく奉納させていただきます。写経受付時間 午前9時〜午後3時",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "宝物館｜東寺",
+          "URL": "https://toji.or.jp/guide/houmotsukan/",
+          "原文要旨": "宝物館の開館は、春と秋。 国宝の兜跋毘沙門天、 高さ約６メートルもの 千手観音菩薩の特別公開や 東寺の歴史や 文化財をテーマにした 特別展などを行います。／宝物館の開館期間 (会期中は無休です) 春期特別公開 3月20日～5月25日／秋期特別公開 9月20日～11月25日",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "法要のご案内｜東寺",
+          "URL": "https://toji.or.jp/visiting/",
+          "原文要旨": "御影堂 毎月21日 午前10時 承和2年、835年3月21日、高野山奥の院に弘法大師空海はご入定になりました。新暦の4月21日にあたります。毎月21日には報恩感謝の法要を行います。／なお、毎月21日は境内全域で弘法市が開かれます。／※御影堂の修復工事を行っているため、現在、御影堂で行っていた法要を大日堂、仮御影堂で行っています。",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "境内のご案内｜東寺",
+          "URL": "https://www.toji.or.jp/guide/",
+          "原文要旨": "金堂 東寺の歴史 講堂 立体曼荼羅 天、菩薩、明王、如来 食堂 食堂内 納経所 五重塔 御影堂 〈大師堂〉 弘法大師空海 御影供と弘法市 大日堂・鎮守八幡宮・宝蔵 小子房",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "渉成園の十三景と庭園貸出",
+        "英文": "The thirteen scenes of Shosei-en and its rented pavilions",
+        "中文": "涉成园的十三景与庭园出借"
+      },
+      "距離": "東本願寺飛地境内（烏丸七条下ル東側）",
+      "简介": {
+        "日文": "「庭園には四季折々の花が咲きほこり、変化に富んだ景観は『十三景』と称されています」「1936（昭和11）年には、文人趣味にあふれる仏寺庭園として、国の名勝に指定されています」。施設利用案内は「昼食・パーティー・展示会・イベント等で渉成園内の通常非公開建物をご利用いただくことが可能です」とし、閬風亭100畳（約80名）・臨池亭18畳（約20名）・滴翠軒17畳（約20名）を列挙、「※すべて和室です。※収容人数は使用用途により異なります」と注記する。紹介動画（Shōsei-en Movie）と「SNS Instagram」も掲出。公式英語サイトは庭の始まりを dates back to 1641, when the third shōgun Tokugawa Iemitsu (1604–1651) donated a parcel of land to Sennyo (1604–1658), the 13th head priest of the Higashi Honganji, who built a garden on the property as part of his residence after retirement.、広さを covers an area of about 35,000 square meters、景観を praised as the “Thirteen Views.”、指定を In 1936, the Garden was designated as a National Place of Scenic Beauty as a Buddhist temple garden filled with the aesthetic taste of the literati. と記し、開園・料金・出入口を Open all year March to October : 9:00 am to 5:00 pm (the reception desk closes at 4:30 pm)・November to February : 9:00 am to 4:00 pm (the reception desk closes at 3:30 pm)、Admission Fee (Donation for Garden Maintenance) Adults (18+) ¥700 Youth (13–18) ¥300 Youth (12 or younger) Free、The West Gate is the only entrance and exit of the garden. Please visit the reception desk first to pay the admission fee. として公表する。",
+        "英文": "The garden's four-season flowers and thirteen named scenes earned it state recognition as a Site of Scenic Beauty in 1936; the temple lets visitors book the normally closed pavilions for lunches, parties, exhibitions and events, listing a hundred-mat hall for about eighty people and two smaller teahouses for twenty, all tatami rooms whose capacity depends on the use. The English page dates the garden to 1641, when the third shogun gave land to the thirteenth head priest, who made the garden within a retired residence; it measures the site at about 35,000 square metres, names the thirteen views, and records the 1936 designation as a National Place of Scenic Beauty. Opening is all year, 9:00 to 17:00 to March-October (reception 16:30) and 9:00 to 16:00 November-February (reception 15:30), the fee is a maintenance donation of 700 yen for adults, 300 yen for 13-18 and nothing for children 12 and under, and the West Gate is the only entrance and exit.",
+        "中文": "“庭园四季繁花，富于变化的景观称为『十三景’”，1936（昭和11）年作为充满文人趣味的佛寺庭园被指定为国家名胜。设施利用案内称“可在涉成园内通常不公开的建筑中使用午餐・派对・展示会・活动”，列出閬风亭100叠（约80名）・临池亭18叠（约20名）・滴翠轩17叠（约20名），并注“※均为和室。※容纳人数依用途而异”，另设介绍视频与 Instagram。官方英文页记载庭园始于1641年、面积约35,000平方米、景观称十三景、1936年被指定为国家名胜；开放为全年，3〜10月 9:00〜17:00（受理至16:30）、11〜2月 9:00〜16:00（受理至15:30）；费用为庭园维护捐资（成人700日元・13〜18岁300日元・12岁及以下免费）；西门为唯一出入口。"
+      },
+      "介绍页": {
+        "日文": "https://www.higashihonganji.or.jp/about/guide/shoseien/"
+      },
+      "言語注記": "真宗大谷派（東本願寺）は公式英語サイト english.higashihonganji.or.jp を持ち、英文欄は 200 で開いたその英語原文を引用した。中文欄は日本語・英語の各ページを読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "渉成園について",
+          "URL": "https://www.higashihonganji.or.jp/about/guide/shoseien/",
+          "原文要旨": "国の名勝に指定されています／昼食・パーティー・展示会・イベント等で 渉成園内の通常非公開建物をご利用いただくことが可能です／閬風亭 ろうふうてい 100畳/収容人数最大：約80名／※すべて和室です。",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "Shōsei-en Garden（公式英語）",
+          "URL": "https://english.higashihonganji.or.jp/shosei-en/",
+          "原文要旨": "dates back to 1641, when the third shōgun Tokugawa Iemitsu (1604–1651) donated a parcel of land to Sennyo (1604–1658), the 13th head priest of the Higashi Honganji, who built a garden on the property as part of his residence after retirement.／covers an area of about 35,000 square meters／praised as the “Thirteen Views.”／In 1936, the Garden was designated as a National Place of Scenic Beauty as a Buddhist temple garden filled with the aesthetic taste of the literati.／Open all year March to October : 9:00 am to 5:00 pm (the reception desk closes at 4:30 pm)／November to February : 9:00 am to 4:00 pm (the reception desk closes at 3:30 pm)／Admission Fee (Donation for Garden Maintenance) Adults (18+) ¥700 Youth (13–18) ¥300 Youth (12 or younger) Free／The West Gate is the only entrance and exit of the garden. Please visit the reception desk first to pay the admission fee.",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "お西さんの境内建造物と年間行事",
+        "英文": "Nishi Hongan-ji's buildings and year-round observances",
+        "中文": "西本愿寺的境内建筑与年度行事"
+      },
+      "距離": "烏丸七条（京都駅烏丸口から徒歩約10分）",
+      "简介": {
+        "日文": "トップの動画紹介文は「世界文化遺産に登録されている境内や国宝の御影堂ごえいどう・阿弥陀堂あみだどう、書院、飛雲閣などをはじめとする歴史的建造物の紹介を、声優小野賢章おのけんしょうさんによる語りでご案内します。（約4分間）」と記す。法要・行事欄には「龍谷会（大谷本廟 報恩講）のご案内（10月15日・16日修行）」「本願寺角坊10月・11月・12月『終活・仏事相談』のご案内」「TERAKOYA HONGWANJI【2026（令和8）年 10・11・12月開催】」が並び、「『お西さんへ行こう。』＜2026（令和8）年法要・行事案内版＞の発行について」の案内も続く。「参る」のページは一日の流れとして「5:30 開門」「6:00 晨朝勤行 阿弥陀堂 (引き続き) 御影堂」「17:00 閉門」を、帰敬式・境内案内として「帰敬式 1月1日・16日の晨朝後、 1月8日・12月20日の終日を除く毎日2回 御影堂」「毎日4回、「 お西さんを知ろう！ 」（\"お西のお坊さん\"による境内案内ツアー）を開催しています。 （1回目 10:00～／2回目 11:30～／3回目 13:45～／4回目 15:30～）※約30分 どなたでもご自由にご参加いただけます（申込・参加費 不要）※雨天時も開催」を掲げ、12月の欄に「12月20日(日) 御煤払 12月31日(木) 除夜会」を立てる。",
+        "英文": "A four-minute narrated film introduces the grounds registered as World Heritage and their national treasures, the Goedo and Amida-do halls, the shoin reception quarters and the Feiun-kaku; the worship calendar carries the Ryugokai at the Otani graveyard on 15-16 October, end-of-life and Buddhist-rites consultations at the corner hall for October to December, and TERAKOYA HONGWANJI courses over the same months. The worship page arranges the day from the 5:30 opening and the 6:00 morning service in the Amida-do to the 17:00 closing, offers the initiation service twice a day by application, and runs a free thirty-minute tour of the grounds at 10:00, 11:30, 13:45 and 15:30 with no reservation and in all weather. December carries the soot-sweeping on the 20th and the night service on the 31st.",
+        "中文": "首页视频说明以“约4分钟、由声优小野贤章讲解”介绍登录为世界文化遗产的境内及国宝御影堂・阿弥陀堂、书院・飞云阁等历史建筑。法要・行事栏列“龙谷会（大谷本庙 报恩讲 10月15日・16日修行）”“本愿寺角坊 10・11・12月『终活・佛事相谈』”“TERAKOYA HONGWANJI（2026年10・11・12月举办）”，并有“お西さんへ行こう”2026年度案内。“参る”页按 5:30 开门、6:00 阿弥陀堂晨朝勤行、17:00 闭门的顺序记载一日流程；归敬式每日两次（需申请），境内导览每日4回（10:00／11:30／13:45／15:30，约30分，免报名与费用、雨天照常）；12月栏列12月20日御煤払、12月31日除夜会。"
+      },
+      "営業時間": "本願寺の一日＝5:30 開門〜17:00 閉門（公式「参る」ページ）／帰敬式は毎日2回、境内案内ツアーは毎日4回",
+      "官网": "https://www.hongwanji.kyoto/",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "西本願寺 動画でわかる西本願寺",
+          "URL": "https://www.hongwanji.kyoto/",
+          "原文要旨": "世界文化遺産に登録されている境内や国宝の御影堂ごえいどう・阿弥陀堂あみだどう、書院、飛雲閣などをはじめとする歴史的建造物の紹介を、声優小野賢章おのけんしょうさんによる語りでご案内します。（約4分間）／龍谷会（大谷本廟 報恩講）のご案内（10月15日・16日修行）",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "参る｜お西さん（西本願寺）",
+          "URL": "https://www.hongwanji.kyoto/visit/",
+          "原文要旨": "5:30 開門／6:00 晨朝勤行 阿弥陀堂 (引き続き) 御影堂／17:00 閉門／帰敬式 1月1日・16日の晨朝後、 1月8日・12月20日の終日を除く毎日2回 御影堂／毎日4回、「 お西さんを知ろう！ 」（\"お西のお坊さん\"による境内案内ツアー）を開催しています。 （1回目 10:00～／2回目 11:30～／3回目 13:45～／4回目 15:30～）※約30分 どなたでもご自由にご参加いただけます（申込・参加費 不要）※雨天時も開催／12月20日(日) 御煤払 12月31日(木) 除夜会",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "西日本唯一の最高ランク外国人観光案内所（京なび）",
+        "英文": "Japan's top-rated foreigner tourist information office, the only one in western Japan",
+        "中文": "西日本唯一的最高等级外国游客案内所（京なび）"
+      },
+      "距離": "京都駅ビル2階・南北自由通路沿い（改札前から直結）",
+      "简介": {
+        "日文": "京都観光Navi は「最高ランクの外国人観光案内所」として「平成24年10月に、日本政府観光局(JNTO)の外国人観光案内所認定制度において、西日本で唯一(当時)最高ランクのカテゴリー３に認定されました。英語はもちろん、中国語、韓国、朝鮮語でもご案内しています」と記載する（同文は京都府観光連盟の施設一覧にも掲載）。",
+        "英文": "The office records its 2012 accreditation by the Japan National Tourism Organization as category three, the highest rank, the only one of that rank in western Japan at the time, with information given in English, Chinese and Korean as well as Japanese; the same wording appears on the prefectural tourism federation's facility page.",
+        "中文": "观光Navi 以“最高等级的外国人观光案内所”记载：“平成24年10月，在日本政府观光局（JNTO）的外国人观光案内所认定制度中，被认定为西日本唯一（当时）最高等级的 category 3。除英语外，也以中文、韩国・朝鲜语提供引导”，京都府观光联盟的设施一览同文掲載。"
+      },
+      "介绍页": {
+        "日文": "https://ja.kyoto.travel/information/"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "観光案内所｜京都観光Navi",
+          "URL": "https://ja.kyoto.travel/information/",
+          "原文要旨": "平成24年10月に、日本政府観光局(JNTO)の外国人観光案内所認定制度において、西日本で唯一(当時)最高ランクのカテゴリー３に認定されました。英語はもちろん、中国語、韓国、朝鮮語でもご案内しています",
+          "ライセンス": "京都市観光協会 京都観光Navi（ja.kyoto.travel）記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "京都総合観光案内所 京なび｜京都府観光連盟",
+          "URL": "https://www.kyoto-kankou.or.jp/info_search/3972",
+          "原文要旨": "京都市を含む府域全域の観光案内、観光情報発信などを多言語・ワンストップで行う総合観光案内所",
+          "ライセンス": "京都府（pref.kyoto.jp）／京都府観光連盟（kyoto-kankou.or.jp）公表の抜粋（出典明記）"
+        }
+      ]
+    }
   ],
-  "検証日": "2026-10-22"
- }
+  "公共服务": [
+    {
+      "名称": {
+        "日文": "京都総合観光案内所「京なび」（案内所・チケット・車椅子貸出）",
+        "英文": "Kyoto general tourist information office (tickets, wheelchair loan, luggage delivery)",
+        "中文": "京都综合观光案内所「京なび」（导览・车票・轮椅出借・行李配送）"
+      },
+      "距離": "京都駅ビル2階、南北自由通路沿い（下京区烏丸通塩小路下る）",
+      "简介": {
+        "日文": "サービス内容は「観光案内・相談」「観光情報発信」「観光関連チケット販売」「当日の宿泊施設紹介・斡旋」「車椅子レンタル」「Wi-Fiレンタル」「手荷物配送サービス」。車椅子は「京都観光のみご利用いただけます」「返却：当日、18時までに返却して下さい」「費用：無料（貸出時に保証金5000円をお預かりします）」「貸出台数：3台（先着順・予約不可）」、身分証明書（外国人はパスポート）提示が必要。住所 下京区烏丸通塩小路下る、TEL 075-343-0548（おこしやす）。府観光連盟側は「車椅子可 車椅子対応トイレ無し 筆談対応可（筆談具有り） 補助犬同行可」「点字電話帳、ルーペ、介護タクシーに関する資料の用意有り」と併記する。",
+        "英文": "Open 8:30 to 19:00 every day at 2F of the station building along the north-south free passage, the office gives sightseeing advice, sells transport and attraction tickets, arranges same-day lodging, loans Wi-Fi routers for a fee and delivers luggage to hotels in Kyoto prefecture and Osaka city. Wheelchairs are free with a 5,000-yen deposit refunded on return the same day by 18:00, three units on a first-come basis with no reservations, and ID (passport for foreign visitors) is required; the prefectural federation adds that writing is offered for deaf visitors, guide dogs are welcome and braille directories, magnifiers and care-taxi leaflets are kept on hand.",
+        "中文": "位于京都駅ビル2层、南北自由通路沿线，开所时间 8:30〜19:00（全年无休）。服务包括观光导览・咨询、观光信息发布、观光相关车票销售、当日住宿介绍・斡旋、轮椅租借、Wi-Fi 租借、行李配送。轮椅“仅限京都观光使用”“当日18时前归还”“免费（出借时收取押金5000日元，归还时返还）”“出借3台（先到先得、不可预约）”，需出示身份证明（外国人为护照）。府观光联盟并列“可携轮椅・无轮椅对应厕所・可笔谈（备笔谈具）・可导盲犬同行”，并备有盲文电话簿、放大镜与介护出租车资料。"
+      },
+      "住所": "下京区烏丸通塩小路下る（京都駅ビル2階、南北自由通路沿い）",
+      "电话": "075-343-0548",
+      "営業時間": "8:30～19:00（年中無休）",
+      "料金": "観光案内・車椅子レンタルは無料（車椅子は保証金5000円を預り、返却時に返金）。Wi-Fiレンタル・手荷物配送は有料",
+      "介绍页": {
+        "日文": "https://ja.kyoto.travel/information/"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "観光案内所｜京都観光Navi",
+          "URL": "https://ja.kyoto.travel/information/",
+          "原文要旨": "開所時間 8:30～19:00（年中無休）／TEL 075-343-0548（おこしやす）／所在地 下京区烏丸通塩小路下る (京都駅ビル２階、南北自由通路沿い)／車椅子レンタル 京都観光のみご利用いただけます。返却：当日、18時までに返却して下さい。費用：無料（貸出時に保証金5000円をお預かりします。保証金は返却時にお返しします。）／貸出台数：3台（先着順・予約不可）",
+          "ライセンス": "京都市観光協会 京都観光Navi（ja.kyoto.travel）記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "京都総合観光案内所 京なび｜京都府観光連盟",
+          "URL": "https://www.kyoto-kankou.or.jp/info_search/3972",
+          "原文要旨": "○車椅子貸出 貸出台数3台（先着順、予約不可） 貸出時間：8時30分～18時 費用：無料（貸出時に保証金5,000円を預かり、返却時に返金） 貸出時に身分証明書の掲示が必要／バリアフリー関連 車椅子可 車椅子対応トイレ無し 筆談対応可（筆談具有り） 補助犬同行可",
+          "ライセンス": "京都府（pref.kyoto.jp）／京都府観光連盟（kyoto-kankou.or.jp）公表の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "京都市内観光案内所ネットワーク会議参画団体（市内の案内所一覧）",
+        "英文": "The city tourist information network and its member offices",
+        "中文": "京都市内观光案内所网络会议参与团体（市内案内所一览）"
+      },
+      "距離": "北大路・烏丸御池・蹴上など市内各所（京都駅分室は上記 京なび）",
+      "简介": {
+        "日文": "一覧は各案内所の「住所／営業時間／電話番号／最寄駅／対応言語／ひとこと」を様式化して掲載する。例：北大路市バス・地下鉄案内所（京都市北区小山北上総町地内、7:30～19:30、075-493-0410、対応言語 英語、フランス語（但し、職員のシフトによる））、烏丸御池市バス・地下鉄案内所（中京区虎屋町地先、7:30～19:30、075-213-1650、英語）、kokoka京都市国際交流会館（左京区粟田口鳥居町2-1、9:00～21:00、定休日 毎月曜＜祝日の場合は次の平日＞、年末年始、075-352-3511、英語、中国語等）。京都ハンディクラフトセンターのツーリストインフォメーションは「休止中」と明記される。",
+        "英文": "The network page gives each office in a fixed form - address, hours, telephone, nearest station, languages and a message. Kitaoji and Karasuma-Oike bus and subway offices open 7:30 to 19:30 daily (075-493-0410 and 075-213-1650), Kitaoji also staffing French on certain shifts, while kokoka the international exchange hall at Keage takes English and Chinese from 9:00 to 21:00 except Mondays and year-end. The handicraft centre's tourist desk is marked suspended.",
+        "中文": "一览表以固定格式记载各案内所的“住所・营业时间・电话・最近车站・对应语言・一句话介绍”。例如北大路市巴士・地铁案内所（北区小山北上总町地内、7:30〜19:30、075-493-0410、英语・法语，依职员班次）、乌丸御池市巴士・地铁案内所（中京区虎屋町地先、7:30〜19:30、075-213-1650、英语）、kokoka 京都市国际交流会馆（左京区粟田口鸟居町2-1、9:00〜21:00、每月周一休＜逢假日则顺延＞及年末年始、075-352-3511、英语・中文等）；京都手工艺中心的观光咨询处明确标注“休止中”。"
+      },
+      "営業時間": "北大路 7:30～19:30／烏丸御池 7:30～19:30（いずれも年中無休）ほか、団体ごとに明示",
+      "介绍页": {
+        "日文": "https://ja.kyoto.travel/information/network.php"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都市内観光案内所ネットワーク会議参画団体",
+          "URL": "https://ja.kyoto.travel/information/network.php",
+          "原文要旨": "北大路市バス・地下鉄案内所 住所 京都市北区小山北上総町地内 営業時間 7:30～19:30 年中無休 電話番号 075-493-0410／対応言語 英語、フランス語（但し、職員のシフトによる）／kokoka京都市国際交流会館 住所 京都市左京区粟田口鳥居町2-1 営業時間 9:00～21:00（定休日毎月曜＜祝日の場合は次の平日＞、年末年始） 電話番号 075-352-3511／最寄駅 京都市営地下鉄蹴上駅 対応言語 英語、中国語等",
+          "ライセンス": "京都市観光協会 京都観光Navi（ja.kyoto.travel）記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "京都市情報館（市公式ポータル・多言語入口）",
+        "英文": "City of Kyoto official portal with multilingual entries",
+        "中文": "京都市信息馆（市官方门户・多语言入口）"
+      },
+      "距離": "中京区寺丸町（市役所所管のポータル。オンライン手続き・施設案内）",
+      "简介": {
+        "日文": "市トップは「共通メニューなどをスキップして本文へ English 한글 中文簡体 中文繁體 やさしい日本語 読み上げ ふりがな はずす 文字サイズ」の多言語・閲覧支援列を掲げ、「暮らしの情報／観光・文化・産業／子育て・教育／健康・福祉／まちづくり／市政情報」の各欄、「よく検索されるキーワード ごみ 住民票 バス時刻表 施設マップ」、相談窓口「京都いつでもコール 年中無休 朝8時から夜9時 電話：075-661-3755」、LINE公式アカウント（ID @kyoto_city）、区役所一覧（下京区を含む11区）を案内する。",
+        "英文": "The city portal carries language links for English, Korean, simplified and traditional Chinese plus a plain-Japanese mode, screen reading and ruby annotations, menus for daily life, tourism and culture, child-raising, health and welfare, city-building and administration, hot keywords (garbage, residence certificates, bus timetables, facility maps), and the always-open consultation line Kyoto Itsudemo Call on 075-661-3755 from 8:00 to 21:00 every day, alongside a LINE account and the eleven ward-office pages.",
+        "中文": "市首页顶部列出“English 한글 中文簡体 中文繁體 やさしい日本語 読み上げ ふりがな”等多语言与浏览支援入口，栏目为“暮らしの情報／観光・文化・産業／子育て・教育／健康・福祉／まちづくり／市政情報”，热门搜索词为“垃圾、住民票、巴士时刻表、设施地图”，并公布咨询窗口“京都いつでもコール 年中無休 朝8時から夜9時 电话 075-661-3755”、市 LINE 官方账号（@kyoto_city）与含下京区在内的11区区役所页面。"
+      },
+      "官网": "https://www.city.kyoto.lg.jp/",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都市：トップページ",
+          "URL": "https://www.city.kyoto.lg.jp/",
+          "原文要旨": "English 한글 中文簡体 中文繁體 やさしい日本語 読み上げ ふりがな／よく検索されるキーワード ごみ 住民票 バス時刻表 施設マップ／「京都いつでもコール」 年中無休 朝8時から夜9時 電話： 075-661-3755",
+          "ライセンス": "京都市（市情報館 city.kyoto.lg.jp）公表の原文（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "京都市交通局（市バス・地下鉄の窓口と案内）",
+        "英文": "Kyoto City Transportation Bureau: bus and subway information",
+        "中文": "京都市交通局（市巴士・地铁的窗口与案内）"
+      },
+      "距離": "右京区太秦下刑部町12番地（交通局所在地）。烏丸線「京都駅」は京都駅直下",
+      "简介": {
+        "日文": "交通局トップは「京都市交通局 〒616-8104 京都市右京区太秦下刑部町12番地 市バス・地下鉄のお問い合わせ先」と所在地・電話番号を掲げ、市バス（時刻表・路線図・定期券・運賃・接近情報「ポケロケ plus+」）と地下鉄（時刻表・路線図・定期券・運賃）の各欄、おすすめ情報「地下鉄・バス１日券」「乗換案内（バス・鉄道の達人）」「京都市バス・地下鉄ガイド（多言語対応）」、バリアフリー欄「車いす・ベビーカーを御利用のお客様へ（バリアフリー）」「地下鉄駅施設等のご案内（バリアフリー）」「ベビーケアルームのご案内」を並べる。運行情報として嵐山地区の平日混雑対策・臨時経路変更、四条駅連絡通路エレベーター新設工事などの公告も掲載。",
+        "英文": "The bureau's front page gives its address at 12 Sakyobacho, Uzumasa, Ukyo-ku, Kyoto 616-8104 with the bus and subway enquiry number, and links timetables, route maps, commuter passes, fares and the live bus-approach service, the one-day subway and bus ticket, a multilingual bus and subway guide, the wheelchair and stroller page, station facility information and baby care rooms, together with service notices on Arashiyama weekday crowding measures and new elevator work at Shijo station.",
+        "中文": "交通局首页标注“京都市交通局 〒616-8104 京都市右京区太秦下刑部町12番地”与市巴士・地铁问询电话，分设市巴士（时刻表・路线图・定期券・运费・接近信息“ポケロケ plus+”）与地铁各栏，推荐信息含“地铁・巴士1日券”“换乘案内”“京都市巴士・地铁指南（多语言对应）”，无障碍栏列“乘轮椅・婴儿车的旅客须知”“地下铁车站设施案内”“育婴室案内”，并刊登岚山地区平日拥堵对策、四条站连络通路电梯新设工程等运行公告。"
+      },
+      "営業時間": "市バス・地下鉄のお問い合わせ先（交通局公表）",
+      "官网": "https://www.city.kyoto.lg.jp/kotsu/",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都市交通局：トップページ",
+          "URL": "https://www.city.kyoto.lg.jp/kotsu/",
+          "原文要旨": "京都市交通局 〒616-8104 京都市右京区太秦下刑部町12番地 市バス・地下鉄のお問い合わせ先／おすすめ情報 地下鉄・バス１日券／京都市バス・地下鉄ガイド（多言語対応）／車いす・ベビーカーを御利用のお客様へ（バリアフリー）",
+          "ライセンス": "京都市（市情報館 city.kyoto.lg.jp）公表の原文（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "京都地区交通バリアフリー移動円滑化基本構想（JR・新幹線・近鉄・地下鉄の各駅）",
+        "英文": "Kyoto district barrier-free mobility plan covering the JR, shinkansen, Kintetsu and subway stations",
+        "中文": "京都地区交通无障碍移动便捷化基本构想（JR・新干线・近铁・地铁各站）"
+      },
+      "距離": "京都駅地区（烏丸口・八条口とも。京都市 都市計画・交通バリアフリー欄）",
+      "简介": {
+        "日文": "市公式の当該ページは「概要 ・策定日 平成17年11月22日 ・地区内の旅客施設 JR京都駅，新幹線京都駅，近鉄京都駅，地下鉄京都駅」とし、各駅の概要として「JR京都駅のバリアフリー化の概要・車いす対応型トイレ入り口の点字表示版へ誘導する線状ブロックの設置」「新幹線京都駅のバリアフリー化の概要・改札口からホームに至るエレベーターの設置(2基)・改札口付近の発車標のフルカラータイプ化による改善・改札内コンコースの案内サインの大型化・2階コンコースの待合室の増席」「近鉄京都駅のバリアフリー化の概要・八条口券売機付近への点字運賃表の設置・オストメイト対応の多機能トイレの表示改善」「地下鉄京都駅のバリアフリー化の概要・南口改札前構外スロープの勾配の改善・ホームにおけるエレベーター案内サインの改善」を掲げる。親ページ「交通バリアフリー」は「平成14年10月に，市内の全ての旅客施設や車両及び旅客施設周辺の道路などを対象としたバリアフリー化推進の指針となる『京都市交通バリアフリー全体構想』を策定」と説明する。",
+        "英文": "The city's district plan, dated 22 November 2005 and posted 24 March 2021, covers JR Kyoto, shinkansen Kyoto, Kintetsu Kyoto and subway Kyoto stations and lists works already committed: guiding blocks to the braille plate at the wheelchair toilet at JR Kyoto; two elevators from the ticket gates to shinkansen platforms together with full-colour departure boards, larger concourse signage and extra seating in the second-floor waiting room at the shinkansen station; braille fare tables near the Hachijo exit ticket machines and better signage for the ostomate multi-function toilet at Kintetsu. The parent page explains that the city adopted an overall transport barrier-free policy in October 2002 covering all passenger facilities, vehicles and surrounding roads.",
+        "中文": "市官方该页载明“概要・策定日 平成17年11月22日・地区内の旅客施設 JR京都駅，新幹線京都駅，近鉄京都駅，地下鉄京都駅”，并按车站列出内容：JR京都站栏“车いす対応型トイレ入り口の点字表示版へ誘導する線状ブロックの設置”；新干线京都站栏“改札口からホームに至るエレベーターの設置(2座)、检票口附近发车标改为全彩、改札内通道导视牌大型化、2层通道候车室增加座位”；近铁京都站“在八条口售票机附近设置点字运费表、改善对应造口人士的多功能厕所标识”。上级页“交通无障碍”说明本市于平成14年10月制定了以全市客运设施、车辆及周边道路为对象的指引《京都市交通无障碍整体构想》。"
+      },
+      "営業時間": "策定日 平成17年11月22日（ページ更新 2021年3月24日）",
+      "官网": "https://www.city.kyoto.lg.jp/",
+      "介绍页": {
+        "日文": "https://www.city.kyoto.lg.jp/tokei/page/0000145417.html"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都地区交通バリアフリー移動円滑化基本構想｜京都市",
+          "URL": "https://www.city.kyoto.lg.jp/tokei/page/0000145417.html",
+          "原文要旨": "策定日 平成17年11月22日／地区内の旅客施設 JR京都駅，新幹線京都駅，近鉄京都駅，地下鉄京都駅／JR京都駅のバリアフリー化の概要・車いす対応型トイレ入り口の点字表示版へ誘導する線状ブロックの設置／新幹線京都駅のバリアフリー化の概要・改札口からホームに至るエレベーターの設置(2基)",
+          "ライセンス": "京都市（市情報館 city.kyoto.lg.jp）公表の原文（出典明記）"
+        },
+        {
+          "标题": "交通バリアフリー｜京都市",
+          "URL": "https://www.city.kyoto.lg.jp/tokei/page/0000033162.html",
+          "原文要旨": "平成14年10月に，市内の全ての旅客施設や車両及び旅客施設周辺の道路などを対象としたバリアフリー化推進の指針となる「京都市交通バリアフリー全体構想」を策定",
+          "ライセンス": "京都市（市情報館 city.kyoto.lg.jp）公表の原文（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "「人にやさしいお宿情報」（宿泊施設のバリアフリー公表一覧）",
+        "英文": "Barrier-free information published by Kyoto hotels and ryokan",
+        "中文": "“对人友善的住宿信息”（住宿设施无障碍公开一览）"
+      },
+      "距離": "京都市全域の参加施設（京都駅周辺のホテルも含む一覧）",
+      "简介": {
+        "日文": "市公式の一覧ページは「人にやさしいお宿情報」（宿泊施設のバリアフリーに関する情報）の公表施設一覧（宿泊施設をお探しの皆様へ）ページ番号293150・2026年9月17日として参加宿泊施設を列挙する。京都市観光協会の公式 FAQ（サイト名 京なびオンライン＝title 要素由来）は「京都市の宿泊施設のバリアフリー情報はどこで見られますか？」の回答で「詳細はこちらをご覧ください」に続けて市の一覧ページ URL を 1 行そのまま掲出する。",
+        "英文": "The city maintains a published list of accommodation that discloses barrier-free details, and the tourism association's own FAQ answers the question where to find barrier-free information on Kyoto lodging by pointing to that list page, closing with a link to the details.",
+        "中文": "市官方以《“对人友善的住宿信息”（住宿设施无障碍信息）公表设施一览（致寻找住宿的朋友们）》为题列举参与的住宿设施。京都市观光协会官方 FAQ（站点名 京なびオンライン，取自 title 要素）在“在哪里可以看到京都市住宿设施的无障碍信息？”一问的回答中指向该页面，并以“请参阅此处了解详情”作结。"
+      },
+      "営業時間": "市公表（ページ番号293150）",
+      "官网": "https://www.city.kyoto.lg.jp/",
+      "介绍页": {
+        "日文": "https://www.city.kyoto.lg.jp/tokei/page/0000293150.html"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "「人にやさしいお宿情報」公表施設一覧｜京都市",
+          "URL": "https://www.city.kyoto.lg.jp/tokei/page/0000293150.html",
+          "原文要旨": "「人にやさしいお宿情報」（宿泊施設のバリアフリーに関する情報）の公表施設一覧（宿泊施設をお探しの皆様へ）",
+          "ライセンス": "京都市（市情報館 city.kyoto.lg.jp）公表の原文（出典明記）"
+        },
+        {
+          "标题": "京都市の宿泊施設のバリアフリー情報はどこで見られますか？｜京なびオンライン",
+          "URL": "https://global.kyoto.travel/ja/faq/detail.php?faq_id=3018",
+          "原文要旨": "京都市の宿泊施設のバリアフリー情報はどこで見られますか？ 詳細はこちらをご覧ください。 https://www.city.kyoto.lg.jp/tokei/page/0000293150.html",
+          "ライセンス": "京都市観光協会 京都観光Navi（ja.kyoto.travel）記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "京なびオンライン（京都市観光協会の公式FAQ）",
+        "英文": "The tourism association's official FAQ site",
+        "中文": "京なびオンライン（京都市观光协会官方 FAQ）"
+      },
+      "距離": "オンライン（京都総合観光案内所 京なびが所管）",
+      "简介": {
+        "日文": "「検索はこちら」を掲げた同ページはカテゴリーを「交通・アクセス／観光スポット／伝統行事・イベント／困ったときに／京都について／その他」として立て、条件検索・よくあるご質問・「よく閲覧されているご質問」の「総合ランキング」「カテゴリー別ランキング」を案内する。ランキング欄には「京都駅で車いすは貸し出して貰えますか。」「コインロッカーはどの駅にもありますか？」「観光案内所はどこにありますか？」などの件名が並び、困ったときに欄の個別 FAQ（宿泊施設のバリアフリー情報、上記）も同じ構成で掲載されている。※観光協会の旧ドメイン kyotokanku.jp は本セッションで HTTP 000、ja.kyoto.travel の /access/・/gourmet/・/shopping/ は 404 だった（検索記録に記録）。",
+        "英文": "The association's FAQ portal is headed with a search box and sorts questions into six categories - transport and access, sightseeing spots, traditional events and festivals, what to do when in trouble, about Kyoto, and other - offering category search, keyword search and tag lists, plus a most-read question list with an overall and a per-category ranking; among the ranked subjects are whether wheelchairs are lent out at Kyoto Station, whether every station has coin lockers, and where the tourist information offices are (all listed in Japanese), and the trouble category holds the individual answers quoted elsewhere in this file.",
+        "中文": "该页以“检索在此（検索はこちら）”为题，把内容分为“交通・アクセス／観光スポット／传统行事・活动／遇到困难时／关于京都／其它”六类，提供条件检索、常见问题以及“常阅览问题”的综合／分类排行；排行中可见“京都站是否有轮椅出借（京都駅で車いすは貸し出して貰えますか。）”“是否每个车站都有投币储物柜”等条目，“遇到困难时”项下即包含本文件其它记录所引的个别 FAQ（如住宿无障碍信息）。※观光协会旧域名 kyotokanku.jp 本次抓取为 HTTP 000，ja.kyoto.travel 的 /access/・/gourmet/・/shopping/ 为 404。"
+      },
+      "営業時間": "オンライン公開（検索・カテゴリー別／よく閲覧されているご質問のランキング形式。個別回答页に更新日の明示はあるが窓口の営業時間欄はない）",
+      "官网": "https://ja.kyoto.travel/",
+      "介绍页": {
+        "日文": "https://global.kyoto.travel/ja/faq/"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京なびオンライン",
+          "URL": "https://global.kyoto.travel/ja/faq/",
+          "原文要旨": "検索はこちら カテゴリーを選ぶ／カテゴリーを選ぶ 交通・アクセス 観光スポット 伝統行事・イベント 困ったときに 京都について その他／条件検索／よくあるご質問／よく閲覧されているご質問 総合ランキング カテゴリー別ランキング／困ったときに 京都駅で車いすは貸し出して貰えますか。／コインロッカーはどの駅にもありますか？",
+          "ライセンス": "京都市観光協会 京都観光Navi（ja.kyoto.travel）記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "京都府公式ホームページ（広域案内・防災情報）",
+        "英文": "Kyoto Prefecture official site",
+        "中文": "京都府官方主页（广域导览・防灾信息）"
+      },
+      "距離": "上京区新町通六角下ル（府庁所管。京都駅には府観光連盟の案内所が進出）",
+      "简介": {
+        "日文": "府トップ（本文ダンプの先頭見出し）は「京都府の広報 防災・防犯・安心・安全」の列を立て、「お知らせ／イベント・募集／助成制度／入札情報」のタブと、直近のお知らせとして「京都府収入証紙の払戻し請求が可能です（令和9年9月末まで）」「10月22日 …」などを掲出する。広域の観光案内は京都府観光連盟（kyoto-kankou.or.jp）が受け、府域全域のスポット・グルメ一覧と直線距離つき「近くの観光スポット／近くのグルメスポット」を公表する（京都駅周辺の例：美術館「えき」KYOTO 0.1km、Crosta京都（荷物預かり所・キャリーサービス）0.1km、ニデック京都タワー 0.2km、京都劇場 0.2km）。",
+        "英文": "The prefectural front page groups announcements under public information, disaster and crime prevention and safety, with tabs for notices, events and grants, and the federation it operates publishes nearby-spot lists with straight-line distances from each facility - for the station area, an 0.1 km gallery and luggage counter, a 0.2 km observation tower and theatre.",
+        "中文": "府首页设“京都府的宣传 防灾・治安・安心安全”栏目，下有“通知／活动・募集／补助制度／招标信息”标签，并列出“可办理京都府收入印花税退税（至令和9年9月末）”等近期公告。广域观光案内由京都府观光联盟承担，公布全府景点・美食列表并附直线距离的“附近观光景点／附近美食景点”（京都駅周边例：美术馆“えき”KYOTO 0.1km、Crosta京都（行李寄存・搬运服务）0.1km、Nidec 京都塔 0.2km、京都剧场 0.2km）。"
+      },
+      "営業時間": "府公表（トップページの公開、個別窓口はページごとに異なる）",
+      "官网": "https://www.pref.kyoto.jp/",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都府ホームページ",
+          "URL": "https://www.pref.kyoto.jp/",
+          "原文要旨": "京都府の広報 防災・防犯・安心・安全／すべて お知らせ 10月23日 京都府収入証紙の払戻し請求が可能です（令和9年9月末まで）",
+          "ライセンス": "京都府（pref.kyoto.jp）／京都府観光連盟（kyoto-kankou.or.jp）公表の抜粋（出典明記）"
+        },
+        {
+          "标题": "京都総合観光案内所 京なび｜近くの観光スポット",
+          "URL": "https://www.kyoto-kankou.or.jp/info_search/3972",
+          "原文要旨": "近くの観光スポット 京都駅ビルインフォメーション 直線距離 : 0.1km／Crosta京都（荷物預かり所・キャリーサービス） 直線距離 : 0.1km／美術館「えき」KYOTO 直線距離 : 0.1km／ニデック京都タワー 直線距離 : 0.2km",
+          "ライセンス": "京都府（pref.kyoto.jp）／京都府観光連盟（kyoto-kankou.or.jp）公表の抜粋（出典明記）"
+        }
+      ]
+    }
+  ],
+  "交通": [
+    {
+      "名称": {
+        "日文": "JRおでかけネット 京都駅（きっぷ発売・営業時間・サービス）",
+        "英文": "JR West Odekake Net: Kyoto Station ticket windows, gates and services",
+        "中文": "JRおでかけネット 京都駅（车票发售・营业时间・站内服务）"
+      },
+      "距離": "オンライン（JR西日本の公式駅ページ）",
+      "简介": {
+        "日文": "「きっぷの発売」欄で「みどりの窓口」「みどりの券売機」「みどりの券売機プラス」「定期券がお求めになれる券売機」の四項目にいずれも「あり」を掲げる（表組が平坦化されラベルと値が連続して出力される）。「営業時間など：みどりの窓口 6時30分から21時」「みどりの券売機プラス 5時30分から23時」「【改札口】／（中央口） 4時35分から終電／（西口） 4時35分から終電／（地下東口） 4時35分から終電／（みどりの券売機プラス オペレーター対応時間）8時00分から20時00分／（八条東口） 6時50分から23時00分」「※6時50分から23時00まで係員が現地で有人対応します」「きっぷのお受け取り EXサービス 可／5489サービス 可」「改札口 ICOCA対応 可」「改札口コールシステム あり」「駅レンタカー あり／こども110番の駅 あり／パーク&ライド なし／駅スタンプ あり／コインロッカーあり※設置場所により、ご利用いただける方が限られる場合があります。」「現住所 京都府京都市下京区烏丸通塩小路下ル東塩小路町」。",
+        "英文": "The JR page lists ticket services as available at the green window, both types of green vending machines and commuter-pass machines, with the staffed window open 6:30 to 21:00 and the machines from 5:30 to 23:00; the central, west and underground east gates open from 4:35 until the last train while the Hachijo-east gate runs 6:50 to 23:00 with staff on site in that band. EX and 5489 collection are available, ICOCA works at the gates, a gate call system is fitted, car rental, a children's 110 contact station, a station stamp and coin lockers are offered, park-and-ride is not, and the address is given as Higashi-shiokoji, Shimogyo-ku.",
+        "中文": "JR 页面列明“车票发售：绿色窗口 有／绿色售票机 有／绿色售票机Plus 有／可购买定期券的售票机 有”，营业时间“绿色窗口 6:30〜21:00”“售票机Plus・售票机 5:30〜23:00”；检票口“中央口・西口・地下东口 4:35至末班车”“八条东口 6:50〜23:00”，并注明“6:50〜23:00 有职员现场対応”。可凭 EX・5489 取票，检票口支持 ICOCA，设检票口呼叫系统；站租车・儿童110番车站・车站印章・投币储物柜为“有”，停车换乘为“无”，现住所为“京都府京都市下京区乌丸通盐小路下路东盐小路町”。"
+      },
+      "営業時間": "みどりの窓口 6:30〜21:00／みどりの券売機・券売機プラス 5:30〜23:00／改札口 中央口・西口・地下東口 4:35〜終電、八条東口 6:50〜23:00",
+      "官网": "https://eki.jr-odekake.net/top?id=0610116",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都駅｜駅情報：JRおでかけネット",
+          "URL": "https://eki.jr-odekake.net/top?id=0610116",
+          "原文要旨": "みどりの窓口 6時30分から21時／（中央口）4時35分から終電／（八条東口）6時50分から23時00分／※6時50分から23時00まで係員が現地で有人対応します／改札口 ICOCA対応 可／コインロッカーあり／現住所 京都府京都市下京区烏丸通塩小路下ル東塩小路町",
+          "ライセンス": "JRおでかけネット（JR西日本）駅ページ記載の原文（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "京都駅ののりば案内（JR構内図・3D構内図）",
+        "英文": "Platform guide from the JR station plan and 3D map",
+        "中文": "京都站的站台指引（JR 站内图・3D站内图）"
+      },
+      "距離": "JR在来線・新幹線の各改札（構内図はオンライン公開）",
+      "简介": {
+        "日文": "「【おしらせ】駅構内の経路案内機能も搭載されている”京都駅3D構内図”は下記よりアクセスいただけます。https://3dmap.jrnc.jp/JRW/mobile/#/kyotoja/」「構内図 PDF版ダウンロード：PDF[551KB] 2026年1月31日時点」。のりば案内は「在来線 線区名・方面 のりば」の形で、0番のりば＝湖西線 堅田・近江今津方面／琵琶湖線 大津・草津・米原方面／特急ひだ 高山方面／特急サンダーバード 福井・金沢方面／草津線 大津・草津・貴生川・柘植方面、2・3番のりば＝琵琶湖線・湖西線、4〜7番のりば＝JR京都線 高槻・大阪・三ノ宮方面ほか（6・7番に特急はるか 天王寺・関西空港方面、くろしお 和歌山・白浜方面、スーパーはくと 鳥取・倉吉方面）。8〜10番のりば＝奈良線 東福寺・宇治・奈良方面、30番のりば＝関空特急はるか・山陰線 特急 福知山・東舞鶴方面、31〜33番のりば＝嵯峨野線 二条・嵯峨嵐山・亀岡・園部方面（31番に山陰線 特急 城崎温泉・天橋立方面）、34番のりば＝降車専用ホーム。新幹線は11・12番のりば＝東海道新幹線 名古屋・東京方面、13・14番のりば＝東海道・山陽新幹線 新大阪・広島・博多方面。新幹線からの乗り換え標準時分は「ＪＲ京都線・琵琶湖線・湖西線・奈良線・嵯峨野線・山陰線・北陸線・関西空港・白浜・新宮方面 9分」「近畿日本鉄道・京都市地下鉄 10分」。",
+        "英文": "JR posts a station plan as a 551 KB PDF dated 31 January 2026 and a 3D map with a route-finding function for the station concourse. The platform table assigns track 0 to the Kosei and Biwako lines toward Otsu and Maibara, the limited-express Hida to Takayama, and the Thunderbird to Fukui and Kanazawa; tracks 2 and 3 to the Biwako and Kosei lines; tracks 4 to 7 to the JR Kyoto Line toward Takatsuki, Osaka and Sannomiya, with Haruka to Tennoji and Kansai Airport, Kuroshio to Wakayama and Shirahama, and Super Hakuto to Tottori and Kurayoshi on tracks 6 and 7. Tracks 8 to 10 serve the Nara Line toward Toyosaka, Uji and Nara; track 30 the Haruka airport service and Sanin limited expresses toward Fukuchiyama and Maizuru; tracks 31 to 33 the Sagano Line toward Nijo, Arashiyama, Kameoka and Sonobe; track 34 is alighting only. The shinkansen uses tracks 11 and 12 for Nagoya and Tokyo and tracks 13 and 14 for Shin-Osaka, Hiroshima and Hakata. JR quotes a nine-minute transfer standard from the shinkansen to the conventional lines listed and ten minutes to Kintetsu and the municipal subway.",
+        "中文": "JR 在站内图页公告“搭载站内路径导引功能的‘京都駅3D站内图’可自 https://3dmap.jrnc.jp/JRW/mobile/#/kyotoja/ 访问”，并提供“構内図 PDF版ダウンロード：PDF[551KB] 2026年1月31日時点”。站台表以“在来线 线区名・方向 站台”形式列出：0号站台为湖西线坚田・近江今津方向、琵琶湖线大津・草津・米原方向、特急ひだ高山方向、特急サンダーバード福井・金泽方向、草津线方向；2・3号站台为琵琶湖线・湖西线；4〜7号站台为 JR京都线高槻・大阪・三之宫方向，其中6・7号并停特急はるか（天王寺・关西机场）、くろしお（和歌山・白滨）、スーパーはくと（鸟取・仓吉）。8〜10号站台为奈良线宇治・奈良方向；30号为关空特急はるか及山阴线特急福知山・东舞鹤方向；31〜33号为嵯峨野线二条・岚山・龟冈・园部方向；34号只供下车。新干线11・12号往名古屋・东京，13・14号往新大阪・广岛・博多。站内图另载新干线换乘标准时间：JR京都线・琵琶湖线・湖西线・奈良线・嵯峨野线・山阴线・北陆线及关西空港・白滨・新宫方向9分，近畿日本铁道・京都市地下铁10分。"
+      },
+      "営業時間": "構内図 PDF「2026年1月31日時点」",
+      "官网": "https://eki.jr-odekake.net/top?id=0610116",
+      "介绍页": {
+        "日文": "https://eki.jr-odekake.net/premises?id=0610116"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "構内図｜京都駅：JRおでかけネット",
+          "URL": "https://eki.jr-odekake.net/premises?id=0610116",
+          "原文要旨": "駅構内の経路案内機能も搭載されている”京都駅3D構内図”／構内図 PDF版ダウンロード：PDF[551KB] 2026年1月31日時点／0番のりば 湖西線 堅田・近江今津方面／関空特急 はるか 天王寺・関西空港方面 6番のりば／奈良線 東福寺・宇治・奈良方面 8番のりば／嵯峨野線 二条・嵯峨嵐山・亀岡・園部方面 31番のりば／降車専用ホーム 34番のりば／東海道新幹線 名古屋・東京方面 11番のりば／東海道・山陽新幹線 新大阪・広島・博多方面 13番のりば／近畿日本鉄道・京都市地下鉄 10分",
+          "ライセンス": "JRおでかけネット（JR西日本）駅ページ記載の原文（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "市バス・地下鉄（京都市営）と地下街ポルタ",
+        "英文": "City bus and subway, with the Port underground mall",
+        "中文": "市巴士・地铁（京都市营）与地下街 PORTA"
+      },
+      "距離": "烏丸線「京都」駅は駅直下。市バスは烏丸口・八条口の各ターミナル発着",
+      "简介": {
+        "日文": "Wikipedia 日本語の概要欄は「正面の烏丸口のバスターミナル直下には市内最初の地下街であるポルタがあり、市営地下鉄の改札口と直結している」と記す（三次情報）。交通局トップは市バス（時刻表・路線図・運賃・定期券・接近情報）と地下鉄（同）、お得な乗車券「地下鉄・バス１日券」、多言語の「京都市バス・地下鉄ガイド」、ICカード、定期券発売所・回数券発売所へのリンクを立てる。地下鉄乌丸线京都駅は OSM でも別ノード（ref=K11、operator=京都市交通局、station=subway、wheelchair=yes）として登録されている。なお、市バスののりば記号は施設の交通ページからも確認できる。京都国立博物館の公式交通アクセスは「JR京都駅下車、D2のりばから市バス206・208号系統にて博物館三十三間堂前下車、徒歩すぐ」・「JR京都駅下車、七条通を東へ徒歩20分」を掲げ、公式英語は Get off at Kyoto Station. From bus platform D2 in front of the station, take City Bus #206 or #208 to \"Hakubutsukan Sanjusangendo-mae\" bus stop.、中文（簡体）は 从JR京都站中央口D2公交车站，乘公交206、208号到“博物馆三十三间堂前”下车 と表記する（同じ京都駅前 D2 のりばから206・208系統（表記は言語版ごとに下表の原文のとおり）の別言語表記）。",
+        "英文": "According to the Japanese Wikipedia article, the first underground mall in the city, Porta, lies directly beneath the bus terminal at the Karasuma exit and links straight to the subway gates. The bureau's page offers timetables, maps, fares, passes, live bus information, IC cards, a one-day subway and bus ticket and a multilingual bus and subway guide, while OpenStreetMap registers subway Kyoto as a separate node numbered K11, operated by the city, tagged wheelchair yes. Bus platform numbering is also visible from the other side: the Kyoto National Museum's official access pages, in Japanese, English and simplified Chinese, all send visitors from platform D2 outside Kyoto Station onto city bus 206 or 208 for the museum and Sanjusangendo stop, and the Japanese and Chinese versions add a twenty-minute walk east along Shichijo-dori from the station.",
+        "中文": "日文维基概要栏记“正面的乌丸口巴士总站正下方是市内第一条地下街 PORTA，与市营地铁检票口直连”（三次信息）。交通局首页分设市巴士与地铁的时刻表・路线图・运费・定期券・接近信息，并提供“地铁・巴士1日券”“IC卡”“多语言市巴士・地铁指南”“定期券发售所・回数券发售所”链接。OSM 亦将地下铁乌丸线京都站作为独立节点登记（ref=K11、operator=京都市交通局、wheelchair=yes）。市巴士乘车编号亦可从他方验证：京都国立博物馆官方交通页（日文・英文・简体中文三语一致）均写“自京都站前 D2 号站台乘 206・208 号线路，于‘博物馆三十三间堂前’下车即达”，日文・中文页另记“自JR京都站下车，沿七条通向东步行20分钟”。"
+      },
+      "営業時間": "市バス・地下鉄の営業時間は路線・時間帯による（交通局の時刻表ページで公表）",
+      "官网": "https://www.city.kyoto.lg.jp/kotsu/",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都市交通局：トップページ",
+          "URL": "https://www.city.kyoto.lg.jp/kotsu/",
+          "原文要旨": "運賃・乗車券 市バスの定期券 市バスの運賃 地下鉄の定期券 地下鉄の運賃 お得な乗車券 ICカード 定期券発売所 回数券・カード発売所／京都市バス・地下鉄ガイド（多言語対応）",
+          "ライセンス": "京都市（市情報館 city.kyoto.lg.jp）公表の原文（出典明記）"
+        },
+        {
+          "标题": "京都駅｜Wikipedia 日本語",
+          "URL": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%83%BD%E9%A7%85",
+          "原文要旨": "正面の烏丸口のバスターミナル直下には市内最初の地下街であるポルタがあり、市営地下鉄の改札口と直結している",
+          "ライセンス": "Wikipedia 日本語／English／中文（簡体）記事（CC BY-SA 4.0）"
+        },
+        {
+          "标题": "OpenStreetMap node 7780637510",
+          "URL": "https://api.openstreetmap.org/api/0.6/node/7780637510",
+          "原文要旨": "<node id=\"7780637510\" visible=\"true\" version=\"4\" changeset=\"169004476\" timestamp=\"2025-07-16T09:53:48Z\"／lat=\"34.9861909\" lon=\"135.7600629\"／<tag k=\"name\" v=\"京都\"/>／<tag k=\"operator\" v=\"京都市交通局\"/>／<tag k=\"ref\" v=\"K11\"/>／<tag k=\"station\" v=\"subway\"/>／<tag k=\"subway\" v=\"yes\"/>／<tag k=\"wheelchair\" v=\"yes\"/>／<tag k=\"wikidata\" v=\"Q801046\"/>",
+          "ライセンス": "OpenStreetMap データ（ODbL 1.0）、地図編集者による登録値で運営主体の公表ではない"
+        },
+        {
+          "标题": "交通アクセス｜京都国立博物館（日本語）",
+          "URL": "https://www.kyohaku.go.jp/jp/visit/access/",
+          "原文要旨": "JR京都駅下車、D2のりばから市バス206・208号系統にて博物館三十三間堂前下車、徒歩すぐ／JR京都駅下車、七条通を東へ徒歩20分",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "Getting Here | Kyoto National Museum (English)",
+          "URL": "https://www.kyohaku.go.jp/eng/visit/access/",
+          "原文要旨": "Get off at Kyoto Station. From bus platform D2 in front of the station, take City Bus #206 or #208 to \"Hakubutsukan Sanjusangendo-mae\" bus stop.",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "交通｜京都国立博物館 中文（簡体）",
+          "URL": "https://www.kyohaku.go.jp/zh-s/visit/access/",
+          "原文要旨": "从JR京都站中央口D2公交车站，乘公交206、208号到“博物馆三十三间堂前”下车／从JR京都站中央口出发，沿七条大道向东步行20分钟",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "関西空港・大阪空港のリムジンバス（関西空港交通）",
+        "英文": "Airport limousine bus by Kansai Airport Transportation Enterprise",
+        "中文": "关西机场・大阪机场机场巴士（关西机场交通）"
+      },
+      "距離": "京都線（京都府 京都駅・高速京田辺）",
+      "简介": {
+        "日文": "同社トップのインフォメーション欄（title 要素は 関西国際空港のエアポートリムジンバス 等をうたうが、title は本文ダンプから除去されているため引用しない）は、直近の公告として「【運行情報】一部路線の運休について 2026/10/21」「【大阪空港線】車いすによるご乗車対応車両（エレベーター付き）運行便の車両変更について（2026.11/13）」「【奈良線】天理発着の臨時便運行について」「2026年10月1日 ダイヤ改正の実施について」「【岡山線】回数券 払戻し受付の終了について（払戻期限 2027年3月31日まで）」、「各路線一覧(時刻表・運賃)」へのリンクを並べる。※「近鉄電車と関西空港行きリムジンバスセット乗車券 「関西空港レール＆バス片道特割切符」発売終了について 2026-08-25」も同欄にある。「各路線一覧(時刻表・運賃)」ページ（200 で本文開封）は主要路線の運賃として「大阪駅前(梅田) 片道 1,800 円」「神戸 片道 2,200 円」「京都 片道 2,800 円」「奈良 片道 2,400 円」を掲げ、路線一覧の都道府県別列では「京都府 京都駅・高速京田辺」を京都府の項目に立て、「【運休中】」付の路線（あべのハルカス・茨木・寝屋川・枚方・くずは・東大阪・南海なんば駅深夜バスなど）も同じ一覧に並ぶ。※公式英語トップの該当リンク表記は List of Lines (Schedule/Fares)、繁体字中国語トップは 各路線一覽（時刻表・車費） で、いずれのページも本文ダンプでは路線一覧が描画されなかった（JavaScript 描画のため）。",
+        "英文": "On the operator's front page the information column lists suspended routes on 21 October 2026, a vehicle change for the wheelchair-accessible elevator-equipped bus on the Osaka Airport line on 13 November 2026, extra Tenri services on the Nara line, the 1 October 2026 timetable revision and the end of refunds on multi-ride tickets for the Okayama line by 31 March 2027, alongside the discontinued Kintetsu-plus-bus one-way discount ticket. The timetable and fare page, opened at HTTP 200, lists one-way fares from Kansai Airport as 1,800 yen for Osaka-ekimae (Umeda), 2,200 yen for Kobe, 2,800 yen for Kyoto and 2,400 yen for Nara, and files the Kyoto prefecture entry as Kyoto Station and Kodo-Kyotatanabe, with several routes in the same list marked as suspended. The company's English and traditional-Chinese front pages carry the same timetable link (in English, \"List of Lines (Schedule/Fares)\"), but their route tables did not render in the fetched body.",
+        "中文": "该公司首页的“信息（Information）”栏列出近期公告“【运行信息】部分路线停运（2026-10-21）”“【大阪机场线】轮椅乘车对应车辆（带升降机）班次车辆变更（2026.11/13）”“【奈良线】天理发着临时班次开行”“2026年10月1日起实施时刻表改正”“【冈山线】回数券退票受理结束（退票期限至2027年3月31日）”，并链接“各路线一览（时刻表・运费）”。※“近铁电车＋关西机场巴士套票券发售结束”公告亦在同栏。已打开（200）的“各路线一览（时刻表・运费）”页面列主要路线单程运费：大阪駅前（梅田）1,800日元、神户2,200日元、京都2,800日元、奈良2,400日元；按都道府县排列的路线表中，京都府项目为“京都府 京都駅・高速京田辺”，同列亦标注多条“【停运中】”线路（阿倍野HARUKAS・茨木・寝屋川・枚方・くずは・东大阪・南海难波深夜巴士等）。※官方英文首页该链接写作“List of Lines (Schedule/Fares)”、繁体中文首页写作“各路線一覽（時刻表・車費）”，但两类页面的路线表在本次抓取的正文中未渲染（依赖 JavaScript）。"
+      },
+      "営業時間": "時刻表・運賃ページ（200 開封）＝大阪駅前(梅田) 片道 1,800 円／京都 片道 2,800 円ほか。便時刻は PDF・路線別ページで公表（本ファイルでは運賃のみ引用）",
+      "料金": "片道運賃＝大阪駅前(梅田) 1,800円／近鉄上本町・心斎橋 1,800円／南港・天保山・USJ 1,800円／神戸 2,200円／京都 2,800円／奈良 2,400円（公式時刻表・運賃ページ掲載）",
+      "官网": "https://www.kate.co.jp/",
+      "言語注記": "運営サイトは日本語・English・繁体字中国語のトップを持つ。公式英語（http://www.kate.co.jp/en/）と繁体字中国語（http://www.kate.co.jp/tcn/）も 200 で本文を開いたが、路線表・時刻表は JavaScript 描画のためダンプに反映されず、確認できたのは欄名（Urgent Notice No／List of Lines (Schedule/Fares)／Site map／Company Info、緊急通知／無緊急通知／各路線一覽（時刻表・車費）／網站地圖／公司簡介）と社名表記のみで、その全文を出典に残す。したがって English・中文の運賃・路線の数値は日本語ページ（http://www.kate.co.jp/timetable/、200）の原文に対応する当方の要約であり、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "関西空港交通株式会社",
+          "URL": "https://www.kate.co.jp/",
+          "原文要旨": "インフォメーション Information／重要 【運行情報】一部路線の運休について 2026/10/21／【岡山線】回数券 払戻し受付の終了について（払戻期限 2027年3月31日まで）※再掲出 2026/10/21／【大阪空港線】車いすによるご乗車対応車両（エレベーター付き）運行便の車両変更について（2026.11/13） 2026/09/30／【奈良線】天理発着の臨時便運行について／2026年10月1日 ダイヤ改正の実施について／各路線一覧(時刻表・運賃)",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "時刻表・運賃 Time table/Fares｜関西空港交通株式会社",
+          "URL": "http://www.kate.co.jp/timetable/",
+          "原文要旨": "大阪駅前(梅田) 片道 1,800 円／神戸 片道 2,200 円／京都 片道 2,800 円／奈良 片道 2,400 円／京都府 京都駅・高速京田辺／路線一覧からさがす 大阪府 大阪駅前 近鉄上本町・心斎橋 あべのハルカス(天王寺駅) 【運休中】 なんば(OCAT) 南港・天保山(海遊館)・ユニバーサル・スタジオ・ジャパン™ 大阪城・日本橋（DOTON PLAZA大阪） 大阪空港・蛍池駅 茨木【運休中】 寝屋川・枚方・くずは【運休中】 東大阪【運休中】 泉北ニュータウン（南海バス公式サイトへ）",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "KANSAI AIRPORT TRANSPORTATION ENTERPRISE - English top",
+          "URL": "http://www.kate.co.jp/en/",
+          "原文要旨": "List of Lines (Schedule/Fares)／Urgent Notice No Urgent Notice List of Lines (Schedule/Fares) Page Top Site map Company Info Copyright © KANSAI AIRPORT TRANSPORTATION ENTERPRISE CO.,LTD. All rights reserved.",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "関西空港交通 - 各路線一覽（時刻表・車費）（繁体字中国語トップ）",
+          "URL": "http://www.kate.co.jp/tcn/",
+          "原文要旨": "各路線一覽（時刻表・車費）／緊急通知 無緊急通知 各路線一覽（時刻表・車費） Page Top 網站地圖 公司簡介 Copyright © KANSAI AIRPORT TRANSPORTATION ENTERPRISE CO.,LTD. All rights reserved.",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "KCTP（京都サイクリングツアープロジェクト）レンタサイクル",
+        "英文": "KCTP rental bicycles and cycling tours",
+        "中文": "KCTP（京都自行车观光企划）租自行车"
+      },
+      "距離": "新幹線口サイクルターミナル（京都駅・烏丸のターミナル群）",
+      "简介": {
+        "日文": "同社サイトは「京都は自転車が一番！」を掲げ、サイクリングツアー・レンタサイクル（車種と料金・各サイクルターミナルへのアクセス・予約）・お役立ち情報を案内する。新着情報は「2026.10.22 2026年～2027年サイクリングツアー予約状況」「2026.10.13 【中古車販売のお知らせ】」「2026.10.09 【新車種導入】」「2026.09.28 【京都観光をスマートに】レンタサイクル利用で荷物預かりが『無料』！」「2026.09.24 【臨時営業延長のお知らせ】10月1日〜10月31日 新幹線口サイクルターミナル午前営業について」を並べ、「自転車が京都観光にオススメな理由！ 気軽に旅を満喫／京都の観光シーズンは渋滞で身動きが取れません。自転車ならもっと気軽に京都を楽しめます」と訴える。※自動層が挙げていた cyclekyoto.net・hellocycling.jp は本セッションで開いていない。",
+        "英文": "Billed as the best way to see Kyoto by bicycle, KCTP sells guided cycling tours and ordinary rentals with a vehicle list, rates, terminal access and online booking. Its news for October 2026 covers tour availability for 2026-27, used-bike sales, a new model, free luggage holding for rental users, and a temporary extension of morning opening at the Shinkansen-guchi terminal from 1 to 31 October; the pitch is that in peak season the city is gridlocked and a bicycle gets through.",
+        "中文": "该站以“京都骑车最好！”为口号，提供自行车观光团与租车服务（车种与费用、各自行车换乘站交通、在线预约）。新着信息列出“2026.10.22 2026〜2027年观光环预订状况”“10.13 二手车发售”“10.09 引进新车种”“09.28 租车即可免费寄存行李”“09.24 10月1日〜31日 新干线口自行车站临时延长上午营业”，并称“京都观光旺季堵车难行，骑车可更轻松游览”。※自动层所列 cyclekyoto.net・hellocycling.jp 本次未打开，故不引用。"
+      },
+      "営業時間": "新着情報は 2026.10.22・2026.10.13・2026.10.09・2026.09.28・2026.09.24 の順で掲載（うち 2026.09.24「【臨時営業延長のお知らせ】10月1日〜10月31日新幹線口サイクルターミナル午前営業について」）",
+      "官网": "https://kctp.net/",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都サイクリングツアープロジェクト【KCTP】",
+          "URL": "https://kctp.net/",
+          "原文要旨": "京都は自転車が一番！／レンタサイクル 車種と料金 各サイクルターミナルへのアクセス／2026.09.28 サイクリングツアーレンタサイクル新着情報 【京都観光をスマートに】レンタサイクル利用で荷物預かりが「無料」！／2026.09.24 KCTPレンタサイクル新着情報 【臨時営業延長のお知らせ】10月1日〜10月31日新幹線口サイクルターミナル午前営業について",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "京都駅ビル（南北自由通路・各ゾーン）と公式多言語案内",
+        "英文": "Kyoto Station Building: the free passage, zones and its official English page",
+        "中文": "京都站大楼（南北自由通路・各区域）与官方多语言案内"
+      },
+      "距離": "烏丸口・八条口を結ぶ南北自由通路沿い（駅ビル2階に京なび）",
+      "简介": {
+        "日文": "京都駅ビル開発株式会社の公式トップは「京都駅ビルのおすすめグルメやお出かけ情報を発信しています。京都拉麺小路 京都駅ビル10Fにある京都拉麺小路の…／和食小路 京都駅ビル東ゾーン（京都劇場2F）にある和食の専門店街／京都劇場／京都駅 イベント情報／京都駅ビル芸術祭 ゲイジュツノエキ／GNE（毎年秋開催）／京都駅ビル開発株式会社 企業情報や主催・協力イベントの発信、イベントスペースのご利用方法」と各欄を列挙し、美食欄に「for English (Things to do Kyoto Station) Information Guide of Kyoto Station for English」の英語案内リンクを掲出する。※駅ビル旧候補ドメイン kyotostationbuilding.or.jp・kyoto-aviot.co.jp・www.kyoto.lg.jp/kanko は本セッションで HTTP 000。",
+        "英文": "The station building company's own site lists its food and event channels - the ramen alley on the tenth floor, the Japanese-food alley on the second floor of the Kyoto Theatre in the east zone, the theatre itself, station events and the autumn art festival - and carries an English information guide titled Things to do Kyoto Station. Earlier candidate domains for the building answered with no HTTP response in this session and are listed in the search log.",
+        "中文": "京都站大楼开发公司官网首页称“发布京都站大楼的推荐美食与出行信息”，列有“京都拉麺小路（10F）”“和食小路（东 zone・京都剧场2F的日式专业街）”“京都剧场”“京都駅活动信息”“京都站大楼艺术节 艺术之驿／GNE（每年秋季举办）”“公司信息与活动场地借用方法”，美食栏另挂出“for English (Things to do Kyoto Station)”英语案内链接。※站大楼候选域名 kyotostationbuilding.or.jp・kyoto-aviot.co.jp・www.kyoto.lg.jp/kanko 本次抓取为 HTTP 000。"
+      },
+      "営業時間": "各施設により異なる（同社グルメ・イベントページで公表）",
+      "官网": "https://www.kyoto-station-building.co.jp/",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都駅ビル",
+          "URL": "https://www.kyoto-station-building.co.jp/",
+          "原文要旨": "京都駅ビルのおすすめグルメやお出かけ情報を発信しています。／京都拉麺小路 京都駅ビル10Fにある／和食小路 京都駅ビル東ゾーン（京都劇場2F）にある和食の専門店街／for English (Things to do Kyoto Station) Information Guide of Kyoto Station for English",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "公共交通でめぐる周遊情報（marutto京都・京都府観光連盟）",
+        "英文": "Prefectural touring information on public transport",
+        "中文": "公共交通游览信息（marutto京都・京都府观光联盟）"
+      },
+      "距離": "京都駅を拠点とする府域周遊モデルコース（オンライン）",
+      "简介": {
+        "日文": "「まるっと京都」はモデルコースとして「禅×茶 めぐり旅 普茶料理と抹茶スイーツ 禅と茶の宇治1日旅」「モデルコース 伏見稲荷大社と石清水八幡宮から流れ橋まで 木津川まるっとサイクリング旅」「モデルコース 車で巡る 京都西山 竹の里・乙訓 『竹林』と『文化財』散策旅」「モデルコース 嵐山トロ…」を掲出。京都府観光連盟サイトは「京都朝夜観光」「食らし旅（くらしたび）」「京都「文化」観光」「季節のおすすめ 秋 ぶどう狩…」などの特集面を立て、府内周遊を案内する。※自動層の「京都府観光連盟」候補のうち kctn 系の一部ページは未取得。",
+        "英文": "The touring portal sketches day routes such as a Zen-and-tea circuit through Uji with fuja cuisine and matcha sweets, a cycling trip along the Kizu river to Fushimi Inari and Iwashimizu Hachimangu, a car route through the bamboo villages of Nishikyo, and an Arashiyama cable-car itinerary, while the federation runs morning-and-evening, food and culture themes with seasonal picks such as grape picking.",
+        "中文": "“まるっと京都”列出的示范路线包括“禅×茶 巡礼之旅（普茶料理与抹茶甜点・宇治一日游）”“木津川骑行游（伏见稻荷大社・石清水八幡宫至流放桥）”“车游京都西山 竹之乡・乙训（竹林与文化财散步）”“岚山缆车…”等。京都府观光联盟则设“京都朝夜观光”“食らし旅（くらしたび）”“京都『文化』观光”“季节推荐 秋 葡萄采摘…”等专题引导府内周游。"
+      },
+      "営業時間": "オンライン掲載（コースごとに所要時間を明示）",
+      "官网": "https://marutto.kyoto.travel/",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "まるっと京都",
+          "URL": "https://marutto.kyoto.travel/",
+          "原文要旨": "モデルコース 禅×茶 めぐり旅 普茶料理と抹茶スイーツ 禅と茶の宇治1日旅／木津川まるっとサイクリング旅／車で巡る 京都西山 竹の里・乙訓",
+          "ライセンス": "京都府（pref.kyoto.jp）／京都府観光連盟（kyoto-kankou.or.jp）公表の抜粋（出典明記）"
+        },
+        {
+          "标题": "京都府観光連盟公式サイト",
+          "URL": "https://www.kyoto-kankou.or.jp/",
+          "原文要旨": "京都朝夜観光／食らし旅（くらしたび）／京都「文化」観光／季節のおすすめ 秋 ぶどう狩",
+          "ライセンス": "京都府（pref.kyoto.jp）／京都府観光連盟（kyoto-kankou.or.jp）公表の抜粋（出典明記）"
+        }
+      ]
+    }
+  ],
+  "购物": [
+    {
+      "名称": {
+        "日文": "京都高島屋（百貨店・7階催会場）",
+        "英文": "Takashimaya Kyoto department store",
+        "中文": "京都高岛屋（百货店・7楼会场）"
+      },
+      "距離": "四条河原町（公式トップの表記「みんなで行こう!四条河原町」より／京都駅からの所要・所在地住所は本セッションで開いたページに記載なし）",
+      "简介": {
+        "日文": "公式トップは「第65回大北海道展 10月14日（水）～26日（月） 京都高島屋S.C.(百貨店) 7階催会場・グランドホール」「みんなで行こう!四条河原町 10月14日(水)～11月3日(火・祝) 京都高島屋S.C.各階」「2026タカシマヤハッピーハロウィーン10月14日(水)～31日(土)」「ARTWEEKS 10月28日(水)～11月17日(火) 京都高島屋S.C.各階」「2027高島屋のおせち 9月19日（土）〜12月24日（木） 京都高島屋S.C.(百貨店) 7階おせち料理承りコーナー」を掲出し、「高島屋洛西店終了と『タカシマヤローズショップ洛西』開設のお知らせ」「WEBサイト システムメンテナンスのお知らせ」を重要なお知らせとして立てる。カテゴリは催・イベント・キャンペーン／フード／レディス／ビューティー／ベビー・キッズ／メンズ／リビング／アート／宝飾・時計・呉服・ブライダル。",
+        "英文": "The Kyoto store's front page carries its autumn calendar - the 65th Great Hokkaido fair on the seventh floor from 14 to 26 October, a Shijo Kawaramachi campaign from 14 October to 3 November, Happy Halloween to 31 October, Art Weeks from 28 October to 17 November and orders for the 2027 New Year food from 19 September to 24 December - together with notice that the Rakusei store has closed in favour of a Takashimaya Rose Shop, and category menus from food and fashion to jewellery and bridal.",
+        "中文": "官网首页列出“第65回 大北海道展 10月14日～26日（7楼会场・Grand Hall）”“大家一起去！四条河原町 10月14日～11月3日”“2026 高岛屋Happy Halloween 10月14日～31日”“ART WEEKS 10月28日～11月17日”“2027 高岛屋御节 9月19日～12月24日”，并将“洛西店结束・开设 Rose Shop 洛西”“网站系统维护公告”列为重要通知。分类含 会展・活动・促销／美食／女装／美容／婴童／男装／居家／艺术／珠宝・钟表・和服・婚庆。"
+      },
+      "営業時間": "催事ごとに異なる（トップに各会展の会期を明示、7階催会場／グランドホール表記あり）",
+      "官网": "https://www.takashimaya.co.jp/kyoto/",
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都高島屋｜トップページ",
+          "URL": "https://www.takashimaya.co.jp/kyoto/",
+          "原文要旨": "第65回 大北海道展 10月14日（水）～26日（月） 京都高島屋S.C.(百貨店) 7階催会場・グランドホール／2027高島屋のおせち 9月19日（土）〜12月24日（木）／高島屋洛西店終了と「タカシマヤローズショップ洛西」開設のお知らせ",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "美術館「えき」KYOTO・駅ビル内の文化施設（府観光連盟の近隣一覧）",
+        "英文": "Gallery 'Eki' KYOTO and other cultural facilities inside the station building",
+        "中文": "美术馆“えき”KYOTO与站大楼内文化设施（府观光联盟邻近一览）"
+      },
+      "距離": "京都駅ビル内（京なびから直線0.1km）",
+      "简介": {
+        "日文": "京都府観光連盟の「近くの観光スポット」欄は「京都駅ビルインフォメーション 直線距離 : 0.1km」「Crosta京都（荷物預かり所・キャリーサービス）直線距離 : 0.1km」「美術館「えき」KYOTO 直線距離 : 0.1km」「JR京都駅鉄道案内所 直線距離 : 0.1km」「おこしバス（京都定期観光バス）直線距離 : 0.1km」「京都劇場 直線距離 : 0.2km」「MKハイヤー/MKタクシー 直線距離 : 0.2km」「ニデック京都タワー 直線距離 : 0.2km」「JR京都駅新幹線八条口デリバリーサービス 直線距離 : 0.2km」「SUNRISE TOURS JTB 直線距離 : 0.3km」と、直線距離つきで列挙する。※各施設の営業時間・料金はこの一覧に含まれないため記載していない（未実施）。",
+        "英文": "The federation's nearby-facility list, with straight-line distances, puts the station building information desk, the Crosta luggage counter, Gallery Eki KYOTO, the JR railway information office, the Okoshiyasu regular sightseeing bus and an eighth-floor delivery service at 0.1 to 0.2 km from the tourist office, with MK hire cars and the Nidec observation tower alongside; opening hours and prices are not given in that listing and are therefore left out of this file.",
+        "中文": "府观光联盟“附近观光景点”栏以直线距离列举：“京都站大楼咨询处 0.1km”“Crosta京都（行李寄存・搬运服务）0.1km”“美术馆‘えき’KYOTO 0.1km”“JR京都站铁路案内所 0.1km”“おこし巴士（京都定期观光巴士）0.1km”“京都剧场 0.2km”“MK包车/MK出租 0.2km”“Nidec 京都塔 0.2km”“JR京都站新干线八条口快递服务 0.2km”“SUNRISE TOURS JTB 0.3km”。※该一览未含各设施的营业时间与费用，故本文件不作记载（见未实施）。"
+      },
+      "営業時間": "施設により異なる（本ファイルでは府観光連盟一覧の記載のみ引用）",
+      "介绍页": {
+        "日文": "https://www.kyoto-kankou.or.jp/info_search/3972"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都総合観光案内所 京なび｜近くの観光スポット",
+          "URL": "https://www.kyoto-kankou.or.jp/info_search/3972",
+          "原文要旨": "美術館「えき」KYOTO 直線距離 : 0.1km／Crosta京都（荷物預かり所・キャリーサービス） 直線距離 : 0.1km／JR京都駅新幹線八条口デリバリーサービス 直線距離 : 0.2km／ニデック京都タワー 直線距離 : 0.2km",
+          "ライセンス": "京都府（pref.kyoto.jp）／京都府観光連盟（kyoto-kankou.or.jp）公表の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "京の駅なか土産・和食小路の食品（京都駅ビル公式）",
+        "英文": "Station-side food halls and the Japanese-food alley",
+        "中文": "京都站内土产・和食小路食品（京都站大楼官方）"
+      },
+      "距離": "京都駅ビル10F（拉麺小路）・東ゾーン京都劇場2F（和食小路）",
+      "简介": {
+        "日文": "同社グルメページは「場所／カテゴリから探す」「キーワードから探す」の検索を立て、カテゴリを「すべて 和食 ラーメン アジア・中華料理 カフェ・スイーツ・ベーカリー その他 そば・うどん 居酒屋・バー 洋食」とする。一覧には「麺や虎鉄 京都拉麺小路 / 大階段南側10F」「ワンタンメンの満月」「富山ブラック 麺家いろは」「祗園らぁ～めん京」「麺匠たか松」「中村商店」「ラーメンこがね家」が店舗名＋場所＋カテゴリの形で並ぶ。※ここで列挙されるのは同一ページに記載された店名・配置のみで、個別店の営業時間・価格はこのページに記載がないため本ファイルでは記載しない。",
+        "英文": "The station building's food index is searched by place or keyword and sorted into Japanese cooking, ramen, Asian and Chinese, cafes and bakeries, soba and udon, izakaya and bars and Western food, listing named shops with their location - tenkai-step south side on floor ten for the ramen alley houses such as Menya Kohoku, Wantanmen no Mangetsu, Toyama Black Men-ya Iroha, Gion Ramen Kyo, Mensho Takamatsu, Nakamura Shoten and Ramen Kogane-ya.",
+        "中文": "站大楼美食页设“按场所／分类搜索”与“关键词搜索”，分类为“全部・和食・拉面・亚洲・中华料理・咖啡甜点烘焙・其它・荞麦乌冬・居酒屋与酒吧・洋食”。列表以“店名＋位置＋分类”的形式排列“麺や虎鉄 京都拉麺小路/大階段南側10F”“ワンタンメンの満月”“富山ブラック 麺家いろは”“祗園らぁ～めん京”“麺匠たか松”“中村商店”“ラーメンこがね家”。※该页未载各店营业时间与价格，本文件不作记载。"
+      },
+      "営業時間": "各店舗により異なる（同社グルメページに場所／カテゴリ別に一覧）",
+      "官网": "https://www.kyoto-station-building.co.jp/",
+      "介绍页": {
+        "日文": "https://www.kyoto-station-building.co.jp/restaurant_cafe/"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "グルメ | 京都駅ビル",
+          "URL": "https://www.kyoto-station-building.co.jp/restaurant_cafe/",
+          "原文要旨": "場所／カテゴリから探す／和食 ラーメン アジア・中華料理 カフェ・スイーツ・ベーカリー その他 そば・うどん 居酒屋・バー 洋食／麺や虎鉄 京都拉麺小路 / 大階段南側10F／富山ブラック 麺家いろは",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
+    }
+  ],
+  "美食": [
+    {
+      "名称": {
+        "日文": "京都拉麺小路（京都駅ビル10F・大階段南側）",
+        "英文": "Kyoto Ramen Koji, the ramen alley on floor ten",
+        "中文": "京都拉面小路（京都站大楼10F・大台阶南侧）"
+      },
+      "距離": "京都駅ビル10F 大階段南側",
+      "简介": {
+        "日文": "「京都拉麺小路 京都駅ビル10Fにある京都拉麺小路の期間限定イベントやキャンペーン情報をお届けします。」と同社トップが説明し、グルメ一覧に「麺や虎鉄／ワンタンメンの満月／富山ブラック 麺家いろは／祗園らぁ～めん京／麺匠たか松／中村商店／ラーメンこがね家」を「京都拉麺小路 / 大階段南側10F」の所在地表記で並べる。カテゴリは「ラーメン」。※個別店の営業時間・価格は本セッションで開いたページに記載がないため記載しない。",
+        "英文": "Described by its operator as a ramen alley on the tenth floor with limited-time events and campaigns, its shop list places Menya Kohoku, Wantanmen no Mangetsu, the Toyama black-ramen house Men-ya Iroha, Gion Ramen Kyo, Mensho Takamatsu, Nakamura Shoten and Ramen Kogane-ya on the south side of the great staircase, all filed under ramen.",
+        "中文": "官方首页称“京都拉面小路位于京都站大楼10F，发布期间限定活动与促销信息”，美食列表把“麺や虎鉄”“ワンタンメンの満月”“富山ブラック 麺家いろは”“祗園らぁ～めん京”“麺匠たか松”“中村商店”“ラーメンこがね家”以“京都拉麺小路 / 大階段南側10F”的位置标注并列，分类为“拉面”。※个别店铺的营业时间与价格本次所开页面未记载，故不作记载。"
+      },
+      "営業時間": "各店により異なる（同社ページに店名・場所を列挙）",
+      "官网": "https://www.kyoto-station-building.co.jp/",
+      "介绍页": {
+        "日文": "https://www.kyoto-station-building.co.jp/restaurant_cafe/"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "グルメ | 京都駅ビル",
+          "URL": "https://www.kyoto-station-building.co.jp/restaurant_cafe/",
+          "原文要旨": "京都拉麺小路 京都駅ビル10Fにある京都拉麺小路の期間限定イベントやキャンペーン情報をお届けします。／麺や虎鉄 京都拉麺小路 / 大階段南側10F／富山ブラック 麺家いろは",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "和食小路（京都駅ビル東ゾーン・京都劇場2F）",
+        "英文": "Washoku Koji, the Japanese-food alley on floor two of the theatre",
+        "中文": "和食小路（京都站大楼东 zone・京都剧场2F）"
+      },
+      "距離": "京都駅ビル東ゾーン（京都劇場2F）",
+      "简介": {
+        "日文": "同社トップは「和食小路 京都駅ビル東ゾーン（京都劇場2F）にある和食の専門店街の情報をお届けします。」と記載し、別の欄で「京都劇場 京都劇場からのお知らせ、主催公演の情報などをお届けします。」を並べる。グルメ検索のカテゴリ「和食」が同一ページ内で店の一覧単位になっている。",
+        "英文": "The operator presents Washoku Koji as an alley of Japanese-food specialists on the second floor of the Kyoto Theatre in the east zone, sharing its news channel with theatre announcements, and its food search uses Japanese cooking as one of the category filters on the same page.",
+        "中文": "该公司首页写明“和食小路 位于京都站大楼东 zone（京都剧场2F）的日式料理专业街信息发布”，另栏为“京都剧场 发布剧场通知与主办公演信息”。其美食检索页面把“和食”作为同一页内的分类之一，用于列出该分类下的店铺。"
+      },
+      "営業時間": "各店により異なる（同社ページに専門店街として記載）",
+      "官网": "https://www.kyoto-station-building.co.jp/",
+      "介绍页": {
+        "日文": "https://www.kyoto-station-building.co.jp/restaurant_cafe/"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "グルメ | 京都駅ビル",
+          "URL": "https://www.kyoto-station-building.co.jp/restaurant_cafe/",
+          "原文要旨": "和食小路 京都駅ビル東ゾーン（京都劇場2F）にある和食の専門店街の情報をお届けします。／京都劇場 京都劇場からのお知らせ、主催公演の情報などをお届けします。",
+          "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "駅周辺の手軽な食事処（府観光連盟が挙げる近くのグルメスポット）",
+        "英文": "Nearby eating places as listed by the prefectural tourism federation",
+        "中文": "车站附近的简餐去处（府观光联盟所列“附近美食景点”）"
+      },
+      "距離": "下京区 京都駅烏丸口・七条周辺",
+      "简介": {
+        "日文": "京なびの「近くのグルメスポット」欄は「すし岩（すし割烹会席）直線距離 : 0.6km」「京菓匠 笹屋伊織 直線距離 : 1.0km」「甘春堂本店 直線距離 : 1.1km」「わらじや 直線距離 : 1.2km」「京料理 道楽 直線距離 : 1.2km」「株式会社七條甘春堂 且坐…」を掲載。同サイト側は個別店の詳細を同一覧に含めていないため、営業時間・価格・席数は本ファイルでは記載しない。",
+        "英文": "Within a kilometre or so of the tourist office the federation's list sets down Sushiwa kaiseki sushi at 0.6 km, Sasaya Iori confectioners at 1.0 km, Kanshado's main house at 1.1 km, Warajiya and Kyoto cuisine Doraku at 1.2 km and Shakiza at the seventh-street Kanshado; because the listing carries no hours or prices, this file records none.",
+        "中文": "京なび“附近美食景点”栏列出“すし岩（寿司割烹会席）0.6km”“京菓匠 笹屋伊织 1.0km”“甘春堂本店 1.1km”“わらじや 1.2km”“京料理 道乐 1.2km”“株式会社七條甘春堂 且坐…”。该栏未包含个别店铺详情，因此本文件不记载其营业时间・价格・席数。"
+      },
+      "営業時間": "各店により異なる（一覧に営業時間・料金の記載なし）",
+      "介绍页": {
+        "日文": "https://www.kyoto-kankou.or.jp/info_search/3972"
+      },
+      "言語注記": "運営サイト側は日本語表記のみ。English・中文は当方が日本語原文を読んで執筆した要約で、機械翻訳ではありません。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "京都総合観光案内所 京なび｜近くのグルメスポット",
+          "URL": "https://www.kyoto-kankou.or.jp/info_search/3972",
+          "原文要旨": "近くのグルメスポット すし岩（すし割烹会席） 直線距離 : 0.6km／京菓匠 笹屋伊織 直線距離 : 1.0km／甘春堂本店 直線距離 : 1.1km／わらじや 直線距離 : 1.2km／京料理 道楽 直線距離 : 1.2km",
+          "ライセンス": "京都府（pref.kyoto.jp）／京都府観光連盟（kyoto-kankou.or.jp）公表の抜粋（出典明記）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "多言語での飲食情報（京都観光Navi・kyoto.travel 各言語版）",
+        "英文": "Food and drink information in several official languages",
+        "中文": "多语言的餐饮信息（京都观光Navi・kyoto.travel 各语言版）"
+      },
+      "距離": "オンライン（京都市観光協会が同一組織で多言語版を運用）",
+      "简介": {
+        "日文": "京都市観光協会は日本語版のほかに kyoto.travel の English／cn（简体字）／tw（繁體字）版を運営し、英語版トップは「We Value Your Privacy … The Kyoto City Tourism Association website offers valuable information to help you plan your time in Kyoto.」、简体字版は「京都市旅游协会网站提供宝贵信息，助您规划京都之旅。」、繁體字版是「京都市旅遊協會網站提供有價值的信息，幫助您規劃在京都的時間。」と冒頭に掲げる。※日本語版の /gourmet/・/shopping/・/access/ は 404 で本文を開けなかったため、飲食の施設詳細は上記の公式一覧（京都駅ビル・府観光連盟）で確認できるものだけを記載した。",
+        "英文": "Besides Japanese the association runs English, simplified- and traditional-Chinese editions from the same organisation; the English front page states that the Kyoto City Tourism Association website offers information to help you plan your time in Kyoto, mirrored in the two Chinese pages. The Japanese site's gourmet, shopping and access addresses returned 404 in this session, so food entries here come only from the station building and federation lists whose text could be opened.",
+        "中文": "京都市观光协会除日文版外，还运营 kyoto.travel 的 English、cn（简体）与 tw（繁体）版：英文首页开头为“We Value Your Privacy … The Kyoto City Tourism Association website offers valuable information to help you plan your time in Kyoto.”，简体版为“京都市旅游协会网站提供宝贵信息，助您规划京都之旅。”，繁体版为“京都市旅遊協會網站提供有價值的信息，幫助您規劃在京都的時間。”※日文版 /gourmet/・/shopping/・/access/ 为 404 未能打开正文，因此本文件的餐饮详情仅取自上述已开封的站大楼与府观光联盟一览。"
+      },
+      "営業時間": "随時更新（ページ更新日は個別に異なる）",
+      "官网": "https://ja.kyoto.travel/",
+      "言語注記": "京都市観光協会の多言語サイト（kyoto.travel の English／cn／tw）で公表されている表記を併用し、残りは人手執筆（機械翻訳不使用）。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "Kyoto City Official Guide (English)",
+          "URL": "https://kyoto.travel/en/",
+          "原文要旨": "The Kyoto City Tourism Association website offers valuable information to help you plan your time in Kyoto.",
+          "ライセンス": "京都市観光協会 京都観光Navi（ja.kyoto.travel）記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "京都旅游 | 京都市官方指南（简体字）",
+          "URL": "https://kyoto.travel/cn/",
+          "原文要旨": "京都市旅游协会网站提供宝贵信息，助您规划京都之旅。",
+          "ライセンス": "京都市観光協会 京都観光Navi（ja.kyoto.travel）記載の抜粋（出典明記）"
+        },
+        {
+          "标题": "京都旅遊 |京都市官方指南（繁體字）",
+          "URL": "https://kyoto.travel/tw/",
+          "原文要旨": "京都市旅遊協會網站提供有價值的信息，幫助您規劃在京都的時間。",
+          "ライセンス": "京都市観光協会 京都観光Navi（ja.kyoto.travel）記載の抜粋（出典明記）"
+        }
+      ]
+    }
+  ],
+  "无障碍": {
+    "信息": {
+      "日文": "■ JRおでかけネット「京都駅 バリアフリー情報」（200 で本文開封）\n改札外（駅入り口から改札口まで）：「新幹線中央口改札 2階」「新幹線八条口改札 1階」「西口改札 2階」「地下東口 地下1階」「中央口改札 1階」「八条東口改札 1階」の各改札について、「改札口まで段差なしで移動可能な駅入り口名」に烏丸口・八条口の双方が掲出し、上りエレベーター・下りエスカレーターは全行「あり」。\n改札内（改札口からのりばまで）：「0番のりば 新幹線中央乗換口／西口／中央口」「2番のりば 新幹線中央乗換口」等で上りEV・下りES「あり」。\n見出しは「改札外／改札内／トイレ／のりば案内」の4構成で、「改札口と駅入口の間について、段差なしに移動が可能かどうか、また途中の移動設備の有無を表示しています」と説明される。\n■ JR「京都駅」トップ（同サイト）：「改札口コールシステム あり」「コインロッカーあり※設置場所により、ご利用いただける方が限られる場合があります。」「駅レンタカー あり」「こども110番の駅 あり」「パーク&ライド なし」。\n■ 京都市「京都地区交通バリアフリー移動円滑化基本構想」（市公式・2021年3月24日更新、策定 平成17年11月22日）：地区内の旅客施設を「JR京都駅，新幹線京都駅，近鉄京都駅，地下鉄京都駅」とし、「JR京都駅のバリアフリー化の概要・車いす対応型トイレ入り口の点字表示版へ誘導する線状ブロックの設置」「新幹線京都駅のバリアフリー化の概要・改札口からホームに至るエレベーターの設置(2基)」「改札口付近の発車標のフルカラータイプ化による改善」「改札内コンコースの案内サインの大型化」「2階コンコースの待合室の増席」「近鉄京都駅のバリアフリー化の概要・八条口券売機付近への点字運賃表の設置」「オストメイト対応の多機能トイレの表示改善」を列挙。\n■ 京都市交通局：「車いす・ベビーカーを御利用のお客様へ（バリアフリー）」「地下鉄駅施設等のご案内（バリアフリー）」「ベビーケアルームのご案内」の専用ページをトップに置く。\n■ 京都総合観光案内所「京なび」（京都府観光連盟の施設一覧）：「○車椅子貸出 貸出台数3台（先着順、予約不可） 貸出時間：8時30分～18時 費用：無料（貸出時に保証金5,000円を預かり、返却時に返金） 貸出時に身分証明書の掲示が必要」「バリアフリー関連 車椅子可 車椅子対応トイレ無し 筆談対応可（筆談具有り） 補助犬同行可」「※その他、点字電話帳、ルーペ、介護タクシーに関する資料の用意有り」。\n■ OpenStreetMap：鉄道駅ノード 267316272 は wheelchair=limited、近鉄ノード 3340028686 は wheelchair=yes、地下鉄ノード 7780637510 も wheelchair=yes。（出典 note=国土数値情報（鉄道データ）平成19年 国土交通省）、地下鉄ノード 7780637510 は wheelchair=yes。両ノードは別主体（京都市交通局／JRほか）の登録で、値が異なるため併記する（地図編集者データであり運営主体の公表ではない）。\n■ 東寺（世界遺産・真言宗総本山）：本セッションで開いたページにバリアフリー設備の記載欄はなかった（境内のご案内は金堂・講堂・五重塔等の見どころ列挙のみ）。\n■ 京都国立博物館（烏丸口から南へ徒歩圏・同館の交通アクセスは市バス206・208号系統「博物館三十三間堂前」下車を挙げる）館内設備・バリアフリー情報：「車椅子の無料貸し出しを行っています。」「南門の出入口に車椅子対応スロープを設置しています。」「多目的トイレが平成知新館各階、南門券売施設内、庭園内にございます。」「オストメイト対応トイレが平成知新館1階、庭園内にございます。」「平成知新館1階には授乳室がございます。」「ベビーカーの無料貸し出しを行っています。」「平成知新館1階インフォメーションにて筆談対応を行っております（日英対応可能）。」「盲導犬、介助犬、聴導犬を伴ってご入場いただけます。」「平成知新館1階エントランス、南門に設置しています。」「平成知新館1階・地下1階に100円返却式のコインロッカーがあります。」「展示館内や庭園など、すべての場所でフリーWi-Fiをご利用いただけます。」、障害者手帳等（「ミライロID（スマートフォン向け障害者手帳アプリ）ご利用可能」を含む）ご持参の方とその介護者1名の観覧料無料を同ページで公表。",
+      "英文": "■ JR West barrier-free page for Kyoto Station (body opened at HTTP 200). Outside the gates, every listed ticket gate - shinkansen central gate on floor 2, shinkansen Hachijo gate on floor 1, west gate on floor 2, underground east gate on basement 1, central gate on floor 1 and Hachijo east gate on floor 1 - is recorded as reachable without a step from both the Karasuma and Hachijo exits, with uphill elevators and downhill escalators marked present in every row. Inside the gates the same holds for the platforms reached from the shinkansen central transfer gate, the west gate and the central gate. The page is arranged as outside the gates, inside the gates, toilets and platform guide, and states that it shows whether step-free movement is possible and which equipment is on the way. The JR station page adds a gate call system, coin lockers with a note that usage may be limited by location, station car rental, a children contact station and no park-and-ride. ■ The city district mobility plan (posted 24 March 2021, adopted 22 November 2005) covers JR Kyoto, shinkansen Kyoto, Kintetsu Kyoto and subway Kyoto, and lists guiding blocks to the braille plate at the wheelchair toilet, two elevators from gates to shinkansen platforms, full-colour departure boards near the gates, larger concourse signs and added seating in the second-floor waiting room, braille fare tables near the Kintetsu Hachijo machines and improved signage for the ostomate toilet. ■ The Transportation Bureau keeps dedicated pages for wheelchair and stroller users, subway station facilities and baby care rooms. ■ The general tourist office loans three wheelchairs free of charge against a refundable 5,000-yen deposit from 8:30 to 18:00, first come with no reservation, requires identification, and publishes that wheelchairs are allowed, there is no wheelchair toilet at the desk, written exchanges are supported, guide dogs are welcome and braille directories, magnifiers and care-taxi leaflets are available. ■ OpenStreetMap: the railway station node is tagged wheelchair limited while the subway node is tagged wheelchair yes; the two are registered under different operators and are reproduced here side by side as editor data, not an operator statement. ■ For To-ji temple no barrier-free equipment section appeared on the pages opened in this session. ■ Kyoto National Museum (bus 206 or 208 from the Karasuma side to the museum and Sanjusangendo stop) publishes a barrier-free page: free wheelchair loan, a step-free ramp at the south gate, multi-purpose toilets on every floor of the Heisei Chishinkan wing, in the south-gate ticket building and in the garden, ostomate toilets, a nursing room, free stroller loan, written-note service in Japanese and English at the first-floor information desk, guide, hearing and assistance dogs welcome, AED at the first-floor entrance and the south gate, 100-yen returnable coin lockers on the first and basement floors, free Wi-Fi everywhere, and free admission for holders of a disability handbook and one companion, with the MirairoID phone app accepted.",
+      "中文": "■ JRおでかけネット“京都站 无障碍信息”（本次以 HTTP 200 打开正文）：检票口外部分把“新干线中央检票口（2楼）”“新干线八条检票口（1楼）”“西检票口（2楼）”“地下东检票口（地下1楼）”“中央检票口（1楼）”“八条东检票口（1楼）”全部标注为“可由乌丸口・八条口无段差抵达”，上行电梯与下行电动步道各栏均为“有”；检票口内部分对0号・2号等站台亦标注“有”。栏目结构为“检票口外／检票口内／厕所／站台案内”，并说明“显示检票口与车站入口之间能否无段差移动，以及途中移动设备的有无”。\n■ JR 京都站首页：设“检票口呼叫系统 有”“投币储物柜 有（※依设置位置，可使用人群可能受限）”“站租车 有”“儿童110番车站 有”“停车换乘 无”。\n■ 京都市《京都地区交通无障碍移动便捷化基本构想》（市官方，2021年3月24日更新，平成17年11月22日制定）：对象客运设施为“JR京都站、新干线京都站、近铁京都站、地铁京都站”，内容含“JR京都站设置引导至轮椅对应厕所入口盲文标牌的线状盲道砖”、“新干线京都站设置自检票口至月台电梯2座、发车标全彩化、改札内通道导视牌大型化、2楼通道候车室增加座位”、“近铁京都站八条口售票机附近设置点字运费表、改善造口人士多功能厕所标识”。\n■ 京都市交通局：首页设“乘轮椅・婴儿车旅客须知（无障碍）”“地铁车站设施案内（无障碍）”“育婴室案内”专页。\n■ 京都综合观光案内所“京なび”（府观光联盟设施一览）：“轮椅出借3台（先到先得、不可预约），出借时间 8:30〜18:00，免费（出借时收取押金5,000日元，归还时退还），出借时需出示身份证明”；无障碍相关标注“可携轮椅・无轮椅对应厕所・可笔谈（备笔谈具）・可导盲犬同行”，并备有盲文电话簿、放大镜与介护出租车资料。\n■ OpenStreetMap：铁路车站节点 wheelchair=limited（来源注记为国土交通省平成19年国土数值信息（铁路数据）），地铁节点 wheelchair=yes；两者登记主体不同、数值不一致，故并列记载（属地图编辑者数据，非运营主体公布）。\n■ 东寺：本次打开的页面未设无障碍设备栏（境内案内仅列举金堂・讲堂・五重塔等看点）。\n■ 京都国立博物馆“馆内设施・无障碍信息”页：轮椅免费出借、南门入口设轮椅对应坡道、平成新馆各层与南门售票设施・庭园内设多功能厕所、庭园内设造口人士对应厕所、1楼设哺乳室、婴儿车免费出借、1楼服务台提供笔谈服务（可日英）、可携带导盲犬・介助犬・听导犬入馆、1楼入口与南门设AED、1楼与地下1楼设100日元返还式投币储物柜、全域免费Wi-Fi；出示身心障碍者手册等（含手机App“ミライロID”）者及其陪护1人观览免费。"
+    },
+    "出典": [
+      {
+        "标题": "バリアフリー情報｜京都駅：JRおでかけネット",
+        "URL": "https://eki.jr-odekake.net/barrierfree?id=0610116",
+        "原文要旨": "改札口名 改札口の位置 改札口まで段差なしで移動可能な駅入り口名 エレベーター 上り エスカレーター 下り／新幹線中央口改札 2階 烏丸口 あり あり あり／新幹線八条口改札 1階 八条口 あり あり あり／地下東口 地下1階 烏丸口 あり あり あり／0番のりば 中央口 あり あり あり",
+        "ライセンス": "JRおでかけネット（JR西日本）駅ページ記載の原文（出典明記）"
+      },
+      {
+        "标题": "京都駅｜駅情報：JRおでかけネット",
+        "URL": "https://eki.jr-odekake.net/top?id=0610116",
+        "原文要旨": "改札口コールシステム あり／コインロッカーあり※設置場所により、ご利用いただける方が限られる場合があります。／駅レンタカー あり／こども110番の駅 あり／パーク&ライド なし",
+        "ライセンス": "JRおでかけネット（JR西日本）駅ページ記載の原文（出典明記）"
+      },
+      {
+        "标题": "京都地区交通バリアフリー移動円滑化基本構想｜京都市",
+        "URL": "https://www.city.kyoto.lg.jp/tokei/page/0000145417.html",
+        "原文要旨": "地区内の旅客施設 JR京都駅，新幹線京都駅，近鉄京都駅，地下鉄京都駅／車いす対応型トイレ入り口の点字表示版へ誘導する線状ブロックの設置／改札口からホームに至るエレベーターの設置 (2基)",
+        "ライセンス": "京都市（市情報館 city.kyoto.lg.jp）公表の原文（出典明記）"
+      },
+      {
+        "标题": "交通バリアフリー｜京都市",
+        "URL": "https://www.city.kyoto.lg.jp/tokei/page/0000033162.html",
+        "原文要旨": "市内の全ての旅客施設や車両及び旅客施設周辺の道路などを対象としたバリアフリー化推進の指針となる「京都市交通バリアフリー全体構想」を策定",
+        "ライセンス": "京都市（市情報館 city.kyoto.lg.jp）公表の原文（出典明記）"
+      },
+      {
+        "标题": "京都市交通局：トップページ",
+        "URL": "https://www.city.kyoto.lg.jp/kotsu/",
+        "原文要旨": "車いす・ベビーカーを御利用のお客様へ（バリアフリー）／地下鉄駅施設等のご案内（バリアフリー）／ベビーケアルームのご案内",
+        "ライセンス": "京都市（市情報館 city.kyoto.lg.jp）公表の原文（出典明記）"
+      },
+      {
+        "标题": "京都総合観光案内所 京なび｜京都府観光連盟",
+        "URL": "https://www.kyoto-kankou.or.jp/info_search/3972",
+        "原文要旨": "○車椅子貸出 貸出台数3台（先着順、予約不可）／バリアフリー関連 車椅子可 車椅子対応トイレ無し 筆談対応可（筆談具有り） 補助犬同行可／点字電話帳、ルーペ、介護タクシーに関する資料の用意有り",
+        "ライセンス": "京都府（pref.kyoto.jp）／京都府観光連盟（kyoto-kankou.or.jp）公表の抜粋（出典明記）"
+      },
+      {
+        "标题": "観光案内所｜京都観光Navi",
+        "URL": "https://ja.kyoto.travel/information/",
+        "原文要旨": "車椅子レンタル 京都観光のみご利用いただけます。返却：当日、18時までに返却して下さい。費用：無料（貸出時に保証金5000円をお預かりします。保証金は返却時にお返しします。）／貸出台数：3台（先着順・予約不可）",
+        "ライセンス": "京都市観光協会 京都観光Navi（ja.kyoto.travel）記載の抜粋（出典明記）"
+      },
+      {
+        "标题": "「人にやさしいお宿情報」公表施設一覧｜京都市",
+        "URL": "https://www.city.kyoto.lg.jp/tokei/page/0000293150.html",
+        "原文要旨": "「人にやさしいお宿情報」（宿泊施設のバリアフリーに関する情報）の公表施設一覧（宿泊施設をお探しの皆様へ）ページ番号293150 2026年9月17日",
+        "ライセンス": "京都市（市情報館 city.kyoto.lg.jp）公表の原文（出典明記）"
+      },
+      {
+        "标题": "京都市の宿泊施設のバリアフリー情報はどこで見られますか？｜京なびオンライン",
+        "URL": "https://global.kyoto.travel/ja/faq/detail.php?faq_id=3018",
+        "原文要旨": "詳細はこちらをご覧ください。 https://www.city.kyoto.lg.jp/tokei/page/0000293150.html",
+        "ライセンス": "京都市観光協会 京都観光Navi（ja.kyoto.travel）記載の抜粋（出典明記）"
+      },
+      {
+        "标题": "OpenStreetMap node 267316272",
+        "URL": "https://api.openstreetmap.org/api/0.6/node/267316272",
+        "原文要旨": "<node id=\"267316272\" visible=\"true\" version=\"43\" changeset=\"140202572\" timestamp=\"2023-08-21T22:23:05Z\"／lat=\"34.9853497\" lon=\"135.7587660\"／<tag k=\"name\" v=\"京都\"/>／<tag k=\"railway\" v=\"station\"/>／<tag k=\"source\" v=\"KSJ2\"/>／<tag k=\"note:ja\" v=\"国土数値情報（鉄道データ）平成19年 国土交通省\"/>／<tag k=\"train\" v=\"yes\"/>／<tag k=\"wheelchair\" v=\"limited\"/>／<tag k=\"wikidata\" v=\"Q801046\"/>／<tag k=\"wikipedia\" v=\"ja:京都駅\"/>",
+        "ライセンス": "OpenStreetMap データ（ODbL 1.0）、地図編集者による登録値で運営主体の公表ではない"
+      },
+      {
+        "标题": "OpenStreetMap node 7780637510",
+        "URL": "https://api.openstreetmap.org/api/0.6/node/7780637510",
+        "原文要旨": "<tag k=\"operator\" v=\"京都市交通局\"/>／<tag k=\"ref\" v=\"K11\"/>／<tag k=\"station\" v=\"subway\"/>／<tag k=\"subway\" v=\"yes\"/>／<tag k=\"wheelchair\" v=\"yes\"/>／lat=\"34.9861909\" lon=\"135.7600629\"／<tag k=\"wikidata\" v=\"Q801046\"/>",
+        "ライセンス": "OpenStreetMap データ（ODbL 1.0）、地図編集者による登録値で運営主体の公表ではない"
+      },
+      {
+        "标题": "OpenStreetMap node 3340028686",
+        "URL": "https://api.openstreetmap.org/api/0.6/node/3340028686",
+        "原文要旨": "<tag k=\"operator\" v=\"近畿日本鉄道\"/>／<tag k=\"network\" v=\"近鉄京都線\"/>／<tag k=\"ref\" v=\"B01\"/>／<tag k=\"wheelchair\" v=\"yes\"/>／<tag k=\"name:ko\" v=\"긴테츠교토\"/>",
+        "ライセンス": "OpenStreetMap データ（ODbL 1.0）、地図編集者による登録値で運営主体の公表ではない"
+      },
+      {
+        "标题": "館内設備・バリアフリー情報｜ご利用案内｜京都国立博物館",
+        "URL": "https://www.kyohaku.go.jp/jp/visit/accessibility/",
+        "原文要旨": "車椅子の無料貸し出しを行っています。／南門の出入口に車椅子対応スロープを設置しています。／多目的トイレが平成知新館各階、南門券売施設内、庭園内にございます。／オストメイト対応トイレが平成知新館1階、庭園内にございます。／平成知新館1階には授乳室がございます。／ベビーカーの無料貸し出しを行っています。／平成知新館1階インフォメーションにて筆談対応を行っております（日英対応可能）。／盲導犬、介助犬、聴導犬を伴ってご入場いただけます。／平成知新館1階エントランス、南門に設置しています。／平成知新館1階・地下1階に100円返却式のコインロッカーがあります。／展示館内や庭園など、すべての場所でフリーWi-Fiをご利用いただけます。／ミライロID（スマートフォン向け障害者手帳アプリ）ご利用可能",
+        "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+      },
+      {
+        "标题": "交通アクセス｜ご利用案内｜京都国立博物館",
+        "URL": "https://www.kyohaku.go.jp/jp/visit/access/",
+        "原文要旨": "JRをご利用の場合 JR京都駅下車、D2のりばから市バス206・208号系統にて博物館三十三間堂前下車、徒歩すぐ",
+        "ライセンス": "各運営主体の公式サイト記載の抜粋（出典明記）"
+      }
+    ]
+  },
+  "车站信息": {
+    "日文": "京都駅（きょうとえき）は、京都府京都市下京区にある、西日本旅客鉄道（JR西日本）・東海旅客鉄道（JR東海）・近畿日本鉄道（近鉄）・京都市交通局（京都市営地下鉄）の駅（Wikipedia 日本語）。JRおでかけネットが掲げる現住所は「京都府京都市下京区烏丸通塩小路下ル東塩小路町」。Wikipedia 日本語の概要は「京都府内では唯一の新幹線停車駅」「京都市の玄関口であり、観光の拠点となっているターミナル駅」「1日平均の乗降人員は約60万人」「JR西日本管内の駅では乗車人員が大阪駅に次いで2番目に多く、定期券率は64%」、「東海道新幹線の全列車が停車するほか、JR西日本は寝台特急『サンライズ出雲』『サンライズ瀬戸』を除く全列車が停車」「現存の原広司設計の烏丸口の駅ビルは『京都駅ビル』と呼ばれ、1997年に完成した4代目駅舎である」と記す。乗り入れ路線について同記事は、東海道本線を「当駅の所属線となっている」「駅番号はJR-A31。」、湖西線を「1駅隣の山科駅から分岐する湖西線の列車もすべて当駅へ直通している。湖西線の駅番号はJR-B31。」、山陰本線を『当駅が起点。園部駅まで「嵯峨野線」の愛称で案内されている。駅番号はJR-E01。』、奈良線を「正式な起点は反対側の木津駅だが、列車運行上は当駅が起点となっている。」「駅番号はJR-D01。」、JR東海を「東海道新幹線 - 全種別全列車が停車する。」、近鉄を「京都線 - 当駅が起点。」と記し、愛称案内は『米原方面は「琵琶湖線」、大阪方面は「JR京都線」の愛称で案内されている』とする。京都市営地下鉄乌丸線の駅番号 K11 は当記事本文では確認できず、OpenStreetMap の地下鉄ノード（ref=K11）の表記による。",
+    "英文": "Kyoto Station is a station in Shimogyo Ward, Kyoto City, Kyoto Prefecture, jointly used by the West Japan Railway Company, Central Japan Railway Company, Kintetsu and the Kyoto City Transportation Bureau, according to the Japanese Wikipedia article; the address JR West publishes is Higashi-shiokoji, descending from Shiokoji-dori along Karasuma-dori, Shimogyo-ku. The article states that it is the only shinkansen stop in Kyoto Prefecture, the gateway of the city and a tourist base, with about 600,000 boarding and alighting passengers a day, the second-highest ridership in JR West territory after Osaka and a season-ticket share of 64 percent, that every Tokaido shinkansen train stops, that JR West stops all its limited expresses except the Sunrise Izumo and Sunrise Seto sleeper trains, and that the surviving Karasuma-exit station building, designed by Hiroshi Hara and completed in 1997, is the fourth station building on the site. On lines, the article lists the Tokaido Main Line as the home line (Biwako Line and JR Kyoto Line in service names, station number JR-A31), the Kosei Line with all trains running through (JR-B31), the Sagano Line of the San'in Main Line starting here (JR-E01), the Nara Line whose trains start here though the official origin is Kizu (JR-D01), the JR Tokai shinkansen with all trains, the Kintetsu Kyoto Line starting here and the Kyoto Municipal Subway Karasuma Line, whose subway node in OpenStreetMap carries the reference K11.",
+    "中文": "京都站位于京都府京都市下京区，是西日本旅客铁道、东海旅客铁道、近畿日本铁道与京都市交通局（市营地下铁）的车站（据维基百科日文条目）。JRおでかけネット公布的现住所为“京都府京都市下京区乌丸通盐小路下路东盐小路町”。中文条目称其为“日本最大的观光都市——京都市的代表车站”，是“多条铁路路线的总站”“京都观光名所广泛范围的玄关口”，并记“1日平均上下车人次达70万人”“除了停靠东海道新干线全部列车外，JR还开行往返北陆、山阴、关西空港、南纪等方向的特急列车，近铁则有开行往返奈良、橿原神宫、伊势志摩方向的特急列车”“京都站也是拥有最多JR在来线特急车种的车站”“第1回近畿车站百选选定车站”。站体方面记载“现在的车站建筑于1997年完成，由建筑师原广司设计，为铁骨和钢筋混凝土构造”，因京都古都景观限制周边不能有超过120米高的建筑，故设计为总高60米的大楼并保持南北方向的通道，“得到日本第40回建筑业协会赏”。停靠路线按该条目为东海道本线（所属线，爱称琵琶湖线/JR京都线，车站编号JR-A31）、湖西线（全部直通，JR-B31）、山阴本线（以此站为起点，嵯峨野线，JR-E01）、奈良线（列车运行以此站为起点，JR-D01）、JR东海东海道新干线（全车种停靠）、近铁京都线（以此站为起点，B01）、京都市营地下铁乌丸线（K11）。",
+    "注記": "同一事実の言語版間・公表主体間の差は統一せず併記した。\n（1）利用者数：Wikipedia 日本語は「1日平均の乗降人員は約60万人」「乗車人員が大阪駅に次いで2番目」「定期券率は64%」、中文（簡体）版は「1日平均上下車人次達70萬人」と述べ、乗降と乗車・降車のどちらを数えた値かが違うため両記した（本セッションでJR西日本・市の公表する年度別数値ページは開いていない）。\n（2）駅舎の歴代と高さ：日本語版は「1997年に完成した4代目駅舎」、中文版は「現在の車站建築於1997年完成…總高60公尺」で、120m の高さ規制の説明は中文版側にある（日本語版本文では原広司設計・ブルネル賞奨励賞の記述）。English 版の summary は「It has Japan's third-largest station building … incorporating a shopping mall, hotel, movie theater, Isetan department store … under one 15-story roof」とし、15階建て・伊勢丹の語りが入っている。※日本語版記述との階数差は解消していない。\n（3）路線・駅番号：「山陰本線 当駅が起点」「奈良線 正式な起点は木津駅だが列車運行上当駅が起点」は日中同じ趣旨だが、近鉄の駅番号 B01 は日本語版本文では確認できなかったが、OpenStreetMap node 3340028686（operator=近畿日本鉄道、network=近鉄京都線、ref=B01、wikipedia=ja:京都駅）として 200 で開いた地図データに登録があるため、中文側の表記を地図データ側が裏付ける形併記とした（地図編集者登録＝ODbL、近鉄の公表ではない）。\n（4）座標：本ファイルは OpenStreetMap node 267316272（name=京都、railway=station、train=yes、wheelchair=limited、source=KSJ2、note:ja=国土数値情報（鉄道データ）平成19年 国土交通省、wikipedia=ja:京都駅、version=43・changeset=140202572・timestamp=2023-08-21T22:23:05Z）の 34.9853497／135.7587660 を採用した。同一名称の別ノードとして地下鉄 node 7780637510（operator=京都市交通局、ref=K11、station=subway、wheelchair=yes、version=4・2025-07-16T09:53:48Z）= 34.9861909／135.7600629、近鉄 node 3340028686（operator=近畿日本鉄道、network=近鉄京都線、ref=B01、wheelchair=yes、version=33・2026-06-22T08:06:37Z）= 34.9847375／135.7576627 があり、3ノードの pairwise な距離は約121m（267316272↔3340028686）・約151m（267316272↔7780637510）・約272m（7780637510↔3340028686）（いずれも wikidata=Q801046／wikipedia=ja:京都駅）。自動層の加精ファイル data/curated/H-中部北陆/京都駅.json の 座標 は null（欠損）で、车站ID は「jr奈良線#7」なのに 线路 は「北陆本线」と誤記されていた。\n自動層の路線ファイル data/lines/*.json では当駅は15ファイルに分散し、同一座標 34.985222／135.758731 を掲げながら 出处 は node 3340028686（8ファイル）と node 7780637510（7ファイル）に分かれる。いずれのノードの生値ともその座標は一致せず（3340028686 とは南北約54m・東西約97m、7780637510 とは南北約107m・東西約122m 差）、富山・姫路で確認した「出典ラベルと数値が対応しない」座標欠陥の同型である（当駅の場合はJRノードから約14m しか離れていないため実害は小さいが、ラベルの対応は成立しない）。さらに同一ファイル内の隣接 ID が route 順になっていない（東海道本线.json の 東海道本線#47=亘理駅・#49=仙台駅、北陆本线.json の 北陸本線#5=三ノ宮駅・#6=上郡駅・#8=住吉駅）ため、车站ID の末尾数字は路線上の位置ではなくファイル内五十音順の指数にすぎない。本ファイルの 车站ID は所属線にあたる 東海道本線#48 を正本とし、线路注記 で他14ファイルの ID を列挙した。\n（5）運営主体：京都駅ビル開発（kyoto-station-building.co.jp）の公式トップは「京都駅ビル開発株式会社 企業情報…」と自社を掲出する一方、Wikipedia 日本語は「現存の原広司設計の烏丸口の駅ビルは『京都駅ビル』と呼ばれ」とのみ記し、駅ビル側の旧候補ドメイン（kyotostationbuilding.or.jp／kyoto-aviot.co.jp）は本セッションで HTTP 000 だった。伊勢丹に関する English 版の記述は本文で確認していない。\n（6）Wikipedia は日本語・English・中文（簡体）の各記事を別個に開封した三次情報（CC BY-SA 4.0）で、運営主体が公表していない沿革・乗車人員・駅番号の補完にのみ用いた。English 版本文は REST API の summary しか開いていない（本文全体の取得は未実施）。",
+    "維基词条": "日本語版 ja:京都駅｜English 版 en:Kyoto Station（REST API の summary のみ開封）｜中文（簡体）版 zh:京都站",
+    "出典": [
+      {
+        "标题": "京都駅｜Wikipedia 日本語",
+        "URL": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%83%BD%E9%A7%85",
+        "原文要旨": "京都府京都市下京区にある、西日本旅客鉄道（JR西日本）・東海旅客鉄道（JR東海）・近畿日本鉄道（近鉄）・京都市交通局（京都市営地下鉄）の駅／京都府内では唯一の新幹線停車駅／1日平均の乗降人員は約60万人／東海道本線 - 当駅の所属線となっている／山陰本線 - 当駅が起点／奈良線 - 正式な起点は反対側の木津駅だが、列車運行上は当駅が起点",
+        "ライセンス": "Wikipedia 日本語／English／中文（簡体）記事（CC BY-SA 4.0）"
+      },
+      {
+        "标题": "Kyoto Station｜Wikipedia English (REST summary)",
+        "URL": "https://en.wikipedia.org/wiki/Kyoto_Station",
+        "原文要旨": "Kyōto Station is a major railway station and transportation hub in Kyoto, Japan. It has Japan's third-largest station building and is one of the country's largest buildings, incorporating a shopping mall, hotel, movie theater, Isetan department store, and several local government facilities under one 15-story roof.",
+        "ライセンス": "Wikipedia 日本語／English／中文（簡体）記事（CC BY-SA 4.0）"
+      },
+      {
+        "标题": "京都站｜Wikipedia 中文（簡体）",
+        "URL": "https://zh.wikipedia.org/wiki/%E4%BA%AC%E9%83%BD%E7%AB%99",
+        "原文要旨": "京都站為日本最大的觀光都市——京都市的代表車站／1日平均上下車人次達70萬人／京都站也是擁有最多JR在來線特急車種的車站／第1回「近畿車站百選」選定車站／總高60公尺／京都市交通局：京都市營地下鐵烏丸線 - 車站編號為K11",
+        "ライセンス": "Wikipedia 日本語／English／中文（簡体）記事（CC BY-SA 4.0）"
+      },
+      {
+        "标题": "京都駅｜駅情報：JRおでかけネット",
+        "URL": "https://eki.jr-odekake.net/top?id=0610116",
+        "原文要旨": "現住所 京都府京都市下京区烏丸通塩小路下ル東塩小路町／みどりの窓口 6時30分から21時",
+        "ライセンス": "JRおでかけネット（JR西日本）駅ページ記載の原文（出典明記）"
+      },
+      {
+        "标题": "京都地区交通バリアフリー移動円滑化基本構想｜京都市",
+        "URL": "https://www.city.kyoto.lg.jp/tokei/page/0000145417.html",
+        "原文要旨": "地区内の旅客施設 JR京都駅，新幹線京都駅，近鉄京都駅，地下鉄京都駅",
+        "ライセンス": "京都市（市情報館 city.kyoto.lg.jp）公表の原文（出典明記）"
+      },
+      {
+        "标题": "OpenStreetMap node 267316272",
+        "URL": "https://api.openstreetmap.org/api/0.6/node/267316272",
+        "原文要旨": "<node id=\"267316272\" visible=\"true\" version=\"43\" changeset=\"140202572\" timestamp=\"2023-08-21T22:23:05Z\"／lat=\"34.9853497\" lon=\"135.7587660\"／<tag k=\"railway\" v=\"station\"/>／<tag k=\"train\" v=\"yes\"/>／<tag k=\"wheelchair\" v=\"limited\"/>／<tag k=\"source\" v=\"KSJ2\"/>",
+        "ライセンス": "OpenStreetMap データ（ODbL 1.0）、地図編集者による登録値で運営主体の公表ではない"
+      },
+      {
+        "标题": "OpenStreetMap node 7780637510",
+        "URL": "https://api.openstreetmap.org/api/0.6/node/7780637510",
+        "原文要旨": "<node id=\"7780637510\" visible=\"true\" version=\"4\" changeset=\"169004476\" timestamp=\"2025-07-16T09:53:48Z\"／lat=\"34.9861909\" lon=\"135.7600629\"／<tag k=\"operator\" v=\"京都市交通局\"/>／<tag k=\"ref\" v=\"K11\"/>／<tag k=\"station\" v=\"subway\"/>",
+        "ライセンス": "OpenStreetMap データ（ODbL 1.0）、地図編集者による登録値で運営主体の公表ではない"
+      },
+      {
+        "标题": "OpenStreetMap node 3340028686（近鉄京都駅ノード）",
+        "URL": "https://api.openstreetmap.org/api/0.6/node/3340028686",
+        "原文要旨": "<node id=\"3340028686\" visible=\"true\" version=\"33\" changeset=\"184419850\" timestamp=\"2026-06-22T08:06:37Z\"／lat=\"34.9847375\" lon=\"135.7576627\"／<tag k=\"network\" v=\"近鉄京都線\"/>／<tag k=\"operator\" v=\"近畿日本鉄道\"/>／<tag k=\"ref\" v=\"B01\"/>／<tag k=\"wheelchair\" v=\"yes\"/>／<tag k=\"wikipedia\" v=\"ja:京都駅\"/>／<tag k=\"website\" v=\"https://www.kintetsu.co.jp/station/station_info/station05005.html\"/>",
+        "ライセンス": "OpenStreetMap データ（ODbL 1.0）、地図編集者による登録値で運営主体の公表ではない"
+      }
+    ]
+  },
+  "検索记录": {
+    "使用した出典URL": [
+      "http://english.higashihonganji.or.jp/english_top/",
+      "http://www.kate.co.jp/en/",
+      "http://www.kate.co.jp/tcn/",
+      "http://www.kate.co.jp/timetable/",
+      "https://api.openstreetmap.org/api/0.6/node/267316272",
+      "https://api.openstreetmap.org/api/0.6/node/3340028686",
+      "https://api.openstreetmap.org/api/0.6/node/7780637510",
+      "https://eki.jr-odekake.net/barrierfree?id=0610116",
+      "https://eki.jr-odekake.net/premises?id=0610116",
+      "https://eki.jr-odekake.net/top?id=0610116",
+      "https://en.wikipedia.org/wiki/Kyoto_Station",
+      "https://english.higashihonganji.or.jp/access/",
+      "https://english.higashihonganji.or.jp/shosei-en/",
+      "https://global.kyoto.travel/ja/faq/",
+      "https://global.kyoto.travel/ja/faq/detail.php?faq_id=3018",
+      "https://ja.kyoto.travel/",
+      "https://ja.kyoto.travel/information/",
+      "https://ja.kyoto.travel/information/network.php",
+      "https://ja.kyoto.travel/tourism/single01.php?category_id=11&tourism_id=850",
+      "https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%83%BD%E9%A7%85",
+      "https://kctp.net/",
+      "https://kyoto.travel/cn/",
+      "https://kyoto.travel/en/",
+      "https://kyoto.travel/tw/",
+      "https://marutto.kyoto.travel/",
+      "https://toji.or.jp/access/",
+      "https://toji.or.jp/guide/gojunoto/",
+      "https://toji.or.jp/guide/houmotsukan/",
+      "https://toji.or.jp/visiting/",
+      "https://www.city.kyoto.lg.jp/",
+      "https://www.city.kyoto.lg.jp/kotsu/",
+      "https://www.city.kyoto.lg.jp/tokei/page/0000033162.html",
+      "https://www.city.kyoto.lg.jp/tokei/page/0000145417.html",
+      "https://www.city.kyoto.lg.jp/tokei/page/0000293150.html",
+      "https://www.higashihonganji.or.jp/",
+      "https://www.higashihonganji.or.jp/about/guide/shoseien/",
+      "https://www.higashihonganji.or.jp/worship/access/",
+      "https://www.hongwanji.kyoto/",
+      "https://www.hongwanji.kyoto/access/",
+      "https://www.hongwanji.kyoto/visit/",
+      "https://www.kate.co.jp/",
+      "https://www.kyohaku.go.jp/",
+      "https://www.kyohaku.go.jp/eng/",
+      "https://www.kyohaku.go.jp/eng/visit/access/",
+      "https://www.kyohaku.go.jp/jp/visit/access/",
+      "https://www.kyohaku.go.jp/jp/visit/accessibility/",
+      "https://www.kyohaku.go.jp/jp/visit/info/",
+      "https://www.kyohaku.go.jp/zh-s/",
+      "https://www.kyohaku.go.jp/zh-s/visit/access/",
+      "https://www.kyoto-kankou.or.jp/",
+      "https://www.kyoto-kankou.or.jp/info_search/3972",
+      "https://www.kyoto-station-building.co.jp/",
+      "https://www.kyoto-station-building.co.jp/restaurant_cafe/",
+      "https://www.pref.kyoto.jp/",
+      "https://www.takashimaya.co.jp/kyoto/",
+      "https://www.toji.or.jp/",
+      "https://www.toji.or.jp/guide/",
+      "https://zh.wikipedia.org/wiki/%E4%BA%AC%E9%83%BD%E7%AB%99"
+    ],
+    "HTTP検証": "検索・取得は 2026-10-22 と 2026-10-23。ダンプは /data/work/kyo に「SOURCE <HTTPコード> <URL>／EXTERNAL <リンク列>／本文（折り畳み）」の形で 106 本（重複取得込み、うち HTTP 200 が 73 本）。200 で開封した一意URL 72 件のうち、本ファイルが実際に引用したのは 58 件で、すべて 200 を確認したページに限られる（書き出し前にスクリプト側でゲート検証）。200 以外しか返さなかった一意URLは 33 件、内訳は 000×12／301×1／403×1／404×17／503×2（いずれも下記 採用しなかった公式候補 に逐件記載し、本文を引用していない）。\n200 を返しながら使えなかった例（本文なし・ソフト404・別主体）：\n  ・https://www.kyotorailwaymuseum.jp/ と https://www.kyotorailwaymuseum.jp/guide/ は HTTP 200 だが本文が空白文字1つのみ（ログ行を含め59バイト／65バイト）で、開館時間・料金・展示の記載を取得できず、京都鉄道博物館レコードの 官网 は空欄、介绍页 は本文を開けた https://ja.kyoto.travel/tourism/single01.php?category_id=11&tourism_id=850（京都市観光協会の施設詳細）を掲出している。\n  ・https://www.krm.or.jp/ は HTTP 200 で開けたが「医療法人社団KRM」のサイトで、京都鉄道博物館とは別主体（同姓の略称による別団体）。博物館の公式サイトとして引用せず、下記『開いたが本文に記載を採用しなかったURL』に記録した。\n  ・https://eki.jr-odekake.net/eki/top?id=0610601（HTTP 200・本文「お探しのページは見つかりません。」）と https://eki.jr-odekake.net/barrierfree?id=6100101（HTTP 200・本文「該当する駅が見つかりませんでした」）は、当駅の正式ID（0610116）以外に試した候補IDで、どの駅のページかも特定できなかった。引用せず下記『本文を開かず』に記載した。\n  ・Wikipedia は生記事HTML（ja・en・zh の各 /wiki/ ページ）を 200 で開いたが、ダンプは1画面12,000文字で折り畳んでおり、記事末尾の脚出典・表は取得範囲外。本文引用が必要な箇所は MediaWiki API（…/w/api.php?action=query&prop=extracts&explaintext=1&format=json&exchars=6000&exsectionformat=plain&titles=…）の ja・zh の本文（各 200）と、English 版は REST API summary（https://en.wikipedia.org/api/rest_v1/page/summary/Kyoto_Station、200）を用いた。\n  ・OpenStreetMap の3ノード（267316272／7780637510／3340028686）は XML タグ除去で本文が消える形式なので、ダンプには生XMLを残し、原文要旨もタグそのまま（<node id=… version=… lat=… lon=…>／<tag k=… v=…/>）で引用した。\n本ファイルが引用した原文の断片（原文要旨 を「／」で割った 394 断片）は、保存済みダンプ本文との一致を別スクリプトで全件検証した（不一致 0 件）。空白・開き brackets（「」）は無視するが、バリアフリーの「～（U+FF5E）」と「〜（U+301C）」、句点の有無は厳密に突き合わせた。\n各出典の 标题 はダンプの title 要素から写しているが、title は本文ダンプから除去しているため、标题だけの語を本文引用としては使っていない。（例：東寺トップの title「東寺 – 世界遺産 真言宗総本山 教王護国寺」、京都観光協会の FAQ サイト名「京なびオンライン」、関西空港交通トップの title「関西国際空港のエアポートリムジンバス」は、本文に出現しないため記述欄では「」を外し、title 由来と明記した。）\n記述欄（距離・住所・電話・営業時間・料金・言語注記・简介・无障碍・车站信息 の日本語欄 216 欄）にある「…」引用を、そのレコードが出典として掲げたダンプ本文と全文照合するゲートを別途通し、不一致 0 件を確認した（表組の平坦化でラベルと値が連続した箇所は「／」で区切り、ふりがなが本文に混在する西本願寺はふりがな付きのまま写した）。\n各レコードの 検証日 はダンプ取得日と同じ 2026-10-23 を記載している（取得試行そのものは 2026-10-22 から継続）。",
+    "本文を開かずリンクのみで記載したURL": [
+      {
+        "URL": "https://www.kyotorailwaymuseum.jp/",
+        "扱い": "HTTP 200 だが本文が空白文字1つのみ（ログ行を含め59バイト）。開館時間・料金・展示内容を確認できなかったため、官网欄には掲出せず、レコード本文にも「公式サイトは本セッションで開館時間・料金を確認できていない」と明記した。"
+      },
+      {
+        "URL": "https://www.kyotorailwaymuseum.jp/guide/",
+        "扱い": "同上の下位（案内ページ）候補。HTTP 200 で本文なし（65バイト）。京都鉄道博物館の記述は京都観光Navi の施設詳細（200）を引用した。"
+      },
+      {
+        "URL": "https://eki.jr-odekake.net/eki/top?id=0610601",
+        "扱い": "HTTP 200 だが本文が「お探しのページは見つかりません。」（ソフト404）。当駅の正式ID 0610116 のページ群のみ引用した。"
+      },
+      {
+        "URL": "https://eki.jr-odekake.net/barrierfree?id=6100101",
+        "扱い": "HTTP 200 だが本文が「該当する駅が見つかりませんでした」の案内のみ。バリアフリー情報は https://eki.jr-odekake.net/barrierfree?id=0610116（200）と京都市の各ページ（200）を引用した。"
+      },
+      {
+        "URL": "https://3dmap.jrnc.jp/JRW/mobile/#/kyotoja/",
+        "扱い": "JRおでかけネット 構内図ページ（200）が本文内で掲出していた「京都駅3D構内図」のURL。3D構内図そのものは開封していない。引用した原文（「【おしらせ】駅構内の経路案内機能も搭載されている”京都駅3D構内図”は下記よりアクセスいただけます。」）に URL が含まれるため、ここに開封状況を明記する。"
+      },
+      {
+        "URL": "https://www.kintetsu.co.jp/station/station_info/station05005.html",
+        "扱い": "OpenStreetMap node 3340028686 の website タグ値（近鉄京都駅のページ）。近鉄自社ページは本セッションで未取得で、駅番号 B01 はノードの ref タグと Wikipedia 中文版の表記で確認した（地図編集者登録＝ODbL、近鉄の公表ではない）。"
+      },
+      {
+        "URL": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+        "扱い": "OpenStreetMap node 267316272 の source_ref タグ値（国土数値情報のテンプレートページ）。本セッションでは未取得で、引用したのはノード本文の <tag k=\"source\" v=\"KSJ2\"/> まで。"
+      },
+      {
+        "URL": "https://www.city.kyoto.lg.jp/tokei/page/0000293150.html",
+        "扱い": "「人にやさしいお宿情報」ページ。本セッションで 200 を確認し引用済みの页面だが、京都市公式FAQ（https://global.kyoto.travel/ja/faq/detail.php?faq_id=3018）の本文が「詳細はこちらをご覧ください。」として掲出していた URL でもあるため、出典側の生URL としてここで開封状況を明示する。"
+      }
+    ],
+    "開いたが本文に記載を採用しなかったURL（一覧・トップ・カテゴリ・別言語版）": [
+      "https://eki.jr-odekake.net/barrierfree?id=6100101",
+      "https://eki.jr-odekake.net/connection?id=0610116",
+      "https://eki.jr-odekake.net/eki/top?id=0610601",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Kyoto_Station",
+      "https://ja.kyoto.travel/anshin/",
+      "https://ja.kyoto.travel/tourism/search.php?search_flg=1&category_id=1&keywords=&area%5B%5D=1",
+      "https://ja.kyoto.travel/tourism/single01.php?category_id=1&tourism_id=246",
+      "https://ja.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&exchars=6000&exsectionformat=plain&titles=%E4%BA%AC%E9%83%BD%E9%A7%85",
+      "https://www.higashihonganji.or.jp/about/guide/kohryu-kan/",
+      "https://www.krm.or.jp/",
+      "https://www.kyohaku.go.jp/jp/visit/",
+      "https://www.kyotorailwaymuseum.jp/",
+      "https://www.kyotorailwaymuseum.jp/guide/",
+      "https://zh.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&exchars=6000&exsectionformat=plain&titles=%E4%BA%AC%E9%83%BD%E7%AB%99"
+    ],
+    "採用しなかった公式候補": [
+      {
+        "候補": "http://www.sanjusangendo.jp/",
+        "状態": "HTTP 301（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "三十三間堂（蓮華王院本堂）公式の HTTP 側候補。HTTP 301 で転先本文を開いていない（https 側は HTTP 000）。本ファイルでは三十三間堂を記載しておらず、未実施に挙げた。"
+      },
+      {
+        "候補": "https://ja.kyoto.travel/access/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都観光Navi（京都市観光協会）の「アクセス」欄候補。HTTP 404 で本文を開けず。同サイトの現行構造は /information/ と /tourism/（検索・個別詳細）で、接続交通は JRおでかけネット（200）、市バス・地下鉄は京都市交通局（200）、空港リムジンは関西空港交通（200）を引用した。"
+      },
+      {
+        "候補": "https://ja.kyoto.travel/access/traffic/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上の下位（交通）ページ候補。HTTP 404。上記のとおり各運営主体の公式ページに置き換えた。"
+      },
+      {
+        "候補": "https://ja.kyoto.travel/gourmet/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都観光Navi の「グルメ」欄トップ候補。HTTP 404。美食レコードは本文を開けた検索結果（category_id=1・area[]=1）と府観光連盟の施設詳細（info_search/3972、200）、京都駅ビル公式（200）の記載に限定した。"
+      },
+      {
+        "候補": "https://ja.kyoto.travel/shopping/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都観光Navi の「ショッピング」欄トップ候補。HTTP 404。购物レコードは高島屋（200）、京都駅ビル（200）、府観光連盟の施設詳細（200）で記載した。"
+      },
+      {
+        "候補": "https://ja.kyoto.travel/tourism/single01.php?category_id=11&tourism_id=144",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都観光Navi の交通カテゴリ（category_id=11）別施設詳細。HTTP 404 で本文を開けず。同じカテゴリで開けた tourism_id=850（京都鉄道博物館、200）のみ引用した。"
+      },
+      {
+        "候補": "https://kyoto-aviot.co.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都駅ビル側（アヴィオット／駅ビル運営系）とみられる候補ドメイン。HTTP 000。駅ビルの記載は 200 で開いた kyoto-station-building.co.jp（京都駅ビル開発株式会社のトップと レストラン・カフェ欄）に限定し、フロア構成・テナント名簿・各店の営業時間は本ファイルで確定していない。"
+      },
+      {
+        "候補": "https://kyoto.travel/cn/tourism/single01.php?category_id=11&tourism_id=850",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上の 中文（簡体）版施設詳細。HTTP 404。中文版トップ kyoto.travel/cn/（200）で確認できる表記のみ引用し、個別施設の中文は人手執筆とした（言語注記 に宣言）。"
+      },
+      {
+        "候補": "https://kyoto.travel/en/access",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "観光協会 English 版の「アクセス」欄候補。HTTP 404。英語版の交通案内本文は未取得のため、接続交通は JRおでかけネット・市交通局・関西空港交通の日本語（200）を引用し、English 欄は当方の執筆とした。"
+      },
+      {
+        "候補": "https://kyoto.travel/en/tourism/single01.php?category_id=11&tourism_id=850",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上の English 版施設詳細（同一 tourism_id を英語側で試みた候補）。HTTP 404。英語版トップ kyoto.travel/en/（200）ではカテゴリ欄・案内所表記を確認できたが、施設個別ページの英語本文は未取得のため 京都鉄道博物館の English は人手執筆とした。"
+      },
+      {
+        "候補": "https://kyotostationbuilding.or.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "駅ビル運営側の別候補ドメイン。HTTP 000。上記のとおり自社トップ（200）のみ引用した。"
+      },
+      {
+        "候補": "https://www.city.kyoto.lg.jp/kotsu/menu03/index.html",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都市交通局のメニュー系下位ページ候補。HTTP 404。市バス・地下鉄の記載は 200 で開いた https://www.city.kyoto.lg.jp/kotsu/ トップと市情報館トップに限定し、運賃表・系統図は未取得。"
+      },
+      {
+        "候補": "https://www.city.kyoto.lg.jp/kotsu/page/0000028951.html",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "交通局の個別ページ候補（地下鉄・市バスの案内と推定したが特定できず）。HTTP 404。地下鉄烏丸線側の自社発表は未取得のまま（未実施）。"
+      },
+      {
+        "候補": "https://www.city.kyoto.lg.jp/kurashi/page/0000013934.html",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都市 暮らし情報の個別ページ候補（郵便局・公的手続系の案内と想定）。HTTP 404 で本文を開けず。郵便局の窓口時間・収納代行は本ファイルで記載していない（未実施）。"
+      },
+      {
+        "候補": "https://www.city.kyoto.lg.jp/kurasi/page/0000044203.html",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上の旧表記（kurasi）パス候補。HTTP 404。市側の生活情報は 200 で開いた都市計画・交通バリアフリーの各ページに限定した。"
+      },
+      {
+        "候補": "https://www.higashihonganji.or.jp/access/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "東本願寺 日本語サイトのアクセス候補（上位パスを推定した）。HTTP 404。現行パスは /worship/access/（200）で、徒歩・バス・地下鉄の表記と同ページの Hours 相当はすべて /worship/access/ と公式英語版から引用した。"
+      },
+      {
+        "候補": "https://www.higashihonganji.or.jp/en/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "東本願寺（真宗本廟）の公式英語トップ候補。HTTP 404 で本文を開けず。境内・見所の記述は日本語トップ（200）を原文引用し、English・中文は当方が日本語原文を読んで執筆した（言語注記 に宣言）。"
+      },
+      {
+        "候補": "https://www.higashihonganji.or.jp/en/about/guide/shoseien/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上、渉成園の英語案内候補。HTTP 404。現行の公式英語は別ドメイン english.higashihonganji.or.jp で、トップ・/access/・渉成園 /shosei-en/ はいずれも 200 で本文を開封し、公式英語表記を引用した（本ファイル SIGHTS[2]・SIGHTS[3]）。"
+      },
+      {
+        "候補": "https://www.jr-odekake.net/eki/premises?id=6100101",
+        "状態": "HTTP 403（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "JRおでかけネット 構内図の www 側・別ID候補。HTTP 403（アクセス権エラーで本文未取得）。構内図・のりばは https://eki.jr-odekake.net/premises?id=0610116（HTTP 200）を引用した。"
+      },
+      {
+        "候補": "https://www.jr-odekake.net/eki/top.php?id=0610601",
+        "状態": "HTTP 503（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "JRおでかけネット 駅トップの https/www 側・別ID候補。HTTP 503（混雑案内のみで本文なし）。京都駅の駅情報・構内図は www.jr-odekake.net 側が HTTP 503・403 で開けなかったため、同一運営（JR西日本）の eki.jr-odekake.net 側（top／barrierfree／premises／connection、いずれも id=0610116、HTTP 200）を引用した。"
+      },
+      {
+        "候補": "https://www.jr-odekake.net/eki/top.php?id=6100101",
+        "状態": "HTTP 503（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上（IDを変えた別候補）。HTTP 503。京都駅の駅情報・構内図は www.jr-odekake.net 側が HTTP 503・403 で開けなかったため、同一運営（JR西日本）の eki.jr-odekake.net 側（top／barrierfree／premises／connection、いずれも id=0610116、HTTP 200）を引用した。"
+      },
+      {
+        "候補": "https://www.jrefire.or.jp/?p=291",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都駅周辺の観光・公共交通・生活サービスの公式候補として取得を試みたが HTTP 000 で応答がなく、当該ドメインの内容も運営主体も確認できなかった。本ファイルでは本文・URL ともに引用しておらず、同じ事実は 200 で開いたページ（京都市・府・観光協会・各運営主体の公式）で確認できる範囲のみ記載している。"
+      },
+      {
+        "候補": "https://www.kyoto-aviot.co.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上（www 側も HTTP 000）。"
+      },
+      {
+        "候補": "https://www.kyoto-fujiizaka.or.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都駅周辺の観光・公共交通・生活サービスの公式候補として取得を試みたが HTTP 000 で応答がなく、当該ドメインの内容も運営主体も確認できなかった。本ファイルでは本文・URL ともに引用しておらず、同じ事実は 200 で開いたページ（京都市・府・観光協会・各運営主体の公式）で確認できる範囲のみ記載している。"
+      },
+      {
+        "候補": "https://www.kyoto-tower.eu/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上（別ドメイン候補）。HTTP 000。"
+      },
+      {
+        "候補": "https://www.kyoto.lg.jp/kanko/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都市 観光（まちなみ・観光情報）旧ドメイン候補。HTTP 000。市の観光情報は 200 で開いた ja.kyoto.travel（京都市観光協会）および city.kyoto.lg.jp トップ、global.kyoto.travel/ja/faq/ で確認できる範囲のみ記載した。"
+      },
+      {
+        "候補": "https://www.kyotokanku.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都駅周辺の観光・公共交通・生活サービスの公式候補として取得を試みたが HTTP 000 で応答がなく、当該ドメインの内容も運営主体も確認できなかった。本ファイルでは本文・URL ともに引用しておらず、同じ事実は 200 で開いたページ（京都市・府・観光協会・各運営主体の公式）で確認できる範囲のみ記載している。"
+      },
+      {
+        "候補": "https://www.kyotostationbuilding.or.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上（www 側も HTTP 000）。"
+      },
+      {
+        "候補": "https://www.kytower.co.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都タワー（塔棟・展望床）の公式候補。HTTP 000 で本文を開けず。本ファイルでは京都タワーを記載していない（未実施）。自動層の加精ファイルが引用していた ja.wikipedia 版「京都タワー」記事も本セッションでは開いていない。"
+      },
+      {
+        "候補": "https://www.pref.kyoto.jp/kurashi/irisyo/iryo/koukatukyuukyu/index.html",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "京都府の生活・医療系個別ページ候補（高度救急医療系の案内と想定）。HTTP 404 で本文を開けず。公共服务では 200 で開いた府トップの広域案内・防災情報だけを引用し、救急医療の電話相談・受入体制の記載はしていない（未実施）。"
+      },
+      {
+        "候補": "https://www.pref.kyoto.jp/kurashiweb/fukushi/koyou/koukatsukyuukou/index.html",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上（福祉・雇用系の個別ページ候補）。HTTP 404。府の福祉・労働情報は未取得のまま。"
+      },
+      {
+        "候補": "https://www.sanjusangendo.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上の https 側。HTTP 000（本セッションの DNS 解決不能）で本文を開けず。三十三間堂の拝観料・時間・特別公開の記載は本ファイルにない。"
+      },
+      {
+        "候補": "https://www.yodobashi-community.co.jp/shop/kyoto/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "駅前大手家電店（ヨドバシカメラ マルチメディア京都）の店舗ページ候補。HTTP 000。购物レコードは本文を開けた高島屋（200）と京都駅ビル（200）に限定し、営業時間・免税手続きの記載はしていない。"
+      }
+    ],
+    "自動層が引用していたURL（本セッションで未開封）": "自動層 data/lines の京都駅レコードは15ファイル（東海道本線#48・東海道新幹線#4・湖西線#3・山陰本線#28・jr奈良線#7・烏丸線#5・北陸本線#7・大阪環状線#10・山陽本線#25・赤穂線#7・近鉄京都線#8・近鉄奈良線#10・橿原線#8・難波線#6）に分散し、いずれも 出处 を OpenStreetMap node 表記（3340028686 を8ファイル、7780637510 を7ファイル）としているが、本セッションで開いた3ノードの生値のどれとも一致しない共通値 34.985222／135.758731 を載せている（座標 注記 参照）。\n自動層の加精ファイル data/curated/H-中部北陆/京都駅.json の 検索记录.使用した出典URL は22件。うち本セッションで 200 の本文を開いたのは https://kctp.net/ と https://www.higashihonganji.or.jp/about/guide/shoseien/ の2件だけ（いずれも本ファイルでも引用）。未開封のまま自動層が引用していたのは次のとおり：https://gallery.kcua.ac.jp/・https://libmuse.kcua.ac.jp/muse/（京都女子大学の画廊・図書館系とみられる。未取得）；https://ja.wikipedia.org/wiki/キャンパスプラザ京都・七条通・京都タワー（未取得。本ファイルでこれらに触れるレコードは置かなかった）；https://kyoto-option.com/・https://www.cyclekyoto.net/・https://www.hellocycling.jp（サイクリング・レンタサイクル系。本ファイルのレンタサイクルは 200 で開いた https://kctp.net/ を引用）；https://map.japanpost.jp/p/search/dtl/300144089000/（郵便局検索の個別ページとみられる。未取得。郵便局は本ファイルで記載していない）；https://www.furyu.jp/・https://www.kansai-td.co.jp/・https://www.rohm.co.jp/（企業サイト。未取得、本ファイルでは言及しない）；https://www.pref.kyoto.jp/passport/10200022.html（旅券・パスポート案内とみられる。未取得。本ファイルの 公共服务 は市情報館・交通局・府トップ・観光協会案内所に限定）；https://www.wikidata.org/wiki/Q11534162・Q1201304・Q5154082・Q795048（4件のウィキデータ項目。開いていない。本ファイルでは OpenStreetMap ノードの wikidata=Q801046 表記とWikipedia本文に置き換えた）；自動層側に文字列のまま混入していた ja:京都中央郵便局／ja:柳原銀行／ja:渉成園（URLスキームを持たない項目名で、自動層由来の書式不良として記録する。渉成園は本ファイルで 200 の寺院公式を引用した）。したがって本ファイルは、自動層由来で未開封のURLを1つも 引用していません。",
+    "未実施": [
+      "京都鉄道博物館（https://www.kyotorailwaymuseum.jp/ と /guide/ は HTTP 200 だが本文なし、https://www.krm.or.jp/ は別主体の医療法人）による開館時間・観覧料・展示内容・休館日。本ファイルのレコードは 200 で開いた京都観光Navi の施設詳細（200）の記載に限った。",
+      "三十三間堂（www.sanjusangendo.jp が HTTP 000、http 側が 301）の拝観料・時間・御堂の由緒。本ファイルでは同寺を記載していない。",
+      "京都タワー（kytower.co.jp／kyoto-tower.eu HTTP 000）の展望床営業時間・料金・高さ。自動層が引用していた ja:京都タワー も未開封。",
+      "京都駅ビルのフロア構成とテナント名簿（kyotostationbuilding.or.jp／kyoto-aviot.co.jp HTTP 000）。開封できた自社トップと レストラン・カフェ欄から、拉麺小路・和食小路の階数と代表店舗の記載を引用した範囲にとどめる。",
+      "ヨドバシカメラ マルチメディア京都（yodobashi-community.co.jp/shop/kyoto/ HTTP 000）の営業時間・免税窓口。",
+      "郵便局（京都中央郵便局ほか）の窓口時間・収納代行（市 暮らし情報ページ候補は HTTP 404、map.japanpost.jp は未開封）。",
+      "消防・防災の個別案内（jrefire.or.jp HTTP 000、府の防災下位ページも未取得）。府トップと市トップで確認できる広域案内・防災情報の入口のみ記載した。",
+      "近畿日本鉄道（自社駅ページ station05005.html）と京都市営地下鉄（交通局の個別ページ候補は HTTP 404）が自社公表する駅番号・時間帯別ダイヤ・改札・手荷物預かり。B01・K11 は OpenStreetMap の ref タグと Wikipedia 中文版の表記で併記した（地図編集者登録であり事業者公表ではない）。",
+      "京都観光Navi のグルメ・ショッピング欄（/gourmet/・/shopping/ HTTP 404）による駅周辺飲食店・店舗の一覧。英語・中文版の同欄も未取得で、English／中文の施設詳細（kyoto.travel/en|cn/tourism/single01.php?…、kyoto.travel/en/access）は HTTP 404。",
+      "関西空港交通の公式英語トップ（/en/）と繁体字中国語トップ（/tcn/）は 200 で開いたが、路線表・時刻表が JavaScript 描画のためダンプに反映されず、英語・中文の運賃表は未取得（日本語の時刻表・運賃ページ 200 の数値を引用し、英語・中文欄には確認できた表記のみ書いた）。",
+      "東本願寺・渉成園の 中文（簡体・繁體）版は自社ページを開設していないか見付けられず未取得。English は公式英語版を引用したが、中文は当方の執筆（言語注記 に宣言）。",
+      "各レコードの料金・営業時間・公開日は取得日（2026-10-22／2026-10-23）時点の掲載値で、その後の改定・特別公開・運休を反映していない。東寺の秋期特別公開や渉成園の貸出のように原文が期日を表記しているものは、日付をそのまま写し、実施済みに繰り込んでいない。",
+      "自動層が載せている15ファイル分の路線ID（当駅を通らない線区を含む）と、加精ファイル側の 线路「北陆本线」表記の検証。本ファイルでは所属線IDを正本とし、他14ファイルのIDは 线路注記 に列挙して自動層側の表記として残した。"
+    ]
+  }
 }
