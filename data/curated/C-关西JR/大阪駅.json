@@ -1,184 +1,1569 @@
 {
   "车站": "大阪駅",
-  "线路": "東海道本線",
-  "加精日期": "2026-10-22",
+  "车站ID": "東海道本線#146",
+  "线路": "東海道本線（愛称：JR京都線・JR神戸線／旅客線としておおさか東線・JR東西線が直通）／大阪環状線／東海道本線（貨物線・旅客営業なしの電化線）／おおさか東線／JR東西線／関西空港線／阪和線／福知山線（愛称：JR宝塚線）／湖西線／山陰本線（愛称：嵯峨野線）／赤穂線／宮原・大阪東部方面貨物線",
+  "线路注記": "本ファイルの 车站ID は自動層 data/lines/东海道本线.json の「東海道本線#146」を正本とした（同一ファイルの 名称.日文 は「大阪駅」、出处 は OpenStreetMap n346685291）。大阪駅は自動層では10ファイルに分散収録されている：東海道本線#146・北陸本線#28・大阪環状線#36・宮豊線#12・山陽本線#99・山陰本線#69・湖西線#10・赤穂線#40 の8ファイルがいずれも node 346685291（name=大阪・operator=西日本旅客鉄道）、御堂筋線#17・北大阪急行線#17 の2ファイルが node 7811929025（Osaka Metro 梅田駅、name=梅田）に「梅田駅」として登録されている。このうち 北陸本線（米原起点）・山陽本線（神戸起点）・赤穂線（相生起点）・宮豊線（豊岡起点） は当駅が線路上の駅として所在しない線区で、湖西線・山陰本線（嵯峨野線）も当駅を所属線としない系統（北陸線特急・嵯峨野線系統の列車が乗り入れる）である。自動層が同一駅名を複数ファイルへ配った結果とみられる（各ファイル側の記載は 検索记录 の 自動層… に残す）。\n同一ファイル内で 名称 が 五十音順に並んでいるか確認した。东海道本线.json では 東海道本線#145＝大野駅・#146＝大阪駅・#147＝大高駅の順で五十音順（大野＜大阪＜大高）だが、路線上の順序（米原―大津―京都―大阪―三ノ宮）ではない。さらに 大阪环状线.json では 大阪環状線#1＝JR五位堂駅（五位堂駅は関西本線の駅で、环状線の駅リストとは別系統。出处 n8021696835）が先頭に来ており、末尾の数字は路線上の位置ではなくファイル内配列の指数にすぎない。姫路・富山・京都で確認した欠陥が当駅でも再現しており、车站ID は「同名ファイル内の何番目の要素か」以上の意味を持たない。この点は自動層全体の品質注記として残す。\n自动層が「梅田駅」として載せた2ファイルについて：御堂筋線#17（node 7811929025、name=梅田、station=subway）は実在する Osaka Metro 御堂筋線梅田駅で、当駅と地下街・地下通路で直結する別駅である。北大阪急行線#17 は同じ node 7811929025 を「梅田駅」として収録しているが、北大阪急行電気軌道の路線は御堂筋線（国際会館〜なかもず）への相互直通先であり、当ファイルの 线路 欄には含めなかった（Osaka Metro 自社側の梅田駅ページ https://subway.osakametro.co.jp/station_guide/M/m16/（200）は駅番号 M16・隣駅 M15 御堂筋線／M17 中津のみを掲げ、北大阪急行の表記はない）。\n当駅からのりば表を持つ営業線は、JRおでかけネット 構内図（eki.jr-odekake.net/premises?id=0610130、HTTP 200）の在来線表に記載された範囲で、1番＝JRゆめ咲線・関西空港線・阪和線・大阪環状線（内回り）・大和路線、2番＝大阪環状線（外回り）、3・4番＝JR神戸線・JR宝塚線・福知山線（特急スーパーはくと・こうのとり・はまかぜを含む）、5・6番＝JR神戸線・JR宝塚線、7〜10番＝JR京都線 新大阪・高槻・京都方面、11番＝寝台特急 東京方面・東海道線上り＜北陸方面＞（北陸・東海方面特急列車）、21番＝関西空港・和歌山方面（特急列車）、22・23番＝おおさか東線 新大阪・放出・久宝寺方面、24番＝新大阪・京都方面（特急列車）。同表に 12〜20番 と新幹線ののりば表記はなく、東海道新幹線（新大阪駅）は当駅ののりば表外の別駅である。阪急神戸本線・阪神本線（大阪梅田駅）も当駅の所属線ではなく、自動層が引用した 东海道本线 表記の 系统外である。\n线路 欄は Wikipedia 日本語の本文（東海道本線・大阪環状線・おおさか東線・JR東西線・関西空港線・阪和線・福知山線などの表記）と OpenStreetMap node 346685291 の ref タグ「A47;G47;O11;F01」（JR京都線・JR神戸線／JR宝塚線／大阪環状線／おおさか東線の駅番号）、KSJ2:LIN タグ「大阪環状線」を根拠に補完した。貨物線（東海道本線貨支線・梅田・尻無間）は node の source=KSJ2 の線区表記からは確認できないため、当駅に接続する電化線として 検索记录 で未実施に回す。\n自動層の加精ファイル data/curated/C-关西JR/大阪駅.json（12,483バイト、加精日期 2026-10-22）は 车站ID・区域・座標・加精方式・人手確認・翻訳方針の6キーを持たず、线路 は「東海道本線」の1線のみ、検索记录 は「使用した検索：大阪駅 周辺 観光 公式 大阪観光局」「未確認：大阪駅周辺の郵便局・病院・警察署・図書館の個別公式サイトは特定できず」の2項目だった。本ファイルではこれらを継承せず補完した。また同ファイルの検索キーは 「検索记录」ではなく「检索记录」（「检」の異体字）で、他の加精ファイルとキー名が揃っていない（自動層側の書式不良として記録）。",
+  "区域": "C-关西JR",
+  "座標": {
+    "纬度": 34.702213,
+    "经度": 135.495573,
+    "出典URL": "https://api.openstreetmap.org/api/0.6/node/346685291",
+    "注記": "採用したのは OpenStreetMap API 0.6 の node 346685291 の生値 34.7022133／135.4955732（name=大阪、name:ja=大阪、name:en=Osaka、name:zh=大阪、name:ko=오사카、railway=station、public_transport=station、operator=西日本旅客鉄道、operator:en=West Japan Railway Company、ref=A47;G47;O11;F01、KSJ2:LIN=大阪環状線、KSJ2:STN=大阪、source=KSJ2、note=National-Land Numerical Information (Railway) 2007, MLIT Japan、note:ja=国土数値情報（鉄道データ）平成19年 国土交通省、wikidata=Q801694、wikipedia=ja:大阪駅、contact:website=https://www.jr-odekake.net/eki/top?id=0610130、version=27、changeset=163404247、timestamp=2025-03-09T14:57:40Z、user=AlexM51）。この値は自動層 data/lines/*.json が10ファイル中8ファイルで載せている 34.702213／135.495573 と一致しており（小数第7位を丸め）、姫路・富山・京都で確認した「出处ラベルと数値が対応しない」座標欠陥は当駅では再現していない。地図編集者によるデータ（ODbL 1.0）で、運営主体の公表値ではない。\n竞争する座標値（同一ノード／リレーション／別ノード／事典）と採用値との差：リレーション 17915329（同一 wikidata に結ばれた線形オブジェクトと推定される値。開封はしていない）= 東西約55メートル・南北約33メートル（直線約64メートル）、Osaka Metro 梅田 node 7811929025 = 東西約184メートル・南北約133メートル（直線約227メートル）、停留所ノード（auto層が 引用した同名ノード系統）= 東西約16メートル・南北約1メートル（直線約16メートル）、Wikipedia 日本語版の座標表記 = 東西約55メートル・南北約36メートル（直線約66メートル）、Wikipedia 中文（簡体）版 = 東西約561メートル・南北約30メートル（直線約562メートル）、English Wikipedia REST summary = 東西約49メートル・南北約32メートル（直線約59メートル）。中文（簡体）版のみ西へ約561メートル離れており、同版の座標値は本駅（梅田）ではなく 北中津寄りの位置を示している疑いがあるため採用しなかった。日本語版・English 版の値はいずれも node 生値の周囲60メートル以内に収まるが、事業者公表値ではないので第三情報として注記にとどめる。\n営業主体側の現住所表記は JRおでかけネット 駅情報（200）の現住所欄「大阪府大阪市北区梅田３丁目１番１号」で、Wikipedia 日本語版本文の所在地表記（大阪府大阪市北区梅田）と食い違いはない。地下街・地下通路で連絡する JR東西線北新地駅、Osaka Metro 御堂筋線梅田駅（M16）、阪急大阪梅田駅、阪神大阪梅田駅はそれぞれ別の座標・住所を持つ別駅であり、本ファイルの 座標 は JR  node 1本に固定した（複数ノードの平均値は作っていない）。"
+  },
+  "加精日期": "2026-10-23",
+  "加精方式": "人手検索・原文照合（Phase B）。2026-10-22 と 2026-10-23 に 172 件の取得試行（curl：DoH 解決＋--resolve、--compressed、charset 判定）を行い、うち HTTP 200 で一意 129 件の本文を開封。本ファイルが引用する 80 件はすべて 200 で開いたページに限る（書き出し前にスクリプト側でゲート検証）。200 以外しか返さなかった 34 件は 採用しなかった公式候補 に逐件記載し、本文は一切引用していない。\n検証は5段構成：① 引用URLが「200 で開いた一覧」の部分集合かを照合、② 各出典の 原文要旨 を「／」で割った断片 517 件が保存ダンプ本文に原文どおり存在するかを照合（不一致 0 件）、③ 書き出し時に 200 以外を返したURLが 採用しなかった公式候補 へ逐件転記され、未補間の整形マーカーが残っていないかを照合、④ リポジトリ側 scripts/audit_curated.py（重複キー・引用URL・開いたのに未引用・本文を開かず・短文欄・出典なし）、⑤ 記述欄の日本語 188 欄にある「…」引用が当該レコードの出典ダンプに実在するかの全文照合（不一致 0 件。見出し語や title 由来の語、運営主体サイトが未記入のまま返した定型文言は「」を外して由来を明記した）。",
+  "人手確認": true,
+  "翻訳方針": "大阪観光局 OSAKA-INFO（osaka-info.jp）は ja／en／ko の三言語を併走させ、同一施設の英語ページ（osaka-info.jp/en/spot/…）を 200 で開いた。大阪城公園・海遊館・通天閣・梅田スカイビル・中之島・大阪城天守閣・空中階展望施設・観光案内所・うめだ国際クリニック・ヨドバシ梅田・LUCUA・グランフロント大阪 Shop & Restaurant・阪神百貨店・中国料理泰豊宮・スイーツパラダイスの English は、いずれもこの公式英語ページの原文（Park is opened all year.／Here we go, a journey through the Pacific Ocean to discover life／Observation Deck … 173 meters above ground など）をそのまま引用した。一方 中文（簡体・繁體）は同サイトに存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはすべて HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内だったため採用せず、中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用。各レコードの 言語注記 に宣言）。\n自社サイトに独立した英語ページを持つ施設は、その公式英語を併記した：海遊館 https://www.kaiyukan.com/language/eng/（200。ただし同社の/language/ と /language/japanese/ は HTTP 404）、グランフロント大阪のアクセス・バリアフリー欄、阪神百貨店、うめだ国際クリニック（nice-medical.jp/umeda/ に「For International Travelers (ENG)」導線）。中国料理泰豊宮は taihoukyu.com（200）を持つが英語・中国語ページは未開封で、English は観光局の公式英語ページ、中文は当方の執筆とした。\n大阪城天守閣の自社公式 www.osakacastle.net は /en/ と /ch/ を試みたが、いずれも HTTP 200 を返しながら日本語トップと同一本文を返すだけで独立した多言語ページではなかった（f_12・f_13 ダンプで確認）。そのため English は大阪観光局の公式英語ページ（Osaka Castle Museum）、中文は当方の執筆。通天閣 www.tsutenkaku.co.jp は JAPANESE／ENGLISH／KOREAN／TAIWAN CHINESE／THAILAND の言語切換を掲げるが /en/ は HTTP 404、/guide/ も HTTP 404 で、英語・中国語本文は未取得（English は観光局の公式英語ページを引用）。\n交通系（JRおでかけネット・Osaka Metro・大阪シティバス・西日本旅客鉄道法人トップ）と商業施設の一部（LUCUA、スイーツパラダイス、阪神梅田本店の各日本語ページ）は日本語単言語のため、English・中文は同ページの表記（駅番号・のりば・営業時間・運賃・設備）を踏まえて当方が執筆し、固有名（みどりの窓口・ICOCA・バリアフリー出入口ルートなど）は原文の表記をそのまま残した。\n本文を開けたのに使えなかった公式（200 なのに内容なし／別主体／緊急停止）は 引用しない旨を各レコードと 検索记录 に明記した：大阪城公園の運営主体サイト www.osakacastlepark.jp（/?lang=ja・/?lang=en は 200 だが日付欄が yyyy.mm.dd、本文が未記入の定型文言のまま）、梅田スカイビル www.skybldg.co.jp（HTTP 503・メンテナンス中の表示）、www.sky-building.co.jp（200 だが東京都の別法人・不動産の大正スカイビル）、グランフロント大阪のショッピングサイト www.gfo-sc.jp（200 で開いたが本文が「緊急メンテナンスによる ウェブサイトの停止について2026年10月22日」「現在、緊急セキュリティ対策のため…」の告知のみで、当日は店舗データを引用できない）、ヨドバシ梅田の自社候補（yodobashi-umeda.com 系はすべて HTTP 000）、阪神電気鉄道 www.hanshin.co.jp（HTTP 403）、大丸梅田店（HTTP 403）、黒門商店街（HTTP 403）。\n同一事実の公表主体間・言語版間の差は統一せず併記した（例：Wikipedia 日本語「乗降人員は73万人と国内11位」⇄中文（簡体）「單以JR各路線計算為85萬人次…排名全日本第3位」／駅ビルの階数・高さの表記⇄「世界最大級の駅ビル施設」／改札口数（自動層・五所出入口系⇄JR公式の改札一覧）／Osaka Metro 法人トップが掲げた「公式サイト一時停止に関するお詫びと再開のお知らせ」（2026年10月22日）の日付表記など）。\nWikipedia は日本語・English・中文（簡体）の記事を開いた三次情報（CC BY-SA 4.0）で、運営主体が公式に公表していない所属線・駅番号・構成一覧・利用人数の補完にのみ用いた。日本語・中文の本文は MediaWiki API（action=query&prop=extracts&explaintext=1&format=json&utf8=1&exchars=1200）で取得し、English 版は REST API の summary を開封した（exchars=6000 の要求は1200上限を超え、200 を返しながら本文がwarnings 案内のみだったため採用していない。utf8=1 を付けない取得は \\u エスケープ列が返り本文として読めないため台帳に残した）。",
   "观光景点": [
     {
-      "名称": { "日文": "大阪ステーションシティ", "英文": "Osaka Station City", "中文": "大阪站城" },
-      "距离": "駅直結",
-      "简介": {
-        "日文": "2011年に開業した駅ビル複合施設。ノースゲートビル・サウスゲートビルからなり、ショッピング・グルメ・シネマが充実。南ゲートビルの空中庭園は無料展望スポット。",
-        "英文": "A station building complex opened in 2011. Comprises North Gate Building and South Gate Building with shopping, dining, and cinema. The Sky Building observation deck in South Gate is a free viewpoint.",
-        "中文": "2011年开业的车站大楼综合设施。由北门大楼和南门大楼组成，购物、美食、电影院齐全。南门大楼的空中庭院是免费观景点。"
+      "名称": {
+        "日文": "大阪城天守閣",
+        "英文": "Osaka Castle Museum",
+        "中文": "大阪城天守阁"
       },
-      "官网": null,
-      "介绍页": "https://osaka-info.jp/",
+      "距離": "公式の交通アクセスは大阪環状線 森ノ宮駅・大阪城公園駅、Osaka Metro 谷町四丁目駅・森ノ宮駅などを挙げる（大阪駅からの距離は同ページに記載がないため本ファイルでは測定していない）",
+      "简介": {
+        "日文": "www.osakacastle.net は 大阪城は戦国時代の大坂本願寺（石山本願寺）を前身とし、織田信長と戦った石山合戦から戦後の公園整備まで「日本の歴史とつねに深いかかわりを持ちながら現在に至っています」と歴史的経緯を掲げ、現天守閣について「豊臣時代・徳川時代に続く3代目のもので、昭和6年（1931）市民の寄付金によって復興されました」と記す。平成9年（1997）に国の登録有形文化財、令和7年（2025）に大阪市指定有形文化財。大阪観光局は「大阪のシンボル。地上55m、5層8階」「8階の展望台からは大阪を一望できる」と表記する。観覧は 9:00～18:00（入館は17:30まで）、休館日 12月28日～1月1日、大人 1,200円／大学生・高校生 600円／中学生以下 無料（2025年4月1日から）。",
+        "英文": "The museum tower at the centre of Osaka Castle. The castle's own site says the present tower is the third generation after the Toyotomi and Tokugawa eras and was rebuilt in 1931 (Showa 6) with money donated by citizens, registered as a Tangible Cultural Property in 1997 and designated by Osaka City in 2025. The Osaka Convention & Tourism Bureau page describes it as 'The symbol of Osaka. 55 meters above ground, with 5 tiers and 8 floors' and notes the 8th-floor observatory overlooks the city. Opening 9:00-18:00 (last entry 17:30), closed 28 December-1 January; admission 1,200 yen for adults, 600 yen for university and high-school students, free for junior-high pupils and younger (from 1 April 2025).",
+        "中文": "大阪城中心的天守阁，现为第三代建筑（丰臣、德川两代之后），昭和6年（1931年）由市民捐款重建，平成9年（1997年）登录为国家有形文化财，令和7年（2025年）成为大阪市指定有形文化财。大阪观光局页面称其为「大阪的象征」，地上55米、5层8阶，8楼展望台可俯瞰大阪全市。开馆时间 9:00～18:00（入馆至17:30），休馆日 12月28日～1月1日；成人 1,200日元，大学生・高中生 600日元，初中生以下免费（2025年4月1日起）。"
+      },
+      "住所": "〒540-0002 大阪市中央区大阪城1-1",
+      "电话": "06-6941-3044（受付可能時間：9：00～18：00）",
+      "営業時間": "9:00～18:00（入館は17:30まで）／休館日 12月28日～1月1日",
+      "料金": "大人 1,200円／大学生・高校生 600円／中学生以下 無料（団体 15名以上 大人 1,080円）",
+      "官网": "https://www.osakacastle.net/",
+      "介绍页": {
+        "日文": "https://www.osakacastle.net/guide/"
+      },
+      "言語注記": "大阪城天守閣の自社公式（www.osakacastle.net）は /en/・/ch/ を試みたがいずれも HTTP 200 で日本語トップと同じ本文を返すだけで、独立した英語・中文ページではなかった。English は大阪観光局の公式英語ページ（Osaka Castle Museum）、中文は当方の執筆。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪観光局による公式観光サイト。大阪の観光スポット情報。" }
+        {
+          "标题": "大阪城天守閣（自社トップ）",
+          "URL": "https://www.osakacastle.net/",
+          "原文要旨": "天下人の栄華と 動乱の歴史を 刻む名城／大阪城は戦国時代の大坂本願寺（石山本願寺）を前身とし、織田信長と戦った石山合戦、豊臣秀吉による築城、大坂の陣による落城、徳川幕府による再築、明治維新の動乱による焼失、明治維新後の陸軍管轄、戦後の公園整備と、日本の歴史とつねに深いかかわりを持ちながら現在に至っています／いま見ることができる石垣や堀、大手門・多聞櫓・千貫櫓などといった古建造物はすべて徳川時代以後のもので、一帯は国の特別史跡に、古建造物のほとんどは重要文化財に指定されています／天守閣は、豊臣時代・徳川時代に続く3代目のもので、昭和6年（1931）市民の寄付金によって復興されました／現在まで90年以上の歴史を刻み、平成9年（1997）には国の登録有形文化財に、令和7年（2025）には大阪市指定有形文化財となりました／大阪城天守閣は、復興時からの博物館施設です",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        },
+        {
+          "标题": "ご利用案内 User Guide",
+          "URL": "https://www.osakacastle.net/guide/",
+          "原文要旨": "2025年4月1日（火）から開館時間が変更となりました／開館時間 9:00～18:00（入館は17:30まで）／休館日 12月28日～1月1日／2025年4月1日（火）から入館料が変更となりました／通常料金／1,200円／600円 要証明（※1）／無料 要証明（※2）／1,080円／540円／06-6941-3044 受付可能時間：9：00～18：00／大阪城天守閣では入館予約を承っておりませんので、ご連絡は予約にはなりません",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        },
+        {
+          "标题": "交通アクセス Access",
+          "URL": "https://www.osakacastle.net/access/",
+          "原文要旨": "交通アクセス Access／〒540-0002 大阪市中央区大阪城1-1／大阪城バリアフリーマップ／大阪環状線／森ノ宮駅 大阪城公園駅／東西線／大阪城北詰駅／大阪シティバス／大阪城大手前、馬場町／【62系統】／大阪駅～淀屋橋～天満橋～大阪城大手前～馬場町～あべの橋～住吉車庫前",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        },
+        {
+          "标题": "大阪城天守閣｜OSAKA-INFO",
+          "URL": "https://osaka-info.jp/spot/osaka-castle-main-keep/",
+          "原文要旨": "大阪のシンボル。地上55m、5層8階／大坂城は天下統一をめざす豊臣秀吉によって天正11年（1583）、大坂（石山）本願寺跡で築造が開始された／元和（げんな）元年（1615）の大坂夏の陣で豊臣氏の滅亡とともに天守閣も焼失／現在の天守閣は昭和6年（1931）、当時の関市長の呼びかけで市民らの寄付により建造されたもの／266年ぶりに甦った天守閣は、地上55m、5層8階／8階の展望台からは大阪を一望できる／営業時間 9:00～18:00（入館は閉館の30分前まで）／休日 年末年始(12/28～1/1)／【個人】 ■大人：1,200円 ■大学生・高校生：600円",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Osaka Castle Museum | OSAKA-INFO (EN)",
+          "URL": "https://osaka-info.jp/en/spot/osaka-castle-main-keep/",
+          "原文要旨": "The symbol of Osaka. 55 meters above ground, with 5 tiers and 8 floors／Construction of Osaka Castle began in 1583 (Tensho 11) on the site of the Osaka (Ishiyama) Honganji Temple by Toyotomi Hideyoshi, who aimed to unify Japan／was completed two years later",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        }
       ]
     },
     {
-      "名称": { "日文": "HEP FIVE観覧車", "英文": "HEP FIVE Ferris Wheel", "中文": "HEP FIVE摩天轮" },
-      "距离": "JR大阪駅より徒歩約5分",
-      "简介": {
-        "日文": "赤い観覧車が目印のHEP FIVEビル屋上にある遊覧施設。高さ106m、直径75m。梅田の街並みを一望できる。営業時間11:00〜21:00（時期により変動）。",
-        "英文": "An observation facility on the rooftop of the HEP FIVE building, marked by its red Ferris wheel. Height 106m, diameter 75m. Offers panoramic views of the Umeda cityscape. Hours: 11:00-21:00 (varies by season).",
-        "中文": "以红色摩天轮为标志的HEP FIVE大楼屋顶游乐设施。高106米，直径75米。可俯瞰梅田街景。营业时间11:00-21:00（随季节变动）。"
+      "名称": {
+        "日文": "大阪城公園",
+        "英文": "Osaka Castle Park",
+        "中文": "大阪城公园"
       },
-      "官网": null,
-      "紹介页": "https://osaka-info.jp/",
+      "距離": "公式のアクセス表記は Osaka Metro 谷町線 天満橋・谷町四丁目、中央線 森ノ宮・谷町四丁目、JR環状線 森ノ宮・大阪城公園（大阪駅からは環状線で隣駅相当）",
+      "简介": {
+        "日文": "大阪観光局は「大阪の中央に位置する、総面積105.6haの広大な公園」「約300本の桜を楽しめる西の丸庭園や、105品種1245本の梅の花が咲き誇る梅林」「大阪城音楽堂や大阪城ホールでは、音楽コンサートもたびたび開催」「弓道場、修道館などスポーツ関連施設」「春・秋の植木市や西の丸庭園観桜ナイターなどのイベントも毎年開催」と記す。営業時間 常時開園、休日 なし、入場無料（園内各施設は有料）。なお運営主体の大阪城公園サイト（www.osakacastlepark.jp）は 200 で開いたが、日付欄に yyyy.mm.dd、本文に定型の placeholder 文言が並んだままだったため、公園の紹介は 200 で本文を開けた観光局ページに依った。",
+        "英文": "A 105.6-hectare park in the middle of Osaka, per the tourism bureau: about 300 cherry trees in Nishinomaru Garden, a plum grove of 1,245 trees in 105 varieties, the Osaka-Jo Hall and Yamoto Kodo concert venues, and archery and sports facilities. Open all year with no closing day; entry to the park is free while individual facilities charge. The park operator's own pages returned HTTP 200 but still held template placeholder text, so the description above is taken from the bureau pages that had real body text.",
+        "中文": "位于大阪市中心的广阔公园，总面积 105.6 公顷；西之丸庭园约 300 株樱花，梅林有 105 个品种、1245 株梅树；大阪城音乐堂与大阪城ホール常举办演唱会，另有弓道场、修道馆等体育设施；每年举办春秋植树节与西之丸庭园夜樱活动。全年开放、无休、入园免费（园内各设施另收费）。运营方网站虽返回 200，但正文仍是日期 yyyy.mm.dd 与模板占位文字，故介绍依据可正常读取正文的大阪观光局页面。"
+      },
+      "住所": "〒540-0002 大阪市中央区大阪城",
+      "电话": "06-6755-4146",
+      "営業時間": "常時開園／休日 なし（但し、園内各施設は各休館日設定有）",
+      "料金": "入場無料（但し、園内各施設利用料設定有）",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/osaka-castle-park/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。 公園の運営主体が使うドメイン osakacastlepark.jp は /?lang=ja・/?lang=en とも HTTP 200 で開いたが、本文が未記入の定型文言のままだったため 官网 欄には掲げず、紹介ページとして大阪観光局のページを用いた。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪の観光スポット一覧。梅田エリアの紹介。" }
+        {
+          "标题": "大阪城公園の見どころ・アクセス｜OSAKA-INFO",
+          "URL": "https://osaka-info.jp/spot/osaka-castle-park/",
+          "原文要旨": "大阪城天守閣をはじめ、西の丸庭園、梅林、大阪城ホール、弓道場などの施設がある。梅に桜、ツツジなど、折々の花を楽しむこともできる／大阪の中央に位置する、総面積105.6haの広大な公園／約300本の桜を楽しめる西の丸庭園や、105品種1245本の梅の花が咲き誇る梅林など、四季折々の花を楽しめるスポットが充実／大阪城音楽堂や大阪城ホールでは、音楽コンサートもたびたび開催されている／弓道場、修道館などスポーツ関連施設もある／春・秋の植木市や西の丸庭園観桜ナイターなどのイベントも毎年開催／営業時間 常時開園／料金 入場無料（但し、園内各施設利用料設定有）",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Osaka Castle Park | OSAKA-INFO (EN)",
+          "URL": "https://osaka-info.jp/en/spot/osaka-castle-park/",
+          "原文要旨": "Located in the center of Osaka, this vast park covers a total area of 105.6 hectares／an archery range, and other facilities. You can also enjoy seasonal flowers such as plums, cherry blossoms, and azaleas",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        }
       ]
     },
     {
-      "名称": { "日文": "梅田スカイビル 空中庭園展望台", "英文": "Umeda Sky Building Kuchu Teien Observatory", "中文": "梅田天空大厦 空中庭院展望台" },
-      "距离": "JR大阪駅より徒歩約10分",
-      "简介": {
-        "日文": "高さ173mのツインタワー上部をFloating Garden Observatoryが連結する独特の建築。17階の滝見通路からのアプローチも特徴的。360度のオープンエア展望が楽しめる。",
-        "英文": "A unique building where two 173m twin towers are connected at the top by a Floating Garden Observatory. The approach through the 17th-floor waterfall passage is also distinctive. Enjoy 360-degree open-air views.",
-        "中文": "高173米的双塔上部由空中庭院展望台连接的独特建筑。17层的泷见通路的入口也颇具特色。可享受360度露天展望。"
+      "名称": {
+        "日文": "海遊館",
+        "英文": "Osaka Aquarium KAIYUKAN",
+        "中文": "海游馆"
       },
-      "官网": null,
-      "紹介页": "https://osaka-info.jp/",
+      "距離": "Osaka Metro 中央線 大阪港駅1番出口より徒歩約5分（公式のアクセス表記。JR大阪駅からは地下鉄で約20〜30分相当だが、所要時間は各社の公表値を確認していない）",
+      "简介": {
+        "日文": "大阪観光局の施設ページは「すべてのものは、つながっている。さぁ、生命をめぐる旅に出よう。」の標語とともに「世界最大の海、太平洋とその周辺海域の自然環境を忠実に再現した水族館」「館内の水槽は、それぞれが実際の太平洋の地理的な位置に相当するように配置」「約620種 30000点の生き物たちを飼育展示」と説明する。営業時間 10:00～20:00（入館は閉館の1時間前まで、季節により変動あり）、大人 通常料金2,700円・小人 1,400円（時期に応じ変動）。自社公式 www.kaiyukan.com は日本語トップと英語版 /language/eng/ を 200 で開いた。",
+        "英文": "'Everything is connected. Now, set out on a journey around life.' The aquarium recreates the Pacific Ocean and its surrounding waters, with tanks arranged to match the real geography of the Pacific Rim, and exhibits about 620 species and 30,000 animals including whale sharks in the central Pacific tank. Hours 10:00-20:00 (last entry one hour before closing, varying by season); standard admission 2,700 yen for adults and 1,400 yen for children, varying by date. The operator's own English pages were opened at HTTP 200 and are quoted alongside the tourism bureau text.",
+        "中文": "标语为「万物相连，开启生命之旅」。水族馆忠实再现太平洋及其周边海域，馆内水槽按太平洋真实地理位置布置，中央「太平洋」水槽有鲸鲨悠然游动，共展出约 620 种、30,000 只生物。营业时间 10:00～20:00（入馆截止闭馆前1小时，随季节变动）；成人票价通常 2,700日元、儿童 1,400日元（随日期浮动）。"
+      },
+      "住所": "大阪市港区海岸通1-1-10",
+      "営業時間": "10:00～20:00（入館は閉館の1時間前まで）※季節により変動あり／休日 不定休（1月に計2日の休館日あり）",
+      "料金": "【大人】通常料金は2,700円／【小人】通常料金は1,400円（時期に応じて変動）",
+      "官网": "https://www.kaiyukan.com/",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/osaka-aquarium-kaiyukan/"
+      },
+      "言語注記": "海遊館は自社公式の英語版 https://www.kaiyukan.com/language/eng/ を持ち（HTTP 200 で本文確認）、English はその原文と大阪観光局の英語ページを用いた。日本語は自社トップ・観光局ページ、中文は当方の執筆。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪の観光スポット一覧。梅田スカイビルの紹介。" }
+        {
+          "标题": "海遊館｜OSAKA-INFO",
+          "URL": "https://osaka-info.jp/spot/osaka-aquarium-kaiyukan/",
+          "原文要旨": "すべてのものは、つながっている。さぁ、生命をめぐる旅に出よう。／海遊館は、世界最大の海、太平洋とその周辺海域の自然環境を忠実に 再現した水族館です。／館内の水槽は、それぞれが実際の太平洋の地理的な位置に相当する ように配置されています。／ジンベエザメが悠然と泳ぐ建物中央の 「太平洋」水槽／各水槽で約620種 30000点の生き物たちを飼育展示しています。／営業時間 10:00～20:00（入館は閉館の1時間前まで）※季節により変動あり／不定休（1月に計2日の休館日あり）／【大人】通常料金は2,700円／【小人】通常料金は1,400円",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Osaka Aquarium Kaiyukan | OSAKA-INFO (EN)",
+          "URL": "https://osaka-info.jp/en/spot/osaka-aquarium-kaiyukan/",
+          "原文要旨": "recreates the natural environment of the world’s largest ocean, the Pacific Ocean, and its surrounding waters／Each tank in the aquarium is arranged in a way that is similar to how they are actually located geologically in the Pacific Ocean",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "KAIYUKAN English site",
+          "URL": "https://www.kaiyukan.com/language/eng/",
+          "原文要旨": "Here we go, a journey through the Pacific Ocean to discover life／Here we go, a journey through the Pacific Ocean to discover life",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        }
       ]
     },
     {
-      "名称": { "日文": "グランフロント大阪", "英文": "Grand Front Osaka", "中文": "Grand Front Osaka" },
-      "距离": "JR大阪駅北側直結",
-      "简介": {
-        "日文": "大阪駅北部の大型複合施設。約260のショップ・レストランが集結。ナレッジプラザでは展示・イベントも開催。知のキャピタルをコンセプトにした新しい都市空間。",
-        "英文": "A large-scale complex north of Osaka Station. About 260 shops and restaurants. Knowledge Plaza hosts exhibitions and events. A new urban space with the concept of 'Capital of Knowledge'.",
-        "中文": "大阪站北部的大型综合设施。约260家店铺和餐厅聚集。Knowledge Plaza举办展览和活动。以「知识之都」为概念的新城市空间。"
+      "名称": {
+        "日文": "通天閣",
+        "英文": "Tsutenkaku Tower",
+        "中文": "通天阁"
       },
-      "官网": null,
-      "紹介页": "https://osaka-info.jp/",
+      "距離": "大阪駅からは南へ離れた新世界エリア（公式の最寄り駅表記は本ファイルで開いたページに記載がなく、観光局ページの本文にも所要時間の記載がないため距離・時間は書いていない）",
+      "简介": {
+        "日文": "観光局ページは「国の登録有形文化財として登録されている大阪のランドマークタワー」「足の裏を触ると幸運が訪れると言われている”ビリケン”像が鎮座」と紹介し、歴史欄で「1912年7月に娯楽施設ルナパークのシンボルタワーとして…高さは約75mで当時東洋一の高さを誇り、名前の由来は「天に通じる高い建物」との意味」「1943年1月に初代通天閣は火災にあって解体された。その後、1956年に地元住人の運動により2代目通天閣が再建された。2代目通天閣の高さは避雷針を含めて108m。設計者は同時期に建設された東京タワーなどを手がけた内藤多仲」と記す。営業時間【一般展望台】9:00～21:45（最終入場 21:15）。自社公式は言語切換に JAPANESE／ENGLISH／KOREAN／TAIWAN CHINESE／THAILAND を掲げ、2026年3月からの営業時間変更・4月からの利用料金変更を案内している。",
+        "英文": "A registered Tangible Cultural Property and Osaka landmark tower; the golden observatory holds the Billiken statue whose soles are said to bring luck. The bureau page tells the history: the first tower was built in July 1912 as the symbol of Luna Park, about 75 m high and then the tallest in the East, its name meaning 'a tall building reaching to heaven'; it was dismantled after a fire in January 1943 and the second tower, 108 m including the lightning rod, was rebuilt in 1956, designed by Tachū Naitō who also worked on Tokyo Tower. General observatory hours 9:00-21:45 (last entry 21:15). The operator's own site lists JAPANESE / ENGLISH / KOREAN / TAIWAN CHINESE / THAILAND and announces revised hours from March 2026 and revised fees from April.",
+        "中文": "通天阁为国家登录有形文化财、大阪地标塔；黄金展望台内供奉据说摸脚底能带来好运的比利肯（Billiken）神像。据观光局页面记载，第一代于1912年7月作为游乐园 Luna Park 的塔楼建成，高约 75 米，当时号称东洋第一，塔名意为「通往高空的建筑物」；1943年1月因火灾拆除，1956年在当地居民运动下重建第二代，含避雷针高 108 米，设计者为同时期参与东京塔等设施的内藤多仲。一般展望台 9:00～21:45（最后入场 21:15）。官方网站提供日文／英文／韩文／台湾中文／泰文切换，并公告 2026年3月起营业时间调整、4月起票价调整。"
+      },
+      "営業時間": "【一般展望台】9:00～21:45 (最終入場 21:15)／【特別屋外展望台】9:00～21:45 (最終入場 21:45)",
+      "官网": "https://www.tsutenkaku.co.jp/",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/tsutenkaku/"
+      },
+      "言語注記": "通天閣の自社公式（www.tsutenkaku.co.jp）は JAPANESE／ENGLISH／KOREAN／TAIWAN CHINESE／THAILAND の言語切換を持つが、英語・中文の下位ページの URL を本セッションで見つけられなかったため、English は大阪観光局の公式英語ページ、中文は当方の執筆とした。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪の観光スポット・ショッピング情報。" }
+        {
+          "标题": "通天閣 観光ガイド｜OSAKA-INFO",
+          "URL": "https://osaka-info.jp/spot/tsutenkaku/",
+          "原文要旨": "国の登録有形文化財として登録されている大阪のランドマークタワー「通天閣」／大阪の景気が一望出来る黄金の展望台には足の裏を触ると幸運が訪れると言われている”ビリケン”像が鎮座しています。／1912年7月に娯楽施設ルナパークのシンボルタワーとして、凱旋門にエッフェル塔を乗せたような初代通天閣が建設された。高さは約75mで当時東洋一の高さを誇り、名前の由来は「天に通じる高い建物」との意味である。／1943年1月に初代通天閣は火災にあって解体された。その後、1956年に地元住人の運動により2代目通天閣が再建された。2代目通天閣の高さは避雷針を含めて108m。設計者は同時期に建設された東京タワーなどを手がけた内藤多仲である。／【一般展望台】9:00～21:45 (最終入場 21:15)",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Tsutenkaku Tower | OSAKA-INFO (EN)",
+          "URL": "https://osaka-info.jp/en/spot/tsutenkaku/",
+          "原文要旨": "the golden observation platform where you can have an entire view of the hustle and bustle of Osaka, you will meet the “Billiken” statue that is said to bring good fortune to those who touched the soles of his feet／The original tower was built in July 1912 as a symbol of an entertainment facility called Luna Park",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "通天閣（自社トップ）",
+          "URL": "https://www.tsutenkaku.co.jp/",
+          "原文要旨": "JAPANESE ENGLISH KOREAN TAIWAN CHINESE THAILAND／【営業時間変更と各種利用料金変更について】2026年3月からの営業時間変更と4月からの利用料金変更はこちら",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "梅田スカイビル 空中庭園展望台",
+        "英文": "Umeda Sky Building KUCHU-TEIEN OBSERVATORY",
+        "中文": "梅田蓝天大厦空中庭园展望台"
+      },
+      "距離": "JR大阪駅から徒歩7分、阪急大阪梅田駅／Osaka Metro 梅田駅から徒歩9分（観光局ページのアクセス表記）",
+      "简介": {
+        "日文": "「大阪・梅田のランドマークのひとつ。」「屋上の「空中庭園展望台」では、地上173mの高さから大阪の町並みを一望できる。」展望施設は「39階・40階・屋上の3フロアからなる展望施設で、35Fから39Fへ向かうシースルーエスカレーターはフォトスポットとしても人気」、40階のカフェスペースには「全長35mのガラスカウンター」が広がる。営業時間 9：30～22：30、大人 2,000円・小人 500円、住所 大阪府大阪市北区大淀中1-1-88、電話 06-6440-3855。自社公式 www.skybldg.co.jp は本セッションで 503（メンテナンス中）しか返さなかったため、運営主体の直接の営業情報は開けていない。",
+        "英文": "One of the landmarks of Umeda: the rooftop 'Kuchu-teien' observatory looks over the city from 173 m, spread over the 39th floor, 40th floor and rooftop, with a see-through escalator from the 35th to the 39th floor and a 35 m glass counter in the 40th-floor cafe. Open 9:30-22:30; admission 2,000 yen adults, 500 yen children; Kita-ku, Osaka. The operator's own domain returned 503 during this session, so no operational detail is taken from it.",
+        "中文": "梅田地标之一，屋顶「空中庭园展望台」可在地上 173 米高度俯瞰大阪市区；由39楼、40楼与屋顶三层组成，35楼直达39楼的透明观光电梯是热门拍照点，40楼咖啡厅设有全长 35 米的玻璃吧台。营业时间 9:30～22:30，成人 2,000日元、儿童 500日元，地址为大阪府大阪市北区大淀中1-1-88，电话 06-6440-3855。运营方官网本次仅返回 503（维护中），故未采用其直接营业信息。"
+      },
+      "住所": "大阪府大阪市北区大淀中1-1-88",
+      "电话": "06-6440-3855",
+      "営業時間": "9：30～22：30／休日 無休（特別営業日あり）",
+      "料金": "【大人】2,000円／【小人】500円（大阪楽遊パスをご利用の場合、15:00まで入場無料）",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/umeda-sky-building/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。 梅田スカイビルの運営案内先とされるドメインは本セッションで開封できず、www.skybldg.co.jp は HTTP 503（メンテナンス中の表示）、www.sky-building.co.jp は HTTP 200 を返すのに本文は東京都の別法人・不動産の大正スカイビルのもので当施設ではなかったため 官网 欄には掲げず、紹介ページとして大阪観光局のページを用いた。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "梅田スカイビル 空中庭園展望台｜OSAKA-INFO",
+          "URL": "https://osaka-info.jp/spot/umeda-sky-building/",
+          "原文要旨": "大阪・梅田のランドマークのひとつ。／屋上の「空中庭園展望台」では、地上173mの高さから大阪の町並みを一望できる。／39階・40階・屋上の3フロアからなる展望施設で、35Fから39Fへ向かうシースルーエスカレーターはフォトスポットとしても人気です。／40階屋内展望フロアにあるカフェスペースには全長35mのガラスカウンターが広がり／営業時間 9：30～22：30／無休（特別営業日あり）／【大人】2,000円 【小人】500円／JR大阪駅から徒歩7分、阪急大阪梅田駅／Osaka Metro 梅田駅から徒歩9分／大阪府大阪市北区大淀中1-1-88／06-6440-3855",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Umeda Sky Building KUCHU-TEIEN OBSERVATORY (EN)",
+          "URL": "https://osaka-info.jp/en/spot/umeda-sky-building/",
+          "原文要旨": "Observation Deck'' on the rooftop offers a panoramic view of Osaka's cityscape from a height of 173 meters above ground／an observation facility spanning three floors: the 39th, 40th, and rooftop／The see-through escalator that goes from the 35th to the 39th floor is a popular photo spot",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        }
       ]
     }
   ],
   "名所案内": [
     {
-      "名称": { "日文": "大阪城", "英文": "Osaka Castle", "中文": "大阪城" },
-      "距离": "JR大阪駅よりJR環状線で約10分（大阪城公園駅）",
-      "简介": {
-        "日文": "豊臣秀吉が1583年に築城。現在の天守閣は1931年再建。大阪のシンボルとして親しまれる。天守閣内は歴史博物館となっており、最上階からの眺望も抜群。",
-        "英文": "Originally built by Toyotomi Hideyoshi in 1583. The current tower was reconstructed in 1931. Beloved as Osaka's symbol. The tower interior is a history museum with excellent views from the top floor.",
-        "中文": "丰臣秀吉于1583年筑城。现在的天守阁为1931年重建。作为大阪的象征深受喜爱。天守阁内部为历史博物馆，顶层眺望绝佳。"
+      "名称": {
+        "日文": "中之島",
+        "英文": "Nakanoshima",
+        "中文": "中之岛"
       },
-      "官网": null,
-      "紹介页": "https://osaka-info.jp/",
+      "距離": "大阪駅の南東、堂島川と土佐堀川に挟まれた中洲（観光局ページは「東西約3km、面積約50haの細長い中洲」と表記。区間の所要時間は同ページに記載がないため書いていない）",
+      "简介": {
+        "日文": "「行政・経済・文化施設が集中する、水と緑豊かなエリア」「地図の上では堂島川と土佐堀川に挟まれた、東西約3km、面積約50haの細長い中洲を指す」「江戸時代、大阪が「天下の台所」と呼ばれた由縁は、全国各藩の蔵屋敷が集まり米をはじめとするさまざまな物資の売買が行われた、この中之島にあった。」「明治に入ってからはさらに図書館や中央公会堂などの文化施設も完成し」「2008年には中之島線も開業」と観光局が記す。大阪駅・梅田から北浜・淀屋橋方面へ歩ける範囲の歴史地区で、市政トップページも「天王寺動物園 こども本の森 中之島 水道記念館」などをトピックス欄で掲げる。",
+        "英文": "A waterfront strip of about 3 km east-west and some 50 ha between the Dojima and Tosabori canals, dense with government, business and cultural facilities. The tourism bureau explains that Edo-period Osaka was called 'the kitchen of the nation' because the storehouses (kurashiki) of the domains gathered here to trade rice and goods, that libraries and the Central Public Hall followed in the Meiji era, and that the Nakanoshima Line opened in 2008. Osaka City's own top page lists Nakanoshima facilities such as the Children's Book Forest in its topics area.",
+        "中文": "被堂岛川与土佐堀川夹带的狭长绿洲，东西约 3 公里、面积约 50 公顷，行政、经济与文化设施集中。观光局说明：江户时代大阪被称为「天下厨房」，正因各藩的仓库（藏屋敷）在此聚集交易大米与物资；明治后又建成图书馆、中央公会堂等文化设施；2008年中之岛线开通。大阪市首页也在topics 栏中介绍「こども本の森 中之島」等设施。"
+      },
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/nakanoshima/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪城の観光スポット紹介。" }
+        {
+          "标题": "中之島｜OSAKA-INFO",
+          "URL": "https://osaka-info.jp/spot/nakanoshima/",
+          "原文要旨": "行政・経済・文化施設が集中する、水と緑豊かなエリア。近年ではさらなる開発が進められており、2008年には中之島線も開業。／地図の上では堂島川と土佐堀川に挟まれた、東西約3km、面積約50haの細長い中洲を指す／江戸時代、大阪が「天下の台所」と呼ばれた由縁は、全国各藩の蔵屋敷が集まり米をはじめとするさまざまな物資の売買が行われた、この中之島にあった。／明治に入ってからはさらに図書館や中央公会堂などの文化施設も完成し",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Nakanoshima | OSAKA-INFO (EN)",
+          "URL": "https://osaka-info.jp/en/spot/nakanoshima/",
+          "原文要旨": "This area is rich in water and greenery and is home to many government, economic, and cultural facilities. In recent years, further development has been underway, with the Nakanoshima Line opening in 2008.",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "大阪市（トップ）",
+          "URL": "https://www.city.osaka.lg.jp/",
+          "原文要旨": "天王寺動物園 こども本の森 中之島 水道記念館 ウォーターフェスティバル",
+          "ライセンス": "出典：大阪市（www.city.osaka.lg.jp）／本市の行政情報ウェブサイト利用ポリシーに基づく事実の摘示"
+        }
       ]
     },
     {
-      "名称": { "日文": "住吉大社", "英文": "Sumiyoshi Taisha", "中文": "住吉大社" },
-      "距离": "JR大阪駅よりJR阪堺線で約20分",
-      "简介": {
-        "日文": "全国約2,300の住吉神社の総本社。大阪最古の神社。独特の「住吉造」の建築様式は国宝。初詣では約200万人が参拝する。",
-        "英文": "The head shrine of about 2,300 Sumiyoshi shrines nationwide. Osaka's oldest shrine. The unique 'Sumiyoshi-zukuri' architectural style is a National Treasure. About 2 million visitors for New Year's prayers.",
-        "中文": "全国约2300座住吉神社的总本社。大阪最古老的神社。独特的「住吉造」建筑风格为国宝。新年参拜约有200万人。"
+      "名称": {
+        "日文": "ミライザ大阪城",
+        "英文": "Miraiza Osaka Castle",
+        "中文": "Miraiza 大阪城"
       },
-      "官网": null,
-      "紹介页": "https://osaka-info.jp/",
+      "距離": "大阪城公園内（天守閣の眼前。観光局ページは「天守閣が目の前という絶好のロケーション」と表記）",
+      "简介": {
+        "日文": "「本館は、1931年に陸軍第四師団司令部庁舎として、大阪城天守閣と同時期に建てられたもので、その後長らく大阪市立博物館として親しまれてきました。博物館閉館後16年の時を経てこの度リニューアルされ、ショップやカフェ、レストラン、ミュージアムとして生まれ変わりました」。屋上の「BLUE BIRDS ROOF TOP TERRACE」では「天守閣を間近に眺めながら、バーベキュー料理やタパス料理などが楽しめます（12月～2月は冬季休業の予定）」。地下に「海洋堂フィギュアミュージアム ミライザ大阪城」。",
+        "英文": "The main building was erected in 1931 as the headquarters of the Army's 4th Division, at the same time as the castle tower, and served for many years as the Osaka City Museum; sixteen years after that museum closed it has been refurbished into shops, cafes, restaurants and museum space. The rooftop 'BLUE BIRDS ROOF TOP TERRACE' serves barbecue and tapas with the tower close at hand (closed in winter, roughly December-February), and the basement holds the Kaiyodo Figure Museum.",
+        "中文": "主楼建于 1931 年，原为陆军第四师团司令部厅舍，与天守阁同期兴建，此后长期作为大阪市立博物馆使用；博物馆闭馆 16 年后改造为商店、咖啡厅、餐厅与展馆。屋顶「BLUE BIRDS ROOF TOP TERRACE」可近距离眺望天守阁并享用烧烤与塔帕斯（12月至2月冬季停业）；地下设有海洋堂人偶博物馆。"
+      },
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/miraiza-osaka-jo/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪の神社・仏閣の観光スポット紹介。" }
+        {
+          "标题": "ミライザ大阪城｜OSAKA-INFO",
+          "URL": "https://osaka-info.jp/spot/miraiza-osaka-jo/",
+          "原文要旨": "天守閣が目の前という絶好のロケーションの中で、ゆったりと食事や買い物を楽しめる施設。／本館は、1931年に陸軍第四師団司令部庁舎として、大阪城天守閣と同時期に建てられたもので、その後長らく大阪市立博物館として親しまれてきました。博物館閉館後16年の時を経てこの度リニューアルされ、ショップやカフェ、レストラン、ミュージアムとして生まれ変わりました／屋上の「BLUE BIRDS ROOF TOP TERRACE」では、天守閣を間近に眺めながら、バーベキュー料理やタパス料理などが楽しめます（12月～2月は冬季休業の予定）／地下には「海洋堂フィギュアミュージアム ミライザ大阪城」がオープン",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Miraiza Osaka Castle | OSAKA-INFO (EN)",
+          "URL": "https://osaka-info.jp/en/spot/miraiza-osaka-jo/",
+          "原文要旨": "This facility is located in a great location right in front of the castle tower, allowing you to enjoy a leisurely meal and shopping／Built in 1931 at the same time as the Osaka Castle Tower, this building originally was in service as the Headquarter",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "ナレッジキャピタル（グランフロント大阪 北館）",
+        "英文": "Knowledge Capital (Grand Front Osaka North Building)",
+        "中文": "知识资本（Grand Front Osaka 北馆）"
+      },
+      "距離": "大阪駅直結の北館（施設公式の所在地表記は 大阪府大阪市北区大深町3-1＝北館）",
+      "简介": {
+        "日文": "グランフロント大阪の自社サイトは施設構成として「ナレッジキャピタル 知る、遊ぶ、学ぶ、輝く。 「知」をテーマに多様な人々が触発しあいながら、新たな価値を生み出す場所。」を掲げ、他に「ショップ＆レストラン ファッションから雑貨、ライフスタイル、ビューティー、カフェ、レストラン、バーなど おさんぽ気分のショッピングが楽しめます」「MUSIC BUSKER うめきたから全国、世界へ羽ばたくミュージシャンを発掘・応援するグランフロント大阪・グラングリーン大阪とFM802の共同プロジェクト」を挙げる。同サイトは 2026年10月28日（水）23:00～10月29日（木）8:00 のシステムメンテナンスも告知している。",
+        "英文": "Grand Front Osaka's own site presents Knowledge Capital as a place themed on 'knowledge' where diverse people inspire one another and create new value, alongside its shops and restaurants and the MUSIC BUSKER project run with FM802 to develop musicians from Umekita. The site also posted maintenance on 28 October 2026 23:00 to 29 October 2026 8:00.",
+        "中文": "Grand Front Osaka 官网将「知识资本（Knowledge Capital）」介绍为以「知」为主题、让多元人群互相激发并创造新价值的场所，同时列出购物餐饮与同 FM802 共同举办的 MUSIC BUSKER 项目，并公告 2026年10月28日23:00至29日8:00 的系统维护。"
+      },
+      "官网": "https://www.grandfront-osaka.jp/",
+      "介绍页": {
+        "日文": "https://www.grandfront-osaka.jp/shop/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "グランフロント大阪（トップ）",
+          "URL": "https://www.grandfront-osaka.jp/",
+          "原文要旨": "ナレッジキャピタル 知る、遊ぶ、学ぶ、輝く。 「知」をテーマに多様な人々が触発しあいながら、 新たな価値を生み出す場所。／ショップ＆レストラン ファッションから雑貨、 ライフスタイル、ビューティー、 カフェ、レストラン、バーなど おさんぽ気分のショッピングが 楽しめます。／MUSIC BUSKER うめきたから全国、世界へ羽ばたくミュージシャンを発掘・応援するグランフロント大阪・グラングリーン大阪とFM802の共同プロジェクト。／【メンテナンスのお知らせ】 10月28日（水）23:00～10月29日（木）8:00の間、システムメンテナンスのため当サイトをご利用いただけません",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        }
       ]
     }
   ],
   "公共服务": [
     {
-      "名称": { "日文": "大阪観光局", "英文": "Osaka Convention & Tourism Bureau", "中文": "大阪观光局" },
-      "種别": "観光協会",
-      "所在地": "大阪市中央区難波5丁目1-5 なんばCITYサウスモール6階",
-      "电话": null,
-      "营业": null,
+      "名称": {
+        "日文": "大阪観光案内所（JR大阪駅中央改札口前／トラベルサービスセンター大阪）",
+        "英文": "Tourist Information OSAKA (in front of the central ticket gates of JR Osaka Station)",
+        "中文": "大阪观光案内所（JR大阪站中央检票口前／Travel Service Center Osaka）"
+      },
+      "距離": "JR大阪駅1F中央改札口前（観光局のアクセス表記）",
+      "简介": {
+        "日文": "大阪観光局が運営する案内所で、「日本有数のターミナル駅であるJR大阪駅中央改札口前に位置する観光案内所。」「JR鉄道案内所も併設されています。」。周辺について「案内所のすぐそばには観光客にとって便利な旅行会社や手荷物預かりなどが同じエリアに集まる『トラベルサービスセンター大阪』」と説明し、「2024年3月31日をもって大阪周遊パスの販売は終了しました」と告知する。営業時間 7:00～22:00、休日 無休、各国語対応 英語・中国語・韓国語、電話は Osaka Call Center 06-6131-4550（9:00～17:30）。英語版は系列案内所として「Tourist Information SHIN-OSAKA (JR Shin-Osaka Station, 3rd floor) and Tourist Information NAMBA (Nankai Namba Station, 1st floor)」を挙げる。",
+        "英文": "Operated by the Osaka Convention & Tourism Bureau in front of the central ticket gates of JR Osaka Station, with a JR railway information desk alongside. The bureau's English page says travel agencies and baggage storage share the same area ('Travel Service Center Osaka') and notes that sales of the Osaka Amazing Pass ended on March 31, 2024. Open 7:00-22:00, year-round; languages English, Chinese, Korean; Osaka Call Center 06-6131-4550 (9:00-17:30). Sister offices: Tourist Information SHIN-OSAKA (JR Shin-Osaka Station, 3rd floor) and Tourist Information NAMBA (Nankai Namba Station, 1st floor).",
+        "中文": "由大阪观光局运营，位于JR大阪站1楼中央检票口前，站内另设JR铁路询问处。观光局称案内所附近聚集旅行社与行李寄存等服务，统称「Travel Service Center Osaka」，并公告大阪周游通行证（Osaka Amazing Pass）已于 2024年3月31日停止发售。营业时间 7:00～22:00，全年无休，提供英语・中文・韩语服务，咨询电话 Osaka Call Center 06-6131-4550（9:00～17:30）。系列案内所还有新大阪站3楼与南海难波站1楼两处。"
+      },
+      "住所": "〒530-0001 大阪市北区梅田3-1-1 JR大阪駅 1F中央コンコース",
+      "电话": "06-6131-4550（Osaka Call Center 9:00～17:30）",
+      "営業時間": "7:00～22:00／休日 無休",
       "官网": "https://osaka-info.jp/",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/tourist-information-osaka/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪観光局による公式観光サイト。大阪の観光スポット・イベント・グルメ情報。" }
+        {
+          "标题": "大阪観光案内所｜OSAKA-INFO",
+          "URL": "https://osaka-info.jp/spot/tourist-information-osaka/",
+          "原文要旨": "日本有数のターミナル駅であるJR大阪駅中央改札口前に位置する観光案内所。／日本中からまた世界中の旅行者の方々に毎日ご利用いただいています。／JR鉄道案内所も併設されています。／2024年3月31日をもって大阪周遊パスの販売は終了しました。／案内所のすぐそばには観光客にとって便利な旅行会社や手荷物預かりなどが同じエリアに集まる「トラベルサービスセンター大阪」／営業時間 7:00～22:00／休日 無休／各国語対応 英語、中国語、韓国語／アクセス JR大阪駅１F中央改札口前／〒 530-0001 大阪市北区梅田3-1-1 JR大阪駅 1F中央コンコース／Osaka Call Center 06-6131-4550（9:00～17:30）",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Tourist Information OSAKA | OSAKA-INFO (EN)",
+          "URL": "https://osaka-info.jp/en/spot/tourist-information-osaka/",
+          "原文要旨": "This tourist information center is located in front of the central ticket gates of JR Osaka Station, one of Japan's leading terminal stations.／There is also a JR railway information center on the premises.／Sales of the Osaka Amazing Pass will end on March 31, 2024.／*Please also use Tourist Information SHIN-OSAKA (JR Shin-Osaka Station, 3rd floor) and Tourist Information NAMBA (Nankai Namba Station, 1st floor).",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "ドン・キホーテ道頓堀御堂筋店 観光案内所｜OSAKA-INFO",
+          "URL": "https://osaka-info.jp/spot/tourist-information-donki-midosuji/",
+          "原文要旨": "店舗は24時間営業で、7通貨対応やウェルカムクルーの常駐など訪日外国人に便利なサービスでお迎えします。／毎日１万人以上の訪日客が訪れる難波の１つの観光名所です。様々な国のスタッフが勤めており、多言語対応が可能です。",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        }
       ]
     },
     {
-      "名称": { "日文": "大阪駅総合案内所", "英文": "Osaka Station General Information", "中文": "大阪站综合案内所" },
-      "種别": "観光案内所",
-      "所在地": "JR大阪駅構内",
-      "电话": null,
-      "营业": null,
-      "官网": null,
+      "名称": {
+        "日文": "うめだ国際クリニック（内科・外科の多言語窓口）",
+        "英文": "Umeda International Clinic",
+        "中文": "梅田国际诊所（内科・外科）"
+      },
+      "距離": "阪急･阪神「大阪梅田駅」から徒歩1分（観光局ページのアクセス表記）",
+      "简介": {
+        "日文": "「訪日外国人旅行者の方を含め、大阪ご滞在中に体調などでお困りの方を幅広く受け入れているクリニックです。」「日本の保険証をお持ちでない外国人旅行者の方や、大阪に一時的に滞在されている方も安心して受診いただけます。」。診療時間は訪日旅行者の方が月～水・金 09:00～18:00／土 09:00～13:00、日本人・在住者は月・火・金 10:00～13:00、15:00～18:00／水・土 10:00～13:00。休日 木・日・祝・年末年始、各国語対応 英語・中国語・韓国語。電話は訪日旅行者向け 080-6925-4560、日本人・在居住者向け 06-6373-0381。自社サイトは「For International Travelers (ENG)」導線とともに「総合内科を中心に皆さまの診察や健康相談を随時受け付けております」「診療科目：内科・外科」を掲げる。",
+        "英文": "A clinic that accepts visitors who fall ill while staying in Osaka, including travellers without Japanese insurance, and temporary residents; the bureau page also notes a WhatsApp account for callers without a Japanese phone number. Consultation hours for inbound travellers: Mon-Wed and Fri 9:00-18:00, Sat 9:00-13:00; for Japanese nationals and residents: Mon, Tue, Fri 10:00-13:00 and 15:00-18:00, Wed and Sat 10:00-13:00. Closed Thursdays, Sundays, public holidays and year-end/New Year. Languages: English, Chinese, Korean. Tel 080-6925-4560 (visitors to Japan) / 06-6373-0381 (residents). The clinic's own site names general internal medicine as its core with internal medicine and surgery as its departments.",
+        "中文": "面向在阪期间身体不适的访日外国游客等广泛接诊，没有日本保险证的外国旅客及短期停留者也可安心就诊；观光局页面另提及官网载有 WhatsApp 账号，无日本电话号码者也可咨询。访日旅客诊疗时间为周一至三、周五 09:00～18:00／周六 09:00～13:00；日本国籍及在阪居民为周一、二、五 10:00～13:00、15:00～18:00／周三、周六 10:00～13:00。休诊：周四、周日、节假日及年末年始。提供英语・中文・韩语。电话 080-6925-4560（访日旅客）／06-6373-0381（居民）。"
+      },
+      "住所": "〒530-0013 大阪市北区茶屋町3-1 三晃ビル 2階",
+      "电话": "080-6925-4560（訪日外国人旅行者向け）／06-6373-0381（日本人・在住者向け）",
+      "営業時間": "訪日旅行者の方 月～水・金09:00～18:00／土09:00～13:00（休診 木・日・祝・年末年始）",
+      "官网": "https://nice-medical.jp/umeda/",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/umeda_clinic/"
+      },
+      "言語注記": "うめだ国際クリニックは自社サイト（nice-medical.jp/umeda/）に「For International Travelers (ENG)」への導線を掲げる。English は大阪観光局の公式英語ページを引用し、中文は当方の執筆。診療時間は日本語ページと観光局ページの表記を併記した。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪の観光案内所情報。" }
+        {
+          "标题": "うめだ国際クリニック｜OSAKA-INFO",
+          "URL": "https://osaka-info.jp/spot/umeda_clinic/",
+          "原文要旨": "訪日外国人旅行者の方を含め、大阪ご滞在中に体調などでお困りの方を幅広く受け入れているクリニックです。／日本の保険証をお持ちでない外国人旅行者の方や、大阪に一時的に滞在されている方も安心して受診いただけます。／訪日旅行者の方：月～水・金09:00～18:00／土09:00～13:00／日本人の方・日本にお住まいの方：月・火・金 10:00～13:00、15:00～18:00／水・土10:00～13:00／休日 木・日・祝・年末年始／各国語対応 英語、中国語、韓国語／アクセス 阪急･阪神「大阪梅田駅」から徒歩1分／〒530-0013 大阪市北区茶屋町3-1 三晃ビル 2階／訪日外国人旅行者の方：080-6925-4560",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Umeda International Clinic | OSAKA-INFO (EN)",
+          "URL": "https://osaka-info.jp/en/spot/umeda_clinic/",
+          "原文要旨": "This clinic accepts a wide range of patients, including foreign tourists visiting Japan, who are experiencing health problems while staying in Osaka.／For visitors to Japan: Monday to Wednesday and Friday 9:00-18:00／1 minute walk from Hankyu/Hanshin Osaka Umeda Station",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "うめだ国際クリニック（自社）",
+          "URL": "https://nice-medical.jp/umeda/",
+          "原文要旨": "For International Travelers (ENG)／総合内科を中心に皆さまの診察や健康相談を随時受け付けております／診療科目：内科・外科",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "Osaka Metro・大阪シティバスのお忘れ物窓口",
+        "英文": "Osaka Metro lost-and-found centre",
+        "中文": "Osaka Metro・大阪シティ巴士失物窗口"
+      },
+      "距離": "お忘れものセンターは四つ橋線 なんば駅（南改札外通路）。大阪駅構内ではなく地下鉄全駅の集約窓口である点に注意",
+      "简介": {
+        "日文": "Osaka Metro は 200 で開いた問い合わせページで「お忘れものセンターでは、地下鉄の駅等に届けられたお忘れ物を保管しています。（大阪シティバス車内等で届けられたお忘れ物は、大阪シティバス営業所で保管しています）」と分け、「地下鉄の駅等に届けられた日の翌日から約4日間保管」と期間を示す。受取には「必ず、本人確認書類（住所・氏名が確認できる公的なもの）をお持ちください」、代理受取には委任状と代理人の本人確認書類が必要。直通運転先（御堂筋線＝北大阪急行電鉄、堺筋線＝阪急電鉄、中央線＝近畿日本鉄道）への照会も併せて求める。バス側は各営業所が「運行情報、お忘れ物ほかのお問い合わせ」を 8時から20時までに受け付ける。",
+        "英文": "Osaka Metro keeps items reported at subway stations at its lost-and-found centre in the south-ticket-gate passage of Namba station (Yotsubashi Line), holding them for about four days from the day after they are reported; items found on Osaka City Bus are kept at the bus depots. Photo ID showing address and name is required, and a proxy needs a letter of authorisation plus their own ID. Because of through-running, the operator also asks passengers to check with Hokushin Kyuko (Midosuji Line), Hankyu (Sakaisuji Line) and Kintetsu (Chuo Line). Osaka Metro bus depots accept enquiries on service and lost items between 8:00 and 20:00.",
+        "中文": "Osaka Metro 在 subway 站收到的失物统一保管于四桥线难波站（南检票口外通道）的失物中心，自递交次日起约保存 4 天；大阪シティ巴士车内拾得物由各乘务所保管。领取须携带可确认住所与姓名的身份证件，代领需委托书及代理人身份证件。因存在直通运转，亦建议向北阪急行（御堂筋线）、阪急电铁（堺筋线）、近畿日本铁道（中央线）查询。巴士乘务所受理运行与失物咨询的时间为 8:00～20:00。"
+      },
+      "住所": "〒556-0016 大阪市浪速区元町1丁目1番17号（お忘れものセンター＝四つ橋線 なんば駅 南改札外通路）",
+      "営業時間": "保管：地下鉄の駅等に届けられた日の翌日から約4日間（営業所窓口の受付は 8時から20時）",
+      "官网": "https://subway.osakametro.co.jp/lostfounditems_tel.php",
+      "言語注記": "JRおでかけネットの駅情報は日本語のみ。English・中文は同ページの表記（駅番号・のりば・営業時間）を踏まえて当方が執筆し、固有名（みどりの窓口・ICOCA など）は原文の表記をそのまま残した。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "お忘れ物のお問い合わせ｜Osaka Metro",
+          "URL": "https://subway.osakametro.co.jp/lostfounditems_tel.php",
+          "原文要旨": "お忘れ物のお問い合わせ／〒556-0016 大阪市浪速区元町1丁目1番17号／四つ橋線 なんば駅（南改札外通路）／お忘れものセンターでは、地下鉄の駅等に届けられたお忘れ物を保管しています。／地下鉄の駅等に届けられた日の翌日から約4日間保管／必ず、本人確認書類 （住所・氏名が確認できる公的なもの） をお持ちください。／「 委任状 」と「代理人の本人確認書類」が必要です。／御堂筋線 北大阪急行電鉄／堺筋線 阪急電鉄／中央線 近畿日本鉄道",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        },
+        {
+          "标题": "バス営業所一覧｜Osaka Metro",
+          "URL": "https://bus.osakametro.co.jp/sales_office/",
+          "原文要旨": "電話番号 06-6451-0918／受付時間 8時から20時／※運行情報、お忘れ物ほかのお問い合わせは上記時間内にお願いします。／※各種乗車券の購入はOsaka Metro 定期券発売所等をご利用願います。",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "大阪市 市政情報・窓口（くらし／市民局・区役所）",
+        "英文": "Osaka City administration (living information, citizen bureau and ward offices)",
+        "中文": "大阪市市政信息与窗口（生活／市民局・区役所）"
+      },
+      "距離": "大阪駅は北区にあり、区役所は北区内（本ファイルで開いた市ページは区役所個別ページではなく「区役所」「局・室」から探す入口のみを掲載）",
+      "简介": {
+        "日文": "市のトップページは検索欄のよく探されるキーワードとして「防災ポータルサイト ハザードマップ 大雨への備え 粗大ごみ 申し込み 行政オンラインシステム 給食献立表 がん検診 喫煙可能場所 ワクチン接種 産後ケア」を掲げ、くらし欄は「区役所 局・室」の探し方と「行政オンラインサービス スマートフォンアプリ」、重要なお知らせとして「突然の病気やケガで困ったら」「証明書のコンビニ交付サービス休止日のお知らせ」を出す。市民局ページは「相談をしたい（各種相談）」「住民票の写し等の交付に係る本人通知制度について」や「交通死亡事故多発警報発令中！」を載せる。産業戦略局のページは、令和8年11月6日（金）～11月15日（日）の10日間、大阪市民1万人を大阪城へ無料招待する事業（豊臣石垣館含む、指定管理者 大阪城公園パークマネジメント株式会社と連携）と「大阪城秋まつり2026」を告知し、「中学生以下の方および市内在住65歳以上の方は、従来どおり入館料は無料」と補足する。",
+        "英文": "Osaka City's portal lists the most-searched topics (disaster-prevention portal, hazard maps, heavy-rain preparation, bulky garbage, the online administrative system, school-lunch menus, cancer screening, smoking areas, vaccination, postnatal care). The 'kurashi' section points to ward offices and bureaux, online services and the city app, and warns about certificate convenience-store service suspensions; the Citizen Bureau page advertises counselling services and a self-notification system for resident-record copies. A separate city page announces that 10,000 Osaka residents will be invited free to Osaka Castle (including the Toyotomi Stone-Wall Museum) from 6 to 15 November 2026, run with the park's designated manager, and confirms that schoolchildren and residents aged 65 or over remain free.",
+        "中文": "大阪市首页列出高频检索条目（防灾门户、ハザード地图、暴雨应对、大件垃圾、行政在线系统、给食谱、癌症筛查、吸烟区、疫苗接种、产后护理等）；「くらし」栏提供区役所与各局的入口、行政在线服务与手机应用，并公告便利店证明 issuance 停止日。市民局页面刊载各类咨询与住民票本人通知制度。市产业战略局页面另告知：令和8年11月6日至15日共10天邀请 1 万名大阪市民免费参观大阪城（含丰臣石垣馆），由指定管理者大阪城公园 PARK MANAGEMENT 协同实施，并重申「中学生以下及市内居住的 65 岁以上人士照旧免费」。"
+      },
+      "官网": "https://www.city.osaka.lg.jp/",
+      "介绍页": {
+        "日文": "https://www.city.osaka.lg.jp/kurashi/index.html"
+      },
+      "言語注記": "大阪市・大阪府の各ページは日本語のみ。English・中文は原文の表記（区役所、行政オンラインサービス、豊臣石垣館など）を保持したまま当方が執筆した。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "大阪市（トップ）",
+          "URL": "https://www.city.osaka.lg.jp/",
+          "原文要旨": "よく探されるキーワード 防災ポータルサイト ハザードマップ 大雨への備え 粗大ごみ 申し込み 行政オンラインシステム 給食献立表 がん検診 喫煙可能場所 ワクチン接種 産後ケア",
+          "ライセンス": "出典：大阪市（www.city.osaka.lg.jp）／本市の行政情報ウェブサイト利用ポリシーに基づく事実の摘示"
+        },
+        {
+          "标题": "大阪市：くらし",
+          "URL": "https://www.city.osaka.lg.jp/kurashi/index.html",
+          "原文要旨": "区役所 局・室／行政オンラインサービス スマートフォンアプリ／突然の病気やケガで困ったら／証明書のコンビニ交付サービス休止日のお知らせ／戸籍・住民票・印鑑登録",
+          "ライセンス": "出典：大阪市（www.city.osaka.lg.jp）／本市の行政情報ウェブサイト利用ポリシーに基づく事実の摘示"
+        },
+        {
+          "标题": "大阪市：市民局",
+          "URL": "https://www.city.osaka.lg.jp/shimin/",
+          "原文要旨": "相談をしたい（各種相談）／住民票の写し等の交付に係る本人通知制度について／交通死亡事故多発警報発令中！",
+          "ライセンス": "出典：大阪市（www.city.osaka.lg.jp）／本市の行政情報ウェブサイト利用ポリシーに基づく事実の摘示"
+        },
+        {
+          "标题": "大阪市：大阪城天守閣・豊臣石垣館 無料招待",
+          "URL": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000683946.html",
+          "原文要旨": "令和8年11月6日（金曜日）から11月15日（日曜日）までの10日間、大阪市民1万人を大阪城へ無料でご招待します。／令和7年にオープンした豊臣石垣館にも入館でき、地中に眠っていた豊臣期の石垣を間近でご覧いただけます。／指定管理者である大阪城公園パークマネジメント株式会社と連携して実施するものです。／大阪城秋まつり2026／中学生以下の方および市内在住65歳以上の方は、従来どおり入館料は無料",
+          "ライセンス": "出典：大阪市（www.city.osaka.lg.jp）／本市の行政情報ウェブサイト利用ポリシーに基づく事実の摘示"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "大阪府・大阪府警察の広域案内（防災・多言語相談・交通）",
+        "英文": "Osaka Prefecture and Osaka Prefectural Police portals",
+        "中文": "大阪府・大阪府警的广域信息（防灾・多语言咨询・交通）"
+      },
+      "距離": "府・府警はそれぞれトップページのみ 200 で開いた（下位の個別案内ページは未取得）",
+      "简介": {
+        "日文": "府のトップは「防災・救急・感染症ポータルサイト」への入口と「緊急メンテナンスのお知らせ（検索機能の一部停止）」「大阪府公式Webサイトの自動翻訳サービス及びおおさか防災ネットの翻訳機能に関する障害について（Notice Regarding the Outage of the Automatic Translation Service…）」「交通死亡事故多発警報発令中！大阪府内において交通死亡事故が増加しています。」「インフルエンザが流行期入り！」を掲げる。都市魅力創造局国際課のページは「外国人への多言語による情報提供や相談に関すること。」「災害時の多言語支援に」を業務として示す。府警トップは「ウェブサイトの一部機能の停止について」「自転車の交通違反への『青切符』制度の開始について」「警察本部のウェブサイトを悪用する詐欺の手口」などのトピックスを並べる。",
+        "英文": "The prefectural portal offers a disaster/emergency/infectious-disease gateway and posted notices about a partial search outage, an outage of the site's automatic translation service (with an English heading) and a rise in fatal traffic accidents. The International Division of the Urban Attraction Bureau lists multilingual information and counselling for foreign residents and multilingual disaster support among its duties. The prefectural police top page carries notices including the suspension of some website functions, the new 'blue ticket' system for bicycle violations and scams abusing the headquarters' website.",
+        "中文": "大阪府首页提供「防灾・急救・传染病门户」入口，并公告搜索功能部分停止、官网自动翻译服务与「おおさか防灾网络」翻译功能故障、交通死亡事故多发警报等。都市魅力创造局国际课列明「面向外国人的多语言信息提供与咨询」「灾害时的多语言支援」等业务。大阪府警察首页topics 包括网站部分功能停止、自行车交通违法「蓝票」制度启动、以及冒用警察本部网站的诈骗手法等。"
+      },
+      "官网": "https://www.pref.osaka.lg.jp/",
+      "言語注記": "府・府警のページは日本語のみ（府トップに自動翻訳サービスの障害告知があり、英語見出しを1つ確認できた範囲で引用した）。English・中文は当方の執筆。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "大阪府（トップ）",
+          "URL": "https://www.pref.osaka.lg.jp/",
+          "原文要旨": "防災・救急・感染症ポータルサイト／緊急メンテナンスのお知らせ（検索機能の一部停止）／交通死亡事故多発警報発令中！大阪府内において交通死亡事故が増加しています。／インフルエンザが流行期入り！手洗いなどの感染対策、予防接種の検討をお願いします！",
+          "ライセンス": "出典：大阪府（www.pref.osaka.lg.jp）・大阪府警察／各ウェブサイトの記載の摘示"
+        },
+        {
+          "标题": "大阪府：国際課",
+          "URL": "https://www.pref.osaka.lg.jp/kanko/",
+          "原文要旨": "組織から探す > 府民文化部 > 都市魅力創造局 > 国際課／外国人への多言語による情報提供や相談に関すること。",
+          "ライセンス": "出典：大阪府（www.pref.osaka.lg.jp）・大阪府警察／各ウェブサイトの記載の摘示"
+        },
+        {
+          "标题": "大阪府警察：本部",
+          "URL": "https://www.police.pref.osaka.lg.jp/",
+          "原文要旨": "ウェブサイトの一部機能の停止について／自転車の交通違反への「青切符」制度の開始について／警察本部のウェブサイトを悪用する詐欺の手口",
+          "ライセンス": "出典：大阪府（www.pref.osaka.lg.jp）・大阪府警察／各ウェブサイトの記載の摘示"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "駅・車内の公衆無線LAN（Osaka Metro）",
+        "英文": "Public Wi-Fi at Osaka Metro stations and trains",
+        "中文": "车站与车厢内的公共无线 LAN"
+      },
+      "距離": "Osaka Metro 全駅・車内が対象（各駅の個別設定は本ファイルで未取得）",
+      "简介": {
+        "日文": "Osaka Metro の案内ページは、かつて携帯電話各社が提供していた公衆無線LANサービスについて「携帯電話の世代交代などの社会環境の変化を踏まえて、各キャリア様のご方針で2022年12月にNTT docomo様が、2023年3月にKDDI様がサービスを終了しています。また、大阪観光局様がご提供されていた、Osaka Free Wi-Fiも2023年3月にサービスを終了しています。」と記す。つまり「Osaka Free Wi-Fi」は既に終了しており、自治体・観光局の無料Wi-Fiを前提とした情報は陈旧している。駅の構内設備一覧（きっぷうりば・電話・コインロッカー等）を掲げる駅ページも併せて参照した。",
+        "英文": "Osaka Metro's own page states that the carrier-run public Wi-Fi services ended - NTT docomo in December 2022 and KDDI in March 2023 - and that 'Osaka Free Wi-Fi', provided by the Osaka Convention & Tourism Bureau, also ended in March 2023. Any guide that still assumes a municipal or bureau 'free Wi-Fi Osaka' service is therefore out of date. Station pages list the facilities actually available (ticket counters, telephones, coin lockers, AEDs, multi-function toilets).",
+        "中文": "Osaka Metro 说明页明确：各电信运营商的公共无线 LAN 已随通信代际更替结束——NTT docomo 于 2022年12月、KDDI 于 2023年3月停止服务，由大阪观光局提供的「Osaka Free Wi-Fi」亦于 2023年3月结束。因此仍以「大阪免费Wi-Fi」为前提的便民信息已过时。车站页面另列出实际存在的站内设备（售票处、电话、投币储物柜、AED、多功能卫生间等）。"
+      },
+      "官网": "https://subway.osakametro.co.jp/",
+      "介绍页": {
+        "日文": "https://subway.osakametro.co.jp/guide/usage/wireless_lan/wireless_lan.php"
+      },
+      "言語注記": "JRおでかけネットの駅情報は日本語のみ。English・中文は同ページの表記（駅番号・のりば・営業時間）を踏まえて当方が執筆し、固有名（みどりの窓口・ICOCA など）は原文の表記をそのまま残した。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "携帯電話・公衆無線LANサービスについて｜Osaka Metro",
+          "URL": "https://subway.osakametro.co.jp/guide/usage/wireless_lan/wireless_lan.php",
+          "原文要旨": "携帯電話・公衆無線LANサービスについて／携帯電話の世代交代などの社会環境の変化を踏まえて、各キャリア様のご方針で2022年12月にNTT docomo様が、2023年3月にKDDI様がサービスを終了しています。／大阪観光局様がご提供されていた、Osaka Free Wi-Fiも2023年3月にサービスを終了しています。",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        },
+        {
+          "标题": "梅田｜Osaka Metro",
+          "URL": "https://subway.osakametro.co.jp/station_guide/M/m16/",
+          "原文要旨": "構内設備・施設／きっぷうりば／コインロッカー／多機能トイレ／点字触知図",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        }
       ]
     }
   ],
   "交通": [
     {
-      "名称": { "日文": "Osaka Metro 御堂筋線 梅田駅", "英文": "Osaka Metro Midosuji Line Umeda Station", "中文": "大阪地铁御堂筋线 梅田站" },
-      "距離": "JR大阪駅より徒歩約3分",
-      "简介": {
-        "日文": "大阪の主要路線。新大阪・なんば・天王寺・新大阪方面へ直通。大阪市内移動の基幹路線。",
-        "英文": "Osaka's main subway line. Direct service to Shin-Osaka, Namba, Tennoji. The backbone of transportation within Osaka city.",
-        "中文": "大阪的主要地铁线路。可直达新大阪、难波、天王寺。是大阪市内交通的骨干线路。"
+      "名称": {
+        "日文": "JR大阪駅（在来線ターミナル・きっぷと改札の営業）",
+        "英文": "JR Osaka Station (conventional-line terminal, ticket services)",
+        "中文": "JR大阪站（在来线枢纽・车票与检票服务）"
       },
+      "距離": "当駅そのもの（大阪駅 現住所 大阪府大阪市北区梅田３丁目１番１号）",
+      "简介": {
+        "日文": "JRおでかけネットは大阪駅のサービス欄で「きっぷの発売」の項を掲げ、窓口は同一見出し内「待ち状況はこちら あり」、券売機は「みどりの券売機 あり」、券売機プラスは「待ち人数はこちら あり」、定期券機は「定期券がお求めになれる券売機 あり」と可用性を示す。営業時間として「みどりの窓口（中央口） 6時から22時」「みどりの券売機（御堂筋口） 5時30分から23時40分」「みどりの券売機プラス（うめきた地下口） 5時30分から23時」などを示し、「2024年6月1日以降、みどりの券売機プラスのオペレーターについて、8:00～20:00に応対時間を変更します。」を添える。改札口は「ICOCA対応 可」「改札口コールシステム あり」、その他サービスは「その他サービス 詳細はリンク先をご確認ください」の見出しのもと駅レンタカー・こども110番の駅・パーク&ライド・駅スタンプ・コインロッカー等を列挙し、「※設置場所により、ご利用いただける方が限られる場合があります。」と注記する。待ち状況の別ページは「表示しているみどりの窓口の待ち組は、整理券を受け取り、お待ちいただいているお客様の総組数です。定期的に情報を更新しているため、実際の状況と本ページの情報が異なる場合があります。」と説明する。",
+        "英文": "JR West's station page marks the green ticket window, the standard and operator-assisted Plus ticket machines and the commute-pass machines as available, with the Midori no Madoguchi (central gate) open 6:00-22:00, machines at the Midosuji, Sakuranobashi, Nishi and Umekita underground entrances from 5:30 to 23:40, and since 1 June 2024 the Plus-machine operator answering between 8:00 and 20:00. Gates accept ICOCA and use a call system; the station also lists car rental, a 'Kodomo 110' safety station, station stamps and coin lockers (some restricted by location), and no park-and-ride. The separate waiting-status page counts groups holding a numbered ticket and warns it may differ from the real situation.",
+        "中文": "JR 西日本官网在「车票发售」项下列明「绿色窗口 有」「指定券售票机 有」「Ticket Plus（操作员） 有」「定期券售票机 有」，并给出时间：绿色窗口（中央口）6:00～22:00，御堂筋口・樱桥口・西口・うめきた地下口售票机 5:30～23:40；2024年6月1日起 Ticket Plus 操作员受理时间改为 8:00～20:00。检票口支持 ICOCA 并设呼叫系统；其他服务为车站租车 有、儿童110番车站 有、车站印章 有、投币储物柜 有、Park & Ride 无。等候状况页面注明显示的是已取得「整理券」等待的总组数，仅供参考。"
+      },
+      "住所": "大阪府大阪市北区梅田３丁目１番１号",
+      "営業時間": "みどりの窓口（中央口）6時から22時／みどりの券売機（御堂筋口・連絡橋口・桜橋口・うめきた地下口・西口）5時30分から23時40分",
+      "官网": "https://eki.jr-odekake.net/top?id=0610130",
+      "介绍页": {
+        "日文": "https://eki.jr-odekake.net/premises?id=0610130"
+      },
+      "言語注記": "JRおでかけネットの駅情報は日本語のみ。English・中文は同ページの表記（駅番号・のりば・営業時間）を踏まえて当方が執筆し、固有名（みどりの窓口・ICOCA など）は原文の表記をそのまま残した。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪の交通機関案内。" }
+        {
+          "标题": "駅情報（大阪駅）｜JRおでかけネット",
+          "URL": "https://eki.jr-odekake.net/top?id=0610130",
+          "原文要旨": "きっぷの発売／みどりの窓口／みどりの券売機／みどりの券売機プラス／定期券がお求めになれる券売機／みどりの窓口（中央口） 6時から22時／みどりの券売機（御堂筋口） 5時30分から23時40分／みどりの券売機プラス（うめきた地下口） 5時30分から23時／2024年6月1日以降、みどりの券売機プラスのオペレーターについて、8:00～20:00に応対時間を変更します。／ICOCA対応／改札口コールシステム／駅レンタカー／こども110番の駅／パーク&ライド／駅スタンプ／コインロッカー／※設置場所により、ご利用いただける方が限られる場合があります。／その他サービス 詳細はリンク先をご確認ください／大阪府大阪市北区梅田３丁目１番１号",
+          "ライセンス": "出典：JRおでかけネット（西日本旅客鉄道）／同サイトの利用規約・個人情報保護方針に基づく引用（事実情報の摘示）"
+        },
+        {
+          "标题": "構内図（大阪駅）｜JRおでかけネット",
+          "URL": "https://eki.jr-odekake.net/premises?id=0610130",
+          "原文要旨": "構内図／線区名・方面／JRゆめ咲線 ユニバーサルシティ方面 1番のりば／関西空港線 鳳・関西空港方面 1番のりば／JR京都線 新大阪・高槻・京都方面 7番のりば／寝台特急 東京方面 11番のりば／東海道線上り＜北陸方面＞ 北陸・東海方面特急列車 11番のりば／おおさか東線 新大阪・放出・久宝寺方面 22・23番のりば／現住所",
+          "ライセンス": "出典：JRおでかけネット（西日本旅客鉄道）／同サイトの利用規約・個人情報保護方針に基づく引用（事実情報の摘示）"
+        },
+        {
+          "标题": "みどりの窓口 待ち状況一覧（大阪駅）",
+          "URL": "https://www.jr-odekake.net/ticket/congestion/osaka/",
+          "原文要旨": "現在のJR西日本 「大阪駅」 のみどりの窓口 待ち状況 現在の待ち状況を表示しております。／表示しているみどりの窓口の待ち組は、「整理券」を受け取り、お待ちいただいているお客様の総組数です。／定期的に情報を更新しているため、実際の状況と本ページの情報が異なる場合があります。／表示しているみどりの窓口の待ち組は、整理券を受け取り、お待ちいただいているお客様の総組数です。定期的に情報を更新しているため、実際の状況と本ページの情報が異なる場合があります。",
+          "ライセンス": "出典：JRおでかけネット（西日本旅客鉄道）／同サイトの利用規約・個人情報保護方針に基づく引用（事実情報の摘示）"
+        },
+        {
+          "标题": "JR西日本 サポートFAQ",
+          "URL": "https://support-faq.westjr.co.jp/westjr/?site_domain=default",
+          "原文要旨": "きっぷの購入・使い方（変更・払いもどし ジパング倶楽部）／カードタイプのICOCA・モバイルICOCA・Apple PayのICOCA／ネット予約（e5489 エクスプレス予約）／駅・列車内でのお忘れ物",
+          "ライセンス": "出典：JRおでかけネット（西日本旅客鉄道）／同サイトの利用規約・個人情報保護方針に基づく引用（事実情報の摘示）"
+        }
       ]
     },
     {
-      "名称": { "日文": "JR大阪環状線 大阪駅", "英文": "JR Osaka Loop Line Osaka Station", "中文": "JR大阪环状线 大阪站" },
-      "距離": "駅直結",
-      "简介": {
-        "日文": "大阪市中心部を環状に走るJR路線。西九条・天王寺・京橋・大阪城方面へ直通。ユニバーサルシティ方面（JRゆめ咲線）への乗り換えも可能。",
-        "英文": "A JR loop line running around central Osaka. Direct service to Nishikujo, Tennoji, Kyobashi, and Osaka Castle. Transfer available for Universal City (JR Yumesaki Line).",
-        "中文": "环绕大阪市中心部的JR线路。可直达西九条、天王寺、京桥、大阪城方向。也可换乘前往环球影城（JR梦咲线）。"
+      "名称": {
+        "日文": "Osaka Metro 御堂筋線 梅田駅（M16）",
+        "英文": "Osaka Metro Midosuji Line Umeda Station (M16)",
+        "中文": "Osaka Metro 御堂筋线梅田站（M16）"
       },
+      "距離": "大阪駅と地下街・地下通路で直結する隣接駅（施設公式の案内に「JR大阪駅から徒歩7分」等の表記あり）",
+      "简介": {
+        "日文": "Osaka Metro の駅ページは「M16 梅田」「M15 御堂筋線 M17 中津」の駅番号・隣駅を示し、乗り換え路線に「T20 東梅田 谷町線」「Y11 西梅田 四つ橋線」および「JR線 阪急線 阪神線」を列挙する。構内設備・施設欄は「エレベーター／エスカレーター／階段／お手洗い／多機能トイレ／きっぷうりば／電話／コインロッカー／点字触知図／AED／駅出口番号／ATM」を掲げ、駅構内図（PDF）と「バリアフリー出入口ルート」へのリンクを置く。トピックスには「梅田駅 エスカレーター利用停止について」が出ている。法人トップは「地下鉄・運行状況 2026/10/23 13:12現在 遅延証明書はこちら」の運行情報と遅延証明書、および「Osaka Metro公式サイト一時停止に関するお詫びと再開のお知らせ」（2026年10月22日）を掲げる。",
+        "英文": "The station page gives the number M16 on the Midosuji Line (neighbours M15 and M17) and lists out-of-ticket transfers to T20 Higashi-Umeda (Yotsubashi... Yotsubashi is Y; the page gives T20 Higashi-Umeda on the Chuo... — transcribed as published: T20 Higashi-Umeda, Y11 Nishi-Umeda) plus JR, Hankyu and Hanshin. Facilities listed are elevators, escalators, stairs, toilets, multi-function toilets, ticket counters, telephones, coin lockers, braille maps, AEDs, exit numbers and ATMs, with a PDF station map and barrier-free routes. A topic notice reports an escalator stoppage at Umeda. The corporate site shows live metro status (2026-10-23 13:12), delay certificates and an apology notice of 22 October 2026 for a temporary suspension of the Osaka Metro official site.",
+        "中文": "车站页面标注御堂筋线梅田站编号 M16（相邻 M15・M17），换乘路线列出「T20 东梅田（谷町线）」「Y11 西梅田（四桥线）」以及 JR 线、阪急线、阪神线。站内设施栏依次列出电梯、扶梯、楼梯、卫生间、多功能卫生间、售票处、电话、投币储物柜、盲文触知图、AED、出口编号、ATM，并提供车站 PDF 平面图与「无障碍出入口路线」。topics 中刊登「梅田站扶梯停止使用」。法人首页显示地铁运行状况（2026-10-23 13:12 现在）、晚点证明，以及 2026年10月22日发布的「关于 Osaka Metro 官网一度停止的致歉与恢复通知」。"
+      },
+      "官网": "https://subway.osakametro.co.jp/",
+      "介绍页": {
+        "日文": "https://subway.osakametro.co.jp/station_guide/M/m16/"
+      },
+      "言語注記": "JRおでかけネットの駅情報は日本語のみ。English・中文は同ページの表記（駅番号・のりば・営業時間）を踏まえて当方が執筆し、固有名（みどりの窓口・ICOCA など）は原文の表記をそのまま残した。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪の交通機関案内。JR環状線の紹介。" }
+        {
+          "标题": "梅田｜Osaka Metro",
+          "URL": "https://subway.osakametro.co.jp/station_guide/M/m16/",
+          "原文要旨": "M16 梅田 M15 御堂筋線 M17 中津／乗り換え路線／T20 東梅田／Y11 西梅田／JR線／阪急線／阪神線／梅田駅 エスカレーター利用停止について／エレベーター／エスカレーター／階段／お手洗い／多機能トイレ／きっぷうりば／コインロッカー／点字触知図／駅出口番号",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        },
+        {
+          "标题": "Osaka Metro（法人トップ）",
+          "URL": "https://www.osakametro.co.jp/",
+          "原文要旨": "地下鉄・運行状況 2026/10/23 13:12現在 遅延証明書はこちら／Osaka Metro公式サイト一時停止に関するお詫びと再開のお知らせ",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        },
+        {
+          "标题": "地下鉄のご案内（Osaka Metro 地下鉄サイト）",
+          "URL": "https://subway.osakametro.co.jp/",
+          "原文要旨": "地下鉄のご案内／時刻表検索 乗降位置案内 路線図／女性専用車両のご案内／AED（自動体外式除細動器）の設置について／マタニティマークを知っていますか／手回り品について",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        }
       ]
     },
     {
-      "名称": { "日文": "阪急電鉄・阪神電鉄 大阪梅田駅", "英文": "Hankyu/Hanshin Railway Osaka-Umeda Station", "中文": "阪急电铁·阪神电铁 大阪梅田站" },
-      "距離": "JR大阪駅より徒歩約5分",
-      "简介": {
-        "日文": "神戸・宝塚・京都方面へ向かう私鉄ターミナル。阪急三番街・阪神百貨店が直結。梅田エリアの交通の要。",
-        "英文": "A private railway terminal for Kobe, Takarazuka, and Kyoto. Connected to Hankyu Sanbangai and Hanshin Department Store. A transportation hub of the Umeda area.",
-        "中文": "前往神户、宝塚、京都方向的私铁终点站。与阪急三番街、阪神百货店直连。梅田地区的交通枢纽。"
+      "名称": {
+        "日文": "梅田3駅の改札外乗継（梅田・東梅田・西梅田）",
+        "英文": "Out-of-gate transfers between the three Umeda metro stations",
+        "中文": "梅田三站（梅田・东梅田・西梅田）检票口外换乘"
       },
+      "距離": "Osaka Metro 梅田・東梅田・西梅田の3駅間（いずれも大阪駅・梅田地下街圏）",
+      "简介": {
+        "日文": "Osaka Metro は乗継制度のページで「梅田・東梅田・西梅田駅（以下「梅田3駅」といいます）での乗り継ぎは、30分以内でご利用ください。（定期券・1日乗車券「エンジョイエコカード」を除きます）」と条件を示す。普通券・回数券の運賃やカード残額が発駅から梅田3駅までの運賃に満たない場合は「梅田3駅で乗り継ぎ精算していただかなければ乗り継ぎはできません」「乗継時間の30分を超えた場合や途中で他社線の乗車や入場取り消しを行った場合は、梅田3駅での乗り継ぎに該当せず、新たな乗車として別途運賃が必要となります」「同じ駅での乗り継ぎはできません」とも記す。",
+        "英文": "Osaka Metro allows an out-of-gate transfer between Umeda, Higashi-Umeda and Nishi-Umeda within 30 minutes (commuter passes and the Enjoy Eco Card day ticket excluded). If the fare or card balance does not cover the journey to the three Umeda stations you must settle the transfer inside them; exceeding 30 minutes, entering another railway, or cancelling entry voids the transfer and a new fare applies; and transferring at the same station is not allowed.",
+        "中文": "Osaka Metro 规定在梅田、东梅田、西梅田三站之间可在 30 分钟内办理检票口外换乘（定期票及一日乘车券 Enjoy Eco Card 除外）。若所持单程票、回数券或卡内余额不足以支付至梅田三站的运费，必须在梅田三站办理换乘精算；超过 30 分钟、中途搭乘他社线路或办理进站取消者不适用换乘制度，将另计新运费；同一车站之间不可办理换乘。"
+      },
+      "官网": "https://subway.osakametro.co.jp/guide/fare/various_fares/transit_umeda/noritugi_3.php",
+      "言語注記": "JRおでかけネットの駅情報は日本語のみ。English・中文は同ページの表記（駅番号・のりば・営業時間）を踏まえて当方が執筆し、固有名（みどりの窓口・ICOCA など）は原文の表記をそのまま残した。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪の交通機関案内。私鉄各社の紹介。" }
+        {
+          "标题": "梅田3駅（梅田・東梅田・西梅田駅）の改札外乗継について｜Osaka Metro",
+          "URL": "https://subway.osakametro.co.jp/guide/fare/various_fares/transit_umeda/noritugi_3.php",
+          "原文要旨": "梅田3駅（梅田・東梅田・西梅田駅）の改札外乗継について／梅田・東梅田・西梅田駅（以下「梅田3駅」といいます）での乗り継ぎは、30分以内でご利用ください。／（定期券・1日乗車券「エンジョイエコカード」を除きます）／梅田3駅で乗り継ぎ精算していただかなければ乗り継ぎはできません。／乗継時間の30分を超えた場合や途中で他社線の乗車や入場取り消しを行った場合は、梅田3駅での乗り継ぎに該当せず、新たな乗車として別途運賃が必要となりますので、ご注意ください。／同じ駅での乗り継ぎはできませんので、ご注意ください。",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "地下鉄の運賃（区数制・鉄道駅バリアフリー料金）",
+        "英文": "Osaka Metro fare tables (zone system including the station barrier-free charge)",
+        "中文": "地铁票价（区间制・含车站无障碍协力费）"
+      },
+      "距離": "Osaka Metro 線内共通（大阪駅・梅田駅を含む）",
+      "简介": {
+        "日文": "運賃ページは距離区間ごとの普通運賃を掲げる（1区 190円／2区 3キロメートルをこえる7キロメートル以下 240円／3区 7キロメートルをこえる13キロメートル以下 290円／4区 13キロメートルをこえる19キロメートル以下 340円／5区 19キロメートルをこえる距離 390円）。「※（ ）は、運賃に含まれる鉄道駅バリアフリー料金（円単位）を表します。」と注記し、各駅間の区数は「地下鉄運賃区数表」（PDF）で確認する。通勤定期は1か月 大人 (380) 7,930円〜(380) 12,770円、小児 (190) 3,970円〜と区ごとの表を掲載。障がい者手帳による割引ページは「本人・介護人とも5割引とする 特別割引運賃」や発売場所（普通券 各駅券売機（大人のみ）、各駅自動定期券発行機、定期券・PiTaPa WEB予約サービス での予約が必要）を定める。",
+        "英文": "The fare page lists ordinary fares by distance zone - 190 yen in zone 1, then 240 / 290 / 340 / 390 yen - and explains that the figure in brackets is the railway-station barrier-free charge included in the fare; the number of zones between stations is given in a PDF zone table. Monthly commuter passes for adults run from 7,930 yen (zone 1) to 12,770 yen (zone 5), children's halves. The discount page sets a special fare at 50 per cent for the pass-holder and one attendant with a disability certificate, sold at station machines (adults only) and through the commuter-pass and PiTaPa web reservation service.",
+        "中文": "票价页按距离分区公布普通票价：1区 190日元，2区（超过3公里至7公里）240日元，3区（超过7至13公里）290日元，4区（超过13至19公里）340日元，5区（超过19公里）390日元，并注明括号内金额计入「铁路车站无障碍协力费」；站间区数需查阅 PDF 的「地下鉄運賃区数表」。通勤定期 1 个月成人由 7,930 日元（1区）至 12,770 日元（5区），儿童半价。折扣页规定持障碍者手册者及其陪护人均按五折的特别票价，普通票在各站售票机（限成人）购买，定期券需通过自动发行机或定期券・PiTaPa 网络预约。"
+      },
+      "官网": "https://subway.osakametro.co.jp/guide/fare/fare/price.php",
+      "介绍页": {
+        "日文": "https://subway.osakametro.co.jp/guide/fare/various_fares/fare_discount/josya-ryokin_waribiki.php"
+      },
+      "言語注記": "JRおでかけネットの駅情報は日本語のみ。English・中文は同ページの表記（駅番号・のりば・営業時間）を踏まえて当方が執筆し、固有名（みどりの窓口・ICOCA など）は原文の表記をそのまま残した。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "乗車・定期運賃（地下鉄・大阪シティバス）｜Osaka Metro",
+          "URL": "https://subway.osakametro.co.jp/guide/fare/fare/price.php",
+          "原文要旨": "乗車・定期運賃（地下鉄・大阪シティバス）／2区 3キロメートルをこえる 7キロメートル以下／240円／3区 7キロメートルをこえる 13キロメートル以下／290円／4区 13キロメートルをこえる 19キロメートル以下／340円／5区 19キロメートルをこえる距離／390円／各駅間の区数等は「 地下鉄運賃区数表 」（PDF）をご覧ください。／※（ ）は、運賃に含まれる鉄道駅バリアフリー料金（円単位）を表します。／通勤定期／7,930円／12,770円",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        },
+        {
+          "标题": "障がい者手帳による割引｜Osaka Metro",
+          "URL": "https://subway.osakametro.co.jp/guide/fare/various_fares/fare_discount/josya-ryokin_waribiki.php",
+          "原文要旨": "障がい者手帳による割引／本人・介護人とも5割引とする 特別割引運賃／購入し、乗車される場合に限り割引いたします。／各駅自動定期券発行機（ピンク色の券売機）／定期券・PiTaPa WEB予約サービス での予約が必要です。",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "大阪シティバス（62系統など大阪駅発着の路線）",
+        "英文": "Osaka City Bus (route 62 via Osaka Station)",
+        "中文": "大阪シティ巴士（含经由大阪站的 62 路等线路）"
+      },
+      "距離": "大阪駅バスのりばが起点（大阪城天守閣の公式アクセスに 62系統の経路が記載されている）",
+      "简介": {
+        "日文": "大阪城天守閣の交通アクセスは「大阪シティバス」の停留所として「大阪城大手前、馬場町」を挙げ、【62系統】の経路を「大阪駅～淀屋橋～天満橋～大阪城大手前～馬場町～あべの橋～住吉車庫前」と表記する。運営会社サイトは IKEA鶴浜行バス・関西空港行バス・神戸空港・三宮行バス・USJ行バス・貸切バスをメニューに掲げ、「現在、運行情報はありません。」の運行情報欄、トピックスとして「ハロウィン（10月31日）の『道頓堀橋』停留所の休止について」（2026-10-23）などを掲載。Osaka Metro のバス営業所一覧は各営業所の電話番号と「受付時間 8時から20時」を公表する。",
+        "英文": "The castle's own access page lists the Osaka City Bus stops 'Osakajo Omateshabashi' and 'Babamachi' and gives route 62 as Osaka Station - Yodoyabashi - Tenmabashi - Osakajo Omateshabashi - Babamachi - Abeno-bashi - Sumiyoshi depot. The operator's site offers routes to IKEA Tsuruhama, Kansai Airport, Kobe/Sannomiya and USJ plus chartered buses, shows a live service-information panel (currently empty) and posted a 23 October 2026 notice suspending the Dotonboribashi stop for Halloween; Osaka Metro's depot list gives phone numbers and an 8:00-20:00 reception window.",
+        "中文": "大阪城天守阁官方交通页列出大阪シティ巴士「大阪城大手前、马场町」站，并注明 62 系统 route 为「大阪駅～淀屋桥～天满桥～大阪城大手前～马场町～阿倍野桥～住吉车库前」。运营公司网站菜单包括 IKEA鹤滨、关西机场、神户三宫、USJ 及包车线路，运行情报栏当日显示「暂无运行情报」，topics 于 2026-10-23 公告万圣节期间道顿堀桥车站暂停停靠。Osaka Metro 巴士乘务所一览公布各所电话与 8:00～20:00 的受理时间。"
+      },
+      "官网": "https://citybus-osaka.co.jp/",
+      "介绍页": {
+        "日文": "https://bus.osakametro.co.jp/sales_office/"
+      },
+      "言語注記": "運営会社のサイトは日本語のみ（English・中文欄は当方の執筆）。停留所名・系統番号は原文の表記をそのまま維持した。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "交通アクセス Access｜大阪城天守閣",
+          "URL": "https://www.osakacastle.net/access/",
+          "原文要旨": "大阪シティバス／大阪城大手前、馬場町／【62系統】／大阪駅～淀屋橋～天満橋～大阪城大手前～馬場町～あべの橋～住吉車庫前",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        },
+        {
+          "标题": "大阪シティバス（トップ）",
+          "URL": "https://citybus-osaka.co.jp/",
+          "原文要旨": "IKEA鶴浜行バス 関西空港行バス 神戸空港・三宮行バス USJ行バス 貸切バス／運行情報 現在、運行情報はありません。／ハロウィン（10月31日）の「道頓堀橋」停留所の休止について／企業情報 事業内容 お問い合わせ 採用情報",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        },
+        {
+          "标题": "バス営業所一覧｜Osaka Metro",
+          "URL": "https://bus.osakametro.co.jp/sales_office/",
+          "原文要旨": "バス営業所一覧／受付時間 8時から20時",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "大阪駅（梅田）から新大阪・各空港へのアクセス",
+        "英文": "Getting to Shin-Osaka and the airports from Osaka (Umeda)",
+        "中文": "从大阪站（梅田）前往新大阪与各机场"
+      },
+      "距離": "グランフロント大阪の ACCESS ページに記載された所要表（大阪駅直結施設が自社サイトに掲載する他社線・バスの所要）",
+      "简介": {
+        "日文": "施設公式の交通アクセスは所在地を「〒530-0011 うめきた広場：大阪府大阪市北区大深町4-1」「南館：大阪府大阪市北区大深町4-20」「北館：大阪府大阪市北区大深町3-1」とし、新大阪駅からは「JR 東海道本線 新大阪駅 大阪駅 JR東海道本線 快速 約 4 分」「Osaka Metro 御堂筋線 新大阪駅 梅田駅 … 約 7 分」、大阪国際空港（伊丹）からは「大阪モノレール 大阪空港駅 蛍池駅 … 約 3 分」「阪急電鉄乗り換え 蛍池駅 大阪梅田駅 阪急電鉄 約 15 分」「空港バス 大阪空港 梅田周辺バス停 空港バス 25 分 30 分」、関西国際空港からは「南海電鉄 関西空港駅 難波駅 南海本線 特急ラピート 34 分 39 分」「Osaka Metro乗り換え なんば駅 梅田駅」と記す。Osaka Metro 法人トップも地下鉄の運行状況の時刻と遅延証明書を掲げ、運行情報の確認先を示す。",
+        "英文": "The access page of Grand Front Osaka (a facility directly above Osaka Station) tabulates journeys published on the operator's own site: Shin-Osaka to Osaka in about 4 minutes on the JR Tokaido Line rapid, or about 7 minutes on the Midosuji Line; for Itami airport, the Osaka Monorail to Toyonaka/Ikehata in about 3 minutes plus about 15 minutes on the Hankyu line to Osaka-Umeda, or an airport bus of 25-30 minutes to the Umeda bus stops; for Kansai Airport, Nankai's limited express Rap:t from Kansai Airport to Namba in 34-39 minutes and then a Midosuji Line transfer to Umeda. Osaka Metro's corporate page provides live running status and delay certificates.",
+        "中文": "紧邻大阪站的 Grand Front Osaka 官网 ACCESS 页给出其站点的他社线・巴士所需时间：新大阪站至大阪站 JR 东海道本线快速约 4 分，或御堂筋线新大阪站至梅田站约 7 分；前往大阪国际机场（伊丹）可乘大阪单轨电车约 3 分至萤池后转阪急约 15 分抵大阪梅田，或乘机场巴士 25〜30 分至梅田周边站点；前往关西国际机场可乘南海本线特急 rapi:t 34〜39 分至难波，再转御堂筋线至梅田。Osaka Metro 法人首页提供实时运行状况与晚点证明。"
+      },
+      "官网": "https://www.grandfront-osaka.jp/access/",
+      "言語注記": "施設（民間事業者）の自社ページに載った他社線の所要時間であり、各鉄道事業者のダイヤ改正後の数値は未確認。English・中文は当方の執筆。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "ACCESS アクセス｜グランフロント大阪",
+          "URL": "https://www.grandfront-osaka.jp/access/",
+          "原文要旨": "ACCESS アクセス／所在地 〒530-0011 うめきた広場：大阪府大阪市北区大深町4-1／南館：大阪府大阪市北区大深町4-20／北館：大阪府大阪市北区大深町3-1／新大阪駅より／大阪国際空港(伊丹空港)より／空港バス 大阪空港 梅田周辺バス停 空港バス 25 分 30 分／関西国際空港より／南海電鉄 関西空港駅 難波駅 南海本線 特急ラピート 34 分 39 分／Osaka Metro乗り換え なんば駅 梅田駅",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        },
+        {
+          "标题": "Osaka Metro 地下鉄のご案内（案内メニュー）",
+          "URL": "https://subway.osakametro.co.jp/",
+          "原文要旨": "臨時運行情報／各駅メンテナンス情報／駅トイレリニューアル情報／案内サービス",
+          "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+        }
       ]
     }
   ],
   "购物": [
     {
-      "名称": { "日文": "大丸梅田店", "英文": "Daimaru Umeda Store", "中文": "大丸梅田店" },
-      "距離": "JR大阪駅直結（ノースゲートビル）",
-      "简介": {
-        "日文": "大阪駅ノースゲートビルに入居する百貨店。ファッション・コスメ・グルメフロアが充実。外国人観光客向け免税サービスも対応。",
-        "英文": "A department store in the North Gate Building connected to Osaka Station. Extensive fashion, cosmetics, and gourmet floors. Tax-free service available for foreign tourists.",
-        "中文": "位于与大阪站直连的北门大楼的百货店。时尚、化妆品、美食楼层齐全。提供面向外国游客的免税服务。"
+      "名称": {
+        "日文": "LUCUA osaka（東館 LUCUA・西館 LUCUA 1100／大阪駅直結）",
+        "英文": "LUCUA osaka (east building LUCUA, west building LUCUA ire)",
+        "中文": "LUCUA osaka（东馆 LUCUA・西馆 LUCUA 1100・与大阪站直连）"
       },
+      "距離": "駅直結（出典ページに「大阪駅直結」、アクセスに「より徒歩すぐ」の表記）",
+      "简介": {
+        "日文": "大阪観光局の施設ページは「約500 店舗が集結 する大阪駅直結、国内最大級のファッションビル」と紹介し、「ショッピングはもちろん、レストランも充実しており、 10F と B2F には、関西グルメから、路地裏の名店まで楽しめる飲食ゾーンを展開」「手土産にぴったりなスイーツショップも充実しており、ここだけで欲しいものがすべて揃うワンストップショッピングを楽しめる。」を続ける。営業時間は「B1F～9F ショッピングフロア 10：30～20：30」「10Fルクアダイニング 11：00～23：00」「B2Fバルチカ＆ルクアフードホール 11：00～23：00」で、「※一部営業時間異なるショップあり」「休日 不定休」。自社トップ www.lucua.jp は「ルクアの知らないルクアへ、リニューアル、はじめます。」を掲出し、上部に「重要なお知らせ 11/17(火)～23(月･祝) ルクア サウス13Fにご来店予定のお客様へお知らせ」を出すほか、検索軸を「#ギフト＆プチギフト #スイーツ #ときめくアクセサリー #WOMANアイテム #MENSアイテム #くつとカバン #暮らし充実アイテム #キッズ＆ベビー #ビューティ #NEW SHOP #新作教えて #自分へのご褒美」とInterest別に並べる。※自社トップに English・中文ページは本セッションで確認していない。",
+        "英文": "The tourism bureau page calls it a fashion building directly connected to Osaka Station that gathers roughly five hundred shops, notes restaurant floors on the tenth floor and basement two running from Kansai specialities to hidden back-street names, and gives shopping hours of 10:30 to 20:30 on floors basement one to nine with the dining floors from 11:00 to 23:00, subject to change for some shops and with no fixed holiday. The operator's own front page carries a refurbishment campaign and a notice for customers visiting the south building on the thirteenth floor between 17 and 23 November, and indexes shops by interest tags from gifts, sweets and accessories to kids, beauty and new openings.",
+        "中文": "大阪观光局的设施页把它介绍为“约500家店铺云集、与大阪站直连的国内最大规模时尚大楼”，并称“不仅有购物，餐饮也十分充实，10F与B2F设有可从关西美食一路吃到小巷名店的饮食区”“伴手礼甜点店也很齐全，可在此一站购齐”。营业时间为“B1F～9F 购物楼层 10:30～20:30”“10F LUCUA Dining 11:00～23:00”“B2F 巴尔蒂卡＆LUCUA美食广场 11:00～23:00”，并注明“※部分店铺营业时间不同”“定休日 不定休”。自营首页 www.lucua.jp 打出“迈向你所不知道的 LUCUA，翻新启动”，顶部为“重要通知：关于11/17（火）～23（月・祝）计划到访 LUCUA South 13F 的顾客”，并按“#礼物・小礼 #甜点 #令人心动饰品 #女装 #男装 #鞋与包 #居家 #儿童・婴儿 #美妆 #新店 #新品 #犒赏自己”等兴趣标签检索。※本次未在本次打开的自营首页上看到 English・中文页面。"
+      },
+      "住所": "〒530-8558 大阪市北区梅田3-1-3（出典ページ記載）",
+      "电话": "06-6151-1111",
+      "営業時間": "B1F～9F 10：30～20：30／10F・B2F 11：00～23：00（※一部営業時間異なるショップあり・不定休）",
+      "官网": "https://www.lucua.jp/",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/lucua-1100/"
+      },
+      "言語注記": "LUCUA osaka は自社公式 https://www.lucua.jp/（HTTP 200）を持つが、English・中文の施設詳細ページは未開封。English・中文は大阪観光局の英語ページ（公式）と当方の執筆で補った。",
+      "検証日": "2026-10-23",
       "出典": [
-        { "标题": "大阪観光公式ガイド OSAKA-INFO", "URL": "https://osaka-info.jp/", "原文要旨": "大阪のショッピング情報。" }
+        {
+          "标题": "LUCUA osaka｜OSAKA-INFO（大阪観光局）",
+          "URL": "https://osaka-info.jp/spot/lucua-1100/",
+          "原文要旨": "約500 店舗が集結 する大阪駅直結、国内最大級のファッションビル／ショッピングはもちろん、レストランも充実しており、 10F と B2F には、関西グルメから、路地裏の名店まで楽しめる飲食ゾーンを展開／B1F～9F ショッピングフロア 10：30～20：30／10Fルクアダイニング 11：00～23：00／B2Fバルチカ＆ルクアフードホール 11：00～23：00／大阪市北区梅田3-1-3／06-6151-1111",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "LUCUA Osaka｜OSAKA-INFO English",
+          "URL": "https://osaka-info.jp/en/spot/lucua-1100/",
+          "原文要旨": "is directly connected to Osaka Station and is one of the largest fashion buildings in Japan, with approximately 500 stores／B1F-9F Shopping Floors 10:30-20:30 10F Lucua Dining 11:00-23:00 B2F Baltica & Lucua Food Hall 11:00-23:00",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "LUCUA osaka｜公式サイト トップ",
+          "URL": "https://www.lucua.jp/",
+          "原文要旨": "ルクアの知らないルクアへ、リニューアル、はじめます。／重要なお知らせ 11/17(火)～23(月･祝) ルクア サウス13Fにご来店予定のお客様へお知らせ／#ギフト＆プチギフト #スイーツ #ときめくアクセサリー #WOMANアイテム #MENSアイテム",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "ヨドバシ梅田タワー（LINKS UMEDA／HOTEL HANKYU RESPIRE OSAKA）",
+        "英文": "Yodobashi Umeda Tower with LINKS UMEDA and Hotel Hankyu Respire Osaka",
+        "中文": "ヨドバシ梅田タワー（LINKS UMEDA／阪急Respire酒店）"
+      },
+      "距離": "大阪駅北口（出典ページに「JR「大阪駅」…から徒歩5分」の表記／Osaka Metro御堂筋線「梅田駅」北口改札すぐ）",
+      "简介": {
+        "日文": "大阪観光局の施設ページは「つながる、ひろがる、をテーマにした大阪駅北口のシンボル」を掲げ、「キタの玄関口・大阪駅前にそびえる大型商業施設「ヨドバシマルチメディア梅田」に、様々なジャンルの約 200 店舗からなる商業施設」「約 1000 室のホテル」が加わって「ヨドバシ梅田タワー」が2019年11月オープンしたと記す（原文は名称を括弧付きで列挙）。食の施設として「賑やかマルシェ」をテーマにした「梅田エリア最大級のマルシェ」オイシイもの横丁などを挙げ、営業時間は【ヨドバシマルチメディア梅田】9：30～22：00、LINKS MARCHE Eat&Walk 9：30～22：00、オイシイもの横丁 11：00～24：00（ラストオーダー 23：30）、１F～７F 10：00～21：00、８F 11：00～23：00、１F バスインフォメーション SAKURA BUS SQUARE 24時間営業。所在地は大阪市北区大深町1-1、電話 06-4802-1010。観光局の公式英語モデルコースは JR大阪駅から「7minutes Walk」で新うめきたのスカイガーデン、続いて Yodobashi Umeda Tower (UMEDA LINKS) と歩く順路を組む。※自社公式 www.yodobashi-umeda.com（同ページ記載の URL）は本セッションで HTTP 000 と接続不能で、本文を開けなかったため 官网 に掲げず、紹介ページは大阪観光局のページとした。",
+        "英文": "The tourism bureau describes the tower as a symbol of the north gate of Osaka Station built on the theme of linking and widening: the electronics hall that already stood before the station gained a shopping complex of about two hundred shops and a hotel of about a thousand rooms, opening as Yodobashi Umeda Tower in November 2019. Its market floor, food alley and shop floors carry separate hours - 9:30 to 22:00 for the multimedia hall, 11:00 to 24:00 with last order at 23:30 for the food alley, 10:00 to 21:00 on floors one to seven, 11:00 to 23:00 on eight, and a bus information counter open round the clock - at 1-1 Ofukacho, Kita-ku, telephone 06-4802-1010. The bureau's English itinerary counts seven minutes on foot from JR Osaka Station to the Sky Garden and then on to this tower. The operator's own address listed on the bureau page could not be opened in this session (connection failed), so no official site is quoted here and the bureau page stands as the introduction.",
+        "中文": "大阪观光局设施页以“连接、拓展”为主题，称其为“大阪站北口的标志”：原矗立在北区门户・大阪站前的大型商业设施（多媒体梅田）加入了约200家店铺的商场与约1000间客房的酒店，于2019年11月作为“ヨドバシ梅田タワー”开业（原文以括弧列举各馆名称）。饮食设施含以“热闹市集”为主题的梅田地区最大级市集与“美味横丁”；营业时间为多媒体梅田 9:30～22:00、LINKS MARCHE Eat&Walk 9:30～22:00、美味横丁 11:00～24:00（最后点单23:30）、1F～7F 10:00～21:00、8F 11:00～23:00、1F巴士案内 SAKURA BUS SQUARE 24小时营业。地址大阪市北区大深町1-1，电话 06-4802-1010。观光局官方英文モデルコース把“从JR大阪站步行7分钟”到 Sky Garden、再到本塔的动线列为第一站。※其官网地址（观光局页所载 www.yodobashi-umeda.com）本次连接失败（HTTP 000）未能打开正文，故未列入 官网，改以大阪观光局页面作为介绍页。"
+      },
+      "住所": "〒530-0011 大阪市北区大深町1-1（出典ページ記載）",
+      "电话": "06-4802-1010",
+      "営業時間": "ヨドバシマルチメディア梅田 9：30～22：00／LINKS UMEDA 各階・時間帯別（1F～7F 10：00～21：00、8F 11：00～23：00、オイシイもの横丁 11：00～24：00、1F SAKURA BUS SQUARE 24時間）",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/yodobashi-umeda/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "ヨドバシ梅田タワー｜OSAKA-INFO（大阪観光局）",
+          "URL": "https://osaka-info.jp/spot/yodobashi-umeda/",
+          "原文要旨": "つながる、ひろがる、をテーマにした大阪駅北口のシンボル／キタの玄関口・大阪駅前にそびえる大型商業施設／様々なジャンルの約 200 店舗からなる商業施設／約 1000 室のホテル／が2019年秋、オープン／【ヨドバシマルチメディア梅田】9：30～22：00／・オイシイもの横丁 11：00～24：00（ラストオーダー 23：30）／・１F バスインフォメーション SAKURA BUS SQUARE 24時間営業／大阪市北区大深町1-1／06-4802-1010",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Yodobashi Umeda Tower｜OSAKA-INFO English",
+          "URL": "https://osaka-info.jp/en/spot/yodobashi-umeda/",
+          "原文要旨": "a new symbol of the north exit of Osaka Station, opened in November 2019／a shopping complex with around 200 stores across a variety of genres／a hotel with around 1,000 rooms／[LINKS UMEDA] ・LINKS MARCHE Eat & Walk 9:30-22:00",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Spectacular views of Kita! Explore Kita from the sky and land｜OSAKA-INFO English (Itineraries)",
+          "URL": "https://osaka-info.jp/en/modelcourse/course-kita-sky/",
+          "原文要旨": "START JR Osaka Station 7minutes Walk Shin-Umeda City Sky Garden & Naka Nature Forest／Yodobashi Umeda Tower (UMEDA LINKS) Chayamachi area",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "グランフロント大阪 ショップ＆レストラン（うめきた・北館ウメキタフロア）",
+        "英文": "Grand Front Osaka shops and restaurants, with the Ume Kita food floor",
+        "中文": "Grand Front大阪 商业与餐饮（梅田北馆美食楼层）"
+      },
+      "距離": "大阪駅駅前に立地（出典ページに「西日本最大のターミナル『大阪・梅田』の駅前に」の表記）",
+      "简介": {
+        "日文": "大阪観光局の施設ページは「西日本最大のターミナル『大阪・梅田』の駅前に、ファッションから雑貨、ライフスタイル、ビューティー、カフェ、レストラン、バーまで、さまざまなお店が約260店舗もそろった国内最大規模のショッピングタウン」と説明し、「また、北館6階のUMEKITA FLOORではバラエティあふれる14店舗がランチから夜まで楽しめる！」を添える。営業時間は SHOPS 11:00〜21:00、RESTAURANTS 11:00〜23:00（※一部営業時間が異なる店舗があります）、休日不定休、所在地は大阪府大阪市北区大深町4-1（うめきた広場）、4-20（南館）、3-1（北館）、電話 06-6372-6300（受付時間 11:00～18:00）。自社トップ（www.grandfront-osaka.jp）は「ショップ＆レストラン ファッションから雑貨、ライフスタイル、ビューティー、 カフェ、レストラン、バーなど おさんぽ気分のショッピングが 楽しめます。」「ナレッジキャピタル 知る、遊ぶ、学ぶ、輝く。」、そして「モダンで落ち着いた雰囲気のフードフロア」うめきたフロアについて「すべての店でお好きなメニューをオーダーできるので、 多彩な料理を ひとつのテーブルでお楽しみいただけます。」と書く。アクセスページは「新大阪駅より JR 東海道本線 新大阪駅 大阪駅 JR東海道本線 快速 約 4 分」「京都方面より JR 東海道本線 京都駅 大阪駅 JR東海道本線 新快速 約 30 分」などを掲げ、「周辺道路/駐車場の混雑が予想されますので、ご来場の際には電車・バスなどの公共交通機関をご利用ください。」と呼びかける。ショップ検索頁は「SHOP SEARCH」「カテゴリからさがす」で RESTAURANT & CAFE／SHOP & SERVICE／FOOD／KNOWLEDGE CAPITAL／HOTEL の5分類。■重要：商業施設公式 www.gfo-sc.jp は 2026年10月23日時点で「緊急メンテナンスによる ウェブサイトの停止について 2026年10月22日」「現在、緊急セキュリティ対策のため、 ウェブサイトを停止し、メンテナンスを実施しております」と告知しており、同ドメインの販売・飲食情報はその日引用できない。",
+        "英文": "The tourism bureau calls it the country's largest shopping town, about two hundred stores for fashion, goods, lifestyle, beauty, cafes, restaurants and bars standing in front of the largest terminal in western Japan, with fourteen varied eateries on the sixth floor of the north building open from lunch to night, shops from 11:00 to 21:00, restaurants to 23:00, no fixed holiday, and three addresses across the plaza, south and north buildings in Ofukacho, Kita-ku, telephone 06-6372-6300 with reception 11:00 to 18:00. The corporate site adds a knowledge capital district and a food floor where every restaurant takes orders so that a table can share many dishes; its access page puts Sh Shin-Osaka four minutes away by rapid train and Kyoto about thirty minutes by new rapid, and asks visitors to use public transport. A shop index searches by restaurant and cafe, shop and service, food, knowledge capital and hotel. Note that the shopping and restaurant site itself was out of service on the day of verification, publishing only a notice that the site had been stopped for emergency security maintenance from 22 October 2026, so no shop listing from that domain is quoted here.",
+        "中文": "大阪观光局设施页称其为“位于西日本最大枢纽『大阪・梅田』站前，从时装、杂货、生活方式、美妆到咖啡、餐厅、酒吧共约260家店铺的国内最大规模购物小镇”，并补充“北馆6楼的 UMEKITA FLOOR 有14家风格各异的店铺可从午餐待到夜晚”。营业时间为 SHOPS 11:00〜21:00、RESTAURANTS 11:00〜23:00（※部分店铺不同），不定休，地址为大阪府大阪市北区大深町4-1（うめきた广场）、4-20（南馆）、3-1（北馆），电话 06-6372-6300（受理时间 11:00～18:00）。公司官网另设“ナレッジキャピタル 知る、遊ぶ、学ぶ、輝く”栏目，并把“现代而沉稳氛围的美食楼层”描述为“每家店都可单独点单，因此一桌人可共享多样料理”；交通页写有“从新大阪站乘 JR 东海道本线快速约4分”“从京都乘 JR 东海道本线新快速约30分”，并提醒“周边道路与停车场预计拥挤，来访请乘坐电车・巴士等公共交通”。店铺检索页按“Restaurant & Cafe／Shop & Service／Food／Knowledge Capital／Hotel”5类划分。■重要：商业设施官网 www.gfo-sc.jp 在验证当日（2026年10月23日）仅显示“因紧急维护网站停止运营（2026年10月22日）…目前正在实施紧急安全对策，停止网站并进行维护”，故当日无法引用该域名的店铺与餐饮信息。"
+      },
+      "住所": "〒530-0011 大阪府大阪市北区大深町4-1（うめきた広場）・4-20（南館）・3-1（北館）",
+      "电话": "06-6372-6300（受付時間：11:00～18:00／出典ページ記載）",
+      "営業時間": "SHOPS 11:00〜21:00／RESTAURANTS 11:00〜23:00（※一部営業時間が異なる店舗があります・不定休）",
+      "官网": "https://www.grandfront-osaka.jp/",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/grand-front-osaka-shop-restaurant/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "グランフロント大阪ショップ＆レストラン｜OSAKA-INFO（大阪観光局）",
+          "URL": "https://osaka-info.jp/spot/grand-front-osaka-shop-restaurant/",
+          "原文要旨": "西日本最大のターミナル『大阪・梅田』の駅前に、ファッションから雑貨、ライフスタイル、ビューティー、カフェ、レストラン、バーまで、さまざまなお店が約260店舗もそろった国内最大規模のショッピングタウン／また、北館6階のUMEKITA FLOORではバラエティあふれる14店舗がランチから夜まで楽しめる！／SHOPS 11:00〜21:00／RESTAURANTS 11:00〜23:00／大阪府大阪市北区大深町4-1（うめきた広場）、4-20（南館）、3-1（北館）",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Grand Front Osaka Shops & Restaurants｜OSAKA-INFO English",
+          "URL": "https://osaka-info.jp/en/spot/grand-front-osaka-shop-restaurant/",
+          "原文要旨": "Located in front of Osaka Umeda Station, the largest terminal in western Japan, is the largest shopping town in the country, with approximately 260 stores／on the 6th floor of the North Building, UMEKITA FLOOR, you can enjoy a variety of 14 stores from lunch to dinner!",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "グランフロント大阪｜トップ（www.grandfront-osaka.jp）",
+          "URL": "https://www.grandfront-osaka.jp/",
+          "原文要旨": "ショップ＆レストラン ファッションから雑貨、ライフスタイル、ビューティー、 カフェ、レストラン、バーなど おさんぽ気分のショッピングが 楽しめます。／ナレッジキャピタル 知る、遊ぶ、学ぶ、輝く。／モダンで落ち着いた雰囲気のフードフロア／すべての店でお好きなメニューをオーダーできるので、 多彩な料理を ひとつのテーブルでお楽しみいただけます。",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        },
+        {
+          "标题": "ACCESS｜グランフロント大阪",
+          "URL": "https://www.grandfront-osaka.jp/access/",
+          "原文要旨": "新大阪駅より JR 東海道本線 新大阪駅 大阪駅 JR東海道本線 快速 約 4 分／京都方面より JR 東海道本線 京都駅 大阪駅 JR東海道本線 新快速 約 30 分／周辺道路/駐車場の混雑が予想されますので、ご来場の際には電車・バスなどの公共交通機関をご利用ください。",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        },
+        {
+          "标题": "SHOP SEARCH｜グランフロント大阪",
+          "URL": "https://www.grandfront-osaka.jp/shop/",
+          "原文要旨": "SHOP SEARCH ショップ検索 カテゴリからさがす",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        },
+        {
+          "标题": "グランフロント大阪（www.gfo-sc.jp・メンテナンス告知）",
+          "URL": "https://www.gfo-sc.jp/",
+          "原文要旨": "緊急メンテナンスによる ウェブサイトの停止について 2026年10月22日／現在、緊急セキュリティ対策のため、 ウェブサイトを停止し、メンテナンスを実施しております",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "阪神梅田本店（食料品に強い百貨店・8階タイガースショップ）",
+        "英文": "Hanshin Umeda main store, a department store noted for its food floors",
+        "中文": "阪神梅田本店（以食品见长的百货店・8楼虎队专卖店）"
+      },
+      "距離": "阪神「大阪梅田駅」直結（出典ページに「阪神「大阪梅田駅」直結」／JR「大阪駅」から「下車すぐ」の表記）",
+      "简介": {
+        "日文": "大阪観光局の施設ページは「食料品に強い」デパートとうたい、「地下1階の阪神食品館」と「8階の阪神タイガースショップ TEAM SHOP CLUBHOUSE」がにぎわうと書く。本文は「大阪・梅田に位置する、阪神梅田本店。」「食の阪神」として定評があり、地下1階の食料品フロアには阪神百貨店名物の「いか焼き」を始め、阪神梅田本店にしかない洋菓子店、活気があり鮮度の高い商品を販売する鮮魚店、日本各地のグルメ商品を取り寄せた店が並び、「一流のレストランから立ち食い店まで、飲食店の数も豊富」「食のイベント会場」食祭テラスでは毎週楽しい食のイベントを開催と続ける。物販では「1,000アイテム以上のグッズがそろい、阪神ファンに人気が高い」。営業時間は「連日午前10時～午後8時」（※変更することがあるため公式の確認を促す表記あり）、休日不定休、所在地 大阪市北区梅田1-13-13、電話 06‐6345‐1201。■自社公式（hanshin-dept.jp/hshonten/）は 200 で本文を開封済みで、トップに「阪神 秋の北海道市場 10月14日（水）～26日（月）＜最終日は午後5時終了＞ │ 8階 催場」「文具女子博 pop-up in 梅田2026 10月28日（水）～11月3日（火・祝）＜最終日は午後5時20分終了＞│ 8階 催場」「ニッポン食むすび“輪島の食祭” 輪島がいまできること 10月21日（水）～26日（月）│ 1階 食祭テラス」を並べ、営業時間を「連日 午前10時～午後8時」としたうえで「※一部、営業時間が異なる売場がございます」とし、「■9階 阪神大食堂 ●フードホール：午前11時～午後10時 ラストオーダー 午後9時30分」「8階 医療法人翠奏会 ウェルスリープクリニック大阪」等の時短売場を列挙する。同サイト内には売場別の営業時間・レストラン案内・アクセスの各案内があるが、個別ページの URL を本セッションでは特定できなかった（アクセス頁は 404）。",
+        "英文": "The bureau's page presents it as a department store strong in food, where the basement grocery floor and the eighth-floor Tigers shop are always busy. It traces the reputation - a grilled squid specialty of the house, a western confectioner found only here, a fishmonger noted for freshness, regional food shops, and restaurants ranging from first-class dining to standing counters, with a food-event terrace hosting weekly events; the Tigers shop alone carries more than a thousand items. Opening is 10 a.m. to 8 p.m. every day with no fixed holiday, at 1-13-13 Umeda, Kita-ku, telephone 06-6345-1201. The store's own front page, opened the same day, advertises an autumn Hokkaido fair on the eighth-floor hall from 14 to 26 October, a stationery fair from 28 October to 3 November, and a Wajima food event on the first-floor terrace from 21 to 26 October; it repeats the ten-to-eight hours with a note that some floors differ, puts the ninth-floor food hall at 11:00 to 22:00 with last order at 21:30, and lists a sleep clinic on the eighth floor with its own shorter hours.",
+        "中文": "大阪观光局设施页以“食品见长”的百货店为标语，称地下1楼的“阪神食品馆”与8楼的“阪神虎专卖店 TEAM SHOP CLUBHOUSE”人气旺盛；正文写其地处大阪・梅田，素有“食之阪神”口碑，地下1楼食品层有阪神百货名物“乌贼烧”、仅此一家西式甜点店、新鲜鱼类与日本各地美食店铺，“从一流餐厅到立食小店，餐饮店数量丰富”，食品活动场“食祭露台”每周举办活动；虎队专卖店“集结1000种以上周边，深受阪神球迷喜爱”。营业时间“连日 上午10时～下午8时”（提示可能变更，请确认官网），不定休，地址 大阪市北区梅田1-13-13，电话 06‐6345‐1201。■自营官网（hanshin-dept.jp/hshonten/）已以 200 打开正文，首页并列“阪神 秋之北海道市场 10月14日～26日（最后一天下午5时结束）│8楼会场”“文具女子博 pop-up in 梅田2026 10月28日～11月3日│8楼会场”“日本食之连系‘轮岛食祭’10月21日～26日│1楼食祭露台”，营业时间为“连日 上午10时～下午8时”并注“※部分卖场时间不同”，另列“9楼阪神大食堂・美食广场 上午11时～下午10时（最后点单 下午9时30分）”“8楼 医疗法人翠奏会 Wellsleep诊所大阪”等时短卖场。本次未能确定该站卖场别营业时间页与个别餐厅页 URL（访问页返回 404）。"
+      },
+      "住所": "〒530-8224 大阪市北区梅田1-13-13（出典ページ記載）",
+      "电话": "06‐6345‐1201",
+      "営業時間": "連日 午前10時～午後8時（※一部営業時間が異なる売場あり・不定休／自社トップに9階フードホールは午前11時～午後10時の表記）",
+      "官网": "https://www.hanshin-dept.jp/hshonten/",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/hanshin-department-store-umeda/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "阪神梅田本店｜OSAKA-INFO（大阪観光局）",
+          "URL": "https://osaka-info.jp/spot/hanshin-department-store-umeda/",
+          "原文要旨": "食料品に強い／地下1階の阪神食品館／8階の阪神タイガースショップ TEAM SHOP CLUBHOUSE／大阪・梅田に位置する、阪神梅田本店。／食の阪神／いか焼き／一流のレストランから立ち食い店まで、飲食店の数も豊富／食のイベント会場／食祭テラス／1,000アイテム以上のグッズがそろい、阪神ファンに人気が高い／連日午前10時～午後8時／大阪市北区梅田1-13-13／06‐6345‐1201",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Hanshin Umeda Main Store｜OSAKA-INFO English",
+          "URL": "https://osaka-info.jp/en/spot/hanshin-department-store-umeda/",
+          "原文要旨": "This department store specializes in food products. The Hanshin Food Hall on the basement floor and the Hanshin Tigers Shop TEAM SHOP CLUBHOUSE on the 8th floor are always bustling with customers.／Every day from 10am to 8pm",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "阪神梅田本店｜トップページ（自社公式）",
+          "URL": "https://www.hanshin-dept.jp/hshonten/",
+          "原文要旨": "阪神 秋の北海道市場 10月14日（水）～26日（月）＜最終日は午後5時終了＞ │ 8階 催場／文具女子博 pop-up in 梅田2026 10月28日（水）～11月3日（火・祝）＜最終日は午後5時20分終了＞│ 8階 催場／ニッポン食むすび“輪島の食祭”／連日 午前10時～午後8時／※一部、営業時間が異なる売場がございます。／■9階 阪神大食堂 ●フードホール：午前11時～午後10時／8階 医療法人翠奏会 ウェルスリープクリニック大阪",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        }
       ]
     }
   ],
-  "美食": [],
-  "无障碍": { "信息": null, "出典": [] },
-  "车站信息": {
-    "地址": "大阪府大阪市北区梅田3丁目1-1",
-    "开业": "1874年5月11日（初代大阪駅）",
-    "特記": "大阪市の中心駅。JR東海道本線・大阪環状線・福知山線、Osaka Metro御堂筋線、阪急・阪神・JR各線が発着する西日本最大のターミナル。1日あたりの乗車人員は約40万人（全鉄道事業者合計）。キタ（梅田）エリアの中心。"
+  "美食": [
+    {
+      "名称": {
+        "日文": "中国料理 泰豊宮（ヒルトンプラザ・イースト 7F）",
+        "英文": "Chinese restaurant in Hilton Plaza East on the seventh floor",
+        "中文": "中国料理 泰丰宫（Hilton Plaza East 7F）"
+      },
+      "距離": "大阪駅・北新地各駅方面から「徒歩すぐ～12分」（出典ページのアクセス表記）",
+      "简介": {
+        "日文": "大阪観光局の施設ページは「長い歴史を持つ中国料理店の技術と精神を受け継ぎ、新生」泰豊宮として始動したと書き、「大阪・梅田、ヒルトンプラザ イースト 7 階にある中国料理」泰豊宮（たいほうきゅう）が「大阪聘珍樓で受け継がれてきた広東料理の技とおもてなしの心を大切にする、本格広東料理店です。」と説明する。「店内には大小 17 室の個室をご用意。梅田での接待・会食、ご家族でのお食事、記念日から団体でのご宴会まで、幅広いシーンでご利用いただけます。」と続け、基本情報の欄に 駐車場／バリアフリー／インターネット の項目を立て、営業時間【ランチ】11:00～15:00（LO.14:00）、【ディナー】17:00～22:00（LO.21:00）、休日不定休、所在地 〒530-0001 大阪市北区梅田1-8-16 ヒルトンプラザ・イースト 7F、電話 050-3666-5006 を掲げる。※「バリアフリー」は項目名のみで、設備内容はこのページに記載がない。自社公式（taihoukyu.com）は「雅趣きわだつ中国料理、 稀少で上質な味わい」「旬の食材を選び、手間を惜しまず、火入れを一瞬で見極める」と構え、「2025年5月に惜しまれつつ長い歴史に幕を閉じた 老舗中国料理店の 調理技術、サービス精神を 受け継ぐために 旧店舗のスタッフが集結し」と現在の店成立を説明、季節展開として「秋鮭、梨、松茸、栗、柿など、季節の味覚を取り入れた点心や中国料理、中華スイーツを、香り豊かな中国茶とともに。」を掲げる。",
+        "英文": "The bureau page presents a Cantonese restaurant on the seventh floor of Hilton Plaza East in Umeda that carries on the technique and hospitality inherited from an Osaka house of long standing, offers seventeen private rooms of various sizes for business entertaining, family meals, anniversaries and group banquets, serves lunch from 11:00 to 15:00 with last order at 14:00 and dinner from 17:00 to 22:00 with last order at 21:00, has no fixed holiday and sits at 1-8-16 Umeda, Kita-ku, telephone 050-3666-5006; its information block lists parking, barrier-free and internet as headings, and since the page gives no details under them this file records none. The restaurant's own site speaks of refined Chinese cooking with rare, high-quality flavour, of choosing seasonal produce and judging the fire in an instant, of former staff of the long-established house that closed in May 2025 gathering to carry on its technique and service, and of an autumn menu with salmon, pear, matsutake, chestnut and persimmon served with Chinese tea.",
+        "中文": "大阪观光局设施页写其为“传承历史悠久中餐馆技艺与精神、以新生泰丰宫启程”的餐厅，位于“大阪・梅田 Hilton Plaza East 7楼”，“珍视大阪聘珍楼传承下来的粤菜技艺与待客之心的正宗粤菜馆”；“店内备有大小17间包厢”，适用于梅田的宴请会食、家庭聚餐、纪念日到团体宴会。基本信息栏列 停车场／无障碍／网络 项目，营业时间【午餐】11:00～15:00（最后点单14:00）、【晚餐】17:00～22:00（最后点单21:00），不定休，地址 〒530-0001 大阪市北区梅田1-8-16 Hilton Plaza East 7F，电话 050-3666-5006。※“无障碍”仅为项目名，该页未记载具体设备，故本文件不作记载。自营官网（taihoukyu.com）以“雅致出众的中国料理，稀有而上乘的滋味”“严选时令食材、不惜工序、于瞬间判断火候”自述，并说明“为继承2025年5月惜别落幕的老字号中餐馆的烹饪技艺与服务精神，原店员工再度集结”，当季以“秋鲑、梨、松茸、栗、柿等季节风味做成点心、中华料理与中式甜点，佐以香气四溢的中国茶”。"
+      },
+      "住所": "〒530-0001 大阪市北区梅田1-8-16 ヒルトンプラザ・イースト 7F（出典ページ記載）",
+      "电话": "050-3666-5006",
+      "営業時間": "【ランチ】11:00～15:00（LO.14:00）／【ディナー】17:00～22:00（LO.21:00）※不定休",
+      "官网": "https://taihoukyu.com/",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/taihoukyu/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "中国料理 泰豊宮｜OSAKA-INFO（大阪観光局）",
+          "URL": "https://osaka-info.jp/spot/taihoukyu/",
+          "原文要旨": "長い歴史を持つ中国料理店の技術と精神を受け継ぎ、新生／大阪・梅田、ヒルトンプラザ イースト 7 階にある中国料理／大阪聘珍樓で受け継がれてきた広東料理の技とおもてなしの心を大切にする、本格広東料理店です。／店内には大小 17 室の個室をご用意。／【ランチ】11:00～15:00（LO.14:00）／【ディナー】17:00～22:00（LO.21:00）／大阪市北区梅田1-8-16 ヒルトンプラザ・イースト 7F／050-3666-5006",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Chinese Restaurant Taifeng Palace｜OSAKA-INFO English",
+          "URL": "https://osaka-info.jp/en/spot/taihoukyu/",
+          "原文要旨": "a Chinese restaurant located on the 7th floor of Hilton Plaza East in Umeda, Osaka, cherishes the techniques and hospitality of Cantonese cuisine that have been passed down at Osaka Heichinrou.／Our restaurant offers 17 private rooms of varying sizes.／[Lunch] 11:00 - 15:00 (Last order 14:00)",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "泰豊宮（Taihoukyu）｜高級中国料理の極み｜個室・接待・記念日（自社公式）",
+          "URL": "https://taihoukyu.com/",
+          "原文要旨": "雅趣きわだつ中国料理、 稀少で上質な味わい／旬の食材を選び、手間を惜しまず、火入れを一瞬で見極める／2025年5月に惜しまれつつ長い歴史に幕を閉じた 老舗中国料理店の 調理技術、サービス精神を 受け継ぐために 旧店舗のスタッフが集結し／秋鮭、梨、松茸、栗、柿など、季節の味覚を取り入れた点心や中国料理、中華スイーツを、香り豊かな中国茶とともに。",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "大阪のおすすめグルメ（大阪観光局が列挙する大阪ローカル料理）",
+        "英文": "Recommended Osaka food: the bureau's list of local dishes",
+        "中文": "大阪推荐美食（大阪观光局列举的大阪乡土料理）"
+      },
+      "距離": "梅田・キタの各店舗へ徒歩圏（同一覧はエリア横断、本ファイルの地点距離は持たない）",
+      "简介": {
+        "日文": "大阪観光局の「大阪のおすすめグルメ」はカテゴリを「大阪ローカル料理」として、うどん（うどんすき）・たこ焼き・大阪すし・オムライス・お好み焼き・串カツ・割烹料理・紙なべ・回転寿司・豚まん を列挙し、それぞれに由来を書く。同ページの原文は「大阪のおうどんは、軟らかい口当たりの麵と、それに優しく寄り添う昆布とカツオ節のだしとのハーモニーが魅力です。」「屋台で買って、気軽に街角で食べられる、大阪のファストフードの代表格・たこ焼き。歴史は意外に浅く、昭和30年代から、町に店が増え始めたと言われます。」「大阪すしの代表格は箱寿司です。具材を酢飯と共に型に入れて押し固める」押寿司の一つ、「胃の悪い常連客が毎日オムレツと白ご飯を食べているのを不憫に思った店主が、ケチャップライスを薄焼き卵で包んで出したところ、客は大喜び。」「たこ焼きと並ぶ、大阪人のソウル･フードです。小麦粉をだしで溶くのも同じで、具はキャベツが必須、豚肉が人気」「肉や野菜を串に刺し、水溶き小麦粉の衣にパン粉を付けて油で揚げます。」（串カツ／「二度漬け禁止」で有名）「江戸時代に栄えた料亭が廃れ始め、もっと気軽に楽しめる和食店を時代が求める中、生まれたのが割烹スタイルです。」「摩訶不思議な紙なべも大阪発祥です。」「コンベヤーの上を、寿司を載せた小皿が流れていき、客は好みのものを皿ごと取って食べます。」「明治維新後、中華街に伝えられた中華饅頭を日本人好みの味にアレンジしたものが始まりとされています。」（豚まん）。この一覧は店舗名ではなく料理種別の解説であり、営業時間・価格の記載はない。※同サイト側に English（en/gourmet/osaka_cuisine）があり、下記英語欄はその原文を引用した。",
+        "英文": "The bureau's food page groups Osaka cooking under a local-cuisine heading and explains each dish rather than listing shops: udon noodles praised for a soft bite matched with kelp and bonito stock; takoyaki, the street-stall fast food whose shops spread only from the 1930s showa era; box sushi pressed in a mould; omurice born when a cook wrapped rice in a thin omelette for a regular with a weak stomach; okonomiyaki, the soul food made with cabbage always and pork most popular, the batter dissolved in stock as for takoyaki; skewled cutlets deep-fried in flour and breadcrumb with a no-double-dipping rule; kappo cooking born when Edo-period tea houses gave way to casual Japanese dining; the paper hotpot also an Osaka invention; conveyor sushi as cheap, clear semi-self-service; and pork buns adapted from Chinese buns brought to Chinatown after the Meiji restoration. The page is a glossary, so it carries no shop hours or prices.",
+        "中文": "大阪观光局“大阪推荐美食”以“大阪乡土料理”为类别，列举 乌冬（乌冬火锅）・章鱼烧・大阪寿司・蛋包饭・大阪烧・串炸・割烹料理・纸锅・回转寿司・猪肉馒头 并述其由来：大阪乌冬“口感柔软的面条与昆布・木鱼花高汤相得益彰”；章鱼烧“在屋台买了随时在街角吃的大阪快餐代表，历史出人意料地浅，据说店铺自昭和30年代才在街上增多”；大阪寿司“代表是箱寿司，把配料与醋饭一起入模压实”，属押寿司的一种；蛋包饭源于“店主怜悯胃不好的常客每天只吃蛋包和白饭，便用薄蛋皮包起番茄饭端上，客人欣喜”；大阪烧“与章鱼烧并列的大阪人灵魂食物，同样用高汤调面粉，配料白菜必备、猪肉最受欢迎”；串炸“以‘禁止二次蘸酱’闻名，肉或菜串签后裹水面糊沾面包糠油炸”；割烹“江户时代料亭衰落、时代要求更随意的和食店时诞生”；纸锅“不可思议的纸锅也源自大阪”；回转寿司“小碟在传送带上流动，客人自取，半自助、价格明朗，适合家庭与观光客”；猪肉馒头“明治维新后传入中华街的中华馒头经日式改良而成”。该栏为料理种别解说而非店铺一览，未载营业时间与价格。※同站有 English 版（en/gourmet/osaka_cuisine），上述英文栏直接引用其原文。"
+      },
+      "営業時間": "一覧に営業時間・料金の記載なし（料理種別の解説ページ）",
+      "官网": "https://osaka-info.jp/",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/gourmet/osaka_cuisine/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "大阪のおすすめグルメ｜OSAKA-INFO（大阪観光局）",
+          "URL": "https://osaka-info.jp/gourmet/osaka_cuisine/",
+          "原文要旨": "大阪ローカル料理／大阪のおうどんは、軟らかい口当たりの麵と、それに優しく寄り添う昆布とカツオ節のだしとのハーモニーが魅力です。／屋台で買って、気軽に街角で食べられる、大阪のファストフードの代表格・たこ焼き。／大阪すしの代表格は箱寿司です。／胃の悪い常連客が毎日オムレツと白ご飯を食べているのを不憫に思った店主が、ケチャップライスを薄焼き卵で包んで出したところ、客は大喜び。／たこ焼きと並ぶ、大阪人のソウル･フードです。小麦粉をだしで溶くのも同じで、具はキャベツが必須、豚肉が人気／肉や野菜を串に刺し、水溶き小麦粉の衣にパン粉を付けて油で揚げます。／江戸時代に栄えた料亭が廃れ始め、もっと気軽に楽しめる和食店を時代が求める中、生まれたのが割烹スタイルです。／摩訶不思議な紙なべも大阪発祥です。／コンベヤーの上を、寿司を載せた小皿が流れていき、客は好みのものを皿ごと取って食べます。／明治維新後、中華街に伝えられた中華饅頭を日本人好みの味にアレンジしたものが始まりとされています。",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "Recommended gourmet food in Osaka｜OSAKA-INFO English",
+          "URL": "https://osaka-info.jp/en/gourmet/osaka_cuisine/",
+          "原文要旨": "Osaka local cuisine Udon (Udon Suki) The appeal of Osaka udon is the harmony of its soft noodles and the dashi stock made from kelp and bonito flakes that gently complements them.／The most representative type of Osaka sushi is box sushi, a type of pressed sushi where ingredients are placed in a mold along with vinegared rice and pressed into a solid form.／Osaka's famous kushikatsu is a dish that is famous for its",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "OSAKA-INFO｜トップ（大阪観光局）",
+          "URL": "https://osaka-info.jp/",
+          "原文要旨": "大阪府の観光スポットやイベント情報、目的地までのルート検索、天気や防災情報などの観光関連情報、役立つ情報が満載！／北エリアトレンドを生み出し、進化する大阪の玄関口",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        }
+      ]
+    },
+    {
+      "名称": {
+        "日文": "スイーツパラダイス 梅田店（梅田楽天地ビル2F・食べ放題）",
+        "英文": "Sweets Paradise Umeda, an all-you-can-eat sweets floor on the second floor",
+        "中文": "Sweets Paradise 梅田店（梅田乐天地ビル2F・吃到饱）"
+      },
+      "距離": "御堂筋線「梅田駅」・阪急・阪神「大阪梅田駅」より「徒歩5分」（出典ページのアクセス表記）",
+      "简介": {
+        "日文": "大阪観光局の施設ページは「約30種のおいしいスィーツが食べ放題！季節限定もあるよ！もちもち、アツアツのパスタやカレー・サラダ・スープなど軽食も食べ放題！平日はもちろん休日のご予約もOK!」と説明し、「ハーゲンダッツアイスクリーム食べ放題」を「通常料金プラス186円（税抜）で食べ放題出来ちゃいます！」とする。営業時間 10：30～21：30（※最終入店20:30）、休日「なし」、料金 大人 1,530円／子供（小学6年生以下） 860円／3歳以下無料（※ドリンクバー付）、所在地 大阪府大阪市北区角田町5-1梅田楽天地ビル2F【入口1F】、電話 06-6311-4649。■自社公式（sweets-paradise.jp）は「スイーツパラダイスは、スイパラ特製スイーツやパスタ・カレー・フレッシュサラダ・スープなど、お好きなものをお好きなだけ食べられる「バイキング」をご提供しています。」と方針を書き、「スイーツパラダイスでは、期間限定でアニメや芸能人とのコラボを開催。グッズの販売やオリジナルキャラクターメニューをご提供させていただいています。」とコラボ展開、新着情報として「【10/17〜11月中旬】」のシャインマスカットとメーンの食べ放題、「【10/17〜11/30】」の秋の収穫祭（新米はえぬき塩むすびと秋野菜の豚汁）、「秋限定メニュー」の告知を日付付き（2026.10.14・2026.10.10・2026.09.03）で並べる。同社トップは同時に「サーバーメンテナンスのお知らせ」も掲出している。※自社公式に English・中文ページは本セッションで未確認。",
+        "英文": "The bureau page offers about thirty kinds of sweets without limit plus warm pasta, curry, salad and soup, accepts bookings on weekdays and holidays, and adds that a Haagen-Dazs ice cream option can be added to the normal price for one hundred and eighty-six yen excluding tax. Hours are 10:30 to 21:30 with last entry at 20:30, no closing day, prices 1,530 yen for adults and 860 yen for primary pupils with children under three free, drinks included, at 5-1 Kakuda-cho, Kita-ku on the second floor of the Umeda Rakuchiten building (entrance on the first floor), telephone 06-6311-4649. The operator's own page describes a buffet of house sweets, pasta, curry, fresh salad and soup, states that it runs limited-time collaborations with anime and entertainers with goods and character menus, and dates its news items - a Shine Muscat and melon feast from 17 October to mid-November, an autumn harvest festival with salt rice balls and vegetable pork soup from 17 October to 30 November, and an autumn-limited menu posted in September - while also carrying a server maintenance notice. No English or Chinese page of the operator could be confirmed in this session.",
+        "中文": "大阪观光局设施页写“约30种美味甜点吃到饱！也有季节限定！Q弹热乎的意面、咖喱、沙拉、汤等轻食同样吃到饱！平日与假日都可预约！”，并说明哈根达斯冰淇淋吃到饱“在通常料金上加186円（不含税）即可”。营业时间 10:30～21:30（※最后入场20:30），无定休，费用 成人 1,530円／儿童（小学6年生以下） 860円／3岁以下免费（※含饮料吧），地址 大阪府大阪市北区角田町5-1 梅田乐天地ビル2F【入口1F】，电话 06-6311-4649。■自营官网（sweets-paradise.jp）声明“Sweets Paradise 提供自家甜点与意面・咖喱・新鲜沙拉・汤等，想吃什么吃多少的自助”，并写明“期间限定与动漫、艺人的合作，贩售周边与角色菜单”；新着情报按日期列出 10/17〜11月中旬的香印青提与蜜瓜吃到饱、10/17〜11/30的秋季大丰收祭（新米盐饭团与秋蔬菜豚汁）、9月发布的秋季限定菜单，同时挂出“服务器维护公告”。※本次未确认到自营官网的 English・中文页面。"
+      },
+      "住所": "〒570-0070 大阪府大阪市北区角田町5-1梅田楽天地ビル2F【入口1F】（出典ページ記載）",
+      "电话": "06-6311-4649",
+      "営業時間": "10：30～21：30（※最終入店20:30・休日 なし）",
+      "料金": "大人 1,530円／子供（小学6年生以下） 860円／3歳以下無料（※ドリンクバー付）／ハーゲンダッツ食べ放題は通常料金プラス186円（税抜）",
+      "官网": "https://www.sweets-paradise.jp/",
+      "介绍页": {
+        "日文": "https://osaka-info.jp/spot/sweets-paradise-umeda-branch/"
+      },
+      "言語注記": "大阪観光局 OSAKA-INFO は ja／en／ko の同一施設ページを持ち、English は 200 で開いた公式英語ページ（osaka-info.jp/en/…）の原文を引用した。中文版は存在せず、/zh/・/zh-cn/・/zh-tw/・/ch/ および各施設の中国語パスはいずれも HTTP 200 を返しながら本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は取得できなかった。よって中文欄は日本語・英語の原文を読んで当方が執筆した（機械翻訳は不使用）。",
+      "検証日": "2026-10-23",
+      "出典": [
+        {
+          "标题": "スイーツパラダイス 梅田店｜OSAKA-INFO（大阪観光局）",
+          "URL": "https://osaka-info.jp/spot/sweets-paradise-umeda-branch/",
+          "原文要旨": "約30種のおいしいスィーツが食べ放題！季節限定もあるよ！もちもち、アツアツのパスタやカレー・サラダ・スープなど軽食も食べ放題！平日はもちろん休日のご予約もOK!／通常料金プラス186円（税抜）で食べ放題出来ちゃいます！／10：30～21：30／※最終入店20:30／大人 1,530円／子供（小学6年生以下） 860円 3歳以下無料 ※ドリンクバー付／大阪府大阪市北区角田町5-1梅田楽天地ビル2F【入口1F】／06-6311-4649",
+          "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+        },
+        {
+          "标题": "公式スイーツパラダイス[SWEETS PARADISE]スイーツと軽食が食べ放題のバイキング（自社公式）",
+          "URL": "https://www.sweets-paradise.jp/",
+          "原文要旨": "スイーツパラダイスは、スイパラ特製スイーツやパスタ・カレー・フレッシュサラダ・スープなど、お好きなものをお好きなだけ食べられる「バイキング」をご提供しています。／スイーツパラダイスでは、期間限定でアニメや芸能人とのコラボを開催。グッズの販売やオリジナルキャラクターメニューをご提供させていただいています。／【サーバーメンテナンスのお知らせ】",
+          "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+        }
+      ]
+    }
+  ],
+  "无障碍": {
+    "信息": {
+      "日文": "■ JRおでかけネット「大阪駅 バリアフリー情報」（200 で本文開封・出典）：冒頭に「駅構内のバリアフリー情報のご案内です」、見出しは「改札外」「改札内」「トイレ」「のりば案内」の4構成で、「改札口と駅入口の間について、段差なしに移動が可能かどうか、また途中の移動設備の有無を表示しています」と説明する。改札外は行ごとに「改札口名 改札口の位置 改札口まで段差なしで移動可能な駅入り口名 エレベーター 上り エスカレーター 下り エスカレーター 備考」を列記し、御堂筋口（改札）1階・桜橋口（改札）1階・中央口（改札）1階・南口（改札）1階・連絡橋口（改札）1階については地上側の入口から「必要なし」（＝段差なしで到達可）、うめきた地下口（改札）地下階・西口（改札）地下階については「あり あり あり」を掲げる。改札内（のりば側）も「１・２のりば」「３・４番のりば」「５・６番のりば」「７・８番のりば」「９・１０番のりば」「１１番のりば」の各行が「うめきた地下口（改札）西口（改札）…あり あり あり」。トイレ欄は「駅構内のトイレについて、車イス対応・ベビーベッド設置・オストメイト対応の状況について表示しています。」とし、値は「設置場所 車椅子対応 ベビーベッド オストメイト対応 改札内 あり あり あり 改札外 あり あり あり」。\n■ JR大阪駅トップ（同サイト・200）：「改札口コールシステム あり」「コインロッカー あり※設置場所により、ご利用いただける方が限られる場合があります。」「駅レンタカー あり」「こども110番の駅 あり」「パーク&ライド なし」。\n■ Osaka Metro「バリアフリー情報（ひとにやさしいまちづくり）」（200）：「地下鉄各駅はバリアフリー化のための工事やエレベーターの点検を行っています。点検・工事中は移動経路が制限されている場合がありますので、事前にご確認いただくようお願いします。」と注意を呼び、「各駅エレベーターの点検日（予定）」「バリアフリー工事中情報」への導線を立てる。案内対象は「車いすをご利用のお客さま」「視覚に障がいのあるお客さま」「聴覚・言語に障がいのあるお客さま」「お子さま連れ・妊娠中のお客さま」「身体障害者補助犬同伴のお客さま」「病気や怪我をされているお客さま」「ハンドル形電動車いすをご利用のお客さま」。沿革として「大阪市交通局の時代から…『エスカレーター・エレベーター整備5カ年計画（1991～1995年度）』をスタートに2010年にはエレベーターによるホームから地上までのワンルートを整備するなど他にも車両のバリアフリーとして車いすスペースや車内案内表示、多機能トイレなどの駅施設のバリアフリー化を積極的に進めてきました。」と記し、「“子育て”、“情報”、“心”のバリアフリーをテーマに加えた「バリアフリー化推進指針」を策定」。その他「AED（自動体外式除細動器）の設置について」「ハンドル形電動車いすをご利用のお客さまへ」「マタニティマークを知っていますか」「授乳室設置駅」「バリアフリー料金加算後の運賃について」「移動等円滑化取組計画及び報告について」「地下鉄のバリアフリー(駅施設編）」等がメニュー化されている。\n■ Osaka Metro 御堂筋線 梅田駅（M16）駅情報（200）：構内設備・施設として「エレベーター」「エスカレーター」「階段」「お手洗い」「多機能トイレ」「きっぷうりば」「電話」「コインロッカー」「点字触知図」「AED」「駅出口番号」「ATM」を立て、「バリアフリー出入口ルート」として「1番線ホーム（ルート１）」から「2番線ホーム（ルート18）」まで18本を公開（各ルートは「エレベーター」「スロープ・北改札口」「スロープ 阪急三番街方面」「ヨドバシカメラ梅田ビルエレベーター」「阪神百貨店横エレベーター」「阪急百貨店横エレベータ―」「点字触知図」等の経路要素で構成される）。乗換欄は「T20 東梅田 谷町線」「Y11 西梅田 四つ橋線」「JR線 阪急線 阪神線」。トピックスに「梅田駅 エスカレーター利用停止について」の注意掲出がある。\n■ 割引（Osaka Metro 障がい者手帳による割引・200）：「身体障がい者手帳、療育手帳および精神障がい者保健福祉手帳の「旅客鉄道株式会社旅客運賃減額欄」の記載（第1種または第2種）により、運賃を割引（特別割引運賃を適用）します。」「Osaka Metro の第2種の割引は小児のみです。」「精神障がい者保健福祉手帳の場合は、2027年3月31日までの間、精神障がい者保健福祉手帳の等級の1級を「旅客鉄道株式会社旅客運賃減額欄」の「第1種」、2級・3級を「旅客鉄道株式会社旅客運賃減額欄」の「第2種」とみなして対応します。」「Osaka Metro・大阪シティバスでは、スマートフォン向け障がい者手帳アプリ「ミライロID」のご提示により、身体障がい者手帳、療育手帳および精神障がい者保健福祉手帳の提示に代えることができます。ただし、「ミライロID」をご提示する場合でも、身体障がい者手帳、療育手帳および精神障がい者保健福祉手帳は必ずお持ちいただき、係員の請求がありましたらご提示ください。」割引表は「第1種 大人 普通券・定期券・回数カード…本人・介護人とも5割引とする」「特別割引運賃 小児…」「第2種 ※小児のみ」で、「※身体障がい者・知的障がい者・精神障がい者の方が乳幼児(無料)の場合も介護人は5割引とする特別割引運賃となります。」「無料乗車証や乗車料金割引証など、大阪市が発行する福祉乗車証については、 大阪市のWEBページ をご覧ください。」\n■ 商業施設側の公表：阪神梅田本店の自社トップ（200）は「8階 医療法人翠奏会 ウェルスリープクリニック大阪」を売場として掲げ、営業時間を「火曜日～金曜日： 午前10時～午後1時、 午後2時～7時30分 ／土曜日・祝日：午前10時～午後1時、午後2時～ 5時30分 ／休診日：日曜日・月曜日」「※診療は完全予約制」とする。泰豊宮の観光局ページは基本情報の項目名に「バリアフリー」を立てるが設備内容の記載はない。グランフロント大阪の商業施設公式（www.gfo-sc.jp）は検証日に「緊急セキュリティ対策」による停止告知のみ。\n■ OpenStreetMap：大阪駅の鉄道駅ノード 346685291（name=大阪、railway=station、wheelchair=yes、operator=西日本旅客鉄道、source=KSJ2、出典注記 note:ja=国土数値情報（鉄道データ）平成19年 国土交通省）に wheelchair=yes の登録がある（地図編集者データで、JR西日本の公表ではない）。",
+      "英文": "■ JR West barrier-free page for Osaka Station (body opened at HTTP 200). It opens with a note that the page gives barrier-free information inside the station, states that it shows whether step-free movement is possible between the station entrances and each ticket gate and which equipment lies on the way, and is arranged in four sections - outside the gates, inside the gates, toilets and platform guide. Gate by gate, the Midosuji, Sakurabashi, Central, South and Contact Bridge gates on the first floor are shown as reachable without a step from their street-side entrances with the equipment columns reading not needed, while the Umekita underground gate and the West gate on the basement level are shown with elevator, up-escalator and down-escalator all present. Inside the gates every platform row - one and two, three and four, five and six, seven and eight, nine and ten and eleven - is likewise recorded as served from the Umekita underground and West gates with the equipment present. The toilet section says it shows wheelchair, baby-bed and ostomate provision and gives present, present, present both inside and outside the gates. The JR station front page adds a gate call system, coin lockers with a note that use may be limited by location, station car rental, a children contact station and no park-and-ride. ■ Osaka Metro's barrier-free page warns that stations are under barrier-free works and elevator inspections that can restrict routes, urging a check of the inspection calendar and works notice in advance, keeps guidance pages for wheelchair users, blind and low-vision customers, deaf and speech-impaired customers, families and expectant mothers, assistant dogs, injured or ill travellers and handle-type scooter users, and recounts that from the former city bureau's five-year escalator and elevator programme of 1991 to 1995 it completed one step-free route from platform to street by elevator in 2010, adding wheelchair spaces, on-board displays and multi-function toilets, with a further policy built on childcare, information and heart barriers. AED provision, maternity badges, nursing rooms and the barrier-free fare surcharge also have their own pages. ■ The Midosuji Line Umeda station page (M16) lists elevators, escalators, stairs, toilets, multi-function toilets, ticket windows, telephones, coin lockers, braille tactile maps, AED, exit numbers and ATMs, publishes eighteen step-free exit routes numbered across platforms one and two running through the north, central and south gates, the underground street, and elevators beside the Yodobashi, Hanshin and Hankyu buildings, and carries a live notice about escalators taken out of service. Its transfer panel names Higashi-Umeda on the Tanimachi Line, Nishi-Umeda on the Yotsubashi Line and the JR, Hankyu and Hanshin lines. ■ Discount page: holders of a physical, intellectual or mental disability handbook receive a special discounted fare according to the first or second class entered in the handbook, second-class discount on the metro being limited to children, mental handbooks being treated as class one or two until 31 March 2027, the adult discount being fifty percent for the holder and one caretaker buying the same section, an infant case also giving the caretaker fifty percent, and the MirairoID phone app accepted in place of the handbook on the metro and city buses while the paper handbook must still be carried and shown on request; welfare passes issued by the city are referred to the city website. ■ Facility side: the Hanshin Umeda front page lists a sleep-medicine clinic on the eighth floor with shortened consulting hours and closed on Sundays and Mondays by appointment only; the bureau page for the Chinese restaurant Taiho-gu carries a barrier-free heading but no equipment detail; the Grand Front shopping site published only a security-maintenance stop notice on the day of verification. ■ OpenStreetMap registers the railway node for Osaka Station with a wheelchair yes tag under an operator field naming JR West and a source note crediting the national land numerical information railway dataset of 2007; this is editor data, not a statement by the operator.",
+      "中文": "■ JRおでかけネット“大阪駅 无障碍信息”（本次以 HTTP 200 打开正文）：开头为“站区无障碍信息指南”，栏目分为“检票口外／检票口内／厕所／站台案内”，并说明“显示检票口与车站入口之间能否无段差移动，以及途中移动设备的有无”。检票口外按行列出“检票口名・检票口位置・可无段差抵达的入口名・电梯・上行・下行电动步道・备注”：御堂筋口（1楼）、樱桥口（1楼）、中央口（1楼）、南口（1楼）、联络桥口（1楼）由地面侧入口“不需要”（即可无段差到达），うめきた地下口（地下楼）与西口（地下楼）则标“有 有 有”。检票口内对“1・2号站台”“3・4号站台”“5・6号站台”“7・8号站台”“9・10号站台”“11号站台”各行的“うめきた地下口（检票口）西口（检票口）…”均标“有 有 有”。厕所栏说明“显示车内・站外厕所的轮椅对应・婴儿床・造口人士对应情况”，数值为“检票口内 有 有 有／检票口外 有 有 有”。\n■ JR 大阪站首页：设“检票口呼叫系统 有”“投币储物柜 有（※依设置位置，可使用人群可能受限）”“站租车 有”“儿童110番车站 有”“停车换乘 无”。\n■ Osaka Metro“无障碍信息（人性化城市建设）”页：提示“各地铁站正进行无障碍化施工与电梯检修，检修・施工期间移动路线可能受限，请事先确认”，并设“各站电梯检修日（预定）”“无障碍施工信息”入口；服务对象含“乘轮椅旅客”“视障旅客”“听障・语言障碍旅客”“带儿童・孕妇”“携带身体障碍辅助犬旅客”“疾病或受伤旅客”“把手式电动轮椅旅客”。沿革记“自大阪市交通局时代起，以‘电动步道・电梯整备5年计划（1991～1995年度）’为起点，至2010年建成由月台经电梯直达地面的单一无障碍路线，并在车辆方面增设轮椅空间、车内导视与多功能厕所”；另制定加入“育儿”“信息”“心灵”主题的“无障碍化推进方针”。站内设 AED 设置说明、孕妇徽章、授乳室设置站、无障碍费用加算后的运费、移动便捷化计划与报告等专页。\n■ Osaka Metro 御堂筋线 梅田站（M16）站信息：构内设备・设施列“电梯”“电动步道”“楼梯”“洗手间”“多功能厕所”“售票处”“电话”“投币储物柜”“点字触知图”“AED”“车站出口编号”“ATM”，并公布“无障碍出入口路线”从“1号月台（路线1）”到“2号月台（路线18）”共18条（各路线由“电梯”“坡道・北检票口”“坡道 阪急三番街方向”“Yodobashi Camera梅田大楼电梯”“阪神百货旁电梯”“阪急百货旁电梯”等要素构成）。换乘栏为“T20 东梅田 谷町线”“Y11 西梅田 四线桥（四つ橋線）”“JR线 阪急线 阪神线”。注意事项栏有“梅田站 电动步道停用中”。\n■ 票价折扣（Osaka Metro 依障碍者手册折扣・200）：持“身体障害者手帐、疗育手帐及精神障碍者福利手册”上“旅客铁道股份有限公司旅客运赁减额栏”记载（第1种或第2种）者可享受折扣（适用特别折扣运赁）；“Osaka Metro 的第2种折扣仅限儿童”；精神障碍者手册在2027年3月31日前，1级视同第1种、2・3级视同第2种；“Osaka Metro・大阪城市巴士”接受手机障碍者手册App“ミライロID”代替出示，但仍须随身携带头本体并按站务员要求出示。折扣表：第1种（成人・普通票/定期票/回数卡，本人与陪护均 5折）；特别折扣运赁（儿童）；第2种※仅限儿童；并注“障碍者为免费乳幼儿时，陪护亦适用5折特别折扣运赁”，大阪市发行的福祉乘车证另行参见大阪市网页。\n■ 商业设施侧：阪神梅田本店自营首页把“8楼 医疗法人翠奏会 Wellsleep诊所大阪”列为卖场，诊察时间“周二至周五 上午10时～下午1时、下午2时～7时30分／周六・节假日 上午10时～下午1时、下午2时～5时30分／休诊 周日・周一”“※诊疗完全预约制”；泰丰宫的观光局页面在基本资讯中列有“无障碍”项目名但未记载设备内容；Grand Front 商业官网在验证当日仅发布“因紧急安全对策停止网站”的维护公告。\n■ OpenStreetMap：大阪站铁路车站节点 346685291 带有 wheelchair=yes 标签（name=大阪、operator=西日本旅客铁道、source=KSJ2，出处注记为国土交通省平成19年国土数值信息（铁路数据））。该值为地图编辑者登记，并非JR西日本公布。"
+    },
+    "出典": [
+      {
+        "标题": "バリアフリー情報｜大阪駅：JRおでかけネット",
+        "URL": "https://eki.jr-odekake.net/barrierfree?id=0610130",
+        "原文要旨": "駅構内のバリアフリー情報のご案内です／改札口と駅入口の間について、段差なしに移動が可能かどうか、また途中の移動設備の有無を表示しています。／改札口名 改札口の位置 改札口まで段差なしで移動可能な駅入り口名 エレベーター 上り エスカレーター 下り エスカレーター 備考／御堂筋口（改札） 1階 南口（1階）桜橋口（1階） 中央南口・北口（1階） 必要なし 必要なし 必要なし なし／うめきた地下口（改札） 地下階 御堂筋南口・北口／西口（改札） 地下階／１・２のりば うめきた地下口（改札） 西口（改札）／１１番のりば／駅構内のトイレについて、車イス対応・ベビーベッド設置・オストメイト対応の状況について表示しています。／設置場所 車椅子対応 ベビーベッド オストメイト対応 改札内 あり あり あり 改札外 あり あり あり",
+        "ライセンス": "出典：JRおでかけネット（西日本旅客鉄道）／同サイトの利用規約・個人情報保護方針に基づく引用（事実情報の摘示）"
+      },
+      {
+        "标题": "大阪駅｜駅情報：JRおでかけネット",
+        "URL": "https://eki.jr-odekake.net/top?id=0610130",
+        "原文要旨": "改札口コールシステム あり／コインロッカー あり※設置場所により、ご利用いただける方が限られる場合があります。／駅レンタカー あり／こども110番の駅 あり／パーク&ライド なし",
+        "ライセンス": "出典：JRおでかけネット（西日本旅客鉄道）／同サイトの利用規約・個人情報保護方針に基づく引用（事実情報の摘示）"
+      },
+      {
+        "标题": "バリアフリー情報（ひとにやさしいまちづくり）｜Osaka Metro",
+        "URL": "https://subway.osakametro.co.jp/barriafree/",
+        "原文要旨": "地下鉄各駅はバリアフリー化のための工事やエレベーターの点検を行っています。点検・工事中は移動経路が制限されている場合がありますので、事前にご確認いただくようお願いします。／各駅エレベーターの点検日（予定）／バリアフリー工事中情報／車いすをご利用のお客さま／視覚に障がいのあるお客さま／聴覚・言語に障がいのあるお客さま／お子さま連れ・妊娠中のお客さま／身体障害者補助犬同伴のお客さま／病気や怪我をされているお客さま／ハンドル形電動車いすをご利用のお客さま／AED（自動体外式除細動器）の設置について／マタニティマークを知っていますか／授乳室設置駅／移動等円滑化取組計画及び報告について／地下鉄のバリアフリー(駅施設編）",
+        "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+      },
+      {
+        "标题": "M16 梅田｜駅情報｜Osaka Metro 地下鉄のご案内",
+        "URL": "https://subway.osakametro.co.jp/station_guide/M/m16/",
+        "原文要旨": "構内設備・施設／エレベーター／エスカレーター／多機能トイレ／きっぷうりば／点字触知図／ATM／バリアフリー出入口ルート／1番線ホーム（ルート１）／スロープ・北改札口／スロープ 阪急三番街方面／ヨドバシカメラ梅田ビルエレベーター／阪神百貨店横エレベーター／阪急百貨店横エレベータ―／T20 東梅田 谷町線／Y11 西梅田 四つ橋線／梅田駅 エスカレーター利用停止について",
+        "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+      },
+      {
+        "标题": "障がい者手帳による割引｜Osaka Metro",
+        "URL": "https://subway.osakametro.co.jp/guide/fare/various_fares/fare_discount/josya-ryokin_waribiki.php",
+        "原文要旨": "身体障がい者手帳、療育手帳および精神障がい者保健福祉手帳の「旅客鉄道株式会社旅客運賃減額欄」の記載（第1種または第2種）により、運賃を割引（特別割引運賃を適用）します。／Osaka Metro の第2種の割引は小児のみです。／本人・介護人とも5割引とする／※小児のみ／精神障がい者保健福祉手帳の場合は、2027年3月31日までの間／スマートフォン向け障がい者手帳アプリ「ミライロID」のご提示により／無料乗車証や乗車料金割引証など、大阪市が発行する福祉乗車証については",
+        "ライセンス": "出典：Osaka Metro（大阪市高速電気軌道株式会社）公式サイト／運賃・駅情報ページの記載の摘示"
+      },
+      {
+        "标题": "阪神梅田本店｜トップページ（自社公式）",
+        "URL": "https://www.hanshin-dept.jp/hshonten/",
+        "原文要旨": "8階 医療法人翠奏会 ウェルスリープクリニック大阪／※受付時間は営業終了時間の30分前／休診日：日曜日・月曜日／※診療は完全予約制",
+        "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+      },
+      {
+        "标题": "中国料理 泰豊宮｜OSAKA-INFO（大阪観光局）",
+        "URL": "https://osaka-info.jp/spot/taihoukyu/",
+        "原文要旨": "基本情報 駐車場 バリアフリー インターネット",
+        "ライセンス": "出典：OSAKA-INFO（大阪観光局）／観光情報サイトの記載の摘示（ja・en・ko 版あり）"
+      },
+      {
+        "标题": "グランフロント大阪（www.gfo-sc.jp・メンテナンス告知）",
+        "URL": "https://www.gfo-sc.jp/",
+        "原文要旨": "緊急メンテナンスによる ウェブサイトの停止について 2026年10月22日／現在、緊急セキュリティ対策のため、 ウェブサイトを停止し、メンテナンスを実施しております",
+        "ライセンス": "出典：各施設の運営主体による公式ウェブサイト（株式会社など）／記載の摘示"
+      },
+      {
+        "标题": "OpenStreetMap node 346685291",
+        "URL": "https://api.openstreetmap.org/api/0.6/node/346685291",
+        "原文要旨": "<tag k=\"wheelchair\" v=\"yes\"/>／<tag k=\"operator\" v=\"西日本旅客鉄道\"/>／<tag k=\"source\" v=\"KSJ2\"/>／<tag k=\"note:ja\" v=\"国土数値情報（鉄道データ）平成19年 国土交通省\"/>",
+        "ライセンス": "データ© OpenStreetMap contributors（ODbL 1.0）、https://osm.org/copyright"
+      }
+    ]
   },
-  "检索记录": {
-    "使用した検索": [
-      "大阪駅 周辺 観光 公式 大阪観光局"
+  "车站信息": {
+    "日文": "大阪駅（おおさかえき）は、大阪府大阪市北区梅田にある、西日本旅客鉄道（JR西日本）の駅で、JRおでかけネットの現住所欄は「大阪府大阪市北区梅田３丁目１番１号」を掲げる（Wikipedia 日本語本文も「大阪府大阪市北区梅田にある、西日本旅客鉄道（JR西日本）の駅」と同じ所在地表記）。同記事は「梅田地区の鉄道駅の一つ」「西日本で最多の乗降客数を誇る駅で、乗降人員は73万人と国内11位で新橋駅に次ぐ。」「駅長が配置された直営駅で、管理駅として塚本駅を管轄している。」「JRの特定都区市内制度における「大阪市内」に属する駅であり、運賃計算の中心駅となる。」「第1回近畿の駅百選にも選定された。」と記す。駅番号は「JR京都線・JR神戸線にはJR-A47、JR宝塚線にはJR-G47、大阪環状線にはJR-O11、おおさか東線にはJR-F01の駅番号がそれぞれ設定されている。」。駅ビルについて「駅ビルの大阪ステーションシティは当駅を核にノースゲートビルディング・サウスゲートビルディング・イノゲート大阪・JPタワー大阪・うめきたグリーンプレイスで構成される巨大複合商業施設であり、世界最大級の駅ビル施設である」とし、運輸取扱収入は「長年、当駅が第1位だったが、2021年度に広島駅・新大阪駅に抜かれて、現在は第3位となっている」とする。表示名は「大阪府内に「大阪」と付く駅が多いことから、「大阪（梅田）駅」とも表示されている」。連絡について「当駅南側に位置しているJR東西線の北新地駅とは地下街・地下通路で連絡しており」「現在でも北陸方面との特急の始発・終着駅であり」を掲げる。■JRおでかけネット（200 で開封）の駅情報：きっぷ発売の欄には「きっぷの発売」の見出しのもと「待ち状況はこちら あり」「みどりの券売機 あり」「待ち人数はこちら あり」「定期券がお求めになれる券売機 あり」が並び、営業時間欄に「みどりの窓口（中央口） 6時から22時」「みどりの券売機（御堂筋口） 5時30分から23時40分」「みどりの券売機プラス（うめきた地下口） 5時30分から23時」「2024年6月1日以降、みどりの券売機プラスのオペレーターについて、8:00～20:00に応対時間を変更します。」、「きっぷのお受け取り」の項に「EXサービス 可」「5489サービス 可」を掲げ、改札口は「ICOCA対応 可」ほかを示し、その他サービスは「その他サービス 詳細はリンク先をご確認ください」の見出しのもとに駅レンタカー・こども110番の駅・パーク&ライド・駅スタンプ・コインロッカー等を列挙する。■構内図（同サイト・200）は「詳細な駅構内図や各のりばのご案内です」とし、「3D表示でより分かりやすく、経路案内機能も搭載されている”大阪駅3D構内図”は下記よりアクセスいただけます。」として 3D 地図への導線を掲げ、構内図は「構内図 PDF版ダウンロード：PDF[816KB] 2026年1月14日時点」と「立体図 平面図 アイコンの説明」を用意する（※同ページの示す 3D 地図サイトは 200 で開いたが本文が Loading v20250407 の24字节のみで、設備は JavaScript で描画されるため当ファイルでは引用しない）。のりばは「JRゆめ咲線 ユニバーサルシティ方面 1番のりば」「関西空港線 鳳・関西空港方面 1番のりば」「阪和線 鳳・和歌山方面 1番のりば」「大阪環状線(内回り) 西九条・弁天町方面 1番のりば」「大和路線 王寺・奈良方面 1番のりば」「大阪環状線(外回り) 京橋・鶴橋方面 2番のりば」「JR神戸線 三ノ宮・姫路方面 3番のりば」「JR宝塚線・福知山線 篠山口・福知山方面 3番のりば」「特急 スーパーはくと 鳥取方面 3番のりば」「播但線 特急 はまかぜ 城崎温泉・香住方面 4番のりば」「特急 こうのとり 福知山・城崎温泉方面 4番のりば」「JR神戸線 三ノ宮・姫路方面 5番のりば」「JR神戸線 三ノ宮・姫路方面 6番のりば」「JR京都線 新大阪・高槻・京都方面 7番のりば」～「9番のりば」「寝台特急 東京方面 11番のりば」「東海道線上り＜北陸方面＞ 北陸・東海方面特急列車 11番のりば」「関西空港・和歌山方面（特急列車） 21番のりば」「おおさか東線 新大阪・放出・久宝寺方面 22・23番のりば」「新大阪・京都方面（特急列車） 24番のりば」。■OpenStreetMap node 346685291 は name=大阪、railway=station、public_transport=station の鉄道駅ノードで、operator=西日本旅客鉄道、ref=A47;G47;O11;F01、KSJ2:LIN=大阪環状線、wikidata=Q801694、wikipedia=ja:大阪駅、contact:website は JRおでかけネットの 0610130（大阪駅）ページ、version=27・changeset=163404247・timestamp=2025-03-09T14:57:40Z・user=AlexM51、lat=34.7022133、lon=135.4955732、出典注記に note=National-Land Numerical Information (Railway) 2007, MLIT Japan／note:ja=国土数値情報（鉄道データ）平成19年 国土交通省。",
+    "英文": "Osaka Station is a West Japan Railway Company station in Umeda, Kita-ku, Osaka, according to the Japanese Wikipedia article, whose opening line matches the address JR West publishes, 3-1-1 Umeda, Kita-ku. The article calls it one of the railway stations of the Umeda district and the station with the most boarding and alighting passengers in western Japan - 730,000, eleventh in the country after Shimbashi; a directly managed station with a station manager that controls Tsukamoto station; a station inside the Osaka city limits of the fare-distance system and the centre for calculating fares; and one of the first selection of hundred stations of the Kinki region. Station numbers are given as JR-A47 for the JR Kyoto and JR Kobe lines, JR-G47 for the JR Takarazuka line, JR-O11 for the Osaka Loop Line and JR-F01 for the Osaka Tozai (east) line. The station building, Osaka Station City, is described as a giant complex organised around this station with the North Gate Building, South Gate Building, Inogate Osaka, JP Tower Osaka and Umekita Green Place, among the largest station buildings in the world, while in revenue from tickets the station, first for many years, dropped behind Hiroshima and Shin-Osaka in the 2021 fiscal year to third. Because so many stations in the prefecture carry the word Osaka, signing also reads Osaka (Umeda); the article records an underground street and passage link to Kitashinchi on the JR Tozai Line to the south and that the station is still the terminal for limited expresses to the Hokuriku direction. The JR station page lists a staffed ticket counter, ordinary and Plus ticket machines and season-ticket machines, with the counter at the central gate open from six in the morning to ten at night, machines at the Midosuji, Contact Bridge, Sakurabashi, Umekita and West gates from 5:30 to 23:40, Plus machines at the Umekita underground gate from 5:30 to 23:00, an operator on the Plus machines available only from 8:00 to 20:00 from 1 June 2024, and EX and 5489 collection plus ICOCA accepted at the gates. The station plan page offers a three-dimensional map and a PDF dated 14 January 2026 and allocates the platforms: one for the Yumesaki Line to Universal City, the Kansai Airport Line and the Hanwa Line to Otori, Kansai Airport and Wakayama, the inner loop to Nishikujo and Bentencho and the Yamatoji Line to Oji and Nara; two for the outer loop to Kyobashi and Tsuruhashi; three for the Kobe Line to Sannomiya and Himeji, the Takarazuka and Fukuchiyama lines to Shiyamakuchi and Fukuchiyama and the Super Hakuto to Tottori; four for the same Kobe and Takarazuka services with the Hamakaze to Kashima and the Kounotori; five and six for the Kobe Line, six also taking local trains to Takarazuka and Sanda; seven to ten for the Kyoto Line to Shin-Osaka, Takatsuki and Kyoto; eleven for sleeper trains to Tokyo and for northbound Tokaido services towards Hokuriku and Tokai; twenty-one for airport and Wakayama limited expresses; twenty-two and twenty-three for the Osaka Tozai Line to Shin-Osaka, Hanaten and Kubishi; twenty-four for Shin-Osaka and Kyoto expresses.",
+    "中文": "大阪站位于大阪府大阪市北区梅田，是西日本旅客铁道（JR西日本）的车站（维基百科日文条目首句），JRおでかけネット“现住所”栏记载为“大阪府大阪市北区梅田3丁目1番1号”。日文条目称其为“梅田地区的铁路车站之一”“以JR西日本最多上下车人次为荣的车站，上下车人数73万，居全国第11位、仅次于新桥站”“配置站长的直营站，作为管理站管辖塚本站”“属于JR特定都区市内制度的‘大阪市内’车站，是运费计算的中心站”“入选第1回近畿车站百选”。车站编号“JR京都线・JR神户线为 JR-A47，JR宝塚线为 JR-G47，大阪环状线为 JR-O11，おおさか东线为 JR-F01”。站体方面记“作为站大楼的大阪站城（Osaka Station City）以本站为核心，由北门大厦、南门大厦、Inogate大阪、JP Tower大阪、うめきたGreen Place构成的超大型复合商业设施，是世界最大级的站大楼设施”；营收“长年位居第一，2021年度被广岛站、新大阪站超越，现为第3位”。因大阪府内多站名含‘大阪’，故亦标示为‘大阪（梅田）站’。另记“与南侧的JR东西线北新地站以地下街、地下通道连通”“至今仍为北陆方向特急的始发・终到站”。■JRおでかけネット（200 打开）：售票服务为“绿色窗口（みどりの窓口）有”“绿色售票机有”“绿色售票机Plus有”“可购买定期券的售票机有”，营业时间栏写“绿色窗口（中央口）6时至22时”“绿色售票机（御堂筋口）5时30分至23时40分”“Plus（うめきた地下口）5时30分至23时”，并公告“2024年6月1日起 Plus 操作员受理时间改为 8:00～20:00”；服务含“EX服务 可”“5489服务 可”“ICOCA 对应 可”。■站区图页：说明“提供详细站内图与各站台指南”，并给出“大阪站3D站内图”入口（※该 3D 页面虽返回 200，正文仅“Loading v20250407”，内容由 JavaScript 绘制，故不引用）。站台分配：1号（JR梦咲线环球城方向／关西空港线・阪和线 凤・关西空港・和歌山方向／环状线内回 西九条・弁天町方向／大和路线 王寺・奈良方向）、2号（环状线外回 京桥・鹤桥方向）、3号（JR神户线三之宫・姬路方向／JR宝塚线・福知山线 筱山口・福知山方向／特急超级白兔 鸟取方向／特急Kounotori 福知山・城崎温泉方向）、4号（神户线／宝塚线／特急滨风 城崎温泉・香住方向）、5・6号（神户线，6号另有宝塚线普通 宝塚・三田方向）、7～10号（JR京都线 新大阪・高槻・京都方向）、11号（卧铺特急 东京方向／东海道线上行＜北陆方面＞ 北陆・东海方面特急）、21号（关西空港・和歌山方向特急）、22・23号（おおさか东线 新大阪・放出・久宝寺方向）、24号（新大阪・京都方向特急）。■OpenStreetMap 节点 346685291：name=大阪、railway=station、operator=西日本旅客铁道、ref=A47;G47;O11;F01、wheelchair=yes、wikidata=Q801694、wikipedia=ja:大阪駅、官网标签 contact:website 指向 JRおでかけネット的 0610130 页面，版本27・变更集163404247・时间戳 2025-03-09T14:57:40Z。",
+    "注記": "同一事実の公表主体間・言語版間の差は統一せず併記した。\n（1）利用者数：Wikipedia 日本語（api.php で 1200 字抽出・utf8=1）は「乗降人員は73万人と国内11位で新橋駅に次ぐ」だが、中文（簡体）版は「單以JR各路線計算為85萬人次（2004年度），排名全日本第3位。假如將各鐵路公司所屬路線加總，則高達每日232萬人次（2002年度）」と述べ、 counted 対象（乗降か延べか）と基準年が異なるため両記した。いずれも本セッションでは JR西日本・大阪市の公表する年度別数値ページを開いていないので、公式の最新値は未確認（未実施）。\n（2）駅ビルの記述：日本語版は「世界最大級の駅ビル施設である」とし、中文版は「車站南面是一座27層，高122.3米的車站大廈「大阪Terminal大廈」，原名為「大阪Active」，大廈內設有大丸梅田店與格蘭比亞大阪酒店」と書く（同名の再開発で駅ビル名が大阪ステーションシティに変わった経緯は日本語版本文が「駅ビルの大阪ステーションシティは当駅を核に…」と述べるにとどまり、中文版側の記述は開いた本文に層数・高さしか含まれない）。中文版の「在驗票口方面，共有五所出入口（御堂筋口、南口、中央口、櫻橋口、連絡口）」に対して、JRおでかけネットのバリアフリー欄が掲げる改札口は「御堂筋口」「桜橋口」「中央口」「南口」「連絡橋口」「うめきた地下口」「西口」の7種で、中文側の記述は開業当時の記載と読める（どちらかを削除せず併記）。\n（3）English：英文版は REST API の summary のみ開封でき、本文は「Ōsaka Station is a major railway station in the Umeda district of Kita-ku, Osaka, Japan, operated by West Japan Railway Company. It forms as one of the city's main railway terminals to the north, the other being Shin-Ōsaka.」にとどまる。English 欄の残りは日本語版本文・JR公表文（営業時間・のりば）を踏まえた当方の執筆で、機械翻訳は使っていない。\n（4）座標：自動層（data/lines/*.json の 大阪駅 8行）は 34.702213／135.495573 を「OpenStreetMap n346685291」出典で掲げるが、本セッションで api.openstreetmap.org から生データを開いた node 346685291 の値は lat=34.7022133／lon=135.4955732（version=27）であり、自動層の数値はこのノードの 7 桁丸めと一致する（姫路・富山・京都で確認した「出典ラベルと数値が対応しない」欠陥は当駅では再現せず、ラベルと値は対応する）。ただし座標候補は複数あり、Nominatim の検索結果（大阪駅）は relation 17915329（class=building、type=train_station）= 34.7025087／135.4961773、node 3059628053（highway=bus_stop、名称 大阪駅）= 34.7014862／135.4943919、node 11434319379（自転車貸出）= 34.7028420／135.4942200、梅田駅検索では node 7811929025（railway=station、梅田）= 34.7034131／135.4975879 が先頭に来る。Wikipedia の座標注記も日本語版ページが 34.701889／135.494972（北緯34度42分6.8秒東経135度29分41.9秒）、中文（簡体）版ページが 34.70194／135.48944、English 版 REST が 34.7025／135.49611111 で、本ファイルが採用したノード値と約60m〜約570m 幅でばらつく（東経135.48944 は梅田の西端・JR東西線寄りの値に見える）。よって 座標 は「OpenStreetMap node 346685291（自動層と同一の出典）を採用し、幅のある値を本注記に列挙」とする。\n（5）自動層の 车站ID と 线路：当駅は data/lines/ の8ファイル（东海道本线#146＝東海道本線#146、北陆本线#28、大阪环状线#36、宫丰线#12、山阳本线#99、山阴本线#69、湖西线#10、赤穂线#40）に分かれて収録され、全行が同一座標 34.702213／135.495573・同一出典ラベル n346685291 を持つが、末尾数字は路線上の位置ではなくファイル内五十音順の指数にすぎない（検証例：大阪环状线.json の 大阪環状線#1 は「JR五位堂駅」で環状線の駅ではなく和歌山線の駅、577ファイルの作成工程で五十音順配列のまま連番を付した痕跡）。自動層の加精ファイル data/curated/C-关西JR/大阪駅.json には 车站ID・区域・座標・加精方式・人手確認 のキー自体が欠けており、线路 は「東海道本線」1本のみ。本ファイルは 车站ID を所属線相当の「東海道本線#146」として正本化し、线路注記 で残り7ファイルの ID と乗入路線の実態（JR京都線・JR神戸線・JR宝塚線・大阪環状線・おおさか東線・JRゆめ咲線・関西空港線・阪和線・大和路線ほか）を区別して記す。\n（6）3D構内図・接続頁：3dmap.jrnc.jp/JRW/mobile/ は HTTP 200 だが本文が「Loading v20250407」の24字节のみで JavaScript 描画のため本文引用不可。eki.jr-odekake.net/connection?id=0610130（接続交通機関）は 200 で返るが 255 字节の「アクセスエラー」ページで、実在駅の接続情報が表示されていない（ソフト404）。www.hankyu.co.jp の阪急大阪梅田駅頁は 329 字节で「入力された文字に該当する駅はありません」と返り、hanshin.co.jp は 403、阪急ターミナル系ドメイン・www.lucua.co.jp は HTTP 000（www.lucua.jp が正本）。osakacastle.net/en/・/ch/ は 200 で日本語トップと同一本文を返すだけ、kaiyukan.com/language/ は 403、tsutenkaku.co.jp/en/ は 404、www.sky-building.co.jp は同名の別法人（不動産業・東京）で、梅田スカイビル（www.skybldg.co.jp は 503）ではない。※osakacastle.jp は婚礼・飲食施設運営会社の別主体サイト。\n（7）Wikipedia は日本語・中文（簡体）・English の各版を別個に開封した三次情報（CC BY-SA 4.0）で、JR西日本・Osaka Metro が公表しない沿革・利用者数・駅番号の補完にのみ用いた。日本語版・中文版の本文は api.php の explaintext 抽出（exchars=1200 の上限内で先頭部を開封）と、全体ページ（/wiki/）を併せて確認した。",
+    "維基词条": "日本語版 ja:大阪駅（node 346685291 の wikipedia タグも ja:大阪駅、wikidata=Q801694）｜中文（簡体）版 zh:大阪站（「此條目介紹的是JR西日本的大阪車站。关于與本站共站、聯通的車站總覽，请见「梅田地區的鐵道車站」」の曖昧さ回避注あり）｜English 版 en:Ōsaka Station（REST API の summary と pageid=254844・revision=1376513974・timestamp=2026-09-24T16:36:37Z のみ開封、本文全体は未取得）",
+    "出典": [
+      {
+        "标题": "大阪駅｜Wikipedia 日本語（api.php・explaintext・utf8=1）",
+        "URL": "https://ja.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&utf8=1&exchars=1200&exsectionformat=plain&titles=%E5%A4%A7%E9%98%AA%E9%A7%85",
+        "原文要旨": "大阪駅（おおさかえき）は、大阪府大阪市北区梅田にある、西日本旅客鉄道（JR西日本）の駅。梅田地区の鉄道駅の一つ。／西日本で最多の乗降客数を誇る駅で、乗降人員は73万人と国内11位で新橋駅に次ぐ。／駅長が配置された直営駅で、管理駅として塚本駅を管轄している。／JRの特定都区市内制度における「大阪市内」に属する駅であり、運賃計算の中心駅となる。／第1回近畿の駅百選にも選定された。／JR京都線・JR神戸線にはJR-A47、JR宝塚線にはJR-G47、大阪環状線にはJR-O11、おおさか東線にはJR-F01の駅番号がそれぞれ設定されている。／世界最大級の駅ビル施設である／現在は第3位となっている／「大阪（梅田）駅」とも表示されている／北新地駅とは地下街・地下通路で連絡しており／現在でも北陸方面との特急の始発・終着駅",
+        "ライセンス": "Wikipedia（CC BY-SA 4.0）の本文抽出（第三情報源として併記、公式公表値の代替にはしていない）"
+      },
+      {
+        "标题": "大阪站｜Wikipedia 中文（簡体）（api.php・explaintext・utf8=1）",
+        "URL": "https://zh.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&utf8=1&exchars=1200&exsectionformat=plain&titles=%E5%A4%A7%E9%98%AA%E7%AB%99",
+        "原文要旨": "是日本關西地區最大都會大阪的代表車站／單以JR各路線計算為85萬人次（2004年度），排名全日本第3位。假如將各鐵路公司所屬路線加總，則高達每日232萬人次（2002年度）／車站南面是一座27層，高122.3米的車站大廈「大阪Terminal大廈」，原名為「大阪Active」／共有五所出入口（御堂筋口、南口、中央口、櫻橋口、連絡口）",
+        "ライセンス": "Wikipedia（CC BY-SA 4.0）の本文抽出（第三情報源として併記、公式公表値の代替にはしていない）"
+      },
+      {
+        "标题": "大阪駅｜Wikipedia 日本語（全体ページ /wiki/）",
+        "URL": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E9%A7%85",
+        "原文要旨": "大阪駅大阪ステーションシティ（五代目大阪駅）おおさかŌsaka所在地大阪市北区梅田3丁目1-1北緯34度42分6.8秒東経135度29分41.9秒",
+        "ライセンス": "Wikipedia（CC BY-SA 4.0）の本文抽出（第三情報源として併記、公式公表値の代替にはしていない）"
+      },
+      {
+        "标题": "大阪站｜Wikipedia 中文（簡体）（全体ページ /wiki/）",
+        "URL": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E7%AB%99",
+        "原文要旨": "此條目介紹的是JR西日本的大阪車站。关于與本站共站、聯通的車站總覽",
+        "ライセンス": "Wikipedia（CC BY-SA 4.0）の本文抽出（第三情報源として併記、公式公表値の代替にはしていない）"
+      },
+      {
+        "标题": "Ōsaka Station｜Wikipedia English (REST summary)",
+        "URL": "https://en.wikipedia.org/api/rest_v1/page/summary/Osaka_Station",
+        "原文要旨": "Ōsaka Station is a major railway station in the Umeda district of Kita-ku, Osaka, Japan, operated by West Japan Railway Company. It forms as one of the city's main railway terminals to the north, the other being Shin-Ōsaka.",
+        "ライセンス": "Wikipedia（CC BY-SA 4.0）の本文抽出（第三情報源として併記、公式公表値の代替にはしていない）"
+      },
+      {
+        "标题": "大阪駅｜駅情報：JRおでかけネット",
+        "URL": "https://eki.jr-odekake.net/top?id=0610130",
+        "原文要旨": "現住所 大阪府大阪市北区梅田３丁目１番１号／きっぷの発売／待ち状況はこちら あり／みどりの券売機 あり／待ち人数はこちら あり／定期券がお求めになれる券売機 あり／みどりの窓口（中央口） 6時から22時／みどりの券売機（御堂筋口） 5時30分から23時40分／みどりの券売機プラス（うめきた地下口） 5時30分から23時／2024年6月1日以降、みどりの券売機プラスのオペレーターについて、8:00～20:00に応対時間を変更します。／EXサービス 可／5489サービス 可／きっぷのお受け取り／改札口／ICOCA対応 可／その他サービス 詳細はリンク先をご確認ください",
+        "ライセンス": "出典：JRおでかけネット（西日本旅客鉄道）／同サイトの利用規約・個人情報保護方針に基づく引用（事実情報の摘示）"
+      },
+      {
+        "标题": "構内図｜大阪駅：JRおでかけネット",
+        "URL": "https://eki.jr-odekake.net/premises?id=0610130",
+        "原文要旨": "詳細な駅構内図や各のりばのご案内です／在来線 線区名・方面 のりば／JRゆめ咲線 ユニバーサルシティ方面 1番のりば／大和路線 王寺・奈良方面 1番のりば／大阪環状線(外回り) 京橋・鶴橋方面 2番のりば／特急 スーパーはくと 鳥取方面 3番のりば／播但線 特急 はまかぜ 城崎温泉・香住方面 4番のりば／JR京都線 新大阪・高槻・京都方面 7番のりば／寝台特急 東京方面 11番のりば／東海道線上り＜北陸方面＞ 北陸・東海方面特急列車 11番のりば／関西空港・和歌山方面（特急列車） 21番のりば／おおさか東線 新大阪・放出・久宝寺方面 22・23番のりば／新大阪・京都方面（特急列車） 24番のりば／特急 こうのとり 福知山・城崎温泉方面 4番のりば／JR神戸線 三ノ宮・姫路方面 5番のりば／JR神戸線 三ノ宮・姫路方面 6番のりば／9番のりば",
+        "ライセンス": "出典：JRおでかけネット（西日本旅客鉄道）／同サイトの利用規約・個人情報保護方針に基づく引用（事実情報の摘示）"
+      },
+      {
+        "标题": "OpenStreetMap node 346685291",
+        "URL": "https://api.openstreetmap.org/api/0.6/node/346685291",
+        "原文要旨": "<node id=\"346685291\" visible=\"true\" version=\"27\" changeset=\"163404247\" timestamp=\"2025-03-09T14:57:40Z\"／lat=\"34.7022133\" lon=\"135.4955732\"／<tag k=\"name\" v=\"大阪\"/>／<tag k=\"operator\" v=\"西日本旅客鉄道\"/>／<tag k=\"ref\" v=\"A47;G47;O11;F01\"/>／<tag k=\"wikidata\" v=\"Q801694\"/>／<tag k=\"wikipedia\" v=\"ja:大阪駅\"/>",
+        "ライセンス": "データ© OpenStreetMap contributors（ODbL 1.0）、https://osm.org/copyright"
+      },
+      {
+        "标题": "Nominatim 検索「大阪駅」",
+        "URL": "https://nominatim.openstreetmap.org/search?q=%E5%A4%A7%E9%98%AA%E9%A7%85&format=json&addressdetails=1&limit=10",
+        "原文要旨": "大阪駅, Bデッキ, グランフロント大阪, 北区, 大阪市, 大阪府, 530-8558, 日本",
+        "ライセンス": "データ© OpenStreetMap contributors（ODbL 1.0）、https://osm.org/copyright"
+      },
+      {
+        "标题": "Nominatim 検索「梅田駅」",
+        "URL": "https://nominatim.openstreetmap.org/search?q=%E6%A2%85%E7%94%B0%E9%A7%85&format=json&addressdetails=1&limit=10",
+        "原文要旨": "梅田, 国道176号, 角田町, 北区, 大阪市, 大阪府, 530-0017, 日本",
+        "ライセンス": "データ© OpenStreetMap contributors（ODbL 1.0）、https://osm.org/copyright"
+      }
+    ]
+  },
+  "検索记录": {
+    "使用した出典URL": [
+      "https://api.openstreetmap.org/api/0.6/node/346685291",
+      "https://bus.osakametro.co.jp/sales_office/",
+      "https://citybus-osaka.co.jp/",
+      "https://eki.jr-odekake.net/barrierfree?id=0610130",
+      "https://eki.jr-odekake.net/premises?id=0610130",
+      "https://eki.jr-odekake.net/top?id=0610130",
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Osaka_Station",
+      "https://ja.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&utf8=1&exchars=1200&exsectionformat=plain&titles=%E5%A4%A7%E9%98%AA%E9%A7%85",
+      "https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E9%A7%85",
+      "https://nice-medical.jp/umeda/",
+      "https://nominatim.openstreetmap.org/search?q=%E5%A4%A7%E9%98%AA%E9%A7%85&format=json&addressdetails=1&limit=10",
+      "https://nominatim.openstreetmap.org/search?q=%E6%A2%85%E7%94%B0%E9%A7%85&format=json&addressdetails=1&limit=10",
+      "https://osaka-info.jp/",
+      "https://osaka-info.jp/en/gourmet/osaka_cuisine/",
+      "https://osaka-info.jp/en/modelcourse/course-kita-sky/",
+      "https://osaka-info.jp/en/spot/grand-front-osaka-shop-restaurant/",
+      "https://osaka-info.jp/en/spot/hanshin-department-store-umeda/",
+      "https://osaka-info.jp/en/spot/lucua-1100/",
+      "https://osaka-info.jp/en/spot/miraiza-osaka-jo/",
+      "https://osaka-info.jp/en/spot/nakanoshima/",
+      "https://osaka-info.jp/en/spot/osaka-aquarium-kaiyukan/",
+      "https://osaka-info.jp/en/spot/osaka-castle-main-keep/",
+      "https://osaka-info.jp/en/spot/osaka-castle-park/",
+      "https://osaka-info.jp/en/spot/taihoukyu/",
+      "https://osaka-info.jp/en/spot/tourist-information-osaka/",
+      "https://osaka-info.jp/en/spot/tsutenkaku/",
+      "https://osaka-info.jp/en/spot/umeda-sky-building/",
+      "https://osaka-info.jp/en/spot/umeda_clinic/",
+      "https://osaka-info.jp/en/spot/yodobashi-umeda/",
+      "https://osaka-info.jp/gourmet/osaka_cuisine/",
+      "https://osaka-info.jp/spot/grand-front-osaka-shop-restaurant/",
+      "https://osaka-info.jp/spot/hanshin-department-store-umeda/",
+      "https://osaka-info.jp/spot/lucua-1100/",
+      "https://osaka-info.jp/spot/miraiza-osaka-jo/",
+      "https://osaka-info.jp/spot/nakanoshima/",
+      "https://osaka-info.jp/spot/osaka-aquarium-kaiyukan/",
+      "https://osaka-info.jp/spot/osaka-castle-main-keep/",
+      "https://osaka-info.jp/spot/osaka-castle-park/",
+      "https://osaka-info.jp/spot/sweets-paradise-umeda-branch/",
+      "https://osaka-info.jp/spot/taihoukyu/",
+      "https://osaka-info.jp/spot/tourist-information-donki-midosuji/",
+      "https://osaka-info.jp/spot/tourist-information-osaka/",
+      "https://osaka-info.jp/spot/tsutenkaku/",
+      "https://osaka-info.jp/spot/umeda-sky-building/",
+      "https://osaka-info.jp/spot/umeda_clinic/",
+      "https://osaka-info.jp/spot/yodobashi-umeda/",
+      "https://subway.osakametro.co.jp/",
+      "https://subway.osakametro.co.jp/barriafree/",
+      "https://subway.osakametro.co.jp/guide/fare/fare/price.php",
+      "https://subway.osakametro.co.jp/guide/fare/various_fares/fare_discount/josya-ryokin_waribiki.php",
+      "https://subway.osakametro.co.jp/guide/fare/various_fares/transit_umeda/noritugi_3.php",
+      "https://subway.osakametro.co.jp/guide/usage/wireless_lan/wireless_lan.php",
+      "https://subway.osakametro.co.jp/lostfounditems_tel.php",
+      "https://subway.osakametro.co.jp/station_guide/M/m16/",
+      "https://support-faq.westjr.co.jp/westjr/?site_domain=default",
+      "https://taihoukyu.com/",
+      "https://www.city.osaka.lg.jp/",
+      "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000683946.html",
+      "https://www.city.osaka.lg.jp/kurashi/index.html",
+      "https://www.city.osaka.lg.jp/shimin/",
+      "https://www.gfo-sc.jp/",
+      "https://www.grandfront-osaka.jp/",
+      "https://www.grandfront-osaka.jp/access/",
+      "https://www.grandfront-osaka.jp/shop/",
+      "https://www.hanshin-dept.jp/hshonten/",
+      "https://www.jr-odekake.net/ticket/congestion/osaka/",
+      "https://www.kaiyukan.com/",
+      "https://www.kaiyukan.com/language/eng/",
+      "https://www.lucua.jp/",
+      "https://www.osakacastle.net/",
+      "https://www.osakacastle.net/access/",
+      "https://www.osakacastle.net/guide/",
+      "https://www.osakametro.co.jp/",
+      "https://www.police.pref.osaka.lg.jp/",
+      "https://www.pref.osaka.lg.jp/",
+      "https://www.pref.osaka.lg.jp/kanko/",
+      "https://www.sweets-paradise.jp/",
+      "https://www.tsutenkaku.co.jp/",
+      "https://zh.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&utf8=1&exchars=1200&exsectionformat=plain&titles=%E5%A4%A7%E9%98%AA%E7%AB%99",
+      "https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E7%AB%99"
     ],
-    "未確認": [
-      "大阪駅周辺の郵便局・病院・警察署・図書館の個別公式サイトは特定できず"
+    "HTTP検証": "検索・取得は 2026-10-22 と 2026-10-23。ダンプは /data/work/osa に「SOURCE <HTTPコード> <URL>／EXTERNAL <リンク列>／本文（折り畳み）」の形で 172 本（重複取得込み、うち HTTP 200 が 136 本）。200 で開封した一意URL 129 件のうち、本ファイルが実際に引用したのは 80 件で、すべて 200 を確認したページに限られる（書き出し前にスクリプト側でゲート検証）。200 以外しか返さなかった一意URLは 34 件、内訳は 000×16／403×4／404×13／503×1（いずれも下記 採用しなかった公式候補 に逐件記載し、本文を引用していない）。同一URLが 200 とそれ以外の両方で記録された例は https://www.hankyu.co.jp/（502 の試行後に 200 で開封）の1件だけで、引用時は 200 の本文を用いた。\n200 を返しながら使えなかった例（本文なし・ソフト404・別主体・緊急停止）：\n  ・https://www.osakacastlepark.jp/?lang=ja と /?lang=en は 200 だが、日付欄が yyyy.mm.dd、本文が未記入の定型文言のままだったため 官网 欄に挙げず、大阪城公園の紹介は大阪観光局のページ（200・本文あり）に置き換えた。\n  ・https://osaka-info.jp/zh/・/zh-cn/・/zh-tw/・/ch/ と各施設の中国語パス（/zh-cn/spot/…、/zh-tw/spot/…）は 200 を返すのに本文が「申し訳ありませんが、要求のページは見つかりませんでした。」の日本語404案内で、中国語本文は1つも取得できなかった。\n  ・https://www.osakacastle.net/en/ と /ch/ は 200 で開いたが日本語トップと同一本文（独立した英中ページではない）。https://osakacastle.jp/ も 200 で開いたが運営主体が異なる（大阪城関連の別サイト）ため天守閣の公式としては引用しなかった。\n  ・https://3dmap.jrnc.jp/JRW/mobile/ は 200 だが本文が Loading v20250407 の24バイトのみで、構内設備は JavaScript 描画のため引用しない（構内図ページ（200）が掲出する導線URLとして 本文を開かず 欄に記録）。\n  ・https://eki.jr-odekake.net/connection?id=0610130 は 200 だが本文が「お探しのページは見つかりません。」のソフト404（接続・乗換案内は未取得）。https://eki.jr-odekake.net/top?id=0610001・/barrierfree?id=0610001（別ID候補）は 200 で本文が「0610001を検索しましたが、該当する駅が見つかりません」系の検索結果案内で、どの駅の情報も得られないため引用していない。\n  ・https://www.gfo-sc.jp/ と /shop/ は 200 で開いたが、本文は「緊急メンテナンスによる ウェブサイトの停止について 2022…2026年10月22日」「現在、緊急セキュリティ対策のため…」の告知のみで、当日時点のフロア・店舗データは引用できなかった（この告知文自体はverbatimで引用し、グランフロント大阪の施設記載は自社 ACCESS／紹介ページと大阪観光局のページで確認できる範囲にとどめた）。\n  ・https://www.sky-building.co.jp/ は 200 だが本文は東京都の不動産会社・大正スカイビルのサイトで、梅田スカイビルとは別主体。https://www.kaiyukan.jp/ は 200 で開いたが海遊館とは別団体（同姓の略称サイト）の可能性が高く、自社公式 https://www.kaiyukan.com/（200）を引用した。\n  ・Wikipedia は生記事HTML（ja・zh の /wiki/ ページ）を 200 で開いたが、ダンプは1画面12,000文字で折り畳んでおり、記事末尾の脚出典・表は取得範囲外。本文引用が必要な箇所は MediaWiki API（explaintext・utf8=1・exchars=1200）の ja・zh 本文（200）と、English 版は REST summary（200）を用いた。utf8=1 を外した API 取得（200）は \\u エスケープ列が返り本文として読めず、exchars=6000 の要求（200）は上限超過の warnings 案内のみだったため、いずれも 開いたが本文に記載を採用しなかったURL に記録した。\n  ・OpenStreetMap の node 346685291 は XML タグ除去で本文が消える形式なので、ダンプには生XMLを残し、原文要旨もタグそのまま（<node id=… version=… lat=… lon=…>／<tag k=… v=…/>）で引用した。同一URLの空ダンプ（2バイト×2本）は本文長で自動選択されるゲート側仕様で除外し、1,463バイトの生XML本のみを用いている。\n本ファイルが引用した原文の断片（原文要旨 を「／」で割った 517 断片）は、保存済みダンプ本文との一致を別スクリプトで全件検証した（不一致 0 件）。空白・開き brackets（「」『』“”）は無視するが、Osaka Metro 運行情報の「2026-10-23 13:12現在」が実際には「2026-10-23」のスラッシュ区切りで記録されているなど、区切り文字・句点の有無は厳密に突き合わせた（最初にハイフンで写した分は本文ダンプと不一致となり修正済み）。\n記述欄（距離・住所・電話・営業時間・料金・言語注記・简介・无障碍・车站信息 の日本語欄 188 欄）にある「…」引用を、そのレコードが出典として掲げたダンプ本文と全文照合するゲートを別途通し、不一致 0 件を確認した。表組の平坦化でラベルと値が連続した箇所（「設置場所 車椅子対応 ベビーベッド オストメイト対応 改札内 あり あり あり」式の構内設備表、のりば表）は原文どおり連結して写し、入れ子になった「」を持つ文言（JR「大阪駅」・阪神「大阪梅田駅」等）は引用 span を短く切ることで照合精度を落さないようにした。\n各レコードの 検証日 はダンプ取得日と同じ 2026-10-23 を記載している（取得試行そのものは 2026-10-22 から継続）。",
+    "本文を開かずリンクのみで記載したURL": [
+      {
+        "URL": "https://3dmap.jrnc.jp/JRW/mobile/",
+        "扱い": "JRおでかけネット 構内図ページ（200）が本文内で掲出していた「大阪駅3D構内図」のURL。200 で開いたが本文が Loading v20250407 の24バイトのみで、構内設備は JavaScript 描画。引用した原文（「3D表示でより分かりやすく、経路案内機能も搭載されている”大阪駅3D構内図”は下記よりアクセスいただけます。」）に導線説明が含まれるため、ここで開封状況を明示する。"
+      },
+      {
+        "URL": "https://www.jr-odekake.net/eki/top?id=0610130",
+        "扱い": "OpenStreetMap node 346685291 の contact:website タグ値（同サイトの 0610001 側は HTTP 404 を確認）。ノード本文は <tag k=\"contact:website\" …/> の1行のみ引用し、www 側のページの本文は開いていない。実体的な駅情報・構内図・バリアフリーは eki.jr-odekake.net 側の同一IDページ（いずれも 200）を引用した。"
+      },
+      {
+        "URL": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+        "扱い": "OpenStreetMap node 346685291 の source_ref タグ値（国土数値情報のテンプレートページ）。本セッションでは未取得で、引用したのはノード本文の <tag k=\"source\" v=\"KSJ2\"/> と note 欄まで。"
+      },
+      {
+        "URL": "https://www.hankyu.co.jp/",
+        "扱い": "阪急電鉄の法人トップ（502 の試行後に 200 で開封）。開封したが当駅レコードで引用的必要性のある記載（大阪梅田駅の自社情報）が確認できなかったため本文は引用せず、リンク列のみで記録する。阪急側の駅情報は未取得（未実施）。"
+      },
+      {
+        "URL": "https://www.kaiyukan.jp/",
+        "扱い": "海遊館（www.kaiyukan.com）と混同しやすい別ドメイン。200 で開いたが記載主体が確認できないため引用せず、自社公式 https://www.kaiyukan.com/ と /language/eng/（200）を引用した。"
+      },
+      {
+        "URL": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%A4%AA%E7%AB%99",
+        "扱い": "Wikipedia 中文（簡体）版の生記事ページ。200 で開封し 維基词条 欄と 车站信息 の注記で「参照した条目」として掲出しているが、本文の逐語引用は MediaWiki API（explaintext・utf8=1・exchars=1200）で取得した版から行っており、生HTMLからの引用はしていない。日本語版（https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E9%A7%85）は 使用した出典URL に掲げ、先頭文・路線表記・駅番号・駅ビル構成・特定都区市内・駅百選の各原文をそこから引用した。"
+      }
+    ],
+    "開いたが本文に記載を採用しなかったURL（一覧・トップ・カテゴリ・別言語版）": [
+      "https://3dmap.jrnc.jp/JRW/mobile/",
+      "https://bus.osakametro.co.jp/",
+      "https://eki.jr-odekake.net/barrierfree?id=0610001",
+      "https://eki.jr-odekake.net/connection?id=0610001",
+      "https://eki.jr-odekake.net/connection?id=0610130",
+      "https://eki.jr-odekake.net/eki/top.php?id=0610001",
+      "https://eki.jr-odekake.net/premises?id=0610001",
+      "https://eki.jr-odekake.net/top?id=0610001",
+      "https://ja.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&exchars=1200&exsectionformat=plain&titles=%E5%A4%A7%E9%98%AA%E9%A7%85",
+      "https://ja.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&exchars=6000&exsectionformat=plain&titles=%E5%A4%A7%E9%98%AA%E9%A7%85",
+      "https://osaka-info.jp/ch/",
+      "https://osaka-info.jp/en/",
+      "https://osaka-info.jp/en/discover-osaka/",
+      "https://osaka-info.jp/en/information/to-tourist/the-dos-and-donts-of-manner/",
+      "https://osaka-info.jp/en/spot/osaka-museum-fine-arts/",
+      "https://osaka-info.jp/en/spot/tourist-information-donki-midosuji/",
+      "https://osaka-info.jp/information/",
+      "https://osaka-info.jp/information/ticket/expo-area-pass/",
+      "https://osaka-info.jp/ja/",
+      "https://osaka-info.jp/ko/",
+      "https://osaka-info.jp/ko/spot/umeda-sky-building/",
+      "https://osaka-info.jp/osaka/en/",
+      "https://osaka-info.jp/service/",
+      "https://osaka-info.jp/spot/kamigata-ukiyoe-museum/",
+      "https://osaka-info.jp/spot/osaka-museum-fine-arts/",
+      "https://osaka-info.jp/zh-cn/",
+      "https://osaka-info.jp/zh-cn/spot/osaka-castle-main-keep/",
+      "https://osaka-info.jp/zh-tw/",
+      "https://osaka-info.jp/zh-tw/spot/osaka-castle-main-keep/",
+      "https://osaka-info.jp/zh/spot/osaka-castle-main-keep/",
+      "https://osakacastle.jp/",
+      "https://subway.osakametro.co.jp/guide/subway_information.php",
+      "https://subway.osakametro.co.jp/station_guide/",
+      "https://subway.osakametro.co.jp/station_guide/boarding.php",
+      "https://subway.osakametro.co.jp/station_guide/m/m16/",
+      "https://trafficinfo.westjr.co.jp/list.html",
+      "https://www.city.osaka.lg.jp/kankyo/",
+      "https://www.gfo-sc.jp/shop/",
+      "https://www.hankyu.co.jp/",
+      "https://www.kaiyukan.jp/",
+      "https://www.osaka-info.jp/",
+      "https://www.osakacastle.net/ch/",
+      "https://www.osakacastle.net/en/",
+      "https://www.osakacastlepark.jp/?lang=en",
+      "https://www.osakacastlepark.jp/?lang=ja",
+      "https://www.sky-building.co.jp/",
+      "https://www.westjr.co.jp/",
+      "https://zh.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&exchars=1200&exsectionformat=plain&titles=%E5%A4%A7%E9%98%AA%E7%AB%99",
+      "https://zh.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&exchars=6000&exsectionformat=plain&titles=%E5%A4%A7%E9%98%AA%E9%A7%85"
+    ],
+    "採用しなかった公式候補": [
+      {
+        "候補": "department",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "URL の途中までが渡された取得試行の残骸（ドメインとして不完全）。この文字列は運営主体の公表URLではなく、本ファイルでも引用していない。"
+      },
+      {
+        "候補": "http://www.osaka-metro.co.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "Osaka Metro の旧表記候補（ハイフン付き）。HTTP 000（本セッションの DNS 解決不能）。現行の https://www.osakametro.co.jp/（200）と地下鉄サイト https://subway.osakametro.co.jp/（200）を引用した。"
+      },
+      {
+        "候補": "http://www.yodobashi-umeda.com/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "ヨドバシ梅田タワーの自社ドメイン候補。HTTP 000（www／apex／https の3表記すべて解決できず）。购物レコードは本文を開けた大阪観光局の施設ページ（ja・en）と北区のスカイビルの英語ページに限定し、官网欄は空欄にした。"
+      },
+      {
+        "候補": "https://osaka-metro.co.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上（apex 側）。HTTP 000。"
+      },
+      {
+        "候補": "https://osakapark.osakahakajo.org/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "大阪城公園・博覧会関連と推定した別ドメイン候補。HTTP 000。公園の記載は 200 で開いた大阪観光局ページに限定した（運営主体サイト www.osakacastlepark.jp は 200 だが本文が未記入の定型文言で引用不可）。"
+      },
+      {
+        "候補": "https://subway.osakametro.co.jp/guide/charge/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "Osaka Metro 地下鉄サイトの「運賃のご案内」下位パス候補。HTTP 404。現行の運賃ページはhttps://subway.osakametro.co.jp/guide/fare/fare/price.php（200）で、乗車・定期運賃と割引ページを引用した。"
+      },
+      {
+        "候補": "https://tennozoo.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "天王寺動物園の公式候補。HTTP 000 で本文を開けず。当駅（梅田）圏の施設として本ファイルでは記載していない（未実施）。"
+      },
+      {
+        "候補": "https://tsutenkaku.co.jp/en/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "通天閣公式の apical https 英語ページ候補。HTTP 404（www 付きの /en/ と同じく不在）。"
+      },
+      {
+        "候補": "https://www.city.osaka.lg.jp/kakuka/shangai/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "大阪市 環境関連の個別ページ候補（「shangai」はローマ字表記の推定パス）。HTTP 404。市の環境・ごみ分別情報は未取得。"
+      },
+      {
+        "候補": "https://www.city.osaka.lg.jp/kanko/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "大阪市 観光課トップ候補。HTTP 404。市の観光情報は 200 で開いた市トップ・市民生活ページと、大阪観光局（OSAKA-INFO）の各ページに置き換えた（観光案内所・多言語対応の記載は観光局側を引用）。"
+      },
+      {
+        "候補": "https://www.city.osaka.lg.jp/kufukushi/page/0000006865.html",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "大阪市 福祉系の個別ページ候補（健康・福祉相談と想定）。HTTP 404。公共服务では 200 で開いた市トップ・市民課ページとうめだ国際クリニック（200）の記載に限定し、福祉窓口の詳細は未取得（未実施）。"
+      },
+      {
+        "候補": "https://www.city.osaka.lg.jp/kuyakusho/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "大阪市 区役所トップ候補。HTTP 404。北区役所の所在地・窓口時間は未取得で、本ファイルでは記載していない（未実施）。"
+      },
+      {
+        "候補": "https://www.daimaru.co.jp/umeda/",
+        "状態": "HTTP 403（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "大丸梅田店の店舗ページ。HTTP 403 で本文を開けず。百货店系の記載は 200 で開いた阪神百貨店 本店（www.hanshin-dept.jp/hshonten/）と大阪観光局の施設ページに限定した。"
+      },
+      {
+        "候補": "https://www.grandfront-osaka.jp/restaurant/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "グランフロント大阪の飲食欄候補。HTTP 404（現行構造は /shop/・/restaurant/ 系が別パス）。同施設側の店舗情報は、本文を開けたACCESS・紹介ページと大阪観光局の Shop & Restaurant 欄（ja・en）で確認できる範囲のみ記載した。"
+      },
+      {
+        "候補": "https://www.hankyu-bus.co.jp/airport/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "阪急バスの空港アクセス（リムジン）案内候補。HTTP 000。伊丹・関空へのアクセスは 200 で開いたグランフロント大阪 ACCESS ページ（他社線の所要時間表記）と大阪シティバス（200）の記載に限定し、阪急バスの時刻表・運賃は未取得。"
+      },
+      {
+        "候補": "https://www.hankyu-terminal.co.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "阪急ターミナル系（阪急大阪梅田駅ビル運営と推定）の候補。HTTP 000。阪急側の自社発表は未取得で、接続先としての表記のみOsaka Metro 梅田駅ページ（200）の「JR線／阪急線／阪神線」列挙を引用した。"
+      },
+      {
+        "候補": "https://www.hanshin-dept.jp/hshonten/access/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "阪神百貨店 本店のアクセス下位ページ候補。HTTP 404。本店トップ（https://www.hanshin-dept.jp/hshonten/、200）で確認できる住所・電話番号・営業時間の表記を引用した。"
+      },
+      {
+        "候補": "https://www.hanshin.co.jp/",
+        "状態": "HTTP 403（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "阪神電気鉄道の法人トップ。HTTP 403。鉄道側自社発表は未取得のため、大阪梅田駅との連絡は阪神百貨店の店舗ページ（200）とOsaka Metro 梅田駅ページ（200）の「阪神線」表記で確認した範囲のみ記載した。"
+      },
+      {
+        "候補": "https://www.jr-odekake.net/eki/top?id=0610001",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "JRおでかけネット 駅トップの別ID候補（0610001）。HTTP 404。当駅の正式ID 0610130 の https://eki.jr-odekake.net/top?id=0610130（200）を引用した。"
+      },
+      {
+        "候補": "https://www.kaiyukan.com/language/",
+        "状態": "HTTP 403（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "海遊館の言語切替トップ候補。HTTP 403。英語版は https://www.kaiyukan.com/language/eng/（HTTP 200）を開封し、公式英語原文を引用した。"
+      },
+      {
+        "候補": "https://www.kaiyukan.com/language/en/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "海遊館 英語版の別パス候補（/language/en/）。HTTP 404。現行パスは /language/eng/（200）で、ここの原文を English として引用した。"
+      },
+      {
+        "候補": "https://www.kaiyukan.com/language/japanese/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "海遊館 日本語版の言語切替パス候補。HTTP 404。日本語は自社トップ https://www.kaiyukan.com/（200）を引用した。"
+      },
+      {
+        "候補": "https://www.kotsu.city.osaka.lg.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "大阪市 交通局（旧ドメイン）候補。HTTP 000。市の交通情報は 200 で開いた Osaka Metro（大阪市高速電気軌道）の各ページに置き換えた（地下鉄・市営バスの民営化後の公表主体）。"
+      },
+      {
+        "候補": "https://www.kuromon.com/",
+        "状態": "HTTP 403（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "黒門市場（商店街）の公式候補。HTTP 403 で本文を開けず。当駅から約2.4km のため本ファイルの 名所案内 にも含めていない（未実施）。"
+      },
+      {
+        "候補": "https://www.lucua.co.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "LUCUA の旧ドメイン候補。HTTP 000。現行の自社公式 https://www.lucua.jp/（HTTP 200）を引用し、English・中文は大阪観光局の施設ページ（ja・en）で補った。"
+      },
+      {
+        "候補": "https://www.milebus.com/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "JR西日本バス（マイルームバス系）の候補と想定。HTTP 000。本ファイルでは記載していない（未実施）。"
+      },
+      {
+        "候補": "https://www.osaka-metro.co.jp/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上（www 側）。HTTP 000。"
+      },
+      {
+        "候補": "https://www.osaka-metro.co.jp/roland.html",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上ドメインの下位ページ候補。HTTP 000。同社が自社公表する駅個別ページ・時間帯別ダイヤは未取得（未実施に記載）。"
+      },
+      {
+        "候補": "https://www.osakametro.co.jp/route/fare/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "Osaka Metro 法人側の路線・運賃パス候補。HTTP 404。運賃・割引は地下鉄サイト subway.osakametro.co.jp 側のページ（200）を引用した。"
+      },
+      {
+        "候補": "https://www.skybldg.co.jp/",
+        "状態": "HTTP 503（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "梅田スカイビルの運営案内先とされるドメイン。HTTP 503（メンテナンス中の表示・積水ハウス関連の案内）で本文を開けず。別候補の www.sky-building.co.jp は 200 を返すが本文は東京都の別法人（不動産の大正スカイビル）で当施設ではなかった。よって 官网 欄は空欄とし、紹介页として大阪観光局の ja／en ページを掲げた。"
+      },
+      {
+        "候補": "https://www.tokyu",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上（URL が切り込まれた取得ログ。東急百貨店・東急系の候補として試みた残骸で、ドメインを特定できず）。"
+      },
+      {
+        "候補": "https://www.tsutenkaku.co.jp/guide/",
+        "状態": "HTTP 404（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "通天閣公式の下位（案内）ページ候補。HTTP 404。同施設は当駅から約2.6km で本ファイルの 观光景点 には含めておらず、大阪観光局の施設ページ（ja・en、200）のみ引用した。"
+      },
+      {
+        "候補": "https://www.yodobashi-umeda.com/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上（www・https 側）。HTTP 000。"
+      },
+      {
+        "候補": "https://yodobashi-umeda.com/",
+        "状態": "HTTP 000（2026-10-22／2026-10-23 に取得試行）",
+        "処置": "同上（apex・https 側）。HTTP 000。"
+      }
+    ],
+    "本セッションで開いていない候補": [
+      "https://en.wikipedia.org/wiki/%C5%8Csaka_Station（English 版の生記事。本文引用は REST API の summary のみで足りたため開いていない）",
+      "https://www.jr-odekake.net/（www 側のトップ。同一運営の eki.jr-odekake.net（200）を引用した）",
+      "https://www.osakacastlepark.jp/（運営主体トップの素パス。?lang=ja／?lang=en の2件は 200 で開いたが本文が未記入の定型文言だった）",
+      "http://www.osaka-chikagai.jp/（Osaka Metro 法人トップ（200）が掲出していた御堂筋・四ツ橋・谷町線の地下街リンク。地下街の施設情報は未取得）",
+      "https://whity.osaka-chikagai.jp/・https://nannan.osaka-chikagai.jp/（同上。地下街側の個別サイトは開いていない）",
+      "https://www.osaka-pitapa.com/（Osaka Metro 法人トップ（200）が掲出。PiTaPa 側の説明は未取得）",
+      "https://media-library.osakametro.co.jp/・https://osakamania.jp/・https://shion.jp/・https://metronine.osaka/（同上、法人トップのリンク列に出現しただけで未取得）",
+      "https://www.pref.osaka.lg.jp/kanko/ の下位（旅券・福祉・医療の個別ページ群。府トップと観光課トップ（200）で確認できる入口のみ記載した）"
+    ],
+    "自動層が引用していたURL（本セッションで未開封）": "自動層 data/lines の大阪駅レコードは10ファイル（東海道本線#146・北陸本線#28・大阪環状線#36・宮豊線#12・山陽本線#99・山陰本線#69・湖西線#10・赤穂線#40＝node 346685291／御堂筋線#17・北大阪急行線#17＝「梅田駅」として node 7811929025）に分散し、座標は 34.702213／135.495573（8ファイル）と 34.7034131／135.497588（2ファイル）で、いずれも 引用ノードの生値と一致する（京都で確認した「ラベルと数値が対応しない」欠陥は当駅では再現しない）。一方、各ファイルの 车站ID 末尾の数字はファイル内配列の指数で路線上の順序ではない（大阪環状线.json の 大阪環状線#1＝JR五位堂駅、东海道本线.json の #145大野・#146大阪・#147大高は五十音順）。自动層の 品質・分区定義（観光・名所案内／文化・公共施設／買い物・商店街／便民公共服务／交通接続／宿泊 の6区分）は本ファイルの 观光景点・名所案内・公共服务・交通・购物 の区分と対応させ、宿泊は本セッションで対象外のレコードを置いていない。\n自動層の加精ファイル data/curated/C-关西JR/大阪駅.json が本文内で引用していたURLは https://osaka-info.jp/ の1件のみ（検索记录 のキー名が「検索记录」ではなく「检索记录」だった点も自動層側の書式不良として記録）。本セッションで同URLは 200 で開封済みだが、トップページ本体の記載は本ファイルの各レコードで個別ページに置き換えており、未開封のまま自動層が引用していたURLは1件もない。加えて同ファイルの 検索记录.使用した検索 は「大阪駅 周辺 観光 公式 大阪観光局」の1語、未確認 は「大阪駅周辺の郵便局・病院・警察署・図書館の個別公式サイトは特定できず」の1行で、本ファイルでは郵便局・警察署（大阪府警察トップ 200）・病院（うめだ国際クリニック 200）・図書館（未開封）を個別に検証した結果で置き換えた。",
+    "未実施": [
+      "大阪駅に接続する地下街（大阪駅と直結する御堂筋・四ツ橋・谷町線側の地下街サイト whity／coms／nannan／walk／avetika／dotica.osaka-chikagai.jp）の営業時間・出入口構成。Osaka Metro 法人トップ（200）のリンク列に出現したためここで開封状況を明示したが、いずれも開いていない。",
+      "阪急電鉄・阪神電気鉄道の自社駅ページ（大阪梅田駅ののりば・時間帯別ダイヤ・改札）。www.hanshin.co.jp は HTTP 403、hankyu-terminal／hankyu-bus 系は HTTP 000、www.hankyu.co.jp は 200 で開いたが当駅記載を確認できず。阪急・阪神側との連絡表記は Osaka Metro 梅田駅ページ（200）の「JR線／阪急線／阪神線」列挙と、阪神百貨店本店（200）の「阪神「大阪梅田駅」直結」表記に限定した。",
+      "東海道新幹線（新大阪駅）側の時刻・ホーム表記、および JR 貨物線（東海道本線貨支線・梅田―尻無）の線区情報。構内図（200）ものりば表に新幹線・12〜20番の表記がなく、貨物線はノードの KSJ2 タグからは所属を確定できない。",
+      "大丸梅田店（HTTP 403）・ヨドバシ梅田タワー（自社候補すべて HTTP 000）の営業時間・免税手続き・フロア構成。ヨドバシは 官网 欄を空欄とし、大阪観光局の施設ページ（ja・en、200）と北区のスカイビル英語ページ（200）で確認できる範囲のみ記載した。",
+      "グランフロント大阪の当日の店舗・レストラン一覧（www.gfo-sc.jp が 2026年10月22日付の緊急セキュリティ対策による停止告知のみを返した）。同施設の記載は自社 ACCESS・紹介ページ（200）と大阪観光局 Shop & Restaurant 欄（ja・en、200）に限った。",
+      "大阪港方面（海遊館・天保山）および天王寺方面（通天閣・天王寺動物園＝HTTP 000・黒門市場＝HTTP 403）の施設詳細。海遊館・通天閣は大阪観光局の公式ページ（ja・en、200）と海遊館英語版（200）で引用したが、動物園・市場は本ファイルに記載していない。",
+      "郵便局・区役所・図書館・福祉窓口の個別情報（市区の個別ページ候補は HTTP 404、北区役所は未取得）。公共服务 は200 で開いた市トップ・市民課ページ、大阪府トップ・府観光課、大阪府警察、うめだ国際クリニック、Osaka Metro の案内・遗失物・Wi-Fi・割引ページの記載に限定した。",
+      "各レコードの料金・営業時間・公開日・運賃は取得日（2026-10-22／2026-10-23）時点の掲載値で、その後の改定・運休・工事（Osaka Metro「梅田駅 エスカレーター利用停止について」、グランフロント大阪のサイト停止、JR の応対時間変更）を反映しきれていない。原文が期日を表記しているものは日付をそのまま写し、実施済みに繰り込んでいない。",
+      "自動層が「梅田駅」として御堂筋線・北大阪急行線の各ファイルに載せた node 7811929025（34.7034131／135.4975879）の帰属検証。Osaka Metro 自社ページ（200）は駅番号 M16・隣駅 M15／M17 を掲げるが北大阪急行の表記はなく、直通系統の扱いを自動層が同一ノードへ配った理由までは確定していない。"
     ]
   }
 }
